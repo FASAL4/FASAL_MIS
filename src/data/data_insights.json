@@ -1,0 +1,219 @@
+[
+  {
+    "id": "1",
+    "category": "INCOME SUCCESS",
+    "finding": "Rs 131,977/acre achieved (220% of Rs 60,000 target)",
+    "implication": "Project's primary output indicator significantly exceeded - demonstrates effective intervention",
+    "source": "CleanedData Income Columns"
+  },
+  {
+    "id": "2",
+    "category": "LEVERAGE GROWTH",
+    "finding": "Rs 825.13 Lakhs cumulative (5.5\u00d7 target)",
+    "implication": "Each advocacy effort generates Rs 8,100+ in scheme benefits per family",
+    "source": "Leverage Files 2022-2025"
+  },
+  {
+    "id": "3",
+    "category": "SANITATION TRANSFORMATION",
+    "finding": "81% families now have private toilets",
+    "implication": "Swachh Bharat saturation achieved in project villages",
+    "source": "FDB Sanitation Columns"
+  },
+  {
+    "id": "4",
+    "category": "RATION CARD COVERAGE",
+    "finding": "Ration Card: 1,020 advocacy \u2192 965 access (94.6%)",
+    "implication": "Near-universal food security documentation achieved",
+    "source": "CleanedData Cols JD-JE"
+  },
+  {
+    "id": "5",
+    "category": "IDENTITY DOCUMENTATION",
+    "finding": "Aadhaar: 1,184 families (89.0%) have cards",
+    "implication": "High baseline document access enables scheme linkage",
+    "source": "CleanedData Col NH"
+  },
+  {
+    "id": "6",
+    "category": "PENSION CONVERSION",
+    "finding": "Old Age Pension: 59 advocacy \u2192 46 access (78%)",
+    "implication": "78% conversion shows effective targeting of eligible elderly",
+    "source": "CleanedData Cols OF-OG"
+  },
+  {
+    "id": "7",
+    "category": "HEALTH SERVICE ACCESS",
+    "finding": "ASHA services reach 953 families (71.7%)",
+    "implication": "Strong frontline health worker penetration",
+    "source": "CleanedData Col KC"
+  },
+  {
+    "id": "8",
+    "category": "WATER VS SANITATION GAP",
+    "finding": "Sanitation 81% vs Water 14%",
+    "implication": "Sanitation led, water infrastructure lagging (Jal Nigam timeline)",
+    "source": "GP-wise Analysis"
+  },
+  {
+    "id": "9",
+    "category": "GEOGRAPHIC CONCENTRATION",
+    "finding": "Karikot GP: 602 families (45.3% of project)",
+    "implication": "Strategic depth approach over spread",
+    "source": "CleanedData Col F"
+  },
+  {
+    "id": "10",
+    "category": "BIRTH CERT SUCCESS",
+    "finding": "Birth Certificate: 274 advocacy \u2192 271 access (98.9%)",
+    "implication": "Near-perfect conversion shows effective documentation support",
+    "source": "CleanedData Cols NZ-OA"
+  },
+  {
+    "id": "CATEGORY",
+    "category": "# ENTITLEMENTS",
+    "finding": "AVG ADVOCACY",
+    "implication": "AVG ACCESS",
+    "source": "AVG CONVERSION"
+  },
+  {
+    "id": "IDENTITY DOCUMENTS",
+    "category": "13",
+    "finding": "Varies (59-1020)",
+    "implication": "89-98%",
+    "source": "78-99%"
+  },
+  {
+    "id": "SANITATION & HYGIENE",
+    "category": "8",
+    "finding": "445 (toilets)",
+    "implication": "429 access",
+    "source": "0.964"
+  },
+  {
+    "id": "NUTRITION SERVICES",
+    "category": "6",
+    "finding": "High baseline",
+    "implication": "71-89%",
+    "source": "~95%"
+  },
+  {
+    "id": "HEALTH SERVICES",
+    "category": "4",
+    "finding": "ASHA-led (953)",
+    "implication": "High",
+    "source": ">100%"
+  },
+  {
+    "id": "EDUCATION",
+    "category": "10",
+    "finding": "School-level",
+    "implication": "Mixed",
+    "source": "85-95%"
+  },
+  {
+    "id": "SOCIAL WELFARE",
+    "category": "9",
+    "finding": "Pension 59",
+    "implication": "0.78",
+    "source": "0.78"
+  },
+  {
+    "id": "SPECIAL SCHEMES",
+    "category": "18",
+    "finding": "Varies",
+    "implication": "60-85%",
+    "source": "Varies"
+  },
+  {
+    "id": "HOUSING",
+    "category": "1",
+    "finding": "63 houses",
+    "implication": "PM Awas",
+    "source": "Demand>Supply"
+  },
+  {
+    "id": "METRIC",
+    "category": "DASHBOARD VALUE",
+    "finding": "VERIFIED VALUE",
+    "implication": "STATUS",
+    "source": "NOTES"
+  },
+  {
+    "id": "Total Families in FDB",
+    "category": "1329",
+    "finding": "1329",
+    "implication": "\u2713 VERIFIED",
+    "source": "CleanedData rows 2-1330"
+  },
+  {
+    "id": "Total Entitlements Tracked",
+    "category": "75",
+    "finding": "75",
+    "implication": "\u2713 VERIFIED",
+    "source": "Cols 233-460 (3 cols each)"
+  },
+  {
+    "id": "Cumulative Leverage",
+    "category": "Rs 825.13 Lakhs",
+    "finding": "Rs 825.13 Lakhs",
+    "implication": "\u2713 VERIFIED",
+    "source": "Sum of 2022-2025 files"
+  },
+  {
+    "id": "Income/Acre Achievement",
+    "category": "Rs 131,977",
+    "finding": "Rs 131,977",
+    "implication": "\u2713 VERIFIED",
+    "source": "Income columns after cost"
+  },
+  {
+    "id": "Ration Card Conversion",
+    "category": "0.946",
+    "finding": "0.946",
+    "implication": "\u2713 VERIFIED",
+    "source": "1020\u2192965 (JD/JE cols)"
+  },
+  {
+    "id": "Private Toilet Conversion",
+    "category": "0.964",
+    "finding": "0.964",
+    "implication": "\u2713 VERIFIED",
+    "source": "445\u2192429 (IC/ID cols)"
+  },
+  {
+    "id": "Old Age Pension Conversion",
+    "category": "0.78",
+    "finding": "0.78",
+    "implication": "\u2713 VERIFIED",
+    "source": "59\u219246 (OF/OG cols)"
+  },
+  {
+    "id": "Birth Certificate Conversion",
+    "category": "0.989",
+    "finding": "0.989",
+    "implication": "\u2713 VERIFIED",
+    "source": "274\u2192271 (NZ/OA cols)"
+  },
+  {
+    "id": "GP Distribution (Karikot)",
+    "category": "0.453",
+    "finding": "0.453",
+    "implication": "\u2713 VERIFIED",
+    "source": "602/1329 families"
+  },
+  {
+    "id": "Aadhaar Coverage",
+    "category": "0.89",
+    "finding": "0.89",
+    "implication": "\u2713 VERIFIED",
+    "source": "1184/1329 families"
+  },
+  {
+    "id": "External Factors Updated",
+    "category": "15 factors",
+    "finding": "15 factors",
+    "implication": "\u2713 VERIFIED",
+    "source": "Migration-based"
+  }
+]

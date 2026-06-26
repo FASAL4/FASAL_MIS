@@ -1,0 +1,536 @@
+﻿================================================================================
+SECTION 3: DEHAT DEMOGRAPHICS
+================================================================================
+District distribution (1 districts):
+    Bahraich: 1329
+
+Block distribution (1 blocks):
+    Mihinpurwa: 1329
+
+Village Panchayat distribution (top 25 of 7):
+    Karikot: 602
+    Fakirpuri: 229
+    Chahalwa: 183
+    Bajpur Bankati: 113
+    Mangalpurwa: 88
+    Vishunapur: 73
+    Badkhadiya: 41
+
+Family size: avg=4.4, min=0, max=11, count=1329
+Family size distribution:
+    0 members: 4 families
+    1 members: 24 families
+    2 members: 175 families
+    3 members: 189 families
+    4 members: 323 families
+    5 members: 314 families
+    6 members: 181 families
+    7 members: 75 families
+    8 members: 28 families
+    9 members: 9 families
+    10 members: 6 families
+    11 members: 1 families
+
+AAS distribution (4 AAS groups):
+    Gaytri: 19
+    Drishti: 19
+    Jai Ma Vaishno: 18
+    Ujala: 17
+
+Distinct villages: 1
+
+SHG distribution (top 20 of 68):
+    No: 1047
+    Nahi hi: 81
+    Nhi: 51
+    αñ¿αñ╣αÑÇ: 25
+    Nahi hi : 16
+    Rani: 8
+    αñûαÑüαñ╢αÑÇ: 6
+    αñ░αñ╛αñ¿αÑÇ αñ╕αñ«αÑéαñ╣: 4
+    Nahi hai: 4
+    Khushi: 4
+    αñ╢αñ╛αñ░αñªαñ╛ αñ╕αñ«αÑéαñ╣: 3
+    Santi: 3
+    αñ░αñ╛αñºαñ╛ αñ╕αñ«αÑéαñ╣: 2
+    αñ░αñ╛αñºαñ╛ αñåαñ╕: 2
+    αñ¡αñùαñ╡αñ╛αñ¿: 2
+    αñÜαñ«αÑìαñ¬αñ╛ αñåαñ╕: 2
+    αñùαñ╛αñ»αññαÑìαñ░αÑÇ: 2
+    αñùαñ£αñ¿αÑÇ αñåαñ╕: 2
+    αñûαÑüαñ╢αÑÇ : 2
+    Sila SHG: 2
+
+Land (bigha) distribution (top 20):
+    1 αñ¼αÑÇαñÿαñ╛: 57
+    2 αñ¼αÑÇαñÿαñ╛: 54
+    2 bigha: 49
+    1vigha+: 35
+    3 αñ¼αÑÇαñÿαñ╛: 30
+    1 bigha: 30
+    5 αñ¼αÑÇαñÿαñ╛: 26
+    5 bigha: 25
+    4 αñ¼αÑÇαñÿαñ╛: 22
+    3 bigha: 20
+    2vigha+: 20
+    2bigha: 20
+    1bigha: 19
+    4 bigha: 18
+    2: 16
+    Bari: 15
+    10 vishuva: 15
+    3vigha+: 13
+    αñÜαñ╛αñ░ αñ¼αÑÇαñÿαñ╛: 12
+    10 αñ¼αÑÇαñÿαñ╛: 12
+
+================================================================================
+SECTION 4: RESULTS FRAMEWORK (RF) TEMPLATE
+================================================================================
+Results_Table columns (21):
+    please_only_fill_cells_coloured_in_green_please_fill_unit_and_target_columns_only
+    unnamed_1
+    unnamed_2
+    unnamed_3
+    unnamed_4
+    unnamed_5
+    unnamed_6
+    unnamed_7
+    unnamed_8
+    unnamed_9
+    unnamed_10
+    unnamed_11
+    unnamed_12
+    unnamed_13
+    unnamed_14
+    unnamed_15
+    unnamed_16
+    unnamed_17
+    unnamed_18
+    unnamed_19
+    unnamed_20
+
+Results_Table sample data (30 rows shown):
+  Row 12: {'unnamed_3': '   '}
+  Row 13: {'unnamed_2': 'Partner Name', 'unnamed_5': 'Developmental Association for Human Advancement-DEHAT', 'unnamed_20': 'People'}
+  Row 14: {'unnamed_2': 'Domain Area', 'unnamed_20': 'Leverage'}
+  Row 15: {'unnamed_2': 'Project Summary - what are we trying to achieve? ', 'unnamed_5': 'Outcome 1 - Farmers are collectivised to negotiate and advocate their issues and rights in all levels of local self-governance systems. \nOutcome 2 - Increased food and nutrition security from 5 months to 12 months by adoption of Natural Resource Management and LEISA techniques\nOutcome 3 - A strong voluntary cadre who will exist and perform at the community level.\nOutcome 4 - Increased per household Agro- & livelihoods based income through access to eligible govt. leverage, agriculture, livelihoods, and welfare schemes. \nOutcome 5 - A trained and experienced team with in-depth understanding of Agro-based livelihoods domain and allied practices ', 'unnamed_20': 'Influence'}
+  Row 16: {'unnamed_20': 'Learning'}
+  Row 17: {'unnamed_20': 'Communication'}
+  Row 18: {'unnamed_1': 1, 'unnamed_2': 'Objective/Intervention #1: Community organization and Institution building'}
+  Row 19: {'unnamed_2': 'S.No', 'unnamed_3': 'We will do these\nActivities', 'unnamed_5': 'Expected to produce these\nOutputs', 'unnamed_7': 'Indicator', 'unnamed_8': 'Means of Verification/Data Source ', 'unnamed_12': 'Indicator', 'unnamed_13': 'Means of Verification/Data Source '}
+  Row 20: {'unnamed_1': 1, 'unnamed_2': '1', 'unnamed_3': 'Formation of 80 small groups of 15-20 farmers as Aajeevika Adhikaar Sangathan- AAS.', 'unnamed_5': 'Aajeevika Adhikar Sangthan (AAS) will act as the ground tier of the 3-tier structure, which will ensure the percolation of information and resources from block to all the 1500 target families', 'unnamed_6': 1, 'unnamed_7': '1 Individual (family head/ bread-earner) from all the 1500 target families have joined an AAS group', 'unnamed_8': 'a. Records of formation of individual AASs\nb. Records-registers, meeting minutes, pictures                           \nc. Field verification by community mobilizers', 'unnamed_10': 'Farmers are collectivised to negotiate and advocate their issues and rights in all levels of local self-governance systems. ', 'unnamed_11': 1, 'unnamed_12': 'Small and marginalised farmers are able to receive leverage, and govt. support in agriculture and livelihoods/employment opportunities (MNREGA job cards, Widow pension, Kisan Credit Card, Ayushman health card etc) through community led negotiations. ', 'unnamed_13': 'a. Case studies and tracking sheets of impact'}
+  Row 21: {'unnamed_1': 2, 'unnamed_2': '2', 'unnamed_3': 'Formation of 5 cluster level federations; (1 cluster for every 4 villages or 16 AAS) consisting of 240 individuals', 'unnamed_5': 'Cluster level federations are second tier, which will help in collective sharing, bargaining, negotiation power through bottom to top approach with Gram Panchayats and the concerned Government Departments. It will also facilitate protection of participating families from any kind of exploitation at the community level.', 'unnamed_6': 2, 'unnamed_7': 'Atleast 240 individuals (3 leaders) from all 80 AAS groups have joined a Cluster federation', 'unnamed_11': 2, 'unnamed_12': '80 AAS groups are claiming entitlements and rights by leveraging resources for village development plans through the Gram Sabha (ensuring proper sanitation in village, facilitate in development of primary school, access to healthcare, PDS etc)', 'unnamed_13': 'a. Records of petitions/ applications/ letters\nb. Case studies of positive impact                \n'}
+  Row 22: {'unnamed_1': 3, 'unnamed_2': '3', 'unnamed_3': 'Formation of 1 Block level federation consisting of 40 individuals', 'unnamed_5': 'Enable two-way transfer of information from cluster to block level. Monitor and track performance of clusters. Representation of all community sections at block level. Maintain periodic communication with block-level government officials', 'unnamed_6': 3, 'unnamed_7': '40 individuals (1-2 leaders) from all 20 vilalages are part of Block level federation ', 'unnamed_11': 3}
+  Row 23: {'please_only_fill_cells_coloured_in_green_please_fill_unit_and_target_columns_only': ' ', 'unnamed_1': 4, 'unnamed_2': '4', 'unnamed_3': '4 Capacity building training of 960 AAS farmers on effective leadership and group management (3 LeadersX80 AAS GroupsX4 ', 'unnamed_5': 'Capacity building of farmers on effective leadership and group management to become sound and knowledgable in leadership and group management in 10 batches of 24 each (3 from each AAS group)', 'unnamed_6': 4, 'unnamed_7': ' 960 individuals have participated in direct trainings                                       ', 'unnamed_8': 'a. Records/reports of trainings (registers, planning & budget report, pictures), participants attendance sheet                             \n b. Testimonials of farmer leaders', 'unnamed_11': 4}
+  Row 24: {'unnamed_1': 5, 'unnamed_2': '5', 'unnamed_3': '4 Capacity building trainings of 960 farmers on Gender based discrimination (3 LeadersX80 AAS GroupsX4 (HY-1, HY-4, HY-6 & HY-8)', 'unnamed_5': 'Trained AAS leader farmers  will begin to actively address gender based discrimination in their daily lives  in 10 batches of 24 each (3 from each AAS group)', 'unnamed_6': 5, 'unnamed_7': '960 individuals (both men & women) have participated in training to address gender based discrimination', 'unnamed_11': 5}
+  Row 25: {'unnamed_1': 6, 'unnamed_2': '6', 'unnamed_3': '8 District level stakeholder interface meetings of 400 individuals with all stakeholders (One in every HY) ', 'unnamed_5': 'All district level  stakeholders and farmer leaders will dicuss problems and Solutions, raise  genuine demands before the government officials and have direct access to the district level Govt. officials responsible and accountable for the issues.', 'unnamed_6': 6, 'unnamed_7': '400 community leaders from each village will participate with 20 district level officials', 'unnamed_11': 6}
+  Row 26: {'unnamed_1': 7, 'unnamed_2': '7', 'unnamed_3': '9 Block level interface meetings of 400 individuals with stakeholders', 'unnamed_5': 'Bi-annual block level workshops held with stakeholders where families have direct access to block level stakeholders who are responsible and accountable to solve their problems and able to demand the provisioned services for themseleves.', 'unnamed_6': 7, 'unnamed_7': '400 community leaders from each village will participate with 20 block level officials', 'unnamed_11': 7}
+  Row 27: {'unnamed_1': 8, 'unnamed_2': '8', 'unnamed_3': '200 Village level interface meetings of 1500 families with stakeholders', 'unnamed_5': 'Bi-annual village level workshops held with stakeholders where families have direct access to Gram Panchayat  level stakeholders who are responsible and accountable to solve their all kind of problems including development and livelihoods related problems.', 'unnamed_6': 8, 'unnamed_7': '1500 farmers actively participated with village level officials', 'unnamed_11': 8}
+  Row 28: {'unnamed_1': 9, 'unnamed_2': '9', 'unnamed_6': 9, 'unnamed_11': 9}
+  Row 29: {'unnamed_1': 10, 'unnamed_2': '10', 'unnamed_6': 10, 'unnamed_11': 10}
+  Row 30: {'unnamed_1': 11, 'unnamed_2': '11', 'unnamed_6': 11, 'unnamed_11': 11}
+
+Outcome_Indicators columns (24):
+    please_only_fill_cells_coloured_in_green_please_fill_unit_baseline_value_and_target_columns_only
+    unnamed_1
+    unnamed_2
+    unnamed_3
+    unnamed_4
+    unnamed_5
+    unnamed_6
+    unnamed_7
+    unnamed_8
+    unnamed_9
+    unnamed_10
+    unnamed_11
+    unnamed_12
+    unnamed_13
+    unnamed_14
+    unnamed_15
+    unnamed_16
+    unnamed_17
+    unnamed_18
+    unnamed_19
+    unnamed_20
+    unnamed_21
+    unnamed_22
+    unnamed_23
+
+Outcome_Indicators data (30 rows):
+  Row 10: {'unnamed_2': 'Outcome Indicators', 'unnamed_4': 'Unit', 'unnamed_5': 'Baseline Value', 'unnamed_6': 'Year 1', 'unnamed_9': 'Year 2', 'unnamed_12': 'Year 3', 'unnamed_15': 'Year 4', 'unnamed_18': 'Year 5', 'unnamed_21': 'End of Grant'}
+  Row 11: {'unnamed_6': 'Target', 'unnamed_7': 'Actual', 'unnamed_8': 'Working Notes', 'unnamed_9': 'Target', 'unnamed_10': 'Actual', 'unnamed_11': 'Working Notes', 'unnamed_12': 'Target', 'unnamed_13': 'Actual', 'unnamed_14': 'Working Notes', 'unnamed_15': 'Target', 'unnamed_16': 'Actual', 'unnamed_17': 'Working Notes', 'unnamed_18': 'Target', 'unnamed_19': 'Actual', 'unnamed_20': 'Working Notes', 'unnamed_21': 'Target (Cumulative/Total)', 'unnamed_22': 'Actual', 'unnamed_23': 'Working Notes'}
+  Row 12: {'unnamed_1': 1, 'unnamed_2': '1', 'unnamed_3': 'Objective/Intervention #1: Community organization and Institution building'}
+  Row 13: {'unnamed_1': 1, 'unnamed_2': '1', 'unnamed_3': 'Small and marginalised farmers are able to receive leverage, and govt. support in agriculture and livelihoods/employment opportunities (MNREGA job cards, Widow pension, Kisan Credit Card, Ayushman health card etc) through community led negotiations. ', 'unnamed_4': 'Households', 'unnamed_6': '0', 'unnamed_7': '0', 'unnamed_9': '200', 'unnamed_10': '0', 'unnamed_11': 'Families who accessed and benefitted from schemes', 'unnamed_12': '300', 'unnamed_13': '0', 'unnamed_14': 'Families who accessed and benefitted from schemes', 'unnamed_15': '500', 'unnamed_16': '0', 'unnamed_17': 'Families who accessed and benefitted from schemes', 'unnamed_18': '500', 'unnamed_19': '0', 'unnamed_20': 'Families who accessed and benefitted from schemes', 'unnamed_21': '1500'}
+  Row 14: {'unnamed_1': 2, 'unnamed_2': '2', 'unnamed_3': '80 AAS groups are claiming entitlements and rights by leveraging resources for village development plans through the Gram Sabha (ensuring proper sanitation in village, facilitate in development of primary school, access to healthcare, PDS etc)', 'unnamed_4': 'Households', 'unnamed_6': '0', 'unnamed_7': '0', 'unnamed_9': '200', 'unnamed_10': '0', 'unnamed_11': 'Families impacted through leverage', 'unnamed_12': '300', 'unnamed_13': '0', 'unnamed_14': 'Families impacted through leverage', 'unnamed_15': '500', 'unnamed_17': 'Families impacted through leverage', 'unnamed_18': '500', 'unnamed_19': '0', 'unnamed_20': 'Families impacted through leverage', 'unnamed_21': '1500'}
+  Row 15: {'unnamed_1': 3, 'unnamed_2': '3', 'unnamed_3': '0'}
+  Row 16: {'unnamed_1': 4, 'unnamed_2': '4', 'unnamed_3': '0'}
+  Row 17: {'unnamed_1': 5, 'unnamed_2': '5', 'unnamed_3': '0'}
+  Row 18: {'unnamed_1': 6, 'unnamed_2': '6', 'unnamed_3': '0'}
+  Row 19: {'unnamed_1': 7, 'unnamed_2': '7', 'unnamed_3': '0'}
+  Row 20: {'unnamed_1': 8, 'unnamed_2': '8', 'unnamed_3': '0'}
+  Row 21: {'unnamed_1': 9, 'unnamed_2': '9', 'unnamed_3': '0'}
+  Row 22: {'unnamed_1': 10, 'unnamed_2': '10', 'unnamed_3': '0'}
+  Row 23: {'unnamed_1': 11, 'unnamed_2': '11', 'unnamed_3': '0'}
+  Row 24: {'unnamed_1': 12, 'unnamed_2': '12', 'unnamed_3': '0'}
+  Row 25: {'unnamed_1': 13, 'unnamed_2': '13', 'unnamed_3': '0'}
+  Row 26: {'unnamed_1': 14, 'unnamed_2': '14', 'unnamed_3': '0'}
+  Row 27: {'unnamed_1': 15, 'unnamed_2': '15', 'unnamed_3': '0'}
+  Row 28: {'unnamed_1': 2, 'unnamed_2': '2', 'unnamed_3': 'Objective/Intervention #2:  Enhance productivity to ensure 12 months of food and nutrition security and increased agricultural income of at least 50% households from Rs 10000 per acre/per annum to Rs 60000 per acre/ annum'}
+  Row 29: {'unnamed_1': 1, 'unnamed_2': '1', 'unnamed_3': '1500 households have overall food security for 12 months (increase in production from 5 quintals/year to 12 quintals/year) through Zaid cultivation alongside Rabi & Kharif crops. ', 'unnamed_4': 'Households', 'unnamed_6': '0', 'unnamed_7': '0', 'unnamed_9': '100', 'unnamed_10': '0', 'unnamed_11': 'Households who reached 12 months of food security', 'unnamed_12': '400', 'unnamed_13': '0', 'unnamed_14': 'Households who reached 12 months of food security', 'unnamed_15': '500', 'unnamed_16': '0', 'unnamed_17': 'Households who reached 12 months of food security', 'unnamed_18': '500', 'unnamed_19': '0', 'unnamed_20': 'Households who reached 12 months of food security', 'unnamed_21': '1500', 'unnamed_23': 'Households who have achieved overall food security '}
+  Row 30: {'unnamed_1': 2, 'unnamed_2': '2', 'unnamed_3': 'Average agricultural income for 1500 families increase from 10000/acre/annum to atleast 60000/acre/annum through Crop Intensification System and/or line sowing', 'unnamed_4': 'Households', 'unnamed_6': '0', 'unnamed_7': '0', 'unnamed_9': '100', 'unnamed_10': '0', 'unnamed_11': 'Households who reached 12 months of food security', 'unnamed_12': '400', 'unnamed_13': '0', 'unnamed_14': 'Households whose income increased', 'unnamed_15': '500', 'unnamed_16': '0', 'unnamed_17': 'Households whose income increased', 'unnamed_18': '500', 'unnamed_19': '0', 'unnamed_20': 'Households whose income increased', 'unnamed_21': '1500', 'unnamed_23': 'Households having increased income'}
+
+Output_Indicators columns (39):
+    please_only_fill_cells_coloured_in_green_please_fill_unit_baseline_value_and_target_columns_only
+    unnamed_1
+    unnamed_2
+    unnamed_3
+    unnamed_4
+    unnamed_5
+    unnamed_6
+    unnamed_7
+    unnamed_8
+    unnamed_9
+    unnamed_10
+    unnamed_11
+    unnamed_12
+    unnamed_13
+    unnamed_14
+    unnamed_15
+    unnamed_16
+    unnamed_17
+    unnamed_18
+    unnamed_19
+
+Output_Indicators data (20 rows):
+  Row 11: {'unnamed_2': 'Output Indicators', 'unnamed_4': '   ', 'unnamed_6': 'Year 1 ', 'unnamed_12': 'Year 2', 'unnamed_18': 'Year 3', 'unnamed_24': 'Year 4', 'unnamed_30': 'Year 5', 'unnamed_36': 'Grant End'}
+  Row 12: {'unnamed_4': 'Unit', 'unnamed_5': 'Baseline Value', 'unnamed_6': 'HY1', 'unnamed_9': 'HY2', 'unnamed_12': 'HY3', 'unnamed_15': 'HY4', 'unnamed_18': 'HY5', 'unnamed_21': 'HY6', 'unnamed_24': 'HY7', 'unnamed_27': 'HY8', 'unnamed_30': 'HY9', 'unnamed_33': 'HY10', 'unnamed_36': 'Total/Cumulative', 'unnamed_37': 'Actual', 'unnamed_38': 'Working Notes'}
+  Row 13: {'unnamed_6': 'Target', 'unnamed_7': 'Actual', 'unnamed_8': 'Working Notes', 'unnamed_9': 'Target', 'unnamed_10': 'Actual', 'unnamed_11': 'Working Notes', 'unnamed_12': 'Target', 'unnamed_13': 'Actual', 'unnamed_14': 'Working Notes', 'unnamed_15': 'Target', 'unnamed_16': 'Actual', 'unnamed_17': 'Working Notes', 'unnamed_18': 'Target', 'unnamed_19': 'Actual', 'unnamed_20': 'Working Notes', 'unnamed_21': 'Target', 'unnamed_22': 'Actual', 'unnamed_23': 'Working Notes', 'unnamed_24': 'Target', 'unnamed_25': 'Actual', 'unnamed_26': 'Working Notes', 'unnamed_27': 'Target', 'unnamed_28': 'Actual', 'unnamed_29': 'Working Notes', 'unnamed_30': 'Target', 'unnamed_31': 'Actual', 'unnamed_32': 'Working Notes', 'unnamed_33': 'Target', 'unnamed_34': 'Actual', 'unnamed_35': 'Working Notes'}
+  Row 14: {'unnamed_1': 1, 'unnamed_2': '1', 'unnamed_3': 'Objective/Intervention #1: Community organization and Institution building'}
+  Row 15: {'unnamed_1': 1, 'unnamed_2': '1', 'unnamed_3': '1 Individual (family head/ bread-earner) from all the 1500 target families have joined an AAS group', 'unnamed_4': 'Number of groups', 'unnamed_5': '_', 'unnamed_6': '80', 'unnamed_7': '0', 'unnamed_8': 'All 80AAS will be formed in the 1st HY', 'unnamed_9': '0', 'unnamed_10': '0', 'unnamed_12': '0', 'unnamed_13': '0', 'unnamed_15': '0', 'unnamed_16': '0', 'unnamed_18': '0', 'unnamed_19': '0', 'unnamed_21': '0', 'unnamed_22': '0', 'unnamed_24': '0', 'unnamed_25': '0', 'unnamed_27': '0', 'unnamed_28': '0', 'unnamed_30': '0', 'unnamed_31': '0', 'unnamed_33': '0', 'unnamed_34': '0', 'unnamed_36': '80', 'unnamed_37': '0'}
+  Row 16: {'unnamed_1': 2, 'unnamed_2': '2', 'unnamed_3': 'Atleast 240 individuals (3 leaders) from all 80 AAS groups have joined a Cluster federation', 'unnamed_4': 'Number of participants in Cluster level federations ', 'unnamed_5': '_', 'unnamed_6': '240', 'unnamed_7': '0', 'unnamed_8': 'Cluster level federations will be formed after formation of AAS (1 cluster federation for 10 AAS)', 'unnamed_9': '0', 'unnamed_10': '0', 'unnamed_12': '0', 'unnamed_13': '0', 'unnamed_15': '0', 'unnamed_16': '0', 'unnamed_18': '0', 'unnamed_19': '0', 'unnamed_21': '0', 'unnamed_22': '0', 'unnamed_24': '0', 'unnamed_25': '0', 'unnamed_27': '0', 'unnamed_28': '0', 'unnamed_30': '0', 'unnamed_31': '0', 'unnamed_33': '0', 'unnamed_34': '0', 'unnamed_36': '240', 'unnamed_37': '0'}
+  Row 17: {'unnamed_1': 3, 'unnamed_2': '3', 'unnamed_3': '40 individuals (1-2 leaders) from all 20 vilalages are part of Block level federation ', 'unnamed_4': 'Number of individuals in Block level federation', 'unnamed_5': '_', 'unnamed_6': '0', 'unnamed_7': '0', 'unnamed_9': '40', 'unnamed_10': '0', 'unnamed_11': 'Block level Federations will be formed once AAS and cluster level federations are organized', 'unnamed_12': '0', 'unnamed_13': '0', 'unnamed_15': '0', 'unnamed_16': '0', 'unnamed_18': '0', 'unnamed_19': '0', 'unnamed_21': '0', 'unnamed_22': '0', 'unnamed_24': '0', 'unnamed_25': '0', 'unnamed_27': '0', 'unnamed_28': '0', 'unnamed_30': '0', 'unnamed_31': '0', 'unnamed_33': '0', 'unnamed_34': '0', 'unnamed_36': '150', 'unnamed_37': '0'}
+  Row 18: {'unnamed_1': 4, 'unnamed_2': '4', 'unnamed_3': ' 960 individuals have participated in direct trainings                                       ', 'unnamed_4': 'No. of individuals trained', 'unnamed_5': '_', 'unnamed_6': '0', 'unnamed_7': '0', 'unnamed_9': '240', 'unnamed_10': '0', 'unnamed_11': '3 male and female leaders from each AAS Groups (3*80=240), 10 trainings will be done in 1 HY ', 'unnamed_12': '0', 'unnamed_13': '0', 'unnamed_15': '240', 'unnamed_16': '0', 'unnamed_17': '3 male and female leaders from each AAS Groups (3*80=240), 10 trainings will be done in 1 HY ', 'unnamed_18': '0', 'unnamed_19': '0', 'unnamed_21': '240', 'unnamed_22': '0', 'unnamed_23': '3 male and female leaders from each AAS Groups (3*80=240), 10 trainings will be done in 1 HY ', 'unnamed_24': '0', 'unnamed_25': '0', 'unnamed_27': '240', 'unnamed_28': '0', 'unnamed_29': '3 male and female leaders from each AAS Groups (3*80=240), 10 trainings will be done in 1 HY ', 'unnamed_30': '0', 'unnamed_31': '0', 'unnamed_33': '0', 'unnamed_34': '0', 'unnamed_36': '960', 'unnamed_37': '0'}
+  Row 19: {'unnamed_1': 5, 'unnamed_2': '5', 'unnamed_3': '960 individuals (both men & women) have participated in training to address gender based discrimination', 'unnamed_4': 'No. of individuals trained', 'unnamed_5': '_', 'unnamed_6': '0', 'unnamed_7': '0', 'unnamed_9': '240', 'unnamed_10': '0', 'unnamed_11': '3 male and female leaders from each AAS Groups (3*80=240), 10 trainings will be done in 1 HY ', 'unnamed_12': '0', 'unnamed_13': '0', 'unnamed_15': '240', 'unnamed_16': '0', 'unnamed_17': '3 male and female leaders from each AAS Groups (3*80=240), 10 trainings will be done in 1 HY ', 'unnamed_18': '0', 'unnamed_19': '0', 'unnamed_21': '240', 'unnamed_22': '0', 'unnamed_23': '3 male and female leaders from each AAS Groups (3*80=240), 10 trainings will be done in 1 HY ', 'unnamed_24': '0', 'unnamed_25': '0', 'unnamed_27': '240', 'unnamed_28': '0', 'unnamed_29': '3 male and female leaders from each AAS Groups (3*80=240), 8 trainings will be done in 1 HY ', 'unnamed_30': '0', 'unnamed_31': '0', 'unnamed_33': '0', 'unnamed_34': '0', 'unnamed_36': '960', 'unnamed_37': '0'}
+  Row 20: {'unnamed_1': 6, 'unnamed_2': '6', 'unnamed_3': '400 community leaders from each village will participate with 20 district level officials', 'unnamed_4': 'No. of participants', 'unnamed_5': '_', 'unnamed_6': '0', 'unnamed_7': '0', 'unnamed_9': '0', 'unnamed_10': '0', 'unnamed_12': '40', 'unnamed_13': '0', 'unnamed_14': '2 leaders from every village (20*2) have interface workshop with 20 officials', 'unnamed_15': '40', 'unnamed_16': '0', 'unnamed_17': '2 leaders from every village (20*2) have interface workshop with 20 officials', 'unnamed_18': '40', 'unnamed_19': '0', 'unnamed_20': '2 leaders from every village (20*2) have interface workshop with 20 officials', 'unnamed_21': '40', 'unnamed_22': '0', 'unnamed_23': '2 leaders from every village (20*2) have interface workshop with 20 officials', 'unnamed_24': '40', 'unnamed_25': '0', 'unnamed_26': '2 leaders from every village (20*2) have interface workshop with 20 officials', 'unnamed_27': '40', 'unnamed_28': '0', 'unnamed_29': '2 leaders from every village (20*2) have interface workshop with 20 officials', 'unnamed_30': '40', 'unnamed_31': '0', 'unnamed_32': '2 leaders from every village (20*2) have interface workshop with 20 officials', 'unnamed_33': '40', 'unnamed_34': '0', 'unnamed_35': '2 leaders from every village (20*2) have interface workshop with 20 officials', 'unnamed_36': '320', 'unnamed_37': '0'}
+
+Activity_Details columns (38):
+    please_only_fill_cells_coloured_in_green_please_fill_unit_and_target_columns_only
+    unnamed_1
+    unnamed_2
+    unnamed_3
+    unnamed_4
+    unnamed_5
+    unnamed_6
+    unnamed_7
+    unnamed_8
+    unnamed_9
+    unnamed_10
+    unnamed_11
+    unnamed_12
+    unnamed_13
+    unnamed_14
+    unnamed_15
+    unnamed_16
+    unnamed_17
+    unnamed_18
+    unnamed_19
+
+Activity_Details data (20 rows):
+  Row 11: {'unnamed_2': 'Activities', 'unnamed_4': '   ', 'unnamed_5': 'Year 1 ', 'unnamed_11': 'Year 2', 'unnamed_17': 'Year 3', 'unnamed_23': 'Year 4', 'unnamed_29': 'Year 5', 'unnamed_35': 'Grant End'}
+  Row 12: {'unnamed_4': 'Unit', 'unnamed_5': 'HY1', 'unnamed_8': 'HY2', 'unnamed_11': 'HY3', 'unnamed_14': 'HY4', 'unnamed_17': 'HY5', 'unnamed_20': 'HY6', 'unnamed_23': 'HY7', 'unnamed_26': 'HY8', 'unnamed_29': 'HY9', 'unnamed_32': 'HY10', 'unnamed_35': 'Total/Cumulative', 'unnamed_36': 'Actual', 'unnamed_37': 'Working Notes'}
+  Row 13: {'unnamed_5': 'Target', 'unnamed_6': 'Actual', 'unnamed_7': 'Working Notes', 'unnamed_8': 'Target', 'unnamed_9': 'Actual', 'unnamed_10': 'Working Notes', 'unnamed_11': 'Target', 'unnamed_12': 'Actual', 'unnamed_13': 'Working Notes', 'unnamed_14': 'Target', 'unnamed_15': 'Actual', 'unnamed_16': 'Working Notes', 'unnamed_17': 'Target', 'unnamed_18': 'Actual', 'unnamed_19': 'Working Notes', 'unnamed_20': 'Target', 'unnamed_21': 'Actual', 'unnamed_22': 'Working Notes', 'unnamed_23': 'Target', 'unnamed_24': 'Actual', 'unnamed_25': 'Working Notes', 'unnamed_26': 'Target', 'unnamed_27': 'Actual', 'unnamed_28': 'Working Notes', 'unnamed_29': 'Target', 'unnamed_30': 'Actual', 'unnamed_31': 'Working Notes', 'unnamed_32': 'Target', 'unnamed_33': 'Actual', 'unnamed_34': 'Working Notes'}
+  Row 14: {'unnamed_1': 1, 'unnamed_2': '1', 'unnamed_3': 'Objective/Intervention #1: Community organization and Institution building'}
+  Row 15: {'unnamed_1': 1, 'unnamed_2': '1', 'unnamed_3': 'Formation of 80 small groups of 15-20 farmers as Aajeevika Adhikaar Sangathan- AAS.', 'unnamed_4': 'formation meetings', 'unnamed_5': '80', 'unnamed_6': '0', 'unnamed_7': 'Formation, organization of AAS will be done in the first 6 months of the programme', 'unnamed_8': '0', 'unnamed_9': '0', 'unnamed_11': '0', 'unnamed_12': '0', 'unnamed_14': '0', 'unnamed_15': '0', 'unnamed_17': '0', 'unnamed_18': '0', 'unnamed_20': '0', 'unnamed_21': '0', 'unnamed_23': '0', 'unnamed_24': '0', 'unnamed_26': '0', 'unnamed_27': '0', 'unnamed_29': '0', 'unnamed_30': '0', 'unnamed_32': '0', 'unnamed_33': '0', 'unnamed_35': '80', 'unnamed_36': '0'}
+  Row 16: {'unnamed_1': 2, 'unnamed_2': '2', 'unnamed_3': 'Formation of 5 cluster level federations; (1 cluster for every 4 villages or 16 AAS) consisting of 240 individuals', 'unnamed_4': 'formation meetings', 'unnamed_5': '5', 'unnamed_6': '0', 'unnamed_7': 'The cluster level federations will be formed once the AAS is organised at the village level ', 'unnamed_8': '0', 'unnamed_9': '0', 'unnamed_11': '0', 'unnamed_12': '0', 'unnamed_14': '0', 'unnamed_15': '0', 'unnamed_17': '0', 'unnamed_18': '0', 'unnamed_20': '0', 'unnamed_21': '0', 'unnamed_23': '0', 'unnamed_24': '0', 'unnamed_26': '0', 'unnamed_27': '0', 'unnamed_29': '0', 'unnamed_30': '0', 'unnamed_32': '0', 'unnamed_33': '0', 'unnamed_35': '5', 'unnamed_36': '0'}
+  Row 17: {'unnamed_1': 3, 'unnamed_2': '3', 'unnamed_3': 'Formation of 1 Block level federation consisting of 40 individuals', 'unnamed_4': 'formation meetings', 'unnamed_5': '0', 'unnamed_6': '0', 'unnamed_8': '1', 'unnamed_9': '0', 'unnamed_10': 'Block level Federations will be formed once AAS and cluster level federations are organized', 'unnamed_11': '0', 'unnamed_12': '0', 'unnamed_14': '0', 'unnamed_15': '0', 'unnamed_17': '0', 'unnamed_18': '0', 'unnamed_20': '0', 'unnamed_21': '0', 'unnamed_23': '0', 'unnamed_24': '0', 'unnamed_26': '0', 'unnamed_27': '0', 'unnamed_29': '0', 'unnamed_30': '0', 'unnamed_32': '0', 'unnamed_33': '0', 'unnamed_35': '1', 'unnamed_36': '0'}
+  Row 18: {'unnamed_1': 4, 'unnamed_2': '4', 'unnamed_3': '4 Capacity building training of 960 AAS farmers on effective leadership and group management (3 LeadersX80 AAS GroupsX4 ', 'unnamed_4': ' trainings', 'unnamed_5': '0', 'unnamed_6': '0', 'unnamed_8': '10', 'unnamed_9': '0', 'unnamed_10': ' 24 participants in each training', 'unnamed_11': '0', 'unnamed_12': '0', 'unnamed_14': '10', 'unnamed_15': '0', 'unnamed_16': ' 24 participants in each training', 'unnamed_17': '0', 'unnamed_18': '0', 'unnamed_20': '10', 'unnamed_21': '0', 'unnamed_22': ' 24 participants in each training', 'unnamed_23': '0', 'unnamed_24': '0', 'unnamed_26': '10', 'unnamed_27': '0', 'unnamed_28': ' 24 participants in each training', 'unnamed_29': '0', 'unnamed_30': '0', 'unnamed_32': '0', 'unnamed_33': '0', 'unnamed_35': '40', 'unnamed_36': '0'}
+  Row 19: {'unnamed_1': 5, 'unnamed_2': '5', 'unnamed_3': '4 Capacity building trainings of 960 farmers on Gender based discrimination (3 LeadersX80 AAS GroupsX4 (HY-1, HY-4, HY-6 & HY-8)', 'unnamed_4': ' trainings', 'unnamed_5': '0', 'unnamed_6': '0', 'unnamed_8': '10', 'unnamed_9': '0', 'unnamed_10': ' 24 participants in each training', 'unnamed_11': '0', 'unnamed_12': '0', 'unnamed_14': '10', 'unnamed_15': '0', 'unnamed_16': ' 24 participants in each training', 'unnamed_17': '0', 'unnamed_18': '0', 'unnamed_20': '10', 'unnamed_21': '0', 'unnamed_22': ' 24 participants in each training', 'unnamed_23': '0', 'unnamed_24': '0', 'unnamed_26': '10', 'unnamed_27': '0', 'unnamed_28': ' 24 participants in each training', 'unnamed_29': '0', 'unnamed_30': '0', 'unnamed_32': '0', 'unnamed_33': '0', 'unnamed_35': '40', 'unnamed_36': '0'}
+  Row 20: {'unnamed_1': 6, 'unnamed_2': '6', 'unnamed_3': '8 District level stakeholder interface meetings of 400 individuals with all stakeholders (One in every HY) ', 'unnamed_4': 'interface meeting', 'unnamed_5': '0', 'unnamed_6': '0', 'unnamed_8': '0', 'unnamed_9': '0', 'unnamed_11': '1', 'unnamed_12': '0', 'unnamed_13': 'interface meeting of 40 leaders with 20 district officials', 'unnamed_14': '1', 'unnamed_15': '0', 'unnamed_16': 'interface meeting of 40 leaders with 20 district officials', 'unnamed_17': '1', 'unnamed_18': '0', 'unnamed_19': 'interface meeting of 40 leaders with 20 district officials', 'unnamed_20': '1', 'unnamed_21': '0', 'unnamed_22': 'interface meeting of 40 leaders with 20 district officials', 'unnamed_23': '1', 'unnamed_24': '0', 'unnamed_25': 'interface meeting of 40 leaders with 20 district officials', 'unnamed_26': '1', 'unnamed_27': '0', 'unnamed_28': 'interface meeting of 40 leaders with 20 district officials', 'unnamed_29': '1', 'unnamed_30': '0', 'unnamed_31': 'interface meeting of 40 leaders with 20 district officials', 'unnamed_32': '1', 'unnamed_33': '0', 'unnamed_34': 'interface meeting of 40 leaders with 20 district officials', 'unnamed_35': '8', 'unnamed_36': '0'}
+
+================================================================================
+SECTION 5: LEVERAGE DATA (2023 & 2024 & 2025)
+================================================================================
+Leverage 2023 Sheet1 columns: ['unnamed_0', 'developmental_association_for_human_advancement', 'unnamed_2', 'unnamed_3', 'unnamed_4', 'unnamed_5', 'unnamed_6', 'unnamed_7', 'unnamed_8', 'unnamed_9']
+  Row 1: (None, 'Baharaich (U.P)', None, None, None, None, None, None, None, None)
+  Row 2: (None, ' The three-tier AASs have leveraged the following in 2023 Through Govt. Scheme ;  αññαÑìαñ░αñ┐-αñ╕αÑìαññαñ░αÑÇαñ» αñåαñ£αÑÇαñ╡αñ┐αñòαñ╛ αñàαñºαñ┐αñòαñ╛αñ░ αñ╕αñéαñùαñáαñ¿ αñ¿αÑç 2023 αñ«αÑçαñé αñ╕αñ░αñòαñ╛αñ░αÑÇ αñ»αÑïαñ£αñ¿αñ╛ αñ╕αÑç αñ¿αñ┐αñ«αÑìαñ¿αñ▓αñ┐αñûαñ┐αññ αñòαñ╛ αñ▓αñ╛αñ¡ αñëαñáαñ╛αñ»αñ╛ αñ╣αÑê', None, None, None, None, None, None, None, None)
+  Row 3: (' ', 'Village  ', 'Name ', 'Fathers Husbands Name ', 'Type of Leverage ', 'Unit', 'Amount', 'Total Amount ', None, None)
+  Row 4: ('1', 'Bhattha Bargadaha', 'Ramu', 'Ram saware ', 'Latrine', '1', '12000', '48000', None, None)
+  Row 5: ('2', None, 'Parwati', 'Srikant ', 'Latrine', '1', '12000', '0', None, None)
+  Row 6: ('3', None, 'Gangajali ', 'Chunna ', 'Latrine', '1', '12000', None, None, None)
+  Row 7: ('4', None, 'Chunna ', 'Hardari ', 'Latrine', '1', '12000', None, None, None)
+  Row 8: ('5', 'Rajaram Tanda', 'Bindu ', 'Rajesh', 'House PM Awas ', '1', '120000', '1080000', None, None)
+  Row 9: ('6', 'Rajaram Tanda', 'Renu', 'Suraj', 'House PM Awas ', '1', '120000', None, None, None)
+  Row 10: ('7', 'Rajaram Tanda', 'Mansha Devi ', 'Ram Niwas', 'House PM Awas ', '1', '120000', None, None, None)
+
+Leverage 2024 columns: ['unnamed_0', 'developmental_association_for_human_advancement', 'unnamed_2', 'unnamed_3', 'unnamed_4', 'unnamed_5', 'unnamed_6', 'unnamed_7']
+  Row 1: (None, 'Baharaich (U.P)', None, None, None, None, None, None)
+  Row 2: (None, ' The three-tier AASs have leveraged the following in 2024  Through Govt. Scheme ;  \nαññαÑìαñ░αñ┐-αñ╕αÑìαññαñ░αÑÇαñ» αñåαñ£αÑÇαñ╡αñ┐αñòαñ╛ αñàαñºαñ┐αñòαñ╛αñ░ αñ╕αñéαñùαñáαñ¿ αñ¿αÑç 2024 αñ«αÑçαñé αñ╕αñ░αñòαñ╛αñ░αÑÇ αñ»αÑïαñ£αñ¿αñ╛ αñ╕αÑç αñ¿αñ┐αñ«αÑìαñ¿αñ▓αñ┐αñûαñ┐αññ αñòαñ╛ αñ▓αñ╛αñ¡ αñëαñáαñ╛αñ»αñ╛ αñ╣αÑê. \nJanuary 2024 to December 2024 ', None, None, None, None, None, None)
+  Row 3: ('SL No\nαñòαÑìαñ░αñ« ', 'Village  αñùαñ╛αñéαñ╡ ', 'Name  αñ¿αñ╛αñ« ', 'Fathers Husbands Name\nαñ¬αñ┐αññαñ╛ αñ¬αññαñ┐ αñòαñ╛ αñ¿αñ╛αñ«  ', 'Type of Leverage \nαñ▓αñ╛αñ¡ αñòαñ╛ αñ¬αÑìαñ░αñòαñ╛αñ░ ', 'Unit\nαñçαñòαñ╛αñê ', 'Amount\nαñ░αñ╛αñ╢αñ┐ ', 'αñ╕αñ«αÑüαñªαñ╛αñ» αñ╕αñ«αñ¿αÑìαñ╡αñ»αñò αñòαñ╛ αñ¿αñ╛αñ« ')
+  Row 4: ('1', 'Rajaram Tanda ', 'Jay Prakash ', 'Indar ', 'Ghoor Gaddha NADEP', '1', '25000', 'Geeta Prasad')
+  Row 5: ('2', 'Rajaram Tanda ', 'Nan Kunni ', 'Kaptan ', 'Ghoor Gaddha NADEP', '1', '25000', 'Geeta Prasad')
+  Row 6: ('3', 'Rajaram Tanda ', 'Veermati', 'Vinod ', 'Ghoor Gaddha NADEP', '1', '25000', 'Geeta Prasad')
+  Row 7: ('4', 'Rajaram Tanda ', 'Kamal Kishor ', 'Mast Ram ', 'Ghoor Gaddha NADEP', '1', '25000', 'Geeta Prasad')
+  Row 8: ('5', 'Rajaram Tanda ', 'Gyani ', 'Jhagaru ', 'Ghoor Gaddha NADEP', '1', '25000', 'Geeta Prasad')
+  Row 9: ('6', 'Rajaram Tanda ', 'Mansha ', 'Ram Niwas ', 'PM AAWAS', '1', '120000', 'Geeta Prasad')
+  Row 10: ('7', 'Rajaram Tanda ', 'Bindu ', 'Rajesh ', 'PM AAWAS', '1', '120000', 'Geeta Prasad')
+
+Leverage 2025 columns: ['developmental_association_for_human_adancement', 'unnamed_1', 'unnamed_2', 'unnamed_3', 'unnamed_4', 'unnamed_5', 'unnamed_6', 'unnamed_7']
+  Row 1: (None, None, None, None, None, None, None, None)
+  Row 2: ('Baharaich (U.P)', None, None, None, None, None, None, None)
+  Row 3: ('The three-tier ASSs have leveraged thje following in 2025 through Govt.Scheme ', None, None, None, None, None, None, None)
+  Row 4: ('January 2025 to December 2025 ', None, None, None, None, None, None, None)
+  Row 5: ('Sr.No.', 'Name ', "Husband/Father's Name ", 'Village of Name ', 'Type of leverage ', 'Unit', 'Amount ', 'Name of cluster Coordinator')
+  Row 6: ('1', 'αñ╕αñ╛αñ«αÑéαñ╣αñ┐αñò αñ╣αñ░ αñÿαñ░ αñ¿αñ▓ αñ»αÑïαñ£αñ¿αñ╛ ', None, 'αñ░αñ╛αñ£αñ╛αñ░αñ╛αñ« αñƒαñ╛αñíαñ╛ ', 'αñ╣αñ░ αñÿαñ░ αñ¿αñ▓ αñ»αÑïαñ£αñ¿αñ╛ ', '225', '2250000', 'αñùαÑÇαññαñ╛ αñ¬αÑìαñ░αñ╕αñ╛αñª ')
+  Row 7: ('2', 'αñ╕αñ╛αñ«αÑéαñ╣αñ┐αñò αñ¿αñ╛αñ▓αñ╛ αñ¿αñ┐αñ░αÑìαñ«αñ╛αñú ', None, 'αñ░αñ╛αñ£αñ╛αñ░αñ╛αñ« αñƒαñ╛αñíαñ╛ ', 'αñ¬αñ╛αñ¿αÑÇ αñòαÑÇ αñ¿αñ┐αñòαñ╛αñ╕αÑÇ ', '1', '1000000', 'αñùαÑÇαññαñ╛ αñ¬αÑìαñ░αñ╕αñ╛αñª ')
+  Row 8: ('3', 'αñ¡αñ╛αñòαÑüαñ░αÑÇ ', 'αñ╕αññαÑìαñ░αÑïαñ╣αñ¿ ', 'αñ░αñ╛αñ£αñ╛αñ░αñ╛αñ« αñƒαñ╛αñíαñ╛ ', 'αñ¬αÑìαñ░αñºαñ╛αñ¿ αñ«αñéαññαÑìαñ░αÑÇ αñåαñ╡αñ╛αñ╕ ', '1', '120000', 'αñùαÑÇαññαñ╛ αñ¬αÑìαñ░αñ╕αñ╛αñª ')
+  Row 9: ('4', 'αñùαÑüαñíαÑìαñíαÑÇ ', 'αñªαÑìαñ╡αñ╛αñ░αñ┐αñòαñ╛ ', 'αñ░αñ╛αñ£αñ╛αñ░αñ╛αñ« αñƒαñ╛αñíαñ╛ ', 'αñ¬αÑìαñ░αñºαñ╛αñ¿ αñ«αñéαññαÑìαñ░αÑÇ αñåαñ╡αñ╛αñ╕ ', '1', '120000', 'αñùαÑÇαññαñ╛ αñ¬αÑìαñ░αñ╕αñ╛αñª ')
+  Row 10: ('5', 'αñùαÑïαñ«αññαÑÇ ', 'αñòαñ¬αÑéαñ░ ', 'αñ░αñ╛αñ£αñ╛αñ░αñ╛αñ« αñƒαñ╛αñíαñ╛ ', 'αñ¬αÑìαñ░αñºαñ╛αñ¿ αñ«αñéαññαÑìαñ░αÑÇ αñåαñ╡αñ╛αñ╕ ', '1', '120000', 'αñùαÑÇαññαñ╛ αñ¬αÑìαñ░αñ╕αñ╛αñª ')
+
+================================================================================
+SECTION 6: FASAL MIS CONSOLIDATED
+================================================================================
+MIS columns (69):
+    developmental_association_for_human_advancement_dehat
+    unnamed_1
+    unnamed_2
+    unnamed_3
+    unnamed_4
+    unnamed_5
+    unnamed_6
+    unnamed_7
+    unnamed_8
+    unnamed_9
+    unnamed_10
+    unnamed_11
+    unnamed_12
+    unnamed_13
+    unnamed_14
+    unnamed_15
+    unnamed_16
+    unnamed_17
+    unnamed_18
+    unnamed_19
+    unnamed_20
+    unnamed_21
+    unnamed_22
+    unnamed_23
+    unnamed_24
+    unnamed_25
+    unnamed_26
+    unnamed_27
+    unnamed_28
+    unnamed_29
+    unnamed_30
+    unnamed_31
+    unnamed_32
+    unnamed_33
+    unnamed_34
+    unnamed_35
+    unnamed_36
+    unnamed_37
+    unnamed_38
+    unnamed_39
+    unnamed_40
+    unnamed_41
+    unnamed_42
+    unnamed_43
+    unnamed_44
+    unnamed_45
+    unnamed_46
+    unnamed_47
+    unnamed_48
+    unnamed_49
+    unnamed_50
+    unnamed_51
+    unnamed_52
+    unnamed_53
+    unnamed_54
+    unnamed_55
+    unnamed_56
+    unnamed_57
+    unnamed_58
+    unnamed_59
+    unnamed_60
+    unnamed_61
+    unnamed_62
+    unnamed_63
+    unnamed_64
+    unnamed_65
+    unnamed_66
+    unnamed_67
+    unnamed_68
+  Row 1: {'developmental_association_for_human_advancement_dehat': 'Farmers Action for Sustainable Agro-based Livelihoods- FASAL'}
+  Row 2: {'unnamed_7': 'Half Year 1', 'unnamed_15': 'Half Year 2', 'unnamed_23': 'Half Year 3', 'unnamed_31': 'Half Year 4', 'unnamed_39': 'Half Year 5', 'unnamed_47': 'Half Year 6', 'unnamed_55': 'Half Year 7', 'unnamed_63': 'Half Year 8'}
+  Row 3: {'developmental_association_for_human_advancement_dehat': 'S. No.', 'unnamed_1': 'Activity/Intervention/ Indicator', 'unnamed_2': 'Proposed target for current year  (Y1)', 'unnamed_3': 'Achievement made current year', 'unnamed_4': 'Difference in progress', 'unnamed_5': 'HY1', 'unnamed_13': 'HY2', 'unnamed_21': 'HY 3', 'unnamed_29': 'HY4', 'unnamed_37': 'HY5', 'unnamed_45': 'HY6', 'unnamed_53': 'HY7', 'unnamed_61': 'HY8'}
+  Row 4: {'unnamed_5': 'Target', 'unnamed_6': 'Achievement', 'unnamed_7': '2022-01-01 00:00:00', 'unnamed_8': '2022-02-01 00:00:00', 'unnamed_9': '2022-03-01 00:00:00', 'unnamed_10': '2022-04-01 00:00:00', 'unnamed_11': '2022-05-01 00:00:00', 'unnamed_12': '2022-06-01 00:00:00', 'unnamed_13': 'Target', 'unnamed_14': 'Achievement', 'unnamed_15': '2022-07-01 00:00:00', 'unnamed_16': '2022-08-01 00:00:00', 'unnamed_17': '2022-09-01 00:00:00', 'unnamed_18': '2022-10-01 00:00:00', 'unnamed_19': '2022-11-01 00:00:00', 'unnamed_20': '2022-12-01 00:00:00', 'unnamed_21': 'Target ', 'unnamed_22': 'Achievemnt ', 'unnamed_23': '2023-01-01 00:00:00', 'unnamed_24': '2023-02-01 00:00:00', 'unnamed_25': '2023-03-01 00:00:00', 'unnamed_26': '2023-04-01 00:00:00', 'unnamed_27': '2023-05-01 00:00:00', 'unnamed_28': '2023-06-01 00:00:00', 'unnamed_29': 'Target', 'unnamed_30': 'Achievment ', 'unnamed_31': '2023-07-01 00:00:00', 'unnamed_32': '2023-08-01 00:00:00', 'unnamed_33': '2023-09-01 00:00:00', 'unnamed_34': '2023-10-01 00:00:00', 'unnamed_35': '2023-11-01 00:00:00', 'unnamed_36': '2023-12-01 00:00:00', 'unnamed_37': 'Target', 'unnamed_38': 'Achievement ', 'unnamed_39': '2024-01-01 00:00:00', 'unnamed_40': '2024-02-01 00:00:00', 'unnamed_41': '2024-03-01 00:00:00', 'unnamed_42': '2024-04-01 00:00:00', 'unnamed_43': '2024-05-01 00:00:00', 'unnamed_44': '2024-06-01 00:00:00', 'unnamed_45': 'Target', 'unnamed_46': 'Achievement', 'unnamed_47': '2024-07-01 00:00:00', 'unnamed_48': '2024-08-01 00:00:00', 'unnamed_49': '2024-09-01 00:00:00', 'unnamed_50': '2024-10-01 00:00:00', 'unnamed_51': '2024-11-01 00:00:00', 'unnamed_52': '2024-12-01 00:00:00', 'unnamed_53': 'Target', 'unnamed_54': 'Achievement', 'unnamed_55': '2025-01-01 00:00:00', 'unnamed_56': '2025-02-01 00:00:00', 'unnamed_57': '2025-03-01 00:00:00', 'unnamed_58': '2025-04-01 00:00:00', 'unnamed_59': '2025-05-01 00:00:00', 'unnamed_60': '2025-06-01 00:00:00', 'unnamed_61': 'Target', 'unnamed_62': 'Achievement', 'unnamed_63': '2025-07-01 00:00:00', 'unnamed_64': '2025-08-01 00:00:00', 'unnamed_65': '2025-09-01 00:00:00', 'unnamed_66': '2025-10-01 00:00:00', 'unnamed_67': '2025-11-01 00:00:00', 'unnamed_68': '2025-12-01 00:00:00'}
+  Row 5: {'developmental_association_for_human_advancement_dehat': '1', 'unnamed_1': 'PROJECT ACTIVITIES'}
+
+Training Summary 2022 (102 rows): cols = ['unnamed_0', 'unnamed_1', 'unnamed_2', 'unnamed_3', 'unnamed_4', 'unnamed_5', 'unnamed_6', 'unnamed_7', 'unnamed_8']
+  Row 1: {'unnamed_0': 'SL No', 'unnamed_1': 'Date', 'unnamed_2': 'Training/ Capacity Building/ Interface meetings/ CRP Meetings (Title)', 'unnamed_3': 'Type of Training', 'unnamed_4': 'Village Name', 'unnamed_5': 'Facilatator Name', 'unnamed_6': 'Total Participants', 'unnamed_7': 'Male Paticipants', 'unnamed_8': 'Female Participants'}
+  Row 2: {'unnamed_3': 'Farmers Training/ Exposure / Meeting/ CI meetings'}
+  Row 3: {'unnamed_0': '1', 'unnamed_1': '2022-12-16 00:00:00', 'unnamed_2': 'Leadership group management training', 'unnamed_6': '126', 'unnamed_7': '20', 'unnamed_8': '106'}
+  Row 4: {'unnamed_0': '2', 'unnamed_1': '2022-12-17 00:00:00', 'unnamed_2': 'Leadership group management training', 'unnamed_6': '129', 'unnamed_7': '15', 'unnamed_8': '114'}
+  Row 5: {'unnamed_0': '3', 'unnamed_1': '2022-12-18 00:00:00', 'unnamed_2': 'Leadership group management training', 'unnamed_6': '56', 'unnamed_7': '2', 'unnamed_8': '54'}
+
+Training Summary 2023 (102 rows): cols = ['unnamed_0', 'unnamed_1', 'unnamed_2', 'unnamed_3', 'unnamed_4', 'unnamed_5', 'unnamed_6', 'unnamed_7', 'unnamed_8']
+  Row 1: {'unnamed_0': 'SL No', 'unnamed_1': 'Date', 'unnamed_2': 'Training/ Capacity Building/ Interface meetings/ CRP Meetings (Title)', 'unnamed_3': 'Type of Training', 'unnamed_4': 'Village Name', 'unnamed_5': 'Facilatator Name', 'unnamed_6': 'Total Participants', 'unnamed_7': 'Male Paticipants', 'unnamed_8': 'Female Participants'}
+  Row 2: {'unnamed_3': 'Farmers Training/ Exposure / Meeting/ CI meetings'}
+  Row 3: {'unnamed_0': '1', 'unnamed_1': '2023-10-22 00:00:00', 'unnamed_2': 'Machan Cultivation - Sowing Practices', 'unnamed_3': 'Training', 'unnamed_4': 'Vishanpur', 'unnamed_5': 'Shwetha', 'unnamed_6': '30', 'unnamed_7': '15', 'unnamed_8': '15'}
+  Row 4: {'unnamed_0': '2', 'unnamed_1': '2023-11-28 00:00:00', 'unnamed_2': 'LIESA Training', 'unnamed_3': 'Residential training', 'unnamed_4': 'Vishanpur', 'unnamed_5': 'Shwetha'}
+  Row 5: {'unnamed_0': '3', 'unnamed_1': '2023-11-26 00:00:00', 'unnamed_2': 'Mix Crop Farming Farming', 'unnamed_6': '47', 'unnamed_7': '7', 'unnamed_8': '40'}
+
+Training Summary 2024 (102 rows): cols = ['unnamed_0', 'unnamed_1', 'unnamed_2', 'unnamed_3', 'unnamed_4', 'unnamed_5', 'unnamed_6', 'unnamed_7', 'unnamed_8']
+  Row 1: {'unnamed_0': 'SL No', 'unnamed_1': 'Date', 'unnamed_2': 'Training/ Capacity Building/ Interface meetings/ CRP Meetings (Title)', 'unnamed_3': 'Type of Training', 'unnamed_4': 'Village Name', 'unnamed_5': 'Facilatator Name', 'unnamed_6': 'Total Participants', 'unnamed_7': 'Male Paticipants', 'unnamed_8': 'Female Participants'}
+  Row 2: {'unnamed_3': 'Farmers Training/ Exposure / Meeting/ CI meetings'}
+  Row 3: {'unnamed_0': '1', 'unnamed_1': '2024-01-26 00:00:00', 'unnamed_2': 'CRP Exposure visit', 'unnamed_6': '24', 'unnamed_7': '2', 'unnamed_8': '22'}
+  Row 4: {'unnamed_0': '2', 'unnamed_1': '2024-01-31 00:00:00', 'unnamed_2': 'CRP Exposure visit', 'unnamed_6': '29', 'unnamed_7': '0', 'unnamed_8': '29'}
+  Row 5: {'unnamed_0': '3', 'unnamed_1': '2024-03-29 00:00:00', 'unnamed_2': 'CRP Exposure visit', 'unnamed_6': '16', 'unnamed_7': '4', 'unnamed_8': '12'}
+
+Training Summary 2025 (114 rows): cols = ['unnamed_0', 'unnamed_1', 'unnamed_2', 'unnamed_3', 'unnamed_4', 'unnamed_5', 'unnamed_6', 'unnamed_7', 'unnamed_8']
+  Row 1: {'unnamed_0': 'SL No', 'unnamed_1': 'Date', 'unnamed_2': 'Training/ Capacity Building/ Interface meetings/ CRP Meetings (Title)', 'unnamed_3': 'Type of Training', 'unnamed_4': 'Village Name', 'unnamed_5': 'Facilatator Name', 'unnamed_6': 'Total Participants', 'unnamed_7': 'Male Paticipants', 'unnamed_8': 'Female Participants'}
+  Row 2: {'unnamed_3': 'Farmers Training/ Exposure / Meeting/ CI meetings'}
+  Row 3: {'unnamed_0': '1', 'unnamed_1': '2025-09-17 00:00:00', 'unnamed_2': 'Multilayer Farming', 'unnamed_6': '27', 'unnamed_7': '3', 'unnamed_8': '24'}
+  Row 4: {'unnamed_0': '2', 'unnamed_1': '2025-09-18 00:00:00', 'unnamed_2': 'Multilayer Farming', 'unnamed_6': '27', 'unnamed_7': '1', 'unnamed_8': '26'}
+  Row 5: {'unnamed_0': '3', 'unnamed_1': '2025-09-19 00:00:00', 'unnamed_2': 'Multilayer Farming', 'unnamed_6': '29', 'unnamed_7': '0', 'unnamed_8': '29'}
+
+================================================================================
+SECTION 7: TRAINING DATA YEAR-WISE COLUMN OVERVIEW
+================================================================================
+
+training_data_fasal_mis_2022_Training_related_data_2022 (2541 rows, 88 cols)
+  Columns: ['unnamed_0', 'unnamed_1', 'unnamed_2', 'unnamed_3', 'unnamed_4', 'unnamed_5', 'unnamed_6', 'unnamed_7', 'unnamed_8', 'unnamed_9', 'unnamed_10', 'unnamed_11', 'unnamed_12', 'unnamed_13', 'unnamed_14', 'unnamed_15', 'unnamed_16', 'unnamed_17', 'unnamed_18', 'unnamed_19', 'unnamed_20', 'unnamed_21', 'unnamed_22', 'unnamed_23', 'unnamed_24', 'unnamed_25', 'unnamed_26', 'unnamed_27', 'unnamed_28', 'unnamed_29']
+  ... +58 more
+
+training_data_fasal_mis_2023_(old)_Training_related_data_2023 (2016 rows, 100 cols)
+  Columns: ['unnamed_0', 'unnamed_1', 'unnamed_2', 'unnamed_3', 'unnamed_4', 'unnamed_5', 'unnamed_6', 'unnamed_7', 'unnamed_8', 'unnamed_9', 'unnamed_10', 'unnamed_11', 'unnamed_12', 'unnamed_13', 'unnamed_14', 'unnamed_15', 'unnamed_16', 'unnamed_17', 'unnamed_18', 'unnamed_19', 'unnamed_20', 'unnamed_21', 'unnamed_22', 'unnamed_23', 'unnamed_24', 'unnamed_25', 'unnamed_26', 'unnamed_27', 'unnamed_28', 'unnamed_29']
+  ... +70 more
+
+training_data_fasal_mis_2024.xlsx__Training_related_data (3548 rows, 111 cols)
+  Columns: ['unnamed_0', 'unnamed_1', 'unnamed_2', 'unnamed_3', 'unnamed_4', 'unnamed_5', 'unnamed_6', 'unnamed_7', 'unnamed_8', 'unnamed_9', 'unnamed_10', 'unnamed_11', 'unnamed_12', 'unnamed_13', 'unnamed_14', 'unnamed_15', 'unnamed_16', 'unnamed_17', 'unnamed_18', 'unnamed_19', 'unnamed_20', 'unnamed_21', 'unnamed_22', 'unnamed_23', 'unnamed_24', 'unnamed_25', 'unnamed_26', 'unnamed_27', 'unnamed_28', 'unnamed_29']
+  ... +81 more
+
+training_data_fasal_mis_2025_Training_related_data_2025 (2104 rows, 133 cols)
+  Columns: ['unnamed_0', 'unnamed_1', 'unnamed_2', 'unnamed_3', 'unnamed_4', 'unnamed_5', 'unnamed_6', 'unnamed_7', 'unnamed_8', 'unnamed_9', 'unnamed_10', 'unnamed_11', 'unnamed_12', 'unnamed_13', 'unnamed_14', 'unnamed_15', 'unnamed_16', 'unnamed_17', 'unnamed_18', 'unnamed_19', 'unnamed_20', 'unnamed_21', 'unnamed_22', 'unnamed_23', 'unnamed_24', 'unnamed_25', 'unnamed_26', 'unnamed_27', 'unnamed_28', 'unnamed_29']
+  ... +103 more
+
+================================================================================
+SECTION 8: CROP DETAILS & AAS INFO
+================================================================================
+Crop_details (117 cols):
+    unnamed_0
+    unnamed_1
+    unnamed_2
+    unnamed_3
+    unnamed_4
+    unnamed_5
+    unnamed_6
+    unnamed_7
+    unnamed_8
+    unnamed_9
+    unnamed_10
+    unnamed_11
+    unnamed_12
+    unnamed_13
+    unnamed_14
+    unnamed_15
+    unnamed_16
+    unnamed_17
+    unnamed_18
+    unnamed_19
+    unnamed_20
+    unnamed_21
+    unnamed_22
+    unnamed_23
+    unnamed_24
+    unnamed_25
+    unnamed_26
+    unnamed_27
+    unnamed_28
+    unnamed_29
+    unnamed_30
+    unnamed_31
+    unnamed_32
+    unnamed_33
+    unnamed_34
+    unnamed_35
+    unnamed_36
+    unnamed_37
+    unnamed_38
+    unnamed_39
+    ... +77 more
+  Row 1: {'unnamed_0': 'Farmers Action for Sustainable Agro-based Livelihoods- FASAL'}
+  Row 2: {'unnamed_0': 'Farmers wise Crops details', 'unnamed_17': '2025'}
+  Row 3: {'unnamed_9': 'Kharif', 'unnamed_17': 'Rabi', 'unnamed_101': 'Area in Acre', 'unnamed_102': 'Green//OtherBhindi'}
+
+AAS_INFO (9 cols): ['developmental_association_for_human_advancement_dehat', 'unnamed_1', 'unnamed_2', 'unnamed_3', 'unnamed_4', 'unnamed_5', 'unnamed_6', 'unnamed_7', 'unnamed_8']
+  Row 1: ('Farmers Action for Sustainable Agro-based Livelihoods- FASAL', None, None, None, None, None, None, None, None)
+  Row 2: ('Farmer HH data', None, None, None, None, None, None, None, None)
+  Row 3: (None, None, None, None, None, None, None, None, None)
+  Row 4: ('Sl. No.', 'Name of District', 'Name of Block', 'Gram Panchyat', 'Village Name', 'Name of Group', 'AAS Code', 'Date of enrolment in Project', 'No. of Members in Group')
+  Row 5: (None, None, None, None, None, None, None, None, None)
+  Row 6: ('1', 'Bahraich', 'Mihinpurwa', 'Badkhadiya', 'Dhodhepurwa', 'Ekta AAS', 'DHODEKTA', None, '16')
+  Row 7: ('2', 'Bahraich', 'Mihinpurwa', 'Badkhadiya', 'Dhodhepurwa', 'Jyoti AAS', 'DHODJYOTI', None, '15')
+  Row 8: ('3', 'Bahraich', 'Mihinpurwa', 'Badkhadiya', 'Dhodhepurwa', 'Laxmi AAS', 'DHODLAXMI', None, '18')
+  Row 9: ('4', 'Bahraich', 'Mihinpurwa', 'Bajpur Bankati', 'Bajpur Bankati', 'Champa', 'BAJPCHAMPA', None, '16')
+  Row 10: ('5', 'Bahraich', 'Mihinpurwa', 'Bajpur Bankati', 'Bajpur Bankati', 'Gaytri', 'BAJPGAYTRI', None, '15')
+
+AASINFOR (21 cols): ['developmental_association_for_human_advancement_dehat', 'unnamed_1', 'unnamed_2', 'unnamed_3', 'unnamed_4', 'unnamed_5', 'unnamed_6', 'unnamed_7', 'unnamed_8', 'unnamed_9', 'unnamed_10', 'unnamed_11', 'unnamed_12', 'unnamed_13', 'unnamed_14', 'unnamed_15', 'unnamed_16', 'unnamed_17', 'unnamed_18', 'unnamed_19', 'unnamed_20']
+  Row 1: {'developmental_association_for_human_advancement_dehat': 'Farmers Action for Sustainable Agro-based Livelihoods- FASAL'}
+  Row 2: {'developmental_association_for_human_advancement_dehat': 'Farmer HH data'}
+  Row 3: {}
+  Row 4: {'developmental_association_for_human_advancement_dehat': 'Sl. No.', 'unnamed_1': 'Name of District', 'unnamed_2': 'Name of Block', 'unnamed_3': 'Gram Panchyat', 'unnamed_4': 'Revenue village', 'unnamed_5': 'Name of Group', 'unnamed_6': 'Name of Farmer', 'unnamed_7': 'Father/Spouse Name', 'unnamed_8': 'Farmer Code', 'unnamed_9': 'Sex (M/F)', 'unnamed_10': 'Age (Years)', 'unnamed_11': 'Total Member in family', 'unnamed_13': 'Children Below 18 years age', 'unnamed_14': 'Category (Gen./OBC/ SC/ST)', 'unnamed_15': 'APL/BPL', 'unnamed_16': 'Total Land Holding (In Acre)', 'unnamed_18': 'Type Of ID -Adhar/Rasan/Voter/Etc', 'unnamed_19': 'Adhar/Ration Card/Voter ID-No.', 'unnamed_20': 'Annual Income From Agriculture (Rs)'}
+  Row 5: {'unnamed_11': 'Male', 'unnamed_12': 'Female', 'unnamed_16': 'Owned', 'unnamed_17': 'Leased'}
+
+================================================================================
+SECTION 9: FASAL FDB RF TRACEABILITY MAP
+================================================================================
+
+Dashboard_Cards (9 rows, 7 cols): ['screen_card', 'dashboard_card', 'primary_rf_link', 'fdb_fields_that_can_feed_it', 'what_fdb_can_safely_prove', 'what_fdb_cannot_prove_alone', 'recommended_status']
+  Row 1: {'screen_card': 'Screen 1 / Coverage', 'dashboard_card': 'Target household coverage and filters', 'primary_rf_link': 'All RF outcomes; project geography', 'fdb_fields_that_can_feed_it': 'District, Block, Village Panchayat, Village Name, AAS Name, land, family members', 'what_fdb_can_safely_prove': 'Geographic and household profile coverage', 'what_fdb_cannot_prove_alone': 'Achievement against RF targets unless deduplicated and reconciled', 'recommended_status': 'Use as filter/context'}
+  Row 2: {'screen_card': 'Screen 2 / Institutions', 'dashboard_card': 'AAS representation', 'primary_rf_link': 'Outcome 1; Output: AAS membership/representation', 'fdb_fields_that_can_feed_it': 'AAS Name; Name of Farmers/AAS Members', 'what_fdb_can_safely_prove': 'Households/members linked to AAS', 'what_fdb_cannot_prove_alone': 'AAS formation, active meetings, leadership, collective claims', 'recommended_status': 'Use with caveat'}
+  Row 3: {'screen_card': 'Screen 2 / Krishi Mitra', 'dashboard_card': 'Households mapped to Krishi Mitra', 'primary_rf_link': 'Outcome 3; Output: 80 Krishi Mitras identified', 'fdb_fields_that_can_feed_it': 'Name of Krishi Mitra related to family; WhatsApp number', 'what_fdb_can_safely_prove': 'Household linkage to a Krishi Mitra', 'what_fdb_cannot_prove_alone': 'Training, active monthly meetings, farmer impact', 'recommended_status': 'Use with caveat'}
+  Row 4: {'screen_card': 'Screen 3 / Food security', 'dashboard_card': '12-month food availability / diversity', 'primary_rf_link': 'Outcome 2: 12 months food and nutrition security', 'fdb_fields_that_can_feed_it': 'Monthly white/green/yellow food consumption fields for 2022, 2023, 2024', 'what_fdb_can_safely_prove': 'Seasonality, reported consumption diversity, food-group availability', 'what_fdb_cannot_prove_alone': 'Production increase or causality from FASAL without triangulation', 'recommended_status': 'Use'}
+  Row 5: {'screen_card': 'Screen 3 / Agriculture income', 'dashboard_card': 'Crop-wise cost, sales, net income', 'primary_rf_link': 'Outcome 2: agricultural income increase', 'fdb_fields_that_can_feed_it': 'Crop cost/income/net income fields for 2022, 2023, 2024', 'what_fdb_can_safely_prove': 'Crop economics trend and household-level agricultural income evidence', 'what_fdb_cannot_prove_alone': 'Per-acre income unless area denominator and crop area are validated', 'recommended_status': 'Use with calculation caveat'}
+  Row 6: {'screen_card': 'Screen 4 / Entitlements', 'dashboard_card': 'Entitlement funnel: awareness ΓåÆ facilitation ΓåÆ received', 'primary_rf_link': 'Outcomes 1 & 4; Output: FRC/scheme facilitation/digital access', 'fdb_fields_that_can_feed_it': 'Where awareness came from; Is leading done; Did you received across schemes and six-month periods', 'what_fdb_can_safely_prove': 'Household-reported service access and receipt status', 'what_fdb_cannot_prove_alone': 'AAS collective claim process or official approval unless triangulated', 'recommended_status': 'Use with caveat'}
+  Row 7: {'screen_card': 'Screen 4 / Village development', 'dashboard_card': 'Village service/village development gains', 'primary_rf_link': 'Outcome 1/4: Gram Sabha and VDP leverage', 'fdb_fields_that_can_feed_it': 'Toilet, soak pit, drain, water, school, PDS, health, Anganwadi-related receipt fields', 'what_fdb_can_safely_prove': 'Household/service-level benefit receipt or availability', 'what_fdb_cannot_prove_alone': 'Exact leverage amount or official sanction status', 'recommended_status': 'Use with report triangulation'}
+  Row 8: {'screen_card': 'Intersectional screen', 'dashboard_card': 'Education, health, nutrition, sanitation, migration, household vulnerability', 'primary_rf_link': 'Outside narrow RF; partially linked to rights/entitlements', 'fdb_fields_that_can_feed_it': 'School, health, nutrition, sanitation, migration, family income fields', 'what_fdb_can_safely_prove': 'DEHAT intersectional/family-centred profile and changes', 'what_fdb_cannot_prove_alone': 'Core FASAL output/outcome achievement unless explicitly linked', 'recommended_status': 'Optional / separate dashboard'}
+  Row 9: {'screen_card': 'Evidence audit', 'dashboard_card': 'RF activities not tracked in FDB', 'primary_rf_link': 'All RF activity rows', 'fdb_fields_that_can_feed_it': 'No direct FDB fields for trainings/meetings/exposures/policies', 'what_fdb_can_safely_prove': 'Nothing directly', 'what_fdb_cannot_prove_alone': 'Training counts, meeting counts, organisational systems; use RF reports/attendance/minutes', 'recommended_status': 'Do not use FDB for activity achievement'}
+
+FDB_Field_Map (2999 rows, 11 cols): ['fdb_column', 'fdb_field_question', 'fdb_domain', 'rf_correspondence', 'rf_level', 'rf_outcome_pillar', 'linked_rf_output_activity', 'dashboard_card_implication', 'dashboard_use_decision', 'caution_interpretation_rule', 'evidence_status']
+  Row 1: {'fdb_column': 'A', 'fdb_field_question': 'start', 'fdb_domain': 'Survey metadata', 'rf_correspondence': 'Data audit only', 'rf_level': 'Data quality', 'dashboard_card_implication': 'Data quality / submission audit', 'dashboard_use_decision': 'Internal only', 'evidence_status': 'Field present in FDB; value quality to be validated'}
+  Row 2: {'fdb_column': 'B', 'fdb_field_question': 'end', 'fdb_domain': 'Survey metadata', 'rf_correspondence': 'Data audit only', 'rf_level': 'Data quality', 'dashboard_card_implication': 'Data quality / submission audit', 'dashboard_use_decision': 'Internal only', 'evidence_status': 'Field present in FDB; value quality to be validated'}
+  Row 3: {'fdb_column': 'C', 'fdb_field_question': 'Surveyor Name', 'fdb_domain': 'PII / household identifiers', 'rf_correspondence': 'Context/disaggregation only; not a dashboard result', 'rf_level': 'Disaggregation / data management', 'rf_outcome_pillar': 'Supports household/village/AAS linkage only', 'dashboard_card_implication': 'Do not show PII; use only anonymized household counts', 'dashboard_use_decision': 'Internal only', 'caution_interpretation_rule': 'Contains personal data; aggregate/anonymize before donor display', 'evidence_status': 'Field present in FDB; value quality to be validated'}
+  Row 4: {'fdb_column': 'D', 'fdb_field_question': 'District', 'fdb_domain': 'Geography', 'rf_correspondence': 'RF context: 06 Gram Panchayats / 20 villages coverage', 'rf_level': 'Disaggregation', 'rf_outcome_pillar': 'Applies across all RF outcomes', 'dashboard_card_implication': 'Filters: Gram Panchayat / Village', 'dashboard_use_decision': 'Use as filter', 'evidence_status': 'Field present in FDB; value quality to be validated'}
+  Row 5: {'fdb_column': 'E', 'fdb_field_question': 'Block Name', 'fdb_domain': 'Geography', 'rf_correspondence': 'RF context: 06 Gram Panchayats / 20 villages coverage', 'rf_level': 'Disaggregation', 'rf_outcome_pillar': 'Applies across all RF outcomes', 'dashboard_card_implication': 'Filters: Gram Panchayat / Village', 'dashboard_use_decision': 'Use as filter', 'evidence_status': 'Field present in FDB; value quality to be validated'}
+
+Grant_Report_Crosswalk (8 rows, 5 cols): ['source_file', 'evidence_statement_in_report', 'corresponding_rf_pillar', 'fdb_field_group_that_can_triangulate_or_cannot_triangulate', 'dashboard_implication']
+  Row 1: {'source_file': 'Grant Report January to December 2024 (1).pdf', 'evidence_statement_in_report': '6 Village Development Plans for 20 hamlets developed with 1,712 citizens; 20 villages across listed Gram Panchayats', 'corresponding_rf_pillar': 'Outcome 1/4: Gram Sabha, VDP, village development leverage', 'fdb_field_group_that_can_triangulate_or_cannot_triangulate': 'FDB village and service receipt fields can show household/service distribution; cannot prove GPDP preparation', 'dashboard_implication': 'Use reports for VDP count; FDB for village-level service profile'}
+  Row 2: {'source_file': 'Grant Report January to December 2024 (1).pdf', 'evidence_statement_in_report': 'Gender training 218 participants and leadership training 221 participants', 'corresponding_rf_pillar': 'Outcome 1 Output: gender and leadership capacity', 'fdb_field_group_that_can_triangulate_or_cannot_triangulate': 'FDB has no direct training participation fields', 'dashboard_implication': 'Use report/attendance, not FDB'}
+  Row 3: {'source_file': 'Grant Report January to December 2024 (1).pdf', 'evidence_statement_in_report': '304 farmers accessing government schemes; Γé╣2,29,93,200 leveraged for infrastructure and schemes', 'corresponding_rf_pillar': 'Outcome 1/4: entitlements and leverage', 'fdb_field_group_that_can_triangulate_or_cannot_triangulate': 'FDB entitlement receipt fields can triangulate types of services; leverage amount requires report/official records', 'dashboard_implication': 'Use both; separate receipt counts from leverage amount'}
+  Row 4: {'source_file': 'Grant Report January to December 2024 (1).pdf', 'evidence_statement_in_report': '75 Krishi Mitras trained on pest management; 603 farmers trained in LEISA/mixed cropping/turmeric-ginger methods', 'corresponding_rf_pillar': 'Outcome 2/3: sustainable agriculture and CRP system', 'fdb_field_group_that_can_triangulate_or_cannot_triangulate': 'FDB has Krishi Mitra linkage and crop income/food data; no direct training fields', 'dashboard_implication': 'Training counts from reports; outcome effects from FDB'}
+  Row 5: {'source_file': 'Grant Report January to December 2025.pdf', 'evidence_statement_in_report': 'Programme worked in 06 Gram Panchayats, 20 villages, approximately 1500 marginal farmer families', 'corresponding_rf_pillar': 'All RF pillars / coverage', 'fdb_field_group_that_can_triangulate_or_cannot_triangulate': 'FDB geography and household profile fields', 'dashboard_implication': 'Use FDB for filters and denominator reconciliation'}
+  Row 6: {'source_file': 'Grant Report January to December 2025.pdf', 'evidence_statement_in_report': '80 AAS, 05 clusters, 01 BLF at beginning; consolidated to 74 AAS, 05 clusters and 01 BLF', 'corresponding_rf_pillar': 'Outcome 1: institution building', 'fdb_field_group_that_can_triangulate_or_cannot_triangulate': 'FDB AAS Name supports household-AAS link but not group count/functionality', 'dashboard_implication': 'Use report for institutional count; FDB for AAS-wise household coverage'}
+  Row 7: {'source_file': 'Grant Report January to December 2025.pdf', 'evidence_statement_in_report': 'Regular AAS, cluster, CRP monthly and BLF meetings; issues included MNREGA demand letters, roads, drainage', 'corresponding_rf_pillar': 'Outcome 1/4: functionality and claims', 'fdb_field_group_that_can_triangulate_or_cannot_triangulate': 'FDB entitlement/service fields may show household-level receipt; no meeting/claim tracker fields', 'dashboard_implication': 'Use reports/minutes for functionality; FDB for service outcomes'}
+  Row 8: {'source_file': 'Grant Report January to December 2025.pdf', 'evidence_statement_in_report': 'Horticulture department support totaling Γé╣1,58,500 including seeds/plants and 150 kg organic fertiliser', 'corresponding_rf_pillar': 'Outcome 2: agriculture convergence/leverage', 'fdb_field_group_that_can_triangulate_or_cannot_triangulate': 'FDB crop income/food data can support downstream household outcomes; does not track this support directly', 'dashboard_implication': 'Use report for input/leverage; FDB for income/food outcome'}
+
+RF_Items (89 rows, 8 cols): ['kind', 'rf_sheet', 'rf_row', 'objective', 'rf_item', 'unit', 'grant_end_target', 'source']
+  Row 1: {'kind': 'Outcome', 'rf_sheet': 'Outcome Indicators', 'rf_row': 14, 'objective': 'Objective/Intervention #1: Community organization and Institution building', 'rf_item': 'Small and marginalised farmers are able to receive leverage, and govt. support in agriculture and livelihoods/employment opportunities (MNREGA job cards, Widow pension, Kisan Credit Card, Ayushman health card etc) through community led negotiations.', 'unit': 'Households', 'grant_end_target': 1500, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 2: {'kind': 'Outcome', 'rf_sheet': 'Outcome Indicators', 'rf_row': 15, 'objective': 'Objective/Intervention #1: Community organization and Institution building', 'rf_item': '80 AAS groups are claiming entitlements and rights by leveraging resources for village development plans through the Gram Sabha (ensuring proper sanitation in village, facilitate in development of primary school, access to healthcare, PDS etc)', 'unit': 'Households', 'grant_end_target': 1500, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 3: {'kind': 'Outcome', 'rf_sheet': 'Outcome Indicators', 'rf_row': 30, 'objective': 'Objective/Intervention #2:  Enhance productivity to ensure 12 months of food and nutrition security and increased agricultural income of at least 50% households from Rs 10000 per acre/per annum to Rs 60000 per acre/ annum', 'rf_item': '1500 households have overall food security for 12 months (increase in production from 5 quintals/year to 12 quintals/year) through Zaid cultivation alongside Rabi & Kharif crops.', 'unit': 'Households', 'grant_end_target': 1500, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 4: {'kind': 'Outcome', 'rf_sheet': 'Outcome Indicators', 'rf_row': 31, 'objective': 'Objective/Intervention #2:  Enhance productivity to ensure 12 months of food and nutrition security and increased agricultural income of at least 50% households from Rs 10000 per acre/per annum to Rs 60000 per acre/ annum', 'rf_item': 'Average agricultural income for 1500 families increase from 10000/acre/annum to atleast 60000/acre/annum through Crop Intensification System and/or line sowing', 'unit': 'Households', 'grant_end_target': 1500, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 5: {'kind': 'Outcome', 'rf_sheet': 'Outcome Indicators', 'rf_row': 46, 'objective': 'Objective/Intervention #3: A network of well trained 80 Community Resource Persons', 'rf_item': '80 Krishi Mitras are impacting at least 2000 farmers (1 Krishi Mitra impacting 5 direct/indirect benefeciaries)  through CASCADE model', 'unit': 'Individuals supported by CRPs', 'grant_end_target': 1600, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+
+Summary (36 rows, 2 cols): ['summary_metric', 'value']
+  Row 1: {'summary_metric': 'Total FDB columns assessed', 'value': '2999'}
+  Row 2: {'summary_metric': 'FDB household/member records (from sheet dimension, excluding header)', 'value': '1329'}
+  Row 3: {'summary_metric': 'RF items extracted from RF Template (Outcome/Output/Activity)', 'value': '89'}
+  Row 4: {'summary_metric': 'FDB fields directly usable for RF outcome dashboard', 'value': '1386'}
+  Row 5: {'summary_metric': 'FDB fields usable with caveat', 'value': '359'}
+  Row 6: {'summary_metric': 'FDB-only / intersectional fields', 'value': '1198'}
+  Row 7: {'summary_metric': 'Internal-only / PII / metadata fields', 'value': '31'}
+  Row 8: {'summary_metric': 'Fields held for manual review', 'value': '17'}
+  Row 9: {}
+  Row 10: {'summary_metric': 'FDB Domain', 'value': 'Field Count'}
+
+
+DONE.

@@ -1,0 +1,83 @@
+{
+  "scorecard": [],
+  "checklist": [
+    {
+      "category": "Sanitation & Hygiene",
+      "count": "8",
+      "examples": "Community toilet, Private toilet, School toilet, Compost pit, Drain, Soak pit, Sanitary pads, Active school toilet",
+      "status": "\u2713 ALL TRACKED"
+    },
+    {
+      "category": "Water Supply",
+      "count": "6",
+      "examples": "Water tank, Moving tap, Anganwadi R.O, School water tank, Water combination, Maternal nutrition",
+      "status": "\u2713 ALL TRACKED"
+    },
+    {
+      "category": "Health Services",
+      "count": "4",
+      "examples": "ANM, ASHA, Vaccination, Pre/post pregnancy checkup",
+      "status": "\u2713 ALL TRACKED"
+    },
+    {
+      "category": "Nutrition Services",
+      "count": "6",
+      "examples": "Pregnant nutrition, Maternal nutrition, Baby 0-3yr, Children 3-6yr, Teenage nutrition, Mid-day meal",
+      "status": "\u2713 ALL TRACKED"
+    },
+    {
+      "category": "Education",
+      "count": "10",
+      "examples": "Primary school, Junior school, High school, Inter college, PTR, Teacher presence, Fans, Bench, Smart classes, Boundary",
+      "status": "\u2713 ALL TRACKED"
+    },
+    {
+      "category": "Identity Documents",
+      "count": "13",
+      "examples": "Ration card, MNREGA, BOCW, Job seekers, PAN, Aadhaar, Ayushman, Labor card, Birth/Death cert, Disability cert, Marriage",
+      "status": "\u2713 ALL TRACKED"
+    },
+    {
+      "category": "Social Welfare",
+      "count": "9",
+      "examples": "Old age pension, Widow pension, Disability pension, Various grants",
+      "status": "\u2713 ALL TRACKED"
+    },
+    {
+      "category": "Housing & Infrastructure",
+      "count": "1",
+      "examples": "New electrical connection",
+      "status": "\u2713 ALL TRACKED"
+    },
+    {
+      "category": "Special Schemes",
+      "count": "18",
+      "examples": "CM schemes, Scholarship, Legal aid, Various welfare schemes",
+      "status": "\u2713 ALL TRACKED"
+    },
+    {
+      "category": "TOTAL",
+      "count": "75",
+      "examples": "All entitlements from FDB survey tracked in CleanedData columns 233-460",
+      "status": "\u2713 100% COVERAGE"
+    }
+  ],
+  "leverage_trend": [
+    {
+      "year": "2022",
+      "leverage_lakhs": 54.14
+    },
+    {
+      "year": "2023",
+      "leverage_lakhs": 262.81
+    },
+    {
+      "year": "2024",
+      "leverage_lakhs": 229.93
+    },
+    {
+      "year": "2025",
+      "leverage_lakhs": 278.25
+    }
+  ]
+}

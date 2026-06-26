@@ -1,0 +1,672 @@
+{
+  "overall": [
+    {
+      "name": "Aadhar card",
+      "baseline2022": {
+        "advocated": 1089,
+        "accessed": 1083
+      },
+      "current2025": {
+        "advocated": 1229,
+        "accessed": 1203
+      }
+    },
+    {
+      "name": "Ration Card",
+      "baseline2022": {
+        "advocated": 1057,
+        "accessed": 983
+      },
+      "current2025": {
+        "advocated": 1150,
+        "accessed": 1085
+      }
+    },
+    {
+      "name": "MNREGA job card",
+      "baseline2022": {
+        "advocated": 951,
+        "accessed": 900
+      },
+      "current2025": {
+        "advocated": 1059,
+        "accessed": 995
+      }
+    },
+    {
+      "name": "mid-day meal/school food",
+      "baseline2022": {
+        "advocated": 961,
+        "accessed": 903
+      },
+      "current2025": {
+        "advocated": 1091,
+        "accessed": 1024
+      }
+    },
+    {
+      "name": "family register",
+      "baseline2022": {
+        "advocated": 852,
+        "accessed": 838
+      },
+      "current2025": {
+        "advocated": 982,
+        "accessed": 961
+      }
+    },
+    {
+      "name": "labor card",
+      "baseline2022": {
+        "advocated": 548,
+        "accessed": 545
+      },
+      "current2025": {
+        "advocated": 877,
+        "accessed": 854
+      }
+    },
+    {
+      "name": "vaccination",
+      "baseline2022": {
+        "advocated": 695,
+        "accessed": 661
+      },
+      "current2025": {
+        "advocated": 767,
+        "accessed": 727
+      }
+    },
+    {
+      "name": "PAN card",
+      "baseline2022": {
+        "advocated": 464,
+        "accessed": 462
+      },
+      "current2025": {
+        "advocated": 748,
+        "accessed": 707
+      }
+    },
+    {
+      "name": "community toilet",
+      "baseline2022": {
+        "advocated": 228,
+        "accessed": 218
+      },
+      "current2025": {
+        "advocated": 276,
+        "accessed": 268
+      }
+    },
+    {
+      "name": "private toilet",
+      "baseline2022": {
+        "advocated": 458,
+        "accessed": 440
+      },
+      "current2025": {
+        "advocated": 718,
+        "accessed": 703
+      }
+    },
+    {
+      "name": "school toilet",
+      "baseline2022": {
+        "advocated": 1037,
+        "accessed": 1039
+      },
+      "current2025": {
+        "advocated": 1157,
+        "accessed": 1141
+      }
+    },
+    {
+      "name": "Drain",
+      "baseline2022": {
+        "advocated": 326,
+        "accessed": 328
+      },
+      "current2025": {
+        "advocated": 440,
+        "accessed": 433
+      }
+    },
+    {
+      "name": "water tank",
+      "baseline2022": {
+        "advocated": 103,
+        "accessed": 94
+      },
+      "current2025": {
+        "advocated": 161,
+        "accessed": 145
+      }
+    },
+    {
+      "name": "sanitary pads",
+      "baseline2022": {
+        "advocated": 278,
+        "accessed": 219
+      },
+      "current2025": {
+        "advocated": 339,
+        "accessed": 281
+      }
+    },
+    {
+      "name": "widow pension",
+      "baseline2022": {
+        "advocated": 55,
+        "accessed": 42
+      },
+      "current2025": {
+        "advocated": 80,
+        "accessed": 62
+      }
+    },
+    {
+      "name": "old age pension",
+      "baseline2022": {
+        "advocated": 54,
+        "accessed": 46
+      },
+      "current2025": {
+        "advocated": 92,
+        "accessed": 78
+      }
+    }
+  ],
+  "byGP": [
+    {
+      "name": "Karikot",
+      "totalHouseholds": 602,
+      "entitlements": {
+        "Aadhar card": {
+          "advocated": 533,
+          "accessed": 522
+        },
+        "Ration Card": {
+          "advocated": 469,
+          "accessed": 435
+        },
+        "MNREGA job card": {
+          "advocated": 439,
+          "accessed": 404
+        },
+        "mid-day meal/school food": {
+          "advocated": 500,
+          "accessed": 472
+        },
+        "family register": {
+          "advocated": 382,
+          "accessed": 372
+        },
+        "labor card": {
+          "advocated": 372,
+          "accessed": 364
+        },
+        "vaccination": {
+          "advocated": 384,
+          "accessed": 368
+        },
+        "PAN card": {
+          "advocated": 325,
+          "accessed": 309
+        },
+        "community toilet": {
+          "advocated": 109,
+          "accessed": 100
+        },
+        "private toilet": {
+          "advocated": 276,
+          "accessed": 275
+        },
+        "school toilet": {
+          "advocated": 501,
+          "accessed": 493
+        },
+        "Drain": {
+          "advocated": 131,
+          "accessed": 122
+        },
+        "water tank": {
+          "advocated": 88,
+          "accessed": 78
+        },
+        "sanitary pads": {
+          "advocated": 201,
+          "accessed": 166
+        },
+        "widow pension": {
+          "advocated": 46,
+          "accessed": 34
+        },
+        "old age pension": {
+          "advocated": 47,
+          "accessed": 40
+        }
+      }
+    },
+    {
+      "name": "Fakirpuri",
+      "totalHouseholds": 229,
+      "entitlements": {
+        "Aadhar card": {
+          "advocated": 220,
+          "accessed": 217
+        },
+        "Ration Card": {
+          "advocated": 220,
+          "accessed": 216
+        },
+        "MNREGA job card": {
+          "advocated": 203,
+          "accessed": 201
+        },
+        "mid-day meal/school food": {
+          "advocated": 188,
+          "accessed": 181
+        },
+        "family register": {
+          "advocated": 209,
+          "accessed": 209
+        },
+        "labor card": {
+          "advocated": 156,
+          "accessed": 154
+        },
+        "vaccination": {
+          "advocated": 126,
+          "accessed": 121
+        },
+        "PAN card": {
+          "advocated": 162,
+          "accessed": 160
+        },
+        "community toilet": {
+          "advocated": 23,
+          "accessed": 24
+        },
+        "private toilet": {
+          "advocated": 179,
+          "accessed": 176
+        },
+        "school toilet": {
+          "advocated": 197,
+          "accessed": 196
+        },
+        "Drain": {
+          "advocated": 146,
+          "accessed": 146
+        },
+        "water tank": {
+          "advocated": 6,
+          "accessed": 6
+        },
+        "sanitary pads": {
+          "advocated": 52,
+          "accessed": 50
+        },
+        "widow pension": {
+          "advocated": 12,
+          "accessed": 11
+        },
+        "old age pension": {
+          "advocated": 7,
+          "accessed": 6
+        }
+      }
+    },
+    {
+      "name": "Chahalwa",
+      "totalHouseholds": 183,
+      "entitlements": {
+        "Aadhar card": {
+          "advocated": 177,
+          "accessed": 174
+        },
+        "Ration Card": {
+          "advocated": 167,
+          "accessed": 162
+        },
+        "MNREGA job card": {
+          "advocated": 148,
+          "accessed": 141
+        },
+        "mid-day meal/school food": {
+          "advocated": 145,
+          "accessed": 136
+        },
+        "family register": {
+          "advocated": 142,
+          "accessed": 137
+        },
+        "labor card": {
+          "advocated": 112,
+          "accessed": 112
+        },
+        "vaccination": {
+          "advocated": 90,
+          "accessed": 85
+        },
+        "PAN card": {
+          "advocated": 79,
+          "accessed": 74
+        },
+        "community toilet": {
+          "advocated": 11,
+          "accessed": 9
+        },
+        "private toilet": {
+          "advocated": 75,
+          "accessed": 72
+        },
+        "school toilet": {
+          "advocated": 165,
+          "accessed": 166
+        },
+        "Drain": {
+          "advocated": 34,
+          "accessed": 33
+        },
+        "water tank": {
+          "advocated": 6,
+          "accessed": 7
+        },
+        "sanitary pads": {
+          "advocated": 16,
+          "accessed": 11
+        },
+        "widow pension": {
+          "advocated": 3,
+          "accessed": 4
+        },
+        "old age pension": {
+          "advocated": 8,
+          "accessed": 8
+        }
+      }
+    },
+    {
+      "name": "Bajpur Bankati",
+      "totalHouseholds": 113,
+      "entitlements": {
+        "Aadhar card": {
+          "advocated": 102,
+          "accessed": 93
+        },
+        "Ration Card": {
+          "advocated": 101,
+          "accessed": 82
+        },
+        "MNREGA job card": {
+          "advocated": 84,
+          "accessed": 68
+        },
+        "mid-day meal/school food": {
+          "advocated": 105,
+          "accessed": 87
+        },
+        "family register": {
+          "advocated": 63,
+          "accessed": 57
+        },
+        "labor card": {
+          "advocated": 77,
+          "accessed": 65
+        },
+        "vaccination": {
+          "advocated": 83,
+          "accessed": 71
+        },
+        "PAN card": {
+          "advocated": 73,
+          "accessed": 57
+        },
+        "community toilet": {
+          "advocated": 60,
+          "accessed": 60
+        },
+        "private toilet": {
+          "advocated": 69,
+          "accessed": 65
+        },
+        "school toilet": {
+          "advocated": 99,
+          "accessed": 90
+        },
+        "Drain": {
+          "advocated": 52,
+          "accessed": 56
+        },
+        "water tank": {
+          "advocated": 39,
+          "accessed": 33
+        },
+        "sanitary pads": {
+          "advocated": 51,
+          "accessed": 36
+        },
+        "widow pension": {
+          "advocated": 12,
+          "accessed": 7
+        },
+        "old age pension": {
+          "advocated": 17,
+          "accessed": 12
+        }
+      }
+    },
+    {
+      "name": "Mangalpurwa",
+      "totalHouseholds": 88,
+      "entitlements": {
+        "Aadhar card": {
+          "advocated": 85,
+          "accessed": 84
+        },
+        "Ration Card": {
+          "advocated": 82,
+          "accessed": 82
+        },
+        "MNREGA job card": {
+          "advocated": 78,
+          "accessed": 77
+        },
+        "mid-day meal/school food": {
+          "advocated": 65,
+          "accessed": 61
+        },
+        "family register": {
+          "advocated": 75,
+          "accessed": 75
+        },
+        "labor card": {
+          "advocated": 57,
+          "accessed": 57
+        },
+        "vaccination": {
+          "advocated": 36,
+          "accessed": 35
+        },
+        "PAN card": {
+          "advocated": 28,
+          "accessed": 28
+        },
+        "community toilet": {
+          "advocated": 3,
+          "accessed": 5
+        },
+        "private toilet": {
+          "advocated": 36,
+          "accessed": 35
+        },
+        "school toilet": {
+          "advocated": 83,
+          "accessed": 84
+        },
+        "Drain": {
+          "advocated": 10,
+          "accessed": 10
+        },
+        "water tank": {
+          "advocated": 4,
+          "accessed": 4
+        },
+        "sanitary pads": {
+          "advocated": 5,
+          "accessed": 4
+        },
+        "widow pension": {
+          "advocated": 2,
+          "accessed": 2
+        },
+        "old age pension": {
+          "advocated": 5,
+          "accessed": 5
+        }
+      }
+    },
+    {
+      "name": "Vishunapur",
+      "totalHouseholds": 73,
+      "entitlements": {
+        "Aadhar card": {
+          "advocated": 73,
+          "accessed": 73
+        },
+        "Ration Card": {
+          "advocated": 73,
+          "accessed": 70
+        },
+        "MNREGA job card": {
+          "advocated": 72,
+          "accessed": 70
+        },
+        "mid-day meal/school food": {
+          "advocated": 47,
+          "accessed": 46
+        },
+        "family register": {
+          "advocated": 73,
+          "accessed": 73
+        },
+        "labor card": {
+          "advocated": 70,
+          "accessed": 71
+        },
+        "vaccination": {
+          "advocated": 16,
+          "accessed": 15
+        },
+        "PAN card": {
+          "advocated": 52,
+          "accessed": 52
+        },
+        "community toilet": {
+          "advocated": 63,
+          "accessed": 63
+        },
+        "private toilet": {
+          "advocated": 57,
+          "accessed": 55
+        },
+        "school toilet": {
+          "advocated": 73,
+          "accessed": 73
+        },
+        "Drain": {
+          "advocated": 62,
+          "accessed": 61
+        },
+        "water tank": {
+          "advocated": 2,
+          "accessed": 1
+        },
+        "sanitary pads": {
+          "advocated": 2,
+          "accessed": 2
+        },
+        "widow pension": {
+          "advocated": 4,
+          "accessed": 3
+        },
+        "old age pension": {
+          "advocated": 1,
+          "accessed": 2
+        }
+      }
+    },
+    {
+      "name": "Badkhadiya",
+      "totalHouseholds": 41,
+      "entitlements": {
+        "Aadhar card": {
+          "advocated": 39,
+          "accessed": 40
+        },
+        "Ration Card": {
+          "advocated": 38,
+          "accessed": 38
+        },
+        "MNREGA job card": {
+          "advocated": 35,
+          "accessed": 34
+        },
+        "mid-day meal/school food": {
+          "advocated": 41,
+          "accessed": 41
+        },
+        "family register": {
+          "advocated": 38,
+          "accessed": 38
+        },
+        "labor card": {
+          "advocated": 33,
+          "accessed": 31
+        },
+        "vaccination": {
+          "advocated": 32,
+          "accessed": 32
+        },
+        "PAN card": {
+          "advocated": 29,
+          "accessed": 27
+        },
+        "community toilet": {
+          "advocated": 7,
+          "accessed": 7
+        },
+        "private toilet": {
+          "advocated": 26,
+          "accessed": 25
+        },
+        "school toilet": {
+          "advocated": 39,
+          "accessed": 39
+        },
+        "Drain": {
+          "advocated": 5,
+          "accessed": 5
+        },
+        "water tank": {
+          "advocated": 16,
+          "accessed": 16
+        },
+        "sanitary pads": {
+          "advocated": 12,
+          "accessed": 12
+        },
+        "widow pension": {
+          "advocated": 1,
+          "accessed": 1
+        },
+        "old age pension": {
+          "advocated": 7,
+          "accessed": 5
+        }
+      }
+    }
+  ]
+}

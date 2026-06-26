@@ -1,0 +1,894 @@
+﻿================================================================================
+DOCUMENT: Results_Snapshot_Improvement_Table.md
+================================================================================
+# Results Snapshot Improvement Table
+
+| Insight_or_Card | Current_Display | Improved_Display | Source_File | Source_Sheet_or_Field | Calculation_Logic | Can_Calculate_Now | Missing_Data | Safe_Donor_Wording |
+|---|---|---|---|---|---|---|---|---|
+| Card 1: Farmer Reach | 1866 farmers | 1866 farmers / 1289 HHs (RF 1.1) | Updated_Fasal Crop wise details | Row Count / Unique HH | Count of farmers | Partial | Unique HH deduplication needs validation | Farmers covered under FASAL |
+| Card 2: Farmer Institutions | 82 AAS | 82 AAS (RF 1.1.1) | FASAL MIS - Consolidated | Row 1.1.1 | Direct extraction | Yes | None | AAS collectives formed against RF target |
+| Card 3: Training Reach | 659 participants | 659 participants (RF 3.1) | FASAL MIS / Training Logs | Row 3.1 | Sum of direct participants | Yes | Unique individuals | Community members reached through capacity-building activities |
+| Card 4: Agriculture Outcome | 137 farmers | 137 Turmeric farmers (Γé╣34,202 Avg Net Income) (RF 2.6) | FASAL MIS - Consolidated | Turmeric row | Count of farmers & Avg Income | Yes | Baseline crop diversity / Income for all crops | Crop diversity and income outcomes calculated from crop-wise data |
+| Card 5: Household Economic Value | Pending calculation | Net Farming Income + Food Savings + Verified Entitlements | FDB / Leverage AASs | Multiple | Sum of monetizable value | No (Pending source calculation) | Food savings value, per-HH entitlement amounts | Household Economic Value: Calculation pending source validation |
+| Six GP Snapshot | Access / Advocacy conversion | GP-wise: Valid HHs, Entitlements Received, Income (Pending), Food Savings (Pending) | entitlements_trend.json | byGP array | Aggregation by GP | Partial | GP-wise Income & Food Savings | Verified entitlement received counts and valid data coverage per GP |
+
+
+================================================================================
+DOCUMENT: Results_Snapshot_Source_Register.md
+================================================================================
+# Results Snapshot Source Register
+
+| Metric_Name | Displayed_Value | Unit | Source_File | Source_Sheet_or_Page | Source_Row_or_Column | Raw_Field_Name | Calculation_Logic | Deduplication_Rule | Time_Period | RF_Link_or_FDB_Category | Evidence_Status | Can_Display | Safe_Donor_Wording | What_Not_To_Claim |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Farmer Outreach | 1,866 | farmers | Updated_Fasal Crop wise details | N/A | Row count | N/A | Count of rows in crop details file | None (assume 1 farmer per row) | 2025 | RF 1.1 | Verified | Yes | "Farmers covered under FASAL" | Do not claim these are unique households unless verified |
+| Farmer Institutions | 82 | AAS Collectives | FASAL MIS - Consolidated | N/A | Row 1.1.1 | AAS groups formed | Reported value in MIS | N/A | 2022-2025 | RF 1.1.1 | Verified | Yes | "AAS collectives formed against RF target." | Do not claim functionality/activity here |
+| Training and Capacity Reach | 659 | participants | FASAL MIS - Consolidated | N/A | Row 3.1 | No of CRP training programs | Sum of participants in training logs | N/A | 2022-2025 | RF 3.1 | Verified | Yes | "Community members reached through capacity-building activities." | Do not treat training as adoption or outcome |
+| Agriculture Outcome Evidence | 137 | farmers | FASAL MIS - Consolidated | N/A | Row | Turmeric | Count of farmers cultivating Turmeric | N/A | 2025 | RF 2.6 | Verified | Yes | "Farmers with calculated net income change from baseline." | Do not use "impact achieved" |
+| Household Economic Value | - | - | - | - | - | - | - | - | - | - | Source pending | Yes with caveat | "Household Economic Value: Calculation pending source validation." | - |
+
+
+================================================================================
+DOCUMENT: Evidence_Mapping.md
+================================================================================
+# FASAL 2022-2025: Evidence Mapping and Extraction Register
+
+This document serves as the comprehensive evidence spine for the DEHAT FASAL project dashboard. It maps the quantitative and qualitative outcomes extracted from project files against the Results Framework (RF) and broader intersectional goals.
+
+## 1. Executive Summary of Quantitative Evidence
+- **AAS Groups Formed**: 82 (Target: 80)
+- **Krishi Mitras Trained**: 48 (Target: 48)
+- **CRP Trainings Conducted**: 34 with 643 total participants.
+- **Direct Training Participation**: 659 participants across capacity-building programs.
+- **Total Validated Convergence/Leverage**: Γé╣8.25 Cr (Γé╣82,500,000)
+- **Agriculture - Multi-Layer Farming**: 152 adopting farmers tracked.
+- **Agriculture - LEISA Training**: 296 participants tracked.
+- **Agriculture - Vegetable Cultivation**: 966 farmers tracked.
+- **Agriculture - Nutritional Gardens**: 3,306 instances recorded.
+- **Income - Turmeric Adoption**: 137 adopters generating Γé╣46,17,245 in total value (Average Net Income: Γé╣34,202).
+
+## 2. Source Inventory
+| Source_ID | Source_File_Name | File_Type | Primary_Evidence_Function | Data_Level |
+|---|---|---|---|---|
+| SRC_01 | FASAL MIS - Consolidated.md | MIS/Data | Crop-wise production, Area, Farmers | Farmer/Crop |
+| SRC_02 | Updated_Fasal Crop wise details_Update _2025.md | MIS/Data | 2025 Crop-wise updates | Farmer/Crop |
+| SRC_03 | Training data_FASAL MIS 2025.md | MIS/Data | 2025 Trainings | Training/Village |
+| SRC_04 | FDB Booklet.md | Qualitative | FDB Logic & Household tracking | Household |
+| SRC_05 | all_cols.txt | Data Schema | FDB Dataset Columns | Household |
+| SRC_06 | 1. Leverage AASs 2025.xlsx | Financial | Entitlements and Convergence | GP/Block |
+| SRC_07 | Grant Report January to December 2024.pdf | Narrative | Claim extraction & Context | Programme |
+
+## 3. RF and Grant Application Skeleton
+| RF_ID | RF_Level | Indicator_Text | Target | Achieved | Dashboard_Pillar |
+|---|---|---|---|---|---|
+| RF_1.1.1 | Output | AAS groups formed | 80 | 82 | Institutions |
+| RF_3.1 | Output | No of CRP training programs | 48 | 48 | Capacity Building |
+| RF_4.1 | Outcome | Natural Mgmt & LEISA Technique | N/A | 296 trained | Agriculture |
+
+## 4. Grant Report Claim Extraction
+| Grant_Claim_ID | Claim_Text | Number_Reported | Verification_Status | Dashboard_Use |
+|---|---|---|---|---|
+| GC_01 | Turmeric Adopters generated high income | 137 adopters | Verified via MIS | Production Tab Headline |
+| GC_02 | AAS Groups consolidated for active engagement | 74 active (82 formed) | Triangulated | Institutions Tab |
+| GC_03 | High convergence of public funds | 2.8 Cr (2024-25) | Triangulated (Total 8.25 Cr) | Economic Tab Headline |
+
+## 5. Agriculture, Crop Diversity, and Income Analysis
+| Crop_Category | Farmers_Tracked | Evidence_Label | Dashboard_Use |
+|---|---|---|---|
+| Multi-Layer | 152 | Directly calculated from raw MIS data | Agriculture Tab |
+| Nutritional Gardens | 3,306 | Directly calculated from raw MI
+
+... [TRUNCATED - total 4478 chars]
+
+================================================================================
+DOCUMENT: Master.md
+================================================================================
+You are designing an evidence-disciplined, donor-facing dashboard for the FASAL five-year phase implemented by DEHAT with support from APPI.
+
+This dashboard is for the final donor visit of the five-year phase. It must show everything DEHAT can credibly demonstrate, but it must not overclaim, hallucinate, or create unsupported impact statements.
+
+Use only the files attached in this session. Do not use outside information.
+
+Attached evidence package:
+
+(read the directory)
+
+Core task:
+
+Read every file line by line, sheet by sheet, column by column, and indicator by indicator. Build a rigorous mapping that shows:
+
+A. Which FDB fields correspond to RF Activities, RF Outputs, and RF Outcomes.
+B. Which FDB fields do not correspond directly to the RF but are important for showing DEHATΓÇÖs family-centred, rights-based, and intersectional approach.
+C. Which MIS/training/crop-wise fields verify RF activities, outputs, or outcomes.
+D. Which Grant Report claims are supported, partially supported, or unsupported by raw data.
+E. Which household-level baseline-to-endline insights can validly be produced.
+F. Which dashboard cards can be safely created, and which claims must be avoided.
+
+Important evidence rules:
+
+1. Do not hallucinate.
+2. Do not infer achievement from intention.
+3. Do not infer outcome from activity.
+4. Do not merge ΓÇ£training conductedΓÇ¥ with ΓÇ£practice adopted.ΓÇ¥
+5. Do not merge ΓÇ£participant attendedΓÇ¥ with ΓÇ£participant changed behaviour.ΓÇ¥
+6. Do not merge ΓÇ£AAS formedΓÇ¥ with ΓÇ£AAS active.ΓÇ¥
+7. Do not merge ΓÇ£AAS activeΓÇ¥ with ΓÇ£AAS effective.ΓÇ¥
+8. Do not merge ΓÇ£claim raisedΓÇ¥ with ΓÇ£claim resolved.ΓÇ¥
+9. Do not merge ΓÇ£scheme awarenessΓÇ¥ with ΓÇ£scheme application.ΓÇ¥
+10. Do not merge ΓÇ£scheme facilitatedΓÇ¥ with ΓÇ£scheme approved.ΓÇ¥
+11. Do not merge ΓÇ£scheme approvedΓÇ¥ with ΓÇ£benefit received.ΓÇ¥
+12. Do not merge ΓÇ£Krishi Mitra trainedΓÇ¥ with ΓÇ£Krishi Mitra providing farmer support.ΓÇ¥
+13. Do not merge ΓÇ£crop cultivatedΓÇ¥ with ΓÇ£income increased.ΓÇ¥
+14. Do not display any number as achievement unless source-verified.
+15. If a source is missing, label the result as ΓÇ£Source not foundΓÇ¥ or ΓÇ£Evidence pending.ΓÇ¥
+16. If a number is reported in the Grant Report but not found in raw data, label it as ΓÇ£Reported only.ΓÇ¥
+17. If raw data supports part of a claim, label it as ΓÇ£Partially verified.ΓÇ¥
+18. If FDB supports an outcome but not causality, label it as ΓÇ£FDB outcome evidence, causality not established.ΓÇ¥
+19. Do not assume that household-level data is baseline-to-endline. First test whether baseline-to-endline comparison is structurally possible.
+20. Sensitive household/person-level data must be anonymised and aggregated.
+
+Step 1: Extract RF architecture
+
+From the RF Template, extract every Activity, Output, Outcome, indicator, target, unit, and timeline.
+
+Create a table with these columns:
+
+RF_ID
+RF_Level: Activity / Output / Outcome
+RF_Text
+Indicator_Text
+Target
+Unit
+Theme
+Dashboard_Pillar
+Source_File
+Sheet_or_Page
+Source_Location
+Notes
+
+Step 2: Extract Grant Report claims
+
+From each Grant Report,
+
+... [TRUNCATED - total 14008 chars]
+
+================================================================================
+DOCUMENT: Midterm self evaluation.md
+================================================================================
+**Developmental Association for Human Advancement**
+
+**(DEHAT)**
+
+**Farmers's Action fo Sustainable Agro-based Livelihoods- FASAL**
+
+***Frame for Self-Assessment Report***
+
+**Outcome 1:**
+
+**Community organization and Institution building**
+
+**Target**
+
+**Achieved (Till date)**
+
+Small and marginalised farmers are able to receive leverage, and govt. support in agriculture and livelihoods/employment opportunities (MNREGA job cards, Widow pension, Kisan Credit Card, Ayushman health card etc) through community led negotiations.
+
+80 AAS groups are claiming entitlements and rights by leveraging resources for village development plans through the Gram Sabha (ensuring proper sanitation in village, facilitate in development of primary school, access to healthcare, PDS etc)
+
+***Please provide broad explanations regarding the above-mentioned indicators, what worked and did not work, challenges faced etc***
+
+*Also explain the following: -*
+
+-   What % old the eligible families are getting old age pension and whats is the increase percentage of such scheme in last 3 years.
+-   What % of MNREGA job card holder got at least 50 days job.
+-   How many Families in your intervention villages are having Ayushaman card and what is the coverage % of total HH
+-   How many villages have submitted the village development plan and how many farmers were engaged.
+
+***Attach the List of Farmers whoΓÇÖs* participated in Village development plan.**
+
+**Outcome 2:**
+
+**Objective/Intervention #2: Enhance productivity to ensure 12 months of food and nutrition security and increased agricultural income of at least 50% households from Rs 10000 per acre/per annum to Rs 60000 per acre/ annum**
+
+**Target**
+
+**Achieved (Till date)**
+
+1500 households have overall food security for 12 months (increase in production from 5 quintals/year to 12 quintals/year) through Zaid cultivation alongside Rabi & Kharif crops.
+
+Average agricultural income for 1500 families increases from 10000/acre/annum to at least 60000/acre/annum through Crop Intensification System and/or line sowing
+
+***Please provide broad explanations regarding the above-mentioned indicators, what worked and did not work, challenges faced etc***
+
+***What were the key efforts done by the project to ensure the food security.?***
+
+***Attach the List of Farmers whoΓÇÖs* income increases from 10000/acre/annum to at least 60000/acre/annum.**
+
+**Objective/Intervention #3: A network of well trained 80 Community Resource Persons**
+
+**Target**
+
+**Achieved (Till date)**
+
+80 Krishi Mitras are impacting at least 2000 farmers (1 Krishi Mitra impacting 5 direct/indirect beneficiaries) through CASCADE model
+
+**Please enclose the list of Krishi Mitr**
+
+**Objective/Intervention #4: Enable citizen's/farmer's access to Rights, entitlements, government schemes and services**
+
+**Target.**
+
+**Achieved (Till date)**
+
+Small and marginalised farmers are able to receive leverage, and govt. support in agriculture and livelihoods/employment opportunities (MNREGA j
+
+... [TRUNCATED - total 6325 chars]
+
+================================================================================
+DOCUMENT: HY4 Fluxx Part-I Report.md
+================================================================================
+Section 1: How did it go?
+
+**Narrative on key highlights:**
+
+**Opportunities:**
+
+1\. Strengthening Community-Based Organizations (CBOs):  
+a. Opportunity: The formation and empowerment of organizations like the "Sangharsh Block Level Federation" and "Aajeevika Adhikar Sanghathans" at various levels (Hamlet and Gram Panchayat) have significantly enhanced the community's capacity to engage in self-governance and economic self-determination.
+
+b. Achievement: These CBOs have established a strong identity within the community by demonstrating tangible results, earning trust, and gaining recognition from government officials, further legitimized by their voluntary contributions, such as providing office space.
+
+2\. Empowering Women in Local Governance:  
+a. Opportunity: The program has effectively leveraged advocacy initiatives to significantly increase the participation of women in the governance processes at various administrative levels.
+
+b. Achievement: Women's consistent and high participation rates in meetings (exceeding 50%) have been pivotal in enhancing their influence and role in decision-making processes, crucial for advancing gender equality and inclusive governance. The advocacy efforts have led to a collective leverage amount of more than Γé╣2.5 Crore from government resources in the reported HYs, bringing the total number to more than Γé╣ 3.04 Crore, including the previous HY's numbers.
+
+3\. Economic Stability through LIESA-based Natural Agriculture:  
+a. Opportunity: Implementing Low External Input Sustainable Agriculture (LIESA) has proven effective in increasing the economic stability of participating families.
+
+b. Achievement: The increased income from LIESA-based practices has motivated more families to join and engage with CBOs, thereby spreading the adoption of sustainable and economically beneficial agricultural practices across the community.
+
+4\. Addressing Community Expectations and Ownership:  
+a. Opportunity: The evolving role of CBOs presents an opportunity to further educate and unify the community around the principles of collective action and shared benefits.
+
+b. Achievement: The program's focus on maintaining a community-centred ethos has been essential in managing expectations about personal gains versus collective benefits, thereby fostering a more cohesive community approach.
+
+**Challenges:**
+
+1\. Intrusion of Exploitative Organisations:  
+o What: Entry of organisations that exploit local resources and communities and corrupt the culture of volunteerism and sense of community among the citizens of DEHAT's intervention villages. E.g., The organisations are selling sanitary pads, which is to be leveraged from Nyaya Panchayat Resource Center through advocacy efforts, maternal and child wellness products, which is to be leveraged from Anganwaadi Centers through advocacy efforts, and fake organic pesticides and fertilisers, which can be made at home for free with the given natural resources. The organisations sell through AAS
+
+... [TRUNCATED - total 12274 chars]
+
+================================================================================
+DOCUMENT: DEHAT Breif Presentation.md
+================================================================================
+Developmental   Association for Human Advancement
+
+Particulars   Details  Legal Name of the Organization   Developmental Association for Human Advancement - DEHAT  Nature of the Organization   Society  Registration Number   Society Registration Act - 21, 1860: 370/2000  Registration Date   21 August, 2000 (22 Years of Existence)  Authorised Contact Person   Devyani Chaturvedi (Secretary - Cum - Chief Executive)  Head Office   ΓÇ£SewakunjΓÇ¥, Maseehabad Road via Kati   Chauraha , Huzoorpur Marg, Bahraich  Email   joinus@dehatindia.org ,   devyani@dehatindia.org  NITI Aayog Darpan UID   UP/2009/023065  PAN Number   AAAAD3793Q  TAN Number   LKND07117F  12AA Registration Number and Validity   AAAAD3793QE20165 (Valid till 31 March, 2027)  80G Registration Number and Validity   AAAAD3793QF2021301 (Valid till 31 March, 2027)  FCRA Registration Number and Validity   136260010 (Valid till 30 June, 2022)  PWD Act Registration Number   3998/2017 - 18  Tata Institute of Social Sciences (Assessment and Empanelment Standards for  Development Institutions in India) UID  TISS AESDII/2017/12/30 Empanelled with ΓÇ£AdvancedΓÇ¥ Category in ΓÇ¥Large  Scale Operations with ΓÇÿAΓÇÖ Grade  Bombay Stock Exchange, Confederation of Industries in India and Indian Institute of  Corporate Affairs Accreditation (BSE - Samman) UID   6341  Charities Aid Foundation Accreditation UID   275/N - 21/2016 - 17  GuideStar Transparency Key UID   1650  Annual Turnover Average for the last three years   INR 1.79 Crores (17.9 Million)  Organization Credentials
+
+Vision, Mission and Theory of Change  A child centred society in which all children enjoy the fullest  scope of their rights and lead fulfilling lives.  To educate, organize and empower the deprived and  underprivileged sections of society, in order to ensure the basic  rights of the children  If children are assured of their survival, protection and  participation in the development process, only then can a  society achieve sustainable development.
+
+What do we do?  RIGHT TO SURVIVAL   RIGHT TO DEVELOPMENT   RIGHT TO PARTICIPATION RIGHT TO PROTECTION
+
+What do we do under each of these UNCRC Rights and  itΓÇÖs link with SDGs  OUR END RESULT  MODEL FOR  CHILD RIGHTS  SECURE  LIVELIHOOD  SAFE  PREGNANCY  EXCELLENT  EDUCATION  HEALTHY BIRTH &  NURISHING CARE  UNTIL INFANT  TURNS 5  PARTICIPATION IN  THE  DEVELOPEMENT  PROCESS OF THE  SOCIETY  CHILD  PROTECTION  Complementing SDGs
+
+Process  Behaviour  Change  Demand  Generation  System  Strengthening  Service  Delivery
+
+Communities in underserved areas are  deprived of quality information,  education, training and exposure. Due  to limited opportunities, they follow  harmful practices which put them at  risk.   Therefore, weΓÇÖre committed to  helping a community transform its  practices in a way that improves their  quality of life.  Numerous government provisions  are in place but due to lack of  awareness, they remain  inaccessible to the eligible  communities, especially the  marginalized sections.   
+
+... [TRUNCATED - total 6565 chars]
+
+================================================================================
+DOCUMENT: fdb.txt
+================================================================================
+ifjokj	ifjokj	ifjokj
+fodkl	fodkl	fodklfLFkfr	fLFkfr dkMZ	dkMZ	fLFkfr dkMZ
+MsoyiesUVy ,lkslh,ΓÇÖku Q+kWj ├íqeu ,MokUlesUV
+cky vf/kdkjksa ds lqfufΓÇÖprdj.k gsrq izfrc) ,d lekt dk;Z laxBu
+
+-- 1 of 16 --
+
+ifjokj ds lnL; dk uke cky laln fd'kksj laxBu ;qok laln vkthfodk
+vf/kdkj laxBu vU; vf/kdkj-
+vk/kkfjr laxBu
+vkl lnL; @ fdlku dk uke
+firk@ifr@ek┬í@iRuh dk uke
+Qksu
+vkl dksM vkl lnL;@fdlku dksM
+vkl dk uke iqjok dksM
+xk┬ío ┬╝iqjok┬╜ dk uke xzke iapk;r
+Cykd dk uke rglhy
+iksLV vkWfQl Fkkuk
+ftyk fiu dksM
+ck?k fe=@xtfe=
+Lo;a lgk;rk lewg ┬╝SHG┬╜
+iapk;r lgk;d iapk;r lgk;d OgkV~l,i uacj
+ifjokj ls tqM+s d`fΓÇ¥k fe= d`f"k fe= OgkV~l,i uacj
+ikliksVZ lkbZt+ QksVks
+vkl lnL; @ fdlku dk uke dk
+O;fDrxr fooj.k
+
+-- 2 of 16 --
+
+iks"kd rRo ┬╝frjaxk┬╜ vk/kkfjr Hkkstu
+vkius D;k [kkuk [kk;k\
+twu	v├ºSy	Qjojh	tuojh 	ekpZ 	ebZ
+vjgj nky
+puk nky
+eVj nky
+elwj nky
+lks;kchu
+xsagwa
+eDdk
+[kjcwtk
+dsyk
+vU;
+djsyk
+ykSdh
+lgtu dh i├Ökh
+lkx
+fHkaMh
+uhacw
+dsyk
+yksfc;k
+d├¡w
+rqjbZ
+dVgy
+ijoy
+dqan:
+[khjk
+vU;
+nw/k
+iuhj
+vaMk
+Qwy xksHkh
+pkoy
+vU;
+Hkkstu ds ├ºdkj [+kqn
+	mxk;k cktkj ls
+	[+kjhnk [+kqn
+	mxk;k cktkj ls
+	[+kjhnk [+kqn
+	mxk;k cktkj ls
+	[+kjhnk [+kqn
+	mxk;k cktkj ls
+	[+kjhnk
+	[+kqn
+	mxk;k cktkj ls
+	[+kjhnk
+	[+kqn
+	mxk;k cktkj ls
+	[+kjhnk
+gjh
+lQsn
+ihyk
+
+-- 3 of 16 --
+
+iks"kd rRo ┬╝frjaxk┬╜ vk/kkfjr Hkkstu
+vjgj nky
+puk nky
+eVj nky
+elwj nky
+lks;kchu
+xsagwa
+eDdk
+[kjcwtk
+dsyk
+vU;
+djsyk
+ykSdh
+lgtu dh i├Ökh
+lkx
+fHkaMh
+uhacw
+dsyk
+yksfc;k
+d├¡w
+rqjbZ
+dVgy
+ijoy
+dqan:
+[khjk
+vU;
+nw/k
+iuhj
+vaMk
+Qwy xksHkh
+pkoy
+vU;
+Hkkstu ds ├ºdkj [+kqn
+	mxk;k cktkj ls
+	[+kjhnk
+tqykbZ
+[+kqn
+	mxk;k cktkj ls
+	[+kjhnk
+flracj
+[+kqn
+	mxk;k cktkj ls
+	[+kjhnk
+uoacj
+[+kqn
+	mxk;k cktkj ls
+	[+kjhnk
+fnlacj
+[+kqn
+	mxk;k cktkj ls
+	[+kjhnk
+v├ñwcj
+[+kqn
+	mxk;k cktkj ls
+	[+kjhnk
+vxLr
+gjh
+lQsn
+ihyk
+vkius D;k [kkuk [kk;k\
+
+-- 4 of 16 --
+
+ifjokj fodkl fLFkfr dkMZ
+xzke lHkk@xzke Lrjh; LokLF;] LoPNrk ,oa iks"k.k lfefr@Ldwy izca/ku lfefr@xzke Lrjh; cky dY;k.k
+,oa lqj{kk lfefr esa gqbZ Hkkxhnkjh ls feys gd+@vf/kdkjksa dh fLFkfr
+ljdkjh ra=
+┬╝ljdkjh vΓÇÜfQ+l@vΓÇÜfQlj@
+dSEi@xzke iapk;r vΓÇÜfQl@
+iEQysV bR;kfn@├ºf'k{k.k@ V┬¬sfuax@
+ehfVax/SHG@vU; foHkkx ┬╜
+cky laln@fd'kksj@
+fd'kksjh lewg@;qok
+laxBu
+igyh Nekgh
+┬╝tuojh ls twu┬╜
+gk┬í ugha gk┬í ugha
+LoNrk%
+1 lkeqnkf;d 'kkSpky;
+2 futh 'kkSpky;
+3 Ldwy 'kkSpky;
+4 dEiksLV fiV@?kwj x├»k
+5 ukyh
+6 lkeqnkf;d lks[krk fiV
+7 lSfuV┬¬h iSM
+ΓÇÿkq) is; ty O;oLFkk%
+1 ikuh Vadh
+2 pyrh is; ty VksVh
+3 vkaxuokM+h vkj-vks@is;;ty O;oLFkk
+iks"k.k%
+1 jk'ku dkMZ ┬╝BPL@vUrksn;┬╜
+2 xHkZorh iks"kkgkj
+3 ├¿kk=h iks"kkgkj
+4 07 eghus ls 3 lky f'k'kq ds fy, iks"kkgkj
+5 03 lky ls 6 lky f'k'kq ds fy, iks"kkgkj
+6 fd'kksjh iks"kkgkj
+7 feM&Ms&ehy@Ldwy okyk [kkuk
+LokLF;%
+1 ANM vkrh gS
+2 ASHA vkrh gS
+3 vkaxuokM+h vkrh gS
+4 Vhdkdj.k
+5 ASHA/ANM }kjk xHkZ ds igys ,oa xHkZ ds ckn dh tkap
+6 dqiksf"kr cPpksa dh ns[kjs[k@NRC jsQjy
+7 nokbZ forj.k ┬╝vk;ju Qksfyd ,flM] dSfY'k;e] dhM+s okyh nok bR;kfn┬╜
+Ldwy%
+1 vkaxuokM+h ┬╝3&6┬╜
+2 lf├ÿ; Ldwy 'kkSpky;
+3 ├ºkbejh fo|ky;
+4 twfu;j fo|ky;
+5 dEiksftV ┬╝la;qa├ñ] lafofy;u┬╜
+6 gkbZ Ldwy fo|ky;
+7 baVj dΓÇÜyst
+8 Ldwy dh ikuh Vadh
+9 iPphl cPpks is ,d v├¿;kid
+10 v├¿;kid dh mifL
+
+... [TRUNCATED - total 11427 chars]
+
+================================================================================
+FDB RF TRACEABILITY MAP - ALL TABLES
+================================================================================
+
+--- Dashboard_Cards (9 rows) ---
+Columns: ['screen_card', 'dashboard_card', 'primary_rf_link', 'fdb_fields_that_can_feed_it', 'what_fdb_can_safely_prove', 'what_fdb_cannot_prove_alone', 'recommended_status']
+  Row 1: {'screen_card': 'Screen 1 / Coverage', 'dashboard_card': 'Target household coverage and filters', 'primary_rf_link': 'All RF outcomes; project geography', 'fdb_fields_that_can_feed_it': 'District, Block, Village Panchayat, Village Name, AAS Name, land, family members', 'what_fdb_can_safely_prove': 'Geographic and household profile coverage', 'what_fdb_cannot_prove_alone': 'Achievement against RF targets unless deduplicated and reconciled', 'recommended_status': 'Use as filter/context'}
+  Row 2: {'screen_card': 'Screen 2 / Institutions', 'dashboard_card': 'AAS representation', 'primary_rf_link': 'Outcome 1; Output: AAS membership/representation', 'fdb_fields_that_can_feed_it': 'AAS Name; Name of Farmers/AAS Members', 'what_fdb_can_safely_prove': 'Households/members linked to AAS', 'what_fdb_cannot_prove_alone': 'AAS formation, active meetings, leadership, collective claims', 'recommended_status': 'Use with caveat'}
+  Row 3: {'screen_card': 'Screen 2 / Krishi Mitra', 'dashboard_card': 'Households mapped to Krishi Mitra', 'primary_rf_link': 'Outcome 3; Output: 80 Krishi Mitras identified', 'fdb_fields_that_can_feed_it': 'Name of Krishi Mitra related to family; WhatsApp number', 'what_fdb_can_safely_prove': 'Household linkage to a Krishi Mitra', 'what_fdb_cannot_prove_alone': 'Training, active monthly meetings, farmer impact', 'recommended_status': 'Use with caveat'}
+  Row 4: {'screen_card': 'Screen 3 / Food security', 'dashboard_card': '12-month food availability / diversity', 'primary_rf_link': 'Outcome 2: 12 months food and nutrition security', 'fdb_fields_that_can_feed_it': 'Monthly white/green/yellow food consumption fields for 2022, 2023, 2024', 'what_fdb_can_safely_prove': 'Seasonality, reported consumption diversity, food-group availability', 'what_fdb_cannot_prove_alone': 'Production increase or causality from FASAL without triangulation', 'recommended_status': 'Use'}
+  Row 5: {'screen_card': 'Screen 3 / Agriculture income', 'dashboard_card': 'Crop-wise cost, sales, net income', 'primary_rf_link': 'Outcome 2: agricultural income increase', 'fdb_fields_that_can_feed_it': 'Crop cost/income/net income fields for 2022, 2023, 2024', 'what_fdb_can_safely_prove': 'Crop economics trend and household-level agricultural income evidence', 'what_fdb_cannot_prove_alone': 'Per-acre income unless area denominator and crop area are validated', 'recommended_status': 'Use with calculation caveat'}
+  Row 6: {'screen_card': 'Screen 4 / Entitlements', 'dashboard_card': 'Entitlement funnel: awareness ΓåÆ facilitation ΓåÆ received', 'primary_rf_link': 'Outcomes 1 & 4; Output: FRC/scheme facilitation/digital access', 'fdb_fields_that_can_feed_it': 'Where awareness came from; Is leading done; Did you received across schemes and six-month periods', 'what_fdb_can_safely_prove': 'Household-reported service access and receipt status', 'what_fdb_cannot_prove_alone': 'AAS collective claim process or official approval unless triangulated', 'recommended_status': 'Use with caveat'}
+  Row 7: {'screen_card': 'Screen 4 / Village development', 'dashboard_card': 'Village service/village development gains', 'primary_rf_link': 'Outcome 1/4: Gram Sabha and VDP leverage', 'fdb_fields_that_can_feed_it': 'Toilet, soak pit, drain, water, school, PDS, health, Anganwadi-related receipt fields', 'what_fdb_can_safely_prove': 'Household/service-level benefit receipt or availability', 'what_fdb_cannot_prove_alone': 'Exact leverage amount or official sanction status', 'recommended_status': 'Use with report triangulation'}
+  Row 8: {'screen_card': 'Intersectional screen', 'dashboard_card': 'Education, health, nutrition, sanitation, migration, household vulnerability', 'primary_rf_link': 'Outside narrow RF; partially linked to rights/entitlements', 'fdb_fields_that_can_feed_it': 'School, health, nutrition, sanitation, migration, family income fields', 'what_fdb_can_safely_prove': 'DEHAT intersectional/family-centred profile and changes', 'what_fdb_cannot_prove_alone': 'Core FASAL output/outcome achievement unless explicitly linked', 'recommended_status': 'Optional / separate dashboard'}
+  Row 9: {'screen_card': 'Evidence audit', 'dashboard_card': 'RF activities not tracked in FDB', 'primary_rf_link': 'All RF activity rows', 'fdb_fields_that_can_feed_it': 'No direct FDB fields for trainings/meetings/exposures/policies', 'what_fdb_can_safely_prove': 'Nothing directly', 'what_fdb_cannot_prove_alone': 'Training counts, meeting counts, organisational systems; use RF reports/attendance/minutes', 'recommended_status': 'Do not use FDB for activity achievement'}
+
+--- RF_Items (89 rows) ---
+Columns: ['kind', 'rf_sheet', 'rf_row', 'objective', 'rf_item', 'unit', 'grant_end_target', 'source']
+  Row 1: {'kind': 'Outcome', 'rf_sheet': 'Outcome Indicators', 'rf_row': 14, 'objective': 'Objective/Intervention #1: Community organization and Institution building', 'rf_item': 'Small and marginalised farmers are able to receive leverage, and govt. support in agriculture and livelihoods/employment opportunities (MNREGA job cards, Widow pension, Kisan Credit Card, Ayushman health card etc) through community led negotiations.', 'unit': 'Households', 'grant_end_target': 1500, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 2: {'kind': 'Outcome', 'rf_sheet': 'Outcome Indicators', 'rf_row': 15, 'objective': 'Objective/Intervention #1: Community organization and Institution building', 'rf_item': '80 AAS groups are claiming entitlements and rights by leveraging resources for village development plans through the Gram Sabha (ensuring proper sanitation in village, facilitate in development of primary school, access to healthcare, PDS etc)', 'unit': 'Households', 'grant_end_target': 1500, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 3: {'kind': 'Outcome', 'rf_sheet': 'Outcome Indicators', 'rf_row': 30, 'objective': 'Objective/Intervention #2:  Enhance productivity to ensure 12 months of food and nutrition security and increased agricultural income of at least 50% households from Rs 10000 per acre/per annum to Rs 60000 per acre/ annum', 'rf_item': '1500 households have overall food security for 12 months (increase in production from 5 quintals/year to 12 quintals/year) through Zaid cultivation alongside Rabi & Kharif crops.', 'unit': 'Households', 'grant_end_target': 1500, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 4: {'kind': 'Outcome', 'rf_sheet': 'Outcome Indicators', 'rf_row': 31, 'objective': 'Objective/Intervention #2:  Enhance productivity to ensure 12 months of food and nutrition security and increased agricultural income of at least 50% households from Rs 10000 per acre/per annum to Rs 60000 per acre/ annum', 'rf_item': 'Average agricultural income for 1500 families increase from 10000/acre/annum to atleast 60000/acre/annum through Crop Intensification System and/or line sowing', 'unit': 'Households', 'grant_end_target': 1500, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 5: {'kind': 'Outcome', 'rf_sheet': 'Outcome Indicators', 'rf_row': 46, 'objective': 'Objective/Intervention #3: A network of well trained 80 Community Resource Persons', 'rf_item': '80 Krishi Mitras are impacting at least 2000 farmers (1 Krishi Mitra impacting 5 direct/indirect benefeciaries)  through CASCADE model', 'unit': 'Individuals supported by CRPs', 'grant_end_target': 1600, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 6: {'kind': 'Outcome', 'rf_sheet': 'Outcome Indicators', 'rf_row': 57, 'objective': "Objective/Intervention #4: Enable citizen's/farmer's access to Rights, entitlements, government schemes and services", 'rf_item': 'Small and marginalised farmers are able to receive leverage, and govt. support in agriculture and livelihoods/employment opportunities (MNREGA job cards, Widow pension, Kisan Credit Card, Ayushman health card etc) through community led negotiations.', 'unit': 'Households', 'grant_end_target': 1500, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 7: {'kind': 'Outcome', 'rf_sheet': 'Outcome Indicators', 'rf_row': 58, 'objective': "Objective/Intervention #4: Enable citizen's/farmer's access to Rights, entitlements, government schemes and services", 'rf_item': 'Farmers are claiming entitlements and rights by leveraging resources for village development plans through the Gram Sabha (ensuring proper sanitation in village, facilitate in development of primary school, access to healthcare, PDS etc)', 'unit': 'Households', 'grant_end_target': 1500, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 8: {'kind': 'Outcome', 'rf_sheet': 'Outcome Indicators', 'rf_row': 68, 'objective': 'Objective/Intervention #5: Strengthen the organizational systems and programmatic expertise on Agro-based livelihoods domain', 'rf_item': 'Team is able to successfully achieve all the other 4 outomes by project ending', 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 9: {'kind': 'Output', 'rf_sheet': 'Output Indicators', 'rf_row': 16, 'objective': 'Objective/Intervention #1: Community organization and Institution building', 'rf_item': '1 Individual (family head/ bread-earner) from all the 1500 target families have joined an AAS group', 'unit': 'Number of groups', 'grant_end_target': 80, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 10: {'kind': 'Output', 'rf_sheet': 'Output Indicators', 'rf_row': 17, 'objective': 'Objective/Intervention #1: Community organization and Institution building', 'rf_item': 'Atleast 240 individuals (3 leaders) from all 80 AAS groups have joined a Cluster federation', 'unit': 'Number of participants in Cluster level federations ', 'grant_end_target': 240, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 11: {'kind': 'Output', 'rf_sheet': 'Output Indicators', 'rf_row': 18, 'objective': 'Objective/Intervention #1: Community organization and Institution building', 'rf_item': '40 individuals (1-2 leaders) from all 20 vilalages are part of Block level federation', 'unit': 'Number of individuals in Block level federation', 'grant_end_target': 150, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 12: {'kind': 'Output', 'rf_sheet': 'Output Indicators', 'rf_row': 19, 'objective': 'Objective/Intervention #1: Community organization and Institution building', 'rf_item': '960 individuals have participated in direct trainings', 'unit': 'No. of individuals trained', 'grant_end_target': 960, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 13: {'kind': 'Output', 'rf_sheet': 'Output Indicators', 'rf_row': 20, 'objective': 'Objective/Intervention #1: Community organization and Institution building', 'rf_item': '960 individuals (both men & women) have participated in training to address gender based discrimination', 'unit': 'No. of individuals trained', 'grant_end_target': 960, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 14: {'kind': 'Output', 'rf_sheet': 'Output Indicators', 'rf_row': 21, 'objective': 'Objective/Intervention #1: Community organization and Institution building', 'rf_item': '400 community leaders from each village will participate with 20 district level officials', 'unit': 'No. of participants', 'grant_end_target': 320, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 15: {'kind': 'Output', 'rf_sheet': 'Output Indicators', 'rf_row': 22, 'objective': 'Objective/Intervention #1: Community organization and Institution building', 'rf_item': '400 community leaders from each village will participate with 20 block level officials', 'unit': 'No. of participants', 'grant_end_target': 360, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 16: {'kind': 'Output', 'rf_sheet': 'Output Indicators', 'rf_row': 23, 'objective': 'Objective/Intervention #1: Community organization and Institution building', 'rf_item': '1500 farmers actively participated with village level officials', 'unit': 'No. of participants', 'grant_end_target': 1500, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 17: {'kind': 'Output', 'rf_sheet': 'Output Indicators', 'rf_row': 32, 'objective': 'Objective/Intervention #2:  Enhance productivity to ensure 12 months of food and nutrition security and increased agricultural income of at least 50% households from Rs 10000 per acre/per annum to Rs 60000 per acre/ annum', 'rf_item': '400 individuals have participated in ΓÇ£Natural Resource Management based farming and LIESA" training', 'unit': 'No. of individuals trained', 'grant_end_target': 400, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 18: {'kind': 'Output', 'rf_sheet': 'Output Indicators', 'rf_row': 33, 'objective': 'Objective/Intervention #2:  Enhance productivity to ensure 12 months of food and nutrition security and increased agricultural income of at least 50% households from Rs 10000 per acre/per annum to Rs 60000 per acre/ annum', 'rf_item': '300 individuals have participated in multi-layer farming training', 'unit': 'No. of individuals trained', 'grant_end_target': 300, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 19: {'kind': 'Output', 'rf_sheet': 'Output Indicators', 'rf_row': 34, 'objective': 'Objective/Intervention #2:  Enhance productivity to ensure 12 months of food and nutrition security and increased agricultural income of at least 50% households from Rs 10000 per acre/per annum to Rs 60000 per acre/ annum', 'rf_item': '420 individuals (140 with project support and 280 individuals will adopt with their own/leveraged resources) will practice Multi-layer farming.', 'unit': 'No. of individuals practicing', 'grant_end_target': 420, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 20: {'kind': 'Output', 'rf_sheet': 'Output Indicators', 'rf_row': 35, 'objective': 'Objective/Intervention #2:  Enhance productivity to ensure 12 months of food and nutrition security and increased agricultural income of at least 50% households from Rs 10000 per acre/per annum to Rs 60000 per acre/ annum', 'rf_item': '300 individuals will be fully trained in mixed farming', 'unit': 'No. of individuals trained', 'grant_end_target': 300, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 21: {'kind': 'Output', 'rf_sheet': 'Output Indicators', 'rf_row': 36, 'objective': 'Objective/Intervention #2:  Enhance productivity to ensure 12 months of food and nutrition security and increased agricultural income of at least 50% households from Rs 10000 per acre/per annum to Rs 60000 per acre/ annum', 'rf_item': '560 individuals (140 with project support and 420 individuals will adopt with their own/leveraged resources) will practice inter/mix cropping.', 'unit': 'No. of individuals practicing', 'grant_end_target': 560, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 22: {'kind': 'Output', 'rf_sheet': 'Output Indicators', 'rf_row': 37, 'objective': 'Objective/Intervention #2:  Enhance productivity to ensure 12 months of food and nutrition security and increased agricultural income of at least 50% households from Rs 10000 per acre/per annum to Rs 60000 per acre/ annum', 'rf_item': '400 individuals will be trained in organic pest management', 'unit': 'No. of individuals trained', 'grant_end_target': 400, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 23: {'kind': 'Output', 'rf_sheet': 'Output Indicators', 'rf_row': 38, 'objective': 'Objective/Intervention #2:  Enhance productivity to ensure 12 months of food and nutrition security and increased agricultural income of at least 50% households from Rs 10000 per acre/per annum to Rs 60000 per acre/ annum', 'rf_item': '1040 (240 are practicing organic manuring with project support, 800 with their own or leveraged resources) individuals practice organic manuring and micro-nutrients', 'unit': 'individuals', 'grant_end_target': 1040, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 24: {'kind': 'Output', 'rf_sheet': 'Output Indicators', 'rf_row': 39, 'objective': 'Objective/Intervention #2:  Enhance productivity to ensure 12 months of food and nutrition security and increased agricultural income of at least 50% households from Rs 10000 per acre/per annum to Rs 60000 per acre/ annum', 'rf_item': '900 (300 are practicing with project support, 600 with own/leveraged resources) individuals are practicing line sowing and distancing in cultivation', 'unit': 'individuals', 'grant_end_target': 900, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 25: {'kind': 'Output', 'rf_sheet': 'Output Indicators', 'rf_row': 40, 'objective': 'Objective/Intervention #2:  Enhance productivity to ensure 12 months of food and nutrition security and increased agricultural income of at least 50% households from Rs 10000 per acre/per annum to Rs 60000 per acre/ annum', 'rf_item': '400 individuals will be trained in scientific turmeric and ginger cultivation', 'unit': 'individuals', 'grant_end_target': 400, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 26: {'kind': 'Output', 'rf_sheet': 'Output Indicators', 'rf_row': 41, 'objective': 'Objective/Intervention #2:  Enhance productivity to ensure 12 months of food and nutrition security and increased agricultural income of at least 50% households from Rs 10000 per acre/per annum to Rs 60000 per acre/ annum', 'rf_item': '220 individuals (120 Farmers are practicing with project support and 100  with their own or leveraged resources) practice cultivation', 'unit': 'individuals', 'grant_end_target': 220, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 27: {'kind': 'Output', 'rf_sheet': 'Output Indicators', 'rf_row': 42, 'objective': 'Objective/Intervention #2:  Enhance productivity to ensure 12 months of food and nutrition security and increased agricultural income of at least 50% households from Rs 10000 per acre/per annum to Rs 60000 per acre/ annum', 'rf_item': '1040 individuals (480 with project support and 560 individuals will adopt with their own/leveraged resources) will practice roof top farming and nutrition garden', 'unit': 'individuals', 'grant_end_target': 1040, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 28: {'kind': 'Output', 'rf_sheet': 'Output Indicators', 'rf_row': 43, 'objective': 'Objective/Intervention #2:  Enhance productivity to ensure 12 months of food and nutrition security and increased agricultural income of at least 50% households from Rs 10000 per acre/per annum to Rs 60000 per acre/ annum', 'rf_item': '140 individuals (60 farmers with project support and 80 have adopted the model with their own or leveraged resources) practice fruit cultivation', 'unit': 'individuals', 'grant_end_target': 140, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 29: {'kind': 'Output', 'rf_sheet': 'Output Indicators', 'rf_row': 45, 'objective': 'Objective/Intervention #2:  Enhance productivity to ensure 12 months of food and nutrition security and increased agricultural income of at least 50% households from Rs 10000 per acre/per annum to Rs 60000 per acre/ annum', 'rf_item': '100 individuals (who have not partcipated in any of the above trainings) have participated in the cross-learning exposure trip', 'unit': 'individuals', 'grant_end_target': 100, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 30: {'kind': 'Output', 'rf_sheet': 'Output Indicators', 'rf_row': 48, 'objective': 'Objective/Intervention #3: A network of well trained 80 Community Resource Persons', 'rf_item': '80 Krishi Mitra has been identified from all 80 AAS groups', 'unit': ' Krishi Mitra', 'grant_end_target': 80, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 31: {'kind': 'Output', 'rf_sheet': 'Output Indicators', 'rf_row': 49, 'objective': 'Objective/Intervention #3: A network of well trained 80 Community Resource Persons', 'rf_item': '80 Krishi Mitra trained to transfer techniques & knowledge as well as on-farm mentoring support to the farmers', 'unit': ' Krishi Mitra', 'grant_end_target': 80, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 32: {'kind': 'Output', 'rf_sheet': 'Output Indicators', 'rf_row': 50, 'objective': 'Objective/Intervention #3: A network of well trained 80 Community Resource Persons', 'rf_item': '80 Krishi Mitra trained on crop rotation', 'unit': ' Krishi Mitra', 'grant_end_target': 80, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 33: {'kind': 'Output', 'rf_sheet': 'Output Indicators', 'rf_row': 51, 'objective': 'Objective/Intervention #3: A network of well trained 80 Community Resource Persons', 'rf_item': '80 Krishi Mitra trained on organic methods of manuring, pest management and micro-nutrient', 'unit': ' Krishi Mitra', 'grant_end_target': 80, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 34: {'kind': 'Output', 'rf_sheet': 'Output Indicators', 'rf_row': 52, 'objective': 'Objective/Intervention #3: A network of well trained 80 Community Resource Persons', 'rf_item': '40 Krishi Mitras have received new techniques and updated techniques and are capable to implement on field', 'unit': ' Krishi Mitra', 'grant_end_target': 40, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 35: {'kind': 'Output', 'rf_sheet': 'Output Indicators', 'rf_row': 53, 'objective': 'Objective/Intervention #3: A network of well trained 80 Community Resource Persons', 'rf_item': '80 Krishi Mitras have participated and are receiving solutions/ troubleshooting by consulting the thematic expert.', 'unit': 'Krishi Mitra', 'grant_end_target': 80, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 36: {'kind': 'Output', 'rf_sheet': 'Output Indicators', 'rf_row': 59, 'objective': "Objective/Intervention #4: Enable citizen's/farmer's access to Rights, entitlements, government schemes and services", 'rf_item': 'FRC will cover farmer families of intervention and non-intervention villages of the block', 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 37: {'kind': 'Output', 'rf_sheet': 'Output Indicators', 'rf_row': 60, 'objective': "Objective/Intervention #4: Enable citizen's/farmer's access to Rights, entitlements, government schemes and services", 'rf_item': 'All farmer families (direct and indirect) of 1 block have accessed Farmers Resource Center for agriculture and social welfare schemes', 'grant_end_target': 1600, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 38: {'kind': 'Output', 'rf_sheet': 'Output Indicators', 'rf_row': 61, 'objective': "Objective/Intervention #4: Enable citizen's/farmer's access to Rights, entitlements, government schemes and services", 'rf_item': '200 individuals will be trained to be updated on Govt. schemes for agriculture, horticulture and allied sectors of livelihoods', 'grant_end_target': 200, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 39: {'kind': 'Output', 'rf_sheet': 'Output Indicators', 'rf_row': 62, 'objective': "Objective/Intervention #4: Enable citizen's/farmer's access to Rights, entitlements, government schemes and services", 'rf_item': '320 mobile-users (80 individuals directly trained, 240 individuals indirectly) trained on digital applications, helplines, web-portals etc.', 'grant_end_target': 320, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 40: {'kind': 'Output', 'rf_sheet': 'Output Indicators', 'rf_row': 63, 'objective': "Objective/Intervention #4: Enable citizen's/farmer's access to Rights, entitlements, government schemes and services", 'rf_item': '1500 individuals from target families registered on all Govt.portals', 'grant_end_target': 1500, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 41: {'kind': 'Output', 'rf_sheet': 'Output Indicators', 'rf_row': 70, 'objective': 'Objective/Intervention #5: Strengthen the organizational systems and programmatic expertise on Agro-based livelihoods domain', 'rf_item': 'Team Members are able to link each activity to the programme outcome and are working towards the same', 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 42: {'kind': 'Output', 'rf_sheet': 'Output Indicators', 'rf_row': 71, 'objective': 'Objective/Intervention #5: Strengthen the organizational systems and programmatic expertise on Agro-based livelihoods domain', 'rf_item': 'Team is practicing in best practices and models in the Agro-based livelihoods domain in the country', 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 43: {'kind': 'Output', 'rf_sheet': 'Output Indicators', 'rf_row': 72, 'objective': 'Objective/Intervention #5: Strengthen the organizational systems and programmatic expertise on Agro-based livelihoods domain', 'rf_item': 'Team is implementing best practices suited for the geography with the participating households', 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 44: {'kind': 'Output', 'rf_sheet': 'Output Indicators', 'rf_row': 73, 'objective': 'Objective/Intervention #5: Strengthen the organizational systems and programmatic expertise on Agro-based livelihoods domain', 'rf_item': 'The organisation will have the support systems which will ensure sustainibility of the intervnetions/programmes and best practices in keeping the systems and policies in place.', 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 45: {'kind': 'Output', 'rf_sheet': 'Output Indicators', 'rf_row': 74, 'objective': 'Objective/Intervention #5: Strengthen the organizational systems and programmatic expertise on Agro-based livelihoods domain', 'rf_item': 'The driven young leaders will sustain our interventions beyond the programme duration in the community on volunteer basis', 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 46: {'kind': 'Output', 'rf_sheet': 'Output Indicators', 'rf_row': 76, 'objective': 'Objective/Intervention #5: Strengthen the organizational systems and programmatic expertise on Agro-based livelihoods domain', 'rf_item': 'The compliance and outcome tracking of intervention will ensure that the systems are in place and working as expected', 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 47: {'kind': 'Activity', 'rf_sheet': 'Activity Details', 'rf_row': 16, 'objective': 'Objective/Intervention #1: Community organization and Institution building', 'rf_item': 'Formation of 80 small groups of 15-20 farmers as Aajeevika Adhikaar Sangathan- AAS.', 'unit': 'formation meetings', 'grant_end_target': 0, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 48: {'kind': 'Activity', 'rf_sheet': 'Activity Details', 'rf_row': 17, 'objective': 'Objective/Intervention #1: Community organization and Institution building', 'rf_item': 'Formation of 5 cluster level federations; (1 cluster for every 4 villages or 16 AAS) consisting of 240 individuals', 'unit': 'formation meetings', 'grant_end_target': 0, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 49: {'kind': 'Activity', 'rf_sheet': 'Activity Details', 'rf_row': 18, 'objective': 'Objective/Intervention #1: Community organization and Institution building', 'rf_item': 'Formation of 1 Block level federation consisting of 40 individuals', 'unit': 'formation meetings', 'grant_end_target': 0, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 50: {'kind': 'Activity', 'rf_sheet': 'Activity Details', 'rf_row': 19, 'objective': 'Objective/Intervention #1: Community organization and Institution building', 'rf_item': '4 Capacity building training of 960 AAS farmers on effective leadership and group management (3 LeadersX80 AAS GroupsX4', 'unit': ' trainings', 'grant_end_target': 0, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 51: {'kind': 'Activity', 'rf_sheet': 'Activity Details', 'rf_row': 20, 'objective': 'Objective/Intervention #1: Community organization and Institution building', 'rf_item': '4 Capacity building trainings of 960 farmers on Gender based discrimination (3 LeadersX80 AAS GroupsX4 (HY-1, HY-4, HY-6 & HY-8)', 'unit': ' trainings', 'grant_end_target': 0, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 52: {'kind': 'Activity', 'rf_sheet': 'Activity Details', 'rf_row': 21, 'objective': 'Objective/Intervention #1: Community organization and Institution building', 'rf_item': '8 District level stakeholder interface meetings of 400 individuals with all stakeholders (One in every HY)', 'unit': 'interface meeting', 'grant_end_target': 0, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 53: {'kind': 'Activity', 'rf_sheet': 'Activity Details', 'rf_row': 22, 'objective': 'Objective/Intervention #1: Community organization and Institution building', 'rf_item': '9 Block level interface meetings of 400 individuals with stakeholders', 'unit': 'interface meeting', 'grant_end_target': 0, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 54: {'kind': 'Activity', 'rf_sheet': 'Activity Details', 'rf_row': 23, 'objective': 'Objective/Intervention #1: Community organization and Institution building', 'rf_item': '200 Village level interface meetings of 1500 families with stakeholders', 'unit': 'interface meeting', 'grant_end_target': 0, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 55: {'kind': 'Activity', 'rf_sheet': 'Activity Details', 'rf_row': 32, 'objective': 'Objective/Intervention #2:  Enhance productivity to ensure 12 months of food and nutrition security and increased agricultural income of at least 50% households from Rs 10000 per acre/per annum to Rs 60000 per acre/ annum', 'rf_item': '4 Trainings of 400 farmers on the basic concept of ΓÇ£Natural Resource Management based farming and LIESA" (5 FarmersX 20 Villages X4 (HY-2, HY-4, HY-6 & HY-8)', 'unit': ' trainings', 'grant_end_target': 0, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 56: {'kind': 'Activity', 'rf_sheet': 'Activity Details', 'rf_row': 33, 'objective': 'Objective/Intervention #2:  Enhance productivity to ensure 12 months of food and nutrition security and increased agricultural income of at least 50% households from Rs 10000 per acre/per annum to Rs 60000 per acre/ annum', 'rf_item': '03 Trainings on multi-layer farming techniques with 300 farmers', 'unit': ' trainings', 'grant_end_target': 0, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 57: {'kind': 'Activity', 'rf_sheet': 'Activity Details', 'rf_row': 34, 'objective': 'Objective/Intervention #2:  Enhance productivity to ensure 12 months of food and nutrition security and increased agricultural income of at least 50% households from Rs 10000 per acre/per annum to Rs 60000 per acre/ annum', 'rf_item': '140 Input support on Multi Layer Farming with 420 farmers with support of Nursery', 'unit': 'Input Support ', 'grant_end_target': 0, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 58: {'kind': 'Activity', 'rf_sheet': 'Activity Details', 'rf_row': 35, 'objective': 'Objective/Intervention #2:  Enhance productivity to ensure 12 months of food and nutrition security and increased agricultural income of at least 50% households from Rs 10000 per acre/per annum to Rs 60000 per acre/ annum', 'rf_item': '3 Trainings on mixed farming with 300 farmers', 'unit': ' trainings', 'grant_end_target': 0, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 59: {'kind': 'Activity', 'rf_sheet': 'Activity Details', 'rf_row': 36, 'objective': 'Objective/Intervention #2:  Enhance productivity to ensure 12 months of food and nutrition security and increased agricultural income of at least 50% households from Rs 10000 per acre/per annum to Rs 60000 per acre/ annum', 'rf_item': '140 Input Support on Inter/Mixed Cropping (vegetables and lentils along with grains) with 700 farmers', 'unit': 'Input Support ', 'grant_end_target': 0, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 60: {'kind': 'Activity', 'rf_sheet': 'Activity Details', 'rf_row': 37, 'objective': 'Objective/Intervention #2:  Enhance productivity to ensure 12 months of food and nutrition security and increased agricultural income of at least 50% households from Rs 10000 per acre/per annum to Rs 60000 per acre/ annum', 'rf_item': '04 Trainings in 16 batches on organic pest management, organic manuring and composting and micro nutrients with 400 farmers', 'unit': ' trainings', 'grant_end_target': 0, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 61: {'kind': 'Activity', 'rf_sheet': 'Activity Details', 'rf_row': 38, 'objective': 'Objective/Intervention #2:  Enhance productivity to ensure 12 months of food and nutrition security and increased agricultural income of at least 50% households from Rs 10000 per acre/per annum to Rs 60000 per acre/ annum', 'rf_item': '240 Input Support on Organic Manuring,  and no-cost demonstration on Micro-nutrients and organic pest control with 1040 farmers', 'unit': 'Input Support ', 'grant_end_target': 0, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 62: {'kind': 'Activity', 'rf_sheet': 'Activity Details', 'rf_row': 39, 'objective': 'Objective/Intervention #2:  Enhance productivity to ensure 12 months of food and nutrition security and increased agricultural income of at least 50% households from Rs 10000 per acre/per annum to Rs 60000 per acre/ annum', 'rf_item': '300 Input Support on Modern Vegetable Production demonstrations (Tomato on Trellis, Chilli, Trench farming for Mistletoe (Banda), Cabbage, Cauliflower, Garlic, Onion etc.), line sowing and distancing with 900 farmers', 'unit': 'Input Support ', 'grant_end_target': 0, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 63: {'kind': 'Activity', 'rf_sheet': 'Activity Details', 'rf_row': 40, 'objective': 'Objective/Intervention #2:  Enhance productivity to ensure 12 months of food and nutrition security and increased agricultural income of at least 50% households from Rs 10000 per acre/per annum to Rs 60000 per acre/ annum', 'rf_item': '04 Trainings on scientific turmeric and ginger cultivation with 400 farmers', 'unit': ' trainings', 'grant_end_target': 0, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 64: {'kind': 'Activity', 'rf_sheet': 'Activity Details', 'rf_row': 41, 'objective': 'Objective/Intervention #2:  Enhance productivity to ensure 12 months of food and nutrition security and increased agricultural income of at least 50% households from Rs 10000 per acre/per annum to Rs 60000 per acre/ annum', 'rf_item': '120 Input Support on High value crops- Ginger and Turmeric with 220 farmers', 'unit': 'Input Support ', 'grant_end_target': 0, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 65: {'kind': 'Activity', 'rf_sheet': 'Activity Details', 'rf_row': 42, 'objective': 'Objective/Intervention #2:  Enhance productivity to ensure 12 months of food and nutrition security and increased agricultural income of at least 50% households from Rs 10000 per acre/per annum to Rs 60000 per acre/ annum', 'rf_item': '480 Input Support on Roof top farming and Nutrition Garden with 1040 farmers', 'unit': 'Input Support ', 'grant_end_target': 0, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 66: {'kind': 'Activity', 'rf_sheet': 'Activity Details', 'rf_row': 43, 'objective': 'Objective/Intervention #2:  Enhance productivity to ensure 12 months of food and nutrition security and increased agricultural income of at least 50% households from Rs 10000 per acre/per annum to Rs 60000 per acre/ annum', 'rf_item': '60 Input Support on Fruit cultivation- Banana, Jamun with 140 farmers', 'unit': 'Input Support ', 'grant_end_target': 0, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 67: {'kind': 'Activity', 'rf_sheet': 'Activity Details', 'rf_row': 45, 'objective': 'Objective/Intervention #2:  Enhance productivity to ensure 12 months of food and nutrition security and increased agricultural income of at least 50% households from Rs 10000 per acre/per annum to Rs 60000 per acre/ annum', 'rf_item': '4 Cross learning exposure visits with 100 individuals within the intervention villages', 'unit': ' exposure visits', 'grant_end_target': 0, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 68: {'kind': 'Activity', 'rf_sheet': 'Activity Details', 'rf_row': 48, 'objective': 'Objective/Intervention #3: A network of well trained 80 Community Resource Persons', 'rf_item': 'Identification of 80 pro-active, progressive and leader Community Resource Persons as "Krishi Mitras"', 'unit': ' Krishi Mitras identified ', 'grant_end_target': 0, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 69: {'kind': 'Activity', 'rf_sheet': 'Activity Details', 'rf_row': 49, 'objective': 'Objective/Intervention #3: A network of well trained 80 Community Resource Persons', 'rf_item': '1 Three-days Residential Training, 1 One-day non-residential training of  80 Krishi Mitras on the basic concept of ΓÇ£Natural Resource Management based farming and LIESA"', 'unit': ' trainings', 'grant_end_target': 0, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 70: {'kind': 'Activity', 'rf_sheet': 'Activity Details', 'rf_row': 50, 'objective': 'Objective/Intervention #3: A network of well trained 80 Community Resource Persons', 'rf_item': '1 Two-Days training, 1 One-day non-residential training  of 80 Krishi Mitras on Crop Protection', 'unit': ' trainings', 'grant_end_target': 0, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 71: {'kind': 'Activity', 'rf_sheet': 'Activity Details', 'rf_row': 51, 'objective': 'Objective/Intervention #3: A network of well trained 80 Community Resource Persons', 'rf_item': '1 Two-Days Training, 1 One-day non-residential training of 80 Krishi Mitras on organic methods of manuring, pest management and micro-nutrient', 'unit': ' trainings', 'grant_end_target': 0, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 72: {'kind': 'Activity', 'rf_sheet': 'Activity Details', 'rf_row': 52, 'objective': 'Objective/Intervention #3: A network of well trained 80 Community Resource Persons', 'rf_item': '2 Exposure visits of 40 Krishi Mitras (atleast 1 visit/Krishi Mitra) on model agro-based models', 'unit': ' trainings', 'grant_end_target': 0, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 73: {'kind': 'Activity', 'rf_sheet': 'Activity Details', 'rf_row': 53, 'objective': 'Objective/Intervention #3: A network of well trained 80 Community Resource Persons', 'rf_item': 'Monthly Meetings of 80 Krishi Mitras with Project Thematic expert and Coordinator', 'unit': 'Meetings', 'grant_end_target': 0, 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 74: {'kind': 'Activity', 'rf_sheet': 'Activity Details', 'rf_row': 59, 'objective': "Objective/Intervention #4: Enable citizen's/farmer's access to Rights, entitlements, government schemes and services", 'rf_item': '1 Farmers Resource Center for the block Mihinpurwa registering it as a Jan Seva Kendra', 'unit': 'Formation', 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 75: {'kind': 'Activity', 'rf_sheet': 'Activity Details', 'rf_row': 60, 'objective': "Objective/Intervention #4: Enable citizen's/farmer's access to Rights, entitlements, government schemes and services", 'rf_item': 'Facilitation of farmers through ΓÇ£Farmers Resource CenterΓÇ¥ to avail the benefits of Govt. schemes', 'unit': ' block covered', 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 76: {'kind': 'Activity', 'rf_sheet': 'Activity Details', 'rf_row': 61, 'objective': "Objective/Intervention #4: Enable citizen's/farmer's access to Rights, entitlements, government schemes and services", 'rf_item': '4 Trainings on Govt. schemes for agriculture, horticulture and allied sectors of livelihoods  with 200 individuals', 'unit': ' trainings', 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 77: {'kind': 'Activity', 'rf_sheet': 'Activity Details', 'rf_row': 62, 'objective': "Objective/Intervention #4: Enable citizen's/farmer's access to Rights, entitlements, government schemes and services", 'rf_item': '2 Trainings of 320 smartphone using farmers/Youths on digital accessibility of schemes and entitlements', 'unit': ' trainings', 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 78: {'kind': 'Activity', 'rf_sheet': 'Activity Details', 'rf_row': 63, 'objective': "Objective/Intervention #4: Enable citizen's/farmer's access to Rights, entitlements, government schemes and services", 'rf_item': 'Registration of 1500 farmers on the Agriculture and Horticulture portals of the Govt.', 'unit': 'village-wise registration', 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 79: {'kind': 'Activity', 'rf_sheet': 'Activity Details', 'rf_row': 64, 'objective': "Objective/Intervention #4: Enable citizen's/farmer's access to Rights, entitlements, government schemes and services", 'rf_item': 'Exploratory conversations ongoing with stakeholders looking after SFURTI (Scheme of Fund for Regeneration of Traditional Industries) and ODOP (One Distrixt One Product) regarding setting up aTurmeric Processing Plant that will be operated by the existing FPO', 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 80: {'kind': 'Activity', 'rf_sheet': 'Activity Details', 'rf_row': 65, 'objective': "Objective/Intervention #4: Enable citizen's/farmer's access to Rights, entitlements, government schemes and services", 'rf_item': 'Exploratory conversations ongoing with Better Life Farming Alliance (by World Bank) and Walmart, Bigbasket, Big Bazaar for marketing purposes of the produce', 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 81: {'kind': 'Activity', 'rf_sheet': 'Activity Details', 'rf_row': 70, 'objective': 'Objective/Intervention #5: Strengthen the organizational systems and programmatic expertise on Agro-based livelihoods domain', 'rf_item': '1 Four Day residential induction-cum-training and Four refreshers (one every year) for 8 DEHAT-APPI programme and finance team on the FASAL Programme', 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 82: {'kind': 'Activity', 'rf_sheet': 'Activity Details', 'rf_row': 71, 'objective': 'Objective/Intervention #5: Strengthen the organizational systems and programmatic expertise on Agro-based livelihoods domain', 'rf_item': '1 Training for Director and Programme Coordinator with chosen Resource person/institution', 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 83: {'kind': 'Activity', 'rf_sheet': 'Activity Details', 'rf_row': 72, 'objective': 'Objective/Intervention #5: Strengthen the organizational systems and programmatic expertise on Agro-based livelihoods domain', 'rf_item': '1 Training (technical) for DEHATΓÇÖs Cluster Level Team on LEISA practices', 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 84: {'kind': 'Activity', 'rf_sheet': 'Activity Details', 'rf_row': 73, 'objective': 'Objective/Intervention #5: Strengthen the organizational systems and programmatic expertise on Agro-based livelihoods domain', 'rf_item': 'Exposure visits and training with Gagan Sethi', 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 85: {'kind': 'Activity', 'rf_sheet': 'Activity Details', 'rf_row': 74, 'objective': 'Objective/Intervention #5: Strengthen the organizational systems and programmatic expertise on Agro-based livelihoods domain', 'rf_item': 'Selection of potential leaders from existing youth cadre', 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 86: {'kind': 'Activity', 'rf_sheet': 'Activity Details', 'rf_row': 75, 'objective': 'Objective/Intervention #5: Strengthen the organizational systems and programmatic expertise on Agro-based livelihoods domain', 'rf_item': 'Induction, orientation and training of 5 DEHAT Fellows', 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 87: {'kind': 'Activity', 'rf_sheet': 'Activity Details', 'rf_row': 76, 'objective': 'Objective/Intervention #5: Strengthen the organizational systems and programmatic expertise on Agro-based livelihoods domain', 'rf_item': 'Revise existing organisational policies to make them more inclusive', 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 88: {'kind': 'Activity', 'rf_sheet': 'Activity Details', 'rf_row': 77, 'objective': 'Objective/Intervention #5: Strengthen the organizational systems and programmatic expertise on Agro-based livelihoods domain', 'rf_item': 'Programme Compliance Policies and Practices with Azim Sherwani: Develop Policies, Standard Operating Procedures and formation of active committees', 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+  Row 89: {'kind': 'Activity', 'rf_sheet': 'Activity Details', 'rf_row': 78, 'objective': 'Objective/Intervention #5: Strengthen the organizational systems and programmatic expertise on Agro-based livelihoods domain', 'rf_item': 'Gender and Sexual Minorities (GSM) sensitive policies, orientation and practices', 'source': 'DEHAT RF Template (5year) Ver.2.0 16.08.2021.xlsx'}
+
+--- Grant_Report_Crosswalk (8 rows) ---
+Columns: ['source_file', 'evidence_statement_in_report', 'corresponding_rf_pillar', 'fdb_field_group_that_can_triangulate_or_cannot_triangulate', 'dashboard_implication']
+  Row 1: {'source_file': 'Grant Report January to December 2024 (1).pdf', 'evidence_statement_in_report': '6 Village Development Plans for 20 hamlets developed with 1,712 citizens; 20 villages across listed Gram Panchayats', 'corresponding_rf_pillar': 'Outcome 1/4: Gram Sabha, VDP, village development leverage', 'fdb_field_group_that_can_triangulate_or_cannot_triangulate': 'FDB village and service receipt fields can show household/service distribution; cannot prove GPDP preparation', 'dashboard_implication': 'Use reports for VDP count; FDB for village-level service profile'}
+  Row 2: {'source_file': 'Grant Report January to December 2024 (1).pdf', 'evidence_statement_in_report': 'Gender training 218 participants and leadership training 221 participants', 'corresponding_rf_pillar': 'Outcome 1 Output: gender and leadership capacity', 'fdb_field_group_that_can_triangulate_or_cannot_triangulate': 'FDB has no direct training participation fields', 'dashboard_implication': 'Use report/attendance, not FDB'}
+  Row 3: {'source_file': 'Grant Report January to December 2024 (1).pdf', 'evidence_statement_in_report': '304 farmers accessing government schemes; Γé╣2,29,93,200 leveraged for infrastructure and schemes', 'corresponding_rf_pillar': 'Outcome 1/4: entitlements and leverage', 'fdb_field_group_that_can_triangulate_or_cannot_triangulate': 'FDB entitlement receipt fields can triangulate types of services; leverage amount requires report/official records', 'dashboard_implication': 'Use both; separate receipt counts from leverage amount'}
+  Row 4: {'source_file': 'Grant Report January to December 2024 (1).pdf', 'evidence_statement_in_report': '75 Krishi Mitras trained on pest management; 603 farmers trained in LEISA/mixed cropping/turmeric-ginger methods', 'corresponding_rf_pillar': 'Outcome 2/3: sustainable agriculture and CRP system', 'fdb_field_group_that_can_triangulate_or_cannot_triangulate': 'FDB has Krishi Mitra linkage and crop income/food data; no direct training fields', 'dashboard_implication': 'Training counts from reports; outcome effects from FDB'}
+  Row 5: {'source_file': 'Grant Report January to December 2025.pdf', 'evidence_statement_in_report': 'Programme worked in 06 Gram Panchayats, 20 villages, approximately 1500 marginal farmer families', 'corresponding_rf_pillar': 'All RF pillars / coverage', 'fdb_field_group_that_can_triangulate_or_cannot_triangulate': 'FDB geography and household profile fields', 'dashboard_implication': 'Use FDB for filters and denominator reconciliation'}
+  Row 6: {'source_file': 'Grant Report January to December 2025.pdf', 'evidence_statement_in_report': '80 AAS, 05 clusters, 01 BLF at beginning; consolidated to 74 AAS, 05 clusters and 01 BLF', 'corresponding_rf_pillar': 'Outcome 1: institution building', 'fdb_field_group_that_can_triangulate_or_cannot_triangulate': 'FDB AAS Name supports household-AAS link but not group count/functionality', 'dashboard_implication': 'Use report for institutional count; FDB for AAS-wise household coverage'}
+  Row 7: {'source_file': 'Grant Report January to December 2025.pdf', 'evidence_statement_in_report': 'Regular AAS, cluster, CRP monthly and BLF meetings; issues included MNREGA demand letters, roads, drainage', 'corresponding_rf_pillar': 'Outcome 1/4: functionality and claims', 'fdb_field_group_that_can_triangulate_or_cannot_triangulate': 'FDB entitlement/service fields may show household-level receipt; no meeting/claim tracker fields', 'dashboard_implication': 'Use reports/minutes for functionality; FDB for service outcomes'}
+  Row 8: {'source_file': 'Grant Report January to December 2025.pdf', 'evidence_statement_in_report': 'Horticulture department support totaling Γé╣1,58,500 including seeds/plants and 150 kg organic fertiliser', 'corresponding_rf_pillar': 'Outcome 2: agriculture convergence/leverage', 'fdb_field_group_that_can_triangulate_or_cannot_triangulate': 'FDB crop income/food data can support downstream household outcomes; does not track this support directly', 'dashboard_implication': 'Use report for input/leverage; FDB for income/food outcome'}
+
+--- Summary (36 rows) ---
+Columns: ['summary_metric', 'value']
+  Row 1: {'summary_metric': 'Total FDB columns assessed', 'value': '2999'}
+  Row 2: {'summary_metric': 'FDB household/member records (from sheet dimension, excluding header)', 'value': '1329'}
+  Row 3: {'summary_metric': 'RF items extracted from RF Template (Outcome/Output/Activity)', 'value': '89'}
+  Row 4: {'summary_metric': 'FDB fields directly usable for RF outcome dashboard', 'value': '1386'}
+  Row 5: {'summary_metric': 'FDB fields usable with caveat', 'value': '359'}
+  Row 6: {'summary_metric': 'FDB-only / intersectional fields', 'value': '1198'}
+  Row 7: {'summary_metric': 'Internal-only / PII / metadata fields', 'value': '31'}
+  Row 8: {'summary_metric': 'Fields held for manual review', 'value': '17'}
+  Row 10: {'summary_metric': 'FDB Domain', 'value': 'Field Count'}
+  Row 11: {'summary_metric': 'Food consumption / nutrition diversity', 'value': '1260'}
+  Row 12: {'summary_metric': 'Entitlements / services / Jan Suvidha-style tracking', 'value': '1203'}
+  Row 13: {'summary_metric': 'Livestock / allied livelihood', 'value': '185'}
+  Row 14: {'summary_metric': 'Crop economics / agricultural income', 'value': '126'}
+  Row 15: {'summary_metric': 'Migration / livelihood vulnerability', 'value': '125'}
+  Row 16: {'summary_metric': 'Intersectional service access', 'value': '33'}
+  Row 17: {'summary_metric': 'PII / household identifiers', 'value': '18'}
+  Row 18: {'summary_metric': 'Other FDB field', 'value': '17'}
+  Row 19: {'summary_metric': 'Survey metadata', 'value': '13'}
+  Row 20: {'summary_metric': 'Household income contribution', 'value': '10'}
+  Row 21: {'summary_metric': 'Geography', 'value': '4'}
+  Row 22: {'summary_metric': 'Household profile / landholding', 'value': '4'}
+  Row 23: {'summary_metric': 'AAS / institutional linkage', 'value': '1'}
+  Row 25: {'summary_metric': 'RF Level', 'value': 'Field Count'}
+  Row 26: {'summary_metric': 'Outcome evidence', 'value': '1386'}
+  Row 27: {'summary_metric': 'FDB-only / intersectional', 'value': '845'}
+  Row 28: {'summary_metric': 'Outcome evidence / output proxy', 'value': '358'}
+  Row 29: {'summary_metric': 'FDB-only / related context', 'value': '185'}
+  Row 30: {'summary_metric': 'FDB-only context', 'value': '135'}
+  Row 31: {'summary_metric': 'Intersectional / partial RF', 'value': '33'}
+  Row 32: {'summary_metric': 'Disaggregation / data management', 'value': '18'}
+  Row 33: {'summary_metric': 'FDB-only / unknown', 'value': '17'}
+  Row 34: {'summary_metric': 'Data quality', 'value': '13'}
+  Row 35: {'summary_metric': 'Disaggregation', 'value': '8'}
+  Row 36: {'summary_metric': 'Output proxy / disaggregation', 'value': '1'}
+
+--- FDB_Field_Map (2999 rows, sample) ---
+Columns: ['fdb_column', 'fdb_field_question', 'fdb_domain', 'rf_correspondence', 'rf_level', 'rf_outcome_pillar', 'linked_rf_output_activity', 'dashboard_card_implication', 'dashboard_use_decision', 'caution_interpretation_rule', 'evidence_status']
+  Row 1: {'fdb_column': 'A', 'fdb_field_question': 'start', 'fdb_domain': 'Survey metadata', 'rf_correspondence': 'Data audit only', 'rf_level': 'Data quality', 'dashboard_card_implication': 'Data quality / submission audit', 'dashboard_use_decision': 'Internal only', 'evidence_status': 'Field present in FDB; value quality to be validated'}
+  Row 2: {'fdb_column': 'B', 'fdb_field_question': 'end', 'fdb_domain': 'Survey metadata', 'rf_correspondence': 'Data audit only', 'rf_level': 'Data quality', 'dashboard_card_implication': 'Data quality / submission audit', 'dashboard_use_decision': 'Internal only', 'evidence_status': 'Field present in FDB; value quality to be validated'}
+  Row 3: {'fdb_column': 'C', 'fdb_field_question': 'Surveyor Name', 'fdb_domain': 'PII / household identifiers', 'rf_correspondence': 'Context/disaggregation only; not a dashboard result', 'rf_level': 'Disaggregation / data management', 'rf_outcome_pillar': 'Supports household/village/AAS linkage only', 'dashboard_card_implication': 'Do not show PII; use only anonymized household counts', 'dashboard_use_decision': 'Internal only', 'caution_interpretation_rule': 'Contains personal data; aggregate/anonymize before donor display', 'evidence_status': 'Field present in FDB; value quality to be validated'}
+  Row 4: {'fdb_column': 'D', 'fdb_field_question': 'District', 'fdb_domain': 'Geography', 'rf_correspondence': 'RF context: 06 Gram Panchayats / 20 villages coverage', 'rf_level': 'Disaggregation', 'rf_outcome_pillar': 'Applies across all RF outcomes', 'dashboard_card_implication': 'Filters: Gram Panchayat / Village', 'dashboard_use_decision': 'Use as filter', 'evidence_status': 'Field present in FDB; value quality to be validated'}
+  Row 5: {'fdb_column': 'E', 'fdb_field_question': 'Block Name', 'fdb_domain': 'Geography', 'rf_correspondence': 'RF context: 06 Gram Panchayats / 20 villages coverage', 'rf_level': 'Disaggregation', 'rf_outcome_pillar': 'Applies across all RF outcomes', 'dashboard_card_implication': 'Filters: Gram Panchayat / Village', 'dashboard_use_decision': 'Use as filter', 'evidence_status': 'Field present in FDB; value quality to be validated'}
+  Row 6: {'fdb_column': 'F', 'fdb_field_question': 'Village Panchayat', 'fdb_domain': 'Geography', 'rf_correspondence': 'RF context: 06 Gram Panchayats / 20 villages coverage', 'rf_level': 'Disaggregation', 'rf_outcome_pillar': 'Applies across all RF outcomes', 'dashboard_card_implication': 'Filters: Gram Panchayat / Village', 'dashboard_use_decision': 'Use as filter', 'evidence_status': 'Field present in FDB; value quality to be validated'}
+  Row 7: {'fdb_column': 'G', 'fdb_field_question': 'Village Name', 'fdb_domain': 'Geography', 'rf_correspondence': 'RF context: 06 Gram Panchayats / 20 villages coverage', 'rf_level': 'Disaggregation', 'rf_outcome_pillar': 'Applies across all RF outcomes', 'dashboard_card_implication': 'Filters: Gram Panchayat / Village', 'dashboard_use_decision': 'Use as filter', 'evidence_status': 'Field present in FDB; value quality to be validated'}
+  Row 8: {'fdb_column': 'H', 'fdb_field_question': 'AAS Name', 'fdb_domain': 'AAS / institutional linkage', 'rf_correspondence': 'Corresponds to RF Output: AAS membership/representation; not proof of AAS functionality', 'rf_level': 'Output proxy / disaggregation', 'rf_outcome_pillar': 'Outcome 1: Community organisation and institution building', 'linked_rf_output_activity': 'Output: individual/family head from target families joined AAS; AAS groups', 'dashboard_card_implication': 'AAS representation coverage; AAS-wise household count', 'dashboard_use_decision': 'Use with caveat', 'caution_interpretation_rule': 'Does not prove meetings, leadership, or collective claims', 'evidence_status': 'Field present in FDB; value quality to be validated'}
+  Row 9: {'fdb_column': 'I', 'fdb_field_question': 'Name of the Farmers/AAS Members', 'fdb_domain': 'PII / household identifiers', 'rf_correspondence': 'Context/disaggregation only; not a dashboard result', 'rf_level': 'Disaggregation / data management', 'rf_outcome_pillar': 'Supports household/village/AAS linkage only', 'dashboard_card_implication': 'Do not show PII; use only anonymized household counts', 'dashboard_use_decision': 'Internal only', 'caution_interpretation_rule': 'Contains personal data; aggregate/anonymize before donor display', 'evidence_status': 'Field present in FDB; value quality to be validated'}
+  Row 10: {'fdb_column': 'J', 'fdb_field_question': 'Name of Father/Husband', 'fdb_domain': 'PII / household identifiers', 'rf_correspondence': 'Context/disaggregation only; not a dashboard result', 'rf_level': 'Disaggregation / data management', 'rf_outcome_pillar': 'Supports household/village/AAS linkage only', 'dashboard_card_implication': 'Do not show PII; use only anonymized household counts', 'dashboard_use_decision': 'Internal only', 'caution_interpretation_rule': 'Contains personal data; aggregate/anonymize before donor display', 'evidence_status': 'Field present in FDB; value quality to be validated'}
+
+================================================================================
+LEVERAGE AGGREGATION
+================================================================================
+Leverage 2023 - By Type:
+    House PM Awas : 151
+    Toilet: 66
+    Latrine: 16
+    Road Enterloking: 9
+    RCC: 5
+    Road mentenias: 3
+     Kaccha Road : 3
+    Kachchi Sadak : 2
+    kuda Ghar: 1
+    Road khadnja marmmat: 1
+    Road Interloking: 1
+    Interlocking : 1
+
+Leverage 2024 - By Type:
+    PM AAWAS: 63
+    Sokhta: 29
+    Shouchalay : 20
+    Inter Locking : 9
+    Ghoor Gaddha NADEP: 6
+    Dammal: 4
+    Widhwa Pension : 3
+    PM AAWAS + Sokhta : 3
+    Pakki Road: 2
+    Nali Nirman : 2
+    Kharanja : 2
+    αñ╣αÑª αñàαñ«αñ░ αñªαÑÇαñ¬ αñòαÑüαñ«αñ╛αñ░ : 1
+    Tomato(tamatar): 1
+    Solar Light: 1
+    Smart Light : 1
+    Samudayik Sokhta : 1
+    Puliya Nirman : 1
+    Onion (Pyaj) Seed: 1
+    Nali Marammat : 1
+    Nali: 1
+    NADEP: 1
+    Mitti Patan : 1
+    Kachchi Sadak : 1
+    Hand Pump Repairing : 1
+    Cucumber (Kheera) Seed: 1
+    Couliflower (Fulgobhi) Seed: 1
+    Chilli Pepper (Mirchi) Seed: 1
+    Bottle Guard (louki) seed : 1
+    Bitter Melon (karaila) seed : 1
+
+Leverage 2025 - By Type:
+    αñ╢αÑîαñÜαñ╛αñ▓αñ» : 72
+    PM αñåαñ╡αñ╛αñ╕ : 44
+    αñ¬αÑìαñ░αñºαñ╛αñ¿ αñ«αñéαññαÑìαñ░αÑÇ αñåαñ╡αñ╛αñ╕ : 19
+    αñ╣αñ░ αñÿαñ░ αñ¬αñ╛αñçαñ¬ αñöαñ░ αñ¿αñ▓ : 3
+    αñ╡αñ┐αñºαñ╡αñ╛ αñ¬αÑçαñéαñ╢αñ¿ : 3
+    RCC αñ╕αÑ£αñò  : 3
+     αñ¬αñòαÑìαñòαÑÇ αñ¿αñ╛αñ▓αÑÇ αñ¿αñ┐αñ░αÑìαñ«αñ╛αñú : 3
+    αñòαñÜαÑìαñÜαÑÇ αñ╕αÑ£αñò αñòαÑÇ αñ«αñ░αñ«αÑìαñ«αññ : 2
+    αñ╣αÑçαñéαñí αñ¬αñ«αÑìαñ¬ αñ¿αñ▓ : 1
+    αñ╣αñ╛αñê αñ«αñ╛αñ╕αÑìαñò αñ▓αñ╛αñçαñƒ : 1
+    αñ╣αñ░ αñÿαñ░ αñ¿αñ▓ αñ»αÑïαñ£αñ¿αñ╛ : 1
+    αñ╕αÑïαñ▓αñ░ αñ▓αñ╛αñçαñƒ : 1
+    αñ«αñ¿αñ░αÑçαñùαñ╛ αñòαÑÇ αñ«αñ£αñªαÑéαñ░αÑÇ : 1
+    αñ¬αñ╛αñ¿αÑÇ αñòαÑÇ αñ¿αñ┐αñòαñ╛αñ╕αÑÇ : 1
+    αñ¬αñòαÑìαñòαÑÇ αñ╕αÑ£αñò : 1
+    αñ¿αñ╛αñ▓αÑÇ αñ¿αñ┐αñ░αÑìαñ«αñ╛αñú : 1
+    αñåαñéαñùαñ¿ αñ¼αñ╛αÑ£αÑÇ αñòαÑçαñéαñªαÑìαñ░ : 1
+
+================================================================================
+AAS INFO TABLE
+================================================================================
+Columns: ['developmental_association_for_human_advancement_dehat', 'unnamed_1', 'unnamed_2', 'unnamed_3', 'unnamed_4', 'unnamed_5', 'unnamed_6', 'unnamed_7', 'unnamed_8']
+  Row 1: {'developmental_association_for_human_advancement_dehat': 'Farmers Action for Sustainable Agro-based Livelihoods- FASAL'}
+  Row 2: {'developmental_association_for_human_advancement_dehat': 'Farmer HH data'}
+  Row 4: {'developmental_association_for_human_advancement_dehat': 'Sl. No.', 'unnamed_1': 'Name of District', 'unnamed_2': 'Name of Block', 'unnamed_3': 'Gram Panchyat', 'unnamed_4': 'Village Name', 'unnamed_5': 'Name of Group', 'unnamed_6': 'AAS Code', 'unnamed_7': 'Date of enrolment in Project', 'unnamed_8': 'No. of Members in Group'}
+  Row 6: {'developmental_association_for_human_advancement_dehat': '1', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Badkhadiya', 'unnamed_4': 'Dhodhepurwa', 'unnamed_5': 'Ekta AAS', 'unnamed_6': 'DHODEKTA', 'unnamed_8': '16'}
+  Row 7: {'developmental_association_for_human_advancement_dehat': '2', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Badkhadiya', 'unnamed_4': 'Dhodhepurwa', 'unnamed_5': 'Jyoti AAS', 'unnamed_6': 'DHODJYOTI', 'unnamed_8': '15'}
+  Row 8: {'developmental_association_for_human_advancement_dehat': '3', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Badkhadiya', 'unnamed_4': 'Dhodhepurwa', 'unnamed_5': 'Laxmi AAS', 'unnamed_6': 'DHODLAXMI', 'unnamed_8': '18'}
+  Row 9: {'developmental_association_for_human_advancement_dehat': '4', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Bajpur Bankati', 'unnamed_4': 'Bajpur Bankati', 'unnamed_5': 'Champa', 'unnamed_6': 'BAJPCHAMPA', 'unnamed_8': '16'}
+  Row 10: {'developmental_association_for_human_advancement_dehat': '5', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Bajpur Bankati', 'unnamed_4': 'Bajpur Bankati', 'unnamed_5': 'Gaytri', 'unnamed_6': 'BAJPGAYTRI', 'unnamed_8': '15'}
+  Row 11: {'developmental_association_for_human_advancement_dehat': '6', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Bajpur Bankati', 'unnamed_4': 'Bajpur Bankati', 'unnamed_5': 'Durga AAS', 'unnamed_6': 'BAJPDURGA', 'unnamed_8': '17'}
+  Row 12: {'developmental_association_for_human_advancement_dehat': '7', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Bajpur Bankati', 'unnamed_4': 'Bajpur Bankati', 'unnamed_5': 'Pushpa AAS', 'unnamed_6': 'BAJPPUSHPA', 'unnamed_8': '16'}
+  Row 13: {'developmental_association_for_human_advancement_dehat': '8', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Bajpur Bankati', 'unnamed_4': 'Bajpur Bankati', 'unnamed_5': 'Radha AAS', 'unnamed_6': 'BAJPRADHA', 'unnamed_8': '18'}
+  Row 14: {'developmental_association_for_human_advancement_dehat': '9', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Bajpur Bankati', 'unnamed_4': 'Bajpur Bankati', 'unnamed_5': 'Vasundhara AAS', 'unnamed_6': 'BAJPVASUNDHARA', 'unnamed_8': '17'}
+  Row 15: {'developmental_association_for_human_advancement_dehat': '10', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Chahalwa', 'unnamed_4': 'Ghoorepurwa', 'unnamed_5': 'Tara', 'unnamed_6': 'GHOOTARA', 'unnamed_8': '20'}
+  Row 16: {'developmental_association_for_human_advancement_dehat': '11', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Chahalwa', 'unnamed_4': 'Ghoorepurwa', 'unnamed_5': 'Seetal', 'unnamed_6': 'GHOOSEETAL', 'unnamed_8': '20'}
+  Row 17: {'developmental_association_for_human_advancement_dehat': '12', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Chahalwa', 'unnamed_4': 'Kailash Nagar', 'unnamed_5': 'Durga', 'unnamed_6': 'KAILDURGA', 'unnamed_8': '20'}
+  Row 18: {'developmental_association_for_human_advancement_dehat': '13', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Chahalwa', 'unnamed_4': 'Kailash Nagar', 'unnamed_5': 'Durga AAS', 'unnamed_6': 'KAILDURGA', 'unnamed_8': '20'}
+  Row 19: {'developmental_association_for_human_advancement_dehat': '14', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Chahalwa', 'unnamed_4': 'Kailash Nagar Dekhiya', 'unnamed_5': 'Ambe', 'unnamed_6': 'KAILAMBE', 'unnamed_8': '18'}
+  Row 20: {'developmental_association_for_human_advancement_dehat': '15', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Chahalwa', 'unnamed_4': 'Kailash Nagar Dekhiya', 'unnamed_5': 'Jagdambe', 'unnamed_6': 'KAILJAGDAMBE', 'unnamed_8': '15'}
+  Row 21: {'developmental_association_for_human_advancement_dehat': '16', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Chahalwa', 'unnamed_4': 'Kailash Nagar Dekhiya', 'unnamed_5': 'Kali Mata', 'unnamed_6': 'KAILKALI MATA', 'unnamed_8': '20'}
+  Row 22: {'developmental_association_for_human_advancement_dehat': '17', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Chahalwa', 'unnamed_4': 'Mangalpurwa', 'unnamed_5': 'Arti', 'unnamed_6': 'MANGARTI', 'unnamed_8': '20'}
+  Row 23: {'developmental_association_for_human_advancement_dehat': '18', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Chahalwa', 'unnamed_4': 'Mangalpurwa', 'unnamed_5': 'Jai Mata', 'unnamed_6': 'MANGJAI MATA', 'unnamed_8': '20'}
+  Row 24: {'developmental_association_for_human_advancement_dehat': '19', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Chahalwa', 'unnamed_4': 'Mangalpurwa', 'unnamed_5': 'Krishi', 'unnamed_6': 'MANGKRISHI', 'unnamed_8': '14'}
+  Row 25: {'developmental_association_for_human_advancement_dehat': '20', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Chahalwa', 'unnamed_4': 'Mangalpurwa', 'unnamed_5': 'Krishi Utpadak', 'unnamed_6': 'MANGKRISHI UTPADAK', 'unnamed_8': '19'}
+  Row 26: {'developmental_association_for_human_advancement_dehat': '21', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Chahalwa', 'unnamed_4': 'Mangalpurwa', 'unnamed_5': 'Krishna', 'unnamed_6': 'MANGKRISHNA', 'unnamed_8': '12'}
+  Row 27: {'developmental_association_for_human_advancement_dehat': '22', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Chahalwa', 'unnamed_4': 'Mangalpurwa', 'unnamed_5': 'Ravidas', 'unnamed_6': 'MANGRAVIDAS', 'unnamed_8': '18'}
+  Row 28: {'developmental_association_for_human_advancement_dehat': '23', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Chahalwa', 'unnamed_4': 'Mangalpurwa', 'unnamed_5': 'Soorsati', 'unnamed_6': 'MANGSOORSATI', 'unnamed_8': '20'}
+  Row 29: {'developmental_association_for_human_advancement_dehat': '24', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Chahalwa', 'unnamed_4': 'Sirsiyanpurwa', 'unnamed_5': 'Ambe', 'unnamed_6': 'SIRSAMBE', 'unnamed_8': '20'}
+  Row 30: {'developmental_association_for_human_advancement_dehat': '25', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Chahalwa', 'unnamed_4': 'Sirsiyanpurwa', 'unnamed_5': 'Durga', 'unnamed_6': 'SIRSDURGA', 'unnamed_8': '20'}
+  Row 31: {'developmental_association_for_human_advancement_dehat': '26', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Chahalwa', 'unnamed_4': 'Sirsiyanpurwa', 'unnamed_5': 'Ganga', 'unnamed_6': 'SIRSGANGA', 'unnamed_8': '20'}
+  Row 32: {'developmental_association_for_human_advancement_dehat': '27', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Chahalwa', 'unnamed_4': 'Sirsiyanpurwa', 'unnamed_5': 'Jai Mahakali', 'unnamed_6': 'SIRSJAI MAHAKALI', 'unnamed_8': '14'}
+  Row 33: {'developmental_association_for_human_advancement_dehat': '28', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Chahalwa', 'unnamed_4': 'Sirsiyanpurwa', 'unnamed_5': 'Jamuna', 'unnamed_6': 'SIRSJAMUNA', 'unnamed_8': '20'}
+  Row 34: {'developmental_association_for_human_advancement_dehat': '29', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Chahalwa', 'unnamed_4': 'Sirsiyanpurwa', 'unnamed_5': 'Krishi', 'unnamed_6': 'SIRSKRISHI', 'unnamed_8': '40'}
+  Row 35: {'developmental_association_for_human_advancement_dehat': '30', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Chahalwa', 'unnamed_4': 'Sirsiyanpurwa', 'unnamed_5': 'Mahakali AAS', 'unnamed_6': 'SIRSMAHAKALI', 'unnamed_8': '20'}
+  Row 36: {'developmental_association_for_human_advancement_dehat': '31', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Chahalwa', 'unnamed_4': 'Sirsiyanpurwa', 'unnamed_5': 'Parvati', 'unnamed_6': 'SIRSPARVATI', 'unnamed_8': '20'}
+  Row 37: {'developmental_association_for_human_advancement_dehat': '32', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Fakirpuri', 'unnamed_4': 'Badihanpurwa', 'unnamed_5': 'Anguri', 'unnamed_6': 'BADIANGURI', 'unnamed_8': '13'}
+  Row 38: {'developmental_association_for_human_advancement_dehat': '33', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Fakirpuri', 'unnamed_4': 'Fakirpuri', 'unnamed_5': 'Aasha', 'unnamed_6': 'FAKIAASHA', 'unnamed_8': '15'}
+  Row 39: {'developmental_association_for_human_advancement_dehat': '34', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Fakirpuri', 'unnamed_4': 'Fakirpuri', 'unnamed_5': 'Azadi', 'unnamed_6': 'FAKIAZADI', 'unnamed_8': '18'}
+  Row 40: {'developmental_association_for_human_advancement_dehat': '35', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Fakirpuri', 'unnamed_4': 'Fakirpuri', 'unnamed_5': 'Jwala Azadi', 'unnamed_6': 'FAKIJWALA AZADI', 'unnamed_8': '11'}
+  Row 41: {'developmental_association_for_human_advancement_dehat': '36', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Fakirpuri', 'unnamed_4': 'Fakirpuri', 'unnamed_5': 'Kajal AAS', 'unnamed_6': 'FAKIKAJAL', 'unnamed_8': '11'}
+  Row 42: {'developmental_association_for_human_advancement_dehat': '37', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Fakirpuri', 'unnamed_4': 'Fakirpuri', 'unnamed_5': 'Khushi', 'unnamed_6': 'FAKIKHUSHI', 'unnamed_8': '11'}
+  Row 43: {'developmental_association_for_human_advancement_dehat': '38', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Fakirpuri', 'unnamed_4': 'Fakirpuri', 'unnamed_5': 'Pratibha', 'unnamed_6': 'FAKIPRATIBHA', 'unnamed_8': '18'}
+  Row 44: {'developmental_association_for_human_advancement_dehat': '39', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Fakirpuri', 'unnamed_4': 'Fakirpuri', 'unnamed_5': 'Radha Ajadi AAS', 'unnamed_6': 'FAKIRADHA AJADI', 'unnamed_8': '12'}
+  Row 45: {'developmental_association_for_human_advancement_dehat': '40', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Fakirpuri', 'unnamed_4': 'Fakirpuri', 'unnamed_5': 'Rani', 'unnamed_6': 'FAKIRANI', 'unnamed_8': '17'}
+  Row 46: {'developmental_association_for_human_advancement_dehat': '41', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Fakirpuri', 'unnamed_4': 'Fakirpuri', 'unnamed_5': 'Seeta', 'unnamed_6': 'FAKISEETA', 'unnamed_8': '16'}
+  Row 47: {'developmental_association_for_human_advancement_dehat': '42', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Fakirpuri', 'unnamed_4': 'Fakirpuri', 'unnamed_5': 'Tulsi', 'unnamed_6': 'FAKITULSI', 'unnamed_8': '16'}
+  Row 48: {'developmental_association_for_human_advancement_dehat': '43', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Fakirpuri', 'unnamed_4': 'Rampurwa', 'unnamed_5': 'Sadhan Azadi', 'unnamed_6': 'RAMPSADHAN AZADI', 'unnamed_8': '14'}
+  Row 49: {'developmental_association_for_human_advancement_dehat': '44', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Karikot', 'unnamed_4': 'Azamgadhpurwa', 'unnamed_5': 'Kisan AAS', 'unnamed_6': 'AZAMKISAN', 'unnamed_8': '17'}
+  Row 50: {'developmental_association_for_human_advancement_dehat': '45', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Karikot', 'unnamed_4': 'Badhiyanpurwa', 'unnamed_5': 'Bala Ji AAS', 'unnamed_6': 'BADHBALA JI', 'unnamed_8': '20'}
+  Row 51: {'developmental_association_for_human_advancement_dehat': '46', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Karikot', 'unnamed_4': 'Badhiyanpurwa', 'unnamed_5': 'Jwala AAS', 'unnamed_6': 'BADHJWALA', 'unnamed_8': '20'}
+  Row 52: {'developmental_association_for_human_advancement_dehat': '47', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Karikot', 'unnamed_4': 'Bhatta Bargadaha', 'unnamed_5': 'Chandani', 'unnamed_6': 'BHATCHANDANI', 'unnamed_8': '13'}
+  Row 53: {'developmental_association_for_human_advancement_dehat': '48', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Karikot', 'unnamed_4': 'Bhatta Bargadaha', 'unnamed_5': 'Krishna', 'unnamed_6': 'BHATKRISHNA', 'unnamed_8': '16'}
+  Row 54: {'developmental_association_for_human_advancement_dehat': '49', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Karikot', 'unnamed_4': 'Bhatta Bargadaha', 'unnamed_5': 'Maa', 'unnamed_6': 'BHATMAA', 'unnamed_8': '11'}
+  Row 55: {'developmental_association_for_human_advancement_dehat': '50', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Karikot', 'unnamed_4': 'Bhatta Bargadaha', 'unnamed_5': 'Prakash', 'unnamed_6': 'BHATPRAKASH', 'unnamed_8': '11'}
+  Row 56: {'developmental_association_for_human_advancement_dehat': '51', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Karikot', 'unnamed_4': 'Bhatta Bargadaha', 'unnamed_5': 'Roshni', 'unnamed_6': 'BHATROSHNI', 'unnamed_8': '11'}
+  Row 57: {'developmental_association_for_human_advancement_dehat': '52', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Karikot', 'unnamed_4': 'Bhodahanpurwa', 'unnamed_5': 'Karikot Maiya', 'unnamed_6': 'BHODKARIKOT MAIYA', 'unnamed_8': '17'}
+  Row 58: {'developmental_association_for_human_advancement_dehat': '53', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Karikot', 'unnamed_4': 'Bhodahanpurwa', 'unnamed_5': 'Shri Vaishno Devi', 'unnamed_6': 'BHODSHRI VAISHNO DEVI', 'unnamed_8': '19'}
+  Row 59: {'developmental_association_for_human_advancement_dehat': '54', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Karikot', 'unnamed_4': 'Hajaripurwa', 'unnamed_5': 'Ganga', 'unnamed_6': 'HAJAGANGA', 'unnamed_8': '15'}
+  Row 60: {'developmental_association_for_human_advancement_dehat': '55', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Karikot', 'unnamed_4': 'Hajaripurwa', 'unnamed_5': 'Krishna', 'unnamed_6': 'HAJAKRISHNA', 'unnamed_8': '1'}
+  Row 61: {'developmental_association_for_human_advancement_dehat': '56', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Karikot', 'unnamed_4': 'Hajaripurwa', 'unnamed_5': 'Mahima', 'unnamed_6': 'HAJAMAHIMA', 'unnamed_8': '16'}
+  Row 62: {'developmental_association_for_human_advancement_dehat': '57', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Karikot', 'unnamed_4': 'Hajaripurwa', 'unnamed_5': 'Meera', 'unnamed_6': 'HAJAMEERA', 'unnamed_8': '20'}
+  Row 63: {'developmental_association_for_human_advancement_dehat': '58', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Karikot', 'unnamed_4': 'Hajaripurwa', 'unnamed_5': 'Susheela', 'unnamed_6': 'HAJASUSHEELA', 'unnamed_8': '18'}
+  Row 64: {'developmental_association_for_human_advancement_dehat': '59', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Karikot', 'unnamed_4': 'Jamuniha', 'unnamed_5': 'Shanti', 'unnamed_6': 'JAMUSHANTI', 'unnamed_8': '16'}
+  Row 65: {'developmental_association_for_human_advancement_dehat': '60', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Karikot', 'unnamed_4': 'Jamuniha', 'unnamed_5': 'Sharda', 'unnamed_6': 'JAMUSHARDA', 'unnamed_8': '15'}
+  Row 66: {'developmental_association_for_human_advancement_dehat': '61', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Karikot', 'unnamed_4': 'Jamuniha', 'unnamed_5': 'Sheela', 'unnamed_6': 'JAMUSHEELA', 'unnamed_8': '14'}
+  Row 67: {'developmental_association_for_human_advancement_dehat': '62', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Karikot', 'unnamed_4': 'Jamuniha', 'unnamed_5': 'Kisan AAS', 'unnamed_6': 'JAMUKISAN', 'unnamed_8': '17'}
+  Row 68: {'developmental_association_for_human_advancement_dehat': '63', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Karikot', 'unnamed_4': 'Lohra', 'unnamed_5': 'Aarti AAS', 'unnamed_6': 'LOHRAARTI', 'unnamed_8': '20'}
+  Row 69: {'developmental_association_for_human_advancement_dehat': '64', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Karikot', 'unnamed_4': 'Lohra', 'unnamed_5': 'Kranti AAS', 'unnamed_6': 'LOHRKRANTI', 'unnamed_8': '20'}
+  Row 70: {'developmental_association_for_human_advancement_dehat': '65', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Karikot', 'unnamed_4': 'Narayan Tanda', 'unnamed_5': 'Ganesh', 'unnamed_6': 'NARAGANESH', 'unnamed_8': '17'}
+  Row 71: {'developmental_association_for_human_advancement_dehat': '66', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Karikot', 'unnamed_4': 'Narayan Tanda', 'unnamed_5': 'Ganga', 'unnamed_6': 'NARAGANGA', 'unnamed_8': '16'}
+  Row 72: {'developmental_association_for_human_advancement_dehat': '67', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Karikot', 'unnamed_4': 'Narayan Tanda', 'unnamed_5': 'Jamuna', 'unnamed_6': 'NARAJAMUNA', 'unnamed_8': '18'}
+  Row 73: {'developmental_association_for_human_advancement_dehat': '68', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Karikot', 'unnamed_4': 'Narayan Tanda', 'unnamed_5': 'Krishna', 'unnamed_6': 'NARAKRISHNA', 'unnamed_8': '16'}
+  Row 74: {'developmental_association_for_human_advancement_dehat': '69', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Karikot', 'unnamed_4': 'Rajaram Tanda', 'unnamed_5': 'Arti', 'unnamed_6': 'RAJAARTI', 'unnamed_8': '18'}
+  Row 75: {'developmental_association_for_human_advancement_dehat': '70', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Karikot', 'unnamed_4': 'Rajaram Tanda', 'unnamed_5': 'Jai Ma Kali', 'unnamed_6': 'RAJAJAI MA KALI', 'unnamed_8': '20'}
+  Row 76: {'developmental_association_for_human_advancement_dehat': '71', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Karikot', 'unnamed_4': 'Rajaram Tanda', 'unnamed_5': 'Jai Ma Santoshi', 'unnamed_6': 'RAJAJAI MA SANTOSHI', 'unnamed_8': '16'}
+  Row 77: {'developmental_association_for_human_advancement_dehat': '72', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Karikot', 'unnamed_4': 'Rajaram Tanda', 'unnamed_5': 'Jai Mata Di', 'unnamed_6': 'RAJAJAI MATA DI', 'unnamed_8': '15'}
+  Row 78: {'developmental_association_for_human_advancement_dehat': '73', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Karikot', 'unnamed_4': 'Rajaram Tanda', 'unnamed_5': 'Jai Shree Ram', 'unnamed_6': 'RAJAJAI SHREE RAM', 'unnamed_8': '13'}
+  Row 79: {'developmental_association_for_human_advancement_dehat': '74', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Karikot', 'unnamed_4': 'Rajaram Tanda', 'unnamed_5': 'Krishna', 'unnamed_6': 'RAJAKRISHNA', 'unnamed_8': '20'}
+  Row 80: {'developmental_association_for_human_advancement_dehat': '75', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Karikot', 'unnamed_4': 'Rajaram Tanda', 'unnamed_5': 'Suraj', 'unnamed_6': 'RAJASURAJ', 'unnamed_8': '13'}
+  Row 81: {'developmental_association_for_human_advancement_dehat': '76', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Karikot', 'unnamed_4': 'Vishuntanda', 'unnamed_5': 'Gajni', 'unnamed_6': 'VISHGAJNI', 'unnamed_8': '16'}
+  Row 82: {'developmental_association_for_human_advancement_dehat': '77', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Karikot', 'unnamed_4': 'Vishuntanda', 'unnamed_5': 'Meera', 'unnamed_6': 'VISHMEERA', 'unnamed_8': '15'}
+  Row 83: {'developmental_association_for_human_advancement_dehat': '78', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Karikot', 'unnamed_4': 'Vishuntanda', 'unnamed_5': 'Mohani', 'unnamed_6': 'VISHMOHANI', 'unnamed_8': '16'}
+  Row 84: {'developmental_association_for_human_advancement_dehat': '79', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Vishunapur', 'unnamed_4': 'Vishunapur', 'unnamed_5': 'Drishti', 'unnamed_6': 'VISHDRISHTI', 'unnamed_8': '15'}
+  Row 85: {'developmental_association_for_human_advancement_dehat': '80', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Vishunapur', 'unnamed_4': 'Vishunapur', 'unnamed_5': 'Gaytri', 'unnamed_6': 'VISHGAYTRI', 'unnamed_8': '11'}
+  Row 86: {'developmental_association_for_human_advancement_dehat': '81', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Vishunapur', 'unnamed_4': 'Vishunapur', 'unnamed_5': 'Jai Ma Vaishno', 'unnamed_6': 'VISHJAI MA VAISHNO', 'unnamed_8': '12'}
+  Row 87: {'developmental_association_for_human_advancement_dehat': '82', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihinpurwa', 'unnamed_3': 'Vishunapur', 'unnamed_4': 'Vishunapur', 'unnamed_5': 'Ujala', 'unnamed_6': 'VISHUJALA', 'unnamed_8': '14'}
+  Row 88: {'unnamed_8': '1358'}
+
+--- AASINFOR (1363 rows, sample 10) ---
+Columns: ['developmental_association_for_human_advancement_dehat', 'unnamed_1', 'unnamed_2', 'unnamed_3', 'unnamed_4', 'unnamed_5', 'unnamed_6', 'unnamed_7', 'unnamed_8', 'unnamed_9', 'unnamed_10', 'unnamed_11', 'unnamed_12', 'unnamed_13', 'unnamed_14', 'unnamed_15', 'unnamed_16', 'unnamed_17', 'unnamed_18', 'unnamed_19', 'unnamed_20']
+  Row 1: {'developmental_association_for_human_advancement_dehat': 'Farmers Action for Sustainable Agro-based Livelihoods- FASAL'}
+  Row 2: {'developmental_association_for_human_advancement_dehat': 'Farmer HH data'}
+  Row 4: {'developmental_association_for_human_advancement_dehat': 'Sl. No.', 'unnamed_1': 'Name of District', 'unnamed_2': 'Name of Block', 'unnamed_3': 'Gram Panchyat', 'unnamed_4': 'Revenue village', 'unnamed_5': 'Name of Group', 'unnamed_6': 'Name of Farmer', 'unnamed_7': 'Father/Spouse Name', 'unnamed_8': 'Farmer Code', 'unnamed_9': 'Sex (M/F)', 'unnamed_10': 'Age (Years)', 'unnamed_11': 'Total Member in family', 'unnamed_13': 'Children Below 18 years age', 'unnamed_14': 'Category (Gen./OBC/ SC/ST)', 'unnamed_15': 'APL/BPL', 'unnamed_16': 'Total Land Holding (In Acre)', 'unnamed_18': 'Type Of ID -Adhar/Rasan/Voter/Etc', 'unnamed_19': 'Adhar/Ration Card/Voter ID-No.', 'unnamed_20': 'Annual Income From Agriculture (Rs)'}
+  Row 5: {'unnamed_11': 'Male', 'unnamed_12': 'Female', 'unnamed_16': 'Owned', 'unnamed_17': 'Leased'}
+  Row 6: {'developmental_association_for_human_advancement_dehat': '1', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihipurwa', 'unnamed_3': 'Badkhadiya', 'unnamed_4': 'Dhodhepurwa', 'unnamed_5': 'Ekta AAS', 'unnamed_6': 'Anurudh', 'unnamed_7': 'Khusiram', 'unnamed_8': 'DHODEKTA1'}
+  Row 7: {'developmental_association_for_human_advancement_dehat': '2', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihipurwa', 'unnamed_3': 'Badkhadiya', 'unnamed_4': 'Dhodhepurwa', 'unnamed_5': 'Ekta AAS', 'unnamed_6': 'Musharraf Kha', 'unnamed_7': 'Mo. Asgar Kha', 'unnamed_8': 'DHODEKTA2'}
+  Row 8: {'developmental_association_for_human_advancement_dehat': '3', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihipurwa', 'unnamed_3': 'Badkhadiya', 'unnamed_4': 'Dhodhepurwa', 'unnamed_5': 'Ekta AAS', 'unnamed_6': 'Afzal Khan', 'unnamed_7': 'Shabir Kha', 'unnamed_8': 'DHODEKTA3'}
+  Row 9: {'developmental_association_for_human_advancement_dehat': '4', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihipurwa', 'unnamed_3': 'Badkhadiya', 'unnamed_4': 'Dhodhepurwa', 'unnamed_5': 'Ekta AAS', 'unnamed_6': 'Shiv Charan', 'unnamed_7': 'Matadeen', 'unnamed_8': 'DHODEKTA4'}
+  Row 10: {'developmental_association_for_human_advancement_dehat': '5', 'unnamed_1': 'Bahraich', 'unnamed_2': 'Mihipurwa', 'unnamed_3': 'Badkhadiya', 'unnamed_4': 'Dhodhepurwa', 'unnamed_5': 'Ekta AAS', 'unnamed_6': 'Hariram', 'unnamed_7': 'Narayan', 'unnamed_8': 'DHODEKTA5'}
+
+================================================================================
+FASAL MIS - ACTIVITY DETAILS
+================================================================================
+  [S. No.] Activity/Intervention/ Indicator
+      Target: Proposed target for current year  (Y1), Achievement: Achievement made current year
+  [1] PROJECT ACTIVITIES
+  [1.1] Community institutions
+  [1.1.1] AAS groups formed
+      Target: 80, Achievement: 82
+  [None] Male Members in AAS
+  [None] Female Members in AAS
+  [None] members in AAS
+      Target: 1500, Achievement: 0
+  [1.1.2] Cluster/ VO Formed/layered
+      Target: 5, Achievement: 0
+  [None] Male Members in Clusters
+  [None] Female Members in Clusters
+  [None] Members in Vos
+      Target: 240, Achievement: 270
+  [1.1.3] Federation formed
+      Target: 1, Achievement: 0
+  [None] Male Members in federation
+  [None] Female Members in federation
+      Target: 40, Achievement: 0
+  [None] Members in federation
+      Target: 40, Achievement: 0
+  [1.1.4] Leadership Training Programs
+  [None] Male Participation in Direct Training Program
+  [None] Female Participation in Direct training program
+  [None] Total Participation in direct training programs
+      Target: 960, Achievement: 659
+  [1.1.5] CB - Gender based discrimination 
+  [None] Male Participation in Direct Training Program
+  [None] Female Participation in Direct training program
+  [None] Total Participation in direct training programs
+      Target: 960, Achievement: 659
+  [1.1.6]  District level stakeholder interface meetings
+  [None] Total Participation
+      Target: 40, Achievement: 107
+  [1.1.7]  Block level stakeholder interface meetings
+  [None] Total Participation
+      Target: 400, Achievement: 314
+  [1.1.8]  Village level stakeholder interface meetings
+      Target: 200, Achievement: 58
+  [None] Total Participation
+      Target: 1500, Achievement: 3561
+  [2]  Enhance Productivity 
+  [2.1] Multi-layered vegetable farming
+  [None] No. of farmers
+  [None] Area (acre)
+  [None] Quality seed used (in quintals)
+  [None] Yield (in quintals)
+  [None] Net Income (Rs.)
+  [None] No of training Programs
+  [None] No of Participants
+  [2.2] LIESA Practices
+  [None] No. of farmers
+
+================================================================================
+CROP DETAILS SAMPLE
+================================================================================
+Total columns: 117
+First 40: ['unnamed_0', 'unnamed_1', 'unnamed_2', 'unnamed_3', 'unnamed_4', 'unnamed_5', 'unnamed_6', 'unnamed_7', 'unnamed_8', 'unnamed_9', 'unnamed_10', 'unnamed_11', 'unnamed_12', 'unnamed_13', 'unnamed_14', 'unnamed_15', 'unnamed_16', 'unnamed_17', 'unnamed_18', 'unnamed_19', 'unnamed_20', 'unnamed_21', 'unnamed_22', 'unnamed_23', 'unnamed_24', 'unnamed_25', 'unnamed_26', 'unnamed_27', 'unnamed_28', 'unnamed_29', 'unnamed_30', 'unnamed_31', 'unnamed_32', 'unnamed_33', 'unnamed_34', 'unnamed_35', 'unnamed_36', 'unnamed_37', 'unnamed_38', 'unnamed_39']
+  Row 1: {'unnamed_0': 'Farmers Action for Sustainable Agro-based Livelihoods- FASAL'}
+  Row 2: {'unnamed_0': 'Farmers wise Crops details', 'unnamed_17': '2025'}
+  Row 3: {'unnamed_9': 'Kharif', 'unnamed_17': 'Rabi'}
+
+
+DONE.

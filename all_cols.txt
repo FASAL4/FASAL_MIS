@@ -1,0 +1,974 @@
+start
+end
+Surveyor Name
+District
+Block Name
+Village Panchayat
+Name of the Farmers/AAS Members
+Name of Father/Husband
+your phone number
+Self Help Group (SHG) Name
+Baghmitra/Gajmitra name
+Name of Panchayat Assistant
+Panchayat Assistant WhatsApp Number
+Name of Krishi Mitra related to the family
+WhatsApp number of the agricultural friend related to the family
+Number of Family Members
+Are you filling the first year's first half data
+What are white food did you consumed in january2022
+What are white food did you consumed in january2022/Milk
+What are white food did you consumed in january2022/Cheese
+What are white food did you consumed in january2022/Egg
+What are white food did you consumed in january2022/Cauliflower
+What are white food did you consumed in january2022/Rice
+What are white food did you consumed in january2022/Other
+What are green food did you consumed in january2022
+What are green food did you consumed in january2022/Bitter gourd
+What are green food did you consumed in january2022/Bottle gourd
+What are green food did you consumed in january2022/drumstick leaf
+What are green food did you consumed in january2022/greens
+What are green food did you consumed in january2022/ladyfinger
+What are green food did you consumed in january2022/Lemon
+What are green food did you consumed in january2022/banana
+What are green food did you consumed in january2022/cowpea
+What are green food did you consumed in january2022/Pumpkin
+What are green food did you consumed in january2022/ridge gourd
+What are green food did you consumed in january2022/Jackfruit
+What are green food did you consumed in january2022/Pointed gourd
+What are green food did you consumed in january2022/kundru
+What are green food did you consumed in january2022/Cucumber
+What are green food did you consumed in january2022/Other
+What are yellow food did you consumed in january2022
+What are yellow food did you consumed in january2022/Pigeon Pea
+What are yellow food did you consumed in january2022/Chickpea
+What are yellow food did you consumed in january2022/peas dal
+What are yellow food did you consumed in january2022/Lentil
+What are yellow food did you consumed in january2022/Soybean
+What are yellow food did you consumed in january2022/wheat
+What are yellow food did you consumed in january2022/Maize
+What are yellow food did you consumed in january2022/muskmelon
+What are yellow food did you consumed in january2022/banana
+What are yellow food did you consumed in january2022/Other
+What are white food did you consumed in february2022
+What are white food did you consumed in february2022/Milk
+What are white food did you consumed in february2022/Cheese
+What are white food did you consumed in february2022/Egg
+What are white food did you consumed in february2022/Cauliflower
+What are white food did you consumed in february2022/Rice
+What are white food did you consumed in february2022/Other
+What are green food did you consumed in february2022
+What are green food did you consumed in february2022/Bitter gourd
+What are green food did you consumed in february2022/Bottle gourd
+What are green food did you consumed in february2022/drumstick leaf
+What are green food did you consumed in february2022/greens
+What are green food did you consumed in february2022/ladyfinger
+What are green food did you consumed in february2022/Lemon
+What are green food did you consumed in february2022/banana
+What are green food did you consumed in february2022/cowpea
+What are green food did you consumed in february2022/Pumpkin
+What are green food did you consumed in february2022/ridge gourd
+What are green food did you consumed in february2022/Jackfruit
+What are green food did you consumed in february2022/Pointed gourd
+What are green food did you consumed in february2022/kundru
+What are green food did you consumed in february2022/Cucumber
+What are green food did you consumed in february2022/Other
+What are yellow food did you consumed in february2022
+What are yellow food did you consumed in february2022/Pigeon Pea
+What are yellow food did you consumed in february2022/Chickpea
+What are yellow food did you consumed in february2022/peas dal
+What are yellow food did you consumed in february2022/Lentil
+What are yellow food did you consumed in february2022/Soybean
+What are yellow food did you consumed in february2022/wheat
+What are yellow food did you consumed in february2022/Maize
+What are yellow food did you consumed in february2022/muskmelon
+What are yellow food did you consumed in february2022/banana
+What are yellow food did you consumed in february2022/Other
+What are white food did you consumed in march2022
+What are white food did you consumed in march2022/Milk
+What are white food did you consumed in march2022/Cheese
+What are white food did you consumed in march2022/Egg
+What are white food did you consumed in march2022/Cauliflower
+What are white food did you consumed in march2022/Rice
+What are white food did you consumed in march2022/Other
+What are green food did you consumed in march2022
+What are green food did you consumed in march2022/Bitter gourd
+What are green food did you consumed in march2022/Bottle gourd
+What are green food did you consumed in march2022/drumstick leaf
+What are green food did you consumed in march2022/greens
+What are green food did you consumed in march2022/ladyfinger
+What are green food did you consumed in march2022/Lemon
+What are green food did you consumed in march2022/banana
+What are green food did you consumed in march2022/cowpea
+What are green food did you consumed in march2022/Pumpkin
+What are green food did you consumed in march2022/ridge gourd
+What are green food did you consumed in march2022/Jackfruit
+What are green food did you consumed in march2022/Pointed gourd
+What are green food did you consumed in march2022/kundru
+What are green food did you consumed in march2022/Cucumber
+What are green food did you consumed in march2022/Other
+What are yellow food did you consumed in march2022
+What are yellow food did you consumed in march2022/Pigeon Pea
+What are yellow food did you consumed in march2022/Chickpea
+What are yellow food did you consumed in march2022/peas dal
+What are yellow food did you consumed in march2022/Lentil
+What are yellow food did you consumed in march2022/Soybean
+What are yellow food did you consumed in march2022/wheat
+What are yellow food did you consumed in march2022/Maize
+What are yellow food did you consumed in march2022/muskmelon
+What are yellow food did you consumed in march2022/banana
+What are yellow food did you consumed in march2022/Other
+What are white food did you consumed in april2022
+What are white food did you consumed in april2022/Milk
+What are white food did you consumed in april2022/Cheese
+What are white food did you consumed in april2022/Egg
+What are white food did you consumed in april2022/Cauliflower
+What are white food did you consumed in april2022/Rice
+What are white food did you consumed in april2022/Other
+What are green food did you consumed in april2022
+What are green food did you consumed in april2022/Bitter gourd
+What are green food did you consumed in april2022/Bottle gourd
+What are green food did you consumed in april2022/drumstick leaf
+What are green food did you consumed in april2022/greens
+What are green food did you consumed in april2022/ladyfinger
+What are green food did you consumed in april2022/Lemon
+What are green food did you consumed in april2022/banana
+What are green food did you consumed in april2022/cowpea
+What are green food did you consumed in april2022/Pumpkin
+What are green food did you consumed in april2022/ridge gourd
+What are green food did you consumed in april2022/Jackfruit
+What are green food did you consumed in april2022/Pointed gourd
+What are green food did you consumed in april2022/kundru
+What are green food did you consumed in april2022/Cucumber
+What are green food did you consumed in april2022/Other
+What are yellow food did you consumed in april2022
+What are yellow food did you consumed in april2022/Pigeon Pea
+What are yellow food did you consumed in april2022/Chickpea
+What are yellow food did you consumed in april2022/peas dal
+What are yellow food did you consumed in april2022/Lentil
+What are yellow food did you consumed in april2022/Soybean
+What are yellow food did you consumed in april2022/wheat
+What are yellow food did you consumed in april2022/Maize
+What are yellow food did you consumed in april2022/muskmelon
+What are yellow food did you consumed in april2022/banana
+What are yellow food did you consumed in april2022/Other
+What are white food did you consumed in may2022
+What are white food did you consumed in may2022/Milk
+What are white food did you consumed in may2022/Cheese
+What are white food did you consumed in may2022/Egg
+What are white food did you consumed in may2022/Cauliflower
+What are white food did you consumed in may2022/Rice
+What are white food did you consumed in may2022/Other
+What are green food did you consumed in may2022
+What are green food did you consumed in may2022/Bitter gourd
+What are green food did you consumed in may2022/Bottle gourd
+What are green food did you consumed in may2022/drumstick leaf
+What are green food did you consumed in may2022/greens
+What are green food did you consumed in may2022/ladyfinger
+What are green food did you consumed in may2022/Lemon
+What are green food did you consumed in may2022/banana
+What are green food did you consumed in may2022/cowpea
+What are green food did you consumed in may2022/Pumpkin
+What are green food did you consumed in may2022/ridge gourd
+What are green food did you consumed in may2022/Jackfruit
+What are green food did you consumed in may2022/Pointed gourd
+What are green food did you consumed in may2022/kundru
+What are green food did you consumed in may2022/Cucumber
+What are green food did you consumed in may2022/Other
+What are yellow food did you consumed in may2022
+What are yellow food did you consumed in may2022/Pigeon Pea
+What are yellow food did you consumed in may2022/Chickpea
+What are yellow food did you consumed in may2022/peas dal
+What are yellow food did you consumed in may2022/Lentil
+What are yellow food did you consumed in may2022/Soybean
+What are yellow food did you consumed in may2022/wheat
+What are yellow food did you consumed in may2022/Maize
+What are yellow food did you consumed in may2022/muskmelon
+What are yellow food did you consumed in may2022/banana
+What are yellow food did you consumed in may2022/Other
+What are white food did you consumed in june2022
+What are white food did you consumed in june2022/Milk
+What are white food did you consumed in june2022/Cheese
+What are white food did you consumed in june2022/Egg
+What are white food did you consumed in june2022/Cauliflower
+What are white food did you consumed in june2022/Rice
+What are white food did you consumed in june2022/Other
+What are green food did you consumed in june2022
+What are green food did you consumed in june2022/Bitter gourd
+What are green food did you consumed in june2022/Bottle gourd
+What are green food did you consumed in june2022/drumstick leaf
+What are green food did you consumed in june2022/greens
+What are green food did you consumed in june2022/ladyfinger
+What are green food did you consumed in june2022/Lemon
+What are green food did you consumed in june2022/banana
+What are green food did you consumed in june2022/cowpea
+What are green food did you consumed in june2022/Pumpkin
+What are green food did you consumed in june2022/ridge gourd
+What are green food did you consumed in june2022/Jackfruit
+What are green food did you consumed in june2022/Pointed gourd
+What are green food did you consumed in june2022/kundru
+What are green food did you consumed in june2022/Cucumber
+What are green food did you consumed in june2022/Other
+What are yellow food did you consumed in june2022
+What are yellow food did you consumed in june2022/Pigeon Pea
+What are yellow food did you consumed in june2022/Chickpea
+What are yellow food did you consumed in june2022/peas dal
+What are yellow food did you consumed in june2022/Lentil
+What are yellow food did you consumed in june2022/Soybean
+What are yellow food did you consumed in june2022/wheat
+What are yellow food did you consumed in june2022/Maize
+What are yellow food did you consumed in june2022/muskmelon
+What are yellow food did you consumed in june2022/banana
+What are yellow food did you consumed in june2022/Other
+Is Leading done for community toilet in First six Months
+Did you Received community toilet in First six Months
+Do you have/had buffalo between Jan-Jun 22?
+Do you have/had cow between Jan-Jun 22?
+Do you have/had goat between Jan-Jun 22?
+Do you have/had bhed between Jan-Jun 22?
+Do you have/had pig between Jan-Jun 22?
+Do you have/had chicken between Jan-Jun 22?
+Do you have/had duck between Jan-Jun 22?
+Do you have/had horse between Jan-Jun 22?
+Did you sold the bhed between Jan-Jun 22?
+Did you sold the chicken between Jan-Jun 22?
+Are you filling the first year's second half data
+What are white food did you consumed in july2022
+What are white food did you consumed in july2022/Milk
+What are white food did you consumed in july2022/Cheese
+What are white food did you consumed in july2022/Egg
+What are white food did you consumed in july2022/Cauliflower
+What are white food did you consumed in july2022/Rice
+What are white food did you consumed in july2022/Other
+What are green food did you consumed in july2022
+What are green food did you consumed in july2022/Bitter gourd
+What are green food did you consumed in july2022/Bottle gourd
+What are green food did you consumed in july2022/drumstick leaf
+What are green food did you consumed in july2022/greens
+What are green food did you consumed in july2022/ladyfinger
+What are green food did you consumed in july2022/Lemon
+What are green food did you consumed in july2022/banana
+What are green food did you consumed in july2022/cowpea
+What are green food did you consumed in july2022/Pumpkin
+What are green food did you consumed in july2022/ridge gourd
+What are green food did you consumed in july2022/Jackfruit
+What are green food did you consumed in july2022/Pointed gourd
+What are green food did you consumed in july2022/kundru
+What are green food did you consumed in july2022/Cucumber
+What are green food did you consumed in july2022/Other
+What are yellow food did you consumed in july2022
+What are yellow food did you consumed in july2022/Pigeon Pea
+What are yellow food did you consumed in july2022/Chickpea
+What are yellow food did you consumed in july2022/peas dal
+What are yellow food did you consumed in july2022/Lentil
+What are yellow food did you consumed in july2022/Soybean
+What are yellow food did you consumed in july2022/wheat
+What are yellow food did you consumed in july2022/Maize
+What are yellow food did you consumed in july2022/muskmelon
+What are yellow food did you consumed in july2022/banana
+What are yellow food did you consumed in july2022/Other
+What are white food did you consumed in august2022
+What are white food did you consumed in august2022/Milk
+What are white food did you consumed in august2022/Cheese
+What are white food did you consumed in august2022/Egg
+What are white food did you consumed in august2022/Cauliflower
+What are white food did you consumed in august2022/Rice
+What are white food did you consumed in august2022/Other
+What are green food did you consumed in august2022
+What are green food did you consumed in august2022/Bitter gourd
+What are green food did you consumed in august2022/Bottle gourd
+What are green food did you consumed in august2022/drumstick leaf
+What are green food did you consumed in august2022/greens
+What are green food did you consumed in august2022/ladyfinger
+What are green food did you consumed in august2022/Lemon
+What are green food did you consumed in august2022/banana
+What are green food did you consumed in august2022/cowpea
+What are green food did you consumed in august2022/Pumpkin
+What are green food did you consumed in august2022/ridge gourd
+What are green food did you consumed in august2022/Jackfruit
+What are green food did you consumed in august2022/Pointed gourd
+What are green food did you consumed in august2022/kundru
+What are green food did you consumed in august2022/Cucumber
+What are green food did you consumed in august2022/Other
+What are yellow food did you consumed in august2022
+What are yellow food did you consumed in august2022/Pigeon Pea
+What are yellow food did you consumed in august2022/Chickpea
+What are yellow food did you consumed in august2022/peas dal
+What are yellow food did you consumed in august2022/Lentil
+What are yellow food did you consumed in august2022/Soybean
+What are yellow food did you consumed in august2022/wheat
+What are yellow food did you consumed in august2022/Maize
+What are yellow food did you consumed in august2022/muskmelon
+What are yellow food did you consumed in august2022/banana
+What are yellow food did you consumed in august2022/Other
+What are white food did you consumed in september2022
+What are white food did you consumed in september2022/Milk
+What are white food did you consumed in september2022/Cheese
+What are white food did you consumed in september2022/Egg
+What are white food did you consumed in september2022/Cauliflower
+What are white food did you consumed in september2022/Rice
+What are white food did you consumed in september2022/Other
+What are green food did you consumed in september2022
+What are green food did you consumed in september2022/Bitter gourd
+What are green food did you consumed in september2022/Bottle gourd
+What are green food did you consumed in september2022/drumstick leaf
+What are green food did you consumed in september2022/greens
+What are green food did you consumed in september2022/ladyfinger
+What are green food did you consumed in september2022/Lemon
+What are green food did you consumed in september2022/banana
+What are green food did you consumed in september2022/cowpea
+What are green food did you consumed in september2022/Pumpkin
+What are green food did you consumed in september2022/ridge gourd
+What are green food did you consumed in september2022/Jackfruit
+What are green food did you consumed in september2022/Pointed gourd
+What are green food did you consumed in september2022/kundru
+What are green food did you consumed in september2022/Cucumber
+What are green food did you consumed in september2022/Other
+What are yellow food did you consumed in september2022
+What are yellow food did you consumed in september2022/Pigeon Pea
+What are yellow food did you consumed in september2022/Chickpea
+What are yellow food did you consumed in september2022/peas dal
+What are yellow food did you consumed in september2022/Lentil
+What are yellow food did you consumed in september2022/Soybean
+What are yellow food did you consumed in september2022/wheat
+What are yellow food did you consumed in september2022/Maize
+What are yellow food did you consumed in september2022/muskmelon
+What are yellow food did you consumed in september2022/banana
+What are yellow food did you consumed in september2022/Other
+What are white food did you consumed in october2022
+What are white food did you consumed in october2022/Milk
+What are white food did you consumed in october2022/Cheese
+What are white food did you consumed in october2022/Egg
+What are white food did you consumed in october2022/Cauliflower
+What are white food did you consumed in october2022/Rice
+What are white food did you consumed in october2022/Other
+What are green food did you consumed in october2022
+What are green food did you consumed in october2022/Bitter gourd
+What are green food did you consumed in october2022/Bottle gourd
+What are green food did you consumed in october2022/drumstick leaf
+What are green food did you consumed in october2022/greens
+What are green food did you consumed in october2022/ladyfinger
+What are green food did you consumed in october2022/Lemon
+What are green food did you consumed in october2022/banana
+What are green food did you consumed in october2022/cowpea
+What are green food did you consumed in october2022/Pumpkin
+What are green food did you consumed in october2022/ridge gourd
+What are green food did you consumed in october2022/Jackfruit
+What are green food did you consumed in october2022/Pointed gourd
+What are green food did you consumed in october2022/kundru
+What are green food did you consumed in october2022/Cucumber
+What are green food did you consumed in october2022/Other
+What are yellow food did you consumed in october2022
+What are yellow food did you consumed in october2022/Pigeon Pea
+What are yellow food did you consumed in october2022/Chickpea
+What are yellow food did you consumed in october2022/peas dal
+What are yellow food did you consumed in october2022/Lentil
+What are yellow food did you consumed in october2022/Soybean
+What are yellow food did you consumed in october2022/wheat
+What are yellow food did you consumed in october2022/Maize
+What are yellow food did you consumed in october2022/muskmelon
+What are yellow food did you consumed in october2022/banana
+What are yellow food did you consumed in october2022/Other
+What are white food did you consumed in november2022
+What are white food did you consumed in november2022/Milk
+What are white food did you consumed in november2022/Cheese
+What are white food did you consumed in november2022/Egg
+What are white food did you consumed in november2022/Cauliflower
+What are white food did you consumed in november2022/Rice
+What are white food did you consumed in november2022/Other
+What are green food did you consumed in november2022
+What are green food did you consumed in november2022/Bitter gourd
+What are green food did you consumed in november2022/Bottle gourd
+What are green food did you consumed in november2022/drumstick leaf
+What are green food did you consumed in november2022/greens
+What are green food did you consumed in november2022/ladyfinger
+What are green food did you consumed in november2022/Lemon
+What are green food did you consumed in november2022/banana
+What are green food did you consumed in november2022/cowpea
+What are green food did you consumed in november2022/Pumpkin
+What are green food did you consumed in november2022/ridge gourd
+What are green food did you consumed in november2022/Jackfruit
+What are green food did you consumed in november2022/Pointed gourd
+What are green food did you consumed in november2022/kundru
+What are green food did you consumed in november2022/Cucumber
+What are green food did you consumed in november2022/Other
+What are yellow food did you consumed in november2022
+What are yellow food did you consumed in november2022/Pigeon Pea
+What are yellow food did you consumed in november2022/Chickpea
+What are yellow food did you consumed in november2022/peas dal
+What are yellow food did you consumed in november2022/Lentil
+What are yellow food did you consumed in november2022/Soybean
+What are yellow food did you consumed in november2022/wheat
+What are yellow food did you consumed in november2022/Maize
+What are yellow food did you consumed in november2022/muskmelon
+What are yellow food did you consumed in november2022/banana
+What are yellow food did you consumed in november2022/Other
+What are white food did you consumed in december2022
+What are white food did you consumed in december2022/Milk
+What are white food did you consumed in december2022/Cheese
+What are white food did you consumed in december2022/Egg
+What are white food did you consumed in december2022/Cauliflower
+What are white food did you consumed in december2022/Rice
+What are white food did you consumed in december2022/Other
+What are green food did you consumed in december2022
+What are green food did you consumed in december2022/Bitter gourd
+What are green food did you consumed in december2022/Bottle gourd
+What are green food did you consumed in december2022/drumstick leaf
+What are green food did you consumed in december2022/greens
+What are green food did you consumed in december2022/ladyfinger
+What are green food did you consumed in december2022/Lemon
+What are green food did you consumed in december2022/banana
+What are green food did you consumed in december2022/cowpea
+What are green food did you consumed in december2022/Pumpkin
+What are green food did you consumed in december2022/ridge gourd
+What are green food did you consumed in december2022/Jackfruit
+What are green food did you consumed in december2022/Pointed gourd
+What are green food did you consumed in december2022/kundru
+What are green food did you consumed in december2022/Cucumber
+What are green food did you consumed in december2022/Other
+What are yellow food did you consumed in december2022
+What are yellow food did you consumed in december2022/Pigeon Pea
+What are yellow food did you consumed in december2022/Chickpea
+What are yellow food did you consumed in december2022/peas dal
+What are yellow food did you consumed in december2022/Lentil
+What are yellow food did you consumed in december2022/Soybean
+What are yellow food did you consumed in december2022/wheat
+What are yellow food did you consumed in december2022/Maize
+What are yellow food did you consumed in december2022/muskmelon
+What are yellow food did you consumed in december2022/banana
+What are yellow food did you consumed in december2022/Other
+Is Leading done for community toilet in second six Months
+Did you Received community toilet in second six Months
+Is Leading done for private toilet in second six Months
+Did you Received private toilet in second six Months
+Is Leading done for school toilet in second six Months
+Did you Received school toilet in second six Months
+Is Leading done for Compost pit/staring pit in second six Months
+Did you Received Compost pit/staring pit in second six Months
+Is Leading done for Drain in second six Months
+Did you Received Drain in second six Months
+Is Leading done for community soak pit in second six Months
+Did you Received community soak pit in second six Months
+Is Leading done for sanitary pads in second six Months
+Did you Received sanitary pads in second six Months
+Is Leading done for water tank in second six Months
+Did you Received water tank in second six Months
+Is Leading done for moving drinking water tap in second six Months
+Did you Received moving drinking water tap in second six Months
+Is Leading done for Anganwadi R.O/drinking water system in second six Months
+Did you Received Anganwadi R.O/drinking water system in second six Months
+Is Leading done for Ration Card (BPL/Antodaya) in second six Months
+Did you Received Ration Card (BPL/Antodaya) in second six Months
+Is Leading done for pregnant nutrition in second six Months
+Did you Received pregnant nutrition in second six Months
+Is Leading done for maternal nutrition in second six Months
+Did you Received maternal nutrition in second six Months
+Is Leading done for Nutrition for baby 07 months to 3 years in second six Months
+Did you Received Nutrition for baby 07 months to 3 years in second six Months
+Is Leading done for Nutrition for children from 3 years to 6 years in second six Months
+Did you Received Nutrition for children from 3 years to 6 years in second six Months
+Is Leading done for teenage nutrition in second six Months
+Did you Received teenage nutrition in second six Months
+Is Leading done for mid-day meal/school food in second six Months
+Did you Received mid-day meal/school food in second six Months
+Is Leading done for ANM comes in second six Months
+Did ANM comes in second six Months
+Is Leading done for ASHA in second six Months
+Did ASHA comes in second six Months
+Is Leading done for Anganwadi in second six Months
+Did Anganwadi comes in second six Months
+Is Leading done for vaccination in second six Months
+Did you Received vaccination in second six Months
+Is Leading done for Pre- and post-pregnancy check-up by ASHA/ANM in second six Months
+Did you Received Pre- and post-pregnancy check-up by ASHA/ANM in second six Months
+Is Leading done for Care of Malnourished Children/NRC Referral in second six Months
+Did you Received Care of Malnourished Children/NRC Referral in second six Months
+Is Leading done for Medication delivery (Iron folic acid, calcium, deworming etc.) in second six Months
+Did you Received Medication delivery (Iron folic acid, calcium, deworming etc.) in second six Months
+Is Leading done for active school toilet in second six Months
+is active school toilets available in second six months?
+Is Leading done for primary school in second six Months
+Do you have primary school in second six months?
+Is Leading done for junior school in second six Months
+Did you Received junior school in second six Months
+Is Leading done for composite in second six Months
+Did you Received composite in second six Months
+Is Leading done for high school school in second six Months
+Did you Received high school school in second six Months
+Is Leading done for inter college in second six Months
+Did you Received inter college in second six Months
+Is Leading done for school water tank in second six Months
+Did you Received school water tank in second six Months
+Is Leading done for one teacher for twenty-five children in second six Months
+Did you Received one teacher for twenty-five children in second six Months
+Is Leading done for teacher's presence in second six Months
+Did you Received teacher's presence in second six Months
+Is Leading done for fans in second six Months
+Did you Received fans in second six Months
+Is Leading done for bench in second six Months
+Did you Received bench in second six Months
+Is Leading done for library in second six Months
+Did you Received library in second six Months
+Is Leading done for hand wash basin in second six Months
+Did you Received hand wash basin in second six Months
+Is Leading done for Smart Classes (Computer Green Board/TV) in second six Months
+Did you Received Smart Classes (Computer Green Board/TV) in second six Months
+Is Leading done for school boundary in second six Months
+Did you Received school boundary in second six Months
+Is Leading done for sports related material in second six Months
+Did you Received sports related material in second six Months
+Is Leading done for family register in second six Months
+Did you Received family register in second six Months
+Is Leading done for MNREGA job card in second six Months
+Did you Received MNREGA job card in second six Months
+Is Leading done for BOCW Registration in second six Months
+Did you Received BOCW Registration in second six Months
+Is Leading done for Job Seekers Registration in second six Months
+Did you Received Job Seekers Registration in second six Months
+Is Leading done for PAN card in second six Months
+Did you Received PAN card in second six Months
+Is Leading done for Aadhar card in second six Months
+Did you Received Aadhar card in second six Months
+Is Leading done for Income in second six Months
+Did you Received Income in second six Months
+Is Leading done for Caste in second six Months
+Did you Received Caste in second six Months
+Is Leading done for Residence in second six Months
+Did you Received Residence in second six Months
+Is Leading done for Ayushman Card in second six Months
+Did you Received Ayushman Card in second six Months
+Is Leading done for labor card in second six Months
+Did you Received labor card in second six Months
+Is Leading done for birth certificate in second six Months
+Did you Received birth certificate in second six Months
+Is Leading done for death certificate in second six Months
+Did you Received death certificate in second six Months
+Is Leading done for old age pension in second six Months
+Did you Received old age pension in second six Months
+Is Leading done for widow pension in second six Months
+Did you Received widow pension in second six Months
+Is Leading done for disability certificate in second six Months
+Did you Received disability certificate in second six Months
+Is Leading done for disability pension in second six Months
+Did you Received disability pension in second six Months
+Is Leading done for engine boring in second six Months
+Did you Received engine boring in second six Months
+Is Leading done for new ration card in second six Months
+Did you Received new ration card in second six Months
+Is Leading done for marriage registration in second six Months
+Did you Received marriage registration in second six Months
+Is Leading done for water combination in second six Months
+Did you Received water combination in second six Months
+Is Leading done for new electrical connection in second six Months
+Did you Received new electrical connection in second six Months
+Is Leading done for driving license in second six Months
+Did you Received driving license in second six Months
+Is Leading done for Application for Scholarship (General and SC/ST) in second six Months
+Did you Received Application for Scholarship (General and SC/ST) in second six Months
+Is Leading done for Application for marriage and sickness grant in second six Months
+Did you Received Application for marriage and sickness grant in second six Months
+Is Leading done for Application for complaint about atrocities in second six Months
+Did you Received Application for complaint about atrocities in second six Months
+Is Leading done for Financial assistance for women suffering from dowry system in second six Months
+Did you Received Financial assistance for women suffering from dowry system in second six Months
+Is Leading done for Legal aid for women suffering from dowry system in second six Months
+Did you Received Legal aid for women suffering from dowry system in second six Months
+Is Leading done for Grant scheme for the marriage of daughters of widowed destitute women in second six Months
+Did you Received Grant scheme for the marriage of daughters of widowed destitute women in second six Months
+Is Leading done for Couple Award Scheme to Promote Widow Marriage in second six Months
+Did you Received Couple Award Scheme to Promote Widow Marriage in second six Months
+Is Leading done for Application for loan/grant for rehabilitation by disabled person in second six Months
+Did you Received Application for loan/grant for rehabilitation by disabled person in second six Months
+Is Leading done for Application for grant on marriage of a disabled person in second six Months
+Did you Received Application for grant on marriage of a disabled person in second six Months
+Is Leading done for Grant for artificial limbs to disabled person in second six Months
+Did you Received Grant for artificial limbs to disabled person in second six Months
+Is Leading done for Honorable Chief Minister Farmer Accident Assistance Scheme in second six Months
+Did you Received Honorable Chief Minister Farmer Accident Assistance Scheme in second six Months
+Is Leading done for Honorable Chief Minister Farm-Barn Fire Accident Assistance Scheme in second six Months
+Did you Received Honorable Chief Minister Farm-Barn Fire Accident Assistance Scheme in second six Months
+Do you have/had buffalo between July-Dec 22?
+Do you have/had cow between July-Dec 22?
+Do you have/had goat between July-Dec 22?
+Do you have/had bhed between July-Dec 22?
+Do you have/had pig between July-Dec 22?
+Do you have/had chicken between July-Dec 22?
+Do you have/had duck between July-Dec 22?
+Do you have/had horse between July-Dec 22?
+Did you sold the bhed between July-Dec 22?
+Are you filling the second year's first half data
+What are white food did you consumed in january2023
+What are white food did you consumed in january2023/Milk
+What are white food did you consumed in january2023/Cheese
+What are white food did you consumed in january2023/Egg
+What are white food did you consumed in january2023/Cauliflower
+What are white food did you consumed in january2023/Rice
+What are white food did you consumed in january2023/Other
+What are green food did you consumed in january2023
+What are green food did you consumed in january2023/Bitter gourd
+What are green food did you consumed in january2023/Bottle gourd
+What are green food did you consumed in january2023/drumstick leaf
+What are green food did you consumed in january2023/greens
+What are green food did you consumed in january2023/ladyfinger
+What are green food did you consumed in january2023/Lemon
+What are green food did you consumed in january2023/banana
+What are green food did you consumed in january2023/cowpea
+What are green food did you consumed in january2023/Pumpkin
+What are green food did you consumed in january2023/ridge gourd
+What are green food did you consumed in january2023/Jackfruit
+What are green food did you consumed in january2023/Pointed gourd
+What are green food did you consumed in january2023/kundru
+What are green food did you consumed in january2023/Cucumber
+What are green food did you consumed in january2023/Other
+What are yellow food did you consumed in january2023
+What are yellow food did you consumed in january2023/Pigeon Pea
+What are yellow food did you consumed in january2023/Chickpea
+What are yellow food did you consumed in january2023/peas dal
+What are yellow food did you consumed in january2023/Lentil
+What are yellow food did you consumed in january2023/Soybean
+What are yellow food did you consumed in january2023/wheat
+What are yellow food did you consumed in january2023/Maize
+What are yellow food did you consumed in january2023/muskmelon
+What are yellow food did you consumed in january2023/banana
+What are yellow food did you consumed in january2023/Other
+What are white food did you consumed in february2023
+What are white food did you consumed in february2023/Milk
+What are white food did you consumed in february2023/Cheese
+What are white food did you consumed in february2023/Egg
+What are white food did you consumed in february2023/Cauliflower
+What are white food did you consumed in february2023/Rice
+What are white food did you consumed in february2023/Other
+What are green food did you consumed in february2023
+What are green food did you consumed in february2023/Bitter gourd
+What are green food did you consumed in february2023/Bottle gourd
+What are green food did you consumed in february2023/drumstick leaf
+What are green food did you consumed in february2023/greens
+What are green food did you consumed in february2023/ladyfinger
+What are green food did you consumed in february2023/Lemon
+What are green food did you consumed in february2023/banana
+What are green food did you consumed in february2023/cowpea
+What are green food did you consumed in february2023/Pumpkin
+What are green food did you consumed in february2023/ridge gourd
+What are green food did you consumed in february2023/Jackfruit
+What are green food did you consumed in february2023/Pointed gourd
+What are green food did you consumed in february2023/kundru
+What are green food did you consumed in february2023/Cucumber
+What are green food did you consumed in february2023/Other
+What are yellow food did you consumed in february2023
+What are yellow food did you consumed in february2023/Pigeon Pea
+What are yellow food did you consumed in february2023/Chickpea
+What are yellow food did you consumed in february2023/peas dal
+What are yellow food did you consumed in february2023/Lentil
+What are yellow food did you consumed in february2023/Soybean
+What are yellow food did you consumed in february2023/wheat
+What are yellow food did you consumed in february2023/Maize
+What are yellow food did you consumed in february2023/muskmelon
+What are yellow food did you consumed in february2023/banana
+What are yellow food did you consumed in february2023/Other
+What are white food did you consumed in march2023
+What are white food did you consumed in march2023/Milk
+What are white food did you consumed in march2023/Cheese
+What are white food did you consumed in march2023/Egg
+What are white food did you consumed in march2023/Cauliflower
+What are white food did you consumed in march2023/Rice
+What are white food did you consumed in march2023/Other
+What are green food did you consumed in march2023
+What are green food did you consumed in march2023/Bitter gourd
+What are green food did you consumed in march2023/Bottle gourd
+What are green food did you consumed in march2023/drumstick leaf
+What are green food did you consumed in march2023/greens
+What are green food did you consumed in march2023/ladyfinger
+What are green food did you consumed in march2023/Lemon
+What are green food did you consumed in march2023/banana
+What are green food did you consumed in march2023/cowpea
+What are green food did you consumed in march2023/Pumpkin
+What are green food did you consumed in march2023/ridge gourd
+What are green food did you consumed in march2023/Jackfruit
+What are green food did you consumed in march2023/Pointed gourd
+What are green food did you consumed in march2023/kundru
+What are green food did you consumed in march2023/Cucumber
+What are green food did you consumed in march2023/Other
+What are yellow food did you consumed in march2023
+What are yellow food did you consumed in march2023/Pigeon Pea
+What are yellow food did you consumed in march2023/Chickpea
+What are yellow food did you consumed in march2023/peas dal
+What are yellow food did you consumed in march2023/Lentil
+What are yellow food did you consumed in march2023/Soybean
+What are yellow food did you consumed in march2023/wheat
+What are yellow food did you consumed in march2023/Maize
+What are yellow food did you consumed in march2023/muskmelon
+What are yellow food did you consumed in march2023/banana
+What are yellow food did you consumed in march2023/Other
+What are white food did you consumed in april2023
+What are white food did you consumed in april2023/Milk
+What are white food did you consumed in april2023/Cheese
+What are white food did you consumed in april2023/Egg
+What are white food did you consumed in april2023/Cauliflower
+What are white food did you consumed in april2023/Rice
+What are white food did you consumed in april2023/Other
+What are green food did you consumed in april2023
+What are green food did you consumed in april2023/Bitter gourd
+What are green food did you consumed in april2023/Bottle gourd
+What are green food did you consumed in april2023/drumstick leaf
+What are green food did you consumed in april2023/greens
+What are green food did you consumed in april2023/ladyfinger
+What are green food did you consumed in april2023/Lemon
+What are green food did you consumed in april2023/banana
+What are green food did you consumed in april2023/cowpea
+What are green food did you consumed in april2023/Pumpkin
+What are green food did you consumed in april2023/ridge gourd
+What are green food did you consumed in april2023/Jackfruit
+What are green food did you consumed in april2023/Pointed gourd
+What are green food did you consumed in april2023/kundru
+What are green food did you consumed in april2023/Cucumber
+What are green food did you consumed in april2023/Other
+What are yellow food did you consumed in april2023
+What are yellow food did you consumed in april2023/Pigeon Pea
+What are yellow food did you consumed in april2023/Chickpea
+What are yellow food did you consumed in april2023/peas dal
+What are yellow food did you consumed in april2023/Lentil
+What are yellow food did you consumed in april2023/Soybean
+What are yellow food did you consumed in april2023/wheat
+What are yellow food did you consumed in april2023/Maize
+What are yellow food did you consumed in april2023/muskmelon
+What are yellow food did you consumed in april2023/banana
+What are yellow food did you consumed in april2023/Other
+What are white food did you consumed in may2023
+What are white food did you consumed in may2023/Milk
+What are white food did you consumed in may2023/Cheese
+What are white food did you consumed in may2023/Egg
+What are white food did you consumed in may2023/Cauliflower
+What are white food did you consumed in may2023/Rice
+What are white food did you consumed in may2023/Other
+What are green food did you consumed in may2023
+What are green food did you consumed in may2023/Bitter gourd
+What are green food did you consumed in may2023/Bottle gourd
+What are green food did you consumed in may2023/drumstick leaf
+What are green food did you consumed in may2023/greens
+What are green food did you consumed in may2023/ladyfinger
+What are green food did you consumed in may2023/Lemon
+What are green food did you consumed in may2023/banana
+What are green food did you consumed in may2023/cowpea
+What are green food did you consumed in may2023/Pumpkin
+What are green food did you consumed in may2023/ridge gourd
+What are green food did you consumed in may2023/Jackfruit
+What are green food did you consumed in may2023/Pointed gourd
+What are green food did you consumed in may2023/kundru
+What are green food did you consumed in may2023/Cucumber
+What are green food did you consumed in may2023/Other
+What are yellow food did you consumed in may2023
+What are yellow food did you consumed in may2023/Pigeon Pea
+What are yellow food did you consumed in may2023/Chickpea
+What are yellow food did you consumed in may2023/peas dal
+What are yellow food did you consumed in may2023/Lentil
+What are yellow food did you consumed in may2023/Soybean
+What are yellow food did you consumed in may2023/wheat
+What are yellow food did you consumed in may2023/Maize
+What are yellow food did you consumed in may2023/muskmelon
+What are yellow food did you consumed in may2023/banana
+What are yellow food did you consumed in may2023/Other
+What are white food did you consumed in june2023
+What are white food did you consumed in june2023/Milk
+What are white food did you consumed in june2023/Cheese
+What are white food did you consumed in june2023/Egg
+What are white food did you consumed in june2023/Cauliflower
+What are white food did you consumed in june2023/Rice
+What are white food did you consumed in june2023/Other
+What are green food did you consumed in june2023
+What are green food did you consumed in june2023/Bitter gourd
+What are green food did you consumed in june2023/Bottle gourd
+What are green food did you consumed in june2023/drumstick leaf
+What are green food did you consumed in june2023/greens
+What are green food did you consumed in june2023/ladyfinger
+What are green food did you consumed in june2023/Lemon
+What are green food did you consumed in june2023/banana
+What are green food did you consumed in june2023/cowpea
+What are green food did you consumed in june2023/Pumpkin
+What are green food did you consumed in june2023/ridge gourd
+What are green food did you consumed in june2023/Jackfruit
+What are green food did you consumed in june2023/Pointed gourd
+What are green food did you consumed in june2023/kundru
+What are green food did you consumed in june2023/Cucumber
+What are green food did you consumed in june2023/Other
+What are yellow food did you consumed in june2023
+What are yellow food did you consumed in june2023/Pigeon Pea
+What are yellow food did you consumed in june2023/Chickpea
+What are yellow food did you consumed in june2023/peas dal
+What are yellow food did you consumed in june2023/Lentil
+What are yellow food did you consumed in june2023/Soybean
+What are yellow food did you consumed in june2023/wheat
+What are yellow food did you consumed in june2023/Maize
+What are yellow food did you consumed in june2023/muskmelon
+What are yellow food did you consumed in june2023/banana
+What are yellow food did you consumed in june2023/Other
+Is Leading done for community toilet in third six Months
+Did you Received community toilet in third six Months
+Is Leading done for private toilet in third six Months
+Did you Received private toilet in third six Months
+Is Leading done for school toilet in third six Months
+Did you Received school toilet in third six Months
+Is Leading done for Compost pit/staring pit in third six Months
+Did you Received Compost pit/staring pit in third six Months
+Is Leading done for Drain in third six Months
+Did you Received Drain in third six Months
+Is Leading done for community soak pit in third six Months
+Did you Received community soak pit in third six Months
+Is Leading done for sanitary pads in third six Months
+Did you Received sanitary pads in third six Months
+Is Leading done for water tank in third six Months
+Did you Received water tank in third six Months
+Is Leading done for moving drinking water tap in third six Months
+Did you Received moving drinking water tap in third six Months
+Is Leading done for Anganwadi R.O/drinking water system in third six Months
+Did you Received Anganwadi R.O/drinking water system in third six Months
+Is Leading done for Ration Card (BPL/Antodaya) in third six Months
+Did you Received Ration Card (BPL/Antodaya) in third six Months
+Is Leading done for pregnant nutrition in third six Months
+Did you Received pregnant nutrition in third six Months
+Is Leading done for maternal nutrition in third six Months
+Did you Received maternal nutrition in third six Months
+Is Leading done for Nutrition for baby 07 months to 3 years in third six Months
+Did you Received Nutrition for baby 07 months to 3 years in third six Months
+Is Leading done for Nutrition for children from 3 years to 6 years in third six Months
+Did you Received Nutrition for children from 3 years to 6 years in third six Months
+Is Leading done for teenage nutrition in third six Months
+Did you Received teenage nutrition in third six Months
+Is Leading done for mid-day meal/school food in third six Months
+Did you Received mid-day meal/school food in third six Months
+Is Leading done for ANM comes in third six Months
+Did ANM comes in third six Months
+Is Leading done for ASHA in third six Months
+Did ASHA comes in third six Months
+Is Leading done for Anganwadi in third six Months
+Did Anganwadi comes in third six Months
+Is Leading done for vaccination in third six Months
+Did you Received vaccination in third six Months
+Is Leading done for Pre- and post-pregnancy check-up by ASHA/ANM in third six Months
+Did you Received Pre- and post-pregnancy check-up by ASHA/ANM in third six Months
+Is Leading done for Care of Malnourished Children/NRC Referral in third six Months
+Did you Received Care of Malnourished Children/NRC Referral in third six Months
+Is Leading done for Medication delivery (Iron folic acid, calcium, deworming etc.) in third six Months
+Did you Received Medication delivery (Iron folic acid, calcium, deworming etc.) in third six Months
+Is Leading done for active school toilet in third six Months
+is active school toilets available in third six months?
+Is Leading done for primary school in third six Months
+Do you have primary school in third six months?
+Is Leading done for junior school in third six Months
+Did you Received junior school in third six Months
+Is Leading done for composite in third six Months
+Did you Received composite in third six Months
+Is Leading done for high school school in third six Months
+Did you Received high school school in third six Months
+Is Leading done for inter college in third six Months
+Did you Received inter college in third six Months
+Is Leading done for school water tank in third six Months
+Did you Received school water tank in third six Months
+Is Leading done for one teacher for twenty-five children in third six Months
+Did you Received one teacher for twenty-five children in third six Months
+Is Leading done for teacher's presence in third six Months
+Did you Received teacher's presence in third six Months
+Is Leading done for fans in third six Months
+Did you Received fans in third six Months
+Is Leading done for bench in third six Months
+Did you Received bench in third six Months
+Is Leading done for library in third six Months
+Did you Received library in third six Months
+Is Leading done for hand wash basin in third six Months
+Did you Received hand wash basin in third six Months
+Is Leading done for Smart Classes (Computer Green Board/TV) in third six Months
+Did you Received Smart Classes (Computer Green Board/TV) in third six Months
+Is Leading done for school boundary in third six Months
+Did you Received school boundary in third six Months
+Is Leading done for sports related material in third six Months
+Did you Received sports related material in third six Months
+Is Leading done for family register in third six Months
+Did you Received family register in third six Months
+Is Leading done for MNREGA job card in third six Months
+Did you Received MNREGA job card in third six Months
+Is Leading done for BOCW Registration in third six Months
+Did you Received BOCW Registration in third six Months
+Is Leading done for Job Seekers Registration in third six Months
+Did you Received Job Seekers Registration in third six Months
+Is Leading done for PAN card in third six Months
+Did you Received PAN card in third six Months
+Is Leading done for Aadhar card in third six Months
+Did you Received Aadhar card in third six Months
+Is Leading done for Income in third six Months
+Did you Received Income in third six Months
+Is Leading done for Caste in third six Months
+Did you Received Caste in third six Months
+Is Leading done for Residence in third six Months
+Did you Received Residence in third six Months
+Is Leading done for Ayushman Card in third six Months
+Did you Received Ayushman Card in third six Months
+Is Leading done for labor card in third six Months
+Did you Received labor card in third six Months
+Is Leading done for birth certificate in third six Months
+Did you Received birth certificate in third six Months
+Is Leading done for death certificate in third six Months
+Did you Received death certificate in third six Months
+Is Leading done for old age pension in third six Months
+Did you Received old age pension in third six Months
+Is Leading done for widow pension in third six Months
+Did you Received widow pension in third six Months
+Is Leading done for disability certificate in third six Months
+Did you Received disability certificate in third six Months
+Is Leading done for disability pension in third six Months
+Did you Received disability pension in third six Months
+Is Leading done for engine boring in third six Months
+Did you Received engine boring in third six Months
+Is Leading done for new ration card in third six Months
+Did you Received new ration card in third six Months
+Is Leading done for marriage registration in third six Months
+Did you Received marriage registration in third six Months
+Is Leading done for water combination in third six Months
+Did you Received water combination in third six Months
+Is Leading done for new electrical connection in third six Months
+Did you Received new electrical connection in third six Months
+Is Leading done for driving license in third six Months
+Is Leading done for Application for Scholarship (General and SC/ST) in third six Months
+Did you Received Application for Scholarship (General and SC/ST) in third six Months
+Is Leading done for Application for marriage and sickness grant in third six Months
+Did you Received Application for marriage and sickness grant in third six Months
+Is Leading done for Application for complaint about atrocities in third six Months
+Did you Received Application for complaint about atrocities in third six Months
+Is Leading done for Financial assistance for women suffering from dowry system in third six Months
+Did you Received Financial assistance for women suffering from dowry system in third six Months
+Is Leading done for Legal aid for women suffering from dowry system in third six Months
+Did you Received Legal aid for women suffering from dowry system in third six Months
+Is Leading done for Grant scheme for the marriage of daughters of widowed destitute women in third six Months
+Did you Received Grant scheme for the marriage of daughters of widowed destitute women in third six Months
+Is Leading done for Couple Award Scheme to Promote Widow Marriage in third six Months
+Did you Received Couple Award Scheme to Promote Widow Marriage in third six Months
+Is Leading done for Application for loan/grant for rehabilitation by disabled person in third six Months
+Did you Received Application for loan/grant for rehabilitation by disabled person in third six Months
+Is Leading done for Application for grant on marriage of a disabled person in third six Months
+Did you Received Application for grant on marriage of a disabled person in third six Months
+Is Leading done for Grant for artificial limbs to disabled person in third six Months
+Did you Received Grant for artificial limbs to disabled person in third six Months
+Is Leading done for Honorable Chief Minister Farmer Accident Assistance Scheme in third six Months
+Did you Received Honorable Chief Minister Farmer Accident Assistance Scheme in third six Months
+Is Leading done for Honorable Chief Minister Farm-Barn Fire Accident Assistance Scheme in third six Months
+Did you Received Honorable Chief Minister Farm-Barn Fire Accident Assistance Scheme in third six Months
+Do you have/had buffalo between Jan-Jun 23?
+Do you have/had cow between Jan-Jun 23?
+Do you have/had goat between Jan-Jun 23?
+Do you have/had bhed between Jan-Jun 23?
+Do you have/had pig between Jan-Jun 23?
+Do you have/had chicken between Jan-Jun 23?
+Do you have/had duck between Jan-Jun 23?
+Do you have/had horse between Jan-Jun 23?
+Did you sold the bhed between Jan-Jun 23?
+Are you filling the second year's second half data
+Are you filling the third year's first half data
+Are you filling the third year's second half data
+Are you filling the crop details of Year 2022
+Are you filling the crop details of Year 2023
+Are you filling the crop details of Year 2024?
+_id
+_uuid
+_submission_time
+_status
+_submitted_by
+__version__
+meta/rootUuid
+_index

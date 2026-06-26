@@ -1,0 +1,12 @@
+# Active Session Handoff
+- **Last Action Taken:** Attempted native CLI delegation — `antigravity` command not available from external terminal. Falling back to user-bridged handoff.
+- **Current Blocker:** None — waiting for user to paste delegation prompt into native Antigravity Gemini chat.
+- **Next Immediate Step:** User copies the delegation payload below into the native Antigravity Gemini chat, then replies with "The native agent is done."
+- **Unfinished Checklist:**
+  - [ ] User pastes delegation prompt into native Antigravity Gemini chat
+  - [ ] Native agent: Scan current directory for datasets and log files
+  - [ ] Native agent: Read and analyze file contents using chunking (anti-hang)
+  - [ ] Native agent: Generate structural summary (column names, data types, row counts)
+  - [ ] Native agent: Update this file with final data summary
+  - [ ] Native agent: Append execution status to `changelog.md`
+  - [ ] This agent reads `session_handoff.md` to sync and continues

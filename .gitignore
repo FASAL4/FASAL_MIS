@@ -1,0 +1,26 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
+# Large data files - raw sources (not needed for dashboard build)
+*.xlsx
+*.xls
+*.csv
+*.pdf
+master_context.db
+master_index.json
+
+# Keep the dashboard JSON data files (these ARE needed)
+!src/data/*.json
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db

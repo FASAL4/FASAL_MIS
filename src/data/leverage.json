@@ -1,0 +1,4034 @@
+[
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Latrine",
+    "village": "Bhattha Bargadaha",
+    "farmerName": "Ramu"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Latrine",
+    "village": "",
+    "farmerName": "Parwati"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Latrine",
+    "village": "",
+    "farmerName": "Gangajali "
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Latrine",
+    "village": "",
+    "farmerName": "Chunna "
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Rajaram Tanda",
+    "farmerName": "Bindu "
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Rajaram Tanda",
+    "farmerName": "Renu"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Rajaram Tanda",
+    "farmerName": "Mansha Devi "
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Rajaram Tanda",
+    "farmerName": "Ram Chandar"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Rajaram Tanda",
+    "farmerName": "Gudiya "
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Rajaram Tanda",
+    "farmerName": "Madhuri"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Rajaram Tanda",
+    "farmerName": "Radhe"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Rajaram Tanda",
+    "farmerName": "Kanchan "
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Rajaram Tanda",
+    "farmerName": "Jugraj "
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Latrine",
+    "village": "Rajaram Tanda",
+    "farmerName": "Bindu "
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Latrine",
+    "village": "Rajaram Tanda",
+    "farmerName": "Poonam "
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Latrine",
+    "village": "Rajaram Tanda",
+    "farmerName": "Shiv Prakash "
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Latrine",
+    "village": "Rajaram Tanda",
+    "farmerName": "Sita Devi "
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Latrine",
+    "village": "Rajaram Tanda",
+    "farmerName": "Rita"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Latrine",
+    "village": "Rajaram Tanda",
+    "farmerName": "Guriya "
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Latrine",
+    "village": "Rajaram Tanda",
+    "farmerName": "Rinu"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Latrine",
+    "village": "Rajaram Tanda",
+    "farmerName": "Vindo "
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Hajaripurwa",
+    "farmerName": "Sajan"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Hajaripurwa",
+    "farmerName": "Shyamu"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Latrine",
+    "village": "Hajaripurwa",
+    "farmerName": "Patan"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Latrine",
+    "village": "Hajaripurwa",
+    "farmerName": "Nakchhed"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Latrine",
+    "village": "Hajaripurwa",
+    "farmerName": "Ramchandra"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Latrine",
+    "village": "Hajaripurwa",
+    "farmerName": "Ketaki"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bhattha bargadaha",
+    "farmerName": "Lal Bachan"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bhattha bargadaha",
+    "farmerName": "Maithu"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bhattha bargadaha",
+    "farmerName": "Raj Kishor"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bhattha bargadaha",
+    "farmerName": "Rajkumar "
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bhattha bargadaha",
+    "farmerName": "Ramu"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bhattha bargadaha",
+    "farmerName": "Chunna "
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bhattha bargadaha",
+    "farmerName": "Awdhesh"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bhattha bargadaha",
+    "farmerName": "Radheshyam"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bhattha bargadaha",
+    "farmerName": "Bhagaouti"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bhattha bargadaha",
+    "farmerName": "Meena"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bhattha bargadaha",
+    "farmerName": "Chowdhari"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bhattha bargadaha",
+    "farmerName": "Murali"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bhattha bargadaha",
+    "farmerName": "Mohare"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bhattha bargadaha",
+    "farmerName": "Kailash"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bhattha bargadaha",
+    "farmerName": "Sanjay"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bhattha bargadaha",
+    "farmerName": "Vijay"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bhattha bargadaha",
+    "farmerName": "Ramguni"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bhattha bargadaha",
+    "farmerName": "Tiwari"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bhattha bargadaha",
+    "farmerName": "Kamlesh"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bhattha bargadaha",
+    "farmerName": "Shankar"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bhattha bargadaha",
+    "farmerName": "Rajkumar"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bhattha bargadaha",
+    "farmerName": "Itwari"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bhattha bargadaha",
+    "farmerName": "Pahladi"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bhattha bargadaha",
+    "farmerName": "Vikram"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bhattha bargadaha",
+    "farmerName": "Bhole "
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bhattha bargadaha",
+    "farmerName": "Pratap"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bhattha bargadaha",
+    "farmerName": "Jawahir"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bhattha bargadaha",
+    "farmerName": "Manoj"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bhattha bargadaha",
+    "farmerName": "Pappu"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bhattha bargadaha",
+    "farmerName": "Nangu"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bhattha bargadaha",
+    "farmerName": "Chandrika"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bhattha bargadaha",
+    "farmerName": "Budhan"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bhattha bargadaha",
+    "farmerName": "Palatu"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bhattha bargadaha",
+    "farmerName": "Kanti "
+  },
+  {
+    "year": 2023,
+    "amount": 300000,
+    "type": " Kaccha Road ",
+    "village": "Karikot Bhattha ",
+    "farmerName": "Harigovind ke Khet se "
+  },
+  {
+    "year": 2023,
+    "amount": 280000,
+    "type": " Kaccha Road ",
+    "village": "Karikot Bhattha ",
+    "farmerName": "Awdhesh ke Ghar se "
+  },
+  {
+    "year": 2023,
+    "amount": 240000,
+    "type": " Kaccha Road ",
+    "village": "Karikot Bhattha ",
+    "farmerName": "Akil Sidikki ke Khet se "
+  },
+  {
+    "year": 2023,
+    "amount": 400000,
+    "type": "RCC",
+    "village": "Karikot Bhattha ",
+    "farmerName": "Rajkumar Ke Ghar se "
+  },
+  {
+    "year": 2023,
+    "amount": 375000,
+    "type": "RCC",
+    "village": "Karikot Bhattha ",
+    "farmerName": "Parasram ke Ghar se "
+  },
+  {
+    "year": 2023,
+    "amount": 180000,
+    "type": "RCC",
+    "village": "Karikot Bhattha ",
+    "farmerName": "Shivnath ke Dukan Se "
+  },
+  {
+    "year": 2023,
+    "amount": 100000,
+    "type": "RCC",
+    "village": "Karikot Bhattha ",
+    "farmerName": "Ram Saran ke Ghar se "
+  },
+  {
+    "year": 2023,
+    "amount": 240000,
+    "type": "RCC",
+    "village": "Karikot Bhattha ",
+    "farmerName": "Balram ke Ghar se "
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Kailashnagar ",
+    "farmerName": "Lajjawati"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Kailashnagar ",
+    "farmerName": "Rajkumari"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Kailashnagar ",
+    "farmerName": "Yashoda"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Kailashnagar ",
+    "farmerName": "Nandram "
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Kailashnagar ",
+    "farmerName": "Dwarika Prasad "
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Kailashnagar ",
+    "farmerName": "Munni Lal"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Kailashnagar ",
+    "farmerName": "Surasati"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Kailashnagar ",
+    "farmerName": "Renu Devi"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bherahanpurwa ",
+    "farmerName": "Guriya "
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bherahanpurwa ",
+    "farmerName": "Israwat"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bherahanpurwa ",
+    "farmerName": "Kalawati"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bherahanpurwa ",
+    "farmerName": "Radha Devi"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bherahanpurwa ",
+    "farmerName": "Dharasiya"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bherahanpurwa ",
+    "farmerName": "Kusumi Devi"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bherahanpurwa ",
+    "farmerName": "Mura Devi"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bherahanpurwa ",
+    "farmerName": "Sangita "
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bherahanpurwa ",
+    "farmerName": "Poonam "
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bherahanpurwa ",
+    "farmerName": "Manju Devi"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bherahanpurwa ",
+    "farmerName": "Lajjawati"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bherahanpurwa ",
+    "farmerName": "Pinki"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bherahanpurwa ",
+    "farmerName": "Gomatoi Devi"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Sirsiyanpurwa ",
+    "farmerName": "Nisha Devi"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Sirsiyanpurwa ",
+    "farmerName": "Tarawati"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Sirsiyanpurwa ",
+    "farmerName": "Genda Devi"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Sirsiyanpurwa ",
+    "farmerName": "Gujara Devi"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Sirsiyanpurwa ",
+    "farmerName": "Kusumawati"
+  },
+  {
+    "year": 2023,
+    "amount": 220000,
+    "type": "Interlocking ",
+    "village": "Bherahanpurwa ",
+    "farmerName": "Ramawatar ke Ghar se "
+  },
+  {
+    "year": 2023,
+    "amount": 100000,
+    "type": "Kachchi Sadak ",
+    "village": "Kailashnagar ",
+    "farmerName": "Jangali ke Ghar se "
+  },
+  {
+    "year": 2023,
+    "amount": 300000,
+    "type": "Kachchi Sadak ",
+    "village": "Kailashnagar ",
+    "farmerName": "Geeta Prasad ke Khet se "
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bajpur Bankati",
+    "farmerName": "Sonavati"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bajpur Bankati",
+    "farmerName": "Suggi"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bajpur Bankati",
+    "farmerName": "Elaichi"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bajpur Bankati",
+    "farmerName": "Seeta"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bajpur Bankati",
+    "farmerName": "Radha"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bajpur Bankati",
+    "farmerName": "Srimati"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bajpur Bankati",
+    "farmerName": "Phoolmati"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bajpur Bankati",
+    "farmerName": "Shrma vati"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bajpur Bankati",
+    "farmerName": "Suneeta"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bajpur Bankati",
+    "farmerName": "Roopa devi"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bajpur Bankati",
+    "farmerName": "Chunni Devi"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bajpur Bankati",
+    "farmerName": "Gomati"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bajpur Bankati",
+    "farmerName": "Durgavati"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bajpur Bankati",
+    "farmerName": "Sakroon"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bajpur Bankati",
+    "farmerName": "Klavati"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bajpur Bankati",
+    "farmerName": "Premvati"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bajpur Bankati",
+    "farmerName": "Rajni Devi"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bajpur Bankati",
+    "farmerName": "Arti"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bajpur Bankati",
+    "farmerName": "Radha Devi"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bajpur Bankati",
+    "farmerName": "Poonam"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bajpur Bankati",
+    "farmerName": "Maneesha"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bajpur Bankati",
+    "farmerName": "Chndravati"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bajpur Bankati",
+    "farmerName": "Roopa devi"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bajpur Bankati",
+    "farmerName": "Archna"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bajpur Bankati",
+    "farmerName": "Shavitri"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bajpur Bankati",
+    "farmerName": "Parvati"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bajpur Bankati",
+    "farmerName": "Suneeta"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bajpur Bankati",
+    "farmerName": "Ljjavati"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bajpur Bankati",
+    "farmerName": "Heera"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bajpur Bankati",
+    "farmerName": "Chunni Devi"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bajpur Bankati",
+    "farmerName": "Najiya"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bajpur Bankati",
+    "farmerName": "Rukshana"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bajpur Bankati",
+    "farmerName": "Bsanti"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bajpur Bankati",
+    "farmerName": "Aarti Devi"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bajpur Bankati",
+    "farmerName": "Rehamtun"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Bajpur Bankati",
+    "farmerName": "Jagdei"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Jamuniya ",
+    "farmerName": "Reena Devi"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Jamuniya ",
+    "farmerName": "Meena Devi"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Jamuniya ",
+    "farmerName": "Shanti"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Jamuniya ",
+    "farmerName": "Meena Devi"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Jamuniya ",
+    "farmerName": "Rambitti"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Jamuniya ",
+    "farmerName": "Shanti"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Jamuniya ",
+    "farmerName": "Goamati"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Jamuniya ",
+    "farmerName": "Puspa"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Jamuniya ",
+    "farmerName": "Poonam Devi"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Jamuniya ",
+    "farmerName": "Kirisnavati"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Jamuniya ",
+    "farmerName": "Nrimala"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Jamuniya ",
+    "farmerName": "Seeta "
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Jamuniya ",
+    "farmerName": "Savitri"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Jamuniya ",
+    "farmerName": "Chunni"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Jamuniya ",
+    "farmerName": "Gurgi"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Jamuniya ",
+    "farmerName": "Suneeta"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Narayan Tanda ",
+    "farmerName": "Parvati"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Narayan Tanda ",
+    "farmerName": "Roona"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Narayan Tanda ",
+    "farmerName": "Manju Devi"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Narayan Tanda ",
+    "farmerName": "Pinki"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Narayan Tanda ",
+    "farmerName": "Kanti"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Narayan Tanda ",
+    "farmerName": "Anjana"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Narayan Tanda ",
+    "farmerName": "Anguri"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Narayan Tanda ",
+    "farmerName": "Keval pati"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Narayan Tanda ",
+    "farmerName": "Jamuna"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Narayan Tanda ",
+    "farmerName": "Rooma Devi"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Narayan Tanda ",
+    "farmerName": "Gauri Devi"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Narayan Tanda ",
+    "farmerName": "Anjana"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Narayan Tanda ",
+    "farmerName": "Sanjay vati"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Narayan Tanda ",
+    "farmerName": "Bhuri"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Narayan Tanda ",
+    "farmerName": "Kanchana"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Narayan Tanda ",
+    "farmerName": "Guddi"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Narayan Tanda ",
+    "farmerName": "Champa"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Visuntanda",
+    "farmerName": "Annu"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Visuntanda",
+    "farmerName": "Jahrun"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Visuntanda",
+    "farmerName": "Rekha Devi"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Visuntanda",
+    "farmerName": "Sudama"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Visuntanda",
+    "farmerName": "Roopa"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Visuntanda",
+    "farmerName": "Prema "
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Visuntanda",
+    "farmerName": "Pappu"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Dhodhepurwa ",
+    "farmerName": "Shajanha"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Dhodhepurwa ",
+    "farmerName": "Savita Devi"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Dhodhepurwa ",
+    "farmerName": "Shanti"
+  },
+  {
+    "year": 2023,
+    "amount": 120000,
+    "type": "House PM Awas ",
+    "village": "Dhodhepurwa ",
+    "farmerName": "Roshanjanha"
+  },
+  {
+    "year": 2023,
+    "amount": 360200,
+    "type": "Road Enterloking",
+    "village": "Bajpur Bankati",
+    "farmerName": "ramu's home"
+  },
+  {
+    "year": 2023,
+    "amount": 360700,
+    "type": "Road Enterloking",
+    "village": "Bajpur Bankati",
+    "farmerName": "chheddu's home"
+  },
+  {
+    "year": 2023,
+    "amount": 195000,
+    "type": "Road Enterloking",
+    "village": "Bajpur Bankati",
+    "farmerName": "Nandkishor's home"
+  },
+  {
+    "year": 2023,
+    "amount": 210300,
+    "type": "Road Enterloking",
+    "village": "Bajpur Bankati",
+    "farmerName": "pooran's home"
+  },
+  {
+    "year": 2023,
+    "amount": 345200,
+    "type": "Road Enterloking",
+    "village": "Bajpur Bankati",
+    "farmerName": "pichroad"
+  },
+  {
+    "year": 2023,
+    "amount": 330000,
+    "type": "Road Enterloking",
+    "village": "Bajpur Bankati",
+    "farmerName": "Mahesh's home"
+  },
+  {
+    "year": 2023,
+    "amount": 175100,
+    "type": "Road mentenias",
+    "village": "Bajpur Bankati",
+    "farmerName": "ramjanm's home"
+  },
+  {
+    "year": 2023,
+    "amount": 200000,
+    "type": "Road mentenias",
+    "village": "Bajpur Bankati",
+    "farmerName": "Shivkumar's khet"
+  },
+  {
+    "year": 2023,
+    "amount": 150400,
+    "type": "Road mentenias",
+    "village": "Bajpur Bankati",
+    "farmerName": "Dulare's home"
+  },
+  {
+    "year": 2023,
+    "amount": 300000,
+    "type": "kuda Ghar",
+    "village": "Bajpur Bankati",
+    "farmerName": ""
+  },
+  {
+    "year": 2023,
+    "amount": 810000,
+    "type": "Road Interloking",
+    "village": "vishuntanda",
+    "farmerName": "karikot. Girjapuri Road"
+  },
+  {
+    "year": 2023,
+    "amount": 140300,
+    "type": "Road khadnja marmmat",
+    "village": "Jamuniha",
+    "farmerName": "Gudiya Devi 's Home "
+  },
+  {
+    "year": 2023,
+    "amount": 105000,
+    "type": "Road Enterloking",
+    "village": "Naraytanda",
+    "farmerName": "Kamal kishor' home"
+  },
+  {
+    "year": 2023,
+    "amount": 414000,
+    "type": "Road Enterloking",
+    "village": "Naraytanda",
+    "farmerName": "Chotelal'Home"
+  },
+  {
+    "year": 2023,
+    "amount": 345000,
+    "type": "Road Enterloking",
+    "village": "Naraytanda",
+    "farmerName": "Kapoor's Home"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Toilet",
+    "village": "Bajpur Bankati",
+    "farmerName": "Vidyavati"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Toilet",
+    "village": "Bajpur Bankati",
+    "farmerName": "Premavati"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Toilet",
+    "village": "Bajpur Bankati",
+    "farmerName": "Imarti"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Toilet",
+    "village": "Bajpur Bankati",
+    "farmerName": "Maikin"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Toilet",
+    "village": "Bajpur Bankati",
+    "farmerName": "Sakroon"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Toilet",
+    "village": "Bajpur Bankati",
+    "farmerName": "Kalawati"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Toilet",
+    "village": "Bajpur Bankati",
+    "farmerName": "Mamta devi"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Toilet",
+    "village": "Bajpur Bankati",
+    "farmerName": "Bahgmati"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Toilet",
+    "village": "Bajpur Bankati",
+    "farmerName": "Suneeta"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Toilet",
+    "village": "Bajpur Bankati",
+    "farmerName": "Chandra wati"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Toilet",
+    "village": "Bajpur Bankati",
+    "farmerName": "Rampyari"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Toilet",
+    "village": "Bajpur Bankati",
+    "farmerName": "Manju"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Toilet",
+    "village": "Bajpur Bankati",
+    "farmerName": "Nara "
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Toilet",
+    "village": "Bajpur Bankati",
+    "farmerName": "Hasmat janha"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Toilet",
+    "village": "Bajpur Bankati",
+    "farmerName": "Geeta Dedvi"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Toilet",
+    "village": "Bajpur Bankati",
+    "farmerName": "Sarsvati"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Toilet",
+    "village": "Bajpur Bankati",
+    "farmerName": "Najiya"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Toilet",
+    "village": "Bajpur Bankati",
+    "farmerName": "Poonam"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Toilet",
+    "village": "Bajpur Bankati",
+    "farmerName": "Suneeta "
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Toilet",
+    "village": "Dhodepurwa",
+    "farmerName": "Fajal Khan"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Toilet",
+    "village": "Dhodepurwa",
+    "farmerName": "Paikrama"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Toilet",
+    "village": "Dhodepurwa",
+    "farmerName": "Shama"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Toilet",
+    "village": "Dhodepurwa",
+    "farmerName": "Budhrani"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Toilet",
+    "village": "Dhodepurwa",
+    "farmerName": "Mainadevi"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Toilet",
+    "village": "Dhodepurwa",
+    "farmerName": "Nand kisor"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Toilet",
+    "village": "Jamuniha",
+    "farmerName": "Aneeta"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Toilet",
+    "village": "Jamuniha",
+    "farmerName": "Guddi"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Toilet",
+    "village": "Jamuniha",
+    "farmerName": "Shavitri"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Toilet",
+    "village": "Jamuniha",
+    "farmerName": "Ganga"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Toilet",
+    "village": "Jamuniha",
+    "farmerName": "Meera"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Toilet",
+    "village": "Jamuniha",
+    "farmerName": "Chunni"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Toilet",
+    "village": "Jamuniha",
+    "farmerName": "Gurgi"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Toilet",
+    "village": "Jamuniha",
+    "farmerName": "Puspa"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Toilet",
+    "village": "Jamuniha",
+    "farmerName": "Anara Devi"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Toilet",
+    "village": "Jamuniha",
+    "farmerName": "Krishnavati"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Toilet",
+    "village": "Jamuniha",
+    "farmerName": "Shanti Devi"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Toilet",
+    "village": "Jamuniha",
+    "farmerName": "Parvati"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Toilet",
+    "village": "Jamuniha",
+    "farmerName": "Seeta"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Toilet",
+    "village": "Narayntanda",
+    "farmerName": "Savitri"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Toilet",
+    "village": "Narayntanda",
+    "farmerName": "Sangeeta"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Toilet",
+    "village": "Narayntanda",
+    "farmerName": "Gaytri"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Toilet",
+    "village": "Narayntanda",
+    "farmerName": "Roona "
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Toilet",
+    "village": "Narayntanda",
+    "farmerName": "Reena"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Toilet",
+    "village": "Narayntanda",
+    "farmerName": "Indrawati"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Toilet",
+    "village": "Narayntanda",
+    "farmerName": "Hevanti"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Toilet",
+    "village": "Narayntanda",
+    "farmerName": "Rama"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Toilet",
+    "village": "Narayntanda",
+    "farmerName": "Mamta  "
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Toilet",
+    "village": "Narayntanda",
+    "farmerName": "Anjana"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Toilet",
+    "village": "Narayntanda",
+    "farmerName": "pooja"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Toilet",
+    "village": "Narayntanda",
+    "farmerName": "Mundi"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Toilet",
+    "village": "Narayntanda",
+    "farmerName": "Rooma"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Toilet",
+    "village": "Narayntanda",
+    "farmerName": "Bugli"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Toilet",
+    "village": "Narayntanda",
+    "farmerName": "Gauri Devi"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Toilet",
+    "village": "Narayntanda",
+    "farmerName": "Rinki"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Toilet",
+    "village": "Narayntanda",
+    "farmerName": "Kunni"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Toilet",
+    "village": "Visuntanda",
+    "farmerName": "Ketki"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Toilet",
+    "village": "Visuntanda",
+    "farmerName": "Gomati"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Toilet",
+    "village": "Visuntanda",
+    "farmerName": "Reena"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Toilet",
+    "village": "Visuntanda",
+    "farmerName": "Meena"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Toilet",
+    "village": "Visuntanda",
+    "farmerName": "Begam"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Toilet",
+    "village": "Visuntanda",
+    "farmerName": "Sarvesh"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Toilet",
+    "village": "Visuntanda",
+    "farmerName": "Prema "
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Toilet",
+    "village": "Visuntanda",
+    "farmerName": "Manjo Devi"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Toilet",
+    "village": "Visuntanda",
+    "farmerName": "Imrati Devi"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Toilet",
+    "village": "Visuntanda",
+    "farmerName": "Marri"
+  },
+  {
+    "year": 2023,
+    "amount": 12000,
+    "type": "Toilet",
+    "village": "Visuntanda",
+    "farmerName": "Pooja Devi"
+  },
+  {
+    "year": 2024,
+    "amount": 25000,
+    "type": "Ghoor Gaddha NADEP",
+    "village": "Rajaram Tanda ",
+    "farmerName": "Jay Prakash "
+  },
+  {
+    "year": 2024,
+    "amount": 25000,
+    "type": "Ghoor Gaddha NADEP",
+    "village": "Rajaram Tanda ",
+    "farmerName": "Nan Kunni "
+  },
+  {
+    "year": 2024,
+    "amount": 25000,
+    "type": "Ghoor Gaddha NADEP",
+    "village": "Rajaram Tanda ",
+    "farmerName": "Veermati"
+  },
+  {
+    "year": 2024,
+    "amount": 25000,
+    "type": "Ghoor Gaddha NADEP",
+    "village": "Rajaram Tanda ",
+    "farmerName": "Kamal Kishor "
+  },
+  {
+    "year": 2024,
+    "amount": 25000,
+    "type": "Ghoor Gaddha NADEP",
+    "village": "Rajaram Tanda ",
+    "farmerName": "Gyani "
+  },
+  {
+    "year": 2024,
+    "amount": 120000,
+    "type": "PM AAWAS",
+    "village": "Rajaram Tanda ",
+    "farmerName": "Mansha "
+  },
+  {
+    "year": 2024,
+    "amount": 120000,
+    "type": "PM AAWAS",
+    "village": "Rajaram Tanda ",
+    "farmerName": "Bindu "
+  },
+  {
+    "year": 2024,
+    "amount": 120000,
+    "type": "PM AAWAS",
+    "village": "Rajaram Tanda ",
+    "farmerName": "Rinu "
+  },
+  {
+    "year": 2024,
+    "amount": 120000,
+    "type": "PM AAWAS",
+    "village": "Rajaram Tanda ",
+    "farmerName": "Guriya "
+  },
+  {
+    "year": 2024,
+    "amount": 120000,
+    "type": "PM AAWAS",
+    "village": "Rajaram Tanda ",
+    "farmerName": "Rinki "
+  },
+  {
+    "year": 2024,
+    "amount": 120000,
+    "type": "PM AAWAS",
+    "village": "Rajaram Tanda ",
+    "farmerName": "Sita "
+  },
+  {
+    "year": 2024,
+    "amount": 120000,
+    "type": "PM AAWAS",
+    "village": "Rajaram Tanda ",
+    "farmerName": "Pinku "
+  },
+  {
+    "year": 2024,
+    "amount": 120000,
+    "type": "PM AAWAS",
+    "village": "Rajaram Tanda ",
+    "farmerName": "Keshpati "
+  },
+  {
+    "year": 2024,
+    "amount": 120000,
+    "type": "PM AAWAS",
+    "village": "Rajaram Tanda ",
+    "farmerName": "Anguri "
+  },
+  {
+    "year": 2024,
+    "amount": 120000,
+    "type": "PM AAWAS",
+    "village": "Rajaram Tanda ",
+    "farmerName": "Guddi "
+  },
+  {
+    "year": 2024,
+    "amount": 120000,
+    "type": "PM AAWAS",
+    "village": "Rajaram Tanda ",
+    "farmerName": "Hema "
+  },
+  {
+    "year": 2024,
+    "amount": 120000,
+    "type": "PM AAWAS",
+    "village": "Rajaram Tanda ",
+    "farmerName": "Rajeshwari "
+  },
+  {
+    "year": 2024,
+    "amount": 120000,
+    "type": "PM AAWAS",
+    "village": "Rajaram Tanda ",
+    "farmerName": "Guddi "
+  },
+  {
+    "year": 2024,
+    "amount": 120000,
+    "type": "PM AAWAS",
+    "village": "Rajaram Tanda ",
+    "farmerName": "Geeta "
+  },
+  {
+    "year": 2024,
+    "amount": 120000,
+    "type": "PM AAWAS",
+    "village": "Rajaram Tanda ",
+    "farmerName": "Budhiya "
+  },
+  {
+    "year": 2024,
+    "amount": 120000,
+    "type": "PM AAWAS",
+    "village": "Rajaram Tanda ",
+    "farmerName": "Guddi "
+  },
+  {
+    "year": 2024,
+    "amount": 2000000,
+    "type": "Pakki Road",
+    "village": "Rajaram Tanda ",
+    "farmerName": "Nathuniya Chouraha se "
+  },
+  {
+    "year": 2024,
+    "amount": 500000,
+    "type": "Dammal",
+    "village": "Rajaram Tanda ",
+    "farmerName": "Primary School se "
+  },
+  {
+    "year": 2024,
+    "amount": 400000,
+    "type": "Dammal",
+    "village": "Rajaram Tanda ",
+    "farmerName": "Seema ke ghar se "
+  },
+  {
+    "year": 2024,
+    "amount": 400000,
+    "type": "Dammal",
+    "village": "Rajaram Tanda ",
+    "farmerName": "Mila ji ke ghar se "
+  },
+  {
+    "year": 2024,
+    "amount": 800000,
+    "type": "Dammal",
+    "village": "Rajaram Tanda ",
+    "farmerName": "Guddi ke Ghar se "
+  },
+  {
+    "year": 2024,
+    "amount": 500000,
+    "type": "Kharanja ",
+    "village": "Rajaram Tanda ",
+    "farmerName": "Gajraj ke Ghar se "
+  },
+  {
+    "year": 2024,
+    "amount": 200000,
+    "type": "Kachchi Sadak ",
+    "village": "Rajaram Tanda ",
+    "farmerName": "Rajkumari ke Ghar se "
+  },
+  {
+    "year": 2024,
+    "amount": 300000,
+    "type": "Kharanja ",
+    "village": "Rajaram Tanda ",
+    "farmerName": "Sunil ke Ghar se "
+  },
+  {
+    "year": 2024,
+    "amount": 250000,
+    "type": "Mitti Patan ",
+    "village": "Rajaram Tanda ",
+    "farmerName": "Mandir se "
+  },
+  {
+    "year": 2024,
+    "amount": 650000,
+    "type": "Inter Locking ",
+    "village": "Rajaram Tanda ",
+    "farmerName": "Manohar ke Ghar se "
+  },
+  {
+    "year": 2024,
+    "amount": 530000,
+    "type": "Inter Locking ",
+    "village": "Rajaram Tanda ",
+    "farmerName": "Laxmi ke Ghar se "
+  },
+  {
+    "year": 2024,
+    "amount": 350000,
+    "type": "Inter Locking ",
+    "village": "Rajaram Tanda ",
+    "farmerName": "Jaggu ke Ghar se "
+  },
+  {
+    "year": 2024,
+    "amount": 1500000,
+    "type": "Inter Locking ",
+    "village": "Rajaram Tanda ",
+    "farmerName": "Vindu ke Ghar se "
+  },
+  {
+    "year": 2024,
+    "amount": 600000,
+    "type": "Nali Nirman ",
+    "village": "Rajaram Tanda ",
+    "farmerName": "Primary School Lohara se "
+  },
+  {
+    "year": 2024,
+    "amount": 12000,
+    "type": "Shouchalay ",
+    "village": "Rajaram Tanda ",
+    "farmerName": "Bhakuri "
+  },
+  {
+    "year": 2024,
+    "amount": 12000,
+    "type": "Shouchalay ",
+    "village": "Rajaram Tanda ",
+    "farmerName": "Budhaka "
+  },
+  {
+    "year": 2024,
+    "amount": 12000,
+    "type": "Shouchalay ",
+    "village": "Rajaram Tanda ",
+    "farmerName": "Ramawati"
+  },
+  {
+    "year": 2024,
+    "amount": 12000,
+    "type": "Shouchalay ",
+    "village": "Rajaram Tanda ",
+    "farmerName": "Rupati"
+  },
+  {
+    "year": 2024,
+    "amount": 12000,
+    "type": "Shouchalay ",
+    "village": "Rajaram Tanda ",
+    "farmerName": "Vidya "
+  },
+  {
+    "year": 2024,
+    "amount": 12000,
+    "type": "Shouchalay ",
+    "village": "Rajaram Tanda ",
+    "farmerName": "Kanti"
+  },
+  {
+    "year": 2024,
+    "amount": 12000,
+    "type": "Shouchalay ",
+    "village": "Rajaram Tanda ",
+    "farmerName": "Gyani "
+  },
+  {
+    "year": 2024,
+    "amount": 12000,
+    "type": "Shouchalay ",
+    "village": "Rajaram Tanda ",
+    "farmerName": "Rinki "
+  },
+  {
+    "year": 2024,
+    "amount": 12000,
+    "type": "Shouchalay ",
+    "village": "Rajaram Tanda ",
+    "farmerName": "Najana "
+  },
+  {
+    "year": 2024,
+    "amount": 12000,
+    "type": "Shouchalay ",
+    "village": "Rajaram Tanda ",
+    "farmerName": "Sona"
+  },
+  {
+    "year": 2024,
+    "amount": 12000,
+    "type": "Shouchalay ",
+    "village": "Rajaram Tanda ",
+    "farmerName": "Rupati"
+  },
+  {
+    "year": 2024,
+    "amount": 12000,
+    "type": "Shouchalay ",
+    "village": "Rajaram Tanda ",
+    "farmerName": "Pooja"
+  },
+  {
+    "year": 2024,
+    "amount": 12000,
+    "type": "Shouchalay ",
+    "village": "Rajaram Tanda ",
+    "farmerName": "Keshpati "
+  },
+  {
+    "year": 2024,
+    "amount": 12000,
+    "type": "Shouchalay ",
+    "village": "Rajaram Tanda ",
+    "farmerName": "Rekha"
+  },
+  {
+    "year": 2024,
+    "amount": 12000,
+    "type": "Shouchalay ",
+    "village": "Rajaram Tanda ",
+    "farmerName": "Anguru "
+  },
+  {
+    "year": 2024,
+    "amount": 120000,
+    "type": "PM AAWAS",
+    "village": "Fakirpuri ",
+    "farmerName": "Manorama"
+  },
+  {
+    "year": 2024,
+    "amount": 135000,
+    "type": "Hand Pump Repairing ",
+    "village": "Fakirpuri ",
+    "farmerName": "Gram Panchayat"
+  },
+  {
+    "year": 2024,
+    "amount": 65000,
+    "type": "Nali Marammat ",
+    "village": "Fakirpuri ",
+    "farmerName": "Mandir se "
+  },
+  {
+    "year": 2024,
+    "amount": 250000,
+    "type": "Puliya Nirman ",
+    "village": "Fakirpuri ",
+    "farmerName": "Fakirpuri se "
+  },
+  {
+    "year": 2024,
+    "amount": 150000,
+    "type": "Inter Locking ",
+    "village": "Fakirpuri ",
+    "farmerName": "Rampurwa Mandir se "
+  },
+  {
+    "year": 2024,
+    "amount": 180000,
+    "type": "Inter Locking ",
+    "village": "Fakirpuri ",
+    "farmerName": "Vijay Ram ke Ghar se "
+  },
+  {
+    "year": 2024,
+    "amount": 120000,
+    "type": "Inter Locking ",
+    "village": "Fakirpuri ",
+    "farmerName": "Menrod se "
+  },
+  {
+    "year": 2024,
+    "amount": 50000,
+    "type": "Solar Light",
+    "village": "Fakirpuri ",
+    "farmerName": "Mandir ke Chourahe  Par"
+  },
+  {
+    "year": 2024,
+    "amount": 180000,
+    "type": "Inter Locking ",
+    "village": "Fakirpuri ",
+    "farmerName": "Jagmohan ke Ghar se "
+  },
+  {
+    "year": 2024,
+    "amount": 230000,
+    "type": "Nali",
+    "village": "Fakirpuri ",
+    "farmerName": "Kamal ke Ghar se "
+  },
+  {
+    "year": 2024,
+    "amount": 12000,
+    "type": "Shouchalay ",
+    "village": "Fakirpuri ",
+    "farmerName": "Rinki "
+  },
+  {
+    "year": 2024,
+    "amount": 30000,
+    "type": "NADEP",
+    "village": "Fakirpuri ",
+    "farmerName": "Dukhram ke ghar ke pas "
+  },
+  {
+    "year": 2024,
+    "amount": 12000,
+    "type": "Shouchalay ",
+    "village": "Fakirpuri ",
+    "farmerName": "Chamfi"
+  },
+  {
+    "year": 2024,
+    "amount": 12000,
+    "type": "Shouchalay ",
+    "village": "Fakirpuri ",
+    "farmerName": "Radha "
+  },
+  {
+    "year": 2024,
+    "amount": 12000,
+    "type": "Shouchalay ",
+    "village": "Fakirpuri ",
+    "farmerName": "Simpa"
+  },
+  {
+    "year": 2024,
+    "amount": 9000,
+    "type": "Widhwa Pension ",
+    "village": "Kailashnagar ",
+    "farmerName": "Rajkumari "
+  },
+  {
+    "year": 2024,
+    "amount": 9000,
+    "type": "Widhwa Pension ",
+    "village": "Kailashnagar ",
+    "farmerName": "Lajjawati "
+  },
+  {
+    "year": 2024,
+    "amount": 500000,
+    "type": "Samudayik Sokhta ",
+    "village": "Sirsiyanpurwa ",
+    "farmerName": "Purw Madhyamik Vidyalay "
+  },
+  {
+    "year": 2024,
+    "amount": 800000,
+    "type": "Inter Locking ",
+    "village": "Sirsiyanpurwa ",
+    "farmerName": "Radheshyam ke Ghar se "
+  },
+  {
+    "year": 2024,
+    "amount": 120000,
+    "type": "Nali Nirman ",
+    "village": "Sirsiyanpurwa ",
+    "farmerName": "Bahori ke Ghar se "
+  },
+  {
+    "year": 2024,
+    "amount": 130000,
+    "type": "PM AAWAS",
+    "village": "Sirsiyanpurwa ",
+    "farmerName": "Bhikhan"
+  },
+  {
+    "year": 2024,
+    "amount": 120000,
+    "type": "PM AAWAS",
+    "village": "Kailashnagar ",
+    "farmerName": "Usha "
+  },
+  {
+    "year": 2024,
+    "amount": 120000,
+    "type": "PM AAWAS",
+    "village": "Bherhanpurwa ",
+    "farmerName": "Mintu "
+  },
+  {
+    "year": 2024,
+    "amount": 100000,
+    "type": "Smart Light ",
+    "village": "Kailashnagar ",
+    "farmerName": "Prahalad ji ghar ke pas "
+  },
+  {
+    "year": 2024,
+    "amount": 9000,
+    "type": "Widhwa Pension ",
+    "village": "Bherhanpurwa ",
+    "farmerName": "Lajjawati "
+  },
+  {
+    "year": 2024,
+    "amount": 2000000,
+    "type": "Pakki Road",
+    "village": "Sirsiyanpurwa ",
+    "farmerName": "Lalaram ke Ghar se "
+  },
+  {
+    "year": 2024,
+    "amount": 12000,
+    "type": "Shouchalay ",
+    "village": "Mangalpurwa ",
+    "farmerName": "Sugga Devi "
+  },
+  {
+    "year": 2024,
+    "amount": 88000,
+    "type": "Bitter Melon (karaila) seed ",
+    "village": "Horticulture Department ",
+    "farmerName": "Baharaich "
+  },
+  {
+    "year": 2024,
+    "amount": 64000,
+    "type": "Tomato(tamatar)",
+    "village": "Horticulture Department ",
+    "farmerName": "Baharaich "
+  },
+  {
+    "year": 2024,
+    "amount": 180000,
+    "type": "Onion (Pyaj) Seed",
+    "village": "Horticulture Department ",
+    "farmerName": "Baharaich "
+  },
+  {
+    "year": 2024,
+    "amount": 18000,
+    "type": "Chilli Pepper (Mirchi) Seed",
+    "village": "Horticulture Department ",
+    "farmerName": "Baharaich "
+  },
+  {
+    "year": 2024,
+    "amount": 4000,
+    "type": "Cucumber (Kheera) Seed",
+    "village": "Horticulture Department ",
+    "farmerName": "Baharaich "
+  },
+  {
+    "year": 2024,
+    "amount": 2400,
+    "type": "Bottle Guard (louki) seed ",
+    "village": "Horticulture Department ",
+    "farmerName": "Baharaich "
+  },
+  {
+    "year": 2024,
+    "amount": 1800,
+    "type": "Couliflower (Fulgobhi) Seed",
+    "village": "Horticulture Department ",
+    "farmerName": "Baharaich "
+  },
+  {
+    "year": 2024,
+    "amount": 120000,
+    "type": "PM AAWAS",
+    "village": "Vishuntanda ",
+    "farmerName": "Maya"
+  },
+  {
+    "year": 2024,
+    "amount": 120000,
+    "type": "PM AAWAS",
+    "village": "Vishuntanda ",
+    "farmerName": "Annu"
+  },
+  {
+    "year": 2024,
+    "amount": 120000,
+    "type": "PM AAWAS",
+    "village": "Vishuntanda ",
+    "farmerName": "Rina Devi"
+  },
+  {
+    "year": 2024,
+    "amount": 120000,
+    "type": "PM AAWAS",
+    "village": "Vishuntanda ",
+    "farmerName": "Bandana"
+  },
+  {
+    "year": 2024,
+    "amount": 120000,
+    "type": "PM AAWAS",
+    "village": "Narayan Tanda ",
+    "farmerName": "Nirmala"
+  },
+  {
+    "year": 2024,
+    "amount": 125000,
+    "type": "PM AAWAS + Sokhta ",
+    "village": "Narayan Tanda ",
+    "farmerName": "Kunni"
+  },
+  {
+    "year": 2024,
+    "amount": 120000,
+    "type": "PM AAWAS",
+    "village": "Narayan Tanda ",
+    "farmerName": "Sanjaywati "
+  },
+  {
+    "year": 2024,
+    "amount": 120000,
+    "type": "PM AAWAS",
+    "village": "Narayan Tanda ",
+    "farmerName": "Jamuna"
+  },
+  {
+    "year": 2024,
+    "amount": 120000,
+    "type": "PM AAWAS",
+    "village": "Narayan Tanda ",
+    "farmerName": "Pinki"
+  },
+  {
+    "year": 2024,
+    "amount": 120000,
+    "type": "PM AAWAS",
+    "village": "Narayan Tanda ",
+    "farmerName": "Rinki "
+  },
+  {
+    "year": 2024,
+    "amount": 120000,
+    "type": "PM AAWAS",
+    "village": "Narayan Tanda ",
+    "farmerName": "Anjana"
+  },
+  {
+    "year": 2024,
+    "amount": 120000,
+    "type": "PM AAWAS",
+    "village": "Narayan Tanda ",
+    "farmerName": "Pooja"
+  },
+  {
+    "year": 2024,
+    "amount": 120000,
+    "type": "PM AAWAS",
+    "village": "Narayan Tanda ",
+    "farmerName": "Poonam"
+  },
+  {
+    "year": 2024,
+    "amount": 33000,
+    "type": "Sokhta",
+    "village": "Narayan Tanda ",
+    "farmerName": "Maya"
+  },
+  {
+    "year": 2024,
+    "amount": 11000,
+    "type": "Sokhta",
+    "village": "Narayan Tanda ",
+    "farmerName": "Gayatri"
+  },
+  {
+    "year": 2024,
+    "amount": 22000,
+    "type": "Sokhta",
+    "village": "Narayan Tanda ",
+    "farmerName": "Rajkumari "
+  },
+  {
+    "year": 2024,
+    "amount": 11000,
+    "type": "Sokhta",
+    "village": "Narayan Tanda ",
+    "farmerName": "Meera"
+  },
+  {
+    "year": 2024,
+    "amount": 11000,
+    "type": "Sokhta",
+    "village": "Narayan Tanda ",
+    "farmerName": "Ramawati"
+  },
+  {
+    "year": 2024,
+    "amount": 11000,
+    "type": "Sokhta",
+    "village": "Narayan Tanda ",
+    "farmerName": "Somwari"
+  },
+  {
+    "year": 2024,
+    "amount": 11000,
+    "type": "Sokhta",
+    "village": "Narayan Tanda ",
+    "farmerName": "Manju Devi"
+  },
+  {
+    "year": 2024,
+    "amount": 11000,
+    "type": "Sokhta",
+    "village": "Narayan Tanda ",
+    "farmerName": "Suman"
+  },
+  {
+    "year": 2024,
+    "amount": 131000,
+    "type": "PM AAWAS + Sokhta ",
+    "village": "Narayan Tanda ",
+    "farmerName": "Sita "
+  },
+  {
+    "year": 2024,
+    "amount": 11000,
+    "type": "Sokhta",
+    "village": "Narayan Tanda ",
+    "farmerName": "Fulkeshari"
+  },
+  {
+    "year": 2024,
+    "amount": 11000,
+    "type": "Sokhta",
+    "village": "Narayan Tanda ",
+    "farmerName": "Sawitri"
+  },
+  {
+    "year": 2024,
+    "amount": 11000,
+    "type": "Sokhta",
+    "village": "Narayan Tanda ",
+    "farmerName": "Sita "
+  },
+  {
+    "year": 2024,
+    "amount": 11000,
+    "type": "Sokhta",
+    "village": "Narayan Tanda ",
+    "farmerName": "Pinki"
+  },
+  {
+    "year": 2024,
+    "amount": 11000,
+    "type": "Sokhta",
+    "village": "Narayan Tanda ",
+    "farmerName": "Munni"
+  },
+  {
+    "year": 2024,
+    "amount": 131000,
+    "type": "PM AAWAS + Sokhta ",
+    "village": "Narayan Tanda ",
+    "farmerName": "Sunita"
+  },
+  {
+    "year": 2024,
+    "amount": 11000,
+    "type": "Sokhta",
+    "village": "Narayan Tanda ",
+    "farmerName": "Manju Devi"
+  },
+  {
+    "year": 2024,
+    "amount": 22000,
+    "type": "Sokhta",
+    "village": "Narayan Tanda ",
+    "farmerName": "Jaymati "
+  },
+  {
+    "year": 2024,
+    "amount": 22000,
+    "type": "Sokhta",
+    "village": "Narayan Tanda ",
+    "farmerName": "Meera"
+  },
+  {
+    "year": 2024,
+    "amount": 22000,
+    "type": "Sokhta",
+    "village": "Narayan Tanda ",
+    "farmerName": "Poonam "
+  },
+  {
+    "year": 2024,
+    "amount": 120000,
+    "type": "PM AAWAS",
+    "village": "Narayan Tanda ",
+    "farmerName": "Geeta "
+  },
+  {
+    "year": 2024,
+    "amount": 120000,
+    "type": "PM AAWAS",
+    "village": "Narayan Tanda ",
+    "farmerName": "Gomati"
+  },
+  {
+    "year": 2024,
+    "amount": 120000,
+    "type": "PM AAWAS",
+    "village": "Narayan Tanda ",
+    "farmerName": "Champa"
+  },
+  {
+    "year": 2024,
+    "amount": 120000,
+    "type": "PM AAWAS",
+    "village": "Narayan Tanda ",
+    "farmerName": "Mundi"
+  },
+  {
+    "year": 2024,
+    "amount": 11000,
+    "type": "Sokhta",
+    "village": "Narayan Tanda ",
+    "farmerName": "Lilawati"
+  },
+  {
+    "year": 2024,
+    "amount": 11000,
+    "type": "Sokhta",
+    "village": "Narayan Tanda ",
+    "farmerName": "Rina Devi"
+  },
+  {
+    "year": 2024,
+    "amount": 11000,
+    "type": "Sokhta",
+    "village": "Narayan Tanda ",
+    "farmerName": "Rukminiya"
+  },
+  {
+    "year": 2024,
+    "amount": 11000,
+    "type": "Sokhta",
+    "village": "Narayan Tanda ",
+    "farmerName": "Manti Devi"
+  },
+  {
+    "year": 2024,
+    "amount": 11000,
+    "type": "Sokhta",
+    "village": "Narayan Tanda ",
+    "farmerName": "Seema  "
+  },
+  {
+    "year": 2024,
+    "amount": 11000,
+    "type": "Sokhta",
+    "village": "Narayan Tanda ",
+    "farmerName": "Raj Kumari"
+  },
+  {
+    "year": 2024,
+    "amount": 11000,
+    "type": "Sokhta",
+    "village": "Narayan Tanda ",
+    "farmerName": "Dharmasa devi"
+  },
+  {
+    "year": 2024,
+    "amount": 11000,
+    "type": "Sokhta",
+    "village": "Narayan Tanda ",
+    "farmerName": "Manju Devi"
+  },
+  {
+    "year": 2024,
+    "amount": 11000,
+    "type": "Sokhta",
+    "village": "Narayan Tanda ",
+    "farmerName": "Putana"
+  },
+  {
+    "year": 2024,
+    "amount": 11000,
+    "type": "Sokhta",
+    "village": "Narayan Tanda ",
+    "farmerName": "Suman Devi"
+  },
+  {
+    "year": 2024,
+    "amount": 11000,
+    "type": "Sokhta",
+    "village": "Narayan Tanda ",
+    "farmerName": "Kalawati"
+  },
+  {
+    "year": 2024,
+    "amount": 11000,
+    "type": "Sokhta",
+    "village": "Narayan Tanda ",
+    "farmerName": "Ramawati"
+  },
+  {
+    "year": 2024,
+    "amount": 120000,
+    "type": "PM AAWAS",
+    "village": "Bajpur Bankati",
+    "farmerName": "Aarati Devi"
+  },
+  {
+    "year": 2024,
+    "amount": 120000,
+    "type": "PM AAWAS",
+    "village": "Bajpur Bankati",
+    "farmerName": "Sangita "
+  },
+  {
+    "year": 2024,
+    "amount": 120000,
+    "type": "PM AAWAS",
+    "village": "Bajpur Bankati",
+    "farmerName": "Filmawati"
+  },
+  {
+    "year": 2024,
+    "amount": 120000,
+    "type": "PM AAWAS",
+    "village": "Bajpur Bankati",
+    "farmerName": "Rima Devi"
+  },
+  {
+    "year": 2024,
+    "amount": 120000,
+    "type": "PM AAWAS",
+    "village": "Bajpur Bankati",
+    "farmerName": "Raj Kumari"
+  },
+  {
+    "year": 2024,
+    "amount": 120000,
+    "type": "PM AAWAS",
+    "village": "Bajpur Bankati",
+    "farmerName": "Guddi"
+  },
+  {
+    "year": 2024,
+    "amount": 120000,
+    "type": "PM AAWAS",
+    "village": "Bajpur Bankati",
+    "farmerName": "Suggi"
+  },
+  {
+    "year": 2024,
+    "amount": 120000,
+    "type": "PM AAWAS",
+    "village": "Bajpur Bankati",
+    "farmerName": "Ilayachi"
+  },
+  {
+    "year": 2024,
+    "amount": 120000,
+    "type": "PM AAWAS",
+    "village": "Bajpur Bankati",
+    "farmerName": "Fulmati"
+  },
+  {
+    "year": 2024,
+    "amount": 120000,
+    "type": "PM AAWAS",
+    "village": "Bajpur Bankati",
+    "farmerName": "Meera"
+  },
+  {
+    "year": 2024,
+    "amount": 120000,
+    "type": "PM AAWAS",
+    "village": "Bajpur Bankati",
+    "farmerName": "Sita Devi"
+  },
+  {
+    "year": 2024,
+    "amount": 120000,
+    "type": "PM AAWAS",
+    "village": "Bajpur Bankati",
+    "farmerName": "Pushpa"
+  },
+  {
+    "year": 2024,
+    "amount": 120000,
+    "type": "PM AAWAS",
+    "village": "Bajpur Bankati",
+    "farmerName": "Rupa "
+  },
+  {
+    "year": 2024,
+    "amount": 120000,
+    "type": "PM AAWAS",
+    "village": "Bajpur Bankati",
+    "farmerName": "Chunni"
+  },
+  {
+    "year": 2024,
+    "amount": 120000,
+    "type": "PM AAWAS",
+    "village": "Bajpur Bankati",
+    "farmerName": "Sunita"
+  },
+  {
+    "year": 2024,
+    "amount": 120000,
+    "type": "PM AAWAS",
+    "village": "Bajpur Bankati",
+    "farmerName": "Sakrun"
+  },
+  {
+    "year": 2024,
+    "amount": 120000,
+    "type": "PM AAWAS",
+    "village": "Bajpur Bankati",
+    "farmerName": "Chunni Begam"
+  },
+  {
+    "year": 2024,
+    "amount": 120000,
+    "type": "PM AAWAS",
+    "village": "Bajpur Bankati",
+    "farmerName": "Sarswati"
+  },
+  {
+    "year": 2024,
+    "amount": 120000,
+    "type": "PM AAWAS",
+    "village": "Jamuniha",
+    "farmerName": "Gomati"
+  },
+  {
+    "year": 2024,
+    "amount": 120000,
+    "type": "PM AAWAS",
+    "village": "Jamuniha",
+    "farmerName": "Pushpa"
+  },
+  {
+    "year": 2024,
+    "amount": 120000,
+    "type": "PM AAWAS",
+    "village": "Jamuniha",
+    "farmerName": "Poona"
+  },
+  {
+    "year": 2024,
+    "amount": 120000,
+    "type": "PM AAWAS",
+    "village": "Jamuniha",
+    "farmerName": "Geeta Devi"
+  },
+  {
+    "year": 2024,
+    "amount": 120000,
+    "type": "PM AAWAS",
+    "village": "Jamuniha",
+    "farmerName": "Sawitri"
+  },
+  {
+    "year": 2024,
+    "amount": 120000,
+    "type": "PM AAWAS",
+    "village": "Jamuniha",
+    "farmerName": "Malati"
+  },
+  {
+    "year": 2024,
+    "amount": 120000,
+    "type": "PM AAWAS",
+    "village": "Jamuniha",
+    "farmerName": "Rina Devi"
+  },
+  {
+    "year": 2024,
+    "amount": 120000,
+    "type": "PM AAWAS",
+    "village": "Jamuniha",
+    "farmerName": "Anguri "
+  },
+  {
+    "year": 2024,
+    "amount": 120000,
+    "type": "PM AAWAS",
+    "village": "Jamuniha",
+    "farmerName": "Kallo"
+  },
+  {
+    "year": 2024,
+    "amount": 11000,
+    "type": "Ghoor Gaddha NADEP",
+    "village": "Bajpur Bankati",
+    "farmerName": "Jagdei"
+  },
+  {
+    "year": 2025,
+    "amount": 2250000,
+    "type": "हर घर नल योजना ",
+    "village": "सामूहिक हर घर नल योजना ",
+    "farmerName": ""
+  },
+  {
+    "year": 2025,
+    "amount": 1000000,
+    "type": "पानी की निकासी ",
+    "village": "सामूहिक नाला निर्माण ",
+    "farmerName": ""
+  },
+  {
+    "year": 2025,
+    "amount": 120000,
+    "type": "प्रधान मंत्री आवास ",
+    "village": "भाकुरी ",
+    "farmerName": "सत्रोहन "
+  },
+  {
+    "year": 2025,
+    "amount": 120000,
+    "type": "प्रधान मंत्री आवास ",
+    "village": "गुड्डी ",
+    "farmerName": "द्वारिका "
+  },
+  {
+    "year": 2025,
+    "amount": 120000,
+    "type": "प्रधान मंत्री आवास ",
+    "village": "गोमती ",
+    "farmerName": "कपूर "
+  },
+  {
+    "year": 2025,
+    "amount": 120000,
+    "type": "प्रधान मंत्री आवास ",
+    "village": "माया देवी ",
+    "farmerName": "राजेन्द्र "
+  },
+  {
+    "year": 2025,
+    "amount": 120000,
+    "type": "प्रधान मंत्री आवास ",
+    "village": "शीला ",
+    "farmerName": "मोती लाल "
+  },
+  {
+    "year": 2025,
+    "amount": 120000,
+    "type": "प्रधान मंत्री आवास ",
+    "village": "संगीता ",
+    "farmerName": "रामू "
+  },
+  {
+    "year": 2025,
+    "amount": 120000,
+    "type": "प्रधान मंत्री आवास ",
+    "village": "रामनिवास ",
+    "farmerName": "मझलिस "
+  },
+  {
+    "year": 2025,
+    "amount": 120000,
+    "type": "प्रधान मंत्री आवास ",
+    "village": "कुशमा ",
+    "farmerName": "संतोष "
+  },
+  {
+    "year": 2025,
+    "amount": 120000,
+    "type": "प्रधान मंत्री आवास ",
+    "village": "गुडिया ",
+    "farmerName": "जितेन्द्र "
+  },
+  {
+    "year": 2025,
+    "amount": 120000,
+    "type": "प्रधान मंत्री आवास ",
+    "village": "केशपति ",
+    "farmerName": "ध्यान सिंह "
+  },
+  {
+    "year": 2025,
+    "amount": 120000,
+    "type": "प्रधान मंत्री आवास ",
+    "village": "रामचंदर ",
+    "farmerName": "पुत्तीलाल "
+  },
+  {
+    "year": 2025,
+    "amount": 120000,
+    "type": "प्रधान मंत्री आवास ",
+    "village": "कलावती ",
+    "farmerName": "दीना "
+  },
+  {
+    "year": 2025,
+    "amount": 120000,
+    "type": "प्रधान मंत्री आवास ",
+    "village": "मूर्ती ",
+    "farmerName": "जय सिंह "
+  },
+  {
+    "year": 2025,
+    "amount": 120000,
+    "type": "प्रधान मंत्री आवास ",
+    "village": "नाली निर्माण पार्वती के घर से प्राथमिक विद्यालय तक ",
+    "farmerName": ""
+  },
+  {
+    "year": 2025,
+    "amount": 120000,
+    "type": "प्रधान मंत्री आवास ",
+    "village": "मूर्ती ",
+    "farmerName": "कल्लू "
+  },
+  {
+    "year": 2025,
+    "amount": 120000,
+    "type": "प्रधान मंत्री आवास ",
+    "village": "माला ",
+    "farmerName": "रमाकांत "
+  },
+  {
+    "year": 2025,
+    "amount": 120000,
+    "type": "प्रधान मंत्री आवास ",
+    "village": "सुनैना ",
+    "farmerName": "अक्षय कुमार "
+  },
+  {
+    "year": 2025,
+    "amount": 120000,
+    "type": "प्रधान मंत्री आवास ",
+    "village": "शांति ",
+    "farmerName": "समरू "
+  },
+  {
+    "year": 2025,
+    "amount": 120000,
+    "type": "प्रधान मंत्री आवास ",
+    "village": "रिंकी ",
+    "farmerName": "राजेश "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "रामती ",
+    "farmerName": "हीरामन "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "मंजू ",
+    "farmerName": "कोमल "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "संगीता ",
+    "farmerName": "दिलदार "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "रुकमा ",
+    "farmerName": "कुबेर "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "कुशमा ",
+    "farmerName": "शेष पाल "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "क्रान्ति ",
+    "farmerName": "इन्द्रपाल "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "लीला ",
+    "farmerName": "जगदिश "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "कमली ",
+    "farmerName": "नंदराम "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "रेनू ",
+    "farmerName": "सुरज "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "फूल केशरी ",
+    "farmerName": "भाग्वनी "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "आरती ",
+    "farmerName": "जितेन्द्र "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "वीर मती ",
+    "farmerName": "विनोद "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "सोना ",
+    "farmerName": "टिंकू "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "सोना ",
+    "farmerName": "सोनू "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "रतनू ",
+    "farmerName": "उजागार "
+  },
+  {
+    "year": 2025,
+    "amount": 300000,
+    "type": "RCC सड़क  ",
+    "village": "RCC सड़क निर्माण राधेश्याम के घर से लालजी के घर तक ",
+    "farmerName": ""
+  },
+  {
+    "year": 2025,
+    "amount": 20000,
+    "type": "सोलर लाइट ",
+    "village": "बाबुराम जी के घर पर लाइट सोलर ",
+    "farmerName": ""
+  },
+  {
+    "year": 2025,
+    "amount": 200000,
+    "type": "हाई मास्क लाइट ",
+    "village": "प्राहलद जी के घर के पास हाई मास्क लाइट ",
+    "farmerName": ""
+  },
+  {
+    "year": 2025,
+    "amount": 120960,
+    "type": "मनरेगा की मजदूरी ",
+    "village": "मनरेगा का भुकतान जनसुनवाई पोर्टल पर शिकायत करवाया ",
+    "farmerName": ""
+  },
+  {
+    "year": 2025,
+    "amount": 500000,
+    "type": " पक्की नाली निर्माण ",
+    "village": "पक्की नाली निर्माण सोहन के घर से रमेश के घर तक ",
+    "farmerName": ""
+  },
+  {
+    "year": 2025,
+    "amount": 500000,
+    "type": " पक्की नाली निर्माण ",
+    "village": "पक्की नाली निर्माण सोहन के घर से सुनील शर्मा  के घर तक ",
+    "farmerName": ""
+  },
+  {
+    "year": 2025,
+    "amount": 500000,
+    "type": " पक्की नाली निर्माण ",
+    "village": "पक्की नाली निर्माण सुनील शर्मा  के घर से जग्मोहन  के घर तक ",
+    "farmerName": ""
+  },
+  {
+    "year": 2025,
+    "amount": 30000,
+    "type": "हेंड पम्प नल ",
+    "village": "सरकारी नल का रीबोर ",
+    "farmerName": ""
+  },
+  {
+    "year": 2025,
+    "amount": 9000,
+    "type": "विधवा पेंशन ",
+    "village": "सुवालल्ली ",
+    "farmerName": "कल्लू "
+  },
+  {
+    "year": 2025,
+    "amount": 9000,
+    "type": "विधवा पेंशन ",
+    "village": "पुचुई ",
+    "farmerName": "लल्लू "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "विधवा पेंशन ",
+    "village": "रेशमा ",
+    "farmerName": "मंगल "
+  },
+  {
+    "year": 2025,
+    "amount": 900000,
+    "type": "आंगन बाड़ी केंद्र ",
+    "village": "आँगनबाड़ी केंद्र ",
+    "farmerName": ""
+  },
+  {
+    "year": 2025,
+    "amount": 1250000,
+    "type": "RCC सड़क  ",
+    "village": "RCC सड़क निर्माण रामधार  के घर से मदानिया  तक ",
+    "farmerName": ""
+  },
+  {
+    "year": 2025,
+    "amount": 350000,
+    "type": "नाली निर्माण ",
+    "village": "पक्की नाली निर्माण सरकारी स्कूल से काल्लू के घर तक ",
+    "farmerName": ""
+  },
+  {
+    "year": 2025,
+    "amount": 325000,
+    "type": "कच्ची सड़क की मरम्मत ",
+    "village": "कच्ची सड़क पटाई महेश के घर से पिच रोड बडखाडिया ",
+    "farmerName": ""
+  },
+  {
+    "year": 2025,
+    "amount": 325000,
+    "type": "कच्ची सड़क की मरम्मत ",
+    "village": "कच्ची सड़क पटाई नहर पट्टी से पानी टंकी तक  ",
+    "farmerName": ""
+  },
+  {
+    "year": 2025,
+    "amount": 600000,
+    "type": "RCC सड़क  ",
+    "village": "RCC सड़क निर्माण हुकुम के घर से प्राथमिक स्कूल तक ",
+    "farmerName": ""
+  },
+  {
+    "year": 2025,
+    "amount": 3000000,
+    "type": "हर घर पाइप और नल ",
+    "village": "हर घर नल योजना",
+    "farmerName": ""
+  },
+  {
+    "year": 2025,
+    "amount": 2400000,
+    "type": "हर घर पाइप और नल ",
+    "village": "हर घर नल योजना",
+    "farmerName": ""
+  },
+  {
+    "year": 2025,
+    "amount": 1800000,
+    "type": "हर घर पाइप और नल ",
+    "village": "हर घर नल योजना",
+    "farmerName": ""
+  },
+  {
+    "year": 2025,
+    "amount": 3000000,
+    "type": "पक्की सड़क ",
+    "village": "पक्की सड़क ",
+    "farmerName": ""
+  },
+  {
+    "year": 2025,
+    "amount": 120000,
+    "type": "PM आवास ",
+    "village": "रोशनी ",
+    "farmerName": "दुखी राम "
+  },
+  {
+    "year": 2025,
+    "amount": 120000,
+    "type": "PM आवास ",
+    "village": "कलामारानी ",
+    "farmerName": "अंकित "
+  },
+  {
+    "year": 2025,
+    "amount": 120000,
+    "type": "PM आवास ",
+    "village": "रोमा ",
+    "farmerName": "गंगाराम "
+  },
+  {
+    "year": 2025,
+    "amount": 120000,
+    "type": "PM आवास ",
+    "village": "रामू ",
+    "farmerName": "धोबी "
+  },
+  {
+    "year": 2025,
+    "amount": 120000,
+    "type": "PM आवास ",
+    "village": "भूरी ",
+    "farmerName": "संगीत "
+  },
+  {
+    "year": 2025,
+    "amount": 120000,
+    "type": "PM आवास ",
+    "village": "रिसा ",
+    "farmerName": "रंजन "
+  },
+  {
+    "year": 2025,
+    "amount": 120000,
+    "type": "PM आवास ",
+    "village": "नीरा ",
+    "farmerName": "रविशंकर "
+  },
+  {
+    "year": 2025,
+    "amount": 120000,
+    "type": "PM आवास ",
+    "village": "सुमन ",
+    "farmerName": "जुगराम "
+  },
+  {
+    "year": 2025,
+    "amount": 120000,
+    "type": "PM आवास ",
+    "village": "संजना ",
+    "farmerName": "किशन "
+  },
+  {
+    "year": 2025,
+    "amount": 120000,
+    "type": "PM आवास ",
+    "village": "रूबी ",
+    "farmerName": "करन "
+  },
+  {
+    "year": 2025,
+    "amount": 120000,
+    "type": "PM आवास ",
+    "village": "ननकी कुमारी ",
+    "farmerName": "चौधरी"
+  },
+  {
+    "year": 2025,
+    "amount": 120000,
+    "type": "PM आवास ",
+    "village": "हीरा देवी ",
+    "farmerName": "पवन "
+  },
+  {
+    "year": 2025,
+    "amount": 120000,
+    "type": "PM आवास ",
+    "village": "सुश्मती ",
+    "farmerName": "किशन "
+  },
+  {
+    "year": 2025,
+    "amount": 120000,
+    "type": "PM आवास ",
+    "village": "सविता ",
+    "farmerName": "कीर्तन "
+  },
+  {
+    "year": 2025,
+    "amount": 120000,
+    "type": "PM आवास ",
+    "village": "सोनू ",
+    "farmerName": "सन्तु "
+  },
+  {
+    "year": 2025,
+    "amount": 120000,
+    "type": "PM आवास ",
+    "village": "लक्ष्मी ",
+    "farmerName": "किशन "
+  },
+  {
+    "year": 2025,
+    "amount": 120000,
+    "type": "PM आवास ",
+    "village": "शिला",
+    "farmerName": "धाजुराम "
+  },
+  {
+    "year": 2025,
+    "amount": 120000,
+    "type": "PM आवास ",
+    "village": "लालरानी ",
+    "farmerName": "लक्ष्मीराम "
+  },
+  {
+    "year": 2025,
+    "amount": 120000,
+    "type": "PM आवास ",
+    "village": "लौकेराम ",
+    "farmerName": "धोबी "
+  },
+  {
+    "year": 2025,
+    "amount": 120000,
+    "type": "PM आवास ",
+    "village": "धर्म प्रकाश ",
+    "farmerName": "चिम्मन लाल "
+  },
+  {
+    "year": 2025,
+    "amount": 120000,
+    "type": "PM आवास ",
+    "village": "राम स्मूच ",
+    "farmerName": "धोबी "
+  },
+  {
+    "year": 2025,
+    "amount": 120000,
+    "type": "PM आवास ",
+    "village": "अस्तुन्नी ",
+    "farmerName": "राम गोपाल "
+  },
+  {
+    "year": 2025,
+    "amount": 120000,
+    "type": "PM आवास ",
+    "village": "राम दत्त ",
+    "farmerName": "राम लाल "
+  },
+  {
+    "year": 2025,
+    "amount": 120000,
+    "type": "PM आवास ",
+    "village": "होल्की ",
+    "farmerName": "रोगाही "
+  },
+  {
+    "year": 2025,
+    "amount": 120000,
+    "type": "PM आवास ",
+    "village": "राधा ",
+    "farmerName": "सुभाष "
+  },
+  {
+    "year": 2025,
+    "amount": 120000,
+    "type": "PM आवास ",
+    "village": "प्रीती ",
+    "farmerName": "विवेक कुमार "
+  },
+  {
+    "year": 2025,
+    "amount": 120000,
+    "type": "PM आवास ",
+    "village": "आमिना ",
+    "farmerName": "मुन्ना "
+  },
+  {
+    "year": 2025,
+    "amount": 120000,
+    "type": "PM आवास ",
+    "village": "राम नरेश ",
+    "farmerName": "हीरा लाल "
+  },
+  {
+    "year": 2025,
+    "amount": 120000,
+    "type": "PM आवास ",
+    "village": "उषा ",
+    "farmerName": "संजीत "
+  },
+  {
+    "year": 2025,
+    "amount": 120000,
+    "type": "PM आवास ",
+    "village": "रेशमी ",
+    "farmerName": "राज विक्रम "
+  },
+  {
+    "year": 2025,
+    "amount": 120000,
+    "type": "PM आवास ",
+    "village": "कलावती ",
+    "farmerName": "कल्लूराम "
+  },
+  {
+    "year": 2025,
+    "amount": 120000,
+    "type": "PM आवास ",
+    "village": "आनीता ",
+    "farmerName": "प्रवेश कुमार "
+  },
+  {
+    "year": 2025,
+    "amount": 120000,
+    "type": "PM आवास ",
+    "village": "बांसमती ",
+    "farmerName": "राजेन्द्र "
+  },
+  {
+    "year": 2025,
+    "amount": 120000,
+    "type": "PM आवास ",
+    "village": "राज मोहन ",
+    "farmerName": "हरी राम "
+  },
+  {
+    "year": 2025,
+    "amount": 120000,
+    "type": "PM आवास ",
+    "village": "जुगरा ",
+    "farmerName": "छेदा राम "
+  },
+  {
+    "year": 2025,
+    "amount": 120000,
+    "type": "PM आवास ",
+    "village": "दीपा ",
+    "farmerName": "लहामू "
+  },
+  {
+    "year": 2025,
+    "amount": 120000,
+    "type": "PM आवास ",
+    "village": "पूजा ",
+    "farmerName": "अनिल कुमार "
+  },
+  {
+    "year": 2025,
+    "amount": 120000,
+    "type": "PM आवास ",
+    "village": "सावित्री ",
+    "farmerName": "अरविन्द कुमार "
+  },
+  {
+    "year": 2025,
+    "amount": 120000,
+    "type": "PM आवास ",
+    "village": "रोमा ",
+    "farmerName": "अरुण कुमार "
+  },
+  {
+    "year": 2025,
+    "amount": 120000,
+    "type": "PM आवास ",
+    "village": "सुष्मिता ",
+    "farmerName": "लोहरी "
+  },
+  {
+    "year": 2025,
+    "amount": 120000,
+    "type": "PM आवास ",
+    "village": "सूलन देवी ",
+    "farmerName": "राम नरेश "
+  },
+  {
+    "year": 2025,
+    "amount": 120000,
+    "type": "PM आवास ",
+    "village": "पिंकी ",
+    "farmerName": "चल्तुराम "
+  },
+  {
+    "year": 2025,
+    "amount": 120000,
+    "type": "PM आवास ",
+    "village": "प्रभा देवी ",
+    "farmerName": "राम प्रकाश "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "सरस्वती ",
+    "farmerName": "लाल विहारी "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "प्रेम कुमारी ",
+    "farmerName": "मुकेश "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "राम रानी ",
+    "farmerName": "राम मिलन "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "रूबी ",
+    "farmerName": "करन "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "सिवानी ",
+    "farmerName": "राजेश कुमार "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "सुनील ",
+    "farmerName": "कल्नेह्लाल "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "गोविन्द ",
+    "farmerName": "आमिर सिंह "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "उमा ",
+    "farmerName": "प्रसन "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "श्याम पति ",
+    "farmerName": "अजय कुमार "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "सिवानी ",
+    "farmerName": "विपत राम "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "समझना ",
+    "farmerName": "अमित कुमार "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "रानी ",
+    "farmerName": "सुरजीत "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "राम प्रकाश ",
+    "farmerName": "भागीराम "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "राम जीवन ",
+    "farmerName": "दुःख राम "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "राजू ",
+    "farmerName": "काशीराम "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "रहिना देवी ",
+    "farmerName": "रामू चौधरी "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "पुतली ",
+    "farmerName": "जिया राम "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "पुष्प लता ",
+    "farmerName": "फूल राम "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "प्रवीण ",
+    "farmerName": "धानी राम "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "लिखी राम ",
+    "farmerName": "राम किशुन्न "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "जुवंती ",
+    "farmerName": "मनोज कुमार "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "मिता ",
+    "farmerName": "सुनील "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "रोशनी ",
+    "farmerName": "विजय कुमार "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "आशा ",
+    "farmerName": "अरमान "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "सकीना ",
+    "farmerName": "अरुण कुमार "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "संजना ",
+    "farmerName": "किशन लता "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "अंकित ",
+    "farmerName": "जय राम "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "ज्योति ",
+    "farmerName": "आशीष "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "राजेश ",
+    "farmerName": "धाजू राम "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "प्रियंका ",
+    "farmerName": "महेंद्र "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "सचिंन ",
+    "farmerName": "जग बहादुर "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "आशा ",
+    "farmerName": "राकेश "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "संतराम ",
+    "farmerName": "दुःख राम "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "जन्न्तुन निशा ",
+    "farmerName": "नासिर अहमद "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "जनजिरिया ",
+    "farmerName": "जितेन्द्र "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "अनिता ",
+    "farmerName": "राम सागर "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "कुमारी सनम ",
+    "farmerName": "अशोक कुमार "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "राजेश ",
+    "farmerName": "धाजू राम "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "रिंकी ",
+    "farmerName": "पप्पू "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "बिन्दु ",
+    "farmerName": "गुड्डू "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "आमित कुमार ",
+    "farmerName": "राम बाबु "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "पुष्पा ",
+    "farmerName": "महेंद्र "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "शकुंतला ",
+    "farmerName": "वेद राम "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "अनीता ",
+    "farmerName": "सूरज लाल "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "रबिना ",
+    "farmerName": "रवि कुमार "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "शाशि प्रभा ",
+    "farmerName": "शिव कुमार "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "कविता ",
+    "farmerName": "सत्य दीप "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "ललिता ",
+    "farmerName": "रघु वीर "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "नीर कुमार ",
+    "farmerName": "राम मिलन "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "रीतू ",
+    "farmerName": "राधेश्याम "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "रामावती ",
+    "farmerName": "डोगली "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "कोहली ",
+    "farmerName": "भागी राम "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "फिराया ",
+    "farmerName": "उदय राज "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "राम बंश ",
+    "farmerName": "राम चरण "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "मोहिनी ",
+    "farmerName": "राधे किशुन "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "राम किशुन ",
+    "farmerName": "राजाराम "
+  },
+  {
+    "year": 2025,
+    "amount": 12000,
+    "type": "शौचालय ",
+    "village": "राम दुलारी ",
+    "farmerName": "राम किशुन "
+  }
+]
