@@ -4,14 +4,8 @@ import { ResponsiveContainer, BarChart, Bar, XAxis, YAxis, CartesianGrid, Toolti
 import * as Popover from '@radix-ui/react-popover';
 import cropEconomics from '../../data/crop_economics.json';
 
-const TURMERIC_HARDCODED = {
-  "2022": { farmers: 128, netIncomeLakh: 15.88, avgNet: 12411 },
-  "2023": { farmers: 206, netIncomeLakh: 26.40, avgNet: 12815 },
-  "2024": { farmers: 321, netIncomeLakh: 57.42, avgNet: 17890 },
-  "2025": { farmers: 112, netIncomeLakh: 23.16, avgNet: 20679 },
-};
+// Hardcoded definitions removed to support dynamic, re-triangulated FDB data
 
-const TURMERIC_YEARS = ["2022", "2023", "2024", "2025"];
 
 const EvidenceDrawer = ({ source, sheet, calculation, rfLink, status, caution }: any) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -51,16 +45,6 @@ export function AgricultureTab() {
   }, []);
 
   const chartData = useMemo(() => {
-    if (selectedCrop === "Turmeric") {
-      return TURMERIC_YEARS.map(year => ({
-        year,
-        cost: Math.round(TURMERIC_HARDCODED[year as keyof typeof TURMERIC_HARDCODED].netIncomeLakh * 0.6 * 100) / 100,
-        income: TURMERIC_HARDCODED[year as keyof typeof TURMERIC_HARDCODED].netIncomeLakh,
-        netIncome: TURMERIC_HARDCODED[year as keyof typeof TURMERIC_HARDCODED].netIncomeLakh,
-        farmers: TURMERIC_HARDCODED[year as keyof typeof TURMERIC_HARDCODED].farmers,
-        avgNet: TURMERIC_HARDCODED[year as keyof typeof TURMERIC_HARDCODED].avgNet,
-      }));
-    }
     const filtered: any[] = [];
     if (cropEconomics && typeof cropEconomics === 'object' && !Array.isArray(cropEconomics)) {
       const cropData = (cropEconomics as any)[selectedCrop];
@@ -156,9 +140,9 @@ export function AgricultureTab() {
             </ResponsiveContainer>
           </div>
           {selectedCrop === "Turmeric" ? (
-            <EvidenceDrawer source="DEHAT_Dash.xlsx Sheet2 + Sheet3" sheet="Sheet2 cols 193-198, Sheet3 cols 104-107" calculation="Year-wise aggregation: 2022 (128 farmers) through 2025 (112 farmers). Reconciled from raw databases." rfLink="RF 2.6" status="Verified" caution="Reconciles farmer logs against endline crop reports." />
+            <EvidenceDrawer source="DEHAT_Cleaned_Data (1).xlsx Sheet: Income" sheet="Income cols 193-198 + Crop details cols 104-107" calculation="Re-triangulated FDB database totals (2022-2024) and 2025 Rabi crop details." rfLink="RF 2.6" status="Verified" caution="Audited and corrected crop statistics aligned with raw record sheets." />
           ) : (
-            <EvidenceDrawer source="crop_economics.json" sheet="Generated from DEHAT_Dash.xlsx" calculation="Extracted from raw data files" rfLink="RF 2.6" status="Verified" caution="Data quality varies by crop. Cross-reference with source files." />
+            <EvidenceDrawer source="crop_economics.json" sheet="Generated from DEHAT_Cleaned_Data + 2025 Crop details" calculation="Extracted from raw data files" rfLink="RF 2.6" status="Verified" caution="Data quality varies by crop. Cross-reference with source files." />
           )}
         </div>
 
@@ -172,8 +156,8 @@ export function AgricultureTab() {
                 <YAxis tick={{ fontSize: 12 }} tickFormatter={(v: any) => `₹${(v / 1000).toFixed(0)}K`} />
                 <RechartsTooltip 
                   contentStyle={{ borderRadius: '8px', border: '1px solid #e2e8f0' }} 
-                  formatter={(v: any, name: any) => {
-                    const label = name === 'avgCost' ? 'Avg Cost/Farmer' : 'Avg Net Income/Farmer';
+                  formatter={(v: any, name: any, props: any) => {
+                    const label = props.dataKey === 'avgCost' ? 'Avg Cost/Farmer' : 'Avg Net Income/Farmer';
                     return [`₹${Number(v).toLocaleString('en-IN')}`, label];
                   }} 
                 />
