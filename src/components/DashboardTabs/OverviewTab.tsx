@@ -93,6 +93,17 @@ const cropBreakdownsByYear: Record<string, { crop: string; amount: number; perce
   ]
 };
 
+const parseSubText = (subText: string) => {
+  const match = subText.match(/^([\d,]+)%\s+of\s+(.+)$/);
+  if (match) {
+    return {
+      pct: parseInt(match[1].replace(/,/g, ''), 10),
+      label: `of ${match[2]}`
+    };
+  }
+  return { pct: null, label: subText };
+};
+
 export function OverviewTab({ farmersData, totalLeverageAmount }: { farmersData: any[], totalLeverageAmount: number }) {
   const [selectedBreakdownYear, setSelectedBreakdownYear] = React.useState('2024');
   const [selectedYear, setSelectedYear] = React.useState('Cumulative');
@@ -233,24 +244,51 @@ export function OverviewTab({ farmersData, totalLeverageAmount }: { farmersData:
         </div>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-4">
-        {currentKPIs.map((kpi, i) => (
-          <div key={i} className="bg-white p-4 rounded-2xl shadow-sm border border-slate-200 hover:shadow-md transition-all duration-300 flex flex-col justify-between min-h-[128px]">
-            <div className="flex justify-between items-start gap-2">
-              <div>
-                <div className="text-[10px] font-bold text-slate-400 uppercase tracking-widest leading-none">{kpi.label}</div>
-                <div className="text-xl font-extrabold text-slate-900 mt-2 leading-none">{kpi.value}</div>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {currentKPIs.map((kpi, i) => {
+          const parsed = parseSubText(kpi.sub);
+          return (
+            <div key={i} className="bg-white p-5 rounded-2xl shadow-sm border border-slate-200/80 hover:shadow-md hover:border-slate-300 transition-all duration-300 flex flex-col justify-between min-h-[148px] relative overflow-hidden group">
+              <div className={`absolute -right-10 -bottom-10 w-24 h-24 rounded-full filter blur-xl opacity-0 group-hover:opacity-10 transition-opacity duration-500 ${kpi.bg}`}></div>
+              <div className="flex items-center gap-4">
+                <div className={`p-3 rounded-2xl ${kpi.bg} ${kpi.color} shrink-0 shadow-sm border border-slate-100/50`}>
+                  <kpi.icon size={20} />
+                </div>
+                <div className="space-y-1 min-w-0 flex-1">
+                  <div className="text-[10px] font-bold text-slate-400 uppercase tracking-wider leading-tight truncate">{kpi.label}</div>
+                  <div className="text-2xl font-extrabold text-slate-800 tracking-tight leading-none mt-1">{kpi.value}</div>
+                </div>
               </div>
-              <div className={`p-2.5 rounded-xl ${kpi.bg} ${kpi.color} shrink-0`}>
-                <kpi.icon size={18} />
+              <div className="mt-5 pt-3 border-t border-slate-50 space-y-2">
+                {parsed.pct !== null ? (
+                  <div className="space-y-1.5">
+                    <div className="flex items-center justify-between text-xs">
+                      <span className="text-slate-400 font-medium truncate">{parsed.label}</span>
+                      <span className={`font-bold px-1.5 py-0.5 rounded text-[10px] whitespace-nowrap ${
+                        parsed.pct >= 100 
+                          ? 'bg-emerald-50 text-emerald-700 border border-emerald-200/50' 
+                          : 'bg-indigo-50 text-indigo-700 border border-indigo-200/50'
+                      }`}>{parsed.pct}% Achieved</span>
+                    </div>
+                    <div className="w-full bg-slate-100 h-1.5 rounded-full overflow-hidden">
+                      <div 
+                        className={`h-full rounded-full transition-all duration-1000 ${
+                          parsed.pct >= 100 ? 'bg-emerald-500' : 'bg-indigo-500'
+                        }`}
+                        style={{ width: `${Math.min(parsed.pct, 100)}%` }}
+                      ></div>
+                    </div>
+                  </div>
+                ) : (
+                  <div className="flex items-center gap-1.5">
+                    <span className={`w-1.5 h-1.5 rounded-full ${kpi.color.replace('text-', 'bg-')}`}></span>
+                    <span className="text-[11px] text-slate-500 font-medium leading-none">{kpi.sub}</span>
+                  </div>
+                )}
               </div>
             </div>
-            <div className="flex items-center gap-1.5 pt-3 border-t border-slate-100 mt-2">
-              <span className={`w-1.5 h-1.5 rounded-full ${kpi.color.replace('text-', 'bg-')}`}></span>
-              <span className="text-[10px] text-slate-500 font-medium leading-none">{kpi.sub}</span>
-            </div>
-          </div>
-        ))}
+          );
+        })}
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
