@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Home, BarChart2, Shield, Leaf, Building2, AlertTriangle } from 'lucide-react';
+import { motion, AnimatePresence } from 'motion/react';
 
 import { OverviewTab } from './DashboardTabs/OverviewTab';
 import { AgricultureTab } from './DashboardTabs/AgricultureTab';
@@ -36,12 +37,22 @@ export const Dashboard: React.FC<DashboardProps> = ({ farmersData, totalLeverage
         ))}
       </div>
 
-      <div className="transition-all duration-300">
-        {activeTab === 'overview' && <OverviewTab farmersData={farmersData} totalLeverageAmount={totalLeverageAmount} />}
-        {activeTab === 'agriculture' && <AgricultureTab />}
-        {activeTab === 'rights' && <RightsTab farmersData={farmersData} />}
-        {activeTab === 'nutrition' && <NutritionTab />}
-        {activeTab === 'institutions' && <InstitutionsTab />}
+      <div className="relative min-h-[500px]">
+        <AnimatePresence mode="wait">
+          <motion.div
+            key={activeTab}
+            initial={{ opacity: 0, y: 8 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -8 }}
+            transition={{ duration: 0.15, ease: "easeOut" }}
+          >
+            {activeTab === 'overview' && <OverviewTab farmersData={farmersData} totalLeverageAmount={totalLeverageAmount} />}
+            {activeTab === 'agriculture' && <AgricultureTab />}
+            {activeTab === 'rights' && <RightsTab farmersData={farmersData} />}
+            {activeTab === 'nutrition' && <NutritionTab />}
+            {activeTab === 'institutions' && <InstitutionsTab />}
+          </motion.div>
+        </AnimatePresence>
       </div>
     </div>
   );

@@ -1,4 +1,5 @@
 import React, { useState, useMemo, useEffect } from "react";
+import { motion, AnimatePresence } from "motion/react";
 import {
   Database,
   Users,
@@ -649,8 +650,16 @@ export default function App() {
           </div>
         </header>
 
-        <div className="flex-1 overflow-y-auto bg-slate-50/50 p-8 h-full">
-          {activeTab === "dashboard" && (
+        <div className="flex-1 overflow-y-auto bg-slate-50/50 p-8 h-full relative">
+          <AnimatePresence mode="wait">
+            <motion.div
+              key={activeTab}
+              initial={{ opacity: 0, y: 8 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -8 }}
+              transition={{ duration: 0.18, ease: "easeOut" }}
+            >
+              {activeTab === "dashboard" && (
             <div className="max-w-6xl mx-auto pb-12">
               <Dashboard farmersData={farmersData} totalLeverageAmount={totalLeverageAmount} />
             </div>
@@ -1062,7 +1071,8 @@ export default function App() {
               </div>
             </div>
           )}
-
+            </motion.div>
+          </AnimatePresence>
         </div>
       </main>
     </div>
