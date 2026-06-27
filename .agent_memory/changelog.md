@@ -12,5 +12,7 @@
 * 2026-06-27 - Orchestrator: Overhauled dashboard KPI scorecard cards across all tabs for a premium, spacious layout; scaled lakhs values >= 100L to Crores in cards and progression charts; integrated interactive crop breakup panel under the Combined Net Income chart; and created the GP -> Village -> Household geographic hierarchy drilldown selector on the Rights tab. Checked build and verified with browser subagent.
 * 2026-06-27 - Orchestrator: Verified factual correctness of the total net income figure (Rs 169.78 Lakhs / ₹1.70 Cr) against dehat_dash database schemas; rearranged RightsTab to place the Geographic Selector at full width and charts side-by-side in a symmetric 1:1 grid (matching heights at h-80); verified visual layout and build via browser subagent.
 * 2026-06-27 - Cline: Synced repo for recent changes. Verified git status — branch master is up to date with origin/master (commit dfa68ea). No new changes to pull. Working tree clean.
+* 2026-06-28 - Cline: Completed data triangulation for Advocacy Data. Located "Right & Entitlements Dash Board.xlsx" from Downloads, extracted per-year entitlement data (2022-2024) using its "Data" sheet mapping 6 six-month periods to years. Updated `yearly_entitlements.json` with 4 keys (2022, 2023, 2024, Cumulative) — 2024 is no longer all zeros (58/75 items populated from Excel, 17 JSON-only items preserved). Zero-received items kept as-is. Build verified (`vite build` succeeds).
+
 
 

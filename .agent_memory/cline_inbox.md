@@ -1,16 +1,25 @@
-# Inbox: Premium Dashboard UI Overhaul
+# Inbox: Data Triangulation for Advocacy Data
 ## Status: COMPLETED
 
-All 9 tasks from the overhaul plan have been finished:
+**Task completed on 2026-06-28:**
 
-1. ✅ App.tsx — Updated with dynamic data
-2. ✅ Dashboard.tsx — 6-tab shell (Results Scorecard, Agriculture & Crops, Rights & Convergence, Nutrition & FDB, Institutions & Capacity, Evidence Audit & Gaps)
-3. ✅ OverviewTab.tsx — Premium layout with income_security.json AreaChart (₹32,983→₹1,31,977), KPI cards, crop ranking table, GP-wise scorecard
-4. ✅ AgricultureTab.tsx — Crop selector dropdown with Turmeric/Ginger priority, year-wise triangulated data (128→206→321→112 farmers), cost vs income charts
-5. ✅ RightsTab.tsx — KPI scorecard, advocacy→access bar chart, GP distribution, leverage line chart
-6. ✅ NutritionTab.tsx — Tricolour food group line chart, kitchen gardens bar chart, food category cards
-7. ✅ InstitutionsTab.tsx — 74 AAS, 4 GP federations, 1 BLF, 48 Krishi Mitras, filterable training list
-8. ✅ AuditTab.tsx — Data gaps table, copy-pasteable SQL queries, integrity checklist
-9. ✅ Deleted 9 unused stub files (BaselineTab, HouseholdTab, EconomicTab, ExtensionTab, ProductionTab, BaselineInsightsTab, IntersectionalTab, TrainingTab, RfOverviewTab)
+✅ Extracted missing 2023 & 2024 data from "Right & Entitlements Dash Board.xlsx" (Data sheet, 60 entitlement rows)
+✅ Generated 2022, 2023, 2024, and Cumulative year keys in yearly_entitlements.json
+✅ 2024 data is no longer all zeros — 58/75 items now have real values
+✅ 17 items without Excel source retain original 2022 JSON values (0 for other years)
+✅ Cumulative key added as sum of 2022+2023+2024
+✅ Zero-received items preserved per user instruction
+✅ Build verified (`vite build` succeeds, `tsc --noEmit` passes)
 
-Build verified: `vite build` succeeds (981 KB JS, 55 KB CSS).
+# Inbox: Data Triangulation for Advocacy Data
+## Status: COMPLETED
+
+**Task completed on 2026-06-28:**
+
+✅ Extracted missing 2023 & 2024 data from "Right & Entitlements Dash Board.xlsx" (Data sheet, 60 entitlement rows)
+✅ Generated 2022, 2023, 2024, and Cumulative year keys in yearly_entitlements.json
+✅ 2024 data is no longer all zeros — 58/75 items now have real values
+✅ 17 items without Excel source retain original 2022 JSON values (0 for other years)
+✅ Cumulative key added as sum of 2022+2023+2024
+✅ Zero-received items preserved per user instruction
+✅ Build verified (`vite build` succeeds, `tsc --noEmit` passes)
