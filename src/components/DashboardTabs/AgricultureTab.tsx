@@ -56,9 +56,9 @@ export function AgricultureTab() {
             year,
             cost: Math.round(costLakhs * 100) / 100,
             income: Math.round(incomeLakhs * 100) / 100,
-            netIncome: Math.round((incomeLakhs - costLakhs) * 100) / 100,
+            netIncome: Math.round(incomeLakhs * 100) / 100,
             farmers: item.farmers || 0,
-            avgNet: item.farmers > 0 ? Math.round((item.income - item.cost) / item.farmers) : 0,
+            avgNet: item.farmers > 0 ? Math.round(item.income / item.farmers) : 0,
           });
         });
       }

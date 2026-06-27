@@ -59,40 +59,6 @@
       "farmers": 1
     }
   },
-  "Cumin": {
-    "2022": {
-      "cost": 80,
-      "income": 100,
-      "net": 20,
-      "farmers": 2
-    },
-    "2024": {
-      "cost": 458,
-      "income": 0,
-      "net": -458,
-      "farmers": 2
-    }
-  },
-  "Fennel": {
-    "2022": {
-      "cost": 416,
-      "income": 8,
-      "net": -408,
-      "farmers": 4
-    },
-    "2023": {
-      "cost": 16,
-      "income": 0,
-      "net": -16,
-      "farmers": 2
-    },
-    "2024": {
-      "cost": 0,
-      "income": 8,
-      "net": 8,
-      "farmers": 1
-    }
-  },
   "Water Melon": {
     "2022": {
       "cost": 0,
@@ -277,26 +243,7 @@
       "farmers": 325
     }
   },
-  "Other Crop": {
-    "2022": {
-      "cost": 101100,
-      "income": 402740,
-      "net": 301640,
-      "farmers": 103
-    },
-    "2023": {
-      "cost": 169404,
-      "income": 648950,
-      "net": 479546,
-      "farmers": 130
-    },
-    "2024": {
-      "cost": 193818,
-      "income": 827708,
-      "net": 633890,
-      "farmers": 133
-    }
-  },
+
   "Cucumber": {
     "2022": {
       "cost": 27080,
