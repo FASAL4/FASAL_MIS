@@ -22,5 +22,8 @@ master_index.json
 .vscode/
 .idea/
 
+# Antigravity IDE workspace data
+.antigravity/
+
 # OS
 Thumbs.db
