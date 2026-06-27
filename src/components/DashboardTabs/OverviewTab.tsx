@@ -116,7 +116,7 @@ export function OverviewTab({ farmersData, totalLeverageAmount }: { farmersData:
         return [
           { label: 'Income per Acre', value: '₹32,983', sub: '55% of ₹60K target', icon: TrendingUp, color: 'text-emerald-600', bg: 'bg-emerald-50' },
           { label: 'Total Net Income', value: '₹8.21 Cr', sub: '547% of ₹1.50 Cr target', icon: BarChart3, color: 'text-blue-600', bg: 'bg-blue-50' },
-          { label: 'Farmers with Increased Income & Least Cost', value: '1,504', sub: '300% of 500 target', icon: Users, color: 'text-purple-600', bg: 'bg-purple-50' },
+          { label: 'Farmers with Increased Income', value: '1,504', sub: '300% of 500 target', icon: Users, color: 'text-purple-600', bg: 'bg-purple-50' },
           { label: 'Cultivated Area', value: '112.00 ac', sub: '112% of 100 ac target', icon: Activity, color: 'text-amber-600', bg: 'bg-amber-50' },
           { label: 'Crops Tracked', value: '35', sub: '175% of 20 target', icon: Sprout, color: 'text-teal-600', bg: 'bg-teal-50' },
           { label: 'Leverage', value: '₹54.14 L', sub: '22% of ₹2.50 Cr target', icon: Shield, color: 'text-indigo-600', bg: 'bg-indigo-50' },
@@ -125,7 +125,7 @@ export function OverviewTab({ farmersData, totalLeverageAmount }: { farmersData:
         return [
           { label: 'Income per Acre', value: '₹41,227', sub: '69% of ₹60K target', icon: TrendingUp, color: 'text-emerald-600', bg: 'bg-emerald-50' },
           { label: 'Total Net Income', value: '₹7.48 Cr', sub: '499% of ₹1.50 Cr target', icon: BarChart3, color: 'text-blue-600', bg: 'bg-blue-50' },
-          { label: 'Farmers with Increased Income & Least Cost', value: '1,328', sub: '266% of 500 target', icon: Users, color: 'text-purple-600', bg: 'bg-purple-50' },
+          { label: 'Farmers with Increased Income', value: '1,328', sub: '266% of 500 target', icon: Users, color: 'text-purple-600', bg: 'bg-purple-50' },
           { label: 'Cultivated Area', value: '115.00 ac', sub: '115% of 100 ac target', icon: Activity, color: 'text-amber-600', bg: 'bg-amber-50' },
           { label: 'Crops Tracked', value: '35', sub: '175% of 20 target', icon: Sprout, color: 'text-teal-600', bg: 'bg-teal-50' },
           { label: 'Leverage', value: '₹2.63 Cr', sub: '105% of ₹2.50 Cr target', icon: Shield, color: 'text-indigo-600', bg: 'bg-indigo-50' },
@@ -134,7 +134,7 @@ export function OverviewTab({ farmersData, totalLeverageAmount }: { farmersData:
         return [
           { label: 'Income per Acre', value: '₹54,993', sub: '92% of ₹60K target', icon: TrendingUp, color: 'text-emerald-600', bg: 'bg-emerald-50' },
           { label: 'Total Net Income', value: '₹9.10 Cr', sub: '607% of ₹1.50 Cr target', icon: BarChart3, color: 'text-blue-600', bg: 'bg-blue-50' },
-          { label: 'Farmers with Increased Income & Least Cost', value: '1,328', sub: '266% of 500 target', icon: Users, color: 'text-purple-600', bg: 'bg-purple-50' },
+          { label: 'Farmers with Increased Income', value: '1,328', sub: '266% of 500 target', icon: Users, color: 'text-purple-600', bg: 'bg-purple-50' },
           { label: 'Cultivated Area', value: '129.00 ac', sub: '129% of 100 ac target', icon: Activity, color: 'text-amber-600', bg: 'bg-amber-50' },
           { label: 'Crops Tracked', value: '35', sub: '175% of 20 target', icon: Sprout, color: 'text-teal-600', bg: 'bg-teal-50' },
           { label: 'Leverage', value: '₹2.30 Cr', sub: '92% of ₹2.50 Cr target', icon: Shield, color: 'text-indigo-600', bg: 'bg-indigo-50' },
@@ -143,7 +143,7 @@ export function OverviewTab({ farmersData, totalLeverageAmount }: { farmersData:
         return [
           { label: 'Income per Acre', value: '₹1,31,977', sub: '220% of ₹60K target', icon: TrendingUp, color: 'text-emerald-600', bg: 'bg-emerald-50' },
           { label: 'Total Net Income', value: '₹8.26 Cr', sub: '551% of ₹1.50 Cr target', icon: BarChart3, color: 'text-blue-600', bg: 'bg-blue-50' },
-          { label: 'Farmers with Increased Income & Least Cost', value: '734', sub: '147% of 500 target', icon: Users, color: 'text-purple-600', bg: 'bg-purple-50' },
+          { label: 'Farmers with Increased Income', value: '734', sub: '147% of 500 target', icon: Users, color: 'text-purple-600', bg: 'bg-purple-50' },
           { label: 'Cultivated Area', value: '128.65 ac', sub: '129% of 100 ac target', icon: Activity, color: 'text-amber-600', bg: 'bg-amber-50' },
           { label: 'Crops Tracked', value: '21', sub: '105% of 20 target', icon: Sprout, color: 'text-teal-600', bg: 'bg-teal-50' },
           { label: 'Leverage', value: '₹2.78 Cr', sub: '111% of ₹2.50 Cr target', icon: Shield, color: 'text-indigo-600', bg: 'bg-indigo-50' },
@@ -153,7 +153,7 @@ export function OverviewTab({ farmersData, totalLeverageAmount }: { farmersData:
         return [
           { label: 'Income per Acre', value: '₹1,31,977', sub: '220% of ₹60K target', icon: TrendingUp, color: 'text-emerald-600', bg: 'bg-emerald-50' },
           { label: 'Total Net Income', value: '₹33.05 Cr', sub: '440% of ₹7.50 Cr target', icon: BarChart3, color: 'text-blue-600', bg: 'bg-blue-50' },
-          { label: 'Farmers with Increased Income & Least Cost', value: '1,329', sub: '111% of 1,200 target', icon: Users, color: 'text-purple-600', bg: 'bg-purple-50' },
+          { label: 'Farmers with Increased Income', value: '1,329', sub: '111% of 1,200 target', icon: Users, color: 'text-purple-600', bg: 'bg-purple-50' },
           { label: 'Cultivated Area', value: '128.65 ac', sub: '129% of 100 ac target', icon: Activity, color: 'text-amber-600', bg: 'bg-amber-50' },
           { label: 'Crops Tracked', value: '45', sub: '225% of 20 target', icon: Sprout, color: 'text-teal-600', bg: 'bg-teal-50' },
           { label: 'Leverage', value: '₹8.25 Cr', sub: '330% of ₹2.50 Cr target', icon: Shield, color: 'text-indigo-600', bg: 'bg-indigo-50' },
@@ -255,7 +255,7 @@ export function OverviewTab({ farmersData, totalLeverageAmount }: { farmersData:
                   <kpi.icon size={20} />
                 </div>
                 <div className="space-y-1 min-w-0 flex-1">
-                  <div className="text-[10px] font-bold text-slate-400 uppercase tracking-wider leading-tight truncate">{kpi.label}</div>
+                  <div className="text-[10px] font-bold text-slate-400 uppercase tracking-wider leading-tight">{kpi.label}</div>
                   <div className="text-2xl font-extrabold text-slate-800 tracking-tight leading-none mt-1">{kpi.value}</div>
                 </div>
               </div>

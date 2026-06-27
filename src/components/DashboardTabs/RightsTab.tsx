@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Shield, Users, IndianRupee, Building2, HelpCircle, ArrowRight, CheckCircle2, AlertCircle, LineChart as LucideLineChart } from 'lucide-react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, LineChart, Line } from 'recharts';
 import * as Popover from '@radix-ui/react-popover';
+import yearlyEntitlements from '../../data/yearly_entitlements.json';
 
 const formatCurrencyLakhs = (valueInLakhs: number) => {
   if (valueInLakhs >= 100) {
@@ -71,6 +72,10 @@ export function RightsTab({ farmersData = [] }: { farmersData?: any[] }) {
     const [selectedVillageName, setSelectedVillageName] = useState('Rajaram Tanda');
     const [hhSearchQuery, setHhSearchQuery] = useState('');
     const [selectedYear, setSelectedYear] = useState('Cumulative');
+    
+    // Dynamic Right selector states
+    const [selectedRightsYear, setSelectedRightsYear] = useState('Cumulative');
+    const [selectedEntitlementLimit, setSelectedEntitlementLimit] = useState('10');
 
     const getLeverageKPI = () => {
         switch (selectedYear) {
@@ -97,16 +102,10 @@ export function RightsTab({ farmersData = [] }: { farmersData?: any[] }) {
         { label: 'Active Gram Panchayats', value: '6', sub: 'Mihinpurwa Block', icon: Building2, color: 'text-blue-600', bg: 'bg-blue-50' },
     ];
 
-    const conversionData = [
-        { name: 'Housing (PM Awas)', advocated: 151, received: 151 },
-        { name: 'Toilets', advocated: 72, received: 72 },
-        { name: 'Widow Pension', advocated: 3, received: 3 },
-        { name: 'MNREGA', advocated: 972, received: 948 },
-        { name: 'Kisan Samman', advocated: 164, received: 164 },
-        { name: 'E-Shram', advocated: 1041, received: 1002 },
-        { name: 'BPL Cards', advocated: 972, received: 965 },
-        { name: 'Har Ghar Nal', advocated: 3, received: 3 },
-    ];
+    const rawConversionData = (yearlyEntitlements as Record<string, Array<{ name: string, advocated: number, received: number }>>)[selectedRightsYear] || [];
+    const limitNum = parseInt(selectedEntitlementLimit, 10);
+    const conversionData = rawConversionData.slice(0, limitNum);
+    const chartHeight = limitNum === 75 ? 1800 : limitNum === 20 ? 480 : limitNum === 10 ? 280 : 160;
 
     const gpData = [
         { name: 'Karikot', families: 602, pct: 45.3 },
@@ -408,20 +407,64 @@ export function RightsTab({ farmersData = [] }: { farmersData?: any[] }) {
             {/* side-by-side Grid of 2 Charts (1:1 Ratio, Spacious) */}
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                 {/* Chart 1: Advocacy → Access Conversion (Top Entitlements) */}
-                <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
-                    <h3 className="text-lg font-bold text-slate-800 mb-4">Advocacy → Access Conversion (Top Entitlements)</h3>
-                    <div className="h-80">
-                        <ResponsiveContainer width="100%" height="100%">
-                            <BarChart data={conversionData} layout="vertical">
-                                <CartesianGrid strokeDasharray="3 3" stroke="#f1f5f9" />
-                                <XAxis type="number" tick={{ fontSize: 12 }} />
-                                <YAxis type="category" dataKey="name" width={140} tick={{ fontSize: 11 }} />
-                                <Tooltip contentStyle={{ borderRadius: '8px', border: '1px solid #e2e8f0' }} />
-                                <Legend />
-                                <Bar dataKey="advocated" fill="#818cf8" name="Advocated" radius={[0, 4, 4, 0]} />
-                                <Bar dataKey="received" fill="#34d399" name="Received" radius={[0, 4, 4, 0]} />
-                            </BarChart>
-                        </ResponsiveContainer>
+                <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 flex flex-col justify-between">
+                    <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-100 pb-4 mb-4">
+                        <div>
+                            <h3 className="text-lg font-bold text-slate-800">Advocacy → Access Conversion</h3>
+                            <p className="text-xs text-slate-500 mt-0.5">Ranked by advocated volume (showing top requested entitlements)</p>
+                        </div>
+                        <div className="flex flex-wrap items-center gap-3 shrink-0">
+                            {/* Entitlement limit selector */}
+                            <div className="relative">
+                                <select
+                                    value={selectedEntitlementLimit}
+                                    onChange={e => setSelectedEntitlementLimit(e.target.value)}
+                                    className="appearance-none bg-white border border-slate-200 rounded-lg pl-3 pr-8 py-1.5 text-xs font-medium text-slate-700 focus:outline-none focus:ring-2 focus:ring-emerald-500/20 focus:border-emerald-500 cursor-pointer shadow-sm hover:bg-slate-50 transition-colors"
+                                >
+                                    <option value="5">Top 5</option>
+                                    <option value="10">Top 10</option>
+                                    <option value="20">Top 20</option>
+                                    <option value="75">All 75</option>
+                                </select>
+                                <div className="pointer-events-none absolute right-2.5 top-1/2 -translate-y-1/2 text-slate-400">
+                                    <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><polyline points="6 9 12 15 18 9" /></svg>
+                                </div>
+                            </div>
+
+                            {/* Year selector */}
+                            <div className="relative">
+                                <select
+                                    value={selectedRightsYear}
+                                    onChange={e => setSelectedRightsYear(e.target.value)}
+                                    className="appearance-none bg-white border border-slate-200 rounded-lg pl-3 pr-8 py-1.5 text-xs font-medium text-slate-700 focus:outline-none focus:ring-2 focus:ring-emerald-500/20 focus:border-emerald-500 cursor-pointer shadow-sm hover:bg-slate-50 transition-colors"
+                                >
+                                    <option value="Cumulative">Cumulative</option>
+                                    <option value="2022">2022</option>
+                                    <option value="2023">2023</option>
+                                    <option value="2024">2024</option>
+                                    <option value="2025">2025</option>
+                                </select>
+                                <div className="pointer-events-none absolute right-2.5 top-1/2 -translate-y-1/2 text-slate-400">
+                                    <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><polyline points="6 9 12 15 18 9" /></svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="overflow-y-auto pr-1" style={{ height: '320px' }}>
+                        <div style={{ height: `${chartHeight}px`, minHeight: '100%' }}>
+                            <ResponsiveContainer width="100%" height="100%">
+                                <BarChart data={conversionData} layout="vertical" margin={{ left: 10, right: 10, top: 5, bottom: 5 }}>
+                                    <CartesianGrid strokeDasharray="3 3" stroke="#f1f5f9" />
+                                    <XAxis type="number" tick={{ fontSize: 11 }} />
+                                    <YAxis type="category" dataKey="name" width={150} tick={{ fontSize: 10 }} />
+                                    <Tooltip contentStyle={{ borderRadius: '8px', border: '1px solid #e2e8f0' }} />
+                                    <Legend wrapperStyle={{ fontSize: '11px' }} />
+                                    <Bar dataKey="advocated" fill="#818cf8" name="Advocated" radius={[0, 4, 4, 0]} barSize={limitNum > 20 ? 8 : 14} />
+                                    <Bar dataKey="received" fill="#34d399" name="Received" radius={[0, 4, 4, 0]} barSize={limitNum > 20 ? 8 : 14} />
+                                </BarChart>
+                            </ResponsiveContainer>
+                        </div>
                     </div>
                     <EvidenceDrawer source="DEHAT_Dash.xlsx / Leverage Files" sheet="Leverage 2023/2024/2025" calculation="Sum of individual entitlement receipts across all years" rfLink="Outcome 1/4" status="Verified" caution="Leverage amounts from DEHAT records; official sanction values may vary." />
                 </div>

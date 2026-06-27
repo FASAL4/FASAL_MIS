@@ -1,0 +1,1887 @@
+{
+  "2022": [
+    {
+      "name": "primary school",
+      "advocated": 1143,
+      "received": 0
+    },
+    {
+      "name": "junior school",
+      "advocated": 1095,
+      "received": 1042
+    },
+    {
+      "name": "Aadhar card",
+      "advocated": 1089,
+      "received": 1083
+    },
+    {
+      "name": "Ration Card (BPL/Antodaya)",
+      "advocated": 1057,
+      "received": 983
+    },
+    {
+      "name": "school toilet",
+      "advocated": 1037,
+      "received": 1039
+    },
+    {
+      "name": "ASHA",
+      "advocated": 989,
+      "received": 302
+    },
+    {
+      "name": "mid-day meal/school food",
+      "advocated": 961,
+      "received": 903
+    },
+    {
+      "name": "school boundary",
+      "advocated": 961,
+      "received": 976
+    },
+    {
+      "name": "active school toilet",
+      "advocated": 960,
+      "received": 0
+    },
+    {
+      "name": "MNREGA job card",
+      "advocated": 951,
+      "received": 900
+    },
+    {
+      "name": "ANM comes",
+      "advocated": 874,
+      "received": 0
+    },
+    {
+      "name": "family register",
+      "advocated": 852,
+      "received": 838
+    },
+    {
+      "name": "teacher's presence",
+      "advocated": 842,
+      "received": 859
+    },
+    {
+      "name": "new electrical connection",
+      "advocated": 745,
+      "received": 749
+    },
+    {
+      "name": "vaccination",
+      "advocated": 695,
+      "received": 661
+    },
+    {
+      "name": "sports related material",
+      "advocated": 645,
+      "received": 669
+    },
+    {
+      "name": "school water tank",
+      "advocated": 631,
+      "received": 663
+    },
+    {
+      "name": "labor card",
+      "advocated": 548,
+      "received": 545
+    },
+    {
+      "name": "Medication delivery (Iron folic acid, calcium, deworming etc.)",
+      "advocated": 546,
+      "received": 547
+    },
+    {
+      "name": "bench",
+      "advocated": 489,
+      "received": 415
+    },
+    {
+      "name": "fans",
+      "advocated": 468,
+      "received": 459
+    },
+    {
+      "name": "PAN card",
+      "advocated": 464,
+      "received": 462
+    },
+    {
+      "name": "private toilet",
+      "advocated": 458,
+      "received": 440
+    },
+    {
+      "name": "inter college",
+      "advocated": 453,
+      "received": 395
+    },
+    {
+      "name": "high school school",
+      "advocated": 438,
+      "received": 397
+    },
+    {
+      "name": "community toilet",
+      "advocated": 379,
+      "received": 357
+    },
+    {
+      "name": "one teacher for twenty-five children",
+      "advocated": 366,
+      "received": 313
+    },
+    {
+      "name": "Nutrition for baby 07 months to 3 years",
+      "advocated": 348,
+      "received": 328
+    },
+    {
+      "name": "Pre- and post-pregnancy check-up by ASHA/ANM",
+      "advocated": 346,
+      "received": 302
+    },
+    {
+      "name": "Drain",
+      "advocated": 326,
+      "received": 328
+    },
+    {
+      "name": "birth certificate",
+      "advocated": 313,
+      "received": 311
+    },
+    {
+      "name": "pregnant nutrition",
+      "advocated": 309,
+      "received": 295
+    },
+    {
+      "name": "Application for Scholarship (General and SC/ST)",
+      "advocated": 298,
+      "received": 303
+    },
+    {
+      "name": "maternal nutrition",
+      "advocated": 294,
+      "received": 290
+    },
+    {
+      "name": "Income",
+      "advocated": 286,
+      "received": 280
+    },
+    {
+      "name": "sanitary pads",
+      "advocated": 278,
+      "received": 219
+    },
+    {
+      "name": "Caste",
+      "advocated": 266,
+      "received": 266
+    },
+    {
+      "name": "new ration card",
+      "advocated": 264,
+      "received": 244
+    },
+    {
+      "name": "Residence",
+      "advocated": 244,
+      "received": 254
+    },
+    {
+      "name": "Nutrition for children from 3 years to 6 years",
+      "advocated": 237,
+      "received": 223
+    },
+    {
+      "name": "engine boring",
+      "advocated": 234,
+      "received": 227
+    },
+    {
+      "name": "hand wash basin",
+      "advocated": 221,
+      "received": 233
+    },
+    {
+      "name": "composite",
+      "advocated": 208,
+      "received": 201
+    },
+    {
+      "name": "library",
+      "advocated": 191,
+      "received": 200
+    },
+    {
+      "name": "moving drinking water tap",
+      "advocated": 184,
+      "received": 185
+    },
+    {
+      "name": "Ayushman Card",
+      "advocated": 145,
+      "received": 106
+    },
+    {
+      "name": "Care of Malnourished Children/NRC Referral",
+      "advocated": 125,
+      "received": 107
+    },
+    {
+      "name": "teenage nutrition",
+      "advocated": 109,
+      "received": 100
+    },
+    {
+      "name": "water tank",
+      "advocated": 103,
+      "received": 94
+    },
+    {
+      "name": "Anganwadi R.O/drinking water system",
+      "advocated": 89,
+      "received": 92
+    },
+    {
+      "name": "Anganwadi",
+      "advocated": 89,
+      "received": 92
+    },
+    {
+      "name": "Compost pit/staring pit",
+      "advocated": 83,
+      "received": 79
+    },
+    {
+      "name": "community soak pit",
+      "advocated": 64,
+      "received": 50
+    },
+    {
+      "name": "death certificate",
+      "advocated": 57,
+      "received": 52
+    },
+    {
+      "name": "Smart Classes (Computer Green Board/TV)",
+      "advocated": 56,
+      "received": 50
+    },
+    {
+      "name": "widow pension",
+      "advocated": 55,
+      "received": 42
+    },
+    {
+      "name": "driving license",
+      "advocated": 55,
+      "received": 50
+    },
+    {
+      "name": "old age pension",
+      "advocated": 54,
+      "received": 46
+    },
+    {
+      "name": "BOCW Registration",
+      "advocated": 41,
+      "received": 27
+    },
+    {
+      "name": "water combination",
+      "advocated": 39,
+      "received": 37
+    },
+    {
+      "name": "disability certificate",
+      "advocated": 32,
+      "received": 29
+    },
+    {
+      "name": "marriage registration",
+      "advocated": 29,
+      "received": 25
+    },
+    {
+      "name": "Honorable Chief Minister Farmer Accident Assistance Scheme",
+      "advocated": 29,
+      "received": 20
+    },
+    {
+      "name": "disability pension",
+      "advocated": 28,
+      "received": 24
+    },
+    {
+      "name": "Application for marriage and sickness grant",
+      "advocated": 27,
+      "received": 18
+    },
+    {
+      "name": "Application for loan/grant for rehabilitation by disabled person",
+      "advocated": 26,
+      "received": 24
+    },
+    {
+      "name": "Grant for artificial limbs to disabled person",
+      "advocated": 26,
+      "received": 27
+    },
+    {
+      "name": "Job Seekers Registration",
+      "advocated": 25,
+      "received": 23
+    },
+    {
+      "name": "Grant scheme for the marriage of daughters of widowed destitute women",
+      "advocated": 25,
+      "received": 22
+    },
+    {
+      "name": "Honorable Chief Minister Farm-Barn Fire Accident Assistance Scheme",
+      "advocated": 24,
+      "received": 13
+    },
+    {
+      "name": "Application for grant on marriage of a disabled person",
+      "advocated": 23,
+      "received": 20
+    },
+    {
+      "name": "Application for complaint about atrocities",
+      "advocated": 22,
+      "received": 17
+    },
+    {
+      "name": "Legal aid for women suffering from dowry system",
+      "advocated": 22,
+      "received": 19
+    },
+    {
+      "name": "Couple Award Scheme to Promote Widow Marriage",
+      "advocated": 22,
+      "received": 23
+    },
+    {
+      "name": "Financial assistance for women suffering from dowry system",
+      "advocated": 21,
+      "received": 18
+    }
+  ],
+  "2023": [
+    {
+      "name": "Aadhar card",
+      "advocated": 1180,
+      "received": 1144
+    },
+    {
+      "name": "primary school",
+      "advocated": 1151,
+      "received": 0
+    },
+    {
+      "name": "junior school",
+      "advocated": 1100,
+      "received": 1059
+    },
+    {
+      "name": "school toilet",
+      "advocated": 1094,
+      "received": 1084
+    },
+    {
+      "name": "Ration Card (BPL/Antodaya)",
+      "advocated": 1092,
+      "received": 1022
+    },
+    {
+      "name": "mid-day meal/school food",
+      "advocated": 1002,
+      "received": 936
+    },
+    {
+      "name": "ASHA",
+      "advocated": 993,
+      "received": 310
+    },
+    {
+      "name": "school boundary",
+      "advocated": 985,
+      "received": 975
+    },
+    {
+      "name": "active school toilet",
+      "advocated": 975,
+      "received": 0
+    },
+    {
+      "name": "MNREGA job card",
+      "advocated": 935,
+      "received": 899
+    },
+    {
+      "name": "family register",
+      "advocated": 898,
+      "received": 886
+    },
+    {
+      "name": "ANM comes",
+      "advocated": 868,
+      "received": 0
+    },
+    {
+      "name": "teacher's presence",
+      "advocated": 850,
+      "received": 863
+    },
+    {
+      "name": "sports related material",
+      "advocated": 850,
+      "received": 878
+    },
+    {
+      "name": "labor card",
+      "advocated": 804,
+      "received": 794
+    },
+    {
+      "name": "new electrical connection",
+      "advocated": 794,
+      "received": 799
+    },
+    {
+      "name": "bench",
+      "advocated": 774,
+      "received": 741
+    },
+    {
+      "name": "school water tank",
+      "advocated": 696,
+      "received": 736
+    },
+    {
+      "name": "PAN card",
+      "advocated": 695,
+      "received": 645
+    },
+    {
+      "name": "vaccination",
+      "advocated": 683,
+      "received": 631
+    },
+    {
+      "name": "private toilet",
+      "advocated": 671,
+      "received": 665
+    },
+    {
+      "name": "fans",
+      "advocated": 667,
+      "received": 715
+    },
+    {
+      "name": "Medication delivery (Iron folic acid, calcium, deworming etc.)",
+      "advocated": 542,
+      "received": 543
+    },
+    {
+      "name": "inter college",
+      "advocated": 488,
+      "received": 434
+    },
+    {
+      "name": "high school school",
+      "advocated": 468,
+      "received": 426
+    },
+    {
+      "name": "one teacher for twenty-five children",
+      "advocated": 403,
+      "received": 344
+    },
+    {
+      "name": "Income",
+      "advocated": 402,
+      "received": 409
+    },
+    {
+      "name": "Drain",
+      "advocated": 399,
+      "received": 395
+    },
+    {
+      "name": "Caste",
+      "advocated": 386,
+      "received": 385
+    },
+    {
+      "name": "Residence",
+      "advocated": 377,
+      "received": 384
+    },
+    {
+      "name": "birth certificate",
+      "advocated": 368,
+      "received": 362
+    },
+    {
+      "name": "Nutrition for baby 07 months to 3 years",
+      "advocated": 345,
+      "received": 313
+    },
+    {
+      "name": "Pre- and post-pregnancy check-up by ASHA/ANM",
+      "advocated": 340,
+      "received": 310
+    },
+    {
+      "name": "sanitary pads",
+      "advocated": 294,
+      "received": 228
+    },
+    {
+      "name": "Application for Scholarship (General and SC/ST)",
+      "advocated": 280,
+      "received": 282
+    },
+    {
+      "name": "new ration card",
+      "advocated": 274,
+      "received": 250
+    },
+    {
+      "name": "pregnant nutrition",
+      "advocated": 271,
+      "received": 260
+    },
+    {
+      "name": "maternal nutrition",
+      "advocated": 268,
+      "received": 264
+    },
+    {
+      "name": "engine boring",
+      "advocated": 258,
+      "received": 250
+    },
+    {
+      "name": "Nutrition for children from 3 years to 6 years",
+      "advocated": 248,
+      "received": 224
+    },
+    {
+      "name": "hand wash basin",
+      "advocated": 248,
+      "received": 252
+    },
+    {
+      "name": "composite",
+      "advocated": 223,
+      "received": 217
+    },
+    {
+      "name": "community toilet",
+      "advocated": 219,
+      "received": 210
+    },
+    {
+      "name": "library",
+      "advocated": 218,
+      "received": 234
+    },
+    {
+      "name": "Ayushman Card",
+      "advocated": 200,
+      "received": 179
+    },
+    {
+      "name": "moving drinking water tap",
+      "advocated": 194,
+      "received": 196
+    },
+    {
+      "name": "Care of Malnourished Children/NRC Referral",
+      "advocated": 139,
+      "received": 130
+    },
+    {
+      "name": "water tank",
+      "advocated": 116,
+      "received": 106
+    },
+    {
+      "name": "teenage nutrition",
+      "advocated": 116,
+      "received": 121
+    },
+    {
+      "name": "Compost pit/staring pit",
+      "advocated": 105,
+      "received": 86
+    },
+    {
+      "name": "Anganwadi R.O/drinking water system",
+      "advocated": 103,
+      "received": 109
+    },
+    {
+      "name": "Anganwadi",
+      "advocated": 103,
+      "received": 109
+    },
+    {
+      "name": "Smart Classes (Computer Green Board/TV)",
+      "advocated": 76,
+      "received": 61
+    },
+    {
+      "name": "old age pension",
+      "advocated": 67,
+      "received": 58
+    },
+    {
+      "name": "community soak pit",
+      "advocated": 63,
+      "received": 48
+    },
+    {
+      "name": "widow pension",
+      "advocated": 54,
+      "received": 45
+    },
+    {
+      "name": "driving license",
+      "advocated": 53,
+      "received": 0
+    },
+    {
+      "name": "death certificate",
+      "advocated": 49,
+      "received": 44
+    },
+    {
+      "name": "marriage registration",
+      "advocated": 49,
+      "received": 35
+    },
+    {
+      "name": "water combination",
+      "advocated": 45,
+      "received": 46
+    },
+    {
+      "name": "Job Seekers Registration",
+      "advocated": 40,
+      "received": 31
+    },
+    {
+      "name": "BOCW Registration",
+      "advocated": 39,
+      "received": 31
+    },
+    {
+      "name": "Application for complaint about atrocities",
+      "advocated": 37,
+      "received": 24
+    },
+    {
+      "name": "Honorable Chief Minister Farmer Accident Assistance Scheme",
+      "advocated": 35,
+      "received": 24
+    },
+    {
+      "name": "disability certificate",
+      "advocated": 34,
+      "received": 30
+    },
+    {
+      "name": "Application for marriage and sickness grant",
+      "advocated": 34,
+      "received": 25
+    },
+    {
+      "name": "disability pension",
+      "advocated": 31,
+      "received": 25
+    },
+    {
+      "name": "Legal aid for women suffering from dowry system",
+      "advocated": 29,
+      "received": 23
+    },
+    {
+      "name": "Honorable Chief Minister Farm-Barn Fire Accident Assistance Scheme",
+      "advocated": 27,
+      "received": 17
+    },
+    {
+      "name": "Grant for artificial limbs to disabled person",
+      "advocated": 26,
+      "received": 18
+    },
+    {
+      "name": "Application for grant on marriage of a disabled person",
+      "advocated": 25,
+      "received": 20
+    },
+    {
+      "name": "Financial assistance for women suffering from dowry system",
+      "advocated": 22,
+      "received": 26
+    },
+    {
+      "name": "Grant scheme for the marriage of daughters of widowed destitute women",
+      "advocated": 20,
+      "received": 14
+    },
+    {
+      "name": "Couple Award Scheme to Promote Widow Marriage",
+      "advocated": 20,
+      "received": 15
+    },
+    {
+      "name": "Application for loan/grant for rehabilitation by disabled person",
+      "advocated": 20,
+      "received": 18
+    }
+  ],
+  "2024": [
+    {
+      "name": "community toilet",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "private toilet",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "school toilet",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "Compost pit/staring pit",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "Drain",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "community soak pit",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "sanitary pads",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "water tank",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "moving drinking water tap",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "Anganwadi R.O/drinking water system",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "Ration Card (BPL/Antodaya)",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "pregnant nutrition",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "maternal nutrition",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "Nutrition for baby 07 months to 3 years",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "Nutrition for children from 3 years to 6 years",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "teenage nutrition",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "mid-day meal/school food",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "ANM comes",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "ASHA",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "Anganwadi",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "vaccination",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "Pre- and post-pregnancy check-up by ASHA/ANM",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "Care of Malnourished Children/NRC Referral",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "Medication delivery (Iron folic acid, calcium, deworming etc.)",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "active school toilet",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "primary school",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "junior school",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "composite",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "high school school",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "inter college",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "school water tank",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "one teacher for twenty-five children",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "teacher's presence",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "fans",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "bench",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "library",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "hand wash basin",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "Smart Classes (Computer Green Board/TV)",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "school boundary",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "sports related material",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "family register",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "MNREGA job card",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "BOCW Registration",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "Job Seekers Registration",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "PAN card",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "Aadhar card",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "Income",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "Caste",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "Residence",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "Ayushman Card",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "labor card",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "birth certificate",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "death certificate",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "old age pension",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "widow pension",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "disability certificate",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "disability pension",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "engine boring",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "new ration card",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "marriage registration",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "water combination",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "new electrical connection",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "driving license",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "Application for Scholarship (General and SC/ST)",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "Application for marriage and sickness grant",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "Application for complaint about atrocities",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "Financial assistance for women suffering from dowry system",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "Legal aid for women suffering from dowry system",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "Grant scheme for the marriage of daughters of widowed destitute women",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "Couple Award Scheme to Promote Widow Marriage",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "Application for loan/grant for rehabilitation by disabled person",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "Application for grant on marriage of a disabled person",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "Grant for artificial limbs to disabled person",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "Honorable Chief Minister Farmer Accident Assistance Scheme",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "Honorable Chief Minister Farm-Barn Fire Accident Assistance Scheme",
+      "advocated": 0,
+      "received": 0
+    }
+  ],
+  "2025": [
+    {
+      "name": "community toilet",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "private toilet",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "school toilet",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "Compost pit/staring pit",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "Drain",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "community soak pit",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "sanitary pads",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "water tank",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "moving drinking water tap",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "Anganwadi R.O/drinking water system",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "Ration Card (BPL/Antodaya)",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "pregnant nutrition",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "maternal nutrition",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "Nutrition for baby 07 months to 3 years",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "Nutrition for children from 3 years to 6 years",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "teenage nutrition",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "mid-day meal/school food",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "ANM comes",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "ASHA",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "Anganwadi",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "vaccination",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "Pre- and post-pregnancy check-up by ASHA/ANM",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "Care of Malnourished Children/NRC Referral",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "Medication delivery (Iron folic acid, calcium, deworming etc.)",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "active school toilet",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "primary school",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "junior school",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "composite",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "high school school",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "inter college",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "school water tank",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "one teacher for twenty-five children",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "teacher's presence",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "fans",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "bench",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "library",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "hand wash basin",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "Smart Classes (Computer Green Board/TV)",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "school boundary",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "sports related material",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "family register",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "MNREGA job card",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "BOCW Registration",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "Job Seekers Registration",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "PAN card",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "Aadhar card",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "Income",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "Caste",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "Residence",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "Ayushman Card",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "labor card",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "birth certificate",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "death certificate",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "old age pension",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "widow pension",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "disability certificate",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "disability pension",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "engine boring",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "new ration card",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "marriage registration",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "water combination",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "new electrical connection",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "driving license",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "Application for Scholarship (General and SC/ST)",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "Application for marriage and sickness grant",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "Application for complaint about atrocities",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "Financial assistance for women suffering from dowry system",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "Legal aid for women suffering from dowry system",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "Grant scheme for the marriage of daughters of widowed destitute women",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "Couple Award Scheme to Promote Widow Marriage",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "Application for loan/grant for rehabilitation by disabled person",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "Application for grant on marriage of a disabled person",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "Grant for artificial limbs to disabled person",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "Honorable Chief Minister Farmer Accident Assistance Scheme",
+      "advocated": 0,
+      "received": 0
+    },
+    {
+      "name": "Honorable Chief Minister Farm-Barn Fire Accident Assistance Scheme",
+      "advocated": 0,
+      "received": 0
+    }
+  ],
+  "Cumulative": [
+    {
+      "name": "primary school",
+      "advocated": 2294,
+      "received": 0
+    },
+    {
+      "name": "Aadhar card",
+      "advocated": 2269,
+      "received": 2227
+    },
+    {
+      "name": "junior school",
+      "advocated": 2195,
+      "received": 2101
+    },
+    {
+      "name": "Ration Card (BPL/Antodaya)",
+      "advocated": 2149,
+      "received": 2005
+    },
+    {
+      "name": "school toilet",
+      "advocated": 2131,
+      "received": 2123
+    },
+    {
+      "name": "ASHA",
+      "advocated": 1982,
+      "received": 612
+    },
+    {
+      "name": "mid-day meal/school food",
+      "advocated": 1963,
+      "received": 1839
+    },
+    {
+      "name": "school boundary",
+      "advocated": 1946,
+      "received": 1951
+    },
+    {
+      "name": "active school toilet",
+      "advocated": 1935,
+      "received": 0
+    },
+    {
+      "name": "MNREGA job card",
+      "advocated": 1886,
+      "received": 1799
+    },
+    {
+      "name": "family register",
+      "advocated": 1750,
+      "received": 1724
+    },
+    {
+      "name": "ANM comes",
+      "advocated": 1742,
+      "received": 0
+    },
+    {
+      "name": "teacher's presence",
+      "advocated": 1692,
+      "received": 1722
+    },
+    {
+      "name": "new electrical connection",
+      "advocated": 1539,
+      "received": 1548
+    },
+    {
+      "name": "sports related material",
+      "advocated": 1495,
+      "received": 1547
+    },
+    {
+      "name": "vaccination",
+      "advocated": 1378,
+      "received": 1292
+    },
+    {
+      "name": "labor card",
+      "advocated": 1352,
+      "received": 1339
+    },
+    {
+      "name": "school water tank",
+      "advocated": 1327,
+      "received": 1399
+    },
+    {
+      "name": "bench",
+      "advocated": 1263,
+      "received": 1156
+    },
+    {
+      "name": "PAN card",
+      "advocated": 1159,
+      "received": 1107
+    },
+    {
+      "name": "fans",
+      "advocated": 1135,
+      "received": 1174
+    },
+    {
+      "name": "private toilet",
+      "advocated": 1129,
+      "received": 1105
+    },
+    {
+      "name": "Medication delivery (Iron folic acid, calcium, deworming etc.)",
+      "advocated": 1088,
+      "received": 1090
+    },
+    {
+      "name": "inter college",
+      "advocated": 941,
+      "received": 829
+    },
+    {
+      "name": "high school school",
+      "advocated": 906,
+      "received": 823
+    },
+    {
+      "name": "one teacher for twenty-five children",
+      "advocated": 769,
+      "received": 657
+    },
+    {
+      "name": "Drain",
+      "advocated": 725,
+      "received": 723
+    },
+    {
+      "name": "Nutrition for baby 07 months to 3 years",
+      "advocated": 693,
+      "received": 641
+    },
+    {
+      "name": "Income",
+      "advocated": 688,
+      "received": 689
+    },
+    {
+      "name": "Pre- and post-pregnancy check-up by ASHA/ANM",
+      "advocated": 686,
+      "received": 612
+    },
+    {
+      "name": "birth certificate",
+      "advocated": 681,
+      "received": 673
+    },
+    {
+      "name": "Caste",
+      "advocated": 652,
+      "received": 651
+    },
+    {
+      "name": "Residence",
+      "advocated": 621,
+      "received": 638
+    },
+    {
+      "name": "community toilet",
+      "advocated": 598,
+      "received": 567
+    },
+    {
+      "name": "pregnant nutrition",
+      "advocated": 580,
+      "received": 555
+    },
+    {
+      "name": "Application for Scholarship (General and SC/ST)",
+      "advocated": 578,
+      "received": 585
+    },
+    {
+      "name": "sanitary pads",
+      "advocated": 572,
+      "received": 447
+    },
+    {
+      "name": "maternal nutrition",
+      "advocated": 562,
+      "received": 554
+    },
+    {
+      "name": "new ration card",
+      "advocated": 538,
+      "received": 494
+    },
+    {
+      "name": "engine boring",
+      "advocated": 492,
+      "received": 477
+    },
+    {
+      "name": "Nutrition for children from 3 years to 6 years",
+      "advocated": 485,
+      "received": 447
+    },
+    {
+      "name": "hand wash basin",
+      "advocated": 469,
+      "received": 485
+    },
+    {
+      "name": "composite",
+      "advocated": 431,
+      "received": 418
+    },
+    {
+      "name": "library",
+      "advocated": 409,
+      "received": 434
+    },
+    {
+      "name": "moving drinking water tap",
+      "advocated": 378,
+      "received": 381
+    },
+    {
+      "name": "Ayushman Card",
+      "advocated": 345,
+      "received": 285
+    },
+    {
+      "name": "Care of Malnourished Children/NRC Referral",
+      "advocated": 264,
+      "received": 237
+    },
+    {
+      "name": "teenage nutrition",
+      "advocated": 225,
+      "received": 221
+    },
+    {
+      "name": "water tank",
+      "advocated": 219,
+      "received": 200
+    },
+    {
+      "name": "Anganwadi R.O/drinking water system",
+      "advocated": 192,
+      "received": 201
+    },
+    {
+      "name": "Anganwadi",
+      "advocated": 192,
+      "received": 201
+    },
+    {
+      "name": "Compost pit/staring pit",
+      "advocated": 188,
+      "received": 165
+    },
+    {
+      "name": "Smart Classes (Computer Green Board/TV)",
+      "advocated": 132,
+      "received": 111
+    },
+    {
+      "name": "community soak pit",
+      "advocated": 127,
+      "received": 98
+    },
+    {
+      "name": "old age pension",
+      "advocated": 121,
+      "received": 104
+    },
+    {
+      "name": "widow pension",
+      "advocated": 109,
+      "received": 87
+    },
+    {
+      "name": "driving license",
+      "advocated": 108,
+      "received": 50
+    },
+    {
+      "name": "death certificate",
+      "advocated": 106,
+      "received": 96
+    },
+    {
+      "name": "water combination",
+      "advocated": 84,
+      "received": 83
+    },
+    {
+      "name": "BOCW Registration",
+      "advocated": 80,
+      "received": 58
+    },
+    {
+      "name": "marriage registration",
+      "advocated": 78,
+      "received": 60
+    },
+    {
+      "name": "disability certificate",
+      "advocated": 66,
+      "received": 59
+    },
+    {
+      "name": "Job Seekers Registration",
+      "advocated": 65,
+      "received": 54
+    },
+    {
+      "name": "Honorable Chief Minister Farmer Accident Assistance Scheme",
+      "advocated": 64,
+      "received": 44
+    },
+    {
+      "name": "Application for marriage and sickness grant",
+      "advocated": 61,
+      "received": 43
+    },
+    {
+      "name": "disability pension",
+      "advocated": 59,
+      "received": 49
+    },
+    {
+      "name": "Application for complaint about atrocities",
+      "advocated": 59,
+      "received": 41
+    },
+    {
+      "name": "Grant for artificial limbs to disabled person",
+      "advocated": 52,
+      "received": 45
+    },
+    {
+      "name": "Legal aid for women suffering from dowry system",
+      "advocated": 51,
+      "received": 42
+    },
+    {
+      "name": "Honorable Chief Minister Farm-Barn Fire Accident Assistance Scheme",
+      "advocated": 51,
+      "received": 30
+    },
+    {
+      "name": "Application for grant on marriage of a disabled person",
+      "advocated": 48,
+      "received": 40
+    },
+    {
+      "name": "Application for loan/grant for rehabilitation by disabled person",
+      "advocated": 46,
+      "received": 42
+    },
+    {
+      "name": "Grant scheme for the marriage of daughters of widowed destitute women",
+      "advocated": 45,
+      "received": 36
+    },
+    {
+      "name": "Financial assistance for women suffering from dowry system",
+      "advocated": 43,
+      "received": 44
+    },
+    {
+      "name": "Couple Award Scheme to Promote Widow Marriage",
+      "advocated": 42,
+      "received": 38
+    }
+  ]
+}
