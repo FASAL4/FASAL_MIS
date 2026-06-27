@@ -243,7 +243,6 @@
       "farmers": 325
     }
   },
-
   "Cucumber": {
     "2022": {
       "cost": 27080,
@@ -564,6 +563,12 @@
       "income": 1689193,
       "net": 1198025,
       "farmers": 774
+    },
+    "2025": {
+      "cost": 0,
+      "income": 285000,
+      "net": 285000,
+      "farmers": 40
     }
   },
   "Maize": {
@@ -744,14 +749,6 @@
       "farmers": 50
     }
   },
-  "Mix Cropping": {
-    "2025": {
-      "cost": 0,
-      "income": 0,
-      "net": 0,
-      "farmers": 14
-    }
-  },
   "Dill seeds": {
     "2025": {
       "cost": 0,
@@ -774,28 +771,12 @@
       "farmers": 136
     }
   },
-  "Rajima seed (Kg)": {
-    "2025": {
-      "cost": 0,
-      "income": 0,
-      "net": 0,
-      "farmers": 112
-    }
-  },
   "Ginger": {
     "2025": {
       "cost": 0,
       "income": 390000,
       "net": 390000,
       "farmers": 78
-    }
-  },
-  "Bhindi": {
-    "2025": {
-      "cost": 0,
-      "income": 285000,
-      "net": 285000,
-      "farmers": 40
     }
   }
 }
