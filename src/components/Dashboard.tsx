@@ -6,7 +6,6 @@ import { AgricultureTab } from './DashboardTabs/AgricultureTab';
 import { RightsTab } from './DashboardTabs/RightsTab';
 import { NutritionTab } from './DashboardTabs/NutritionTab';
 import { InstitutionsTab } from './DashboardTabs/InstitutionsTab';
-import { AuditTab } from './DashboardTabs/AuditTab';
 
 interface DashboardProps {
   farmersData: any[];
@@ -21,11 +20,10 @@ export const Dashboard: React.FC<DashboardProps> = ({ farmersData, totalLeverage
       <div className="mb-6 flex gap-2 border-b border-slate-200 overflow-x-auto pb-2 custom-scrollbar">
         {[
           { id: 'overview', label: '1. Results Scorecard', icon: Home },
-          { id: 'agriculture', label: '2. Agriculture & Crops', icon: Leaf },
-          { id: 'rights', label: '3. Rights & Convergence', icon: Shield },
-          { id: 'nutrition', label: '4. Nutrition & FDB', icon: Leaf },
-          { id: 'institutions', label: '5. Institutions & Capacity', icon: Building2 },
-          { id: 'audit', label: '6. Evidence Audit & Gaps', icon: AlertTriangle },
+          { id: 'agriculture', label: '2. Agriculuture Economy', icon: Leaf },
+          { id: 'rights', label: '3. R&E Convergence', icon: Shield },
+          { id: 'nutrition', label: '4. Nutrition Security', icon: Leaf },
+          { id: 'institutions', label: '5. Institutions and capacity building', icon: Building2 },
         ].map(tab => (
           <button
             key={tab.id}
@@ -44,7 +42,6 @@ export const Dashboard: React.FC<DashboardProps> = ({ farmersData, totalLeverage
         {activeTab === 'rights' && <RightsTab farmersData={farmersData} />}
         {activeTab === 'nutrition' && <NutritionTab />}
         {activeTab === 'institutions' && <InstitutionsTab />}
-        {activeTab === 'audit' && <AuditTab />}
       </div>
     </div>
   );
