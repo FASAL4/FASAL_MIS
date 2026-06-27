@@ -48,7 +48,7 @@ export function InstitutionsTab() {
     <div className="space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-700">
       <div>
         <h2 className="text-2xl font-bold text-slate-800 tracking-tight">Institutions & Capacity Building</h2>
-        <p className="text-slate-500 mt-1">AAS collectives, Krishi Mitras, and training summaries</p>
+        <p className="text-slate-500 mt-1">AAS collectives, Active CRPs, and training summaries</p>
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -56,7 +56,7 @@ export function InstitutionsTab() {
           { label: 'Active AAS Groups', value: '74', sub: 'Consolidated from 80 groups', icon: Building2, color: 'text-emerald-600', bg: 'bg-emerald-50' },
           { label: 'GP Federations', value: '4', sub: 'GP-level collectives', icon: Building2, color: 'text-blue-600', bg: 'bg-blue-50' },
           { label: 'Block Federation', value: '1', sub: 'Block Level Federation (BLF)', icon: Building2, color: 'text-purple-600', bg: 'bg-purple-50' },
-          { label: 'Krishi Mitras', value: '48', sub: 'Krishi Mitras Trained', icon: UserCheck, color: 'text-amber-600', bg: 'bg-amber-50' },
+          { label: 'Active CRPs', value: '74', sub: 'Active CRPs', icon: UserCheck, color: 'text-amber-600', bg: 'bg-amber-50' },
         ].map((kpi, i) => (
           <div key={i} className="bg-white p-4 rounded-2xl shadow-sm border border-slate-200 hover:shadow-md transition-all duration-300 flex flex-col justify-between min-h-[128px]">
             <div className="flex justify-between items-start gap-2">
