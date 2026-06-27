@@ -1,0 +1,212 @@
+{
+  "trainings": [
+    {
+      "year": "2022",
+      "type": "Block Level Interface Meeting",
+      "participants": 238
+    },
+    {
+      "year": "2022",
+      "type": "CRP Exposure visit",
+      "participants": 96
+    },
+    {
+      "year": "2022",
+      "type": "CRP training on organic manuring, pest management & micro nutrient",
+      "participants": 144
+    },
+    {
+      "year": "2022",
+      "type": "Cluster training",
+      "participants": 232
+    },
+    {
+      "year": "2022",
+      "type": "Gender training",
+      "participants": 213
+    },
+    {
+      "year": "2022",
+      "type": "Leadership & Group Management Training",
+      "participants": 311
+    },
+    {
+      "year": "2022",
+      "type": "Leadership training",
+      "participants": 41
+    },
+    {
+      "year": "2022",
+      "type": "Village Level Interface meeting",
+      "participants": 1594
+    },
+    {
+      "year": "2023",
+      "type": "Block Level Meeting",
+      "participants": 26
+    },
+    {
+      "year": "2023",
+      "type": "CRP Meeting",
+      "participants": 236
+    },
+    {
+      "year": "2023",
+      "type": "Cluster Training",
+      "participants": 745
+    },
+    {
+      "year": "2023",
+      "type": "Exposure Visit",
+      "participants": 19
+    },
+    {
+      "year": "2023",
+      "type": "Gender Training",
+      "participants": 50
+    },
+    {
+      "year": "2023",
+      "type": "LEISA Technique Training",
+      "participants": 76
+    },
+    {
+      "year": "2023",
+      "type": "Leadership & Group Management Training",
+      "participants": 173
+    },
+    {
+      "year": "2023",
+      "type": "Mix Crop Farming Farming",
+      "participants": 83
+    },
+    {
+      "year": "2023",
+      "type": "Natural Management Based Farming & LEISA Technique",
+      "participants": 106
+    },
+    {
+      "year": "2023",
+      "type": "Village Level Interface Meeting",
+      "participants": 938
+    },
+    {
+      "year": "2024",
+      "type": "Block Level Interface Meeting",
+      "participants": 50
+    },
+    {
+      "year": "2024",
+      "type": "CRP Exposure visit",
+      "participants": 161
+    },
+    {
+      "year": "2024",
+      "type": "Cluster Training",
+      "participants": 301
+    },
+    {
+      "year": "2024",
+      "type": "District Level Interface Meeting",
+      "participants": 42
+    },
+    {
+      "year": "2024",
+      "type": "Gender Training",
+      "participants": 189
+    },
+    {
+      "year": "2024",
+      "type": "Leadership Training",
+      "participants": 210
+    },
+    {
+      "year": "2024",
+      "type": "PRA Village Level Interface Meeting",
+      "participants": 1750
+    },
+    {
+      "year": "2024",
+      "type": "Village Level Interface Meeting",
+      "participants": 349
+    },
+    {
+      "year": "2025",
+      "type": "CRP Training",
+      "participants": 643
+    },
+    {
+      "year": "2025",
+      "type": "Cluster Training",
+      "participants": 1348
+    },
+    {
+      "year": "2025",
+      "type": "District Level Interface Meeting",
+      "participants": 65
+    },
+    {
+      "year": "2025",
+      "type": "Gender Training",
+      "participants": 207
+    },
+    {
+      "year": "2025",
+      "type": "LEISA Technique Training",
+      "participants": 114
+    },
+    {
+      "year": "2025",
+      "type": "Leadership Training",
+      "participants": 237
+    },
+    {
+      "year": "2025",
+      "type": "Mix Crop Farming Farming",
+      "participants": 120
+    },
+    {
+      "year": "2025",
+      "type": "Multilayer Farming",
+      "participants": 119
+    },
+    {
+      "year": "2025",
+      "type": "Scientefic Turmeric & Ginger",
+      "participants": 111
+    },
+    {
+      "year": "2025",
+      "type": "Theatre of the oppressed (TO) Training Teenager",
+      "participants": 26
+    },
+    {
+      "year": "2025",
+      "type": "Trainings on Multi-layer & Roof Top Farming Techniques with farmers",
+      "participants": 148
+    },
+    {
+      "year": "2025",
+      "type": "Village Level Interface Meeting",
+      "participants": 680
+    }
+  ],
+  "intensity": [
+    {
+      "year": "2022",
+      "sessionsPerHousehold": 2.16
+    },
+    {
+      "year": "2023",
+      "sessionsPerHousehold": 1.84
+    },
+    {
+      "year": "2024",
+      "sessionsPerHousehold": 2.3
+    },
+    {
+      "year": "2025",
+      "sessionsPerHousehold": 2.87
+    }
+  ]
+}

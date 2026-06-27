@@ -3,26 +3,10 @@ import { Users, Building2, UserCheck, Search, AlertCircle, CheckCircle2, Info, G
 import { ResponsiveContainer, LineChart, Line, CartesianGrid, XAxis, YAxis, Tooltip, Legend } from 'recharts';
 import * as Popover from '@radix-ui/react-popover';
 
-const INTENSITY_DATA = [
-  { year: '2022', sessionsPerHousehold: 2.3 },
-  { year: '2023', sessionsPerHousehold: 1.5 },
-  { year: '2024', sessionsPerHousehold: 3.1 },
-  { year: '2025', sessionsPerHousehold: 4.2 },
-];
+import trainingData from '../../data/training.json';
 
-const TRAINING_DATA = [
-  { year: '2022', type: 'LEISA Orientation', participants: 48 },
-  { year: '2023', type: 'LEISA Orientation', participants: 104 },
-  { year: '2023', type: 'Collective Institution Building', participants: 72 },
-  { year: '2023', type: 'Krishi Mitra Training', participants: 12 },
-  { year: '2024', type: 'LEISA Orientation', participants: 186 },
-  { year: '2024', type: 'Collective Institution Building', participants: 95 },
-  { year: '2024', type: 'Krishi Mitra Training', participants: 22 },
-  { year: '2024', type: 'Crop Diversification', participants: 64 },
-  { year: '2025', type: 'LEISA Orientation', participants: 58 },
-  { year: '2025', type: 'Krishi Mitra Training', participants: 14 },
-  { year: '2025', type: 'Crop Diversification', participants: 20 },
-];
+const INTENSITY_DATA = trainingData.intensity;
+const TRAINING_DATA = trainingData.trainings;
 
 const EvidenceDrawer = ({ source, sheet, calculation, rfLink, status, caution }: any) => {
   const [isOpen, setIsOpen] = useState(false);

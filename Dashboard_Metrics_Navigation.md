@@ -57,3 +57,16 @@ This document explains the sources and calculation logic for all metrics display
 * **UI Location:** Rights & Leverage Tab
 * **Source Files:** `entitlements.json`, `leverage.json`
 * **Calculation:** Aggregation of distinct entitlement claims, segregated by claim status (e.g. Approved vs Pending).
+
+## 4. Institutions & Capacity Tab Metrics
+
+### Capacity Intensity (Avg Sessions/Household)
+* **UI Location:** Institutions & Capacity Tab > Line Chart
+* **Source Files:** `training.json` (Parsed from `Training Dashboard.xlsx`)
+* **Calculation:** Total annual training participants divided by 1329 (the total number of participating families).
+  - `sessionsPerHousehold = Total Annual Participants / 1329`
+
+### Training History
+* **UI Location:** Institutions & Capacity Tab > Table
+* **Source Files:** `training.json` (Parsed from `Training Dashboard.xlsx`)
+* **Calculation:** Raw training records grouped and aggregated by Year and Training Title. The table shows the total participants per session type.

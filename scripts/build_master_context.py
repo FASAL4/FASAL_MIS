@@ -8,11 +8,18 @@ and writes everything into master_context.db + master_index.json.
 """
 
 import os
+import sys
 import re
 import json
 import sqlite3
 import traceback
 from pathlib import Path
+
+# Prevent UnicodeEncodeError on Windows terminals when printing Hindi filenames
+if hasattr(sys.stdout, 'reconfigure'):
+    sys.stdout.reconfigure(encoding='utf-8')
+if hasattr(sys.stderr, 'reconfigure'):
+    sys.stderr.reconfigure(encoding='utf-8')
 
 import pandas as pd
 import pdfplumber
@@ -188,6 +195,9 @@ class Processor:
             df = pd.read_excel(
                 path, sheet_name=sheet, engine="openpyxl", dtype_backend="numpy_nullable"
             )
+            if df.empty or len(df.columns) == 0:
+                print(f"    -> Skipping empty sheet `{sheet}`")
+                continue
             df = normalize_headers(df)
             df = df.where(pd.notna(df), None)
 
