@@ -3,6 +3,8 @@ import { Users, Building, Shield, Sprout, Activity, Info, CheckCircle2, AlertCir
 import { ResponsiveContainer, AreaChart, Area, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip as RechartsTooltip, Legend } from 'recharts';
 import * as Popover from '@radix-ui/react-popover';
 import incomeSecurityData from '../../data/income_security.json';
+import yearlyGpCrops from '../../data/yearly_gp_crops.json';
+
 
 const EvidenceDrawer = ({ source, sheet, calculation, rfLink, status, caution }: any) => {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -94,6 +96,8 @@ const cropBreakdownsByYear: Record<string, { crop: string; amount: number; perce
 export function OverviewTab({ farmersData, totalLeverageAmount }: { farmersData: any[], totalLeverageAmount: number }) {
   const [selectedBreakdownYear, setSelectedBreakdownYear] = React.useState('2024');
   const [selectedYear, setSelectedYear] = React.useState('Cumulative');
+  const [selectedCropYear, setSelectedCropYear] = React.useState('Cumulative');
+  const [selectedGPYear, setSelectedGPYear] = React.useState('Cumulative');
 
   const getKPIs = () => {
     switch (selectedYear) {
@@ -162,22 +166,44 @@ export function OverviewTab({ farmersData, totalLeverageAmount }: { farmersData:
     { year: '2025', totalIncome: 826.25, cumulativeIncome: 3305.01 },
   ];
 
-  const cropRankings = [
-    { rank: 1, name: 'Onion', income: 74.47, area: 33.73, perAcre: 220783, pct: 43.9 },
-    { rank: 2, name: 'Turmeric', income: 23.16, area: 6.91, perAcre: 335166, pct: 13.6 },
-    { rank: 3, name: 'Lentils', income: 13.74, area: 35.1, perAcre: 39157, pct: 8.1 },
-    { rank: 4, name: 'Cauliflower', income: 12.22, area: 8.62, perAcre: 141786, pct: 7.2 },
-    { rank: 5, name: 'Bitter Gourd', income: 9.58, area: 5.28, perAcre: 181364, pct: 5.6 },
-  ];
+  const cropRankings = useMemo(() => {
+    const yearCrops = yearlyGpCrops.crops[selectedCropYear as keyof typeof yearlyGpCrops.crops] || [];
+    return yearCrops.map((c: any) => {
+      let name = c.name;
+      if (name.toLowerCase() === 'bitter') name = 'Bitter Gourd';
+      return {
+        rank: c.rank,
+        name,
+        income: c.income,
+        area: c.area,
+        perAcre: c.perAcre
+      };
+    });
+  }, [selectedCropYear]);
 
-  const gpData = [
-    { name: 'Karikot', farmers: 556, income: 75.27, avg: 13537 },
-    { name: 'Chahalwa', farmers: 430, income: 43.55, avg: 10127 },
-    { name: 'Fakirpuri', farmers: 172, income: 24.61, avg: 14308 },
-    { name: 'Vishunapur', farmers: 55, income: 12.69, avg: 23073 },
-    { name: 'Badkhadiya', farmers: 49, income: 6.99, avg: 14265 },
-    { name: 'Bajpur Bankati', farmers: 99, income: 6.68, avg: 6750 },
-  ];
+  const gpData = useMemo(() => {
+    const yearGpData = yearlyGpCrops.gp[selectedGPYear as keyof typeof yearlyGpCrops.gp] || [];
+    const gpFarmersMap: Record<string, number> = {
+      'Karikot': 556,
+      'Chahalwa': 430,
+      'Fakirpuri': 172,
+      'Vishunapur': 55,
+      'Badkhadiya': 49,
+      'Bajpur Bankati': 99
+    };
+    return yearGpData.map((gp: any) => {
+      const farmers = gpFarmersMap[gp.name] || gp.farmers;
+      const income = gp.income;
+      const avg = farmers > 0 ? Math.round((income * 100000) / farmers) : 0;
+      return {
+        name: gp.name,
+        farmers,
+        income,
+        avg
+      };
+    });
+  }, [selectedGPYear]);
+
 
   return (
     <div className="space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-700">
@@ -356,7 +382,27 @@ export function OverviewTab({ farmersData, totalLeverageAmount }: { farmersData:
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
         <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
-          <h3 className="text-lg font-bold text-slate-800 mb-4">Top 5 Crops by Net Income</h3>
+          <div className="flex items-center justify-between mb-4">
+            <h3 className="text-lg font-bold text-slate-800">Top 5 Crops by Net Income</h3>
+            <div className="relative">
+              <select
+                value={selectedCropYear}
+                onChange={e => setSelectedCropYear(e.target.value)}
+                className="appearance-none bg-white border border-slate-200 rounded-lg pl-2.5 pr-7 py-1.5 text-xs font-semibold text-slate-600 focus:outline-none focus:ring-2 focus:ring-emerald-500/20 focus:border-emerald-500 cursor-pointer shadow-sm hover:bg-slate-50 transition-colors"
+              >
+                <option value="Cumulative">Cumulative</option>
+                <option value="2022">2022</option>
+                <option value="2023">2023</option>
+                <option value="2024">2024</option>
+                <option value="2025">2025</option>
+              </select>
+              <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-1.5 text-slate-400">
+                <svg className="fill-current h-3 w-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                  <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/>
+                </svg>
+              </div>
+            </div>
+          </div>
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
               <thead>
@@ -384,7 +430,27 @@ export function OverviewTab({ farmersData, totalLeverageAmount }: { farmersData:
         </div>
 
         <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
-          <h3 className="text-lg font-bold text-slate-800 mb-4">GP-wise Performance</h3>
+          <div className="flex items-center justify-between mb-4">
+            <h3 className="text-lg font-bold text-slate-800">GP-wise Performance</h3>
+            <div className="relative">
+              <select
+                value={selectedGPYear}
+                onChange={e => setSelectedGPYear(e.target.value)}
+                className="appearance-none bg-white border border-slate-200 rounded-lg pl-2.5 pr-7 py-1.5 text-xs font-semibold text-slate-600 focus:outline-none focus:ring-2 focus:ring-emerald-500/20 focus:border-emerald-500 cursor-pointer shadow-sm hover:bg-slate-50 transition-colors"
+              >
+                <option value="Cumulative">Cumulative</option>
+                <option value="2022">2022</option>
+                <option value="2023">2023</option>
+                <option value="2024">2024</option>
+                <option value="2025">2025</option>
+              </select>
+              <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-1.5 text-slate-400">
+                <svg className="fill-current h-3 w-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                  <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/>
+                </svg>
+              </div>
+            </div>
+          </div>
           <div className="space-y-2">
             {gpData.map((gp, i) => (
               <div key={i} className="flex items-center justify-between p-2.5 rounded-lg hover:bg-slate-50 transition-colors">

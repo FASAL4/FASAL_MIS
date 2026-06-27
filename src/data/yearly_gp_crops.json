@@ -1,0 +1,381 @@
+{
+  "gp": {
+    "2022": [
+      {
+        "name": "Karikot",
+        "farmers": 333,
+        "income": 351.64,
+        "avg": 105598
+      },
+      {
+        "name": "Chahalwa",
+        "farmers": 202,
+        "income": 75.56,
+        "avg": 37406
+      },
+      {
+        "name": "Fakirpuri",
+        "farmers": 184,
+        "income": 94.27,
+        "avg": 51232
+      },
+      {
+        "name": "Vishunapur",
+        "farmers": 59,
+        "income": 43.19,
+        "avg": 73196
+      },
+      {
+        "name": "Badkhadiya",
+        "farmers": 39,
+        "income": 18.78,
+        "avg": 48161
+      },
+      {
+        "name": "Bajpur Bankati",
+        "farmers": 64,
+        "income": 28.28,
+        "avg": 44180
+      }
+    ],
+    "2023": [
+      {
+        "name": "Karikot",
+        "farmers": 334,
+        "income": 189.73,
+        "avg": 56805
+      },
+      {
+        "name": "Chahalwa",
+        "farmers": 202,
+        "income": 93.04,
+        "avg": 46057
+      },
+      {
+        "name": "Fakirpuri",
+        "farmers": 185,
+        "income": 110.68,
+        "avg": 59825
+      },
+      {
+        "name": "Vishunapur",
+        "farmers": 59,
+        "income": 52.48,
+        "avg": 88956
+      },
+      {
+        "name": "Badkhadiya",
+        "farmers": 39,
+        "income": 24.69,
+        "avg": 63317
+      },
+      {
+        "name": "Bajpur Bankati",
+        "farmers": 64,
+        "income": 34.34,
+        "avg": 53655
+      }
+    ],
+    "2024": [
+      {
+        "name": "Karikot",
+        "farmers": 335,
+        "income": 222.59,
+        "avg": 66446
+      },
+      {
+        "name": "Chahalwa",
+        "farmers": 203,
+        "income": 113.42,
+        "avg": 55871
+      },
+      {
+        "name": "Fakirpuri",
+        "farmers": 185,
+        "income": 136.95,
+        "avg": 74027
+      },
+      {
+        "name": "Vishunapur",
+        "farmers": 59,
+        "income": 61.48,
+        "avg": 104209
+      },
+      {
+        "name": "Badkhadiya",
+        "farmers": 39,
+        "income": 29.72,
+        "avg": 76207
+      },
+      {
+        "name": "Bajpur Bankati",
+        "farmers": 66,
+        "income": 41.12,
+        "avg": 62304
+      }
+    ],
+    "2025": [
+      {
+        "name": "Karikot",
+        "farmers": 211,
+        "income": 75.27,
+        "avg": 35675
+      },
+      {
+        "name": "Chahalwa",
+        "farmers": 153,
+        "income": 43.55,
+        "avg": 28463
+      },
+      {
+        "name": "Fakirpuri",
+        "farmers": 135,
+        "income": 24.61,
+        "avg": 18230
+      },
+      {
+        "name": "Vishunapur",
+        "farmers": 47,
+        "income": 12.69,
+        "avg": 26996
+      },
+      {
+        "name": "Badkhadiya",
+        "farmers": 22,
+        "income": 6.99,
+        "avg": 31771
+      },
+      {
+        "name": "Bajpur Bankati",
+        "farmers": 27,
+        "income": 6.68,
+        "avg": 24759
+      }
+    ],
+    "Cumulative": [
+      {
+        "name": "Karikot",
+        "farmers": 505,
+        "income": 839.24,
+        "avg": 166185
+      },
+      {
+        "name": "Chahalwa",
+        "farmers": 325,
+        "income": 325.56,
+        "avg": 100173
+      },
+      {
+        "name": "Fakirpuri",
+        "farmers": 307,
+        "income": 366.5,
+        "avg": 119382
+      },
+      {
+        "name": "Vishunapur",
+        "farmers": 96,
+        "income": 169.84,
+        "avg": 176918
+      },
+      {
+        "name": "Badkhadiya",
+        "farmers": 56,
+        "income": 80.19,
+        "avg": 143190
+      },
+      {
+        "name": "Bajpur Bankati",
+        "farmers": 90,
+        "income": 110.42,
+        "avg": 122689
+      }
+    ]
+  },
+  "crops": {
+    "2022": [
+      {
+        "rank": 1,
+        "name": "Okra",
+        "income": 205.95,
+        "area": 74.85,
+        "perAcre": 275148
+      },
+      {
+        "rank": 2,
+        "name": "Wheat",
+        "income": 169.37,
+        "area": 122.4,
+        "perAcre": 138375
+      },
+      {
+        "rank": 3,
+        "name": "Paddy",
+        "income": 146.5,
+        "area": 122.25,
+        "perAcre": 119834
+      },
+      {
+        "rank": 4,
+        "name": "Sugarcane",
+        "income": 10.35,
+        "area": 5.7,
+        "perAcre": 181561
+      },
+      {
+        "rank": 5,
+        "name": "Cauliflower",
+        "income": 9.81,
+        "area": 58.5,
+        "perAcre": 16770
+      }
+    ],
+    "2023": [
+      {
+        "rank": 1,
+        "name": "Wheat",
+        "income": 184.25,
+        "area": 122.25,
+        "perAcre": 150719
+      },
+      {
+        "rank": 2,
+        "name": "Paddy",
+        "income": 169.4,
+        "area": 122.55,
+        "perAcre": 138231
+      },
+      {
+        "rank": 3,
+        "name": "Cauliflower",
+        "income": 17.6,
+        "area": 88.8,
+        "perAcre": 19824
+      },
+      {
+        "rank": 4,
+        "name": "Turmeric",
+        "income": 13.2,
+        "area": 30.6,
+        "perAcre": 43137
+      },
+      {
+        "rank": 5,
+        "name": "Sugarcane",
+        "income": 12.66,
+        "area": 6.6,
+        "perAcre": 191880
+      }
+    ],
+    "2024": [
+      {
+        "rank": 1,
+        "name": "Wheat",
+        "income": 212.29,
+        "area": 121.95,
+        "perAcre": 174078
+      },
+      {
+        "rank": 2,
+        "name": "Paddy",
+        "income": 187.48,
+        "area": 122.25,
+        "perAcre": 153358
+      },
+      {
+        "rank": 3,
+        "name": "Turmeric",
+        "income": 28.71,
+        "area": 47.55,
+        "perAcre": 60388
+      },
+      {
+        "rank": 4,
+        "name": "Sugarcane",
+        "income": 18.51,
+        "area": 9.3,
+        "perAcre": 199032
+      },
+      {
+        "rank": 5,
+        "name": "Garlic",
+        "income": 17.14,
+        "area": 99.9,
+        "perAcre": 17156
+      }
+    ],
+    "2025": [
+      {
+        "rank": 1,
+        "name": "Onion",
+        "income": 74.47,
+        "area": 33.73,
+        "perAcre": 220783
+      },
+      {
+        "rank": 2,
+        "name": "Turmeric",
+        "income": 23.16,
+        "area": 6.91,
+        "perAcre": 335166
+      },
+      {
+        "rank": 3,
+        "name": "Lentils",
+        "income": 13.74,
+        "area": 35.1,
+        "perAcre": 39157
+      },
+      {
+        "rank": 4,
+        "name": "Cauliflower",
+        "income": 12.22,
+        "area": 8.62,
+        "perAcre": 141763
+      },
+      {
+        "rank": 5,
+        "name": "Bitter",
+        "income": 9.58,
+        "area": 5.28,
+        "perAcre": 181364
+      }
+    ],
+    "Cumulative": [
+      {
+        "rank": 1,
+        "name": "Wheat",
+        "income": 565.91,
+        "area": 123.75,
+        "perAcre": 457303
+      },
+      {
+        "rank": 2,
+        "name": "Paddy",
+        "income": 503.38,
+        "area": 122.7,
+        "perAcre": 410251
+      },
+      {
+        "rank": 3,
+        "name": "Okra",
+        "income": 229.81,
+        "area": 1.44,
+        "perAcre": 15958963
+      },
+      {
+        "rank": 4,
+        "name": "Onion",
+        "income": 90.5,
+        "area": 33.73,
+        "perAcre": 268300
+      },
+      {
+        "rank": 5,
+        "name": "Turmeric",
+        "income": 73.02,
+        "area": 6.91,
+        "perAcre": 1056700
+      }
+    ]
+  }
+}
