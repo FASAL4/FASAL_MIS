@@ -36,7 +36,13 @@ const EvidenceDrawer = ({ source, sheet, calculation, rfLink, status, caution }:
 
 export function InstitutionsTab() {
   const [search, setSearch] = useState('');
-  const filtered = TRAINING_DATA.filter(t => t.type.toLowerCase().includes(search.toLowerCase()));
+  const [selectedYear, setSelectedYear] = useState('All');
+
+  const filtered = TRAINING_DATA.filter(t => {
+    const matchesSearch = t.type.toLowerCase().includes(search.toLowerCase());
+    const matchesYear = selectedYear === 'All' || t.year === selectedYear;
+    return matchesSearch && matchesYear;
+  });
 
   return (
     <div className="space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-700">
@@ -92,19 +98,56 @@ export function InstitutionsTab() {
 
         {/* Card 2: Training History */}
         <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
-          <div className="flex items-center justify-between mb-4">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-4">
             <h3 className="text-lg font-bold text-slate-800">Training History</h3>
-            <div className="relative">
-              <Search size={16} className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" />
-              <input type="text" value={search} onChange={e => setSearch(e.target.value)} placeholder="Filter by type..." className="pl-9 pr-4 py-2 bg-slate-50 border border-slate-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500/20 focus:border-emerald-500 w-48" />
+            <div className="flex items-center gap-3">
+              {/* Year Filter */}
+              <div className="relative">
+                <select
+                  value={selectedYear}
+                  onChange={e => setSelectedYear(e.target.value)}
+                  className="appearance-none bg-slate-50 border border-slate-200 rounded-lg pl-3 pr-8 py-2 text-sm text-slate-700 focus:outline-none focus:ring-2 focus:ring-emerald-500/20 focus:border-emerald-500 cursor-pointer"
+                >
+                  <option value="All">All Years</option>
+                  <option value="2022">2022</option>
+                  <option value="2023">2023</option>
+                  <option value="2024">2024</option>
+                  <option value="2025">2025</option>
+                </select>
+                <div className="pointer-events-none absolute right-2.5 top-1/2 -translate-y-1/2 text-slate-400">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polyline points="6 9 12 15 18 9" /></svg>
+                </div>
+              </div>
+
+              {/* Search Filter */}
+              <div className="relative">
+                <Search size={16} className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" />
+                <input
+                  type="text"
+                  value={search}
+                  onChange={e => setSearch(e.target.value)}
+                  placeholder="Filter by type..."
+                  className="pl-9 pr-4 py-2 bg-slate-50 border border-slate-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500/20 focus:border-emerald-500 w-40 sm:w-48"
+                />
+              </div>
             </div>
           </div>
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
-              <thead><tr className="border-b border-slate-200 text-slate-500 text-xs"><th className="text-left py-3 font-semibold">Year</th><th className="text-left py-3 font-semibold">Training Type</th><th className="text-right py-3 font-semibold">Participants</th></tr></thead>
+              <thead>
+                <tr className="border-b border-slate-200 text-slate-500 text-xs">
+                  <th className="text-left py-3 pr-8 font-semibold w-24">Year</th>
+                  <th className="text-left py-3 font-semibold">Training Type</th>
+                  <th className="text-right py-3 font-semibold">Participants</th>
+                </tr>
+              </thead>
               <tbody className="divide-y divide-slate-100">
                 {filtered.map((t, i) => (
-                  <tr key={i} className="hover:bg-slate-50"><td className="py-2.5 font-mono text-xs text-slate-500">{t.year}</td><td className="py-2.5 font-medium text-slate-800">{t.type}</td><td className="py-2.5 text-right font-semibold text-slate-700">{t.participants}</td></tr>
+                  <tr key={i} className="hover:bg-slate-50">
+                    <td className="py-2.5 pr-8 font-mono text-xs text-slate-500">{t.year}</td>
+                    <td className="py-2.5 font-medium text-slate-800">{t.type}</td>
+                    <td className="py-2.5 text-right font-semibold text-slate-700">{t.participants}</td>
+                  </tr>
                 ))}
               </tbody>
             </table>
