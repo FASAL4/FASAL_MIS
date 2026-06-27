@@ -21,7 +21,7 @@ export const Dashboard: React.FC<DashboardProps> = ({ farmersData, totalLeverage
       <div className="mb-6 flex gap-2 border-b border-slate-200 overflow-x-auto pb-2 custom-scrollbar">
         {[
           { id: 'overview', label: '1. Results Scorecard', icon: Home },
-          { id: 'agriculture', label: '2. Agriculuture Economy', icon: Leaf },
+          { id: 'agriculture', label: '2. Agriculture Economy', icon: Leaf },
           { id: 'rights', label: '3. R&E Convergence', icon: Shield },
           { id: 'nutrition', label: '4. Nutrition Security', icon: Leaf },
           { id: 'institutions', label: '5. Institutions and capacity building', icon: Building2 },

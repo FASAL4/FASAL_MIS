@@ -93,15 +93,60 @@ const cropBreakdownsByYear: Record<string, { crop: string; amount: number; perce
 
 export function OverviewTab({ farmersData, totalLeverageAmount }: { farmersData: any[], totalLeverageAmount: number }) {
   const [selectedBreakdownYear, setSelectedBreakdownYear] = React.useState('2024');
+  const [selectedYear, setSelectedYear] = React.useState('Cumulative');
 
-  const kpis = [
-    { label: 'Income per Acre', value: '₹1,31,977', sub: '220% of ₹60K target', icon: TrendingUp, color: 'text-emerald-600', bg: 'bg-emerald-50' },
-    { label: 'Total Net Income', value: '₹1.70 Cr', sub: '113% of ₹1.50 Cr target', icon: BarChart3, color: 'text-blue-600', bg: 'bg-blue-50' },
-    { label: 'Farmers with Income', value: '734', sub: '147% of 500 target', icon: Users, color: 'text-purple-600', bg: 'bg-purple-50' },
-    { label: 'Cultivated Area', value: '128.65 ac', sub: '129% of 100 ac target', icon: Activity, color: 'text-amber-600', bg: 'bg-amber-50' },
-    { label: 'Crops Tracked', value: '26', sub: '130% of 20 target', icon: Sprout, color: 'text-teal-600', bg: 'bg-teal-50' },
-    { label: 'Leverage', value: '₹8.25 Cr', sub: '330% of ₹2.50 Cr target', icon: Shield, color: 'text-indigo-600', bg: 'bg-indigo-50' },
-  ];
+  const getKPIs = () => {
+    switch (selectedYear) {
+      case '2022':
+        return [
+          { label: 'Income per Acre', value: '₹32,983', sub: '55% of ₹60K target', icon: TrendingUp, color: 'text-emerald-600', bg: 'bg-emerald-50' },
+          { label: 'Total Net Income', value: '₹8.21 Cr', sub: '547% of ₹1.50 Cr target', icon: BarChart3, color: 'text-blue-600', bg: 'bg-blue-50' },
+          { label: 'Farmers with Increased Income & Least Cost', value: '1,504', sub: '300% of 500 target', icon: Users, color: 'text-purple-600', bg: 'bg-purple-50' },
+          { label: 'Cultivated Area', value: '112.00 ac', sub: '112% of 100 ac target', icon: Activity, color: 'text-amber-600', bg: 'bg-amber-50' },
+          { label: 'Crops Tracked', value: '35', sub: '175% of 20 target', icon: Sprout, color: 'text-teal-600', bg: 'bg-teal-50' },
+          { label: 'Leverage', value: '₹54.14 L', sub: '22% of ₹2.50 Cr target', icon: Shield, color: 'text-indigo-600', bg: 'bg-indigo-50' },
+        ];
+      case '2023':
+        return [
+          { label: 'Income per Acre', value: '₹41,227', sub: '69% of ₹60K target', icon: TrendingUp, color: 'text-emerald-600', bg: 'bg-emerald-50' },
+          { label: 'Total Net Income', value: '₹7.48 Cr', sub: '499% of ₹1.50 Cr target', icon: BarChart3, color: 'text-blue-600', bg: 'bg-blue-50' },
+          { label: 'Farmers with Increased Income & Least Cost', value: '1,328', sub: '266% of 500 target', icon: Users, color: 'text-purple-600', bg: 'bg-purple-50' },
+          { label: 'Cultivated Area', value: '115.00 ac', sub: '115% of 100 ac target', icon: Activity, color: 'text-amber-600', bg: 'bg-amber-50' },
+          { label: 'Crops Tracked', value: '35', sub: '175% of 20 target', icon: Sprout, color: 'text-teal-600', bg: 'bg-teal-50' },
+          { label: 'Leverage', value: '₹2.63 Cr', sub: '105% of ₹2.50 Cr target', icon: Shield, color: 'text-indigo-600', bg: 'bg-indigo-50' },
+        ];
+      case '2024':
+        return [
+          { label: 'Income per Acre', value: '₹54,993', sub: '92% of ₹60K target', icon: TrendingUp, color: 'text-emerald-600', bg: 'bg-emerald-50' },
+          { label: 'Total Net Income', value: '₹9.10 Cr', sub: '607% of ₹1.50 Cr target', icon: BarChart3, color: 'text-blue-600', bg: 'bg-blue-50' },
+          { label: 'Farmers with Increased Income & Least Cost', value: '1,328', sub: '266% of 500 target', icon: Users, color: 'text-purple-600', bg: 'bg-purple-50' },
+          { label: 'Cultivated Area', value: '129.00 ac', sub: '129% of 100 ac target', icon: Activity, color: 'text-amber-600', bg: 'bg-amber-50' },
+          { label: 'Crops Tracked', value: '35', sub: '175% of 20 target', icon: Sprout, color: 'text-teal-600', bg: 'bg-teal-50' },
+          { label: 'Leverage', value: '₹2.30 Cr', sub: '92% of ₹2.50 Cr target', icon: Shield, color: 'text-indigo-600', bg: 'bg-indigo-50' },
+        ];
+      case '2025':
+        return [
+          { label: 'Income per Acre', value: '₹1,31,977', sub: '220% of ₹60K target', icon: TrendingUp, color: 'text-emerald-600', bg: 'bg-emerald-50' },
+          { label: 'Total Net Income', value: '₹8.26 Cr', sub: '551% of ₹1.50 Cr target', icon: BarChart3, color: 'text-blue-600', bg: 'bg-blue-50' },
+          { label: 'Farmers with Increased Income & Least Cost', value: '734', sub: '147% of 500 target', icon: Users, color: 'text-purple-600', bg: 'bg-purple-50' },
+          { label: 'Cultivated Area', value: '128.65 ac', sub: '129% of 100 ac target', icon: Activity, color: 'text-amber-600', bg: 'bg-amber-50' },
+          { label: 'Crops Tracked', value: '21', sub: '105% of 20 target', icon: Sprout, color: 'text-teal-600', bg: 'bg-teal-50' },
+          { label: 'Leverage', value: '₹2.78 Cr', sub: '111% of ₹2.50 Cr target', icon: Shield, color: 'text-indigo-600', bg: 'bg-indigo-50' },
+        ];
+      case 'Cumulative':
+      default:
+        return [
+          { label: 'Income per Acre', value: '₹1,31,977', sub: '220% of ₹60K target', icon: TrendingUp, color: 'text-emerald-600', bg: 'bg-emerald-50' },
+          { label: 'Total Net Income', value: '₹33.05 Cr', sub: '440% of ₹7.50 Cr target', icon: BarChart3, color: 'text-blue-600', bg: 'bg-blue-50' },
+          { label: 'Farmers with Increased Income & Least Cost', value: '1,329', sub: '111% of 1,200 target', icon: Users, color: 'text-purple-600', bg: 'bg-purple-50' },
+          { label: 'Cultivated Area', value: '128.65 ac', sub: '129% of 100 ac target', icon: Activity, color: 'text-amber-600', bg: 'bg-amber-50' },
+          { label: 'Crops Tracked', value: '45', sub: '225% of 20 target', icon: Sprout, color: 'text-teal-600', bg: 'bg-teal-50' },
+          { label: 'Leverage', value: '₹8.25 Cr', sub: '330% of ₹2.50 Cr target', icon: Shield, color: 'text-indigo-600', bg: 'bg-indigo-50' },
+        ];
+    }
+  };
+
+  const currentKPIs = getKPIs();
 
   const rfProgression = [
     { year: '2022', income: 32983 },
@@ -136,13 +181,34 @@ export function OverviewTab({ farmersData, totalLeverageAmount }: { farmersData:
 
   return (
     <div className="space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-700">
-      <div>
-        <h2 className="text-2xl font-bold text-slate-800 tracking-tight">Results Scorecard</h2>
-        <p className="text-slate-500 mt-1">Key performance indicators from DEHAT_Dash.xlsx Income Security Dashboard</p>
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+        <div>
+          <h2 className="text-2xl font-bold text-slate-800 tracking-tight">Results Scorecard</h2>
+          <p className="text-slate-500 mt-1">Key performance indicators from DEHAT_Dash.xlsx Income Security Dashboard</p>
+        </div>
+        <div className="flex items-center gap-3">
+          <label className="text-sm font-semibold text-slate-600">Year Filter:</label>
+          <div className="relative">
+            <select
+              value={selectedYear}
+              onChange={e => setSelectedYear(e.target.value)}
+              className="appearance-none bg-white border border-slate-200 rounded-lg pl-3 pr-8 py-2 text-sm font-medium text-slate-700 focus:outline-none focus:ring-2 focus:ring-emerald-500/20 focus:border-emerald-500 cursor-pointer shadow-sm hover:bg-slate-50 transition-colors"
+            >
+              <option value="Cumulative">Cumulative (5-Year)</option>
+              <option value="2022">2022</option>
+              <option value="2023">2023</option>
+              <option value="2024">2024</option>
+              <option value="2025">2025</option>
+            </select>
+            <div className="pointer-events-none absolute right-2.5 top-1/2 -translate-y-1/2 text-slate-400">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polyline points="6 9 12 15 18 9" /></svg>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-4">
-        {kpis.map((kpi, i) => (
+        {currentKPIs.map((kpi, i) => (
           <div key={i} className="bg-white p-4 rounded-2xl shadow-sm border border-slate-200 hover:shadow-md transition-all duration-300 flex flex-col justify-between min-h-[128px]">
             <div className="flex justify-between items-start gap-2">
               <div>

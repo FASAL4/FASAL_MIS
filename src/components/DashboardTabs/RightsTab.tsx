@@ -20,9 +20,8 @@ const formatYAxisLakhs = (v: number) => {
 const GP_VILLAGE_MAP: Record<string, string[]> = {
   'Karikot': ['Rajaram Tanda', 'Narayan Tanda', 'Jamuniha', 'Bhatta Bargadaha', 'Azamgadhpurwa'],
   'Fakirpuri': ['Fakirpuri', 'Lohra', 'Rampurwa', 'Badihanpurwa'],
-  'Chahalwa': ['Sirsiyanpurwa', 'Hajaripurwa', 'Badhiyanpurwa'],
+  'Chahalwa': ['Sirsiyanpurwa', 'Hajaripurwa', 'Badhiyanpurwa', 'Mangalpurwa'],
   'Bajpur Bankati': ['Bajpur Bankati', 'Jamuniya', 'Dhondhepurwa'],
-  'Mangalpurwa': ['Mangalpurwa'],
   'Vishunapur': ['Vishunapur', 'Kailash Nagar', 'Kailash Nagar Dekhiya', 'Dhodhepurwa', 'Vishuntanda'],
   'Badkhadiya': ['Ghoorepurwa', 'Bhodahanpurwa']
 };
@@ -71,12 +70,31 @@ export function RightsTab({ farmersData = [] }: { farmersData?: any[] }) {
     const [selectedGPName, setSelectedGPName] = useState('Karikot');
     const [selectedVillageName, setSelectedVillageName] = useState('Rajaram Tanda');
     const [hhSearchQuery, setHhSearchQuery] = useState('');
+    const [selectedYear, setSelectedYear] = useState('Cumulative');
+
+    const getLeverageKPI = () => {
+        switch (selectedYear) {
+            case '2022':
+                return { label: '2022 Leverage', value: '₹54.14 L', sub: '22% of ₹2.50 Cr target' };
+            case '2023':
+                return { label: '2023 Leverage', value: '₹2.63 Cr', sub: '105% of ₹2.50 Cr target' };
+            case '2024':
+                return { label: '2024 Leverage', value: '₹2.30 Cr', sub: '92% of ₹2.50 Cr target' };
+            case '2025':
+                return { label: '2025 Leverage', value: '₹2.78 Cr', sub: '111% of ₹2.50 Cr target' };
+            case 'Cumulative':
+            default:
+                return { label: 'Cumulative Leverage', value: '₹8.25 Cr', sub: '330% of ₹2.50 Cr target' };
+        }
+    };
+
+    const activeLeverage = getLeverageKPI();
 
     const kpis = [
         { label: 'Surveyed Families', value: '1,329', sub: '100% of target area', icon: Users, color: 'text-indigo-600', bg: 'bg-indigo-50' },
         { label: 'Tracked Entitlements', value: '75', sub: 'Across 12 main categories', icon: Shield, color: 'text-purple-600', bg: 'bg-purple-50' },
-        { label: 'Cumulative Leverage', value: '₹8.25 Cr', sub: '330% of ₹2.50 Cr target', icon: IndianRupee, color: 'text-emerald-600', bg: 'bg-emerald-50' },
-        { label: 'Active Gram Panchayats', value: '7', sub: 'Mihinpurwa Block', icon: Building2, color: 'text-blue-600', bg: 'bg-blue-50' },
+        { label: activeLeverage.label, value: activeLeverage.value, sub: activeLeverage.sub, icon: IndianRupee, color: 'text-emerald-600', bg: 'bg-emerald-50' },
+        { label: 'Active Gram Panchayats', value: '6', sub: 'Mihinpurwa Block', icon: Building2, color: 'text-blue-600', bg: 'bg-blue-50' },
     ];
 
     const conversionData = [
@@ -93,9 +111,8 @@ export function RightsTab({ farmersData = [] }: { farmersData?: any[] }) {
     const gpData = [
         { name: 'Karikot', families: 602, pct: 45.3 },
         { name: 'Fakirpuri', families: 229, pct: 17.2 },
-        { name: 'Chahalwa', families: 183, pct: 13.8 },
+        { name: 'Chahalwa', families: 271, pct: 20.4 },
         { name: 'Bajpur Bankati', families: 113, pct: 8.5 },
-        { name: 'Mangalpurwa', families: 88, pct: 6.6 },
         { name: 'Vishunapur', families: 73, pct: 5.5 },
         { name: 'Badkhadiya', families: 41, pct: 3.1 },
     ];
@@ -109,9 +126,30 @@ export function RightsTab({ farmersData = [] }: { farmersData?: any[] }) {
 
     return (
         <div className="space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-700">
-            <div>
-                <h2 className="text-2xl font-bold text-slate-800 tracking-tight">Rights, Entitlements & Convergence</h2>
-                <p className="text-slate-500 mt-1">FDB survey data covering 75 entitlements across 1,329 families</p>
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                <div>
+                    <h2 className="text-2xl font-bold text-slate-800 tracking-tight">Rights and Entitlements (R&E) Convergence</h2>
+                    <p className="text-slate-500 mt-1">FDB survey data covering 75 entitlements across 1,329 families</p>
+                </div>
+                <div className="flex items-center gap-3">
+                    <label className="text-sm font-semibold text-slate-600">Year Filter:</label>
+                    <div className="relative">
+                        <select
+                            value={selectedYear}
+                            onChange={e => setSelectedYear(e.target.value)}
+                            className="appearance-none bg-white border border-slate-200 rounded-lg pl-3 pr-8 py-2 text-sm font-medium text-slate-700 focus:outline-none focus:ring-2 focus:ring-emerald-500/20 focus:border-emerald-500 cursor-pointer shadow-sm hover:bg-slate-50 transition-colors"
+                        >
+                            <option value="Cumulative">Cumulative (5-Year)</option>
+                            <option value="2022">2022</option>
+                            <option value="2023">2023</option>
+                            <option value="2024">2024</option>
+                            <option value="2025">2025</option>
+                        </select>
+                        <div className="pointer-events-none absolute right-2.5 top-1/2 -translate-y-1/2 text-slate-400">
+                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polyline points="6 9 12 15 18 9" /></svg>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">

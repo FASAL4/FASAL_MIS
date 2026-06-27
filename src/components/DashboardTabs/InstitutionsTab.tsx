@@ -37,11 +37,21 @@ const EvidenceDrawer = ({ source, sheet, calculation, rfLink, status, caution }:
 export function InstitutionsTab() {
   const [search, setSearch] = useState('');
   const [selectedYear, setSelectedYear] = useState('All');
+  const [selectedCategory, setSelectedCategory] = useState('All');
+
+  const getCategory = (type: string) => {
+    const t = type.toLowerCase();
+    if (t.includes('meeting')) return 'Meeting';
+    if (t.includes('visit') || t.includes('exposure')) return 'Exposure Visit';
+    return 'Training';
+  };
 
   const filtered = TRAINING_DATA.filter(t => {
     const matchesSearch = t.type.toLowerCase().includes(search.toLowerCase());
     const matchesYear = selectedYear === 'All' || t.year === selectedYear;
-    return matchesSearch && matchesYear;
+    const cat = getCategory(t.type);
+    const matchesCategory = selectedCategory === 'All' || cat === selectedCategory;
+    return matchesSearch && matchesYear && matchesCategory;
   });
 
   return (
@@ -98,9 +108,9 @@ export function InstitutionsTab() {
 
         {/* Card 2: Training History */}
         <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
-          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-4">
-            <h3 className="text-lg font-bold text-slate-800">Training History</h3>
-            <div className="flex items-center gap-3">
+          <div className="flex flex-col xl:flex-row xl:items-center justify-between gap-4 mb-4">
+            <h3 className="text-lg font-bold text-slate-800">Meeting and Capacity Building Session History</h3>
+            <div className="flex flex-wrap items-center gap-3">
               {/* Year Filter */}
               <div className="relative">
                 <select
@@ -113,6 +123,23 @@ export function InstitutionsTab() {
                   <option value="2023">2023</option>
                   <option value="2024">2024</option>
                   <option value="2025">2025</option>
+                </select>
+                <div className="pointer-events-none absolute right-2.5 top-1/2 -translate-y-1/2 text-slate-400">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polyline points="6 9 12 15 18 9" /></svg>
+                </div>
+              </div>
+
+              {/* Category Filter */}
+              <div className="relative">
+                <select
+                  value={selectedCategory}
+                  onChange={e => setSelectedCategory(e.target.value)}
+                  className="appearance-none bg-slate-50 border border-slate-200 rounded-lg pl-3 pr-8 py-2 text-sm text-slate-700 focus:outline-none focus:ring-2 focus:ring-emerald-500/20 focus:border-emerald-500 cursor-pointer"
+                >
+                  <option value="All">All Categories</option>
+                  <option value="Meeting">Meetings</option>
+                  <option value="Training">Trainings</option>
+                  <option value="Exposure Visit">Exposure Visits</option>
                 </select>
                 <div className="pointer-events-none absolute right-2.5 top-1/2 -translate-y-1/2 text-slate-400">
                   <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polyline points="6 9 12 15 18 9" /></svg>
