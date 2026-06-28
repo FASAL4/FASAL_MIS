@@ -57,100 +57,227 @@ import { Dashboard } from "./components/Dashboard";
 
 const recentFarmers = farmersData;
 
-const stories = [
-  { id: 1, name: "Rajkumari Devi", village: "Kailash Nagar", title: "From Wage Labour to Leading Farmer", description: "Transitioned from daily wage labor to earning ₹60,000 net income from turmeric and arbi intercropping on less than one bigha. She now cultivates Bananas on two bighas and has inspired 137 other farmers.", icon: TrendingUp, color: "text-emerald-600", bg: "bg-emerald-50", border: "border-emerald-100", tags: ["Turmeric Adoption", "Economic Transformation", "LEISA"] },
-  { id: 2, name: "Anarkali", village: "Rampurwa, Fakirpuri", title: "AAS Treasurer & Organic Pioneer", description: "Overcame social discrimination to lead advocacy for PDS and MGNREGA rights. Pioneered climate-resilient natural farming based on low external input sustainable agriculture (LEISA).", icon: Leaf, color: "text-teal-600", bg: "bg-teal-50", border: "border-teal-100", tags: ["Social Empowerment", "Right to Entitlements", "LEISA"] },
-  { id: 3, name: "Manju", village: "Program Village", title: "Struggle to Self-Reliance & Leadership", description: "Joined an SHG in 2016 facing community taunts. Took the risk of planting sugarcane in flood-prone 'khala' land, achieving financial independence and becoming a beacon of empowerment for other women.", icon: Award, color: "text-blue-600", bg: "bg-blue-50", border: "border-blue-100", tags: ["Social Empowerment", "Leadership", "Financial Independence"] },
-  { id: 4, name: "Shanti", village: "Program Village", title: "Overcoming Abuse to Educate the Next Gen", description: "A survivor of child marriage and domestic abuse who found strength and belonging through AAS and Manju's mentorship. She is the first in her village to send her daughter to Kasturba School.", icon: Users, color: "text-indigo-600", bg: "bg-indigo-50", border: "border-indigo-100", tags: ["Child Education", "Social Empowerment", "Mentorship"] }
-];
-
-const storyDetails: Record<number, { text: React.ReactNode, title: string }> = {
-  1: {
-    title: "Rajkumari Devi - From Wage Labour to a Leading Woman Farmer",
-    text: (
-      <div className="space-y-4 text-slate-700">
-        <h3 className="font-semibold text-lg text-slate-900 border-b pb-2">Introduction and Background</h3>
-        <p>Rajkumari Devi is a resident of Kailash Nagar village in Mihinpurwa block of Bahraich district, Uttar Pradesh. For many years, she supported her family through daily wage labour as the small plot of agricultural land owned by the household did not generate sufficient income. Farming was practiced using traditional methods and largely remained a subsistence activity rather than a reliable livelihood source.</p>
-
-        <h3 className="font-semibold text-lg text-slate-900 border-b pb-2 mt-6">The Challenge: Limited Agricultural Productivity</h3>
-        <p>Before engaging with the programme, agriculture in Rajkumari Devi’s household was characterised by low productivity and limited diversification. Traditional cultivation methods were followed without systematic soil management, crop planning, or improved cultivation practices. The income generated from farming was insufficient to meet household needs.</p>
-
-        <h3 className="font-semibold text-lg text-slate-900 border-b pb-2 mt-6">Programme Intervention: Training and Sustainable Agriculture Practices</h3>
-        <p>Her farming journey began to change when she became associated with DEHAT, which was facilitating farmer trainings and demonstrations on sustainable agricultural practices. She learned improved cultivation practices, including seed treatment, soil fertility management, mulching techniques, and crop diversification strategies.</p>
-        <p>She adopted organic nutrient inputs such as Jeevamrit and Cow Dung Manure (Gobar Khad) to improve soil fertility and began using mulching techniques to conserve soil moisture and suppress weeds.</p>
-
-        <h3 className="font-semibold text-lg text-slate-900 border-b pb-2 mt-6">Economic Transformation: Adoption of Turmeric Cultivation</h3>
-        <p>A major turning point came when she experimented with Turmeric Cultivation on a small plot measuring less than one bigha. Using improved seed, organic nutrient management, and better crop planning, she cultivated turmeric while simultaneously adopting intercropping with Arbi (Colocasia). This experiment resulted in a net income of approximately ₹60,000 from turmeric cultivation alone.</p>
-
-        <h3 className="font-semibold text-lg text-slate-900 border-b pb-2 mt-6">Leadership and Community Influence</h3>
-        <p>Alongside economic improvement, her confidence and leadership grew. She now actively participates in Gram Sabha meetings and village-level discussions, sharing her experiences with other farmers. Her commitment has been recognised locally, and she has received appreciation certificates from district authorities.</p>
-      </div>
-    )
+const structuredStories = [
+  {
+    id: 1,
+    name: "Rajkumari Devi",
+    village: "Kailash Nagar",
+    title: "From Wage Labour to Leading Farmer",
+    description: "Transitioned from daily wage labor to earning ₹60,000 net income from turmeric and arbi intercropping on less than one bigha. She now cultivates Bananas on two bighas and has inspired 137 other farmers.",
+    icon: TrendingUp,
+    color: "text-emerald-600",
+    bg: "bg-emerald-50",
+    border: "border-emerald-100",
+    tags: ["Turmeric Adoption", "Economic Transformation", "LEISA"],
+    quote: "This experiment resulted in a net income of approximately ₹60,000 from turmeric cultivation alone, turning subsistence farming into a reliable livelihood.",
+    sections: [
+      {
+        title: "Introduction and Background",
+        iconType: "intro",
+        content: [
+          "Rajkumari Devi is a resident of Kailash Nagar village in Mihinpurwa block of Bahraich district, Uttar Pradesh. For many years, she supported her family through daily wage labour as the small plot of agricultural land owned by the household did not generate sufficient income.",
+          "Farming was practiced using traditional methods and largely remained a subsistence activity rather than a reliable livelihood source."
+        ]
+      },
+      {
+        title: "The Challenge: Limited Agricultural Productivity",
+        iconType: "challenge",
+        content: [
+          "Before engaging with the programme, agriculture in Rajkumari Devi’s household was characterised by low productivity and limited diversification.",
+          "Traditional cultivation methods were followed without systematic soil management, crop planning, or improved cultivation practices. The income generated from farming was insufficient to meet household needs."
+        ]
+      },
+      {
+        title: "Programme Intervention: Training and Sustainable Agriculture Practices",
+        iconType: "intervention",
+        content: [
+          "Her farming journey began to change when she became associated with DEHAT, which was facilitating farmer trainings and demonstrations on sustainable agricultural practices. She learned improved cultivation practices, including seed treatment, soil fertility management, mulching techniques, and crop diversification strategies.",
+          "She adopted organic nutrient inputs such as Jeevamrit and Cow Dung Manure (Gobar Khad) to improve soil fertility and began using mulching techniques to conserve soil moisture and suppress weeds."
+        ]
+      },
+      {
+        title: "Economic Transformation: Adoption of Turmeric Cultivation",
+        iconType: "outcome",
+        content: [
+          "A major turning point came when she experimented with Turmeric Cultivation on a small plot measuring less than one bigha. Using improved seed, organic nutrient management, and better crop planning, she cultivated turmeric while simultaneously adopting intercropping with Arbi (Colocasia).",
+          "This experiment resulted in a net income of approximately ₹60,000 from turmeric cultivation alone."
+        ]
+      },
+      {
+        title: "Leadership and Community Influence",
+        iconType: "conclusion",
+        content: [
+          "Alongside economic improvement, her confidence and leadership grew. She now actively participates in Gram Sabha meetings and village-level discussions, sharing her experiences with other farmers.",
+          "Her commitment has been recognised locally, and she has received appreciation certificates from district authorities."
+        ]
+      }
+    ]
   },
-  2: {
-    title: "Anarkali - From Social Discrimination to Leadership",
-    text: (
-      <div className="space-y-4 text-slate-700">
-        <h3 className="font-semibold text-lg text-slate-900 border-b pb-2">Introduction and Background</h3>
-        <p>Anarkali is a resident of Rampurwa village, Fakirpuri Post, currently serving as the Treasurer of the Sadhana Azadi Aajivika Adhikar Sangathan (AAS). As a member of a tribal community, her early life was shaped by deep social discrimination and structural inequalities. In her community, women were rarely made aware of their rights and were provided very limited opportunities.</p>
-
-        <h3 className="font-semibold text-lg text-slate-900 border-b pb-2 mt-6">The Path to Leadership: DEHAT and AAS</h3>
-        <p>Anarkali’s leadership potential was first recognised by DEHAT, which provided her with an opportunity to engage in community processes. Joining AAS proved to be a turning point. She realised that social change requires organised efforts and collective struggle. Gradually, she began raising her voice in community forums.</p>
-
-        <h3 className="font-semibold text-lg text-slate-900 border-b pb-2 mt-6">Struggles for Social and Government Rights</h3>
-        <p>She played a key role in advocating for the community’s access to essential government welfare schemes. She raised concerns about irregularities in the Public Distribution System (PDS) and helped establish monitoring mechanisms. She also actively advocated for improved implementation of the MGNREGA programme and ensured poor households were included in government housing schemes (Awas Yojana).</p>
-
-        <h3 className="font-semibold text-lg text-slate-900 border-b pb-2 mt-6">Pioneering Climate Resilient Natural Farming</h3>
-        <p>Traditionally, farmers in her village relied heavily on chemical fertilisers. Taking initiative, she began promoting climate-resilient, low external input sustainable agriculture (LEISA). She adopted natural farming methods on her own land and demonstrated that these practices could improve crop productivity while protecting soil health.</p>
-
-        <h3 className="font-semibold text-lg text-slate-900 border-b pb-2 mt-6">Conclusion</h3>
-        <p>Today, Anarkali is widely respected as a grassroots leader and an inspiration. Her journey—from a woman constrained by fear and discrimination to a confident community leader—illustrates the transformative potential of collective organisation and local leadership.</p>
-      </div>
-    )
+  {
+    id: 2,
+    name: "Anarkali",
+    village: "Rampurwa, Fakirpuri",
+    title: "AAS Treasurer & Organic Pioneer",
+    description: "Overcame social discrimination to lead advocacy for PDS and MGNREGA rights. Pioneered climate-resilient natural farming based on low external input sustainable agriculture (LEISA).",
+    icon: Leaf,
+    color: "text-teal-600",
+    bg: "bg-teal-50",
+    border: "border-teal-100",
+    tags: ["Social Empowerment", "Right to Entitlements", "LEISA"],
+    quote: "Anarkali’s journey—from a woman constrained by fear and discrimination to a confident community leader—illustrates the transformative potential of collective organisation.",
+    sections: [
+      {
+        title: "Introduction and Background",
+        iconType: "intro",
+        content: [
+          "Anarkali is a resident of Rampurwa village, Fakirpuri Post, currently serving as the Treasurer of the Sadhana Azadi Aajivika Adhikar Sangathan (AAS).",
+          "As a member of a tribal community, her early life was shaped by deep social discrimination and structural inequalities. In her community, women were rarely made aware of their rights and were provided very limited opportunities."
+        ]
+      },
+      {
+        title: "The Path to Leadership: DEHAT and AAS",
+        iconType: "challenge",
+        content: [
+          "Anarkali’s leadership potential was first recognised by DEHAT, which provided her with an opportunity to engage in community processes. Joining AAS proved to be a turning point.",
+          "She realised that social change requires organised efforts and collective struggle. Gradually, she began raising her voice in community forums."
+        ]
+      },
+      {
+        title: "Struggles for Social and Government Rights",
+        iconType: "intervention",
+        content: [
+          "She played a key role in advocating for the community’s access to essential government welfare schemes. She raised concerns about irregularities in the Public Distribution System (PDS) and helped establish monitoring mechanisms.",
+          "She also actively advocated for improved implementation of the MGNREGA programme and ensured poor households were included in government housing schemes (Awas Yojana)."
+        ]
+      },
+      {
+        title: "Pioneering Climate Resilient Natural Farming",
+        iconType: "outcome",
+        content: [
+          "Traditionally, farmers in her village relied heavily on chemical fertilisers. Taking initiative, she began promoting climate-resilient, low external input sustainable agriculture (LEISA).",
+          "She adopted natural farming methods on her own land and demonstrated that these practices could improve crop productivity while protecting soil health."
+        ]
+      },
+      {
+        title: "Conclusion",
+        iconType: "conclusion",
+        content: [
+          "Today, Anarkali is widely respected as a grassroots leader and an inspiration. Her journey—from a woman constrained by fear and discrimination to a confident community leader—illustrates the transformative potential of collective organisation and local leadership."
+        ]
+      }
+    ]
   },
-  3: {
-    title: "Manju - A Story of Struggle and Self-Reliance",
-    text: (
-      <div className="space-y-4 text-slate-700">
-        <h3 className="font-semibold text-lg text-slate-900 border-b pb-2">The Beginning: A Fire Within (2016)</h3>
-        <p>"The village mornings were always full of dust and hopes. In that same village, an ordinary woman made the decision to join a Self-Help Group in the year 2016. People used to laugh—'What will happen with this? How much will you earn?' But there was a fire in the mind. The start of changing something was not easy."</p>
-
-        <h3 className="font-semibold text-lg text-slate-900 border-b pb-2 mt-6">The Early Challenges: Taunts and Paperwork</h3>
-        <p>"Many times the people of the village used to taunt—What did you get by forming a group? Do housework, that is better.' The income was very low; sometimes the month would pass on 1000 rupees or 2000 rupees, but the pocket remained empty. However, courage did not break."</p>
-
-        <h3 className="font-semibold text-lg text-slate-900 border-b pb-2 mt-6">The Turning Point: Learning and Confidence</h3>
-        <p>"Slowly, slowly, I learned how to get people to sign. I learned to talk to people. I learned to step out of the house. Where there was hesitation before, now there was self-confidence. The struggle was not just for money—it was for respect, for identity, for proving to oneself that we too can do something."</p>
-
-        <h3 className="font-semibold text-lg text-slate-900 border-b pb-2 mt-6">Taking the Risk: Sugarcane and DEHAT</h3>
-        <p>"We have a total of three bighas of land. Two bighas were in the khala (low-lying area). The risk in the khala land was very high... But we had so much courage that we could take a risk. We decided that we will plant sugarcane in all three bighas. Sugarcane is such a crop that can bear water and also give a good income... Water did come into the khala land, but the sugarcane bore it."</p>
-
-        <h3 className="font-semibold text-lg text-slate-900 border-b pb-2 mt-6">Conclusion: The Real Victory</h3>
-        <p>"Small savings of the group gave birth to big dreams... This journey from 2016 until today was not just about earning money; this journey was about becoming self-reliant. And the story has not ended yet, because the real victory is the one that is found through struggle."</p>
-      </div>
-    )
+  {
+    id: 3,
+    name: "Manju",
+    village: "Program Village",
+    title: "Struggle to Self-Reliance & Leadership",
+    description: "Joined an SHG in 2016 facing community taunts. Took the risk of planting sugarcane in flood-prone 'khala' land, achieving financial independence and becoming a beacon of empowerment for other women.",
+    icon: Award,
+    color: "text-blue-600",
+    bg: "bg-blue-50",
+    border: "border-blue-100",
+    tags: ["Social Empowerment", "Leadership", "Financial Independence"],
+    quote: "The struggle was not just for money—it was for respect, for identity, for proving to ourselves that we too can do something.",
+    sections: [
+      {
+        title: "The Beginning: A Fire Within (2016)",
+        iconType: "intro",
+        content: [
+          "\"The village mornings were always full of dust and hopes. In that same village, an ordinary woman made the decision to join a Self-Help Group in the year 2016.\"",
+          "\"People used to laugh—'What will happen with this? How much will you earn?' But there was a fire in the mind. The start of changing something was not easy.\""
+        ]
+      },
+      {
+        title: "The Early Challenges: Taunts and Paperwork",
+        iconType: "challenge",
+        content: [
+          "\"Many times the people of the village used to taunt—'What did you get by forming a group? Do housework, that is better.'\"",
+          "\"The income was very low; sometimes the month would pass on 1000 rupees or 2000 rupees, but the pocket remained empty. However, courage did not break.\""
+        ]
+      },
+      {
+        title: "The Turning Point: Learning and Confidence",
+        iconType: "intervention",
+        content: [
+          "\"Slowly, slowly, I learned how to get people to sign. I learned to talk to people. I learned to step out of the house. Where there was hesitation before, now there was self-confidence.\"",
+          "\"The struggle was not just for money—it was for respect, for identity, for proving to oneself that we too can do something.\""
+        ]
+      },
+      {
+        title: "Taking the Risk: Sugarcane and DEHAT",
+        iconType: "outcome",
+        content: [
+          "\"We have a total of three bighas of land. Two bighas were in the khala (low-lying area). The risk in the khala land was very high... But we had so much courage that we could take a risk.\"",
+          "\"We decided that we will plant sugarcane in all three bighas. Sugarcane is such a crop that can bear water and also give a good income... Water did come into the khala land, but the sugarcane bore it.\""
+        ]
+      },
+      {
+        title: "Conclusion: The Real Victory",
+        iconType: "conclusion",
+        content: [
+          "\"Small savings of the group gave birth to big dreams... This journey from 2016 until today was not just about earning money; this journey was about becoming self-reliant.\"",
+          "\"And the story has not ended yet, because the real victory is the one that is found through struggle.\""
+        ]
+      }
+    ]
   },
-  4: {
-    title: "Shanti - Overcoming Abuse to Educate the Next Gen",
-    text: (
-      <div className="space-y-4 text-slate-700">
-        <h3 className="font-semibold text-lg text-slate-900 border-b pb-2">Childhood and the Loss of a Father</h3>
-        <p>"Papa passed away a long time ago. At that time, we were very small. After Papa left, our whole world changed... Mummy worked very hard to educate us... She worked herself but never let us do manual labor. She never let our hands leave our books."</p>
-
-        <h3 className="font-semibold text-lg text-slate-900 border-b pb-2 mt-6">The Trap of Child Marriage & Dark Years</h3>
-        <p>"I was married off at a very young age... After reaching my in-laws' house, my sorrows increased. I didn’t find love or belonging there. Every day was spent in taunts, insults, and pain... I had to bear physical and mental torture. Because my periods didn't come on time, I was called insulting words like 'Kinnar'."</p>
-
-        <h3 className="font-semibold text-lg text-slate-900 border-b pb-2 mt-6">Abandonment and The Gift of Motherhood</h3>
-        <p>"My husband left me and went away... Later he came back, and we had two children, but I lost both of them in the middle of struggles. To be a mother and lose your children is the greatest sorrow. Then, a woman gave birth to a girl and died. I decided to adopt that little girl... I accepted her from my heart without thinking about what society would say."</p>
-
-        <h3 className="font-semibold text-lg text-slate-900 border-b pb-2 mt-6">The Intervention: Meeting Manju and DEHAT</h3>
-        <p>"Inside the house, the same chaos and violence continued... An NGO came to our village. When I went and came back, my husband beat me a lot. But there I met a woman from the village whose name was Manju. She understood my pain and assured me 'We will move forward like this; you are not alone.' With her support, I started getting involved."</p>
-
-        <h3 className="font-semibold text-lg text-slate-900 border-b pb-2 mt-6">The Result: A Story of Progress</h3>
-        <p>"Through Manju, I got the chance to understand the outside world. Now I can read and write... Manju and I are the first women of the village who have sent our daughters to the Kasturba School. Now I am not afraid of anyone. I have started feeling that my life is now not just a story of pain, but a story of emerging from struggle and moving forward."</p>
-      </div>
-    )
+  {
+    id: 4,
+    name: "Shanti",
+    village: "Program Village",
+    title: "Overcoming Abuse to Educate the Next Gen",
+    description: "A survivor of child marriage and domestic abuse who found strength and belonging through AAS and Manju's mentorship. She is the first in her village to send her daughter to Kasturba School.",
+    icon: Users,
+    color: "text-indigo-600",
+    bg: "bg-indigo-50",
+    border: "border-indigo-100",
+    tags: ["Child Education", "Social Empowerment", "Mentorship"],
+    quote: "Now I am not afraid of anyone. I have started feeling that my life is now not just a story of pain, but a story of emerging from struggle and moving forward.",
+    sections: [
+      {
+        title: "Childhood and the Loss of a Father",
+        iconType: "intro",
+        content: [
+          "\"Papa passed away a long time ago. At that time, we were very small. After Papa left, our whole world changed...\"",
+          "\"Mummy worked very hard to educate us... She worked herself but never let us do manual labor. She never let our hands leave our books.\""
+        ]
+      },
+      {
+        title: "The Trap of Child Marriage & Dark Years",
+        iconType: "challenge",
+        content: [
+          "\"I was married off at a very young age... After reaching my in-laws' house, my sorrows increased. I didn’t find love or belonging there.\"",
+          "\"Every day was spent in taunts, insults, and pain... I had to bear physical and mental torture. Because my periods didn't come on time, I was called insulting words like 'Kinnar'.\""
+        ]
+      },
+      {
+        title: "Abandonment and The Gift of Motherhood",
+        iconType: "intervention",
+        content: [
+          "\"My husband left me and went away... Later he came back, and we had two children, but I lost both of them in the middle of struggles. To be a mother and lose your children is the greatest sorrow.\"",
+          "\"Then, a woman gave birth to a girl and died. I decided to adopt that little girl... I accepted her from my heart without thinking about what society would say.\""
+        ]
+      },
+      {
+        title: "The Intervention: Meeting Manju and DEHAT",
+        iconType: "outcome",
+        content: [
+          "\"Inside the house, the same chaos and violence continued... An NGO came to our village. When I went and came back, my husband beat me a lot.\"",
+          "\"But there I met a woman from the village whose name was Manju. She understood my pain and assured me 'We will move forward like this; you are not alone.' With her support, I started getting involved.\""
+        ]
+      },
+      {
+        title: "The Result: A Story of Progress",
+        iconType: "conclusion",
+        content: [
+          "\"Through Manju, I got the chance to understand the outside world. Now I can read and write... Manju and I are the first women of the village who have sent our daughters to the Kasturba School.\"",
+          "\"Now I am not afraid of anyone. I have started feeling that my life is now not just a story of pain, but a story of emerging from struggle and moving forward.\""
+        ]
+      }
+    ]
   }
-};
+];
 
 const SQL_QUERIES = [
   { name: 'Turmeric farmer count by year', query: `-- Count turmeric farmers from Sheet3 (DEHAT_Dash.xlsx)\nSELECT COUNT(*) as farmers,\n  SUM(CAST("unnamed_107" AS REAL)) as total_income\nFROM "dehat_dash_Sheet3"\nWHERE "unnamed_107" IS NOT NULL AND CAST("unnamed_107" AS REAL) > 0` },
@@ -498,26 +625,95 @@ export default function App() {
 
   const renderStoryModal = () => {
     if (selectedStory === null) return null;
-    const story = storyDetails[selectedStory];
+    const story = structuredStories.find(s => s.id === selectedStory);
     if (!story) return null;
 
     return (
       <div className="fixed inset-0 bg-slate-900/60 z-50 flex items-center justify-center p-4 backdrop-blur-sm">
-        <div className="bg-white rounded-2xl w-full max-w-3xl max-h-[90vh] overflow-hidden flex flex-col shadow-2xl animate-in fade-in zoom-in-95 duration-200">
-          <div className="px-6 py-5 border-b border-slate-100 flex items-center justify-between bg-slate-50 relative">
+        <div className="bg-white rounded-2xl w-full max-w-2xl max-h-[85vh] overflow-hidden flex flex-col shadow-2xl animate-in fade-in zoom-in-95 duration-200">
+          {/* Header Hero */}
+          <div className={`px-8 py-8 ${story.bg} border-b border-slate-100 flex flex-col justify-between relative`}>
+            {/* Scroll Progress Tracker */}
             <div className="absolute bottom-0 left-0 h-1 bg-teal-500 transition-all duration-150 ease-out" style={{ width: `${readProgress}%` }} />
-            <div>
-              <h3 className="text-xl font-bold text-slate-800">{story.title}</h3>
+            
+            <div className="flex justify-between items-start">
+              <span className={`text-[10px] font-bold px-2.5 py-1 rounded bg-white shadow-sm border border-slate-100 uppercase tracking-widest ${story.color}`}>
+                Featured Change Narrative
+              </span>
+              <button
+                onClick={() => setSelectedStory(null)}
+                className="p-1.5 hover:bg-slate-200/50 rounded-full transition-colors relative z-10 text-slate-500"
+              >
+                <X size={18} />
+              </button>
             </div>
-            <button
-              onClick={() => setSelectedStory(null)}
-              className="p-2 hover:bg-slate-200 rounded-full transition-colors ml-4 relative z-10"
-            >
-              <X size={20} className="text-slate-500" />
-            </button>
+            
+            <h3 className="text-2xl font-extrabold text-slate-900 mt-4 font-serif tracking-tight leading-tight">
+              {story.name}
+            </h3>
+            
+            <p className="text-slate-600 italic font-serif text-sm mt-1">
+              {story.title}
+            </p>
+            
+            <div className="flex flex-wrap items-center gap-3 mt-4 text-[10px] text-slate-400 uppercase tracking-widest font-bold">
+              <span className="bg-white/80 px-2 py-0.5 rounded border border-slate-200">{story.village}</span>
+              <span>•</span>
+              <span>3 min read</span>
+            </div>
           </div>
-          <div className="p-8 overflow-y-auto flex-1 bg-white relative" onScroll={handleStoryScroll}>
-            {story.text}
+
+          {/* Body Scroll area */}
+          <div className="p-8 overflow-y-auto flex-1 bg-white relative space-y-6" onScroll={handleStoryScroll}>
+            {story.quote && (
+              <div className="bg-teal-50/30 border-l-4 border-teal-500 rounded-r-xl p-5 mb-6 relative">
+                <span className="absolute left-2 top-0 text-5xl text-teal-200/40 font-serif leading-none">“</span>
+                <p className="text-sm text-teal-800 italic font-serif pl-3 relative z-10 leading-relaxed">
+                  {story.quote}
+                </p>
+              </div>
+            )}
+
+            <div className="relative pl-8 border-l border-slate-100 space-y-8 py-2 ml-2">
+              {story.sections.map((sect, sIdx) => {
+                let SectIcon = BookOpen;
+                let iconColorClass = "bg-teal-50 text-teal-600 border-teal-200";
+                if (sect.iconType === 'challenge') {
+                  SectIcon = AlertCircle;
+                  iconColorClass = "bg-rose-50 text-rose-600 border-rose-100";
+                } else if (sect.iconType === 'intervention') {
+                  SectIcon = Sparkles;
+                  iconColorClass = "bg-amber-50 text-amber-600 border-amber-100";
+                } else if (sect.iconType === 'outcome') {
+                  SectIcon = TrendingUp;
+                  iconColorClass = "bg-emerald-50 text-emerald-600 border-emerald-100";
+                } else if (sect.iconType === 'conclusion') {
+                  SectIcon = Award;
+                  iconColorClass = "bg-blue-50 text-blue-600 border-blue-100";
+                }
+
+                return (
+                  <div key={sIdx} className="relative group">
+                    {/* Floating Circle Icon on the Timeline Line */}
+                    <div className={`absolute -left-[41px] top-0 w-6 h-6 rounded-full border flex items-center justify-center bg-white shadow-sm z-10 shrink-0 ${iconColorClass}`}>
+                      <SectIcon size={11} />
+                    </div>
+                    <div>
+                      <h4 className="text-sm font-bold text-slate-800 tracking-tight mb-2 font-serif">
+                        {sect.title}
+                      </h4>
+                      <div className="space-y-3">
+                        {sect.content.map((p, pIdx) => (
+                          <p key={pIdx} className="text-slate-600 text-xs leading-relaxed font-sans">
+                            {p}
+                          </p>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
           </div>
         </div>
       </div>
@@ -1029,44 +1225,55 @@ export default function App() {
                 </div>
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                {stories.filter(story => {
+                {structuredStories.filter(story => {
                   const matchesSearch = String(story.name || "").toLowerCase().includes(storySearchQuery.toLowerCase()) || String(story.title || "").toLowerCase().includes(storySearchQuery.toLowerCase());
                   const matchesTag = selectedStoryTag === "All" || (story.tags && story.tags.includes(selectedStoryTag));
                   return matchesSearch && matchesTag;
                 }).map(story => {
                   const Icon = story.icon;
                   return (
-                    <div key={story.id} className="bg-white p-8 rounded-2xl shadow-sm border border-slate-200 flex flex-col transition-all hover:shadow-md">
-                      <div className="flex items-center gap-4 mb-4">
-                        <div className={`w-14 h-14 rounded-xl flex items-center justify-center shrink-0 ${story.bg} ${story.color} border ${story.border}`}>
-                          <Icon size={28} />
+                    <motion.div
+                      whileHover={{ y: -4, boxShadow: "0 12px 30px -10px rgba(0,0,0,0.08)" }}
+                      transition={{ duration: 0.2 }}
+                      key={story.id} 
+                      className="bg-white p-8 rounded-2xl border border-slate-200/80 flex flex-col justify-between shadow-sm hover:border-teal-500/30 transition-all duration-300 relative overflow-hidden group"
+                    >
+                      {/* Decorative Background Accent */}
+                      <div className={`absolute -right-6 -bottom-6 w-24 h-24 rounded-full ${story.bg}/20 group-hover:scale-150 transition-transform duration-500 pointer-events-none`} />
+                      
+                      <div>
+                        <div className="flex items-center gap-4 mb-5">
+                          <div className={`w-12 h-12 rounded-xl flex items-center justify-center shrink-0 ${story.bg} ${story.color} border ${story.border}`}>
+                            <Icon size={24} />
+                          </div>
+                          <div>
+                            <h4 className="text-lg font-extrabold text-slate-800 tracking-tight">{story.name}</h4>
+                            <p className="text-xs font-semibold text-slate-400 uppercase tracking-widest">{story.village}</p>
+                          </div>
                         </div>
-                        <div>
-                          <h4 className="text-lg font-bold text-slate-900">{story.name}</h4>
-                          <p className="text-sm font-medium text-slate-500">{story.village}</p>
+
+                        <div className="flex flex-wrap gap-1.5 mb-4">
+                          {story.tags.map(tag => (
+                            <span key={tag} className="px-2.5 py-0.5 bg-slate-50 text-slate-500 text-[9px] font-bold uppercase tracking-widest rounded-full border border-slate-100">
+                              {tag}
+                            </span>
+                          ))}
                         </div>
-                      </div>
 
-                      <div className="flex flex-wrap gap-1.5 mb-5">
-                        {story.tags && story.tags.map(tag => (
-                          <span key={tag} className="px-2 py-0.5 bg-slate-100 text-slate-600 text-[10px] font-semibold uppercase tracking-wider rounded-full border border-slate-200">
-                            {tag}
-                          </span>
-                        ))}
+                        <h5 className="text-md font-bold text-slate-900 mb-2 font-serif tracking-tight">{story.title}</h5>
+                        <p className="text-slate-600 text-sm leading-relaxed mb-6 font-sans">
+                          {story.description}
+                        </p>
                       </div>
-
-                      <h5 className="text-md font-semibold text-slate-800 mb-2">{story.title}</h5>
-                      <p className="text-slate-600 text-sm leading-relaxed mb-6 flex-1">
-                        {story.description}
-                      </p>
+                      
                       <button
                         onClick={() => { setSelectedStory(story.id); setReadProgress(0); }}
-                        className="text-teal-600 font-semibold text-sm flex items-center gap-2 w-max hover:text-teal-700 transition-colors group"
+                        className="text-teal-600 font-bold text-xs uppercase tracking-wider flex items-center gap-2 w-max hover:text-teal-700 transition-colors group/btn pt-2"
                       >
-                        Read Full Case Study <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
+                        Read Narrative <ArrowRight size={14} className="group-hover/btn:translate-x-1.5 transition-transform duration-200" />
                       </button>
-                    </div>
-                  )
+                    </motion.div>
+                  );
                 })}
               </div>
             </div>
