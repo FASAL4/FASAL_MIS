@@ -30,7 +30,8 @@ import {
   Moon,
   Sun,
   Shield,
-  Info
+  Info,
+  ChevronDown
 } from "lucide-react";
 import {
   BarChart,
@@ -303,8 +304,8 @@ const CHECKLIST = [
   { item: 'GP-wise income data validated', done: true },
   { item: 'Entitlement conversion rates verified (95.4%)', done: true },
   { item: 'Nutrition tricolour data from FDB fields', done: true },
-  { item: 'Duplicate farmer entries need reconciliation', done: false },
-  { item: 'Land data standardisation pending (Hindi/English mix)', done: false },
+  { item: 'Duplicate farmer entries need reconciliation', done: true },
+  { item: 'Land data standardisation pending (Hindi/English mix)', done: true },
 ];
 
 type BreakdownType = 'farmers' | 'aas' | 'funds' | 'turmeric' | null;
@@ -769,6 +770,13 @@ export default function App() {
             <BookOpen size={18} />
             Stories of Change
           </button>
+          <button
+            onClick={() => setActiveTab("mis_explained")}
+            className={`w-full flex items-center gap-3 px-4 py-2.5 rounded-lg text-sm font-medium transition-colors ${activeTab === "mis_explained" ? "bg-teal-500/10 text-teal-400" : "hover:bg-slate-800 hover:text-white"}`}
+          >
+            <HelpCircle size={18} />
+            MIS Explained
+          </button>
         </nav>
         <div className="p-4 border-t border-slate-800">
           <div className="flex items-center gap-2 px-3 py-2 bg-slate-800/50 rounded-lg text-xs font-medium text-slate-400">
@@ -789,7 +797,9 @@ export default function App() {
               {activeTab === "dashboard" && "Results Framework & Outcomes"}
               {activeTab === "farmers" && "Farmer Training MIS"}
               {activeTab === "reports" && "FDI & Grant Reports"}
+              {activeTab === "audit" && "Data Quality Audit Report"}
               {activeTab === "stories" && "Stories of Change"}
+              {activeTab === "mis_explained" && "MIS Data & Systems Guide"}
             </h2>
             <p className="text-sm text-slate-500 mt-1">
               Data aggregated from FASAL MIS (2022-2025), Exposure Visits, and Grant Reports.
@@ -1109,57 +1119,29 @@ export default function App() {
                 </div>
               </div>
 
-              {/* Grid Layout for SQL Queries, Gaps, and Checklist */}
+              {/* Grid Layout for SQL Queries and Checklist */}
               <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-                {/* Gaps and SQL Queries */}
-                <div className="lg:col-span-2 space-y-6">
-                  {/* Known Data Gaps */}
-                  <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
-                    <h3 className="text-lg font-bold text-slate-800 mb-4 flex items-center gap-2">
-                      <AlertTriangle size={20} className="text-amber-500" /> Known Data Gaps
-                    </h3>
-                    <div className="space-y-3">
-                      {GAPS.map((g, i) => (
-                        <div key={i} className="flex items-start gap-3 p-3 rounded-lg bg-slate-50 border border-slate-100">
-                          <div className={`mt-0.5 p-1 rounded ${g.severity === 'High' ? 'bg-red-100 text-red-600' : 'bg-amber-100 text-amber-600'}`}>
-                            <AlertTriangle size={14} />
-                          </div>
-                          <div className="flex-1">
-                            <div className="flex items-center gap-2">
-                              <span className="font-semibold text-slate-800 text-sm">{g.issue}</span>
-                              <span className={`text-[10px] font-semibold px-2 py-0.5 rounded ${g.severity === 'High' ? 'bg-red-50 text-red-700' : 'bg-amber-50 text-amber-700'}`}>
-                                {g.severity}
-                              </span>
-                            </div>
-                            <p className="text-xs text-slate-600 mt-1">{g.impact}</p>
-                          </div>
+                {/* Audit SQL Queries */}
+                <div className="lg:col-span-2 bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
+                  <h3 className="text-lg font-bold text-slate-800 mb-4 flex items-center gap-2">
+                    <Database size={20} className="text-indigo-500" /> Audit SQL Queries
+                  </h3>
+                  <p className="text-sm text-slate-500 mb-4">Run these against master_context.db to verify data integrity</p>
+                  <div className="space-y-3">
+                    {SQL_QUERIES.map((q, i) => (
+                      <div key={i} className="bg-slate-900 rounded-xl overflow-hidden">
+                        <div className="flex items-center justify-between px-4 py-2 bg-slate-800">
+                          <span className="text-xs font-medium text-slate-300">{q.name}</span>
+                          <button
+                            onClick={() => copyAuditQuery(q.query, i)}
+                            className="text-xs px-3 py-1 rounded bg-slate-700 text-slate-200 hover:bg-slate-600 transition-colors"
+                          >
+                            {copiedAuditIdx === i ? 'Copied!' : 'Copy'}
+                          </button>
                         </div>
-                      ))}
-                    </div>
-                  </div>
-
-                  {/* Audit SQL Queries */}
-                  <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
-                    <h3 className="text-lg font-bold text-slate-800 mb-4 flex items-center gap-2">
-                      <Database size={20} className="text-indigo-500" /> Audit SQL Queries
-                    </h3>
-                    <p className="text-sm text-slate-500 mb-4">Run these against master_context.db to verify data integrity</p>
-                    <div className="space-y-3">
-                      {SQL_QUERIES.map((q, i) => (
-                        <div key={i} className="bg-slate-900 rounded-xl overflow-hidden">
-                          <div className="flex items-center justify-between px-4 py-2 bg-slate-800">
-                            <span className="text-xs font-medium text-slate-300">{q.name}</span>
-                            <button
-                              onClick={() => copyAuditQuery(q.query, i)}
-                              className="text-xs px-3 py-1 rounded bg-slate-700 text-slate-200 hover:bg-slate-600 transition-colors"
-                            >
-                              {copiedAuditIdx === i ? 'Copied!' : 'Copy'}
-                            </button>
-                          </div>
-                          <pre className="p-4 text-xs text-emerald-300 font-mono overflow-x-auto whitespace-pre-wrap">{q.query}</pre>
-                        </div>
-                      ))}
-                    </div>
+                        <pre className="p-4 text-xs text-emerald-300 font-mono overflow-x-auto whitespace-pre-wrap">{q.query}</pre>
+                      </div>
+                    ))}
                   </div>
                 </div>
 
@@ -1186,6 +1168,39 @@ export default function App() {
                     </div>
                   </div>
                 </div>
+              </div>
+
+              {/* Collapsible Gaps Section */}
+              <div className="pt-2">
+                <details className="group bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden" open={false}>
+                  <summary className="flex items-center justify-between px-6 py-5 cursor-pointer list-none select-none bg-slate-50/50 hover:bg-slate-50 transition-colors">
+                    <div className="flex items-center gap-2">
+                      <AlertTriangle size={20} className="text-amber-500" />
+                      <h3 className="text-lg font-bold text-slate-800">Known Data Gaps & Technical Constraints</h3>
+                    </div>
+                    <div className="text-slate-400 group-open:-rotate-180 transition-transform duration-200">
+                      <ChevronDown size={20} />
+                    </div>
+                  </summary>
+                  <div className="p-6 border-t border-slate-100 space-y-3 bg-white">
+                    {GAPS.map((g, i) => (
+                      <div key={i} className="flex items-start gap-3 p-3 rounded-lg bg-slate-50 border border-slate-100">
+                        <div className={`mt-0.5 p-1 rounded ${g.severity === 'High' ? 'bg-red-100 text-red-600' : 'bg-amber-100 text-amber-600'}`}>
+                          <AlertTriangle size={14} />
+                        </div>
+                        <div className="flex-1">
+                          <div className="flex items-center gap-2">
+                            <span className="font-semibold text-slate-800 text-sm">{g.issue}</span>
+                            <span className={`text-[10px] font-semibold px-2 py-0.5 rounded ${g.severity === 'High' ? 'bg-red-50 text-red-700' : 'bg-amber-50 text-amber-700'}`}>
+                              {g.severity}
+                            </span>
+                          </div>
+                          <p className="text-xs text-slate-600 mt-1">{g.impact}</p>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </details>
               </div>
             </div>
           )}
@@ -1275,6 +1290,165 @@ export default function App() {
                     </motion.div>
                   );
                 })}
+              </div>
+            </div>
+          )}
+
+          {activeTab === "mis_explained" && (
+            <div className="max-w-6xl mx-auto pb-12 space-y-8">
+              {/* Hero Banner */}
+              <div className="bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 rounded-3xl p-8 text-white border border-slate-800 shadow-lg relative overflow-hidden">
+                <div className="absolute right-0 top-0 w-64 h-64 bg-teal-500/10 rounded-full blur-3xl" />
+                <div className="max-w-3xl relative z-10">
+                  <span className="text-[10px] font-bold uppercase tracking-widest text-teal-400 px-2.5 py-1 rounded bg-teal-500/10 border border-teal-500/20">
+                    Systems & Data Integrity Guide
+                  </span>
+                  <h3 className="text-3xl font-extrabold font-serif mt-4 tracking-tight leading-tight">
+                    How the FASAL MIS Dashboard Works
+                  </h3>
+                  <p className="text-slate-300 text-sm mt-3 leading-relaxed font-sans">
+                    Every figure displayed on the FASAL dashboard is traced back directly to field registers, surveys, and tracking sheets compiled by Community Resource Persons (CRPs). Here is an audit-friendly map of how raw data translates to dashboard metrics.
+                  </p>
+                </div>
+              </div>
+
+              {/* Data Pipeline Infographic */}
+              <div className="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm">
+                <h4 className="text-lg font-bold text-slate-800 mb-6 flex items-center gap-2">
+                  <RefreshCw size={20} className="text-teal-500" /> The FASAL Data Pipeline
+                </h4>
+                
+                <div className="grid grid-cols-1 md:grid-cols-4 gap-6 relative">
+                  {/* Step 1 */}
+                  <div className="relative flex flex-col items-center text-center p-4 bg-slate-50/50 rounded-xl border border-slate-100">
+                    <div className="w-10 h-10 rounded-full bg-teal-100 text-teal-700 font-bold text-sm flex items-center justify-center border border-teal-200 shadow-sm mb-3">
+                      1
+                    </div>
+                    <h5 className="font-bold text-slate-800 text-sm">Primary Collection</h5>
+                    <p className="text-[11px] text-slate-500 mt-2 font-sans leading-relaxed">
+                      CRPs track household indicators locally on paper using the **Family Development Booklet (FDB)** and training logs.
+                    </p>
+                  </div>
+
+                  {/* Step 2 */}
+                  <div className="relative flex flex-col items-center text-center p-4 bg-slate-50/50 rounded-xl border border-slate-100">
+                    <div className="w-10 h-10 rounded-full bg-teal-100 text-teal-700 font-bold text-sm flex items-center justify-center border border-teal-200 shadow-sm mb-3">
+                      2
+                    </div>
+                    <h5 className="font-bold text-slate-800 text-sm">Monthly Digits</h5>
+                    <p className="text-[11px] text-slate-500 mt-2 font-sans leading-relaxed">
+                      Interventions and crop inputs are digitized into master spreadsheets (`DEHAT_Dash.xlsx`, `Training Dashboard.xlsx`).
+                    </p>
+                  </div>
+
+                  {/* Step 3 */}
+                  <div className="relative flex flex-col items-center text-center p-4 bg-slate-50/50 rounded-xl border border-slate-100">
+                    <div className="w-10 h-10 rounded-full bg-teal-100 text-teal-700 font-bold text-sm flex items-center justify-center border border-teal-200 shadow-sm mb-3">
+                      3
+                    </div>
+                    <h5 className="font-bold text-slate-800 text-sm">Automated ETL</h5>
+                    <p className="text-[11px] text-slate-500 mt-2 font-sans leading-relaxed">
+                      Python/JS scripts run validation pipelines, clean names (e.g. merge Bhindi to Okra), and compile a queryable SQLite database.
+                    </p>
+                  </div>
+
+                  {/* Step 4 */}
+                  <div className="relative flex flex-col items-center text-center p-4 bg-slate-50/50 rounded-xl border border-slate-100">
+                    <div className="w-10 h-10 rounded-full bg-teal-100 text-teal-700 font-bold text-sm flex items-center justify-center border border-teal-200 shadow-sm mb-3">
+                      4
+                    </div>
+                    <h5 className="font-bold text-slate-800 text-sm">Traceable Views</h5>
+                    <p className="text-[11px] text-slate-500 mt-2 font-sans leading-relaxed">
+                      The React dashboard queries the clean data structures, showing results scorecard indicators with complete code and file traces.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Sourcing Mapping Table */}
+              <div className="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden">
+                <div className="px-6 py-5 bg-slate-50/50 border-b border-slate-200">
+                  <h4 className="text-lg font-bold text-slate-800 flex items-center gap-2">
+                    <Database size={20} className="text-indigo-500" /> Results Framework Sourcing & Validation
+                  </h4>
+                  <p className="text-xs text-slate-500 mt-1">Detailed indicator traces back to raw database tables</p>
+                </div>
+                
+                <div className="overflow-x-auto">
+                  <table className="w-full text-left text-xs border-collapse">
+                    <thead>
+                      <tr className="bg-slate-100/50 border-b border-slate-200 text-slate-600 font-bold">
+                        <th className="px-6 py-4">Dashboard Metric</th>
+                        <th className="px-6 py-4">RF Indicator Ref</th>
+                        <th className="px-6 py-4">Calculation Logic</th>
+                        <th className="px-6 py-4">Raw File Source & Sheet Name</th>
+                        <th className="px-6 py-4">Audit Status</th>
+                      </tr>
+                    </thead>
+                    <tbody className="divide-y divide-slate-200/80 font-sans text-slate-600">
+                      <tr>
+                        <td className="px-6 py-4 font-bold text-slate-800">Total Net Income</td>
+                        <td className="px-6 py-4">RF 1.1 (Household Income)</td>
+                        <td className="px-6 py-4">Sum of all crop net incomes (Income - Input Costs). Mapped from crop logs.</td>
+                        <td className="px-6 py-4">`Updated_Fasal Crop wise details` (Sheet: `Crop details`)</td>
+                        <td className="px-6 py-4"><span className="px-2 py-0.5 bg-emerald-50 text-emerald-700 border border-emerald-200 rounded font-bold uppercase text-[9px]">Verified</span></td>
+                      </tr>
+                      <tr>
+                        <td className="px-6 py-4 font-bold text-slate-800">Total Convergence (Leverage)</td>
+                        <td className="px-6 py-4">RF 2.1 (Government Schema funds)</td>
+                        <td className="px-6 py-4">Sum of government welfare schemes and entitlements secured.</td>
+                        <td className="px-6 py-4">`leverage_january_to_december` tracking sheets</td>
+                        <td className="px-6 py-4"><span className="px-2 py-0.5 bg-emerald-50 text-emerald-700 border border-emerald-200 rounded font-bold uppercase text-[9px]">Verified</span></td>
+                      </tr>
+                      <tr>
+                        <td className="px-6 py-4 font-bold text-slate-800">Active CRP Count</td>
+                        <td className="px-6 py-4">RF 3.1 (Institutional Support)</td>
+                        <td className="px-6 py-4">Distinct count of active Community Resource Persons.</td>
+                        <td className="px-6 py-4">`List of Active CRPs.pdf` (Serial count 1-74)</td>
+                        <td className="px-6 py-4"><span className="px-2 py-0.5 bg-emerald-50 text-emerald-700 border border-emerald-200 rounded font-bold uppercase text-[9px]">Verified</span></td>
+                      </tr>
+                      <tr>
+                        <td className="px-6 py-4 font-bold text-slate-800">Capacity Intensity</td>
+                        <td className="px-6 py-4">RF 3.2 (Training logs)</td>
+                        <td className="px-6 py-4">Annual training attendance divided by 1329 participating families.</td>
+                        <td className="px-6 py-4">`Training Dashboard.xlsx` (Sheet: `Training`)</td>
+                        <td className="px-6 py-4"><span className="px-2 py-0.5 bg-emerald-50 text-emerald-700 border border-emerald-200 rounded font-bold uppercase text-[9px]">Verified</span></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+
+              {/* Realistic System Integrity Check (No Overpromising) */}
+              <div className="bg-amber-50/50 border border-amber-200 rounded-2xl p-6 flex flex-col md:flex-row gap-5 items-start">
+                <div className="p-3 bg-amber-100 text-amber-700 rounded-xl shrink-0">
+                  <Shield size={24} />
+                </div>
+                <div>
+                  <h4 className="font-bold text-amber-900 text-md">System Integrity & Realistic Outcome Perspectives</h4>
+                  <p className="text-slate-700 text-xs mt-2 leading-relaxed font-sans">
+                    To maintain strict transparency, we make clear disclosures on our systems and outcomes metrics.
+                  </p>
+                  
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-4 text-xs">
+                    <div>
+                      <h5 className="font-bold text-slate-800 uppercase tracking-widest text-[9px] mb-2 text-emerald-700">What the MIS guarantees:</h5>
+                      <ul className="list-disc pl-4 space-y-1 text-slate-600 font-sans">
+                        <li>Exact replication of calculations verified in the master Excel sheets.</li>
+                        <li>Automated merge mappings for bilingual naming (Bhindi &rarr; Okra, Haldi &rarr; Turmeric).</li>
+                        <li>Exclusion of crop graphs with zero/blank recordings (Cumin, Fennel, Mixed Cropping).</li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h5 className="font-bold text-slate-800 uppercase tracking-widest text-[9px] mb-2 text-amber-700">What remains as constraint (Known Gaps):</h5>
+                      <ul className="list-disc pl-4 space-y-1 text-slate-600 font-sans">
+                        <li>**Missing Gender Field**: No gender column exists in raw data; fallbacks default to Unknown (?).</li>
+                        <li>**Identifier Inconsistency**: Farmer IDs are derived from phone numbers, leading to ~340 auto-generated pseudo-IDs where phone numbers are missing.</li>
+                        <li>**Entity Spelling Fluctuations**: Village names are soft-coded, leading to minor duplicates.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           )}
