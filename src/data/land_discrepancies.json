@@ -1,36 +1,2556 @@
 {
   "summary": {
     "totalAudited": 600,
-    "totalDiscrepancies": 12,
-    "matchAccuracyPct": 98.0
+    "totalDiscrepancies": 283,
+    "matchAccuracyPct": 52.8
   },
   "outliers": [
     {
-      "id": "DHODEKTA1",
-      "name": "Anurudh",
-      "village": "Dhodhepurwa",
-      "activeAcres": 0.40,
-      "convertedBighas": 0.64,
-      "baselineBighas": 3.0,
-      "deviationPct": 78.6
+      "id": "VISHGAYTRI4",
+      "name": "Budhni",
+      "village": "Vishunapur",
+      "activeAcres": 4,
+      "convertedBighas": 6.4,
+      "baselineBighas": 1,
+      "deviationPct": 540
     },
     {
-      "id": "DHODEKTA12",
-      "name": "Savitri Devi",
+      "id": "NARAJAMUNA12",
+      "name": "Raj Kumari",
+      "village": "Narayan Tanda",
+      "activeAcres": 2.4,
+      "convertedBighas": 3.84,
+      "baselineBighas": 1,
+      "deviationPct": 284
+    },
+    {
+      "id": "BAJPRADHA3",
+      "name": "Aarti Devi",
+      "village": "Bajpur Bankati",
+      "activeAcres": 1,
+      "convertedBighas": 1.6,
+      "baselineBighas": 0.5,
+      "deviationPct": 220
+    },
+    {
+      "id": "BAJPRADHA11",
+      "name": "Aarati Devi",
+      "village": "Bajpur Bankati",
+      "activeAcres": 1,
+      "convertedBighas": 1.6,
+      "baselineBighas": 0.5,
+      "deviationPct": 220
+    },
+    {
+      "id": "KAILDURGA2",
+      "name": "Banwari",
       "village": "Kailash Nagar",
-      "activeAcres": 0.25,
-      "convertedBighas": 0.40,
+      "activeAcres": 2,
+      "convertedBighas": 3.2,
+      "baselineBighas": 1,
+      "deviationPct": 220
+    },
+    {
+      "id": "JAMUSHEELA4",
+      "name": "Santosh",
+      "village": "Jamuniha",
+      "activeAcres": 1,
+      "convertedBighas": 1.6,
+      "baselineBighas": 0.5,
+      "deviationPct": 220
+    },
+    {
+      "id": "NARAGANGA11",
+      "name": "Pooja",
+      "village": "Narayan Tanda",
+      "activeAcres": 2,
+      "convertedBighas": 3.2,
+      "baselineBighas": 1,
+      "deviationPct": 220
+    },
+    {
+      "id": "VISHUJALA10",
+      "name": "Chameli",
+      "village": "Vishunapur",
+      "activeAcres": 3.6,
+      "convertedBighas": 5.76,
+      "baselineBighas": 2,
+      "deviationPct": 188
+    },
+    {
+      "id": "JAMUSHARDA14",
+      "name": "Kabutari",
+      "village": "Jamuniha",
+      "activeAcres": 5,
+      "convertedBighas": 8,
+      "baselineBighas": 3,
+      "deviationPct": 166.7
+    },
+    {
+      "id": "RAJAKRISHNA6",
+      "name": "Kunti Devi",
+      "village": "Rajaram Tanda",
+      "activeAcres": 0.8,
+      "convertedBighas": 1.28,
+      "baselineBighas": 0.5,
+      "deviationPct": 156
+    },
+    {
+      "id": "HAJAMEERA10",
+      "name": "Anita",
+      "village": "Hajaripurwa",
+      "activeAcres": 1.6,
+      "convertedBighas": 2.56,
+      "baselineBighas": 1,
+      "deviationPct": 156
+    },
+    {
+      "id": "NARAJAMUNA14",
+      "name": "Munni Devi",
+      "village": "Narayan Tanda",
+      "activeAcres": 1.4,
+      "convertedBighas": 2.24,
+      "baselineBighas": 1,
+      "deviationPct": 124
+    },
+    {
+      "id": "NARAGANGA14",
+      "name": "Munni Devi",
+      "village": "Narayan Tanda",
+      "activeAcres": 1.4,
+      "convertedBighas": 2.24,
+      "baselineBighas": 1,
+      "deviationPct": 124
+    },
+    {
+      "id": "JAMUSHANTI14",
+      "name": "Indu Devi",
+      "village": "Jamuniha",
+      "activeAcres": 1.35,
+      "convertedBighas": 2.16,
+      "baselineBighas": 1,
+      "deviationPct": 116
+    },
+    {
+      "id": "FAKIAASHA4",
+      "name": "Chandrani",
+      "village": "Fakirpuri",
+      "activeAcres": 0.03,
+      "convertedBighas": 0.05,
+      "baselineBighas": 20,
+      "deviationPct": 99.8
+    },
+    {
+      "id": "FAKITULSI8",
+      "name": "Maya Devi",
+      "village": "Fakirpuri",
+      "activeAcres": 0.04,
+      "convertedBighas": 0.06,
+      "baselineBighas": 20,
+      "deviationPct": 99.7
+    },
+    {
+      "id": "FAKIAASHA12",
+      "name": "Parsadni",
+      "village": "Fakirpuri",
+      "activeAcres": 0.03,
+      "convertedBighas": 0.05,
+      "baselineBighas": 12,
+      "deviationPct": 99.6
+    },
+    {
+      "id": "FAKITULSI6",
+      "name": "Sonpyari",
+      "village": "Fakirpuri",
+      "activeAcres": 0.04,
+      "convertedBighas": 0.06,
+      "baselineBighas": 16,
+      "deviationPct": 99.6
+    },
+    {
+      "id": "BAJPCHAMPA9",
+      "name": "Ram Naresh",
+      "village": "Bajpur Bankati",
+      "activeAcres": 0.01,
+      "convertedBighas": 0.02,
+      "baselineBighas": 4,
+      "deviationPct": 99.6
+    },
+    {
+      "id": "FAKIRADHAAJADI9",
+      "name": "Sumitra",
+      "village": "Fakirpuri",
+      "activeAcres": 0.04,
+      "convertedBighas": 0.06,
+      "baselineBighas": 12,
+      "deviationPct": 99.5
+    },
+    {
+      "id": "FAKIKAJAL6",
+      "name": "Sima Rani",
+      "village": "Fakirpuri",
+      "activeAcres": 0.03,
+      "convertedBighas": 0.05,
+      "baselineBighas": 9.5,
+      "deviationPct": 99.5
+    },
+    {
+      "id": "FAKIKAJAL9",
+      "name": "Bharati",
+      "village": "Fakirpuri",
+      "activeAcres": 0.02,
+      "convertedBighas": 0.03,
+      "baselineBighas": 5,
+      "deviationPct": 99.4
+    },
+    {
+      "id": "FAKIRADHAAJADI2",
+      "name": "Hiriya Devi",
+      "village": "Fakirpuri",
+      "activeAcres": 0.04,
+      "convertedBighas": 0.06,
+      "baselineBighas": 9,
+      "deviationPct": 99.3
+    },
+    {
+      "id": "BAJPVASUNDHARA7",
+      "name": "Mayawati",
+      "village": "Bajpur Bankati",
+      "activeAcres": 0.02,
+      "convertedBighas": 0.03,
+      "baselineBighas": 4,
+      "deviationPct": 99.2
+    },
+    {
+      "id": "VISHMOHANI4",
+      "name": "Poonam",
+      "village": "Vishuntanda",
+      "activeAcres": 0.01,
+      "convertedBighas": 0.02,
+      "baselineBighas": 2,
+      "deviationPct": 99.2
+    },
+    {
+      "id": "NARAGANESH12",
+      "name": "Kabootari",
+      "village": "Narayan Tanda",
+      "activeAcres": 0.15,
+      "convertedBighas": 0.24,
+      "baselineBighas": 30,
+      "deviationPct": 99.2
+    },
+    {
+      "id": "VISHDRISHTI1",
+      "name": "Chamfi Rani",
+      "village": "Vishunapur",
+      "activeAcres": 0.03,
+      "convertedBighas": 0.05,
+      "baselineBighas": 5,
+      "deviationPct": 99
+    },
+    {
+      "id": "RAJAJAIMAKALI15",
+      "name": "Beermati",
+      "village": "Rajaram Tanda",
+      "activeAcres": 0.03,
+      "convertedBighas": 0.05,
+      "baselineBighas": 5,
+      "deviationPct": 99
+    },
+    {
+      "id": "FAKIAZADI3",
+      "name": "Ram Jeevni",
+      "village": "Fakirpuri",
+      "activeAcres": 0.07,
+      "convertedBighas": 0.11,
+      "baselineBighas": 10,
+      "deviationPct": 98.9
+    },
+    {
+      "id": "VISHGAJNI14",
+      "name": "Kusma",
+      "village": "Vishuntanda",
+      "activeAcres": 0.04,
+      "convertedBighas": 0.06,
+      "baselineBighas": 6,
+      "deviationPct": 98.9
+    },
+    {
+      "id": "FAKIAZADI14",
+      "name": "Bindu Devi",
+      "village": "Fakirpuri",
+      "activeAcres": 0.03,
+      "convertedBighas": 0.05,
+      "baselineBighas": 4,
+      "deviationPct": 98.8
+    },
+    {
+      "id": "FAKIAZADI12",
+      "name": "Anshu Kumari",
+      "village": "Fakirpuri",
+      "activeAcres": 0.1,
+      "convertedBighas": 0.16,
+      "baselineBighas": 12,
+      "deviationPct": 98.7
+    },
+    {
+      "id": "VISHGAJNI9",
+      "name": "Vidyawati",
+      "village": "Vishuntanda",
+      "activeAcres": 0.09,
+      "convertedBighas": 0.14,
+      "baselineBighas": 10,
+      "deviationPct": 98.6
+    },
+    {
+      "id": "FAKIAZADI2",
+      "name": "Besri",
+      "village": "Fakirpuri",
+      "activeAcres": 0.1,
+      "convertedBighas": 0.16,
+      "baselineBighas": 11,
+      "deviationPct": 98.5
+    },
+    {
+      "id": "RAMPSADHANAZADI5",
+      "name": "Siyarani",
+      "village": "Rampurwa",
+      "activeAcres": 0.02,
+      "convertedBighas": 0.03,
+      "baselineBighas": 2,
+      "deviationPct": 98.4
+    },
+    {
+      "id": "FAKISEETA7",
+      "name": "Ayushi",
+      "village": "Fakirpuri",
+      "activeAcres": 0.02,
+      "convertedBighas": 0.03,
+      "baselineBighas": 2,
+      "deviationPct": 98.4
+    },
+    {
+      "id": "FAKIKHUSHI10",
+      "name": "Meera Devi",
+      "village": "Fakirpuri",
+      "activeAcres": 0.02,
+      "convertedBighas": 0.03,
+      "baselineBighas": 2,
+      "deviationPct": 98.4
+    },
+    {
+      "id": "FAKIRANI14",
+      "name": "Brajrani",
+      "village": "Fakirpuri",
+      "activeAcres": 0.05,
+      "convertedBighas": 0.08,
+      "baselineBighas": 5,
+      "deviationPct": 98.4
+    },
+    {
+      "id": "VISHMEERA9",
+      "name": "Anguriya",
+      "village": "Vishuntanda",
+      "activeAcres": 0.07,
+      "convertedBighas": 0.11,
+      "baselineBighas": 7,
+      "deviationPct": 98.4
+    },
+    {
+      "id": "RAJAJAIMAKALI19",
+      "name": "Vismaya",
+      "village": "Rajaram Tanda",
+      "activeAcres": 0.02,
+      "convertedBighas": 0.03,
+      "baselineBighas": 2,
+      "deviationPct": 98.4
+    },
+    {
+      "id": "RAJAJAIMASANTOSHI4",
+      "name": "Sanjo Devi",
+      "village": "Rajaram Tanda",
+      "activeAcres": 0.05,
+      "convertedBighas": 0.08,
+      "baselineBighas": 5,
+      "deviationPct": 98.4
+    },
+    {
+      "id": "RAJAJAIMASANTOSHI16",
+      "name": "Jaisingh",
+      "village": "Rajaram Tanda",
+      "activeAcres": 0.05,
+      "convertedBighas": 0.08,
+      "baselineBighas": 5,
+      "deviationPct": 98.4
+    },
+    {
+      "id": "FAKITULSI9",
+      "name": "Mangari",
+      "village": "Fakirpuri",
+      "activeAcres": 0.06,
+      "convertedBighas": 0.1,
+      "baselineBighas": 5,
+      "deviationPct": 98.1
+    },
+    {
+      "id": "RAJAJAIMAKALI9",
+      "name": "Jugnu",
+      "village": "Rajaram Tanda",
+      "activeAcres": 0.05,
+      "convertedBighas": 0.08,
+      "baselineBighas": 4,
+      "deviationPct": 98
+    },
+    {
+      "id": "FAKIRADHAAJADI12",
+      "name": "Kamala Devi",
+      "village": "Fakirpuri",
+      "activeAcres": 0.04,
+      "convertedBighas": 0.06,
+      "baselineBighas": 3,
+      "deviationPct": 97.9
+    },
+    {
+      "id": "RAJAJAIMASANTOSHI15",
+      "name": "Seeta Devi",
+      "village": "Rajaram Tanda",
+      "activeAcres": 0.2,
+      "convertedBighas": 0.32,
+      "baselineBighas": 15,
+      "deviationPct": 97.9
+    },
+    {
+      "id": "VISHGAYTRI6",
+      "name": "Maya Devi",
+      "village": "Vishunapur",
+      "activeAcres": 0.13,
+      "convertedBighas": 0.21,
+      "baselineBighas": 9,
+      "deviationPct": 97.7
+    },
+    {
+      "id": "JAMUSHANTI10",
+      "name": "Jamuna Devi",
+      "village": "Jamuniha",
+      "activeAcres": 0.03,
+      "convertedBighas": 0.05,
+      "baselineBighas": 2,
+      "deviationPct": 97.6
+    },
+    {
+      "id": "BAJPCHAMPA1",
+      "name": "Suman Devi",
+      "village": "Bajpur Bankati",
+      "activeAcres": 0.04,
+      "convertedBighas": 0.06,
+      "baselineBighas": 2.5,
+      "deviationPct": 97.4
+    },
+    {
+      "id": "HAJAGANGA15",
+      "name": "Kishuni Devi",
+      "village": "Hajaripurwa",
+      "activeAcres": 0.08,
+      "convertedBighas": 0.13,
+      "baselineBighas": 5,
+      "deviationPct": 97.4
+    },
+    {
+      "id": "VISHGAJNI1",
+      "name": "Nirmala",
+      "village": "Vishuntanda",
+      "activeAcres": 0.12,
+      "convertedBighas": 0.19,
+      "baselineBighas": 7,
+      "deviationPct": 97.3
+    },
+    {
+      "id": "VISHGAJNI8",
+      "name": "Kusma",
+      "village": "Vishuntanda",
+      "activeAcres": 0.1,
+      "convertedBighas": 0.16,
+      "baselineBighas": 6,
+      "deviationPct": 97.3
+    },
+    {
+      "id": "BAJPPUSHPA2",
+      "name": "Fulwasa",
+      "village": "Bajpur Bankati",
+      "activeAcres": 0.04,
+      "convertedBighas": 0.06,
+      "baselineBighas": 2,
+      "deviationPct": 96.8
+    },
+    {
+      "id": "FAKISEETA8",
+      "name": "Jugani",
+      "village": "Fakirpuri",
+      "activeAcres": 0.03,
+      "convertedBighas": 0.05,
       "baselineBighas": 1.5,
+      "deviationPct": 96.8
+    },
+    {
+      "id": "FAKITULSI7",
+      "name": "Bindu Devi",
+      "village": "Fakirpuri",
+      "activeAcres": 0.08,
+      "convertedBighas": 0.13,
+      "baselineBighas": 4,
+      "deviationPct": 96.8
+    },
+    {
+      "id": "FAKIKHUSHI3",
+      "name": "Sonu",
+      "village": "Fakirpuri",
+      "activeAcres": 0.1,
+      "convertedBighas": 0.16,
+      "baselineBighas": 5,
+      "deviationPct": 96.8
+    },
+    {
+      "id": "BHODSHRIVAISHNODEVI13",
+      "name": "Shiv Narayan",
+      "village": "Bhodahanpurwa",
+      "activeAcres": 0.2,
+      "convertedBighas": 0.32,
+      "baselineBighas": 10,
+      "deviationPct": 96.8
+    },
+    {
+      "id": "VISHMEERA5",
+      "name": "Pappu",
+      "village": "Vishuntanda",
+      "activeAcres": 0.02,
+      "convertedBighas": 0.03,
+      "baselineBighas": 1,
+      "deviationPct": 96.8
+    },
+    {
+      "id": "NARAJAMUNA4",
+      "name": "Meera Devi",
+      "village": "Narayan Tanda",
+      "activeAcres": 0.03,
+      "convertedBighas": 0.05,
+      "baselineBighas": 1.5,
+      "deviationPct": 96.8
+    },
+    {
+      "id": "HAJAMEERA8",
+      "name": "Meera Devi",
+      "village": "Hajaripurwa",
+      "activeAcres": 0.08,
+      "convertedBighas": 0.13,
+      "baselineBighas": 4,
+      "deviationPct": 96.8
+    },
+    {
+      "id": "RAJAJAISHREERAM9",
+      "name": "Fool Keshri",
+      "village": "Rajaram Tanda",
+      "activeAcres": 0.1,
+      "convertedBighas": 0.16,
+      "baselineBighas": 5,
+      "deviationPct": 96.8
+    },
+    {
+      "id": "HAJASUSHEELA8",
+      "name": "Fool Keshri",
+      "village": "Hajaripurwa",
+      "activeAcres": 0.06,
+      "convertedBighas": 0.1,
+      "baselineBighas": 3,
+      "deviationPct": 96.8
+    },
+    {
+      "id": "FAKIJWALAAZADI3",
+      "name": "Tararani",
+      "village": "Fakirpuri",
+      "activeAcres": 0.27,
+      "convertedBighas": 0.43,
+      "baselineBighas": 12,
+      "deviationPct": 96.4
+    },
+    {
+      "id": "JAMUKISAN1",
+      "name": "Geeta Devi",
+      "village": "Jamuniha",
+      "activeAcres": 0.23,
+      "convertedBighas": 0.37,
+      "baselineBighas": 10,
+      "deviationPct": 96.3
+    },
+    {
+      "id": "RAMPSADHANAZADI3",
+      "name": "Nirasha Devi",
+      "village": "Rampurwa",
+      "activeAcres": 0.23,
+      "convertedBighas": 0.37,
+      "baselineBighas": 10,
+      "deviationPct": 96.3
+    },
+    {
+      "id": "RAMPSADHANAZADI13",
+      "name": "Sirjana",
+      "village": "Rampurwa",
+      "activeAcres": 0.07,
+      "convertedBighas": 0.11,
+      "baselineBighas": 3,
+      "deviationPct": 96.3
+    },
+    {
+      "id": "FAKISEETA13",
+      "name": "Geeta Devi",
+      "village": "Fakirpuri",
+      "activeAcres": 0.12,
+      "convertedBighas": 0.19,
+      "baselineBighas": 5,
+      "deviationPct": 96.2
+    },
+    {
+      "id": "BHODKARIKOTMAIYA11",
+      "name": "Vinda Devi",
+      "village": "Bhodahanpurwa",
+      "activeAcres": 0.15,
+      "convertedBighas": 0.24,
+      "baselineBighas": 6,
+      "deviationPct": 96
+    },
+    {
+      "id": "HAJAMEERA5",
+      "name": "Lajjawati",
+      "village": "Hajaripurwa",
+      "activeAcres": 0.1,
+      "convertedBighas": 0.16,
+      "baselineBighas": 4,
+      "deviationPct": 96
+    },
+    {
+      "id": "RAJAJAIMASANTOSHI8",
+      "name": "Sunil Kumar",
+      "village": "Rajaram Tanda",
+      "activeAcres": 0.05,
+      "convertedBighas": 0.08,
+      "baselineBighas": 2,
+      "deviationPct": 96
+    },
+    {
+      "id": "NARAGANGA16",
+      "name": "Anjana Devi",
+      "village": "Narayan Tanda",
+      "activeAcres": 0.26,
+      "convertedBighas": 0.42,
+      "baselineBighas": 10,
+      "deviationPct": 95.8
+    },
+    {
+      "id": "FAKIRADHAAJADI11",
+      "name": "Jashoda Devi",
+      "village": "Fakirpuri",
+      "activeAcres": 0.4,
+      "convertedBighas": 0.64,
+      "baselineBighas": 15,
+      "deviationPct": 95.7
+    },
+    {
+      "id": "FAKIAZADI11",
+      "name": "Sundari Devi",
+      "village": "Fakirpuri",
+      "activeAcres": 0.08,
+      "convertedBighas": 0.13,
+      "baselineBighas": 3,
+      "deviationPct": 95.7
+    },
+    {
+      "id": "VISHJAIMAVAISHNO4",
+      "name": "Geeta Devi",
+      "village": "Vishunapur",
+      "activeAcres": 0.07,
+      "convertedBighas": 0.11,
+      "baselineBighas": 2.5,
+      "deviationPct": 95.5
+    },
+    {
+      "id": "FAKIPRATIBHA8",
+      "name": "Raniya Devi",
+      "village": "Fakirpuri",
+      "activeAcres": 0.6,
+      "convertedBighas": 0.96,
+      "baselineBighas": 20,
+      "deviationPct": 95.2
+    },
+    {
+      "id": "VISHMEERA2",
+      "name": "Jamuna Devi",
+      "village": "Vishuntanda",
+      "activeAcres": 0.06,
+      "convertedBighas": 0.1,
+      "baselineBighas": 2,
+      "deviationPct": 95.2
+    },
+    {
+      "id": "HAJAMAHIMA14",
+      "name": "Pushpa",
+      "village": "Hajaripurwa",
+      "activeAcres": 0.15,
+      "convertedBighas": 0.24,
+      "baselineBighas": 5,
+      "deviationPct": 95.2
+    },
+    {
+      "id": "RAJAJAISHREERAM1",
+      "name": "Arti",
+      "village": "Rajaram Tanda",
+      "activeAcres": 0.06,
+      "convertedBighas": 0.1,
+      "baselineBighas": 2,
+      "deviationPct": 95.2
+    },
+    {
+      "id": "VISHGAYTRI2",
+      "name": "Pradeshni",
+      "village": "Vishunapur",
+      "activeAcres": 0.13,
+      "convertedBighas": 0.21,
+      "baselineBighas": 4,
+      "deviationPct": 94.8
+    },
+    {
+      "id": "FAKIPRATIBHA1",
+      "name": "Surajrani",
+      "village": "Fakirpuri",
+      "activeAcres": 0.05,
+      "convertedBighas": 0.08,
+      "baselineBighas": 1.5,
+      "deviationPct": 94.7
+    },
+    {
+      "id": "RAJAARTI12",
+      "name": "Ramniwas",
+      "village": "Rajaram Tanda",
+      "activeAcres": 0.2,
+      "convertedBighas": 0.32,
+      "baselineBighas": 6,
+      "deviationPct": 94.7
+    },
+    {
+      "id": "NARAGANGA1",
+      "name": "Anjana Devi",
+      "village": "Narayan Tanda",
+      "activeAcres": 0.34,
+      "convertedBighas": 0.54,
+      "baselineBighas": 10,
+      "deviationPct": 94.6
+    },
+    {
+      "id": "BAJPRADHA1",
+      "name": "Ghirau",
+      "village": "Bajpur Bankati",
+      "activeAcres": 0.07,
+      "convertedBighas": 0.11,
+      "baselineBighas": 2,
+      "deviationPct": 94.4
+    },
+    {
+      "id": "FAKISEETA1",
+      "name": "Shivrani",
+      "village": "Fakirpuri",
+      "activeAcres": 0.33,
+      "convertedBighas": 0.53,
+      "baselineBighas": 9.5,
+      "deviationPct": 94.4
+    },
+    {
+      "id": "HAJAMEERA9",
+      "name": "Rameshwari",
+      "village": "Hajaripurwa",
+      "activeAcres": 0.14,
+      "convertedBighas": 0.22,
+      "baselineBighas": 4,
+      "deviationPct": 94.4
+    },
+    {
+      "id": "FAKITULSI1",
+      "name": "Gudiya Devi",
+      "village": "Fakirpuri",
+      "activeAcres": 0.4,
+      "convertedBighas": 0.64,
+      "baselineBighas": 11,
+      "deviationPct": 94.2
+    },
+    {
+      "id": "FAKIAZADI4",
+      "name": "Guliya Devi",
+      "village": "Fakirpuri",
+      "activeAcres": 0.4,
+      "convertedBighas": 0.64,
+      "baselineBighas": 11,
+      "deviationPct": 94.2
+    },
+    {
+      "id": "BAJPPUSHPA10",
+      "name": "Kataki",
+      "village": "Bajpur Bankati",
+      "activeAcres": 0.04,
+      "convertedBighas": 0.06,
+      "baselineBighas": 1,
+      "deviationPct": 93.6
+    },
+    {
+      "id": "JAMUSHEELA5",
+      "name": "Usha",
+      "village": "Jamuniha",
+      "activeAcres": 0.4,
+      "convertedBighas": 0.64,
+      "baselineBighas": 10,
+      "deviationPct": 93.6
+    },
+    {
+      "id": "NARAJAMUNA11",
+      "name": "Poonam",
+      "village": "Narayan Tanda",
+      "activeAcres": 0.04,
+      "convertedBighas": 0.06,
+      "baselineBighas": 1,
+      "deviationPct": 93.6
+    },
+    {
+      "id": "NARAGANESH7",
+      "name": "Geeta Devi",
+      "village": "Narayan Tanda",
+      "activeAcres": 0.06,
+      "convertedBighas": 0.1,
+      "baselineBighas": 1.5,
+      "deviationPct": 93.6
+    },
+    {
+      "id": "NARAGANESH14",
+      "name": "Sumirta",
+      "village": "Narayan Tanda",
+      "activeAcres": 0.08,
+      "convertedBighas": 0.13,
+      "baselineBighas": 2,
+      "deviationPct": 93.6
+    },
+    {
+      "id": "RAJAKRISHNA3",
+      "name": "Kastoori",
+      "village": "Rajaram Tanda",
+      "activeAcres": 0.2,
+      "convertedBighas": 0.32,
+      "baselineBighas": 5,
+      "deviationPct": 93.6
+    },
+    {
+      "id": "FAKIKAJAL11",
+      "name": "Deinesh Kumari",
+      "village": "Fakirpuri",
+      "activeAcres": 0.5,
+      "convertedBighas": 0.8,
+      "baselineBighas": 12,
+      "deviationPct": 93.3
+    },
+    {
+      "id": "FAKIKHUSHI6",
+      "name": "Shivrani",
+      "village": "Fakirpuri",
+      "activeAcres": 0.4,
+      "convertedBighas": 0.64,
+      "baselineBighas": 9.5,
+      "deviationPct": 93.3
+    },
+    {
+      "id": "RAJAARTI16",
+      "name": "Putaniya",
+      "village": "Rajaram Tanda",
+      "activeAcres": 0.17,
+      "convertedBighas": 0.27,
+      "baselineBighas": 4,
+      "deviationPct": 93.2
+    },
+    {
+      "id": "NARAJAMUNA1",
+      "name": "Maya Devi",
+      "village": "Narayan Tanda",
+      "activeAcres": 0.22,
+      "convertedBighas": 0.35,
+      "baselineBighas": 5,
+      "deviationPct": 93
+    },
+    {
+      "id": "FAKIRADHAAJADI10",
+      "name": "Mamta Devi",
+      "village": "Fakirpuri",
+      "activeAcres": 0.24,
+      "convertedBighas": 0.38,
+      "baselineBighas": 5,
+      "deviationPct": 92.3
+    },
+    {
+      "id": "BAJPCHAMPA6",
+      "name": "Chunni Begam",
+      "village": "Bajpur Bankati",
+      "activeAcres": 0.24,
+      "convertedBighas": 0.38,
+      "baselineBighas": 5,
+      "deviationPct": 92.3
+    },
+    {
+      "id": "JAMUKISAN8",
+      "name": "Kushila",
+      "village": "Jamuniha",
+      "activeAcres": 0.6,
+      "convertedBighas": 0.96,
+      "baselineBighas": 0.5,
+      "deviationPct": 92
+    },
+    {
+      "id": "BAJPDURGA16",
+      "name": "Sonawati",
+      "village": "Bajpur Bankati",
+      "activeAcres": 0.6,
+      "convertedBighas": 0.96,
+      "baselineBighas": 0.5,
+      "deviationPct": 92
+    },
+    {
+      "id": "FAKIAASHA14",
+      "name": "Reena Devi",
+      "village": "Fakirpuri",
+      "activeAcres": 0.1,
+      "convertedBighas": 0.16,
+      "baselineBighas": 2,
+      "deviationPct": 92
+    },
+    {
+      "id": "VISHMEERA13",
+      "name": "Rela",
+      "village": "Vishuntanda",
+      "activeAcres": 0.15,
+      "convertedBighas": 0.24,
+      "baselineBighas": 3,
+      "deviationPct": 92
+    },
+    {
+      "id": "VISHGAJNI6",
+      "name": "Bindu Devi",
+      "village": "Vishuntanda",
+      "activeAcres": 0.35,
+      "convertedBighas": 0.56,
+      "baselineBighas": 7,
+      "deviationPct": 92
+    },
+    {
+      "id": "VISHGAJNI16",
+      "name": "Jahrun",
+      "village": "Vishuntanda",
+      "activeAcres": 0.05,
+      "convertedBighas": 0.08,
+      "baselineBighas": 1,
+      "deviationPct": 92
+    },
+    {
+      "id": "VISHMOHANI14",
+      "name": "Roopa Devi",
+      "village": "Vishuntanda",
+      "activeAcres": 0.2,
+      "convertedBighas": 0.32,
+      "baselineBighas": 4,
+      "deviationPct": 92
+    },
+    {
+      "id": "HAJAMAHIMA8",
+      "name": "Maya Devi",
+      "village": "Hajaripurwa",
+      "activeAcres": 0.1,
+      "convertedBighas": 0.16,
+      "baselineBighas": 2,
+      "deviationPct": 92
+    },
+    {
+      "id": "RAJAARTI8",
+      "name": "Janki",
+      "village": "Rajaram Tanda",
+      "activeAcres": 0.1,
+      "convertedBighas": 0.16,
+      "baselineBighas": 2,
+      "deviationPct": 92
+    },
+    {
+      "id": "HAJAMEERA3",
+      "name": "Parvati Devi",
+      "village": "Hajaripurwa",
+      "activeAcres": 0.2,
+      "convertedBighas": 0.32,
+      "baselineBighas": 4,
+      "deviationPct": 92
+    },
+    {
+      "id": "RAJASURAJ3",
+      "name": "Balkaran",
+      "village": "Rajaram Tanda",
+      "activeAcres": 0.6,
+      "convertedBighas": 0.96,
+      "baselineBighas": 0.5,
+      "deviationPct": 92
+    },
+    {
+      "id": "NARAGANGA9",
+      "name": "Jamuna Devi",
+      "village": "Narayan Tanda",
+      "activeAcres": 0.51,
+      "convertedBighas": 0.82,
+      "baselineBighas": 10,
+      "deviationPct": 91.8
+    },
+    {
+      "id": "RAJAJAIMAKALI6",
+      "name": "Foolmati",
+      "village": "Rajaram Tanda",
+      "activeAcres": 0.7,
+      "convertedBighas": 1.12,
+      "baselineBighas": 13,
+      "deviationPct": 91.4
+    },
+    {
+      "id": "FAKIAASHA9",
+      "name": "Seetarani",
+      "village": "Fakirpuri",
+      "activeAcres": 0.6,
+      "convertedBighas": 0.96,
+      "baselineBighas": 11,
+      "deviationPct": 91.3
+    },
+    {
+      "id": "FAKIAASHA5",
+      "name": "Shukni Devi",
+      "village": "Fakirpuri",
+      "activeAcres": 0.11,
+      "convertedBighas": 0.18,
+      "baselineBighas": 2,
+      "deviationPct": 91.2
+    },
+    {
+      "id": "NARAGANGA10",
+      "name": "Rooma Devi",
+      "village": "Narayan Tanda",
+      "activeAcres": 0.11,
+      "convertedBighas": 0.18,
+      "baselineBighas": 2,
+      "deviationPct": 91.2
+    },
+    {
+      "id": "NARAGANESH2",
+      "name": "Kameshwari",
+      "village": "Narayan Tanda",
+      "activeAcres": 0.11,
+      "convertedBighas": 0.18,
+      "baselineBighas": 2,
+      "deviationPct": 91.2
+    },
+    {
+      "id": "FAKIJWALAAZADI5",
+      "name": "Jyoti",
+      "village": "Fakirpuri",
+      "activeAcres": 0.17,
+      "convertedBighas": 0.27,
+      "baselineBighas": 3,
+      "deviationPct": 90.9
+    },
+    {
+      "id": "HAJAMEERA1",
+      "name": "Fublasa",
+      "village": "Hajaripurwa",
+      "activeAcres": 0.17,
+      "convertedBighas": 0.27,
+      "baselineBighas": 3,
+      "deviationPct": 90.9
+    },
+    {
+      "id": "VISHUJALA5",
+      "name": "Sundariya",
+      "village": "Vishunapur",
+      "activeAcres": 0.3,
+      "convertedBighas": 0.48,
+      "baselineBighas": 5,
+      "deviationPct": 90.4
+    },
+    {
+      "id": "VISHDRISHTI9",
+      "name": "Priyanka",
+      "village": "Vishunapur",
+      "activeAcres": 0.09,
+      "convertedBighas": 0.14,
+      "baselineBighas": 1.5,
+      "deviationPct": 90.4
+    },
+    {
+      "id": "FAKIAZADI8",
+      "name": "Sheela rani",
+      "village": "Fakirpuri",
+      "activeAcres": 0.6,
+      "convertedBighas": 0.96,
+      "baselineBighas": 10,
+      "deviationPct": 90.4
+    },
+    {
+      "id": "NARAGANGA8",
+      "name": "Toli",
+      "village": "Narayan Tanda",
+      "activeAcres": 0.12,
+      "convertedBighas": 0.19,
+      "baselineBighas": 2,
+      "deviationPct": 90.4
+    },
+    {
+      "id": "HAJAMEERA4",
+      "name": "Parvati Devi",
+      "village": "Hajaripurwa",
+      "activeAcres": 0.25,
+      "convertedBighas": 0.4,
+      "baselineBighas": 4,
+      "deviationPct": 90
+    },
+    {
+      "id": "JAMUKISAN11",
+      "name": "Kameshwari",
+      "village": "Jamuniha",
+      "activeAcres": 0.2,
+      "convertedBighas": 0.32,
+      "baselineBighas": 3,
+      "deviationPct": 89.3
+    },
+    {
+      "id": "FAKIAZADI1",
+      "name": "Subsi Devi",
+      "village": "Fakirpuri",
+      "activeAcres": 0.2,
+      "convertedBighas": 0.32,
+      "baselineBighas": 3,
+      "deviationPct": 89.3
+    },
+    {
+      "id": "JAMUSHARDA5",
+      "name": "Malti Devi",
+      "village": "Jamuniha",
+      "activeAcres": 0.2,
+      "convertedBighas": 0.32,
+      "baselineBighas": 3,
+      "deviationPct": 89.3
+    },
+    {
+      "id": "NARAKRISHNA8",
+      "name": "Reena Devi",
+      "village": "Narayan Tanda",
+      "activeAcres": 0.1,
+      "convertedBighas": 0.16,
+      "baselineBighas": 1.5,
+      "deviationPct": 89.3
+    },
+    {
+      "id": "HAJAMAHIMA13",
+      "name": "Kamni Devi",
+      "village": "Hajaripurwa",
+      "activeAcres": 0.8,
+      "convertedBighas": 1.28,
+      "baselineBighas": 12,
+      "deviationPct": 89.3
+    },
+    {
+      "id": "VISHGAJNI5",
+      "name": "Shakuntala",
+      "village": "Vishuntanda",
+      "activeAcres": 0.07,
+      "convertedBighas": 0.11,
+      "baselineBighas": 1,
+      "deviationPct": 88.8
+    },
+    {
+      "id": "NARAGANESH5",
+      "name": "Kanchana",
+      "village": "Narayan Tanda",
+      "activeAcres": 0.11,
+      "convertedBighas": 0.18,
+      "baselineBighas": 1.5,
+      "deviationPct": 88.3
+    },
+    {
+      "id": "VISHGAJNI12",
+      "name": "Sundariya",
+      "village": "Vishuntanda",
+      "activeAcres": 0.3,
+      "convertedBighas": 0.48,
+      "baselineBighas": 4,
+      "deviationPct": 88
+    },
+    {
+      "id": "RAMPSADHANAZADI4",
+      "name": "Pardeshi",
+      "village": "Rampurwa",
+      "activeAcres": 0.23,
+      "convertedBighas": 0.37,
+      "baselineBighas": 3,
+      "deviationPct": 87.7
+    },
+    {
+      "id": "VISHDRISHTI7",
+      "name": "Sugharni",
+      "village": "Vishunapur",
+      "activeAcres": 0.08,
+      "convertedBighas": 0.13,
+      "baselineBighas": 1,
+      "deviationPct": 87.2
+    },
+    {
+      "id": "FAKIKHUSHI2",
+      "name": "Seeta",
+      "village": "Fakirpuri",
+      "activeAcres": 0.4,
+      "convertedBighas": 0.64,
+      "baselineBighas": 5,
+      "deviationPct": 87.2
+    },
+    {
+      "id": "BADIANGURI3",
+      "name": "Ramkali",
+      "village": "Badihanpurwa",
+      "activeAcres": 0.4,
+      "convertedBighas": 0.64,
+      "baselineBighas": 5,
+      "deviationPct": 87.2
+    },
+    {
+      "id": "BHODSHRIVAISHNODEVI12",
+      "name": "Kalawati",
+      "village": "Bhodahanpurwa",
+      "activeAcres": 0.4,
+      "convertedBighas": 0.64,
+      "baselineBighas": 5,
+      "deviationPct": 87.2
+    },
+    {
+      "id": "JAMUSHARDA1",
+      "name": "Anara Devi",
+      "village": "Jamuniha",
+      "activeAcres": 0.2,
+      "convertedBighas": 0.32,
+      "baselineBighas": 2.5,
+      "deviationPct": 87.2
+    },
+    {
+      "id": "VISHGAJNI3",
+      "name": "Hajrun",
+      "village": "Vishuntanda",
+      "activeAcres": 0.08,
+      "convertedBighas": 0.13,
+      "baselineBighas": 1,
+      "deviationPct": 87.2
+    },
+    {
+      "id": "NARAJAMUNA5",
+      "name": "Ramawati",
+      "village": "Narayan Tanda",
+      "activeAcres": 0.4,
+      "convertedBighas": 0.64,
+      "baselineBighas": 5,
+      "deviationPct": 87.2
+    },
+    {
+      "id": "BAJPDURGA6",
+      "name": "Sudhrawati",
+      "village": "Bajpur Bankati",
+      "activeAcres": 0.65,
+      "convertedBighas": 1.04,
+      "baselineBighas": 8,
+      "deviationPct": 87
+    },
+    {
+      "id": "FAKIRANI4",
+      "name": "Panchrani",
+      "village": "Fakirpuri",
+      "activeAcres": 1,
+      "convertedBighas": 1.6,
+      "baselineBighas": 12,
+      "deviationPct": 86.7
+    },
+    {
+      "id": "VISHGAJNI15",
+      "name": "Preetam",
+      "village": "Vishuntanda",
+      "activeAcres": 0.25,
+      "convertedBighas": 0.4,
+      "baselineBighas": 3,
+      "deviationPct": 86.7
+    },
+    {
+      "id": "NARAKRISHNA15",
+      "name": "Ramawati",
+      "village": "Narayan Tanda",
+      "activeAcres": 0.42,
+      "convertedBighas": 0.67,
+      "baselineBighas": 5,
+      "deviationPct": 86.6
+    },
+    {
+      "id": "VISHGAYTRI11",
+      "name": "Seeta Devi",
+      "village": "Vishunapur",
+      "activeAcres": 0.22,
+      "convertedBighas": 0.35,
+      "baselineBighas": 2.5,
+      "deviationPct": 85.9
+    },
+    {
+      "id": "JAMUSHANTI11",
+      "name": "Kamlawati",
+      "village": "Jamuniha",
+      "activeAcres": 0.4,
+      "convertedBighas": 0.64,
+      "baselineBighas": 4.5,
+      "deviationPct": 85.8
+    },
+    {
+      "id": "FAKIRANI8",
+      "name": "Shobharani",
+      "village": "Fakirpuri",
+      "activeAcres": 0.27,
+      "convertedBighas": 0.43,
+      "baselineBighas": 3,
+      "deviationPct": 85.6
+    },
+    {
+      "id": "NARAJAMUNA18",
+      "name": "Seeta Devi",
+      "village": "Narayan Tanda",
+      "activeAcres": 0.14,
+      "convertedBighas": 0.22,
+      "baselineBighas": 1.5,
+      "deviationPct": 85.1
+    },
+    {
+      "id": "HAJAMEERA14",
+      "name": "Bhagwanti",
+      "village": "Hajaripurwa",
+      "activeAcres": 0.39,
+      "convertedBighas": 0.62,
+      "baselineBighas": 4,
+      "deviationPct": 84.4
+    },
+    {
+      "id": "BAJPVASUNDHARA13",
+      "name": "Kiran Devi",
+      "village": "Bajpur Bankati",
+      "activeAcres": 0.1,
+      "convertedBighas": 0.16,
+      "baselineBighas": 1,
+      "deviationPct": 84
+    },
+    {
+      "id": "FAKITULSI3",
+      "name": "Pramila",
+      "village": "Fakirpuri",
+      "activeAcres": 0.8,
+      "convertedBighas": 1.28,
+      "baselineBighas": 8,
+      "deviationPct": 84
+    },
+    {
+      "id": "KAILDURGA10",
+      "name": "Sitaram",
+      "village": "Kailash Nagar",
+      "activeAcres": 0.2,
+      "convertedBighas": 0.32,
+      "baselineBighas": 2,
+      "deviationPct": 84
+    },
+    {
+      "id": "BHODKARIKOTMAIYA13",
+      "name": "Lajjawati",
+      "village": "Bhodahanpurwa",
+      "activeAcres": 0.1,
+      "convertedBighas": 0.16,
+      "baselineBighas": 1,
+      "deviationPct": 84
+    },
+    {
+      "id": "BHODSHRIVAISHNODEVI6",
+      "name": "Moora Devi",
+      "village": "Bhodahanpurwa",
+      "activeAcres": 0.3,
+      "convertedBighas": 0.48,
+      "baselineBighas": 3,
+      "deviationPct": 84
+    },
+    {
+      "id": "BAJPGAYTRI1",
+      "name": "Gyanwati",
+      "village": "Bajpur Bankati",
+      "activeAcres": 0.4,
+      "convertedBighas": 0.64,
+      "baselineBighas": 4,
+      "deviationPct": 84
+    },
+    {
+      "id": "JAMUSHANTI6",
+      "name": "Sunita",
+      "village": "Jamuniha",
+      "activeAcres": 0.2,
+      "convertedBighas": 0.32,
+      "baselineBighas": 2,
+      "deviationPct": 84
+    },
+    {
+      "id": "VISHMOHANI3",
+      "name": "Murti",
+      "village": "Vishuntanda",
+      "activeAcres": 0.2,
+      "convertedBighas": 0.32,
+      "baselineBighas": 2,
+      "deviationPct": 84
+    },
+    {
+      "id": "NARAGANESH9",
+      "name": "Nirmala",
+      "village": "Narayan Tanda",
+      "activeAcres": 0.2,
+      "convertedBighas": 0.32,
+      "baselineBighas": 2,
+      "deviationPct": 84
+    },
+    {
+      "id": "NARAGANESH17",
+      "name": "Sangeeta",
+      "village": "Narayan Tanda",
+      "activeAcres": 0.05,
+      "convertedBighas": 0.08,
+      "baselineBighas": 0.5,
+      "deviationPct": 84
+    },
+    {
+      "id": "HAJAMAHIMA6",
+      "name": "Ram Kishun",
+      "village": "Hajaripurwa",
+      "activeAcres": 0.4,
+      "convertedBighas": 0.64,
+      "baselineBighas": 4,
+      "deviationPct": 84
+    },
+    {
+      "id": "HAJAMAHIMA16",
+      "name": "Kamaliya",
+      "village": "Hajaripurwa",
+      "activeAcres": 0.4,
+      "convertedBighas": 0.64,
+      "baselineBighas": 4,
+      "deviationPct": 84
+    },
+    {
+      "id": "RAJAJAIMATADI9",
+      "name": "Bindo",
+      "village": "Rajaram Tanda",
+      "activeAcres": 0.2,
+      "convertedBighas": 0.32,
+      "baselineBighas": 2,
+      "deviationPct": 84
+    },
+    {
+      "id": "RAJAJAISHREERAM4",
+      "name": "Gudiya",
+      "village": "Rajaram Tanda",
+      "activeAcres": 0.1,
+      "convertedBighas": 0.16,
+      "baselineBighas": 1,
+      "deviationPct": 84
+    },
+    {
+      "id": "RAJASURAJ1",
+      "name": "Gudiya",
+      "village": "Rajaram Tanda",
+      "activeAcres": 0.1,
+      "convertedBighas": 0.16,
+      "baselineBighas": 1,
+      "deviationPct": 84
+    },
+    {
+      "id": "RAJASURAJ4",
+      "name": "Gudiya",
+      "village": "Rajaram Tanda",
+      "activeAcres": 0.1,
+      "convertedBighas": 0.16,
+      "baselineBighas": 1,
+      "deviationPct": 84
+    },
+    {
+      "id": "HAJASUSHEELA4",
+      "name": "Mamta",
+      "village": "Hajaripurwa",
+      "activeAcres": 0.4,
+      "convertedBighas": 0.64,
+      "baselineBighas": 4,
+      "deviationPct": 84
+    },
+    {
+      "id": "HAJASUSHEELA5",
+      "name": "Kamaliya",
+      "village": "Hajaripurwa",
+      "activeAcres": 0.4,
+      "convertedBighas": 0.64,
+      "baselineBighas": 4,
+      "deviationPct": 84
+    },
+    {
+      "id": "HAJAGANGA2",
+      "name": "Sunita",
+      "village": "Hajaripurwa",
+      "activeAcres": 0.2,
+      "convertedBighas": 0.32,
+      "baselineBighas": 2,
+      "deviationPct": 84
+    },
+    {
+      "id": "HAJAGANGA6",
+      "name": "Sunita",
+      "village": "Hajaripurwa",
+      "activeAcres": 0.2,
+      "convertedBighas": 0.32,
+      "baselineBighas": 2,
+      "deviationPct": 84
+    },
+    {
+      "id": "BAJPDURGA8",
+      "name": "Reshma Maurya",
+      "village": "Bajpur Bankati",
+      "activeAcres": 0.21,
+      "convertedBighas": 0.34,
+      "baselineBighas": 2,
+      "deviationPct": 83.2
+    },
+    {
+      "id": "HAJASUSHEELA1",
+      "name": "Maya Devi",
+      "village": "Hajaripurwa",
+      "activeAcres": 0.21,
+      "convertedBighas": 0.34,
+      "baselineBighas": 2,
+      "deviationPct": 83.2
+    },
+    {
+      "id": "BAJPRADHA6",
+      "name": "Jagdei",
+      "village": "Bajpur Bankati",
+      "activeAcres": 0.33,
+      "convertedBighas": 0.53,
+      "baselineBighas": 3,
+      "deviationPct": 82.4
+    },
+    {
+      "id": "NARAJAMUNA6",
+      "name": "Somari",
+      "village": "Narayan Tanda",
+      "activeAcres": 0.11,
+      "convertedBighas": 0.18,
+      "baselineBighas": 1,
+      "deviationPct": 82.4
+    },
+    {
+      "id": "NARAGANGA7",
+      "name": "Mundi",
+      "village": "Narayan Tanda",
+      "activeAcres": 0.11,
+      "convertedBighas": 0.18,
+      "baselineBighas": 1,
+      "deviationPct": 82.4
+    },
+    {
+      "id": "VISHGAYTRI9",
+      "name": "Sureshni",
+      "village": "Vishunapur",
+      "activeAcres": 0.8,
+      "convertedBighas": 1.28,
+      "baselineBighas": 7,
+      "deviationPct": 81.7
+    },
+    {
+      "id": "FAKIAASHA13",
+      "name": "Lalu Devi",
+      "village": "Fakirpuri",
+      "activeAcres": 0.4,
+      "convertedBighas": 0.64,
+      "baselineBighas": 3.5,
+      "deviationPct": 81.7
+    },
+    {
+      "id": "RAMPSADHANAZADI2",
+      "name": "Anarkali",
+      "village": "Rampurwa",
+      "activeAcres": 0.6,
+      "convertedBighas": 0.96,
+      "baselineBighas": 5,
+      "deviationPct": 80.8
+    },
+    {
+      "id": "FAKIRADHAAJADI5",
+      "name": "Lilawati",
+      "village": "Fakirpuri",
+      "activeAcres": 0.6,
+      "convertedBighas": 0.96,
+      "baselineBighas": 5,
+      "deviationPct": 80.8
+    },
+    {
+      "id": "FAKIRADHAAJADI8",
+      "name": "Kamlesh Kumari",
+      "village": "Fakirpuri",
+      "activeAcres": 1.2,
+      "convertedBighas": 1.92,
+      "baselineBighas": 10,
+      "deviationPct": 80.8
+    },
+    {
+      "id": "NARAGANGA3",
+      "name": "Batiya Devi",
+      "village": "Narayan Tanda",
+      "activeAcres": 0.6,
+      "convertedBighas": 0.96,
+      "baselineBighas": 5,
+      "deviationPct": 80.8
+    },
+    {
+      "id": "NARAGANGA5",
+      "name": "Kevalpati",
+      "village": "Narayan Tanda",
+      "activeAcres": 0.3,
+      "convertedBighas": 0.48,
+      "baselineBighas": 2.5,
+      "deviationPct": 80.8
+    },
+    {
+      "id": "RAJAJAISHREERAM6",
+      "name": "Murti",
+      "village": "Rajaram Tanda",
+      "activeAcres": 0.6,
+      "convertedBighas": 0.96,
+      "baselineBighas": 5,
+      "deviationPct": 80.8
+    },
+    {
+      "id": "FAKIKAJAL4",
+      "name": "Reshami",
+      "village": "Fakirpuri",
+      "activeAcres": 1,
+      "convertedBighas": 1.6,
+      "baselineBighas": 8,
+      "deviationPct": 80
+    },
+    {
+      "id": "FAKISEETA2",
+      "name": "Reshmi",
+      "village": "Fakirpuri",
+      "activeAcres": 1,
+      "convertedBighas": 1.6,
+      "baselineBighas": 8,
+      "deviationPct": 80
+    },
+    {
+      "id": "VISHMOHANI1",
+      "name": "Ram Bahadur",
+      "village": "Vishuntanda",
+      "activeAcres": 0.13,
+      "convertedBighas": 0.21,
+      "baselineBighas": 1,
+      "deviationPct": 79.2
+    },
+    {
+      "id": "NARAJAMUNA2",
+      "name": "Poonam",
+      "village": "Narayan Tanda",
+      "activeAcres": 0.13,
+      "convertedBighas": 0.21,
+      "baselineBighas": 1,
+      "deviationPct": 79.2
+    },
+    {
+      "id": "HAJAMEERA13",
+      "name": "Guddi",
+      "village": "Hajaripurwa",
+      "activeAcres": 0.52,
+      "convertedBighas": 0.83,
+      "baselineBighas": 4,
+      "deviationPct": 79.2
+    },
+    {
+      "id": "VISHUJALA1",
+      "name": "Shusheela",
+      "village": "Vishunapur",
+      "activeAcres": 0.4,
+      "convertedBighas": 0.64,
+      "baselineBighas": 3,
+      "deviationPct": 78.7
+    },
+    {
+      "id": "FAKITULSI11",
+      "name": "Usha",
+      "village": "Fakirpuri",
+      "activeAcres": 0.4,
+      "convertedBighas": 0.64,
+      "baselineBighas": 3,
+      "deviationPct": 78.7
+    },
+    {
+      "id": "BAJPCHAMPA16",
+      "name": "Rekha Devi",
+      "village": "Bajpur Bankati",
+      "activeAcres": 0.4,
+      "convertedBighas": 0.64,
+      "baselineBighas": 3,
+      "deviationPct": 78.7
+    },
+    {
+      "id": "NARAKRISHNA1",
+      "name": "Seeta Devi",
+      "village": "Narayan Tanda",
+      "activeAcres": 0.2,
+      "convertedBighas": 0.32,
+      "baselineBighas": 1.5,
+      "deviationPct": 78.7
+    },
+    {
+      "id": "HAJAMAHIMA2",
+      "name": "Kalawati",
+      "village": "Hajaripurwa",
+      "activeAcres": 0.4,
+      "convertedBighas": 0.64,
+      "baselineBighas": 3,
+      "deviationPct": 78.7
+    },
+    {
+      "id": "HAJAMEERA18",
+      "name": "Ramkali",
+      "village": "Hajaripurwa",
+      "activeAcres": 0.4,
+      "convertedBighas": 0.64,
+      "baselineBighas": 3,
+      "deviationPct": 78.7
+    },
+    {
+      "id": "RAJASURAJ5",
+      "name": "Seema",
+      "village": "Rajaram Tanda",
+      "activeAcres": 0.4,
+      "convertedBighas": 0.64,
+      "baselineBighas": 3,
+      "deviationPct": 78.7
+    },
+    {
+      "id": "NARAGANGA6",
+      "name": "Jaggo",
+      "village": "Narayan Tanda",
+      "activeAcres": 0.27,
+      "convertedBighas": 0.43,
+      "baselineBighas": 2,
+      "deviationPct": 78.4
+    },
+    {
+      "id": "HAJAMAHIMA11",
+      "name": "Mala Pathak",
+      "village": "Hajaripurwa",
+      "activeAcres": 0.27,
+      "convertedBighas": 0.43,
+      "baselineBighas": 2,
+      "deviationPct": 78.4
+    },
+    {
+      "id": "FAKIKAJAL7",
+      "name": "Jyoti",
+      "village": "Fakirpuri",
+      "activeAcres": 0.41,
+      "convertedBighas": 0.66,
+      "baselineBighas": 3,
+      "deviationPct": 78.1
+    },
+    {
+      "id": "VISHMEERA7",
+      "name": "Reshma",
+      "village": "Vishuntanda",
+      "activeAcres": 0.07,
+      "convertedBighas": 0.11,
+      "baselineBighas": 0.5,
+      "deviationPct": 77.6
+    },
+    {
+      "id": "JAMUSHARDA12",
+      "name": "Anita Devi",
+      "village": "Jamuniha",
+      "activeAcres": 0.6,
+      "convertedBighas": 0.96,
+      "baselineBighas": 4,
+      "deviationPct": 76
+    },
+    {
+      "id": "FAKIRANI3",
+      "name": "Kalawati Devi",
+      "village": "Fakirpuri",
+      "activeAcres": 0.5,
+      "convertedBighas": 0.8,
+      "baselineBighas": 3,
       "deviationPct": 73.3
     },
     {
-      "id": "DHODEKTA18",
-      "name": "Mithilesh",
-      "village": "Hajaripurwa",
-      "activeAcres": 1.20,
-      "convertedBighas": 1.92,
-      "baselineBighas": 5.0,
+      "id": "NARAJAMUNA15",
+      "name": "Runa",
+      "village": "Narayan Tanda",
+      "activeAcres": 0.17,
+      "convertedBighas": 0.27,
+      "baselineBighas": 1,
+      "deviationPct": 72.8
+    },
+    {
+      "id": "BAJPPUSHPA13",
+      "name": "Sawitri",
+      "village": "Bajpur Bankati",
+      "activeAcres": 0.9,
+      "convertedBighas": 1.44,
+      "baselineBighas": 5,
+      "deviationPct": 71.2
+    },
+    {
+      "id": "DHODEKTA4",
+      "name": "Shiv Charan",
+      "village": "Dhodhepurwa",
+      "activeAcres": 0.6,
+      "convertedBighas": 0.96,
+      "baselineBighas": 3,
+      "deviationPct": 68
+    },
+    {
+      "id": "DHODLAXMI13",
+      "name": "Nandkishor",
+      "village": "Dhodhepurwa",
+      "activeAcres": 0.2,
+      "convertedBighas": 0.32,
+      "baselineBighas": 1,
+      "deviationPct": 68
+    },
+    {
+      "id": "DHODJYOTI4",
+      "name": "Sudevi",
+      "village": "Dhodhepurwa",
+      "activeAcres": 0.2,
+      "convertedBighas": 0.32,
+      "baselineBighas": 1,
+      "deviationPct": 68
+    },
+    {
+      "id": "JAMUKISAN9",
+      "name": "Anguri",
+      "village": "Jamuniha",
+      "activeAcres": 0.4,
+      "convertedBighas": 0.64,
+      "baselineBighas": 2,
+      "deviationPct": 68
+    },
+    {
+      "id": "BAJPVASUNDHARA9",
+      "name": "Ramrati",
+      "village": "Bajpur Bankati",
+      "activeAcres": 0.4,
+      "convertedBighas": 0.64,
+      "baselineBighas": 2,
+      "deviationPct": 68
+    },
+    {
+      "id": "BAJPPUSHPA15",
+      "name": "Sunita",
+      "village": "Bajpur Bankati",
+      "activeAcres": 0.2,
+      "convertedBighas": 0.32,
+      "baselineBighas": 1,
+      "deviationPct": 68
+    },
+    {
+      "id": "VISHJAIMAVAISHNO9",
+      "name": "Kriparani",
+      "village": "Vishunapur",
+      "activeAcres": 5,
+      "convertedBighas": 8,
+      "baselineBighas": 25,
+      "deviationPct": 68
+    },
+    {
+      "id": "VISHDRISHTI14",
+      "name": "Maya",
+      "village": "Vishunapur",
+      "activeAcres": 0.4,
+      "convertedBighas": 0.64,
+      "baselineBighas": 2,
+      "deviationPct": 68
+    },
+    {
+      "id": "VISHGAYTRI1",
+      "name": "Maya",
+      "village": "Vishunapur",
+      "activeAcres": 0.4,
+      "convertedBighas": 0.64,
+      "baselineBighas": 2,
+      "deviationPct": 68
+    },
+    {
+      "id": "FAKISEETA3",
+      "name": "Bandhiya Devi",
+      "village": "Fakirpuri",
+      "activeAcres": 0.8,
+      "convertedBighas": 1.28,
+      "baselineBighas": 4,
+      "deviationPct": 68
+    },
+    {
+      "id": "FAKITULSI15",
+      "name": "Budhani",
+      "village": "Fakirpuri",
+      "activeAcres": 4,
+      "convertedBighas": 6.4,
+      "baselineBighas": 20,
+      "deviationPct": 68
+    },
+    {
+      "id": "FAKIRANI17",
+      "name": "Banshi Devi",
+      "village": "Fakirpuri",
+      "activeAcres": 0.8,
+      "convertedBighas": 1.28,
+      "baselineBighas": 4,
+      "deviationPct": 68
+    },
+    {
+      "id": "BHODKARIKOTMAIYA4",
+      "name": "Reshmi",
+      "village": "Bhodahanpurwa",
+      "activeAcres": 1,
+      "convertedBighas": 1.6,
+      "baselineBighas": 5,
+      "deviationPct": 68
+    },
+    {
+      "id": "BHODKARIKOTMAIYA14",
+      "name": "Dhandei",
+      "village": "Bhodahanpurwa",
+      "activeAcres": 0.6,
+      "convertedBighas": 0.96,
+      "baselineBighas": 3,
+      "deviationPct": 68
+    },
+    {
+      "id": "BAJPGAYTRI6",
+      "name": "Roopa Devi",
+      "village": "Bajpur Bankati",
+      "activeAcres": 0.2,
+      "convertedBighas": 0.32,
+      "baselineBighas": 1,
+      "deviationPct": 68
+    },
+    {
+      "id": "VISHMEERA4",
+      "name": "Marri",
+      "village": "Vishuntanda",
+      "activeAcres": 0.6,
+      "convertedBighas": 0.96,
+      "baselineBighas": 3,
+      "deviationPct": 68
+    },
+    {
+      "id": "VISHMOHANI5",
+      "name": "Keshri",
+      "village": "Vishuntanda",
+      "activeAcres": 0.2,
+      "convertedBighas": 0.32,
+      "baselineBighas": 1,
+      "deviationPct": 68
+    },
+    {
+      "id": "VISHMOHANI11",
+      "name": "Vandana",
+      "village": "Vishuntanda",
+      "activeAcres": 0.2,
+      "convertedBighas": 0.32,
+      "baselineBighas": 1,
+      "deviationPct": 68
+    },
+    {
+      "id": "RAJAKRISHNA13",
+      "name": "Mansha",
+      "village": "Rajaram Tanda",
+      "activeAcres": 0.2,
+      "convertedBighas": 0.32,
+      "baselineBighas": 1,
+      "deviationPct": 68
+    },
+    {
+      "id": "RAJAARTI1",
+      "name": "Genda",
+      "village": "Rajaram Tanda",
+      "activeAcres": 0.2,
+      "convertedBighas": 0.32,
+      "baselineBighas": 1,
+      "deviationPct": 68
+    },
+    {
+      "id": "RAJAARTI3",
+      "name": "Nisha",
+      "village": "Rajaram Tanda",
+      "activeAcres": 0.2,
+      "convertedBighas": 0.32,
+      "baselineBighas": 1,
+      "deviationPct": 68
+    },
+    {
+      "id": "RAJAJAIMAKALI10",
+      "name": "Ramti Devi",
+      "village": "Rajaram Tanda",
+      "activeAcres": 0.2,
+      "convertedBighas": 0.32,
+      "baselineBighas": 1,
+      "deviationPct": 68
+    },
+    {
+      "id": "RAJAJAIMASANTOSHI5",
+      "name": "Raj bahadur",
+      "village": "Rajaram Tanda",
+      "activeAcres": 0.4,
+      "convertedBighas": 0.64,
+      "baselineBighas": 2,
+      "deviationPct": 68
+    },
+    {
+      "id": "RAJAJAISHREERAM2",
+      "name": "Kamaliya",
+      "village": "Rajaram Tanda",
+      "activeAcres": 0.4,
+      "convertedBighas": 0.64,
+      "baselineBighas": 2,
+      "deviationPct": 68
+    },
+    {
+      "id": "NARAJAMUNA17",
+      "name": "Savitri",
+      "village": "Narayan Tanda",
+      "activeAcres": 0.9,
+      "convertedBighas": 1.44,
+      "baselineBighas": 4,
+      "deviationPct": 64
+    },
+    {
+      "id": "FAKIPRATIBHA16",
+      "name": "Shilpa",
+      "village": "Fakirpuri",
+      "activeAcres": 0.6,
+      "convertedBighas": 0.96,
+      "baselineBighas": 2.5,
       "deviationPct": 61.6
+    },
+    {
+      "id": "BAJPCHAMPA5",
+      "name": "Laxmi Devi",
+      "village": "Bajpur Bankati",
+      "activeAcres": 0.6,
+      "convertedBighas": 0.96,
+      "baselineBighas": 2.5,
+      "deviationPct": 61.6
+    },
+    {
+      "id": "DHODEKTA11",
+      "name": "Keshram",
+      "village": "Dhodhepurwa",
+      "activeAcres": 0.25,
+      "convertedBighas": 0.4,
+      "baselineBighas": 1,
+      "deviationPct": 60
+    },
+    {
+      "id": "BAJPRADHA7",
+      "name": "Mainawati",
+      "village": "Bajpur Bankati",
+      "activeAcres": 1,
+      "convertedBighas": 1.6,
+      "baselineBighas": 1,
+      "deviationPct": 60
+    },
+    {
+      "id": "FAKIRADHAAJADI3",
+      "name": "Lalrani",
+      "village": "Fakirpuri",
+      "activeAcres": 3,
+      "convertedBighas": 4.8,
+      "baselineBighas": 3,
+      "deviationPct": 60
+    },
+    {
+      "id": "FAKIKHUSHI11",
+      "name": "Lalrani",
+      "village": "Fakirpuri",
+      "activeAcres": 3,
+      "convertedBighas": 4.8,
+      "baselineBighas": 3,
+      "deviationPct": 60
+    },
+    {
+      "id": "NARAGANESH8",
+      "name": "Guddi",
+      "village": "Narayan Tanda",
+      "activeAcres": 0.25,
+      "convertedBighas": 0.4,
+      "baselineBighas": 1,
+      "deviationPct": 60
+    },
+    {
+      "id": "NARAGANESH11",
+      "name": "Champa",
+      "village": "Narayan Tanda",
+      "activeAcres": 2,
+      "convertedBighas": 3.2,
+      "baselineBighas": 8,
+      "deviationPct": 60
+    },
+    {
+      "id": "RAJAARTI10",
+      "name": "Genda",
+      "village": "Rajaram Tanda",
+      "activeAcres": 0.25,
+      "convertedBighas": 0.4,
+      "baselineBighas": 1,
+      "deviationPct": 60
+    },
+    {
+      "id": "RAJAJAISHREERAM7",
+      "name": "Rinki Devi",
+      "village": "Rajaram Tanda",
+      "activeAcres": 0.25,
+      "convertedBighas": 0.4,
+      "baselineBighas": 1,
+      "deviationPct": 60
+    },
+    {
+      "id": "FAKITULSI4",
+      "name": "Rampati",
+      "village": "Fakirpuri",
+      "activeAcres": 0.4,
+      "convertedBighas": 0.64,
+      "baselineBighas": 1.5,
+      "deviationPct": 57.3
+    },
+    {
+      "id": "DHODEKTA13",
+      "name": "Nadir Husain",
+      "village": "Dhodhepurwa",
+      "activeAcres": 2,
+      "convertedBighas": 3.2,
+      "baselineBighas": 7,
+      "deviationPct": 54.3
+    },
+    {
+      "id": "KAILDURGA9",
+      "name": "Chhote Lal",
+      "village": "Kailash Nagar",
+      "activeAcres": 2,
+      "convertedBighas": 3.2,
+      "baselineBighas": 7,
+      "deviationPct": 54.3
+    },
+    {
+      "id": "KAILDURGA17",
+      "name": "Santu",
+      "village": "Kailash Nagar",
+      "activeAcres": 2,
+      "convertedBighas": 3.2,
+      "baselineBighas": 7,
+      "deviationPct": 54.3
+    },
+    {
+      "id": "NARAGANGA2",
+      "name": "Anguri",
+      "village": "Narayan Tanda",
+      "activeAcres": 0.29,
+      "convertedBighas": 0.46,
+      "baselineBighas": 1,
+      "deviationPct": 53.6
+    },
+    {
+      "id": "BAJPDURGA3",
+      "name": "Rajkumari",
+      "village": "Bajpur Bankati",
+      "activeAcres": 2.4,
+      "convertedBighas": 3.84,
+      "baselineBighas": 8,
+      "deviationPct": 52
+    },
+    {
+      "id": "BAJPVASUNDHARA11",
+      "name": "Fulmati",
+      "village": "Bajpur Bankati",
+      "activeAcres": 0.6,
+      "convertedBighas": 0.96,
+      "baselineBighas": 2,
+      "deviationPct": 52
+    },
+    {
+      "id": "BAJPVASUNDHARA12",
+      "name": "Fulmati",
+      "village": "Bajpur Bankati",
+      "activeAcres": 0.6,
+      "convertedBighas": 0.96,
+      "baselineBighas": 2,
+      "deviationPct": 52
+    },
+    {
+      "id": "BAJPPUSHPA12",
+      "name": "Ram Pyari",
+      "village": "Bajpur Bankati",
+      "activeAcres": 0.6,
+      "convertedBighas": 0.96,
+      "baselineBighas": 2,
+      "deviationPct": 52
+    },
+    {
+      "id": "FAKIPRATIBHA17",
+      "name": "Surjani",
+      "village": "Fakirpuri",
+      "activeAcres": 0.6,
+      "convertedBighas": 0.96,
+      "baselineBighas": 2,
+      "deviationPct": 52
+    },
+    {
+      "id": "KAILDURGA12",
+      "name": "Sudhara Devi",
+      "village": "Kailash Nagar",
+      "activeAcres": 0.3,
+      "convertedBighas": 0.48,
+      "baselineBighas": 1,
+      "deviationPct": 52
+    },
+    {
+      "id": "VISHMOHANI6",
+      "name": "Ketki",
+      "village": "Vishuntanda",
+      "activeAcres": 0.6,
+      "convertedBighas": 0.96,
+      "baselineBighas": 2,
+      "deviationPct": 52
+    },
+    {
+      "id": "HAJAMAHIMA12",
+      "name": "Rambeti",
+      "village": "Hajaripurwa",
+      "activeAcres": 0.3,
+      "convertedBighas": 0.48,
+      "baselineBighas": 1,
+      "deviationPct": 52
+    },
+    {
+      "id": "RAJAARTI15",
+      "name": "Preetma Devi",
+      "village": "Rajaram Tanda",
+      "activeAcres": 0.6,
+      "convertedBighas": 0.96,
+      "baselineBighas": 2,
+      "deviationPct": 52
+    },
+    {
+      "id": "HAJAMEERA12",
+      "name": "Shanti",
+      "village": "Hajaripurwa",
+      "activeAcres": 0.6,
+      "convertedBighas": 0.96,
+      "baselineBighas": 2,
+      "deviationPct": 52
+    },
+    {
+      "id": "RAJAJAISHREERAM5",
+      "name": "Sunita Devi",
+      "village": "Rajaram Tanda",
+      "activeAcres": 0.6,
+      "convertedBighas": 0.96,
+      "baselineBighas": 2,
+      "deviationPct": 52
+    },
+    {
+      "id": "HAJAGANGA12",
+      "name": "Shanti",
+      "village": "Hajaripurwa",
+      "activeAcres": 0.6,
+      "convertedBighas": 0.96,
+      "baselineBighas": 2,
+      "deviationPct": 52
+    },
+    {
+      "id": "BAJPDURGA17",
+      "name": "Shanti Devi",
+      "village": "Bajpur Bankati",
+      "activeAcres": 0.8,
+      "convertedBighas": 1.28,
+      "baselineBighas": 2.5,
+      "deviationPct": 48.8
+    },
+    {
+      "id": "FAKIAASHA2",
+      "name": "Shanti Devi",
+      "village": "Fakirpuri",
+      "activeAcres": 0.8,
+      "convertedBighas": 1.28,
+      "baselineBighas": 2.5,
+      "deviationPct": 48.8
+    },
+    {
+      "id": "FAKIPRATIBHA10",
+      "name": "Shanti Devi",
+      "village": "Fakirpuri",
+      "activeAcres": 0.8,
+      "convertedBighas": 1.28,
+      "baselineBighas": 2.5,
+      "deviationPct": 48.8
+    },
+    {
+      "id": "NARAGANGA4",
+      "name": "Pooja Devi",
+      "village": "Narayan Tanda",
+      "activeAcres": 0.16,
+      "convertedBighas": 0.26,
+      "baselineBighas": 0.5,
+      "deviationPct": 48.8
+    },
+    {
+      "id": "HAJASUSHEELA7",
+      "name": "Rivla",
+      "village": "Hajaripurwa",
+      "activeAcres": 0.32,
+      "convertedBighas": 0.51,
+      "baselineBighas": 1,
+      "deviationPct": 48.8
+    },
+    {
+      "id": "BAJPDURGA1",
+      "name": "Shanti Devi",
+      "village": "Bajpur Bankati",
+      "activeAcres": 0.81,
+      "convertedBighas": 1.3,
+      "baselineBighas": 2.5,
+      "deviationPct": 48.2
+    },
+    {
+      "id": "BHODSHRIVAISHNODEVI9",
+      "name": "Geeta Devi",
+      "village": "Bhodahanpurwa",
+      "activeAcres": 0.99,
+      "convertedBighas": 1.58,
+      "baselineBighas": 3,
+      "deviationPct": 47.2
+    },
+    {
+      "id": "VISHJAIMAVAISHNO1",
+      "name": "Surajwanshi",
+      "village": "Vishunapur",
+      "activeAcres": 4,
+      "convertedBighas": 6.4,
+      "baselineBighas": 12,
+      "deviationPct": 46.7
+    },
+    {
+      "id": "VISHGAYTRI7",
+      "name": "Jagatrani",
+      "village": "Vishunapur",
+      "activeAcres": 1,
+      "convertedBighas": 1.6,
+      "baselineBighas": 3,
+      "deviationPct": 46.7
+    },
+    {
+      "id": "BHODSHRIVAISHNODEVI7",
+      "name": "Radha Devi",
+      "village": "Bhodahanpurwa",
+      "activeAcres": 0.7,
+      "convertedBighas": 1.12,
+      "baselineBighas": 2,
+      "deviationPct": 44
+    },
+    {
+      "id": "HAJAMAHIMA9",
+      "name": "Munni Devi",
+      "village": "Hajaripurwa",
+      "activeAcres": 1.4,
+      "convertedBighas": 2.24,
+      "baselineBighas": 4,
+      "deviationPct": 44
+    },
+    {
+      "id": "HAJAMEERA7",
+      "name": "Keshpati",
+      "village": "Hajaripurwa",
+      "activeAcres": 0.45,
+      "convertedBighas": 0.72,
+      "baselineBighas": 0.5,
+      "deviationPct": 44
+    },
+    {
+      "id": "VISHUJALA14",
+      "name": "Ramkali",
+      "village": "Vishunapur",
+      "activeAcres": 1.1,
+      "convertedBighas": 1.76,
+      "baselineBighas": 3,
+      "deviationPct": 41.3
+    },
+    {
+      "id": "DHODJYOTI7",
+      "name": "Roopa Devi",
+      "village": "Dhodhepurwa",
+      "activeAcres": 0.2,
+      "convertedBighas": 0.32,
+      "baselineBighas": 0.5,
+      "deviationPct": 36
+    },
+    {
+      "id": "BAJPDURGA4",
+      "name": "Holi",
+      "village": "Bajpur Bankati",
+      "activeAcres": 2,
+      "convertedBighas": 3.2,
+      "baselineBighas": 5,
+      "deviationPct": 36
+    },
+    {
+      "id": "FAKIRANI16",
+      "name": "Radha Rani",
+      "village": "Fakirpuri",
+      "activeAcres": 0.6,
+      "convertedBighas": 0.96,
+      "baselineBighas": 1.5,
+      "deviationPct": 36
+    },
+    {
+      "id": "KAILDURGA11",
+      "name": "Ramawati",
+      "village": "Kailash Nagar",
+      "activeAcres": 0.4,
+      "convertedBighas": 0.64,
+      "baselineBighas": 1,
+      "deviationPct": 36
+    },
+    {
+      "id": "KAILDURGA14",
+      "name": "Juganti Devi",
+      "village": "Kailash Nagar",
+      "activeAcres": 1,
+      "convertedBighas": 1.6,
+      "baselineBighas": 2.5,
+      "deviationPct": 36
+    },
+    {
+      "id": "NARAJAMUNA13",
+      "name": "Kalawati",
+      "village": "Narayan Tanda",
+      "activeAcres": 0.4,
+      "convertedBighas": 0.64,
+      "baselineBighas": 1,
+      "deviationPct": 36
+    },
+    {
+      "id": "NARAKRISHNA16",
+      "name": "Kalawati",
+      "village": "Narayan Tanda",
+      "activeAcres": 0.4,
+      "convertedBighas": 0.64,
+      "baselineBighas": 1,
+      "deviationPct": 36
+    },
+    {
+      "id": "RAJAKRISHNA7",
+      "name": "Shanti Devi",
+      "village": "Rajaram Tanda",
+      "activeAcres": 0.8,
+      "convertedBighas": 1.28,
+      "baselineBighas": 2,
+      "deviationPct": 36
+    },
+    {
+      "id": "RAJAARTI14",
+      "name": "Ramdulari",
+      "village": "Rajaram Tanda",
+      "activeAcres": 0.4,
+      "convertedBighas": 0.64,
+      "baselineBighas": 1,
+      "deviationPct": 36
+    },
+    {
+      "id": "RAJAJAIMAKALI17",
+      "name": "Kanti Devi",
+      "village": "Rajaram Tanda",
+      "activeAcres": 0.8,
+      "convertedBighas": 1.28,
+      "baselineBighas": 2,
+      "deviationPct": 36
+    },
+    {
+      "id": "RAJAJAIMASANTOSHI13",
+      "name": "Shiv Prakash",
+      "village": "Rajaram Tanda",
+      "activeAcres": 0.4,
+      "convertedBighas": 0.64,
+      "baselineBighas": 1,
+      "deviationPct": 36
+    },
+    {
+      "id": "RAJAJAISHREERAM10",
+      "name": "Kanti Devi",
+      "village": "Rajaram Tanda",
+      "activeAcres": 0.8,
+      "convertedBighas": 1.28,
+      "baselineBighas": 2,
+      "deviationPct": 36
+    },
+    {
+      "id": "HAJASUSHEELA14",
+      "name": "Sajan",
+      "village": "Hajaripurwa",
+      "activeAcres": 0.4,
+      "convertedBighas": 0.64,
+      "baselineBighas": 1,
+      "deviationPct": 36
+    },
+    {
+      "id": "VISHDRISHTI3",
+      "name": "Samjhna Kumari",
+      "village": "Vishunapur",
+      "activeAcres": 3,
+      "convertedBighas": 4.8,
+      "baselineBighas": 7,
+      "deviationPct": 31.4
+    },
+    {
+      "id": "NARAKRISHNA10",
+      "name": "Manti Devi",
+      "village": "Narayan Tanda",
+      "activeAcres": 0.8,
+      "convertedBighas": 1.28,
+      "baselineBighas": 1,
+      "deviationPct": 28
+    },
+    {
+      "id": "RAJASURAJ9",
+      "name": "Muneesha",
+      "village": "Rajaram Tanda",
+      "activeAcres": 0.46,
+      "convertedBighas": 0.74,
+      "baselineBighas": 1,
+      "deviationPct": 26.4
+    },
+    {
+      "id": "BAJPRADHA13",
+      "name": "Radha Devi",
+      "village": "Bajpur Bankati",
+      "activeAcres": 0.7,
+      "convertedBighas": 1.12,
+      "baselineBighas": 1.5,
+      "deviationPct": 25.3
     }
   ]
 }
