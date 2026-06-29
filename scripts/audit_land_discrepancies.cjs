@@ -1,8 +1,7 @@
 /**
  * audit_land_discrepancies.cjs
- * Audits the 600 matched active farmers to verify land size reporting consistency
- * (Acres vs. Bigha). Flags discrepancies where converted active acres deviate >20%
- * from baseline bigha records.
+ * Audits the 600 matched active farmers to verify land size reporting consistency (both in Acres).
+ * Flags discrepancies where active acres deviate >20% from baseline acres records.
  */
 const fs = require('fs');
 const path = require('path');
@@ -16,7 +15,6 @@ const farmers = JSON.parse(fs.readFileSync(farmersPath, 'utf8'));
 const matchedFarmers = farmers.filter(f => f.matched === true);
 const totalAudited = matchedFarmers.length;
 
-const BIGHAS_PER_ACRE = 1.6; // Regional standard for Eastern UP
 const DEVIATION_THRESHOLD = 0.2; // 20%
 
 const outliers = [];
@@ -25,11 +23,10 @@ matchedFarmers.forEach(f => {
     const activeAcres = parseFloat(f.totalLand);
     if (isNaN(activeAcres) || activeAcres <= 0) return; // Skip if no valid active land
 
-    const baselineBighas = (f.baselineCultivableLandBigha || 0) + (f.baselineLeaseLandBigha || 0);
-    if (baselineBighas <= 0) return; // Skip if no baseline land to compare
+    const baselineAcres = (f.baselineCultivableLandAcres || 0) + (f.baselineLeaseLandAcres || 0);
+    if (baselineAcres <= 0) return; // Skip if no baseline land to compare
 
-    const convertedBighas = activeAcres * BIGHAS_PER_ACRE;
-    const deviationPct = Math.abs(convertedBighas - baselineBighas) / baselineBighas * 100;
+    const deviationPct = Math.abs(activeAcres - baselineAcres) / baselineAcres * 100;
 
     if (deviationPct > DEVIATION_THRESHOLD * 100) {
         outliers.push({
@@ -37,8 +34,7 @@ matchedFarmers.forEach(f => {
             name: f.name,
             village: f.village,
             activeAcres: parseFloat(activeAcres.toFixed(2)),
-            convertedBighas: parseFloat(convertedBighas.toFixed(2)),
-            baselineBighas: parseFloat(baselineBighas.toFixed(1)),
+            baselineAcres: parseFloat(baselineAcres.toFixed(2)),
             deviationPct: parseFloat(deviationPct.toFixed(1))
         });
     }

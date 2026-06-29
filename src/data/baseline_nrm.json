@@ -159,7 +159,7 @@
       },
       {
         "code": "8",
-        "label": "Total Cultivable Land (Bigha)",
+        "label": "Total Cultivable Land (Acres)",
         "rawLabel": "Total cultivable land",
         "value": 5869,
         "unit": "Beegha",
@@ -167,7 +167,7 @@
       },
       {
         "code": "8.1",
-        "label": "Avg Land per Family (Bigha)",
+        "label": "Avg Land per Family (Acres)",
         "rawLabel": "Average land per family",
         "value": 2.85,
         "unit": "Beegha",
@@ -247,7 +247,7 @@
       },
       {
         "code": "10.3",
-        "label": "Avg Cost per Bigha (INR)",
+        "label": "Avg Cost per Acre (INR)",
         "rawLabel": "Average cost per bigha",
         "value": 37468.44,
         "unit": "INR.",
@@ -255,7 +255,7 @@
       },
       {
         "code": "10.4",
-        "label": "Avg Income per Bigha (INR)",
+        "label": "Avg Income per Acre (INR)",
         "rawLabel": "Average income per bigha",
         "value": 63355.37,
         "unit": "INR.",
@@ -271,7 +271,7 @@
       },
       {
         "code": "10.6",
-        "label": "Avg Fertilizer per Bigha (Kgs)",
+        "label": "Avg Fertilizer per Acre (Kgs)",
         "rawLabel": "Average use of fertilizer per bigha",
         "value": 31.47,
         "unit": "Kgs",
@@ -609,7 +609,7 @@
       },
       {
         "code": "8",
-        "label": "Total Cultivable Land (Bigha)",
+        "label": "Total Cultivable Land (Acres)",
         "rawLabel": "total cultivable land",
         "value": 113,
         "unit": "Beegha",
@@ -617,7 +617,7 @@
       },
       {
         "code": "8.1",
-        "label": "Avg Land per Family (Bigha)",
+        "label": "Avg Land per Family (Acres)",
         "rawLabel": "Average land per family",
         "value": 2.4,
         "unit": "Beegha",
@@ -697,7 +697,7 @@
       },
       {
         "code": "10.3",
-        "label": "Avg Cost per Bigha (INR)",
+        "label": "Avg Cost per Acre (INR)",
         "rawLabel": "Average cost per bigha per family",
         "value": 7716.81,
         "unit": "INR.",
@@ -705,7 +705,7 @@
       },
       {
         "code": "10.4",
-        "label": "Avg Income per Bigha (INR)",
+        "label": "Avg Income per Acre (INR)",
         "rawLabel": "Average income per bigha per family",
         "value": 12292.04,
         "unit": "INR.",
@@ -721,7 +721,7 @@
       },
       {
         "code": "10.6",
-        "label": "Avg Fertilizer per Bigha (Kgs)",
+        "label": "Avg Fertilizer per Acre (Kgs)",
         "rawLabel": "Average use of fertilizer per bigha per family",
         "value": 31.06,
         "unit": "Kgs",
@@ -1059,7 +1059,7 @@
       },
       {
         "code": "8",
-        "label": "Total Cultivable Land (Bigha)",
+        "label": "Total Cultivable Land (Acres)",
         "rawLabel": "total cultivable land",
         "value": 268,
         "unit": "Beegha",
@@ -1067,7 +1067,7 @@
       },
       {
         "code": "8.1",
-        "label": "Avg Land per Family (Bigha)",
+        "label": "Avg Land per Family (Acres)",
         "rawLabel": "Average land per family",
         "value": 1.96,
         "unit": "Beegha",
@@ -1147,7 +1147,7 @@
       },
       {
         "code": "10.3",
-        "label": "Avg Cost per Bigha (INR)",
+        "label": "Avg Cost per Acre (INR)",
         "rawLabel": "Average cost per bigha per family",
         "value": 8058.21,
         "unit": "INR.",
@@ -1155,7 +1155,7 @@
       },
       {
         "code": "10.4",
-        "label": "Avg Income per Bigha (INR)",
+        "label": "Avg Income per Acre (INR)",
         "rawLabel": "Average income per bigha per family",
         "value": 12495.52,
         "unit": "INR.",
@@ -1171,7 +1171,7 @@
       },
       {
         "code": "10.6",
-        "label": "Avg Fertilizer per Bigha (Kgs)",
+        "label": "Avg Fertilizer per Acre (Kgs)",
         "rawLabel": "Average use of fertilizer per bigha per family",
         "value": 30.45,
         "unit": "Kgs",
@@ -1517,7 +1517,7 @@
       },
       {
         "code": "8",
-        "label": "Total Cultivable Land (Bigha)",
+        "label": "Total Cultivable Land (Acres)",
         "rawLabel": "total cultivable land",
         "value": 900,
         "unit": "Beegha",
@@ -1525,7 +1525,7 @@
       },
       {
         "code": "8.1",
-        "label": "Avg Land per Family (Bigha)",
+        "label": "Avg Land per Family (Acres)",
         "rawLabel": "Average land per family",
         "value": 1.94,
         "unit": "Beegha",
@@ -1605,7 +1605,7 @@
       },
       {
         "code": "10.3",
-        "label": "Avg Cost per Bigha (INR)",
+        "label": "Avg Cost per Acre (INR)",
         "rawLabel": "Average cost per bigha per family",
         "value": 3993.56,
         "unit": "INR.",
@@ -1613,7 +1613,7 @@
       },
       {
         "code": "10.4",
-        "label": "Avg Income per Bigha (INR)",
+        "label": "Avg Income per Acre (INR)",
         "rawLabel": "Average income per bigha per family",
         "value": 6477.56,
         "unit": "INR.",
@@ -1629,7 +1629,7 @@
       },
       {
         "code": "10.6",
-        "label": "Avg Fertilizer per Bigha (Kgs)",
+        "label": "Avg Fertilizer per Acre (Kgs)",
         "rawLabel": "Average use of fertilizer per bigha per family",
         "value": 38.19,
         "unit": "Kgs",
@@ -1975,7 +1975,7 @@
       },
       {
         "code": "8",
-        "label": "Total Cultivable Land (Bigha)",
+        "label": "Total Cultivable Land (Acres)",
         "rawLabel": "total cultivable land",
         "value": 1849,
         "unit": "Beegha",
@@ -1983,7 +1983,7 @@
       },
       {
         "code": "8.1",
-        "label": "Avg Land per Family (Bigha)",
+        "label": "Avg Land per Family (Acres)",
         "rawLabel": "Average land per family",
         "value": 4.51,
         "unit": "Beegha",
@@ -2063,7 +2063,7 @@
       },
       {
         "code": "10.3",
-        "label": "Avg Cost per Bigha (INR)",
+        "label": "Avg Cost per Acre (INR)",
         "rawLabel": "Average cost per bigha per family",
         "value": 6936.45,
         "unit": "INR.",
@@ -2071,7 +2071,7 @@
       },
       {
         "code": "10.4",
-        "label": "Avg Income per Bigha (INR)",
+        "label": "Avg Income per Acre (INR)",
         "rawLabel": "Average income per bigha per family",
         "value": 12225.91,
         "unit": "INR.",
@@ -2087,7 +2087,7 @@
       },
       {
         "code": "10.6",
-        "label": "Avg Fertilizer per Bigha (Kgs)",
+        "label": "Avg Fertilizer per Acre (Kgs)",
         "rawLabel": "Average use of fertilizer per bigha per family",
         "value": 31.11,
         "unit": "Kgs",
@@ -2433,7 +2433,7 @@
       },
       {
         "code": "8",
-        "label": "Total Cultivable Land (Bigha)",
+        "label": "Total Cultivable Land (Acres)",
         "rawLabel": "total cultivable land",
         "value": 1659,
         "unit": "Beegha",
@@ -2441,7 +2441,7 @@
       },
       {
         "code": "8.1",
-        "label": "Avg Land per Family (Bigha)",
+        "label": "Avg Land per Family (Acres)",
         "rawLabel": "Average land per family",
         "value": 2.08,
         "unit": "Beegha",
@@ -2521,7 +2521,7 @@
       },
       {
         "code": "10.3",
-        "label": "Avg Cost per Bigha (INR)",
+        "label": "Avg Cost per Acre (INR)",
         "rawLabel": "Average cost per bigha per family",
         "value": 6075.17,
         "unit": "INR.",
@@ -2529,7 +2529,7 @@
       },
       {
         "code": "10.4",
-        "label": "Avg Income per Bigha (INR)",
+        "label": "Avg Income per Acre (INR)",
         "rawLabel": "Average income per bigha per family",
         "value": 11278.24,
         "unit": "INR.",
@@ -2545,7 +2545,7 @@
       },
       {
         "code": "10.6",
-        "label": "Avg Fertilizer per Bigha (Kgs)",
+        "label": "Avg Fertilizer per Acre (Kgs)",
         "rawLabel": "Average use of fertilizer per bigha per family",
         "value": 36.28,
         "unit": "Kgs.",
@@ -2891,7 +2891,7 @@
       },
       {
         "code": "8",
-        "label": "Total Cultivable Land (Bigha)",
+        "label": "Total Cultivable Land (Acres)",
         "rawLabel": "total cultivable land",
         "value": 1080,
         "unit": "Beegha",
@@ -2899,7 +2899,7 @@
       },
       {
         "code": "8.1",
-        "label": "Avg Land per Family (Bigha)",
+        "label": "Avg Land per Family (Acres)",
         "rawLabel": "Average land per family",
         "value": 5.27,
         "unit": "Beegha",
@@ -2979,7 +2979,7 @@
       },
       {
         "code": "10.3",
-        "label": "Avg Cost per Bigha (INR)",
+        "label": "Avg Cost per Acre (INR)",
         "rawLabel": "Average cost per bigha per family",
         "value": 4688.24,
         "unit": "INR.",
@@ -2987,7 +2987,7 @@
       },
       {
         "code": "10.4",
-        "label": "Avg Income per Bigha (INR)",
+        "label": "Avg Income per Acre (INR)",
         "rawLabel": "Average income per bigha per family",
         "value": 8586.11,
         "unit": "INR.",
@@ -3003,7 +3003,7 @@
       },
       {
         "code": "10.6",
-        "label": "Avg Fertilizer per Bigha (Kgs)",
+        "label": "Avg Fertilizer per Acre (Kgs)",
         "rawLabel": "Average use of fertilizer per bigha per family",
         "value": 19.39,
         "unit": "Kgs",

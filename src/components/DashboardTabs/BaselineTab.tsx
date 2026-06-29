@@ -15,12 +15,12 @@ interface GPComparisonRow {
   households: number;
   femaleFarmerPct: number;
   singleWomenCount: number;
-  cultivableLandBigha: number;
-  avgLandPerFamilyBigha: number;
+  cultivableLandAcres: number;
+  avgLandPerFamilyAcres: number;
   landlessFamiliesPct: number;
   totalAgriIncome: number;
   totalNetAgriIncome: number;
-  avgIncomePerBigha: number;
+  avgIncomePerAcre: number;
   toiletPct: number;
   bankAccountPct: number;
   govtSchemePct: number;
@@ -103,8 +103,8 @@ export function BaselineTab() {
         'Net Agri Income (L)': parseFloat((gp.totalNetAgriIncome / 100000).toFixed(2)),
         'Agri Income (L)': parseFloat((gp.totalAgriIncome / 100000).toFixed(2)),
       } : activeMetric === 'land' ? {
-        'Cultivable Land (Bigha)': gp.cultivableLandBigha,
-        'Avg/Family (Bigha)': parseFloat(gp.avgLandPerFamilyBigha.toFixed(2)),
+        'Cultivable Land (Acres)': gp.cultivableLandAcres,
+        'Avg/Family (Acres)': parseFloat(gp.avgLandPerFamilyAcres.toFixed(2)),
       } : {
         'Bank Account (%)': gp.bankAccountPct,
         'Govt Scheme (%)': gp.govtSchemePct,
@@ -399,7 +399,7 @@ export function BaselineTab() {
                 </span>
               </div>
               <p className="text-xs text-slate-500 mb-4 leading-relaxed">
-                Active registries are reported in Acres, while Baseline surveys recorded land in regional Bighas. We cross-verify these entries using a local conversion factor (1 Acre = 1.6 Bigha). The outliers below show deviations &gt;20%, requiring immediate field verification.
+                Both active registry and baseline land are normalized and stored in Acres. The outliers below show deviations &gt;20%, requiring immediate field verification.
               </p>
 
               <div className="overflow-x-auto">
@@ -409,7 +409,7 @@ export function BaselineTab() {
                       <th className="py-2 pr-2 font-semibold">Farmer ID</th>
                       <th className="py-2 px-2 font-semibold">Name</th>
                       <th className="py-2 px-2 font-semibold text-right">Active (Acres)</th>
-                      <th className="py-2 px-2 font-semibold text-right">Baseline (Bighas)</th>
+                      <th className="py-2 px-2 font-semibold text-right">Baseline (Acres)</th>
                       <th className="py-2 pl-2 font-semibold text-right">Deviation</th>
                     </tr>
                   </thead>
@@ -419,7 +419,7 @@ export function BaselineTab() {
                         <td className="py-2 pr-2 font-mono text-slate-500 text-[10px]">{outlier.id}</td>
                         <td className="py-2 px-2 text-slate-700">{outlier.name}</td>
                         <td className="py-2 px-2 text-right text-slate-600">{outlier.activeAcres} ac</td>
-                        <td className="py-2 px-2 text-right text-slate-600">{outlier.baselineBighas} bigha</td>
+                        <td className="py-2 px-2 text-right text-slate-600">{outlier.baselineAcres} ac</td>
                         <td className="py-2 pl-2 text-right text-rose-600 font-bold">{outlier.deviationPct}%</td>
                       </tr>
                     ))}
@@ -515,8 +515,8 @@ export function BaselineTab() {
                 <Bar dataKey="Net Agri Income (L)" fill="#10b981" radius={[4,4,0,0]} />
               </>}
               {activeMetric === 'land' && <>
-                <Bar dataKey="Cultivable Land (Bigha)" fill="#bfdbfe" radius={[4,4,0,0]} />
-                <Bar dataKey="Avg/Family (Bigha)" fill="#3b82f6" radius={[4,4,0,0]} />
+                <Bar dataKey="Cultivable Land (Acres)" fill="#bfdbfe" radius={[4,4,0,0]} />
+                <Bar dataKey="Avg/Family (Acres)" fill="#3b82f6" radius={[4,4,0,0]} />
               </>}
               {activeMetric === 'social' && <>
                 <Bar dataKey="Bank Account (%)" fill="#c4b5fd" radius={[4,4,0,0]} />
@@ -598,10 +598,10 @@ export function BaselineTab() {
                     <h4 className="text-[11px] font-bold text-slate-600 uppercase tracking-wider">Full Baseline Profile</h4>
                     <div className="grid grid-cols-2 gap-2">
                       {[
-                        { label: 'Cultivable Land', value: `${gp.cultivableLandBigha.toLocaleString('en-IN')} bigha` },
-                        { label: 'Avg Land/Family', value: `${gp.avgLandPerFamilyBigha.toFixed(2)} bigha` },
+                        { label: 'Cultivable Land', value: `${gp.cultivableLandAcres.toLocaleString('en-IN')} ac` },
+                        { label: 'Avg Land/Family', value: `${gp.avgLandPerFamilyAcres.toFixed(2)} ac` },
                         { label: 'Landless Families', value: `${gp.landlessFamiliesPct.toFixed(1)}%` },
-                        { label: 'Avg Income/Bigha', value: fmtLakhs(gp.avgIncomePerBigha) },
+                        { label: 'Avg Income/Acre', value: fmtLakhs(gp.avgIncomePerAcre) },
                         { label: 'Single Women', value: gp.singleWomenCount },
                         { label: 'Bank Account', value: `${gp.bankAccountPct.toFixed(1)}%` },
                         { label: 'AAS Membership', value: `${gp.aasMembershipPct.toFixed(1)}%` },
@@ -631,10 +631,10 @@ export function BaselineTab() {
                 <th className="text-left py-2.5 pr-4 font-semibold">Gram Panchayat</th>
                 <th className="text-right py-2.5 px-3 font-semibold">HH</th>
                 <th className="text-right py-2.5 px-3 font-semibold">Female %</th>
-                <th className="text-right py-2.5 px-3 font-semibold">Land (bigha)</th>
+                <th className="text-right py-2.5 px-3 font-semibold">Land (acres)</th>
                 <th className="text-right py-2.5 px-3 font-semibold">Agri Income</th>
                 <th className="text-right py-2.5 px-3 font-semibold">Net Income</th>
-                <th className="text-right py-2.5 px-3 font-semibold">Inc/Bigha</th>
+                <th className="text-right py-2.5 px-3 font-semibold">Inc/Acre</th>
                 <th className="text-right py-2.5 px-3 font-semibold">Bank A/C</th>
                 <th className="text-right py-2.5 px-3 font-semibold">Govnt Scheme</th>
                 <th className="text-right py-2.5 pl-3 font-semibold">Toilet</th>
@@ -659,10 +659,10 @@ export function BaselineTab() {
                       {gp.femaleFarmerPct.toFixed(1)}%
                     </span>
                   </td>
-                  <td className="py-3 px-3 text-right font-mono text-slate-600">{gp.cultivableLandBigha.toLocaleString('en-IN')}</td>
+                  <td className="py-3 px-3 text-right font-mono text-slate-600">{gp.cultivableLandAcres.toLocaleString('en-IN')}</td>
                   <td className="py-3 px-3 text-right font-mono text-slate-700">{fmtLakhs(gp.totalAgriIncome)}</td>
                   <td className="py-3 px-3 text-right font-mono font-bold text-slate-800">{fmtLakhs(gp.totalNetAgriIncome)}</td>
-                  <td className="py-3 px-3 text-right font-mono text-emerald-600">{fmtLakhs(gp.avgIncomePerBigha)}</td>
+                  <td className="py-3 px-3 text-right font-mono text-emerald-600">{fmtLakhs(gp.avgIncomePerAcre)}</td>
                   <td className="py-3 px-3 text-right">
                     <span className={`px-1.5 py-0.5 rounded font-bold text-[10px] ${gp.bankAccountPct >= 95 ? 'bg-emerald-50 text-emerald-700' : 'bg-amber-50 text-amber-700'}`}>
                       {gp.bankAccountPct.toFixed(0)}%
@@ -687,7 +687,7 @@ export function BaselineTab() {
                 <td className="py-3 pr-4 font-bold text-slate-800">All 6 GPs (Aggregate)</td>
                 <td className="py-3 px-3 text-right font-bold font-mono text-slate-800">{aggregateMetrics.totalHouseholds.toLocaleString('en-IN')}</td>
                 <td className="py-3 px-3 text-right font-bold text-emerald-700">{aggregateMetrics.femaleFarmerPct.toFixed(1)}%</td>
-                <td className="py-3 px-3 text-right font-mono font-bold text-slate-700">{gpComparison.reduce((s, g) => s + g.cultivableLandBigha, 0).toLocaleString('en-IN')}</td>
+                <td className="py-3 px-3 text-right font-mono font-bold text-slate-700">{gpComparison.reduce((s, g) => s + g.cultivableLandAcres, 0).toLocaleString('en-IN')}</td>
                 <td className="py-3 px-3 text-right font-mono font-bold text-slate-700">{fmtLakhs(aggregateMetrics.totalAgriIncomeRs)}</td>
                 <td className="py-3 px-3 text-right font-mono font-bold text-slate-800">{fmtLakhs(aggregateMetrics.totalNetAgriIncomeRs)}</td>
                 <td className="py-3 px-3 text-right font-mono font-bold text-emerald-600">—</td>

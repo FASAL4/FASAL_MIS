@@ -60,7 +60,8 @@ baselineRaw.slice(2).forEach(row => {
     eShram: String(row[colMap['E-Shram'] || 21]).trim() !== '' && String(row[colMap['E-Shram'] || 21]).trim() !== '0',
     bankAccount: String(row[colMap['Bank Account Status'] || 26]).trim().toLowerCase() === 'yes' || String(row[colMap['Bank Account Status'] || 26]).trim() === '1',
     shgMember: String(row[colMap['Associated with  group '] || 29]).trim() !== '' && String(row[colMap['Associated with  group '] || 29]).trim().toLowerCase() !== 'no',
-    cultivableLandBigha: Number(row[colMap['Cultivable land (in bigha)'] || 53]) || 0,
+    cultivableLandAcres: parseFloat((Number(row[colMap['Cultivable land (in bigha)'] || 53]) / 1.6).toFixed(2)) || 0,
+    leaseLandAcres: parseFloat((Number(row[colMap['land taken on lease (in bigha)'] || 54]) / 1.6).toFixed(2)) || 0,
     annualExpFarmingRs: Number(row[colMap['Annual Expenditure on Farming (in Rs.)'] || 59]) || 0,
     annualIncFarmingRs: Number(row[colMap['Annual income on Farming (in Rs.)'] || 60]) || 0,
     baselineNetIncomeRs: Number(row[colMap['Gross Income'] || 61]) || 0,
@@ -116,7 +117,8 @@ const enrichedFarmers = farmers.map(f => {
       eShram: bestMatch.eShram,
       bankAccount: bestMatch.bankAccount,
       shgMember: bestMatch.shgMember,
-      baselineCultivableLandBigha: bestMatch.cultivableLandBigha,
+      baselineCultivableLandAcres: bestMatch.cultivableLandAcres,
+      baselineLeaseLandAcres: bestMatch.leaseLandAcres,
       baselineAnnualExpFarmingRs: bestMatch.annualExpFarmingRs,
       baselineAnnualIncFarmingRs: bestMatch.annualIncFarmingRs,
       baselineNetIncomeRs: bestMatch.baselineNetIncomeRs,
@@ -152,7 +154,7 @@ const triangulationSummary = {
       return acc;
     }, {}),
   landlessCountMatched: enrichedFarmers
-    .filter(f => f.matched && f.baselineCultivableLandBigha === 0).length
+    .filter(f => f.matched && f.baselineCultivableLandAcres === 0).length
 };
 
 fs.writeFileSync(

@@ -49,13 +49,13 @@ households.forEach(hh => {
   // 2. Economics by Caste
   if (category !== 'Unknown') {
     demographics.economicsByCaste[category].count++;
-    demographics.economicsByCaste[category].totalLand += hh.cultivableLandBigha || 0;
+    demographics.economicsByCaste[category].totalLand += hh.cultivableLandAcres || 0;
     demographics.economicsByCaste[category].totalAgriIncome += hh.annualIncFarmingRs || 0;
   }
 
   // 3. Vulnerability Intersections
   const isSingleWoman = hh.gender === 'F' && ['Widow', 'Separated', 'Single', 'Unmarried', 'Leaving from each other'].includes(hh.maritalStatus);
-  const isLandless = hh.cultivableLandBigha === 0;
+  const isLandless = hh.cultivableLandAcres === 0;
   const isScSt = category === 'SC' || category === 'ST';
 
   if (isLandless) demographics.vulnerability.totalLandless++;
@@ -77,10 +77,10 @@ households.forEach(hh => {
 Object.keys(demographics.economicsByCaste).forEach(cat => {
   const data = demographics.economicsByCaste[cat];
   if (data.count > 0) {
-    data.avgLandBigha = parseFloat((data.totalLand / data.count).toFixed(2));
+    data.avgLandAcres = parseFloat((data.totalLand / data.count).toFixed(2));
     data.avgAgriIncomeRs = Math.round(data.totalAgriIncome / data.count);
   } else {
-    data.avgLandBigha = 0;
+    data.avgLandAcres = 0;
     data.avgAgriIncomeRs = 0;
   }
 });

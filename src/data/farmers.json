@@ -46,7 +46,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "DHODEKTA4",
@@ -75,7 +77,9 @@
     "baselineNetIncomeRs": 24000,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 1.88,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "DHODEKTA5",
@@ -114,7 +118,9 @@
     "baselineNetIncomeRs": 10000,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 1.25
   },
   {
     "id": "DHODEKTA7",
@@ -143,7 +149,9 @@
     "baselineNetIncomeRs": 26000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 21000
+    "migrationNetIncomeRs": 21000,
+    "baselineCultivableLandAcres": 2.5,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "DHODEKTA8",
@@ -172,7 +180,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "DHODEKTA9",
@@ -201,7 +211,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 6000
+    "migrationNetIncomeRs": 6000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "DHODEKTA10",
@@ -240,7 +252,9 @@
     "baselineNetIncomeRs": 22000,
     "hasToilet": true,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 2.5
   },
   {
     "id": "DHODEKTA12",
@@ -279,7 +293,9 @@
     "baselineNetIncomeRs": 50000,
     "hasToilet": true,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 4.38,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "DHODEKTA14",
@@ -308,7 +324,9 @@
     "baselineNetIncomeRs": 15000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 10000
+    "migrationNetIncomeRs": 10000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 1.25
   },
   {
     "id": "DHODEKTA15",
@@ -347,7 +365,9 @@
     "baselineNetIncomeRs": 18000,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 3.13,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "DHODLAXMI1",
@@ -386,7 +406,9 @@
     "baselineNetIncomeRs": 10000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 50000
+    "migrationNetIncomeRs": 50000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 1.25
   },
   {
     "id": "DHODLAXMI3",
@@ -425,7 +447,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 6000
+    "migrationNetIncomeRs": 6000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "DHODLAXMI5",
@@ -454,7 +478,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 46000
+    "migrationNetIncomeRs": 46000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "DHODLAXMI6",
@@ -483,7 +509,9 @@
     "baselineNetIncomeRs": 3000,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "DHODLAXMI7",
@@ -512,7 +540,9 @@
     "baselineNetIncomeRs": 7500,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 48000
+    "migrationNetIncomeRs": 48000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0.63
   },
   {
     "id": "DHODLAXMI8",
@@ -541,7 +571,9 @@
     "baselineNetIncomeRs": 13000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 25000
+    "migrationNetIncomeRs": 25000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 1.25
   },
   {
     "id": "DHODLAXMI9",
@@ -570,7 +602,9 @@
     "baselineNetIncomeRs": 15000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 10000
+    "migrationNetIncomeRs": 10000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 1.25
   },
   {
     "id": "DHODLAXMI10",
@@ -599,7 +633,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 40000
+    "migrationNetIncomeRs": 40000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "DHODLAXMI11",
@@ -628,7 +664,9 @@
     "baselineNetIncomeRs": 9000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 40000
+    "migrationNetIncomeRs": 40000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 1.25
   },
   {
     "id": "DHODLAXMI12",
@@ -667,7 +705,9 @@
     "baselineNetIncomeRs": 24000,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 3.75
   },
   {
     "id": "DHODLAXMI14",
@@ -696,7 +736,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "DHODLAXMI15",
@@ -725,7 +767,9 @@
     "baselineNetIncomeRs": 8000,
     "hasToilet": true,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0.94
   },
   {
     "id": "DHODLAXMI16",
@@ -754,7 +798,9 @@
     "baselineNetIncomeRs": 2500,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 50000
+    "migrationNetIncomeRs": 50000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0.63
   },
   {
     "id": "DHODLAXMI17",
@@ -793,7 +839,9 @@
     "baselineNetIncomeRs": -61000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 50000
+    "migrationNetIncomeRs": 50000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 1.25
   },
   {
     "id": "DHODJYOTI1",
@@ -832,7 +880,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 32000
+    "migrationNetIncomeRs": 32000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "DHODJYOTI3",
@@ -861,7 +911,9 @@
     "baselineNetIncomeRs": 14000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 60000
+    "migrationNetIncomeRs": 60000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 1.25
   },
   {
     "id": "DHODJYOTI4",
@@ -890,7 +942,9 @@
     "baselineNetIncomeRs": 9000,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 1.25
   },
   {
     "id": "DHODJYOTI5",
@@ -929,7 +983,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "DHODJYOTI7",
@@ -958,7 +1014,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 16000
+    "migrationNetIncomeRs": 16000,
+    "baselineCultivableLandAcres": 0.31,
+    "baselineLeaseLandAcres": 1.25
   },
   {
     "id": "DHODJYOTI8",
@@ -987,7 +1045,9 @@
     "baselineNetIncomeRs": 22000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 14000
+    "migrationNetIncomeRs": 14000,
+    "baselineCultivableLandAcres": 2.5,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "DHODJYOTI9",
@@ -1036,7 +1096,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 1.56
   },
   {
     "id": "DHODJYOTI12",
@@ -1075,7 +1137,9 @@
     "baselineNetIncomeRs": 13000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 25000
+    "migrationNetIncomeRs": 25000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 1.25
   },
   {
     "id": "DHODJYOTI14",
@@ -1694,7 +1758,9 @@
     "baselineNetIncomeRs": 64000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 50000
+    "migrationNetIncomeRs": 50000,
+    "baselineCultivableLandAcres": 6.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "JAMUKISAN2",
@@ -1733,7 +1799,9 @@
     "baselineNetIncomeRs": 5000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 1.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "JAMUKISAN4",
@@ -1762,7 +1830,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 1.25
   },
   {
     "id": "JAMUKISAN5",
@@ -1791,7 +1861,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "JAMUKISAN6",
@@ -1830,7 +1902,9 @@
     "baselineNetIncomeRs": 130000,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 1.56,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "JAMUKISAN8",
@@ -1859,7 +1933,9 @@
     "baselineNetIncomeRs": 2000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 10000
+    "migrationNetIncomeRs": 10000,
+    "baselineCultivableLandAcres": 0.31,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "JAMUKISAN9",
@@ -1888,7 +1964,9 @@
     "baselineNetIncomeRs": 4000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 40000
+    "migrationNetIncomeRs": 40000,
+    "baselineCultivableLandAcres": 1.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "JAMUKISAN10",
@@ -1917,7 +1995,9 @@
     "baselineNetIncomeRs": 3000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 40000
+    "migrationNetIncomeRs": 40000,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "JAMUKISAN11",
@@ -1946,7 +2026,9 @@
     "baselineNetIncomeRs": 6000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 10000
+    "migrationNetIncomeRs": 10000,
+    "baselineCultivableLandAcres": 1.88,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "JAMUKISAN12",
@@ -1975,7 +2057,9 @@
     "baselineNetIncomeRs": 13000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 26000
+    "migrationNetIncomeRs": 26000,
+    "baselineCultivableLandAcres": 1.56,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "JAMUKISAN13",
@@ -2004,7 +2088,9 @@
     "baselineNetIncomeRs": 15000,
     "hasToilet": true,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 6.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "JAMUKISAN14",
@@ -2043,7 +2129,9 @@
     "baselineNetIncomeRs": 130000,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 1.56,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "JAMUKISAN16",
@@ -2072,7 +2160,9 @@
     "baselineNetIncomeRs": 2000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 40000
+    "migrationNetIncomeRs": 40000,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "JAMUKISAN17",
@@ -2101,7 +2191,9 @@
     "baselineNetIncomeRs": 13000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 26000
+    "migrationNetIncomeRs": 26000,
+    "baselineCultivableLandAcres": 1.56,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPDURGA1",
@@ -2130,7 +2222,9 @@
     "baselineNetIncomeRs": 21000,
     "hasToilet": true,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 1.56,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPDURGA2",
@@ -2159,7 +2253,9 @@
     "baselineNetIncomeRs": 10000,
     "hasToilet": true,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 5,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPDURGA3",
@@ -2188,7 +2284,9 @@
     "baselineNetIncomeRs": 20000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 5,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPDURGA4",
@@ -2217,7 +2315,9 @@
     "baselineNetIncomeRs": 13000,
     "hasToilet": true,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 3.13,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPDURGA5",
@@ -2256,7 +2356,9 @@
     "baselineNetIncomeRs": 28000,
     "hasToilet": true,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 5,
+    "baselineLeaseLandAcres": 2.5
   },
   {
     "id": "BAJPDURGA7",
@@ -2295,7 +2397,9 @@
     "baselineNetIncomeRs": 8000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 1.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPDURGA9",
@@ -2334,7 +2438,9 @@
     "baselineNetIncomeRs": 11000,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 1.88,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPDURGA11",
@@ -2373,7 +2479,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPDURGA13",
@@ -2412,7 +2520,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 40000
+    "migrationNetIncomeRs": 40000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPDURGA15",
@@ -2441,7 +2551,9 @@
     "baselineNetIncomeRs": 17000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 1.25
   },
   {
     "id": "BAJPDURGA16",
@@ -2470,7 +2582,9 @@
     "baselineNetIncomeRs": 2000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 0.31,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPDURGA17",
@@ -2499,7 +2613,9 @@
     "baselineNetIncomeRs": 21000,
     "hasToilet": true,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 1.56,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPVASUNDHARA1",
@@ -2528,7 +2644,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 80000
+    "migrationNetIncomeRs": 80000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPVASUNDHARA2",
@@ -2557,7 +2675,9 @@
     "baselineNetIncomeRs": 6000,
     "hasToilet": true,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPVASUNDHARA3",
@@ -2586,7 +2706,9 @@
     "baselineNetIncomeRs": 5000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPVASUNDHARA4",
@@ -2615,7 +2737,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPVASUNDHARA5",
@@ -2644,7 +2768,9 @@
     "baselineNetIncomeRs": 6000,
     "hasToilet": true,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPVASUNDHARA6",
@@ -2673,7 +2799,9 @@
     "baselineNetIncomeRs": 8400,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 70000
+    "migrationNetIncomeRs": 70000,
+    "baselineCultivableLandAcres": 0.94,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPVASUNDHARA7",
@@ -2702,7 +2830,9 @@
     "baselineNetIncomeRs": 5000,
     "hasToilet": true,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 2.5,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPVASUNDHARA8",
@@ -2731,7 +2861,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPVASUNDHARA9",
@@ -2760,7 +2892,9 @@
     "baselineNetIncomeRs": 8000,
     "hasToilet": true,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 1.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPVASUNDHARA10",
@@ -2789,7 +2923,9 @@
     "baselineNetIncomeRs": 8000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPVASUNDHARA11",
@@ -2818,7 +2954,9 @@
     "baselineNetIncomeRs": 2000,
     "hasToilet": true,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 1.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPVASUNDHARA12",
@@ -2847,7 +2985,9 @@
     "baselineNetIncomeRs": 2000,
     "hasToilet": true,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 1.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPVASUNDHARA13",
@@ -2876,7 +3016,9 @@
     "baselineNetIncomeRs": 4000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPVASUNDHARA14",
@@ -2905,7 +3047,9 @@
     "baselineNetIncomeRs": 10000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 1.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPVASUNDHARA15",
@@ -2934,7 +3078,9 @@
     "baselineNetIncomeRs": 2000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 0.94,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPVASUNDHARA16",
@@ -2963,7 +3109,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPVASUNDHARA17",
@@ -2992,7 +3140,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPPUSHPA1",
@@ -3031,7 +3181,9 @@
     "baselineNetIncomeRs": 10000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 18000
+    "migrationNetIncomeRs": 18000,
+    "baselineCultivableLandAcres": 1.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPPUSHPA3",
@@ -3070,7 +3222,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPPUSHPA5",
@@ -3099,7 +3253,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 80000
+    "migrationNetIncomeRs": 80000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPPUSHPA6",
@@ -3128,7 +3284,9 @@
     "baselineNetIncomeRs": 23000,
     "hasToilet": true,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 3.13,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPPUSHPA7",
@@ -3167,7 +3325,9 @@
     "baselineNetIncomeRs": 6000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPPUSHPA9",
@@ -3196,7 +3356,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPPUSHPA10",
@@ -3225,7 +3387,9 @@
     "baselineNetIncomeRs": 3000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPPUSHPA11",
@@ -3254,7 +3418,9 @@
     "baselineNetIncomeRs": 10000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 5000
+    "migrationNetIncomeRs": 5000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 1.25
   },
   {
     "id": "BAJPPUSHPA12",
@@ -3283,7 +3449,9 @@
     "baselineNetIncomeRs": 6000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 1.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPPUSHPA13",
@@ -3312,7 +3480,9 @@
     "baselineNetIncomeRs": 13000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 10000
+    "migrationNetIncomeRs": 10000,
+    "baselineCultivableLandAcres": 3.13,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPPUSHPA14",
@@ -3351,7 +3521,9 @@
     "baselineNetIncomeRs": 3500,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 25000
+    "migrationNetIncomeRs": 25000,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPPUSHPA16",
@@ -3390,7 +3562,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 1.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPRADHA2",
@@ -3429,7 +3603,9 @@
     "baselineNetIncomeRs": 3500,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 10000
+    "migrationNetIncomeRs": 10000,
+    "baselineCultivableLandAcres": 0.31,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPRADHA4",
@@ -3458,7 +3634,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 60000
+    "migrationNetIncomeRs": 60000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPRADHA5",
@@ -3487,7 +3665,9 @@
     "baselineNetIncomeRs": 2000,
     "hasToilet": true,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 1.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPRADHA6",
@@ -3516,7 +3696,9 @@
     "baselineNetIncomeRs": 8000,
     "hasToilet": true,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 1.88,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPRADHA7",
@@ -3545,7 +3727,9 @@
     "baselineNetIncomeRs": 3500,
     "hasToilet": true,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPRADHA8",
@@ -3574,7 +3758,9 @@
     "baselineNetIncomeRs": 4000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 50000
+    "migrationNetIncomeRs": 50000,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPRADHA9",
@@ -3603,7 +3789,9 @@
     "baselineNetIncomeRs": 2500,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPRADHA10",
@@ -3632,7 +3820,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPRADHA11",
@@ -3661,7 +3851,9 @@
     "baselineNetIncomeRs": 3500,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 10000
+    "migrationNetIncomeRs": 10000,
+    "baselineCultivableLandAcres": 0.31,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPRADHA12",
@@ -3690,7 +3882,9 @@
     "baselineNetIncomeRs": 5000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPRADHA13",
@@ -3719,7 +3913,9 @@
     "baselineNetIncomeRs": 7000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 0.94,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPRADHA14",
@@ -3748,7 +3944,9 @@
     "baselineNetIncomeRs": 5500,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPRADHA15",
@@ -3777,7 +3975,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPRADHA16",
@@ -3806,7 +4006,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPRADHA17",
@@ -3835,7 +4037,9 @@
     "baselineNetIncomeRs": 6000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPRADHA18",
@@ -3864,7 +4068,9 @@
     "baselineNetIncomeRs": 9000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 0.94,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHUJALA1",
@@ -3893,7 +4099,9 @@
     "baselineNetIncomeRs": 21000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 54000
+    "migrationNetIncomeRs": 54000,
+    "baselineCultivableLandAcres": 1.88,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHUJALA2",
@@ -3922,7 +4130,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHUJALA3",
@@ -3961,7 +4171,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 67000
+    "migrationNetIncomeRs": 67000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHUJALA5",
@@ -3990,7 +4202,9 @@
     "baselineNetIncomeRs": 7700,
     "hasToilet": true,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 3.13,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHUJALA6",
@@ -4039,7 +4253,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHUJALA9",
@@ -4068,7 +4284,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 58000
+    "migrationNetIncomeRs": 58000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHUJALA10",
@@ -4097,7 +4315,9 @@
     "baselineNetIncomeRs": 24000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 52000
+    "migrationNetIncomeRs": 52000,
+    "baselineCultivableLandAcres": 1.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHUJALA11",
@@ -4126,7 +4346,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 37000
+    "migrationNetIncomeRs": 37000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHUJALA12",
@@ -4155,7 +4377,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 53000
+    "migrationNetIncomeRs": 53000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHUJALA13",
@@ -4194,7 +4418,9 @@
     "baselineNetIncomeRs": 6000,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 1.88,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHJAIMAVAISHNO1",
@@ -4223,7 +4449,9 @@
     "baselineNetIncomeRs": 14200,
     "hasToilet": true,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 7.5,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHJAIMAVAISHNO2",
@@ -4272,7 +4500,9 @@
     "baselineNetIncomeRs": 49000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 12000
+    "migrationNetIncomeRs": 12000,
+    "baselineCultivableLandAcres": 1.56,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHJAIMAVAISHNO5",
@@ -4301,7 +4531,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 67000
+    "migrationNetIncomeRs": 67000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHJAIMAVAISHNO6",
@@ -4340,7 +4572,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 67000
+    "migrationNetIncomeRs": 67000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHJAIMAVAISHNO8",
@@ -4379,7 +4613,9 @@
     "baselineNetIncomeRs": 19000,
     "hasToilet": true,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 15.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHJAIMAVAISHNO10",
@@ -4438,7 +4674,9 @@
     "baselineNetIncomeRs": 49000,
     "hasToilet": true,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 3.13,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHDRISHTI2",
@@ -4467,7 +4705,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHDRISHTI3",
@@ -4496,7 +4736,9 @@
     "baselineNetIncomeRs": 7000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 25000
+    "migrationNetIncomeRs": 25000,
+    "baselineCultivableLandAcres": 4.38,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHDRISHTI4",
@@ -4535,7 +4777,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 25000
+    "migrationNetIncomeRs": 25000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHDRISHTI6",
@@ -4564,7 +4808,9 @@
     "baselineNetIncomeRs": 105000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 33000
+    "migrationNetIncomeRs": 33000,
+    "baselineCultivableLandAcres": 5.63,
+    "baselineLeaseLandAcres": 1.25
   },
   {
     "id": "VISHDRISHTI7",
@@ -4593,7 +4839,9 @@
     "baselineNetIncomeRs": 500,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 85000
+    "migrationNetIncomeRs": 85000,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHDRISHTI8",
@@ -4622,7 +4870,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 37000
+    "migrationNetIncomeRs": 37000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHDRISHTI9",
@@ -4651,7 +4901,9 @@
     "baselineNetIncomeRs": 18000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 17000
+    "migrationNetIncomeRs": 17000,
+    "baselineCultivableLandAcres": 0.94,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHDRISHTI10",
@@ -4690,7 +4942,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 46000
+    "migrationNetIncomeRs": 46000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHDRISHTI12",
@@ -4739,7 +4993,9 @@
     "baselineNetIncomeRs": 1000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 26000
+    "migrationNetIncomeRs": 26000,
+    "baselineCultivableLandAcres": 1.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHDRISHTI15",
@@ -4768,7 +5024,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 46000
+    "migrationNetIncomeRs": 46000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHGAYTRI1",
@@ -4797,7 +5055,9 @@
     "baselineNetIncomeRs": 1000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 26000
+    "migrationNetIncomeRs": 26000,
+    "baselineCultivableLandAcres": 1.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHGAYTRI2",
@@ -4826,7 +5086,9 @@
     "baselineNetIncomeRs": 73000,
     "hasToilet": true,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 2.5,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHGAYTRI3",
@@ -4865,7 +5127,9 @@
     "baselineNetIncomeRs": 6000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 50000
+    "migrationNetIncomeRs": 50000,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHGAYTRI5",
@@ -4894,7 +5158,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 37000
+    "migrationNetIncomeRs": 37000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHGAYTRI6",
@@ -4923,7 +5189,9 @@
     "baselineNetIncomeRs": 105000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 33000
+    "migrationNetIncomeRs": 33000,
+    "baselineCultivableLandAcres": 5.63,
+    "baselineLeaseLandAcres": 1.25
   },
   {
     "id": "VISHGAYTRI7",
@@ -4952,7 +5220,9 @@
     "baselineNetIncomeRs": 5500,
     "hasToilet": true,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 1.88,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHGAYTRI8",
@@ -4991,7 +5261,9 @@
     "baselineNetIncomeRs": 14700,
     "hasToilet": true,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 4.38,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHGAYTRI10",
@@ -5020,7 +5292,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 64000
+    "migrationNetIncomeRs": 64000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHGAYTRI11",
@@ -5049,7 +5323,9 @@
     "baselineNetIncomeRs": 49000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 12000
+    "migrationNetIncomeRs": 12000,
+    "baselineCultivableLandAcres": 1.56,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAMPSADHANAZADI1",
@@ -5078,7 +5354,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAMPSADHANAZADI2",
@@ -5107,7 +5385,9 @@
     "baselineNetIncomeRs": 35000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 48000
+    "migrationNetIncomeRs": 48000,
+    "baselineCultivableLandAcres": 3.13,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAMPSADHANAZADI3",
@@ -5136,7 +5416,9 @@
     "baselineNetIncomeRs": 65000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 6.25,
+    "baselineLeaseLandAcres": 3.13
   },
   {
     "id": "RAMPSADHANAZADI4",
@@ -5165,7 +5447,9 @@
     "baselineNetIncomeRs": 22000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 24000
+    "migrationNetIncomeRs": 24000,
+    "baselineCultivableLandAcres": 1.88,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAMPSADHANAZADI5",
@@ -5194,7 +5478,9 @@
     "baselineNetIncomeRs": 37000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 22000
+    "migrationNetIncomeRs": 22000,
+    "baselineCultivableLandAcres": 1.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAMPSADHANAZADI6",
@@ -5233,7 +5519,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 26000
+    "migrationNetIncomeRs": 26000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAMPSADHANAZADI8",
@@ -5262,7 +5550,9 @@
     "baselineNetIncomeRs": 20000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 47000
+    "migrationNetIncomeRs": 47000,
+    "baselineCultivableLandAcres": 1.88,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAMPSADHANAZADI9",
@@ -5291,7 +5581,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAMPSADHANAZADI10",
@@ -5320,7 +5612,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 26000
+    "migrationNetIncomeRs": 26000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAMPSADHANAZADI11",
@@ -5369,7 +5663,9 @@
     "baselineNetIncomeRs": 53000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 35000
+    "migrationNetIncomeRs": 35000,
+    "baselineCultivableLandAcres": 1.88,
+    "baselineLeaseLandAcres": 3.13
   },
   {
     "id": "RAMPSADHANAZADI14",
@@ -5408,7 +5704,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 22000
+    "migrationNetIncomeRs": 22000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIJWALAAZADI2",
@@ -5437,7 +5735,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 21000
+    "migrationNetIncomeRs": 21000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIJWALAAZADI3",
@@ -5466,7 +5766,9 @@
     "baselineNetIncomeRs": 76000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 24000
+    "migrationNetIncomeRs": 24000,
+    "baselineCultivableLandAcres": 7.5,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIJWALAAZADI4",
@@ -5505,7 +5807,9 @@
     "baselineNetIncomeRs": 25000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 1.88,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIJWALAAZADI6",
@@ -5534,7 +5838,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 60000
+    "migrationNetIncomeRs": 60000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIJWALAAZADI7",
@@ -5563,7 +5869,9 @@
     "baselineNetIncomeRs": 23000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 38000
+    "migrationNetIncomeRs": 38000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 1.88
   },
   {
     "id": "FAKIJWALAAZADI8",
@@ -5602,7 +5910,9 @@
     "baselineNetIncomeRs": 23000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 38000
+    "migrationNetIncomeRs": 38000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 1.88
   },
   {
     "id": "FAKIJWALAAZADI10",
@@ -5631,7 +5941,9 @@
     "baselineNetIncomeRs": 29000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 17000
+    "migrationNetIncomeRs": 17000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 4.38
   },
   {
     "id": "FAKIJWALAAZADI11",
@@ -5660,7 +5972,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 17000
+    "migrationNetIncomeRs": 17000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "GHOOTARA1",
@@ -5899,7 +6213,9 @@
     "baselineNetIncomeRs": 15500,
     "hasToilet": true,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 1.56,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIAASHA3",
@@ -5928,7 +6244,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 24000
+    "migrationNetIncomeRs": 24000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIAASHA4",
@@ -5957,7 +6275,9 @@
     "baselineNetIncomeRs": 78000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 22000
+    "migrationNetIncomeRs": 22000,
+    "baselineCultivableLandAcres": 12.5,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIAASHA5",
@@ -5986,7 +6306,9 @@
     "baselineNetIncomeRs": 15000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 15000
+    "migrationNetIncomeRs": 15000,
+    "baselineCultivableLandAcres": 1.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIAASHA6",
@@ -6015,7 +6337,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 38000
+    "migrationNetIncomeRs": 38000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIAASHA7",
@@ -6054,7 +6378,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 40000
+    "migrationNetIncomeRs": 40000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIAASHA9",
@@ -6083,7 +6409,9 @@
     "baselineNetIncomeRs": 140000,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 6.88,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIAASHA10",
@@ -6112,7 +6440,9 @@
     "baselineNetIncomeRs": 18000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 31000
+    "migrationNetIncomeRs": 31000,
+    "baselineCultivableLandAcres": 1.88,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIAASHA11",
@@ -6151,7 +6481,9 @@
     "baselineNetIncomeRs": 81000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 35000
+    "migrationNetIncomeRs": 35000,
+    "baselineCultivableLandAcres": 7.5,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIAASHA13",
@@ -6180,7 +6512,9 @@
     "baselineNetIncomeRs": 20000,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 2.19,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIAASHA14",
@@ -6209,7 +6543,9 @@
     "baselineNetIncomeRs": 11000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 22000
+    "migrationNetIncomeRs": 22000,
+    "baselineCultivableLandAcres": 1.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIAASHA15",
@@ -6248,7 +6584,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 21000
+    "migrationNetIncomeRs": 21000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 3.75
   },
   {
     "id": "FAKIRADHAAJADI2",
@@ -6277,7 +6615,9 @@
     "baselineNetIncomeRs": 62000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 24000
+    "migrationNetIncomeRs": 24000,
+    "baselineCultivableLandAcres": 5.63,
+    "baselineLeaseLandAcres": 3.13
   },
   {
     "id": "FAKIRADHAAJADI3",
@@ -6306,7 +6646,9 @@
     "baselineNetIncomeRs": 18000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 26000
+    "migrationNetIncomeRs": 26000,
+    "baselineCultivableLandAcres": 1.88,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIRADHAAJADI4",
@@ -6345,7 +6687,9 @@
     "baselineNetIncomeRs": 42000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 24000
+    "migrationNetIncomeRs": 24000,
+    "baselineCultivableLandAcres": 3.13,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIRADHAAJADI6",
@@ -6374,7 +6718,9 @@
     "baselineNetIncomeRs": 13000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 3.13
   },
   {
     "id": "FAKIRADHAAJADI7",
@@ -6403,7 +6749,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 43000
+    "migrationNetIncomeRs": 43000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIRADHAAJADI8",
@@ -6432,7 +6780,9 @@
     "baselineNetIncomeRs": 80000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 26000
+    "migrationNetIncomeRs": 26000,
+    "baselineCultivableLandAcres": 6.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIRADHAAJADI9",
@@ -6461,7 +6811,9 @@
     "baselineNetIncomeRs": 77000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 22000
+    "migrationNetIncomeRs": 22000,
+    "baselineCultivableLandAcres": 7.5,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIRADHAAJADI10",
@@ -6490,7 +6842,9 @@
     "baselineNetIncomeRs": 60000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 3.13,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIRADHAAJADI11",
@@ -6519,7 +6873,9 @@
     "baselineNetIncomeRs": 120000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 9.38,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIRADHAAJADI12",
@@ -6548,7 +6904,9 @@
     "baselineNetIncomeRs": 24000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 28000
+    "migrationNetIncomeRs": 28000,
+    "baselineCultivableLandAcres": 1.88,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIKAJAL1",
@@ -6577,7 +6935,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 16000
+    "migrationNetIncomeRs": 16000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIKAJAL2",
@@ -6606,7 +6966,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 21000
+    "migrationNetIncomeRs": 21000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIKAJAL3",
@@ -6635,7 +6997,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 31000
+    "migrationNetIncomeRs": 31000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIKAJAL4",
@@ -6664,7 +7028,9 @@
     "baselineNetIncomeRs": 43000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 21000
+    "migrationNetIncomeRs": 21000,
+    "baselineCultivableLandAcres": 5,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIKAJAL5",
@@ -6703,7 +7069,9 @@
     "baselineNetIncomeRs": 50000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 50000
+    "migrationNetIncomeRs": 50000,
+    "baselineCultivableLandAcres": 5.94,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIKAJAL7",
@@ -6732,7 +7100,9 @@
     "baselineNetIncomeRs": 25000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 1.88,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIKAJAL8",
@@ -6761,7 +7131,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 21000
+    "migrationNetIncomeRs": 21000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIKAJAL9",
@@ -6790,7 +7162,9 @@
     "baselineNetIncomeRs": 41000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 22000
+    "migrationNetIncomeRs": 22000,
+    "baselineCultivableLandAcres": 3.13,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIKAJAL10",
@@ -6819,7 +7193,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 43000
+    "migrationNetIncomeRs": 43000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIKAJAL11",
@@ -6848,7 +7224,9 @@
     "baselineNetIncomeRs": 80000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 22000
+    "migrationNetIncomeRs": 22000,
+    "baselineCultivableLandAcres": 7.5,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKISEETA1",
@@ -6877,7 +7255,9 @@
     "baselineNetIncomeRs": 50000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 50000
+    "migrationNetIncomeRs": 50000,
+    "baselineCultivableLandAcres": 5.94,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKISEETA2",
@@ -6906,7 +7286,9 @@
     "baselineNetIncomeRs": 43000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 21000
+    "migrationNetIncomeRs": 21000,
+    "baselineCultivableLandAcres": 5,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKISEETA3",
@@ -6935,7 +7317,9 @@
     "baselineNetIncomeRs": 40000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 24000
+    "migrationNetIncomeRs": 24000,
+    "baselineCultivableLandAcres": 2.5,
+    "baselineLeaseLandAcres": 3.13
   },
   {
     "id": "FAKISEETA4",
@@ -6974,7 +7358,9 @@
     "baselineNetIncomeRs": 23000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 25000
+    "migrationNetIncomeRs": 25000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 2.5
   },
   {
     "id": "FAKISEETA6",
@@ -7003,7 +7389,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 43000
+    "migrationNetIncomeRs": 43000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKISEETA7",
@@ -7032,7 +7420,9 @@
     "baselineNetIncomeRs": 12000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 23000
+    "migrationNetIncomeRs": 23000,
+    "baselineCultivableLandAcres": 1.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKISEETA8",
@@ -7061,7 +7451,9 @@
     "baselineNetIncomeRs": 31000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 60000
+    "migrationNetIncomeRs": 60000,
+    "baselineCultivableLandAcres": 0.94,
+    "baselineLeaseLandAcres": 1.88
   },
   {
     "id": "FAKISEETA9",
@@ -7110,7 +7502,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 35000
+    "migrationNetIncomeRs": 35000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKISEETA12",
@@ -7149,7 +7543,9 @@
     "baselineNetIncomeRs": 40000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 28000
+    "migrationNetIncomeRs": 28000,
+    "baselineCultivableLandAcres": 3.13,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKISEETA14",
@@ -7178,7 +7574,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 44000
+    "migrationNetIncomeRs": 44000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKISEETA15",
@@ -7207,7 +7605,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 23000
+    "migrationNetIncomeRs": 23000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKISEETA16",
@@ -7236,7 +7636,9 @@
     "baselineNetIncomeRs": 18000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 31000
+    "migrationNetIncomeRs": 31000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 1.88
   },
   {
     "id": "FAKITULSI1",
@@ -7265,7 +7667,9 @@
     "baselineNetIncomeRs": 94000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 32000
+    "migrationNetIncomeRs": 32000,
+    "baselineCultivableLandAcres": 6.88,
+    "baselineLeaseLandAcres": 3.13
   },
   {
     "id": "FAKITULSI2",
@@ -7304,7 +7708,9 @@
     "baselineNetIncomeRs": 34000,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 5,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKITULSI4",
@@ -7333,7 +7739,9 @@
     "baselineNetIncomeRs": -7800,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 32000
+    "migrationNetIncomeRs": 32000,
+    "baselineCultivableLandAcres": 0.94,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKITULSI5",
@@ -7362,7 +7770,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 22000
+    "migrationNetIncomeRs": 22000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKITULSI6",
@@ -7391,7 +7801,9 @@
     "baselineNetIncomeRs": 112000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 14000
+    "migrationNetIncomeRs": 14000,
+    "baselineCultivableLandAcres": 10,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKITULSI7",
@@ -7420,7 +7832,9 @@
     "baselineNetIncomeRs": 26000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 21000
+    "migrationNetIncomeRs": 21000,
+    "baselineCultivableLandAcres": 2.5,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKITULSI8",
@@ -7449,7 +7863,9 @@
     "baselineNetIncomeRs": 85000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 22000
+    "migrationNetIncomeRs": 22000,
+    "baselineCultivableLandAcres": 12.5,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKITULSI9",
@@ -7478,7 +7894,9 @@
     "baselineNetIncomeRs": 38000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 22000
+    "migrationNetIncomeRs": 22000,
+    "baselineCultivableLandAcres": 3.13,
+    "baselineLeaseLandAcres": 2.5
   },
   {
     "id": "FAKITULSI10",
@@ -7507,7 +7925,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 60000
+    "migrationNetIncomeRs": 60000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKITULSI11",
@@ -7536,7 +7956,9 @@
     "baselineNetIncomeRs": 22000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 23000
+    "migrationNetIncomeRs": 23000,
+    "baselineCultivableLandAcres": 1.88,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKITULSI12",
@@ -7565,7 +7987,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKITULSI13",
@@ -7594,7 +8018,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 11000
+    "migrationNetIncomeRs": 11000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKITULSI14",
@@ -7633,7 +8059,9 @@
     "baselineNetIncomeRs": 165000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 40000
+    "migrationNetIncomeRs": 40000,
+    "baselineCultivableLandAcres": 12.5,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKITULSI16",
@@ -7662,7 +8090,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 21000
+    "migrationNetIncomeRs": 21000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 3.75
   },
   {
     "id": "FAKIPRATIBHA1",
@@ -7691,7 +8121,9 @@
     "baselineNetIncomeRs": 9500,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0.94,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIPRATIBHA2",
@@ -7720,7 +8152,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIPRATIBHA3",
@@ -7759,7 +8193,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 22000
+    "migrationNetIncomeRs": 22000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIPRATIBHA5",
@@ -7808,7 +8244,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 11000
+    "migrationNetIncomeRs": 11000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIPRATIBHA8",
@@ -7837,7 +8275,9 @@
     "baselineNetIncomeRs": 85000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 22000
+    "migrationNetIncomeRs": 22000,
+    "baselineCultivableLandAcres": 12.5,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIPRATIBHA9",
@@ -7876,7 +8316,9 @@
     "baselineNetIncomeRs": 15500,
     "hasToilet": true,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 1.56,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIPRATIBHA11",
@@ -7905,7 +8347,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 17000
+    "migrationNetIncomeRs": 17000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIPRATIBHA12",
@@ -7934,7 +8378,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 21000
+    "migrationNetIncomeRs": 21000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 3.75
   },
   {
     "id": "FAKIPRATIBHA13",
@@ -7993,7 +8439,9 @@
     "baselineNetIncomeRs": 15000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 1.56,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIPRATIBHA17",
@@ -8022,7 +8470,9 @@
     "baselineNetIncomeRs": 13000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 22000
+    "migrationNetIncomeRs": 22000,
+    "baselineCultivableLandAcres": 1.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIPRATIBHA18",
@@ -9611,7 +10061,9 @@
     "baselineNetIncomeRs": 42000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 28000
+    "migrationNetIncomeRs": 28000,
+    "baselineCultivableLandAcres": 3.13,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIKHUSHI3",
@@ -9640,7 +10092,9 @@
     "baselineNetIncomeRs": 61000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 34400
+    "migrationNetIncomeRs": 34400,
+    "baselineCultivableLandAcres": 3.13,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIKHUSHI4",
@@ -9689,7 +10143,9 @@
     "baselineNetIncomeRs": 50000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 50000
+    "migrationNetIncomeRs": 50000,
+    "baselineCultivableLandAcres": 5.94,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIKHUSHI7",
@@ -9718,7 +10174,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 38000
+    "migrationNetIncomeRs": 38000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIKHUSHI8",
@@ -9767,7 +10225,9 @@
     "baselineNetIncomeRs": 11000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 22000
+    "migrationNetIncomeRs": 22000,
+    "baselineCultivableLandAcres": 1.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIKHUSHI11",
@@ -9796,7 +10256,9 @@
     "baselineNetIncomeRs": 18000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 26000
+    "migrationNetIncomeRs": 26000,
+    "baselineCultivableLandAcres": 1.88,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIRANI1",
@@ -9825,7 +10287,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 38000
+    "migrationNetIncomeRs": 38000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIRANI2",
@@ -9854,7 +10318,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 40000
+    "migrationNetIncomeRs": 40000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIRANI3",
@@ -9883,7 +10349,9 @@
     "baselineNetIncomeRs": 24000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 28000
+    "migrationNetIncomeRs": 28000,
+    "baselineCultivableLandAcres": 1.88,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIRANI4",
@@ -9912,7 +10380,9 @@
     "baselineNetIncomeRs": 81000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 35000
+    "migrationNetIncomeRs": 35000,
+    "baselineCultivableLandAcres": 7.5,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIRANI5",
@@ -9971,7 +10441,9 @@
     "baselineNetIncomeRs": 24000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 15000
+    "migrationNetIncomeRs": 15000,
+    "baselineCultivableLandAcres": 1.88,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIRANI9",
@@ -10000,7 +10472,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 29000
+    "migrationNetIncomeRs": 29000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIRANI10",
@@ -10029,7 +10503,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 31000
+    "migrationNetIncomeRs": 31000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIRANI11",
@@ -10068,7 +10544,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 40000
+    "migrationNetIncomeRs": 40000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIRANI13",
@@ -10107,7 +10585,9 @@
     "baselineNetIncomeRs": 38000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 27000
+    "migrationNetIncomeRs": 27000,
+    "baselineCultivableLandAcres": 3.13,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIRANI15",
@@ -10146,7 +10626,9 @@
     "baselineNetIncomeRs": 12000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 25000
+    "migrationNetIncomeRs": 25000,
+    "baselineCultivableLandAcres": 0.94,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIRANI17",
@@ -10175,7 +10657,9 @@
     "baselineNetIncomeRs": 40000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 24000
+    "migrationNetIncomeRs": 24000,
+    "baselineCultivableLandAcres": 2.5,
+    "baselineLeaseLandAcres": 3.13
   },
   {
     "id": "GHOOSEETAL1",
@@ -10404,7 +10888,9 @@
     "baselineNetIncomeRs": 21000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 23000
+    "migrationNetIncomeRs": 23000,
+    "baselineCultivableLandAcres": 1.88,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIAZADI2",
@@ -10433,7 +10919,9 @@
     "baselineNetIncomeRs": 79000,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 6.88,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIAZADI3",
@@ -10462,7 +10950,9 @@
     "baselineNetIncomeRs": 36000,
     "hasToilet": true,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 6.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIAZADI4",
@@ -10491,7 +10981,9 @@
     "baselineNetIncomeRs": 94000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 32000
+    "migrationNetIncomeRs": 32000,
+    "baselineCultivableLandAcres": 6.88,
+    "baselineLeaseLandAcres": 3.13
   },
   {
     "id": "FAKIAZADI5",
@@ -10520,7 +11012,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 18000
+    "migrationNetIncomeRs": 18000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIAZADI6",
@@ -10549,7 +11043,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIAZADI7",
@@ -10578,7 +11074,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 17000
+    "migrationNetIncomeRs": 17000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIAZADI8",
@@ -10607,7 +11105,9 @@
     "baselineNetIncomeRs": 61000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 6.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIAZADI9",
@@ -10656,7 +11156,9 @@
     "baselineNetIncomeRs": 21000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 23000
+    "migrationNetIncomeRs": 23000,
+    "baselineCultivableLandAcres": 1.88,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIAZADI12",
@@ -10685,7 +11187,9 @@
     "baselineNetIncomeRs": 80000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 22000
+    "migrationNetIncomeRs": 22000,
+    "baselineCultivableLandAcres": 7.5,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIAZADI13",
@@ -10724,7 +11228,9 @@
     "baselineNetIncomeRs": 26000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 21000
+    "migrationNetIncomeRs": 21000,
+    "baselineCultivableLandAcres": 2.5,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIAZADI15",
@@ -10763,7 +11269,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 38000
+    "migrationNetIncomeRs": 38000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIAZADI17",
@@ -10792,7 +11300,9 @@
     "baselineNetIncomeRs": -44000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 24000
+    "migrationNetIncomeRs": 24000,
+    "baselineCultivableLandAcres": 5.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "FAKIAZADI18",
@@ -10821,7 +11331,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 98000
+    "migrationNetIncomeRs": 98000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BADIANGURI1",
@@ -10850,7 +11362,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BADIANGURI2",
@@ -10879,7 +11393,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BADIANGURI3",
@@ -10908,7 +11424,9 @@
     "baselineNetIncomeRs": 2000,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 3.13,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BADIANGURI4",
@@ -10957,7 +11475,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BADIANGURI7",
@@ -10986,7 +11506,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 15000
+    "migrationNetIncomeRs": 15000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BADIANGURI8",
@@ -11025,7 +11547,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 18000
+    "migrationNetIncomeRs": 18000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BADIANGURI10",
@@ -11054,7 +11578,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BADIANGURI11",
@@ -11093,7 +11619,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 10000
+    "migrationNetIncomeRs": 10000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "KAILKALIMATA1",
@@ -11652,7 +12180,9 @@
     "baselineNetIncomeRs": 40000,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 6.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "KAILDURGA2",
@@ -11681,7 +12211,9 @@
     "baselineNetIncomeRs": 300,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 7000
+    "migrationNetIncomeRs": 7000,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "KAILDURGA3",
@@ -11710,7 +12242,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "KAILDURGA4",
@@ -11749,7 +12283,9 @@
     "baselineNetIncomeRs": 1000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 10000
+    "migrationNetIncomeRs": 10000,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "KAILDURGA6",
@@ -11788,7 +12324,9 @@
     "baselineNetIncomeRs": 5000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 4.38,
+    "baselineLeaseLandAcres": 4.38
   },
   {
     "id": "KAILDURGA8",
@@ -11817,7 +12355,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "KAILDURGA9",
@@ -11846,7 +12386,9 @@
     "baselineNetIncomeRs": 9000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 18000
+    "migrationNetIncomeRs": 18000,
+    "baselineCultivableLandAcres": 4.38,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "KAILDURGA10",
@@ -11875,7 +12417,9 @@
     "baselineNetIncomeRs": 14000,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 1.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "KAILDURGA11",
@@ -11904,7 +12448,9 @@
     "baselineNetIncomeRs": 4000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "KAILDURGA12",
@@ -11933,7 +12479,9 @@
     "baselineNetIncomeRs": 4000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "KAILDURGA13",
@@ -11962,7 +12510,9 @@
     "baselineNetIncomeRs": 2000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 6000
+    "migrationNetIncomeRs": 6000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 1.25
   },
   {
     "id": "KAILDURGA14",
@@ -11991,7 +12541,9 @@
     "baselineNetIncomeRs": 10000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 50000
+    "migrationNetIncomeRs": 50000,
+    "baselineCultivableLandAcres": 1.56,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "KAILDURGA15",
@@ -12020,7 +12572,9 @@
     "baselineNetIncomeRs": -3000,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0.94,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "KAILDURGA16",
@@ -12049,7 +12603,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "KAILDURGA17",
@@ -12078,7 +12634,9 @@
     "baselineNetIncomeRs": 7000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 15000
+    "migrationNetIncomeRs": 15000,
+    "baselineCultivableLandAcres": 4.38,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "KAILDURGA18",
@@ -12107,7 +12665,9 @@
     "baselineNetIncomeRs": 2000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 25000
+    "migrationNetIncomeRs": 25000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 1.25
   },
   {
     "id": "KAILDURGA19",
@@ -12136,7 +12696,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 5000
+    "migrationNetIncomeRs": 5000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "KAILDURGA20",
@@ -12165,7 +12727,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 15000
+    "migrationNetIncomeRs": 15000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BHODKARIKOTMAIYA1",
@@ -12194,7 +12758,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 10000
+    "migrationNetIncomeRs": 10000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BHODKARIKOTMAIYA2",
@@ -12233,7 +12799,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 5000
+    "migrationNetIncomeRs": 5000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BHODKARIKOTMAIYA4",
@@ -12262,7 +12830,9 @@
     "baselineNetIncomeRs": 7000,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 3.13,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BHODKARIKOTMAIYA5",
@@ -12291,7 +12861,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BHODKARIKOTMAIYA6",
@@ -12320,7 +12892,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 10000
+    "migrationNetIncomeRs": 10000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BHODKARIKOTMAIYA7",
@@ -12349,7 +12923,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BHODKARIKOTMAIYA8",
@@ -12378,7 +12954,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 5000
+    "migrationNetIncomeRs": 5000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BHODKARIKOTMAIYA9",
@@ -12407,7 +12985,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 10000
+    "migrationNetIncomeRs": 10000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BHODKARIKOTMAIYA10",
@@ -12436,7 +13016,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 5000
+    "migrationNetIncomeRs": 5000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BHODKARIKOTMAIYA11",
@@ -12465,7 +13047,9 @@
     "baselineNetIncomeRs": 10000,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 3.75,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BHODKARIKOTMAIYA12",
@@ -12494,7 +13078,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BHODKARIKOTMAIYA13",
@@ -12523,7 +13109,9 @@
     "baselineNetIncomeRs": 1000,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BHODKARIKOTMAIYA14",
@@ -12552,7 +13140,9 @@
     "baselineNetIncomeRs": 2000,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 1.88,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BHODKARIKOTMAIYA15",
@@ -12621,7 +13211,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BHODSHRIVAISHNODEVI3",
@@ -12650,7 +13242,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 10000
+    "migrationNetIncomeRs": 10000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BHODSHRIVAISHNODEVI4",
@@ -12679,7 +13273,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 5000
+    "migrationNetIncomeRs": 5000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BHODSHRIVAISHNODEVI5",
@@ -12708,7 +13304,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 5000
+    "migrationNetIncomeRs": 5000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BHODSHRIVAISHNODEVI6",
@@ -12737,7 +13335,9 @@
     "baselineNetIncomeRs": -1000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 5000
+    "migrationNetIncomeRs": 5000,
+    "baselineCultivableLandAcres": 1.88,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BHODSHRIVAISHNODEVI7",
@@ -12766,7 +13366,9 @@
     "baselineNetIncomeRs": 4000,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 1.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BHODSHRIVAISHNODEVI8",
@@ -12795,7 +13397,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BHODSHRIVAISHNODEVI9",
@@ -12824,7 +13428,9 @@
     "baselineNetIncomeRs": 7000,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 1.88,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BHODSHRIVAISHNODEVI10",
@@ -12853,7 +13459,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 2000
+    "migrationNetIncomeRs": 2000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BHODSHRIVAISHNODEVI11",
@@ -12882,7 +13490,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BHODSHRIVAISHNODEVI12",
@@ -12911,7 +13521,9 @@
     "baselineNetIncomeRs": 20000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 3000
+    "migrationNetIncomeRs": 3000,
+    "baselineCultivableLandAcres": 3.13,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BHODSHRIVAISHNODEVI13",
@@ -12940,7 +13552,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 6.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BHODSHRIVAISHNODEVI14",
@@ -12969,7 +13583,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 10000
+    "migrationNetIncomeRs": 10000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BHODSHRIVAISHNODEVI15",
@@ -13028,7 +13644,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BHODSHRIVAISHNODEVI19",
@@ -13827,7 +14445,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "JAMUSHEELA4",
@@ -13856,7 +14476,9 @@
     "baselineNetIncomeRs": 2000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 40000
+    "migrationNetIncomeRs": 40000,
+    "baselineCultivableLandAcres": 0.31,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "JAMUSHEELA5",
@@ -13885,7 +14507,9 @@
     "baselineNetIncomeRs": 10000,
     "hasToilet": true,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 6.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "JAMUSHEELA6",
@@ -13914,7 +14538,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "JAMUSHEELA7",
@@ -13953,7 +14579,9 @@
     "baselineNetIncomeRs": 10000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 1.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "JAMUSHEELA9",
@@ -13982,7 +14610,9 @@
     "baselineNetIncomeRs": 64000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 50000
+    "migrationNetIncomeRs": 50000,
+    "baselineCultivableLandAcres": 6.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "JAMUSHEELA10",
@@ -14011,7 +14641,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 50000
+    "migrationNetIncomeRs": 50000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "JAMUSHEELA11",
@@ -14040,7 +14672,9 @@
     "baselineNetIncomeRs": 64000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 50000
+    "migrationNetIncomeRs": 50000,
+    "baselineCultivableLandAcres": 6.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "JAMUSHEELA12",
@@ -14069,7 +14703,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "JAMUSHEELA13",
@@ -14098,7 +14734,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "JAMUSHEELA14",
@@ -14127,7 +14765,9 @@
     "baselineNetIncomeRs": 6000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 10000
+    "migrationNetIncomeRs": 10000,
+    "baselineCultivableLandAcres": 1.88,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPGAYTRI1",
@@ -14156,7 +14796,9 @@
     "baselineNetIncomeRs": 5000,
     "hasToilet": true,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 2.5,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPGAYTRI2",
@@ -14195,7 +14837,9 @@
     "baselineNetIncomeRs": 7500,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPGAYTRI4",
@@ -14224,7 +14868,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPGAYTRI5",
@@ -14263,7 +14909,9 @@
     "baselineNetIncomeRs": 3000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 40000
+    "migrationNetIncomeRs": 40000,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPGAYTRI7",
@@ -14302,7 +14950,9 @@
     "baselineNetIncomeRs": 3000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 21000
+    "migrationNetIncomeRs": 21000,
+    "baselineCultivableLandAcres": 0.31,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPGAYTRI9",
@@ -14331,7 +14981,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPGAYTRI10",
@@ -14370,7 +15022,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 45000
+    "migrationNetIncomeRs": 45000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPGAYTRI12",
@@ -14409,7 +15063,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 45000
+    "migrationNetIncomeRs": 45000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPGAYTRI14",
@@ -14458,7 +15114,9 @@
     "baselineNetIncomeRs": 19000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 1.56,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPCHAMPA2",
@@ -14487,7 +15145,9 @@
     "baselineNetIncomeRs": 5000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 6000
+    "migrationNetIncomeRs": 6000,
+    "baselineCultivableLandAcres": 0.31,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPCHAMPA3",
@@ -14516,7 +15176,9 @@
     "baselineNetIncomeRs": 8500,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPCHAMPA4",
@@ -14545,7 +15207,9 @@
     "baselineNetIncomeRs": 11000,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 1.88,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPCHAMPA5",
@@ -14574,7 +15238,9 @@
     "baselineNetIncomeRs": 18000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 10000
+    "migrationNetIncomeRs": 10000,
+    "baselineCultivableLandAcres": 1.56,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPCHAMPA6",
@@ -14603,7 +15269,9 @@
     "baselineNetIncomeRs": 30000,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 3.13,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPCHAMPA7",
@@ -14632,7 +15300,9 @@
     "baselineNetIncomeRs": 5000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPCHAMPA8",
@@ -14671,7 +15341,9 @@
     "baselineNetIncomeRs": 30000,
     "hasToilet": true,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 2.5,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPCHAMPA10",
@@ -14740,7 +15412,9 @@
     "baselineNetIncomeRs": 8500,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BAJPCHAMPA15",
@@ -14779,7 +15453,9 @@
     "baselineNetIncomeRs": 20000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 70000
+    "migrationNetIncomeRs": 70000,
+    "baselineCultivableLandAcres": 1.88,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "JAMUSHARDA1",
@@ -14808,7 +15484,9 @@
     "baselineNetIncomeRs": 10000,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 1.56,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "JAMUSHARDA2",
@@ -14857,7 +15535,9 @@
     "baselineNetIncomeRs": 2000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 40000
+    "migrationNetIncomeRs": 40000,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "JAMUSHARDA5",
@@ -14886,7 +15566,9 @@
     "baselineNetIncomeRs": 11000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 25000
+    "migrationNetIncomeRs": 25000,
+    "baselineCultivableLandAcres": 1.88,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "JAMUSHARDA6",
@@ -14935,7 +15617,9 @@
     "baselineNetIncomeRs": 8000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 40000
+    "migrationNetIncomeRs": 40000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 3.13
   },
   {
     "id": "JAMUSHARDA9",
@@ -14984,7 +15668,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 50000
+    "migrationNetIncomeRs": 50000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "JAMUSHARDA12",
@@ -15013,7 +15699,9 @@
     "baselineNetIncomeRs": 17000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 2.5,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "JAMUSHARDA13",
@@ -15052,7 +15740,9 @@
     "baselineNetIncomeRs": 16000,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 1.88,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "JAMUSHARDA15",
@@ -15081,7 +15771,9 @@
     "baselineNetIncomeRs": 5000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 35000
+    "migrationNetIncomeRs": 35000,
+    "baselineCultivableLandAcres": 2.81,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "JAMUSHANTI1",
@@ -15120,7 +15812,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 25000
+    "migrationNetIncomeRs": 25000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "JAMUSHANTI3",
@@ -15149,7 +15843,9 @@
     "baselineNetIncomeRs": 6000,
     "hasToilet": true,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 2.19,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "JAMUSHANTI4",
@@ -15198,7 +15894,9 @@
     "baselineNetIncomeRs": 4000,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 1.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "JAMUSHANTI7",
@@ -15247,7 +15945,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "JAMUSHANTI10",
@@ -15276,7 +15976,9 @@
     "baselineNetIncomeRs": 2500,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 40000
+    "migrationNetIncomeRs": 40000,
+    "baselineCultivableLandAcres": 1.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "JAMUSHANTI11",
@@ -15305,7 +16007,9 @@
     "baselineNetIncomeRs": 5000,
     "hasToilet": true,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 2.81,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "JAMUSHANTI12",
@@ -15334,7 +16038,9 @@
     "baselineNetIncomeRs": 6000,
     "hasToilet": true,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 2.19,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "JAMUSHANTI13",
@@ -15373,7 +16079,9 @@
     "baselineNetIncomeRs": 4000,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "JAMUSHANTI15",
@@ -15432,7 +16140,9 @@
     "baselineNetIncomeRs": 10000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 35000
+    "migrationNetIncomeRs": 35000,
+    "baselineCultivableLandAcres": 1.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHMEERA3",
@@ -15461,7 +16171,9 @@
     "baselineNetIncomeRs": 23000,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 2.5,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHMEERA4",
@@ -15490,7 +16202,9 @@
     "baselineNetIncomeRs": 20000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 50000
+    "migrationNetIncomeRs": 50000,
+    "baselineCultivableLandAcres": 1.88,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHMEERA5",
@@ -15519,7 +16233,9 @@
     "baselineNetIncomeRs": 5200,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHMEERA6",
@@ -15548,7 +16264,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 60000
+    "migrationNetIncomeRs": 60000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHMEERA7",
@@ -15577,7 +16295,9 @@
     "baselineNetIncomeRs": 2000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 50000
+    "migrationNetIncomeRs": 50000,
+    "baselineCultivableLandAcres": 0.31,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHMEERA8",
@@ -15606,7 +16326,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 25000
+    "migrationNetIncomeRs": 25000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHMEERA9",
@@ -15635,7 +16357,9 @@
     "baselineNetIncomeRs": 32000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 50000
+    "migrationNetIncomeRs": 50000,
+    "baselineCultivableLandAcres": 4.38,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHMEERA10",
@@ -15664,7 +16388,9 @@
     "baselineNetIncomeRs": 5200,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 10000
+    "migrationNetIncomeRs": 10000,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHMEERA11",
@@ -15693,7 +16419,9 @@
     "baselineNetIncomeRs": 11000,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 1.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHMEERA12",
@@ -15722,7 +16450,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 50000
+    "migrationNetIncomeRs": 50000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHMEERA13",
@@ -15751,7 +16481,9 @@
     "baselineNetIncomeRs": 15000,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 1.88,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHMEERA14",
@@ -15790,7 +16522,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 40000
+    "migrationNetIncomeRs": 40000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHGAJNI1",
@@ -15819,7 +16553,9 @@
     "baselineNetIncomeRs": 17000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 50000
+    "migrationNetIncomeRs": 50000,
+    "baselineCultivableLandAcres": 4.38,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHGAJNI2",
@@ -15858,7 +16594,9 @@
     "baselineNetIncomeRs": 5000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 40000
+    "migrationNetIncomeRs": 40000,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHGAJNI4",
@@ -15897,7 +16635,9 @@
     "baselineNetIncomeRs": 5000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 60000
+    "migrationNetIncomeRs": 60000,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHGAJNI6",
@@ -15926,7 +16666,9 @@
     "baselineNetIncomeRs": 37000,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 4.38,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHGAJNI7",
@@ -15955,7 +16697,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHGAJNI8",
@@ -15984,7 +16728,9 @@
     "baselineNetIncomeRs": 32000,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 3.75,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHGAJNI9",
@@ -16013,7 +16759,9 @@
     "baselineNetIncomeRs": 55000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 40000
+    "migrationNetIncomeRs": 40000,
+    "baselineCultivableLandAcres": 6.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHGAJNI10",
@@ -16042,7 +16790,9 @@
     "baselineNetIncomeRs": 12000,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 1.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHGAJNI11",
@@ -16071,7 +16821,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHGAJNI12",
@@ -16100,7 +16852,9 @@
     "baselineNetIncomeRs": 10000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 50000
+    "migrationNetIncomeRs": 50000,
+    "baselineCultivableLandAcres": 2.5,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHGAJNI13",
@@ -16129,7 +16883,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 40000
+    "migrationNetIncomeRs": 40000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHGAJNI14",
@@ -16158,7 +16914,9 @@
     "baselineNetIncomeRs": 32000,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 3.75,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHGAJNI15",
@@ -16187,7 +16945,9 @@
     "baselineNetIncomeRs": 15000,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 1.88,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHGAJNI16",
@@ -16216,7 +16976,9 @@
     "baselineNetIncomeRs": 5000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 35000
+    "migrationNetIncomeRs": 35000,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHMOHANI1",
@@ -16245,7 +17007,9 @@
     "baselineNetIncomeRs": 5000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 25000
+    "migrationNetIncomeRs": 25000,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHMOHANI2",
@@ -16284,7 +17048,9 @@
     "baselineNetIncomeRs": 10000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 40000
+    "migrationNetIncomeRs": 40000,
+    "baselineCultivableLandAcres": 1.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHMOHANI4",
@@ -16313,7 +17079,9 @@
     "baselineNetIncomeRs": 10000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 50000
+    "migrationNetIncomeRs": 50000,
+    "baselineCultivableLandAcres": 1.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHMOHANI5",
@@ -16342,7 +17110,9 @@
     "baselineNetIncomeRs": 5000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 40000
+    "migrationNetIncomeRs": 40000,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHMOHANI6",
@@ -16371,7 +17141,9 @@
     "baselineNetIncomeRs": 10000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 1.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHMOHANI7",
@@ -16400,7 +17172,9 @@
     "baselineNetIncomeRs": 10000,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 1.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHMOHANI8",
@@ -16429,7 +17203,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHMOHANI9",
@@ -16458,7 +17234,9 @@
     "baselineNetIncomeRs": 5200,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 40000
+    "migrationNetIncomeRs": 40000,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHMOHANI10",
@@ -16487,7 +17265,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 25000
+    "migrationNetIncomeRs": 25000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHMOHANI11",
@@ -16516,7 +17296,9 @@
     "baselineNetIncomeRs": 5200,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 40000
+    "migrationNetIncomeRs": 40000,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHMOHANI12",
@@ -16545,7 +17327,9 @@
     "baselineNetIncomeRs": 42000,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 5,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHMOHANI13",
@@ -16574,7 +17358,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 50000
+    "migrationNetIncomeRs": 50000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHMOHANI14",
@@ -16603,7 +17389,9 @@
     "baselineNetIncomeRs": 21000,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 2.5,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHMOHANI15",
@@ -16632,7 +17420,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 50000
+    "migrationNetIncomeRs": 50000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "VISHMOHANI16",
@@ -16661,7 +17451,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 50000
+    "migrationNetIncomeRs": 50000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "NARAJAMUNA1",
@@ -16690,7 +17482,9 @@
     "baselineNetIncomeRs": 25000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 40000
+    "migrationNetIncomeRs": 40000,
+    "baselineCultivableLandAcres": 3.13,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "NARAJAMUNA2",
@@ -16719,7 +17513,9 @@
     "baselineNetIncomeRs": 5000,
     "hasToilet": true,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "NARAJAMUNA3",
@@ -16748,7 +17544,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "NARAJAMUNA4",
@@ -16777,7 +17575,9 @@
     "baselineNetIncomeRs": 6000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 0.94,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "NARAJAMUNA5",
@@ -16806,7 +17606,9 @@
     "baselineNetIncomeRs": 25000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 25000
+    "migrationNetIncomeRs": 25000,
+    "baselineCultivableLandAcres": 3.13,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "NARAJAMUNA6",
@@ -16835,7 +17637,9 @@
     "baselineNetIncomeRs": 5200,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "NARAJAMUNA7",
@@ -16884,7 +17688,9 @@
     "baselineNetIncomeRs": 2500,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 40000
+    "migrationNetIncomeRs": 40000,
+    "baselineCultivableLandAcres": 0.31,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "NARAJAMUNA10",
@@ -16923,7 +17729,9 @@
     "baselineNetIncomeRs": 5000,
     "hasToilet": true,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "NARAJAMUNA12",
@@ -16952,7 +17760,9 @@
     "baselineNetIncomeRs": 5200,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "NARAJAMUNA13",
@@ -16981,7 +17791,9 @@
     "baselineNetIncomeRs": 5200,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 40000
+    "migrationNetIncomeRs": 40000,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "NARAJAMUNA14",
@@ -17010,7 +17822,9 @@
     "baselineNetIncomeRs": 12000,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "NARAJAMUNA15",
@@ -17039,7 +17853,9 @@
     "baselineNetIncomeRs": 5200,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 40000
+    "migrationNetIncomeRs": 40000,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "NARAJAMUNA16",
@@ -17078,7 +17894,9 @@
     "baselineNetIncomeRs": 5000,
     "hasToilet": true,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 2.5,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "NARAJAMUNA18",
@@ -17107,7 +17925,9 @@
     "baselineNetIncomeRs": 6000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 0.94,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "NARAKRISHNA1",
@@ -17136,7 +17956,9 @@
     "baselineNetIncomeRs": 6000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 0.94,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "NARAKRISHNA2",
@@ -17165,7 +17987,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "NARAKRISHNA3",
@@ -17224,7 +18048,9 @@
     "baselineNetIncomeRs": 6000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 0.94,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "NARAKRISHNA7",
@@ -17253,7 +18079,9 @@
     "baselineNetIncomeRs": 2500,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 50000
+    "migrationNetIncomeRs": 50000,
+    "baselineCultivableLandAcres": 0.31,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "NARAKRISHNA8",
@@ -17282,7 +18110,9 @@
     "baselineNetIncomeRs": 6000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 0.94,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "NARAKRISHNA9",
@@ -17311,7 +18141,9 @@
     "baselineNetIncomeRs": 7500,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 35000
+    "migrationNetIncomeRs": 35000,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "NARAKRISHNA10",
@@ -17340,7 +18172,9 @@
     "baselineNetIncomeRs": 12000,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "NARAKRISHNA11",
@@ -17379,7 +18213,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "NARAKRISHNA13",
@@ -17418,7 +18254,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 25000
+    "migrationNetIncomeRs": 25000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "NARAKRISHNA15",
@@ -17447,7 +18285,9 @@
     "baselineNetIncomeRs": 25000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 25000
+    "migrationNetIncomeRs": 25000,
+    "baselineCultivableLandAcres": 3.13,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "NARAKRISHNA16",
@@ -17476,7 +18316,9 @@
     "baselineNetIncomeRs": 5200,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 40000
+    "migrationNetIncomeRs": 40000,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "NARAGANGA1",
@@ -17505,7 +18347,9 @@
     "baselineNetIncomeRs": 40000,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 6.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "NARAGANGA2",
@@ -17534,7 +18378,9 @@
     "baselineNetIncomeRs": 5000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "NARAGANGA3",
@@ -17563,7 +18409,9 @@
     "baselineNetIncomeRs": 25000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 40000
+    "migrationNetIncomeRs": 40000,
+    "baselineCultivableLandAcres": 3.13,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "NARAGANGA4",
@@ -17592,7 +18440,9 @@
     "baselineNetIncomeRs": 2000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 50000
+    "migrationNetIncomeRs": 50000,
+    "baselineCultivableLandAcres": 0.31,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "NARAGANGA5",
@@ -17621,7 +18471,9 @@
     "baselineNetIncomeRs": 15000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 50000
+    "migrationNetIncomeRs": 50000,
+    "baselineCultivableLandAcres": 1.56,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "NARAGANGA6",
@@ -17650,7 +18502,9 @@
     "baselineNetIncomeRs": 10000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 50000
+    "migrationNetIncomeRs": 50000,
+    "baselineCultivableLandAcres": 1.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "NARAGANGA7",
@@ -17679,7 +18533,9 @@
     "baselineNetIncomeRs": 5200,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "NARAGANGA8",
@@ -17708,7 +18564,9 @@
     "baselineNetIncomeRs": 10000,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 1.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "NARAGANGA9",
@@ -17737,7 +18595,9 @@
     "baselineNetIncomeRs": 40000,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 6.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "NARAGANGA10",
@@ -17766,7 +18626,9 @@
     "baselineNetIncomeRs": 10000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 50000
+    "migrationNetIncomeRs": 50000,
+    "baselineCultivableLandAcres": 1.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "NARAGANGA11",
@@ -17795,7 +18657,9 @@
     "baselineNetIncomeRs": 5000,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "NARAGANGA12",
@@ -17824,7 +18688,9 @@
     "baselineNetIncomeRs": 5200,
     "hasToilet": true,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "NARAGANGA13",
@@ -17853,7 +18719,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "NARAGANGA14",
@@ -17882,7 +18750,9 @@
     "baselineNetIncomeRs": 12000,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "NARAGANGA15",
@@ -17921,7 +18791,9 @@
     "baselineNetIncomeRs": 40000,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 6.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "NARAGANESH1",
@@ -17960,7 +18832,9 @@
     "baselineNetIncomeRs": 10000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 40000
+    "migrationNetIncomeRs": 40000,
+    "baselineCultivableLandAcres": 1.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "NARAGANESH3",
@@ -18009,7 +18883,9 @@
     "baselineNetIncomeRs": 6000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 40000
+    "migrationNetIncomeRs": 40000,
+    "baselineCultivableLandAcres": 0.94,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "NARAGANESH6",
@@ -18038,7 +18914,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 40000
+    "migrationNetIncomeRs": 40000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "NARAGANESH7",
@@ -18067,7 +18945,9 @@
     "baselineNetIncomeRs": 6000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 0.94,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "NARAGANESH8",
@@ -18096,7 +18976,9 @@
     "baselineNetIncomeRs": 3000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "NARAGANESH9",
@@ -18125,7 +19007,9 @@
     "baselineNetIncomeRs": 10000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 40000
+    "migrationNetIncomeRs": 40000,
+    "baselineCultivableLandAcres": 1.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "NARAGANESH10",
@@ -18164,7 +19048,9 @@
     "baselineNetIncomeRs": 45000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 5,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "NARAGANESH12",
@@ -18193,7 +19079,9 @@
     "baselineNetIncomeRs": 110000,
     "hasToilet": true,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 18.75,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "NARAGANESH13",
@@ -18222,7 +19110,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "NARAGANESH14",
@@ -18251,7 +19141,9 @@
     "baselineNetIncomeRs": 10000,
     "hasToilet": true,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 1.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "NARAGANESH15",
@@ -18300,7 +19192,9 @@
     "baselineNetIncomeRs": 2500,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 40000
+    "migrationNetIncomeRs": 40000,
+    "baselineCultivableLandAcres": 0.31,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BHATROSHNI1",
@@ -18439,7 +19333,9 @@
     "baselineNetIncomeRs": 2000,
     "hasToilet": true,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 1.88,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "HAJAMAHIMA2",
@@ -18468,7 +19364,9 @@
     "baselineNetIncomeRs": -6000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 1.88,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "HAJAMAHIMA3",
@@ -18497,7 +19395,9 @@
     "baselineNetIncomeRs": -5000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 1.88,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "HAJAMAHIMA4",
@@ -18526,7 +19426,9 @@
     "baselineNetIncomeRs": 10000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 3.13,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "HAJAMAHIMA5",
@@ -18555,7 +19457,9 @@
     "baselineNetIncomeRs": 25000,
     "hasToilet": true,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 7.5,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "HAJAMAHIMA6",
@@ -18584,7 +19488,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 2.5,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "HAJAMAHIMA7",
@@ -18613,7 +19519,9 @@
     "baselineNetIncomeRs": -2000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 1.88,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "HAJAMAHIMA8",
@@ -18642,7 +19550,9 @@
     "baselineNetIncomeRs": 6000,
     "hasToilet": true,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 1.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "HAJAMAHIMA9",
@@ -18671,7 +19581,9 @@
     "baselineNetIncomeRs": 20000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 2.5,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "HAJAMAHIMA10",
@@ -18700,7 +19612,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "HAJAMAHIMA11",
@@ -18729,7 +19643,9 @@
     "baselineNetIncomeRs": 1000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 1.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "HAJAMAHIMA12",
@@ -18758,7 +19674,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "HAJAMAHIMA13",
@@ -18787,7 +19705,9 @@
     "baselineNetIncomeRs": 25000,
     "hasToilet": true,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 7.5,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "HAJAMAHIMA14",
@@ -18816,7 +19736,9 @@
     "baselineNetIncomeRs": 15000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 3.13,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "HAJAMAHIMA15",
@@ -18855,7 +19777,9 @@
     "baselineNetIncomeRs": 20000,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 2.5,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAKRISHNA1",
@@ -18884,7 +19808,9 @@
     "baselineNetIncomeRs": 13500,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAKRISHNA2",
@@ -18913,7 +19839,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 15000
+    "migrationNetIncomeRs": 15000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAKRISHNA3",
@@ -18942,7 +19870,9 @@
     "baselineNetIncomeRs": 54000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 3.13,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAKRISHNA4",
@@ -18971,7 +19901,9 @@
     "baselineNetIncomeRs": 73000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 2.5,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAKRISHNA5",
@@ -19000,7 +19932,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAKRISHNA6",
@@ -19029,7 +19963,9 @@
     "baselineNetIncomeRs": 20000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 0.31,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAKRISHNA7",
@@ -19058,7 +19994,9 @@
     "baselineNetIncomeRs": 12500,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 1.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAKRISHNA8",
@@ -19087,7 +20025,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAKRISHNA9",
@@ -19126,7 +20066,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAKRISHNA11",
@@ -19155,7 +20097,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAKRISHNA12",
@@ -19184,7 +20128,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 10000
+    "migrationNetIncomeRs": 10000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAKRISHNA13",
@@ -19213,7 +20159,9 @@
     "baselineNetIncomeRs": 13500,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAKRISHNA14",
@@ -19242,7 +20190,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAKRISHNA15",
@@ -19271,7 +20221,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAKRISHNA16",
@@ -19300,7 +20252,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAKRISHNA17",
@@ -19329,7 +20283,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAKRISHNA18",
@@ -19358,7 +20314,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAKRISHNA19",
@@ -19387,7 +20345,9 @@
     "baselineNetIncomeRs": 17000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAKRISHNA20",
@@ -19426,7 +20386,9 @@
     "baselineNetIncomeRs": 4000,
     "hasToilet": true,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAARTI2",
@@ -19455,7 +20417,9 @@
     "baselineNetIncomeRs": 3000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 10000
+    "migrationNetIncomeRs": 10000,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAARTI3",
@@ -19484,7 +20448,9 @@
     "baselineNetIncomeRs": 3000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAARTI4",
@@ -19513,7 +20479,9 @@
     "baselineNetIncomeRs": 5000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAARTI5",
@@ -19552,7 +20520,9 @@
     "baselineNetIncomeRs": 2000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAARTI7",
@@ -19591,7 +20561,9 @@
     "baselineNetIncomeRs": 3000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 1.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAARTI9",
@@ -19620,7 +20592,9 @@
     "baselineNetIncomeRs": 10000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 3.13,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAARTI10",
@@ -19649,7 +20623,9 @@
     "baselineNetIncomeRs": 4000,
     "hasToilet": true,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAARTI11",
@@ -19678,7 +20654,9 @@
     "baselineNetIncomeRs": 5000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 40000
+    "migrationNetIncomeRs": 40000,
+    "baselineCultivableLandAcres": 1.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAARTI12",
@@ -19707,7 +20685,9 @@
     "baselineNetIncomeRs": 20000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 3.75,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAARTI13",
@@ -19746,7 +20726,9 @@
     "baselineNetIncomeRs": 5000,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAARTI15",
@@ -19775,7 +20757,9 @@
     "baselineNetIncomeRs": 5000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 1.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAARTI16",
@@ -19804,7 +20788,9 @@
     "baselineNetIncomeRs": 10000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 2.5,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAARTI17",
@@ -19833,7 +20819,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 40000
+    "migrationNetIncomeRs": 40000,
+    "baselineCultivableLandAcres": 2.5,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAARTI18",
@@ -19872,7 +20860,9 @@
     "baselineNetIncomeRs": 36750,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 40000
+    "migrationNetIncomeRs": 40000,
+    "baselineCultivableLandAcres": 1.88,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAJAIMAKALI2",
@@ -19901,7 +20891,9 @@
     "baselineNetIncomeRs": 8000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 40000
+    "migrationNetIncomeRs": 40000,
+    "baselineCultivableLandAcres": 1.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAJAIMAKALI3",
@@ -19930,7 +20922,9 @@
     "baselineNetIncomeRs": 80000,
     "hasToilet": true,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAJAIMAKALI4",
@@ -19979,7 +20973,9 @@
     "baselineNetIncomeRs": 73000,
     "hasToilet": true,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 8.13,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAJAIMAKALI7",
@@ -20008,7 +21004,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 15000
+    "migrationNetIncomeRs": 15000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAJAIMAKALI8",
@@ -20037,7 +21035,9 @@
     "baselineNetIncomeRs": 19500,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 1.88,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAJAIMAKALI9",
@@ -20066,7 +21066,9 @@
     "baselineNetIncomeRs": 48000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 2.5,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAJAIMAKALI10",
@@ -20095,7 +21097,9 @@
     "baselineNetIncomeRs": 13500,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAJAIMAKALI11",
@@ -20124,7 +21128,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAJAIMAKALI12",
@@ -20153,7 +21159,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 40000
+    "migrationNetIncomeRs": 40000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAJAIMAKALI13",
@@ -20192,7 +21200,9 @@
     "baselineNetIncomeRs": 23000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 1.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAJAIMAKALI15",
@@ -20221,7 +21231,9 @@
     "baselineNetIncomeRs": 10000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 3.13,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAJAIMAKALI16",
@@ -20260,7 +21272,9 @@
     "baselineNetIncomeRs": 26000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 1.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAJAIMAKALI18",
@@ -20289,7 +21303,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAJAIMAKALI19",
@@ -20318,7 +21334,9 @@
     "baselineNetIncomeRs": 28000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 1.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAJAIMAKALI20",
@@ -20347,7 +21365,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "HAJAMEERA1",
@@ -20376,7 +21396,9 @@
     "baselineNetIncomeRs": 5000,
     "hasToilet": true,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 1.88,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "HAJAMEERA2",
@@ -20405,7 +21427,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "HAJAMEERA3",
@@ -20434,7 +21458,9 @@
     "baselineNetIncomeRs": 15000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 2.5,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "HAJAMEERA4",
@@ -20463,7 +21489,9 @@
     "baselineNetIncomeRs": 15000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 2.5,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "HAJAMEERA5",
@@ -20492,7 +21520,9 @@
     "baselineNetIncomeRs": 1000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 40000
+    "migrationNetIncomeRs": 40000,
+    "baselineCultivableLandAcres": 2.5,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "HAJAMEERA6",
@@ -20531,7 +21561,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 0.31,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "HAJAMEERA8",
@@ -20560,7 +21592,9 @@
     "baselineNetIncomeRs": 1000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 2.5,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "HAJAMEERA9",
@@ -20589,7 +21623,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 2.5,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "HAJAMEERA10",
@@ -20618,7 +21654,9 @@
     "baselineNetIncomeRs": 500,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 4000
+    "migrationNetIncomeRs": 4000,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "HAJAMEERA11",
@@ -20647,7 +21685,9 @@
     "baselineNetIncomeRs": 5000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 2.5,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "HAJAMEERA12",
@@ -20676,7 +21716,9 @@
     "baselineNetIncomeRs": 6000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 40000
+    "migrationNetIncomeRs": 40000,
+    "baselineCultivableLandAcres": 1.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "HAJAMEERA13",
@@ -20705,7 +21747,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 2.5,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "HAJAMEERA14",
@@ -20734,7 +21778,9 @@
     "baselineNetIncomeRs": 1000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 2.5,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "HAJAMEERA15",
@@ -20763,7 +21809,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "HAJAMEERA16",
@@ -20812,7 +21860,9 @@
     "baselineNetIncomeRs": 5000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 1.88,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "HAJAMEERA19",
@@ -20841,7 +21891,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "HAJAMEERA20",
@@ -20890,7 +21942,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 15000
+    "migrationNetIncomeRs": 15000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAJAIMASANTOSHI3",
@@ -20919,7 +21973,9 @@
     "baselineNetIncomeRs": 160000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 9.38,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAJAIMASANTOSHI4",
@@ -20948,7 +22004,9 @@
     "baselineNetIncomeRs": 59000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 3.13,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAJAIMASANTOSHI5",
@@ -20977,7 +22035,9 @@
     "baselineNetIncomeRs": 36000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 1.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAJAIMASANTOSHI6",
@@ -21006,7 +22066,9 @@
     "baselineNetIncomeRs": 5000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAJAIMASANTOSHI7",
@@ -21045,7 +22107,9 @@
     "baselineNetIncomeRs": 2600,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 1.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAJAIMASANTOSHI9",
@@ -21074,7 +22138,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 40000
+    "migrationNetIncomeRs": 40000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAJAIMASANTOSHI10",
@@ -21103,7 +22169,9 @@
     "baselineNetIncomeRs": 10850,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAJAIMASANTOSHI11",
@@ -21132,7 +22200,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAJAIMASANTOSHI12",
@@ -21161,7 +22231,9 @@
     "baselineNetIncomeRs": 82000,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 3.75,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAJAIMASANTOSHI13",
@@ -21190,7 +22262,9 @@
     "baselineNetIncomeRs": 14050,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAJAIMASANTOSHI14",
@@ -21229,7 +22303,9 @@
     "baselineNetIncomeRs": 160000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 9.38,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAJAIMASANTOSHI16",
@@ -21258,7 +22334,9 @@
     "baselineNetIncomeRs": 90000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 3.13,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAJAIMATADI1",
@@ -21287,7 +22365,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAJAIMATADI2",
@@ -21316,7 +22396,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAJAIMATADI3",
@@ -21345,7 +22427,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAJAIMATADI4",
@@ -21374,7 +22458,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAJAIMATADI5",
@@ -21403,7 +22489,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAJAIMATADI6",
@@ -21432,7 +22520,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAJAIMATADI7",
@@ -21461,7 +22551,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAJAIMATADI8",
@@ -21490,7 +22582,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAJAIMATADI9",
@@ -21519,7 +22613,9 @@
     "baselineNetIncomeRs": 27000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 1.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAJAIMATADI10",
@@ -21548,7 +22644,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAJAIMATADI11",
@@ -21577,7 +22675,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAJAIMATADI12",
@@ -21606,7 +22706,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAJAIMATADI13",
@@ -21635,7 +22737,9 @@
     "baselineNetIncomeRs": 13500,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAJAIMATADI14",
@@ -21674,7 +22778,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 40000
+    "migrationNetIncomeRs": 40000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "MANGKRISHIUTPADAK1",
@@ -22183,7 +23289,9 @@
     "baselineNetIncomeRs": 19000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 10000
+    "migrationNetIncomeRs": 10000,
+    "baselineCultivableLandAcres": 1.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAJAISHREERAM2",
@@ -22212,7 +23320,9 @@
     "baselineNetIncomeRs": 5000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 40000
+    "migrationNetIncomeRs": 40000,
+    "baselineCultivableLandAcres": 1.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAJAISHREERAM3",
@@ -22241,7 +23351,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAJAISHREERAM4",
@@ -22270,7 +23382,9 @@
     "baselineNetIncomeRs": 14000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAJAISHREERAM5",
@@ -22299,7 +23413,9 @@
     "baselineNetIncomeRs": 22000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 1.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAJAISHREERAM6",
@@ -22328,7 +23444,9 @@
     "baselineNetIncomeRs": 57500,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 3.13,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAJAISHREERAM7",
@@ -22357,7 +23475,9 @@
     "baselineNetIncomeRs": 13500,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAJAISHREERAM8",
@@ -22386,7 +23506,9 @@
     "baselineNetIncomeRs": 13500,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAJAISHREERAM9",
@@ -22415,7 +23537,9 @@
     "baselineNetIncomeRs": 70000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 3.13,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAJAISHREERAM10",
@@ -22444,7 +23568,9 @@
     "baselineNetIncomeRs": 26000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 1.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAJAISHREERAM11",
@@ -22473,7 +23599,9 @@
     "baselineNetIncomeRs": 27000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 1.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAJAISHREERAM12",
@@ -22502,7 +23630,9 @@
     "baselineNetIncomeRs": 69000,
     "hasToilet": true,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 3.13,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJAJAISHREERAM13",
@@ -22541,7 +23671,9 @@
     "baselineNetIncomeRs": 14000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJASURAJ2",
@@ -22580,7 +23712,9 @@
     "baselineNetIncomeRs": 11500,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 0.31,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJASURAJ4",
@@ -22609,7 +23743,9 @@
     "baselineNetIncomeRs": 14000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJASURAJ5",
@@ -22638,7 +23774,9 @@
     "baselineNetIncomeRs": 36000,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 1.88,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJASURAJ6",
@@ -22667,7 +23805,9 @@
     "baselineNetIncomeRs": 11000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJASURAJ7",
@@ -22696,7 +23836,9 @@
     "baselineNetIncomeRs": 10000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 2.5,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJASURAJ8",
@@ -22725,7 +23867,9 @@
     "baselineNetIncomeRs": 9000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJASURAJ9",
@@ -22754,7 +23898,9 @@
     "baselineNetIncomeRs": 13500,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJASURAJ10",
@@ -22783,7 +23929,9 @@
     "baselineNetIncomeRs": 10000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 2.5,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJASURAJ11",
@@ -22812,7 +23960,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJASURAJ12",
@@ -22841,7 +23991,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "RAJASURAJ13",
@@ -23410,7 +24562,9 @@
     "baselineNetIncomeRs": 6000,
     "hasToilet": true,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 1.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "HAJASUSHEELA2",
@@ -23439,7 +24593,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 10000
+    "migrationNetIncomeRs": 10000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "HAJASUSHEELA3",
@@ -23478,7 +24634,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 2.5,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "HAJASUSHEELA5",
@@ -23507,7 +24665,9 @@
     "baselineNetIncomeRs": 20000,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 2.5,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "HAJASUSHEELA6",
@@ -23546,7 +24706,9 @@
     "baselineNetIncomeRs": 6000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "HAJASUSHEELA8",
@@ -23575,7 +24737,9 @@
     "baselineNetIncomeRs": -2000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 1.88,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "HAJASUSHEELA9",
@@ -23604,7 +24768,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "HAJASUSHEELA10",
@@ -23633,7 +24799,9 @@
     "baselineNetIncomeRs": 4000,
     "hasToilet": true,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "HAJASUSHEELA11",
@@ -23662,7 +24830,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 6.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "HAJASUSHEELA12",
@@ -23691,7 +24861,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "HAJASUSHEELA13",
@@ -23730,7 +24902,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 0.63,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "HAJASUSHEELA15",
@@ -23769,7 +24943,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "HAJASUSHEELA17",
@@ -23818,7 +24994,9 @@
     "baselineNetIncomeRs": 25000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 6.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "HAJAGANGA2",
@@ -23847,7 +25025,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 1.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "HAJAGANGA3",
@@ -23876,7 +25056,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 10000
+    "migrationNetIncomeRs": 10000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "HAJAGANGA4",
@@ -23915,7 +25097,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "HAJAGANGA6",
@@ -23944,7 +25128,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 1.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "HAJAGANGA7",
@@ -23973,7 +25159,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 30000
+    "migrationNetIncomeRs": 30000,
+    "baselineCultivableLandAcres": 6.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "HAJAGANGA8",
@@ -24012,7 +25200,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": true,
     "migration": true,
-    "migrationNetIncomeRs": 40000
+    "migrationNetIncomeRs": 40000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "HAJAGANGA10",
@@ -24061,7 +25251,9 @@
     "baselineNetIncomeRs": 6000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 40000
+    "migrationNetIncomeRs": 40000,
+    "baselineCultivableLandAcres": 1.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "HAJAGANGA13",
@@ -24090,7 +25282,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 1.25,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "HAJAGANGA14",
@@ -24119,7 +25313,9 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": false,
-    "migrationNetIncomeRs": 0
+    "migrationNetIncomeRs": 0,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "HAJAGANGA15",
@@ -24148,7 +25344,9 @@
     "baselineNetIncomeRs": 10000,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 20000
+    "migrationNetIncomeRs": 20000,
+    "baselineCultivableLandAcres": 3.13,
+    "baselineLeaseLandAcres": 0
   },
   {
     "id": "BADHBALAJI1",
@@ -24617,6 +25815,8 @@
     "baselineNetIncomeRs": 0,
     "hasToilet": false,
     "migration": true,
-    "migrationNetIncomeRs": 27000
+    "migrationNetIncomeRs": 27000,
+    "baselineCultivableLandAcres": 0,
+    "baselineLeaseLandAcres": 0
   }
 ]
