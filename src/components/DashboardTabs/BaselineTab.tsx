@@ -1,0 +1,428 @@
+import React, { useState, useMemo } from 'react';
+import { Users, Map, Sprout, Home, TrendingUp, Shield, Building2, IndianRupee, Info, ChevronDown, BarChart3, Activity } from 'lucide-react';
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, RadarChart, PolarGrid, PolarAngleAxis, Radar, Cell } from 'recharts';
+import baselineSummaryData from '../../data/baseline_summary.json';
+
+// ─────────────────────────────────────────────────────────────
+// Types
+// ─────────────────────────────────────────────────────────────
+interface GPComparisonRow {
+  gp: string;
+  households: number;
+  femaleFarmerPct: number;
+  singleWomenCount: number;
+  cultivableLandBigha: number;
+  avgLandPerFamilyBigha: number;
+  landlessFamiliesPct: number;
+  totalAgriIncome: number;
+  totalNetAgriIncome: number;
+  avgIncomePerBigha: number;
+  toiletPct: number;
+  bankAccountPct: number;
+  govtSchemePct: number;
+  migrationPct: number;
+  aasMembershipPct: number;
+}
+
+// ─────────────────────────────────────────────────────────────
+// Helpers
+// ─────────────────────────────────────────────────────────────
+const fmtLakhs = (rs: number) => {
+  if (rs >= 10_000_000) return `₹${(rs / 10_000_000).toFixed(2)} Cr`;
+  if (rs >= 100_000) return `₹${(rs / 100_000).toFixed(2)} L`;
+  return `₹${rs.toLocaleString('en-IN')}`;
+};
+
+const GP_COLORS: Record<string, string> = {
+  'Karikot': '#10b981',
+  'Chahalwa': '#6366f1',
+  'Fakirpuri': '#f59e0b',
+  'Badkhadiya': '#3b82f6',
+  'Bajpur Bankati': '#ec4899',
+  'Vishunapur': '#8b5cf6',
+};
+
+// ─────────────────────────────────────────────────────────────
+// Sub-components
+// ─────────────────────────────────────────────────────────────
+const StatBadge = ({ label, value, unit, color = 'slate' }: { label: string; value: string | number; unit?: string; color?: string }) => {
+  const colorMap: Record<string, string> = {
+    emerald: 'bg-emerald-50 border-emerald-200 text-emerald-800',
+    blue: 'bg-blue-50 border-blue-200 text-blue-800',
+    amber: 'bg-amber-50 border-amber-200 text-amber-800',
+    rose: 'bg-rose-50 border-rose-200 text-rose-800',
+    slate: 'bg-slate-50 border-slate-200 text-slate-700',
+    purple: 'bg-purple-50 border-purple-200 text-purple-800',
+  };
+  return (
+    <div className={`rounded-xl border px-4 py-3 ${colorMap[color] || colorMap.slate}`}>
+      <div className="text-[10px] font-bold uppercase tracking-widest opacity-60 mb-1">{label}</div>
+      <div className="text-xl font-extrabold leading-none">{value}<span className="text-xs font-semibold ml-1 opacity-60">{unit}</span></div>
+    </div>
+  );
+};
+
+// Bar with value label
+const PctBar = ({ value, color, max = 100 }: { value: number; color: string; max?: number }) => (
+  <div className="flex items-center gap-2 w-full">
+    <div className="flex-1 h-2 bg-slate-100 rounded-full overflow-hidden">
+      <div className="h-full rounded-full transition-all duration-700" style={{ width: `${Math.min((value / max) * 100, 100)}%`, backgroundColor: color }} />
+    </div>
+    <span className="text-xs font-bold text-slate-600 w-10 text-right">{value.toFixed(1)}%</span>
+  </div>
+);
+
+// ─────────────────────────────────────────────────────────────
+// Main Component
+// ─────────────────────────────────────────────────────────────
+export function BaselineTab() {
+  const [activeGP, setActiveGP] = useState<string | null>(null);
+  const [activeMetric, setActiveMetric] = useState<'income' | 'land' | 'social'>('income');
+
+  const { aggregateMetrics, gpComparison, meta } = baselineSummaryData as {
+    aggregateMetrics: any;
+    gpComparison: GPComparisonRow[];
+    meta: any;
+  };
+
+  const selectedGPData = useMemo(() =>
+    activeGP ? gpComparison.find(g => g.gp === activeGP) || null : null,
+    [activeGP, gpComparison]
+  );
+
+  // Chart data based on selected metric
+  const gpChartData = useMemo(() => {
+    return gpComparison.map(gp => ({
+      name: gp.gp.length > 10 ? gp.gp.split(' ')[0] : gp.gp,
+      fullName: gp.gp,
+      ...(activeMetric === 'income' ? {
+        'Net Agri Income (L)': parseFloat((gp.totalNetAgriIncome / 100000).toFixed(2)),
+        'Agri Income (L)': parseFloat((gp.totalAgriIncome / 100000).toFixed(2)),
+      } : activeMetric === 'land' ? {
+        'Cultivable Land (Bigha)': gp.cultivableLandBigha,
+        'Avg/Family (Bigha)': parseFloat(gp.avgLandPerFamilyBigha.toFixed(2)),
+      } : {
+        'Bank Account (%)': gp.bankAccountPct,
+        'Govt Scheme (%)': gp.govtSchemePct,
+        'Toilet Coverage (%)': gp.toiletPct,
+      })
+    }));
+  }, [gpComparison, activeMetric]);
+
+  const topLevelKPIs = [
+    { label: 'Households Surveyed', value: aggregateMetrics.totalHouseholds.toLocaleString('en-IN'), icon: Home, color: 'emerald', sub: `Across ${meta.gpCount} Gram Panchayats` },
+    { label: 'Female Farmers', value: `${aggregateMetrics.femaleFarmerPct.toFixed(1)}%`, icon: Users, color: 'blue', sub: `${aggregateMetrics.femaleFarmers.toLocaleString('en-IN')} of ${(aggregateMetrics.maleFarmers + aggregateMetrics.femaleFarmers).toLocaleString('en-IN')} total` },
+    { label: 'Baseline Net Agri Income', value: fmtLakhs(aggregateMetrics.totalNetAgriIncomeRs), icon: IndianRupee, color: 'amber', sub: 'Total across all 6 GPs (pre-programme)' },
+    { label: 'Bank Account Coverage', value: `${aggregateMetrics.bankAccountPct.toFixed(0)}%`, icon: Shield, color: 'purple', sub: 'Households with active bank account' },
+    { label: 'Govt Scheme Beneficiaries', value: `${aggregateMetrics.govtSchemeBeneficiaryPct.toFixed(1)}%`, icon: Building2, color: 'rose', sub: 'Households accessing ≥1 scheme' },
+    { label: 'Migration Dependency', value: `${aggregateMetrics.migrationMembersPct.toFixed(1)}%`, icon: Map, color: 'slate', sub: 'Families with migration income source' },
+  ];
+
+  const colorForGP = (gp: string) => GP_COLORS[gp] || '#94a3b8';
+
+  return (
+    <div className="space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-700">
+
+      {/* Header */}
+      <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-4">
+        <div>
+          <div className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-amber-700 bg-amber-50 border border-amber-200 rounded-full px-3 py-1 mb-3">
+            <Activity size={11} />
+            Pre-Programme Baseline · {meta.dataType}
+          </div>
+          <h2 className="text-2xl font-bold text-slate-800 tracking-tight">Community Baseline Survey</h2>
+          <p className="text-sm text-slate-500 mt-1.5 max-w-xl">
+            Socio-economic snapshot of <strong>{aggregateMetrics.totalHouseholds.toLocaleString('en-IN')} households</strong> across {meta.gpCount} Gram Panchayats in Mihinpurwa, Bahraich — captured <em>before</em> FASAL programme engagement. This data forms the reference point for all programme impact measurements.
+          </p>
+        </div>
+        <div className="flex items-center gap-2 text-xs text-slate-400 bg-slate-50 border border-slate-200 rounded-lg px-3 py-2 shrink-0 self-start">
+          <Info size={13} />
+          Source: <span className="font-semibold text-slate-600">Base line Data1.xlsx + Baseline Findings NRM.xlsx</span>
+        </div>
+      </div>
+
+      {/* Top-level KPI Cards */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+        {topLevelKPIs.map((kpi, i) => (
+          <div
+            key={i}
+            className="bg-white rounded-2xl border border-slate-200/80 shadow-sm hover:shadow-md hover:border-slate-300 transition-all duration-300 p-5 flex flex-col justify-between min-h-[120px] relative overflow-hidden group"
+          >
+            <div className={`absolute -right-8 -bottom-8 w-20 h-20 rounded-full blur-xl opacity-0 group-hover:opacity-10 transition-opacity duration-500 ${
+              kpi.color === 'emerald' ? 'bg-emerald-400' :
+              kpi.color === 'blue' ? 'bg-blue-400' :
+              kpi.color === 'amber' ? 'bg-amber-400' :
+              kpi.color === 'purple' ? 'bg-purple-400' :
+              kpi.color === 'rose' ? 'bg-rose-400' : 'bg-slate-400'
+            }`} />
+            <div className="flex items-center gap-4">
+              <div className={`p-3 rounded-2xl shrink-0 border border-slate-100 ${
+                kpi.color === 'emerald' ? 'bg-emerald-50 text-emerald-600' :
+                kpi.color === 'blue' ? 'bg-blue-50 text-blue-600' :
+                kpi.color === 'amber' ? 'bg-amber-50 text-amber-600' :
+                kpi.color === 'purple' ? 'bg-purple-50 text-purple-600' :
+                kpi.color === 'rose' ? 'bg-rose-50 text-rose-600' :
+                'bg-slate-50 text-slate-600'
+              }`}>
+                <kpi.icon size={20} />
+              </div>
+              <div className="min-w-0 flex-1">
+                <div className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">{kpi.label}</div>
+                <div className="text-2xl font-extrabold text-slate-800 tracking-tight leading-none mt-1">{kpi.value}</div>
+              </div>
+            </div>
+            <div className="mt-4 pt-3 border-t border-slate-50">
+              <span className="text-[11px] text-slate-400 font-medium">{kpi.sub}</span>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      {/* GP Comparison Charts + Table */}
+      <div className="bg-white rounded-2xl border border-slate-200 shadow-sm p-6">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
+          <div>
+            <h3 className="text-lg font-bold text-slate-800">GP-level Baseline Comparison</h3>
+            <p className="text-xs text-slate-400 mt-0.5">Compare starting conditions across all 6 Gram Panchayats</p>
+          </div>
+          <div className="flex gap-1 bg-slate-100 rounded-lg p-0.5">
+            {(['income', 'land', 'social'] as const).map(m => (
+              <button
+                key={m}
+                onClick={() => setActiveMetric(m)}
+                className={`px-3 py-1.5 text-xs font-semibold rounded-md transition-all capitalize ${activeMetric === m ? 'bg-white text-slate-800 shadow-sm' : 'text-slate-500 hover:text-slate-700'}`}
+              >
+                {m === 'income' ? '💰 Income' : m === 'land' ? '🌾 Land' : '🏛️ Social'}
+              </button>
+            ))}
+          </div>
+        </div>
+
+        <div className="h-64">
+          <ResponsiveContainer width="100%" height="100%">
+            <BarChart data={gpChartData} barCategoryGap="30%">
+              <CartesianGrid strokeDasharray="3 3" stroke="#f1f5f9" />
+              <XAxis dataKey="name" tick={{ fontSize: 11, fill: '#64748b' }} />
+              <YAxis tick={{ fontSize: 11, fill: '#94a3b8' }} />
+              <Tooltip
+                contentStyle={{ borderRadius: '10px', border: '1px solid #e2e8f0', fontSize: 12 }}
+                labelFormatter={(label, payload) => payload?.[0]?.payload?.fullName || label}
+              />
+              {activeMetric === 'income' && <>
+                <Bar dataKey="Agri Income (L)" fill="#a7f3d0" radius={[4,4,0,0]} />
+                <Bar dataKey="Net Agri Income (L)" fill="#10b981" radius={[4,4,0,0]} />
+              </>}
+              {activeMetric === 'land' && <>
+                <Bar dataKey="Cultivable Land (Bigha)" fill="#bfdbfe" radius={[4,4,0,0]} />
+                <Bar dataKey="Avg/Family (Bigha)" fill="#3b82f6" radius={[4,4,0,0]} />
+              </>}
+              {activeMetric === 'social' && <>
+                <Bar dataKey="Bank Account (%)" fill="#c4b5fd" radius={[4,4,0,0]} />
+                <Bar dataKey="Govt Scheme (%)" fill="#8b5cf6" radius={[4,4,0,0]} />
+                <Bar dataKey="Toilet Coverage (%)" fill="#fca5a5" radius={[4,4,0,0]} />
+              </>}
+            </BarChart>
+          </ResponsiveContainer>
+        </div>
+      </div>
+
+      {/* Detailed GP Grid */}
+      <div>
+        <div className="flex items-center justify-between mb-4">
+          <h3 className="text-lg font-bold text-slate-800">GP Profile Cards</h3>
+          <p className="text-xs text-slate-400">Click a card to expand details</p>
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {gpComparison.map((gp) => {
+            const isActive = activeGP === gp.gp;
+            const color = colorForGP(gp.gp);
+            return (
+              <div
+                key={gp.gp}
+                onClick={() => setActiveGP(isActive ? null : gp.gp)}
+                className={`bg-white rounded-2xl border transition-all duration-300 cursor-pointer overflow-hidden ${isActive ? 'border-2 shadow-lg' : 'border-slate-200 hover:border-slate-300 hover:shadow-sm'}`}
+                style={isActive ? { borderColor: color } : {}}
+              >
+                {/* Card header bar */}
+                <div className="h-1.5 w-full" style={{ backgroundColor: color }} />
+
+                <div className="p-4">
+                  <div className="flex items-center justify-between mb-3">
+                    <div>
+                      <div className="font-bold text-slate-800 text-sm">{gp.gp}</div>
+                      <div className="text-[11px] text-slate-400 mt-0.5">{gp.households} households surveyed</div>
+                    </div>
+                    <div className="text-right">
+                      <div className="text-lg font-extrabold text-slate-800">{fmtLakhs(gp.totalNetAgriIncome)}</div>
+                      <div className="text-[10px] text-slate-400">Net Agri Income</div>
+                    </div>
+                  </div>
+
+                  {/* Quick indicators */}
+                  <div className="space-y-2.5">
+                    <div>
+                      <div className="flex items-center justify-between mb-1">
+                        <span className="text-[11px] text-slate-500 font-medium">Female Farmers</span>
+                        <span className="text-[11px] font-bold text-slate-700">{gp.femaleFarmerPct.toFixed(0)}%</span>
+                      </div>
+                      <PctBar value={gp.femaleFarmerPct} color={color} />
+                    </div>
+                    <div>
+                      <div className="flex items-center justify-between mb-1">
+                        <span className="text-[11px] text-slate-500 font-medium">Govt Scheme Access</span>
+                        <span className="text-[11px] font-bold text-slate-700">{gp.govtSchemePct.toFixed(0)}%</span>
+                      </div>
+                      <PctBar value={gp.govtSchemePct} color="#6366f1" />
+                    </div>
+                    <div>
+                      <div className="flex items-center justify-between mb-1">
+                        <span className="text-[11px] text-slate-500 font-medium">Toilet Coverage</span>
+                        <span className="text-[11px] font-bold text-slate-700">{gp.toiletPct.toFixed(0)}%</span>
+                      </div>
+                      <PctBar value={gp.toiletPct} color="#f59e0b" />
+                    </div>
+                  </div>
+
+                  {/* Expand indicator */}
+                  <div className="mt-3 flex items-center justify-center gap-1 text-[10px] text-slate-400">
+                    <ChevronDown size={12} className={`transition-transform ${isActive ? 'rotate-180' : ''}`} />
+                    {isActive ? 'Collapse' : 'View details'}
+                  </div>
+                </div>
+
+                {/* Expanded section */}
+                {isActive && (
+                  <div className="border-t border-slate-100 px-4 pb-4 pt-3 bg-slate-50/50 space-y-3">
+                    <h4 className="text-[11px] font-bold text-slate-600 uppercase tracking-wider">Full Baseline Profile</h4>
+                    <div className="grid grid-cols-2 gap-2">
+                      {[
+                        { label: 'Cultivable Land', value: `${gp.cultivableLandBigha.toLocaleString('en-IN')} bigha` },
+                        { label: 'Avg Land/Family', value: `${gp.avgLandPerFamilyBigha.toFixed(2)} bigha` },
+                        { label: 'Landless Families', value: `${gp.landlessFamiliesPct.toFixed(1)}%` },
+                        { label: 'Avg Income/Bigha', value: fmtLakhs(gp.avgIncomePerBigha) },
+                        { label: 'Single Women', value: gp.singleWomenCount },
+                        { label: 'Bank Account', value: `${gp.bankAccountPct.toFixed(1)}%` },
+                        { label: 'AAS Membership', value: `${gp.aasMembershipPct.toFixed(1)}%` },
+                        { label: 'Migration Dependency', value: `${gp.migrationPct.toFixed(1)}%` },
+                      ].map(({ label, value }) => (
+                        <div key={label} className="bg-white rounded-lg border border-slate-100 px-2.5 py-2">
+                          <div className="text-[9px] font-bold text-slate-400 uppercase tracking-wider">{label}</div>
+                          <div className="text-xs font-bold text-slate-700 mt-0.5">{value}</div>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </div>
+            );
+          })}
+        </div>
+      </div>
+
+      {/* Comparative table: all GPs at once */}
+      <div className="bg-white rounded-2xl border border-slate-200 shadow-sm p-6">
+        <h3 className="text-lg font-bold text-slate-800 mb-5">Full Baseline Data Table — All GPs</h3>
+        <div className="overflow-x-auto">
+          <table className="w-full text-xs min-w-[700px]">
+            <thead>
+              <tr className="border-b border-slate-200 text-slate-400 text-[11px] uppercase tracking-wider">
+                <th className="text-left py-2.5 pr-4 font-semibold">Gram Panchayat</th>
+                <th className="text-right py-2.5 px-3 font-semibold">HH</th>
+                <th className="text-right py-2.5 px-3 font-semibold">Female %</th>
+                <th className="text-right py-2.5 px-3 font-semibold">Land (bigha)</th>
+                <th className="text-right py-2.5 px-3 font-semibold">Agri Income</th>
+                <th className="text-right py-2.5 px-3 font-semibold">Net Income</th>
+                <th className="text-right py-2.5 px-3 font-semibold">Inc/Bigha</th>
+                <th className="text-right py-2.5 px-3 font-semibold">Bank A/C</th>
+                <th className="text-right py-2.5 px-3 font-semibold">Govnt Scheme</th>
+                <th className="text-right py-2.5 pl-3 font-semibold">Toilet</th>
+              </tr>
+            </thead>
+            <tbody className="divide-y divide-slate-50">
+              {gpComparison.map((gp, i) => (
+                <tr
+                  key={gp.gp}
+                  className="hover:bg-slate-50 transition-colors cursor-pointer"
+                  onClick={() => setActiveGP(activeGP === gp.gp ? null : gp.gp)}
+                >
+                  <td className="py-3 pr-4">
+                    <div className="flex items-center gap-2">
+                      <div className="w-2.5 h-2.5 rounded-full shrink-0" style={{ backgroundColor: colorForGP(gp.gp) }} />
+                      <span className="font-semibold text-slate-800">{gp.gp}</span>
+                    </div>
+                  </td>
+                  <td className="py-3 px-3 text-right font-mono text-slate-700">{gp.households}</td>
+                  <td className="py-3 px-3 text-right">
+                    <span className={`px-1.5 py-0.5 rounded font-bold text-[10px] ${gp.femaleFarmerPct >= 80 ? 'bg-emerald-50 text-emerald-700' : 'bg-slate-100 text-slate-600'}`}>
+                      {gp.femaleFarmerPct.toFixed(1)}%
+                    </span>
+                  </td>
+                  <td className="py-3 px-3 text-right font-mono text-slate-600">{gp.cultivableLandBigha.toLocaleString('en-IN')}</td>
+                  <td className="py-3 px-3 text-right font-mono text-slate-700">{fmtLakhs(gp.totalAgriIncome)}</td>
+                  <td className="py-3 px-3 text-right font-mono font-bold text-slate-800">{fmtLakhs(gp.totalNetAgriIncome)}</td>
+                  <td className="py-3 px-3 text-right font-mono text-emerald-600">{fmtLakhs(gp.avgIncomePerBigha)}</td>
+                  <td className="py-3 px-3 text-right">
+                    <span className={`px-1.5 py-0.5 rounded font-bold text-[10px] ${gp.bankAccountPct >= 95 ? 'bg-emerald-50 text-emerald-700' : 'bg-amber-50 text-amber-700'}`}>
+                      {gp.bankAccountPct.toFixed(0)}%
+                    </span>
+                  </td>
+                  <td className="py-3 px-3 text-right">
+                    <span className={`px-1.5 py-0.5 rounded font-bold text-[10px] ${gp.govtSchemePct >= 70 ? 'bg-emerald-50 text-emerald-700' : gp.govtSchemePct >= 50 ? 'bg-amber-50 text-amber-700' : 'bg-rose-50 text-rose-700'}`}>
+                      {gp.govtSchemePct.toFixed(1)}%
+                    </span>
+                  </td>
+                  <td className="py-3 pl-3 text-right">
+                    <span className={`px-1.5 py-0.5 rounded font-bold text-[10px] ${gp.toiletPct >= 60 ? 'bg-emerald-50 text-emerald-700' : gp.toiletPct >= 35 ? 'bg-amber-50 text-amber-700' : 'bg-rose-50 text-rose-700'}`}>
+                      {gp.toiletPct.toFixed(1)}%
+                    </span>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+            {/* Grand Total row */}
+            <tfoot>
+              <tr className="border-t-2 border-slate-200 bg-slate-50">
+                <td className="py-3 pr-4 font-bold text-slate-800">All 6 GPs (Aggregate)</td>
+                <td className="py-3 px-3 text-right font-bold font-mono text-slate-800">{aggregateMetrics.totalHouseholds.toLocaleString('en-IN')}</td>
+                <td className="py-3 px-3 text-right font-bold text-emerald-700">{aggregateMetrics.femaleFarmerPct.toFixed(1)}%</td>
+                <td className="py-3 px-3 text-right font-mono font-bold text-slate-700">{gpComparison.reduce((s, g) => s + g.cultivableLandBigha, 0).toLocaleString('en-IN')}</td>
+                <td className="py-3 px-3 text-right font-mono font-bold text-slate-700">{fmtLakhs(aggregateMetrics.totalAgriIncomeRs)}</td>
+                <td className="py-3 px-3 text-right font-mono font-bold text-slate-800">{fmtLakhs(aggregateMetrics.totalNetAgriIncomeRs)}</td>
+                <td className="py-3 px-3 text-right font-mono font-bold text-emerald-600">—</td>
+                <td className="py-3 px-3 text-right font-bold text-emerald-700">{aggregateMetrics.bankAccountPct.toFixed(0)}%</td>
+                <td className="py-3 px-3 text-right font-bold text-amber-700">{aggregateMetrics.govtSchemeBeneficiaryPct.toFixed(1)}%</td>
+                <td className="py-3 pl-3 text-right font-bold text-amber-700">{aggregateMetrics.toiletHouseholdsPct.toFixed(1)}%</td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+        <p className="text-[10px] text-slate-400 mt-3">
+          Source: <span className="font-semibold">Baseline Findings NRM.xlsx</span> + <span className="font-semibold">Base line Data1.xlsx</span> · Colours: 🟢 Good · 🟡 Moderate · 🔴 Needs Attention
+        </p>
+      </div>
+
+      {/* Key vulnerabilities callout */}
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+        <div className="rounded-2xl border border-rose-200 bg-rose-50/60 p-4">
+          <div className="text-xs font-bold text-rose-700 uppercase tracking-wider mb-2">⚠ High Vulnerability: Sanitation</div>
+          <p className="text-sm text-rose-800">
+            Only <strong>{aggregateMetrics.toiletHouseholdsPct}%</strong> of households had toilets at baseline. Chahalwa GP had the lowest coverage at just <strong>15.1%</strong>.
+          </p>
+        </div>
+        <div className="rounded-2xl border border-amber-200 bg-amber-50/60 p-4">
+          <div className="text-xs font-bold text-amber-700 uppercase tracking-wider mb-2">⚡ Starting Point: Income</div>
+          <p className="text-sm text-amber-800">
+            Baseline net agriculture income across all GPs was <strong>{fmtLakhs(aggregateMetrics.totalNetAgriIncomeRs)}</strong>. Programme target: multiply this through crop diversification.
+          </p>
+        </div>
+        <div className="rounded-2xl border border-emerald-200 bg-emerald-50/60 p-4">
+          <div className="text-xs font-bold text-emerald-700 uppercase tracking-wider mb-2">✅ Strength: Women-Led</div>
+          <p className="text-sm text-emerald-800">
+            <strong>{aggregateMetrics.femaleFarmerPct.toFixed(1)}%</strong> of programme farmers are women, with <strong>{aggregateMetrics.singleWomen?.toLocaleString() || '194'}+</strong> single/widowed women in the cohort.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  );
+}

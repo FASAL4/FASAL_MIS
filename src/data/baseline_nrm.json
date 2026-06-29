@@ -1,0 +1,3198 @@
+{
+  "meta": {
+    "source": "Baseline Findings NRM.xlsx",
+    "description": "GP-level NRM (Natural Resource Management) baseline indicator data"
+  },
+  "byGP": {
+    "All GPs (Summary)": [
+      {
+        "code": "1",
+        "label": "Total Households Surveyed",
+        "rawLabel": "Total Household Survey",
+        "value": 2060,
+        "unit": "Family",
+        "percentage": null
+      },
+      {
+        "code": "1.1",
+        "label": "Male Farmers",
+        "rawLabel": "Male Farmers",
+        "value": 264,
+        "unit": "Farmers",
+        "percentage": 12.8
+      },
+      {
+        "code": "1.2",
+        "label": "Female Farmers",
+        "rawLabel": "Female Farmers",
+        "value": 1796,
+        "unit": "Farmers",
+        "percentage": 87.2
+      },
+      {
+        "code": "1.3",
+        "label": "Married",
+        "rawLabel": "Married",
+        "value": 1845,
+        "unit": "Member",
+        "percentage": 89.6
+      },
+      {
+        "code": "1.4",
+        "label": "Unmarried",
+        "rawLabel": "Unmarried",
+        "value": 10,
+        "unit": "Member",
+        "percentage": 0.5
+      },
+      {
+        "code": "1.5",
+        "label": "Single Women (Widowed/Separated)",
+        "rawLabel": "Single Women",
+        "value": 198,
+        "unit": "Member",
+        "percentage": 9.6
+      },
+      {
+        "code": "1.6",
+        "label": "Husband wife leaving each other",
+        "rawLabel": "Husband wife leaving each other",
+        "value": 6,
+        "unit": "Member",
+        "percentage": 0.3
+      },
+      {
+        "code": "1.7",
+        "label": "Leaving on each other",
+        "rawLabel": "Leaving on each other",
+        "value": 1,
+        "unit": "Member",
+        "percentage": 0
+      },
+      {
+        "code": "1.8",
+        "label": "Total Family Members Surveyed",
+        "rawLabel": "Total number of family members surveyed",
+        "value": 9412,
+        "unit": "Member",
+        "percentage": null
+      },
+      {
+        "code": "1.9",
+        "label": "Avg Family Size",
+        "rawLabel": "Average member in the  family",
+        "value": 4.57,
+        "unit": "Member",
+        "percentage": null
+      },
+      {
+        "code": "",
+        "label": "Male Members",
+        "rawLabel": "Male Members",
+        "value": 4796,
+        "unit": "Member",
+        "percentage": 509.6
+      },
+      {
+        "code": "",
+        "label": "Female Members",
+        "rawLabel": "Female Members",
+        "value": 4618,
+        "unit": "Member",
+        "percentage": 49.1
+      },
+      {
+        "code": "2",
+        "label": "Religion",
+        "rawLabel": "Religion",
+        "value": 2006,
+        "unit": "Member",
+        "percentage": 97.4
+      },
+      {
+        "code": "3",
+        "label": "Cast",
+        "rawLabel": "Cast",
+        "value": 0,
+        "unit": "Member",
+        "percentage": null
+      },
+      {
+        "code": "4",
+        "label": "Card",
+        "rawLabel": "Card",
+        "value": 144,
+        "unit": "Member",
+        "percentage": 7
+      },
+      {
+        "code": "5",
+        "label": "Bank Account Holders",
+        "rawLabel": "Bank Account",
+        "value": 2003,
+        "unit": "Member",
+        "percentage": 97.2
+      },
+      {
+        "code": "6",
+        "label": "AAS Groups in Village",
+        "rawLabel": "Total AAS in the Village",
+        "value": 72,
+        "unit": "AAS",
+        "percentage": null
+      },
+      {
+        "code": "6.1",
+        "label": "AAS Membership",
+        "rawLabel": "Total Members Join AAS",
+        "value": 1500,
+        "unit": "Member",
+        "percentage": 72.8
+      },
+      {
+        "code": "7",
+        "label": "Portal Registration",
+        "rawLabel": "Portal Registration",
+        "value": 0,
+        "unit": "Family",
+        "percentage": null
+      },
+      {
+        "code": "8",
+        "label": "Total Cultivable Land (Bigha)",
+        "rawLabel": "Total cultivable land",
+        "value": 5869,
+        "unit": "Beegha",
+        "percentage": null
+      },
+      {
+        "code": "8.1",
+        "label": "Avg Land per Family (Bigha)",
+        "rawLabel": "Average land per family",
+        "value": 2.85,
+        "unit": "Beegha",
+        "percentage": null
+      },
+      {
+        "code": "8.2",
+        "label": "Total  own land of Farmer",
+        "rawLabel": "Total  own land of Farmer",
+        "value": 5279,
+        "unit": "Beegha",
+        "percentage": null
+      },
+      {
+        "code": "8.3",
+        "label": "Total lease land of Farmer",
+        "rawLabel": "Total lease land of Farmer",
+        "value": 590,
+        "unit": "Beegha",
+        "percentage": null
+      },
+      {
+        "code": "8.4",
+        "label": "Landless Families",
+        "rawLabel": "Landless families",
+        "value": 848,
+        "unit": "Family",
+        "percentage": 41.2
+      },
+      {
+        "code": "8.5",
+        "label": "Landless Families Cultivating Rented Land",
+        "rawLabel": "landless families cultivate on lease land",
+        "value": 131,
+        "unit": "Family",
+        "percentage": 6.4
+      },
+      {
+        "code": "8.6",
+        "label": "Families Not Farming",
+        "rawLabel": "Total families do not farm",
+        "value": 736,
+        "unit": "Family",
+        "percentage": 35.7
+      },
+      {
+        "code": "9",
+        "label": "Main Crop",
+        "rawLabel": "Main Crop",
+        "value": 1222,
+        "unit": "Family",
+        "percentage": 59.3
+      },
+      {
+        "code": "10",
+        "label": "Total Cultivation Cost (INR)",
+        "rawLabel": "Total cost of cultivation",
+        "value": 34593300,
+        "unit": "INR.",
+        "percentage": null
+      },
+      {
+        "code": "10.1",
+        "label": "Total Agriculture Income (INR)",
+        "rawLabel": "Total income from agriculture",
+        "value": 61156900,
+        "unit": "INR.",
+        "percentage": null
+      },
+      {
+        "code": "10.2",
+        "label": "Total Net Income from Agriculture (INR)",
+        "rawLabel": "Total net income from agriculture",
+        "value": 26563600,
+        "unit": "INR.",
+        "percentage": null
+      },
+      {
+        "code": "10.3",
+        "label": "Avg Cost per Bigha (INR)",
+        "rawLabel": "Average cost per bigha",
+        "value": 37468.44,
+        "unit": "INR.",
+        "percentage": null
+      },
+      {
+        "code": "10.4",
+        "label": "Avg Income per Bigha (INR)",
+        "rawLabel": "Average income per bigha",
+        "value": 63355.37,
+        "unit": "INR.",
+        "percentage": null
+      },
+      {
+        "code": "10.5",
+        "label": "Total Fertilizer Use (Kgs)",
+        "rawLabel": "Total fertilizer use",
+        "value": 184689,
+        "unit": "Kgs",
+        "percentage": null
+      },
+      {
+        "code": "10.6",
+        "label": "Avg Fertilizer per Bigha (Kgs)",
+        "rawLabel": "Average use of fertilizer per bigha",
+        "value": 31.47,
+        "unit": "Kgs",
+        "percentage": null
+      },
+      {
+        "code": "10.7",
+        "label": "Total Farmers",
+        "rawLabel": "Total farmer",
+        "value": 2614,
+        "unit": "Farmers",
+        "percentage": null
+      },
+      {
+        "code": "10.8",
+        "label": "Avg Farmers per Family",
+        "rawLabel": "Number of farmers per family",
+        "value": 1.27,
+        "unit": "Farmers",
+        "percentage": null
+      },
+      {
+        "code": "11",
+        "label": "Main source of irrigation",
+        "rawLabel": "Main source of irrigation",
+        "value": 0,
+        "unit": "0",
+        "percentage": null
+      },
+      {
+        "code": "12",
+        "label": "Total Animals",
+        "rawLabel": "Total number of animals",
+        "value": 4787,
+        "unit": "Animals",
+        "percentage": null
+      },
+      {
+        "code": "12.1",
+        "label": "Avg Animals per Family",
+        "rawLabel": "Average number of animals per family",
+        "value": 2.32,
+        "unit": "Animals",
+        "percentage": null
+      },
+      {
+        "code": "13",
+        "label": "Village level facilities",
+        "rawLabel": "Village level facilities",
+        "value": 0,
+        "unit": "0",
+        "percentage": null
+      },
+      {
+        "code": "13.5",
+        "label": "Households with Toilets",
+        "rawLabel": "Total number of toilets in the village",
+        "value": 871,
+        "unit": "Family",
+        "percentage": 42.3
+      },
+      {
+        "code": "14",
+        "label": "Water system",
+        "rawLabel": "Water system",
+        "value": 0,
+        "unit": "0",
+        "percentage": null
+      },
+      {
+        "code": "14.2",
+        "label": "Housing Scheme Beneficiaries",
+        "rawLabel": "Housing scheme",
+        "value": 564,
+        "unit": "Family",
+        "percentage": 27.4
+      },
+      {
+        "code": "",
+        "label": "Jan Dhan Scheme",
+        "rawLabel": "Jan Dhan Scheme",
+        "value": 124,
+        "unit": "",
+        "percentage": null
+      },
+      {
+        "code": "14.3",
+        "label": "Jan Dhan Yojana Beneficiaries",
+        "rawLabel": "Pond",
+        "value": 0,
+        "unit": "0",
+        "percentage": null
+      },
+      {
+        "code": "14.5",
+        "label": "JSK",
+        "rawLabel": "JSK",
+        "value": 0,
+        "unit": "0",
+        "percentage": null
+      },
+      {
+        "code": "14.6",
+        "label": "Electricity systems",
+        "rawLabel": "Electricity systems",
+        "value": 0,
+        "unit": "0",
+        "percentage": null
+      },
+      {
+        "code": "15",
+        "label": "Vaccinated Families",
+        "rawLabel": "Vaccination",
+        "value": 1615,
+        "unit": "Family",
+        "percentage": 28.1
+      },
+      {
+        "code": "15.1",
+        "label": "Educational level",
+        "rawLabel": "Educational level",
+        "value": 5746.6,
+        "unit": "Member",
+        "percentage": null
+      },
+      {
+        "code": "16",
+        "label": "Migration Members",
+        "rawLabel": "Migration",
+        "value": 1485,
+        "unit": "Member",
+        "percentage": 72.1
+      },
+      {
+        "code": "17",
+        "label": "Govt Scheme Beneficiaries",
+        "rawLabel": "Number of families taking benefits of government schemes",
+        "value": 1358,
+        "unit": "Family",
+        "percentage": 65.9
+      },
+      {
+        "code": "18",
+        "label": "Knowledge of Gram Sabha",
+        "rawLabel": "Knowledge of Gram Sabha",
+        "value": 0,
+        "unit": "",
+        "percentage": null
+      },
+      {
+        "code": "19",
+        "label": "The family attended the meeting of all the village",
+        "rawLabel": "The family attended the meeting of all the village",
+        "value": 0,
+        "unit": "",
+        "percentage": null
+      },
+      {
+        "code": "20",
+        "label": "Knowledge of Village level Committee",
+        "rawLabel": "Knowledge of Village level Committee",
+        "value": 0,
+        "unit": "",
+        "percentage": null
+      },
+      {
+        "code": "21",
+        "label": "Information about the member of committee of Gram Sabha",
+        "rawLabel": "Information about the member of committee of Gram Sabha",
+        "value": 0,
+        "unit": "",
+        "percentage": null
+      },
+      {
+        "code": "",
+        "label": "Gram Sabha Meeting Held",
+        "rawLabel": "Gram Sabha Meeting Held",
+        "value": 0,
+        "unit": "",
+        "percentage": null
+      }
+    ],
+    "Badkhadiya": [
+      {
+        "code": "1",
+        "label": "Total Households Surveyed",
+        "rawLabel": "Total Household Survey",
+        "value": 47,
+        "unit": "Family",
+        "percentage": null
+      },
+      {
+        "code": "1.1",
+        "label": "Male Farmers",
+        "rawLabel": "Male Farmers",
+        "value": 19,
+        "unit": "Farmers",
+        "percentage": 40.4
+      },
+      {
+        "code": "1.2",
+        "label": "Female Farmers",
+        "rawLabel": "Female Farmers",
+        "value": 28,
+        "unit": "Farmers",
+        "percentage": 59.6
+      },
+      {
+        "code": "1.3",
+        "label": "Married",
+        "rawLabel": "Married",
+        "value": 44,
+        "unit": "Member",
+        "percentage": 93.6
+      },
+      {
+        "code": "1.4",
+        "label": "Unmarried",
+        "rawLabel": "Unmarried",
+        "value": 0,
+        "unit": "Member",
+        "percentage": null
+      },
+      {
+        "code": "1.5",
+        "label": "Single Women (Widowed/Separated)",
+        "rawLabel": "Single Women",
+        "value": 3,
+        "unit": "Member",
+        "percentage": 6.4
+      },
+      {
+        "code": "1.6",
+        "label": "Husband wife leaving each other",
+        "rawLabel": "Husband wife leaving each other",
+        "value": 0,
+        "unit": "Member",
+        "percentage": null
+      },
+      {
+        "code": "1.7",
+        "label": "Leaving on each other",
+        "rawLabel": "Leaving on each other",
+        "value": 0,
+        "unit": "Member",
+        "percentage": null
+      },
+      {
+        "code": "1.8",
+        "label": "Total Family Members Surveyed",
+        "rawLabel": "Total number of family members surveyed",
+        "value": 201,
+        "unit": "Member",
+        "percentage": null
+      },
+      {
+        "code": "1.9",
+        "label": "Avg Family Size",
+        "rawLabel": "Average member in the  family",
+        "value": 4.28,
+        "unit": "Member",
+        "percentage": null
+      },
+      {
+        "code": "",
+        "label": "Male Members",
+        "rawLabel": "Male Members",
+        "value": 96,
+        "unit": "Member",
+        "percentage": 477.6
+      },
+      {
+        "code": "",
+        "label": "Female Members",
+        "rawLabel": "Female Members",
+        "value": 105,
+        "unit": "Member",
+        "percentage": 52.2
+      },
+      {
+        "code": "2",
+        "label": "Religion",
+        "rawLabel": "Religion",
+        "value": 37,
+        "unit": "Member",
+        "percentage": 78.7
+      },
+      {
+        "code": "3",
+        "label": "Cast",
+        "rawLabel": "Cast",
+        "value": 0,
+        "unit": "Member",
+        "percentage": null
+      },
+      {
+        "code": "4",
+        "label": "Card",
+        "rawLabel": "Card",
+        "value": 3,
+        "unit": "Member",
+        "percentage": 6.4
+      },
+      {
+        "code": "5",
+        "label": "Bank Account Holders",
+        "rawLabel": "Bank Account",
+        "value": 45,
+        "unit": "Member",
+        "percentage": 95.7
+      },
+      {
+        "code": "6",
+        "label": "AAS Groups in Village",
+        "rawLabel": "Total AAS in the Village",
+        "value": 3,
+        "unit": "AAS",
+        "percentage": null
+      },
+      {
+        "code": "6.1",
+        "label": "AAS Membership",
+        "rawLabel": "Total Members Join AAS",
+        "value": 45,
+        "unit": "Member",
+        "percentage": 95.7
+      },
+      {
+        "code": "7",
+        "label": "Portal Registration",
+        "rawLabel": "Portal Registration",
+        "value": 0,
+        "unit": "Family",
+        "percentage": null
+      },
+      {
+        "code": "8",
+        "label": "Total Cultivable Land (Bigha)",
+        "rawLabel": "total cultivable land",
+        "value": 113,
+        "unit": "Beegha",
+        "percentage": null
+      },
+      {
+        "code": "8.1",
+        "label": "Avg Land per Family (Bigha)",
+        "rawLabel": "Average land per family",
+        "value": 2.4,
+        "unit": "Beegha",
+        "percentage": null
+      },
+      {
+        "code": "8.2",
+        "label": "Total farmers own land",
+        "rawLabel": "Total farmers own land",
+        "value": 50,
+        "unit": "Beegha",
+        "percentage": null
+      },
+      {
+        "code": "8.3",
+        "label": "Rental land with total farmers",
+        "rawLabel": "Rental land with total farmers",
+        "value": 63,
+        "unit": "Beegha",
+        "percentage": null
+      },
+      {
+        "code": "8.4",
+        "label": "Landless Families",
+        "rawLabel": "Landless families who do not own land",
+        "value": 28,
+        "unit": "Family",
+        "percentage": 59.6
+      },
+      {
+        "code": "8.5",
+        "label": "Landless Families Cultivating Rented Land",
+        "rawLabel": "landless families who cultivate on rented land",
+        "value": 25,
+        "unit": "Family",
+        "percentage": 53.2
+      },
+      {
+        "code": "8.6",
+        "label": "Families Not Farming",
+        "rawLabel": "families that do not farm",
+        "value": 11,
+        "unit": "Family",
+        "percentage": 23.4
+      },
+      {
+        "code": "9",
+        "label": "Main Crop",
+        "rawLabel": "Main Crop",
+        "value": 35,
+        "unit": "Family",
+        "percentage": 74.5
+      },
+      {
+        "code": "10",
+        "label": "Total Cultivation Cost (INR)",
+        "rawLabel": "total cost of cultivation",
+        "value": 872000,
+        "unit": "INR.",
+        "percentage": null
+      },
+      {
+        "code": "10.1",
+        "label": "Total Agriculture Income (INR)",
+        "rawLabel": "total income from agriculture",
+        "value": 1389000,
+        "unit": "INR.",
+        "percentage": null
+      },
+      {
+        "code": "10.2",
+        "label": "Total Net Income from Agriculture (INR)",
+        "rawLabel": "total income from agriculture",
+        "value": 517000,
+        "unit": "INR.",
+        "percentage": null
+      },
+      {
+        "code": "10.3",
+        "label": "Avg Cost per Bigha (INR)",
+        "rawLabel": "Average cost per bigha per family",
+        "value": 7716.81,
+        "unit": "INR.",
+        "percentage": null
+      },
+      {
+        "code": "10.4",
+        "label": "Avg Income per Bigha (INR)",
+        "rawLabel": "Average income per bigha per family",
+        "value": 12292.04,
+        "unit": "INR.",
+        "percentage": null
+      },
+      {
+        "code": "10.5",
+        "label": "Total Fertilizer Use (Kgs)",
+        "rawLabel": "total fertilizer use",
+        "value": 3510,
+        "unit": "Kgs",
+        "percentage": null
+      },
+      {
+        "code": "10.6",
+        "label": "Avg Fertilizer per Bigha (Kgs)",
+        "rawLabel": "Average use of fertilizer per bigha per family",
+        "value": 31.06,
+        "unit": "Kgs",
+        "percentage": null
+      },
+      {
+        "code": "10.7",
+        "label": "Total Farmers",
+        "rawLabel": "total farmer",
+        "value": 70,
+        "unit": "Farmers",
+        "percentage": null
+      },
+      {
+        "code": "10.8",
+        "label": "Avg Farmers per Family",
+        "rawLabel": "Number of farmers per family",
+        "value": 1.49,
+        "unit": "Farmers",
+        "percentage": null
+      },
+      {
+        "code": "11",
+        "label": "main source of irrigation",
+        "rawLabel": "main source of irrigation",
+        "value": 0,
+        "unit": "0",
+        "percentage": null
+      },
+      {
+        "code": "12",
+        "label": "Total Animals",
+        "rawLabel": "total number of animals",
+        "value": 83,
+        "unit": "Animals",
+        "percentage": null
+      },
+      {
+        "code": "12.1",
+        "label": "Avg Animals per Family",
+        "rawLabel": "Average number of animals per family",
+        "value": 1.77,
+        "unit": "Animals",
+        "percentage": null
+      },
+      {
+        "code": "13",
+        "label": "village level facilities",
+        "rawLabel": "village level facilities",
+        "value": 0,
+        "unit": "0",
+        "percentage": null
+      },
+      {
+        "code": "13.5",
+        "label": "Households with Toilets",
+        "rawLabel": "Total number of toilets in the village",
+        "value": 20,
+        "unit": "Family",
+        "percentage": 42.6
+      },
+      {
+        "code": "13.8",
+        "label": "Percentage of toilets available in the village",
+        "rawLabel": "Percentage of toilets available in the village",
+        "value": 90,
+        "unit": "Percentage",
+        "percentage": null
+      },
+      {
+        "code": "14",
+        "label": "water system",
+        "rawLabel": "water system",
+        "value": 0,
+        "unit": "0",
+        "percentage": null
+      },
+      {
+        "code": "14.2",
+        "label": "Housing Scheme Beneficiaries",
+        "rawLabel": "housing scheme",
+        "value": 18,
+        "unit": "Family",
+        "percentage": 38.3
+      },
+      {
+        "code": "14.3",
+        "label": "Jan Dhan Yojana Beneficiaries",
+        "rawLabel": "Pond",
+        "value": 0,
+        "unit": "0",
+        "percentage": null
+      },
+      {
+        "code": "14.5",
+        "label": "JSK in the village",
+        "rawLabel": "JSK in the village",
+        "value": 0,
+        "unit": "0",
+        "percentage": null
+      },
+      {
+        "code": "14.6",
+        "label": "electricity in the Village",
+        "rawLabel": "electricity in the Village",
+        "value": 0,
+        "unit": "0",
+        "percentage": null
+      },
+      {
+        "code": "15",
+        "label": "Vaccinated Families",
+        "rawLabel": "vaccination",
+        "value": 28,
+        "unit": "Family",
+        "percentage": 13.9
+      },
+      {
+        "code": "15.1",
+        "label": "educational level",
+        "rawLabel": "educational level",
+        "value": 201,
+        "unit": "Member",
+        "percentage": null
+      },
+      {
+        "code": "16",
+        "label": "Migration Members",
+        "rawLabel": "Migration",
+        "value": 28,
+        "unit": "Member",
+        "percentage": 59.6
+      },
+      {
+        "code": "17",
+        "label": "Govt Scheme Beneficiaries",
+        "rawLabel": "Number of families taking benefits of government schemes",
+        "value": 41,
+        "unit": "Family",
+        "percentage": 87.2
+      },
+      {
+        "code": "18",
+        "label": "Gram Sabha information",
+        "rawLabel": "Gram Sabha information",
+        "value": 0,
+        "unit": "",
+        "percentage": null
+      },
+      {
+        "code": "19",
+        "label": "The family attended the meeting of all the village",
+        "rawLabel": "The family attended the meeting of all the village",
+        "value": 0,
+        "unit": "",
+        "percentage": null
+      },
+      {
+        "code": "20",
+        "label": "village committee information",
+        "rawLabel": "village committee information",
+        "value": 0,
+        "unit": "",
+        "percentage": null
+      },
+      {
+        "code": "21",
+        "label": "Information about the member of committee of Gram Sabha",
+        "rawLabel": "Information about the member of committee of Gram Sabha",
+        "value": 0,
+        "unit": "",
+        "percentage": null
+      },
+      {
+        "code": "",
+        "label": "When are the Gram Sabha meetings held?",
+        "rawLabel": "When are the Gram Sabha meetings held?",
+        "value": 0,
+        "unit": "",
+        "percentage": null
+      }
+    ],
+    "Bajpur Bankati": [
+      {
+        "code": "1",
+        "label": "Total Households Surveyed",
+        "rawLabel": "Total house hold Survey",
+        "value": 137,
+        "unit": "Family",
+        "percentage": null
+      },
+      {
+        "code": "1.1",
+        "label": "Male Farmers",
+        "rawLabel": "Male Farmers",
+        "value": 15,
+        "unit": "Family",
+        "percentage": 10.9
+      },
+      {
+        "code": "1.2",
+        "label": "Female Farmers",
+        "rawLabel": "Female Farmers",
+        "value": 122,
+        "unit": "Farmers",
+        "percentage": 89.1
+      },
+      {
+        "code": "1.3",
+        "label": "Married",
+        "rawLabel": "Married",
+        "value": 104,
+        "unit": "Members",
+        "percentage": 75.9
+      },
+      {
+        "code": "1.4",
+        "label": "Unmarried",
+        "rawLabel": "Unmarried",
+        "value": 0,
+        "unit": "Members",
+        "percentage": null
+      },
+      {
+        "code": "1.5",
+        "label": "Single Women (Widowed/Separated)",
+        "rawLabel": "Single Women",
+        "value": 32,
+        "unit": "Members",
+        "percentage": 23.4
+      },
+      {
+        "code": "1.6",
+        "label": "Leaving from each other",
+        "rawLabel": "Leaving from each other",
+        "value": 1,
+        "unit": "Members",
+        "percentage": 0.7
+      },
+      {
+        "code": "1.7",
+        "label": "Leaving from each other",
+        "rawLabel": "Leaving from each other",
+        "value": 0,
+        "unit": "Members",
+        "percentage": null
+      },
+      {
+        "code": "1.8",
+        "label": "Total Family Members Surveyed",
+        "rawLabel": "Total number of family members surveyed",
+        "value": 572,
+        "unit": "Members",
+        "percentage": null
+      },
+      {
+        "code": "1.9",
+        "label": "Avg Family Size",
+        "rawLabel": "Average total number per family",
+        "value": 4.18,
+        "unit": "Members",
+        "percentage": null
+      },
+      {
+        "code": "",
+        "label": "Male Members",
+        "rawLabel": "Male Members",
+        "value": 277,
+        "unit": "Members",
+        "percentage": 48.4
+      },
+      {
+        "code": "",
+        "label": "Female Members",
+        "rawLabel": "Female Members",
+        "value": 295,
+        "unit": "Members",
+        "percentage": 51.6
+      },
+      {
+        "code": "2",
+        "label": "Religion",
+        "rawLabel": "Religion",
+        "value": 128,
+        "unit": "Family",
+        "percentage": 93.4
+      },
+      {
+        "code": "3",
+        "label": "Cast",
+        "rawLabel": "Cast",
+        "value": 0,
+        "unit": "Family",
+        "percentage": null
+      },
+      {
+        "code": "4",
+        "label": "Card",
+        "rawLabel": "Card",
+        "value": 27,
+        "unit": "Family",
+        "percentage": 19.7
+      },
+      {
+        "code": "5",
+        "label": "Bank Account Holders",
+        "rawLabel": "Bank Account",
+        "value": 136,
+        "unit": "Members",
+        "percentage": 99.3
+      },
+      {
+        "code": "6",
+        "label": "AAS Groups in Village",
+        "rawLabel": "Total AAS in the Village",
+        "value": 6,
+        "unit": "AAS",
+        "percentage": null
+      },
+      {
+        "code": "6.1",
+        "label": "AAS Membership",
+        "rawLabel": "Total Members Join AAS",
+        "value": 115,
+        "unit": "Members",
+        "percentage": 83.9
+      },
+      {
+        "code": "7",
+        "label": "Portal Registration",
+        "rawLabel": "Portal Registration",
+        "value": 0,
+        "unit": "Family",
+        "percentage": null
+      },
+      {
+        "code": "8",
+        "label": "Total Cultivable Land (Bigha)",
+        "rawLabel": "total cultivable land",
+        "value": 268,
+        "unit": "Beegha",
+        "percentage": null
+      },
+      {
+        "code": "8.1",
+        "label": "Avg Land per Family (Bigha)",
+        "rawLabel": "Average land per family",
+        "value": 1.96,
+        "unit": "Beegha",
+        "percentage": null
+      },
+      {
+        "code": "8.2",
+        "label": "Total farmers own land",
+        "rawLabel": "Total farmers own land",
+        "value": 255,
+        "unit": "Beegha",
+        "percentage": null
+      },
+      {
+        "code": "8.3",
+        "label": "Rental land with total farmers",
+        "rawLabel": "Rental land with total farmers",
+        "value": 13,
+        "unit": "Beegha",
+        "percentage": null
+      },
+      {
+        "code": "8.4",
+        "label": "Landless Families",
+        "rawLabel": "Landless families who do not own land",
+        "value": 35,
+        "unit": "Family",
+        "percentage": 25.5
+      },
+      {
+        "code": "8.5",
+        "label": "Landless Families Cultivating Rented Land",
+        "rawLabel": "landless families who cultivate on rented land",
+        "value": 7,
+        "unit": "Family",
+        "percentage": 5.1
+      },
+      {
+        "code": "8.6",
+        "label": "Families Not Farming",
+        "rawLabel": "families that do not farm",
+        "value": 35,
+        "unit": "Family",
+        "percentage": 25.5
+      },
+      {
+        "code": "9",
+        "label": "Main Crop",
+        "rawLabel": "Main Crop",
+        "value": 93,
+        "unit": "Family",
+        "percentage": 67.9
+      },
+      {
+        "code": "10",
+        "label": "Total Cultivation Cost (INR)",
+        "rawLabel": "total cost of cultivation",
+        "value": 2159600,
+        "unit": "INR.",
+        "percentage": null
+      },
+      {
+        "code": "10.1",
+        "label": "Total Agriculture Income (INR)",
+        "rawLabel": "total income from agriculture",
+        "value": 3348800,
+        "unit": "INR.",
+        "percentage": null
+      },
+      {
+        "code": "10.2",
+        "label": "Total Net Income from Agriculture (INR)",
+        "rawLabel": "total income from agriculture",
+        "value": 1189200,
+        "unit": "INR.",
+        "percentage": null
+      },
+      {
+        "code": "10.3",
+        "label": "Avg Cost per Bigha (INR)",
+        "rawLabel": "Average cost per bigha per family",
+        "value": 8058.21,
+        "unit": "INR.",
+        "percentage": null
+      },
+      {
+        "code": "10.4",
+        "label": "Avg Income per Bigha (INR)",
+        "rawLabel": "Average income per bigha per family",
+        "value": 12495.52,
+        "unit": "INR.",
+        "percentage": null
+      },
+      {
+        "code": "10.5",
+        "label": "Total Fertilizer Use (Kgs)",
+        "rawLabel": "total fertilizer use",
+        "value": 8160,
+        "unit": "Kgs",
+        "percentage": null
+      },
+      {
+        "code": "10.6",
+        "label": "Avg Fertilizer per Bigha (Kgs)",
+        "rawLabel": "Average use of fertilizer per bigha per family",
+        "value": 30.45,
+        "unit": "Kgs",
+        "percentage": null
+      },
+      {
+        "code": "10.7",
+        "label": "Total Farmers",
+        "rawLabel": "total farmer",
+        "value": 196,
+        "unit": "Farmers",
+        "percentage": null
+      },
+      {
+        "code": "10.8",
+        "label": "Avg Farmers per Family",
+        "rawLabel": "Number of farmers per family",
+        "value": 1.43,
+        "unit": "Farmers",
+        "percentage": null
+      },
+      {
+        "code": "11",
+        "label": "main source of irrigation",
+        "rawLabel": "main source of irrigation",
+        "value": 0,
+        "unit": "0",
+        "percentage": null
+      },
+      {
+        "code": "12",
+        "label": "Total Animals",
+        "rawLabel": "total number of animals",
+        "value": 154,
+        "unit": "Animals",
+        "percentage": null
+      },
+      {
+        "code": "12.1",
+        "label": "Avg Animals per Family",
+        "rawLabel": "Average number of animals per family",
+        "value": 3.28,
+        "unit": "Animals",
+        "percentage": null
+      },
+      {
+        "code": "13",
+        "label": "village level facilities",
+        "rawLabel": "village level facilities",
+        "value": 0,
+        "unit": "Yes",
+        "percentage": null
+      },
+      {
+        "code": "13.5",
+        "label": "Households with Toilets",
+        "rawLabel": "Total number of toilets in the village",
+        "value": 90,
+        "unit": "Family",
+        "percentage": 65.7
+      },
+      {
+        "code": "13.8",
+        "label": "Percentage of toilets available in the village",
+        "rawLabel": "Percentage of toilets available in the village",
+        "value": 70,
+        "unit": "Percentage",
+        "percentage": null
+      },
+      {
+        "code": "14",
+        "label": "water system",
+        "rawLabel": "water system",
+        "value": 0,
+        "unit": "0",
+        "percentage": null
+      },
+      {
+        "code": "14.2",
+        "label": "Housing Scheme Beneficiaries",
+        "rawLabel": "housing scheme",
+        "value": 33,
+        "unit": "Family",
+        "percentage": 24.1
+      },
+      {
+        "code": "14.3",
+        "label": "Jan Dhan Yojana Beneficiaries",
+        "rawLabel": "Jan Dhan Scheme",
+        "value": 0,
+        "unit": "Family",
+        "percentage": null
+      },
+      {
+        "code": "14.3",
+        "label": "Jan Dhan Yojana Beneficiaries",
+        "rawLabel": "Pond",
+        "value": 0,
+        "unit": "No",
+        "percentage": null
+      },
+      {
+        "code": "14.5",
+        "label": "JSK",
+        "rawLabel": "JSK",
+        "value": 0,
+        "unit": "0",
+        "percentage": null
+      },
+      {
+        "code": "14.6",
+        "label": "electrical systems",
+        "rawLabel": "electrical systems",
+        "value": 0,
+        "unit": "0",
+        "percentage": null
+      },
+      {
+        "code": "15",
+        "label": "Vaccinated Families",
+        "rawLabel": "vaccination",
+        "value": 102,
+        "unit": "Family",
+        "percentage": 17.8
+      },
+      {
+        "code": "15.1",
+        "label": "Educational System",
+        "rawLabel": "Educational System",
+        "value": 572,
+        "unit": "Members",
+        "percentage": null
+      },
+      {
+        "code": "16",
+        "label": "Migration Members",
+        "rawLabel": "Migration",
+        "value": 93,
+        "unit": "Members",
+        "percentage": 67.9
+      },
+      {
+        "code": "17",
+        "label": "Govt Scheme Beneficiaries",
+        "rawLabel": "Number of families taking benefits of government schemes",
+        "value": 124,
+        "unit": "Family",
+        "percentage": 90.5
+      },
+      {
+        "code": "18",
+        "label": "gram Sabha information",
+        "rawLabel": "gram Sabha information",
+        "value": 0,
+        "unit": "",
+        "percentage": null
+      },
+      {
+        "code": "19",
+        "label": "The family attended the meeting of all the village",
+        "rawLabel": "The family attended the meeting of all the village",
+        "value": 0,
+        "unit": "",
+        "percentage": null
+      },
+      {
+        "code": "20",
+        "label": "village committee information",
+        "rawLabel": "village committee information",
+        "value": 0,
+        "unit": "",
+        "percentage": null
+      },
+      {
+        "code": "21",
+        "label": "Information about the member of committee of Gram Sabha",
+        "rawLabel": "Information about the member of committee of Gram Sabha",
+        "value": 0,
+        "unit": "",
+        "percentage": null
+      },
+      {
+        "code": "",
+        "label": "When are the Gram Sabha meetings held?",
+        "rawLabel": "When are the Gram Sabha meetings held?",
+        "value": 0,
+        "unit": "",
+        "percentage": null
+      }
+    ],
+    "Chahalwa": [
+      {
+        "code": "1",
+        "label": "Total Households Surveyed",
+        "rawLabel": "Total house hold Survey",
+        "value": 464,
+        "unit": "Family",
+        "percentage": null
+      },
+      {
+        "code": "1.1",
+        "label": "Male Farmers",
+        "rawLabel": "Male Farmers",
+        "value": 88,
+        "unit": "Family",
+        "percentage": 19
+      },
+      {
+        "code": "1.2",
+        "label": "Female Farmers",
+        "rawLabel": "Female Farmers",
+        "value": 376,
+        "unit": "Farmers",
+        "percentage": 81
+      },
+      {
+        "code": "1.3",
+        "label": "Married",
+        "rawLabel": "Married",
+        "value": 392,
+        "unit": "Members",
+        "percentage": 84.5
+      },
+      {
+        "code": "1.4",
+        "label": "Unmarried",
+        "rawLabel": "Unmarried",
+        "value": 5,
+        "unit": "Members",
+        "percentage": 1.1
+      },
+      {
+        "code": "1.5",
+        "label": "Single Women (Widowed/Separated)",
+        "rawLabel": "Single Women",
+        "value": 67,
+        "unit": "Members",
+        "percentage": 14.4
+      },
+      {
+        "code": "1.6",
+        "label": "Leaving from each other",
+        "rawLabel": "Leaving from each other",
+        "value": 0,
+        "unit": "Members",
+        "percentage": null
+      },
+      {
+        "code": "1.7",
+        "label": "Leaving from each other",
+        "rawLabel": "Leaving from each other",
+        "value": 0,
+        "unit": "Members",
+        "percentage": null
+      },
+      {
+        "code": "1.8",
+        "label": "Total Family Members Surveyed",
+        "rawLabel": "Total number of family members surveyed",
+        "value": 1827,
+        "unit": "Members",
+        "percentage": null
+      },
+      {
+        "code": "1.9",
+        "label": "Avg Family Size",
+        "rawLabel": "Average total number per family",
+        "value": 3.94,
+        "unit": "Members",
+        "percentage": null
+      },
+      {
+        "code": "",
+        "label": "Male Members",
+        "rawLabel": "Male Members",
+        "value": 973,
+        "unit": "Members",
+        "percentage": 53.3
+      },
+      {
+        "code": "",
+        "label": "Female Members",
+        "rawLabel": "Female Members",
+        "value": 856,
+        "unit": "Members",
+        "percentage": 46.9
+      },
+      {
+        "code": "2",
+        "label": "Religion",
+        "rawLabel": "Religion",
+        "value": 458,
+        "unit": "Family",
+        "percentage": 98.7
+      },
+      {
+        "code": "3",
+        "label": "Cast",
+        "rawLabel": "Cast",
+        "value": 0,
+        "unit": "Family",
+        "percentage": null
+      },
+      {
+        "code": "4",
+        "label": "Card",
+        "rawLabel": "Card",
+        "value": 31,
+        "unit": "Family",
+        "percentage": 6.7
+      },
+      {
+        "code": "5",
+        "label": "Bank Account Holders",
+        "rawLabel": "Bank Account",
+        "value": 453,
+        "unit": "Members",
+        "percentage": 97.6
+      },
+      {
+        "code": "6",
+        "label": "AAS Groups in Village",
+        "rawLabel": "Total AAS in the Village",
+        "value": 19,
+        "unit": "AAS",
+        "percentage": null
+      },
+      {
+        "code": "6.1",
+        "label": "AAS Membership",
+        "rawLabel": "Total Members Join AAS",
+        "value": 408,
+        "unit": "Members",
+        "percentage": 87.9
+      },
+      {
+        "code": "7",
+        "label": "Portal Registration",
+        "rawLabel": "Portal Registration",
+        "value": 0,
+        "unit": "Family",
+        "percentage": null
+      },
+      {
+        "code": "8",
+        "label": "Total Cultivable Land (Bigha)",
+        "rawLabel": "total cultivable land",
+        "value": 900,
+        "unit": "Beegha",
+        "percentage": null
+      },
+      {
+        "code": "8.1",
+        "label": "Avg Land per Family (Bigha)",
+        "rawLabel": "Average land per family",
+        "value": 1.94,
+        "unit": "Beegha",
+        "percentage": null
+      },
+      {
+        "code": "8.2",
+        "label": "Total farmers own land",
+        "rawLabel": "Total farmers own land",
+        "value": 838,
+        "unit": "Beegha",
+        "percentage": null
+      },
+      {
+        "code": "8.3",
+        "label": "Rental land with total farmers",
+        "rawLabel": "Rental land with total farmers",
+        "value": 62,
+        "unit": "Beegha",
+        "percentage": null
+      },
+      {
+        "code": "8.4",
+        "label": "Landless Families",
+        "rawLabel": "Landless families who do not own land",
+        "value": 244,
+        "unit": "Family",
+        "percentage": 52.6
+      },
+      {
+        "code": "8.5",
+        "label": "Landless Families Cultivating Rented Land",
+        "rawLabel": "landless families who cultivate on rented land",
+        "value": 18,
+        "unit": "Family",
+        "percentage": 3.9
+      },
+      {
+        "code": "8.6",
+        "label": "Families Not Farming",
+        "rawLabel": "families that do not farm",
+        "value": 232,
+        "unit": "Family",
+        "percentage": 50
+      },
+      {
+        "code": "9",
+        "label": "Main Crop",
+        "rawLabel": "Main Crop",
+        "value": 206,
+        "unit": "Family",
+        "percentage": 44.4
+      },
+      {
+        "code": "10",
+        "label": "Total Cultivation Cost (INR)",
+        "rawLabel": "total cost of cultivation",
+        "value": 3594200,
+        "unit": "INR.",
+        "percentage": null
+      },
+      {
+        "code": "10.1",
+        "label": "Total Agriculture Income (INR)",
+        "rawLabel": "total income from agriculture",
+        "value": 5829800,
+        "unit": "INR.",
+        "percentage": null
+      },
+      {
+        "code": "10.2",
+        "label": "Total Net Income from Agriculture (INR)",
+        "rawLabel": "total income from agriculture",
+        "value": 2235600,
+        "unit": "INR.",
+        "percentage": null
+      },
+      {
+        "code": "10.3",
+        "label": "Avg Cost per Bigha (INR)",
+        "rawLabel": "Average cost per bigha per family",
+        "value": 3993.56,
+        "unit": "INR.",
+        "percentage": null
+      },
+      {
+        "code": "10.4",
+        "label": "Avg Income per Bigha (INR)",
+        "rawLabel": "Average income per bigha per family",
+        "value": 6477.56,
+        "unit": "INR.",
+        "percentage": null
+      },
+      {
+        "code": "10.5",
+        "label": "Total Fertilizer Use (Kgs)",
+        "rawLabel": "total fertilizer use",
+        "value": 34367,
+        "unit": "Kgs",
+        "percentage": null
+      },
+      {
+        "code": "10.6",
+        "label": "Avg Fertilizer per Bigha (Kgs)",
+        "rawLabel": "Average use of fertilizer per bigha per family",
+        "value": 38.19,
+        "unit": "Kgs",
+        "percentage": null
+      },
+      {
+        "code": "10.7",
+        "label": "Total Farmers",
+        "rawLabel": "total farmer",
+        "value": 387,
+        "unit": "Farmers",
+        "percentage": null
+      },
+      {
+        "code": "10.8",
+        "label": "Avg Farmers per Family",
+        "rawLabel": "Number of farmers per family",
+        "value": 0.83,
+        "unit": "Farmers",
+        "percentage": null
+      },
+      {
+        "code": "11",
+        "label": "main source of irrigation",
+        "rawLabel": "main source of irrigation",
+        "value": 0,
+        "unit": "0",
+        "percentage": null
+      },
+      {
+        "code": "12",
+        "label": "Total Animals",
+        "rawLabel": "total number of animals",
+        "value": 834,
+        "unit": "Animals",
+        "percentage": null
+      },
+      {
+        "code": "12.1",
+        "label": "Avg Animals per Family",
+        "rawLabel": "Average number of animals per family",
+        "value": 17.74,
+        "unit": "Animals",
+        "percentage": null
+      },
+      {
+        "code": "13",
+        "label": "village level facilities",
+        "rawLabel": "village level facilities",
+        "value": 0,
+        "unit": "Yes",
+        "percentage": null
+      },
+      {
+        "code": "13.5",
+        "label": "Households with Toilets",
+        "rawLabel": "Total number of toilets in the village",
+        "value": 70,
+        "unit": "Family",
+        "percentage": 15.1
+      },
+      {
+        "code": "13.8",
+        "label": "Percentage of toilets available in the village",
+        "rawLabel": "Percentage of toilets available in the village",
+        "value": 13,
+        "unit": "Percentage",
+        "percentage": null
+      },
+      {
+        "code": "14",
+        "label": "Water System",
+        "rawLabel": "Water System",
+        "value": 0,
+        "unit": "0",
+        "percentage": null
+      },
+      {
+        "code": "14.2",
+        "label": "Housing Scheme Beneficiaries",
+        "rawLabel": "housing scheme",
+        "value": 94,
+        "unit": "Family",
+        "percentage": 20.3
+      },
+      {
+        "code": "14.3",
+        "label": "Jan Dhan Yojana Beneficiaries",
+        "rawLabel": "Jan Dhan Scheme",
+        "value": 16,
+        "unit": "Family",
+        "percentage": 3.4
+      },
+      {
+        "code": "14.3",
+        "label": "Jan Dhan Yojana Beneficiaries",
+        "rawLabel": "Pond",
+        "value": 0,
+        "unit": "No",
+        "percentage": null
+      },
+      {
+        "code": "14.5",
+        "label": "JSK",
+        "rawLabel": "JSK",
+        "value": 0,
+        "unit": "0",
+        "percentage": null
+      },
+      {
+        "code": "14.6",
+        "label": "electrical systems",
+        "rawLabel": "electrical systems",
+        "value": 0,
+        "unit": "0",
+        "percentage": null
+      },
+      {
+        "code": "15",
+        "label": "Vaccinated Families",
+        "rawLabel": "vaccination",
+        "value": 416,
+        "unit": "Family",
+        "percentage": 22.8
+      },
+      {
+        "code": "15.1",
+        "label": "Educational Level",
+        "rawLabel": "Educational Level",
+        "value": 1827,
+        "unit": "Members",
+        "percentage": null
+      },
+      {
+        "code": "16",
+        "label": "Migration Members",
+        "rawLabel": "Migration",
+        "value": 319,
+        "unit": "Members",
+        "percentage": 68.8
+      },
+      {
+        "code": "17",
+        "label": "Govt Scheme Beneficiaries",
+        "rawLabel": "Number of families taking benefits of government schemes",
+        "value": 229,
+        "unit": "Family",
+        "percentage": 49.4
+      },
+      {
+        "code": "18",
+        "label": "gram Sabha information",
+        "rawLabel": "gram Sabha information",
+        "value": 0,
+        "unit": "0",
+        "percentage": null
+      },
+      {
+        "code": "19",
+        "label": "The family attended the meeting of all the village",
+        "rawLabel": "The family attended the meeting of all the village",
+        "value": 0,
+        "unit": "0",
+        "percentage": null
+      },
+      {
+        "code": "20",
+        "label": "village committee information",
+        "rawLabel": "village committee information",
+        "value": 0,
+        "unit": "0",
+        "percentage": null
+      },
+      {
+        "code": "21",
+        "label": "Information about the member of committee of Gram Sabha",
+        "rawLabel": "Information about the member of committee of Gram Sabha",
+        "value": 0,
+        "unit": "0",
+        "percentage": null
+      },
+      {
+        "code": "",
+        "label": "When are the Gram Sabha meetings held?",
+        "rawLabel": "When are the Gram Sabha meetings held?",
+        "value": 0,
+        "unit": "0",
+        "percentage": null
+      }
+    ],
+    "Fakirpuri": [
+      {
+        "code": "1",
+        "label": "Total Households Surveyed",
+        "rawLabel": "Total house hold Survey",
+        "value": 410,
+        "unit": "Family",
+        "percentage": null
+      },
+      {
+        "code": "1.1",
+        "label": "Male Farmers",
+        "rawLabel": "Male Farmers",
+        "value": 33,
+        "unit": "Family",
+        "percentage": 8
+      },
+      {
+        "code": "1.2",
+        "label": "Female Farmers",
+        "rawLabel": "Female Farmers",
+        "value": 377,
+        "unit": "Farmers",
+        "percentage": 92
+      },
+      {
+        "code": "1.3",
+        "label": "Married",
+        "rawLabel": "Married",
+        "value": 387,
+        "unit": "Members",
+        "percentage": 94.4
+      },
+      {
+        "code": "1.4",
+        "label": "Unmarried",
+        "rawLabel": "Unmarried",
+        "value": 4,
+        "unit": "Members",
+        "percentage": 1
+      },
+      {
+        "code": "1.5",
+        "label": "Single Women (Widowed/Separated)",
+        "rawLabel": "Single Women",
+        "value": 19,
+        "unit": "Members",
+        "percentage": 4.6
+      },
+      {
+        "code": "1.6",
+        "label": "Leaving from each other",
+        "rawLabel": "Leaving from each other",
+        "value": 0,
+        "unit": "Members",
+        "percentage": null
+      },
+      {
+        "code": "1.7",
+        "label": "Leaving from each other",
+        "rawLabel": "Leaving from each other",
+        "value": 0,
+        "unit": "Members",
+        "percentage": null
+      },
+      {
+        "code": "1.8",
+        "label": "Total Family Members Surveyed",
+        "rawLabel": "Total number of family members surveyed",
+        "value": 1974,
+        "unit": "Members",
+        "percentage": null
+      },
+      {
+        "code": "1.9",
+        "label": "Avg Family Size",
+        "rawLabel": "Average total number per family",
+        "value": 4.81,
+        "unit": "Members",
+        "percentage": null
+      },
+      {
+        "code": "",
+        "label": "Male Members",
+        "rawLabel": "Male Members",
+        "value": 961,
+        "unit": "Members",
+        "percentage": 48.7
+      },
+      {
+        "code": "",
+        "label": "Female Members",
+        "rawLabel": "Female Members",
+        "value": 1013,
+        "unit": "Members",
+        "percentage": 51.3
+      },
+      {
+        "code": "2",
+        "label": "Religion",
+        "rawLabel": "Religion",
+        "value": 408,
+        "unit": "Family",
+        "percentage": 99.5
+      },
+      {
+        "code": "3",
+        "label": "Cast",
+        "rawLabel": "Cast",
+        "value": 0,
+        "unit": "Family",
+        "percentage": null
+      },
+      {
+        "code": "4",
+        "label": "Card",
+        "rawLabel": "Card",
+        "value": 43,
+        "unit": "Family",
+        "percentage": 10.5
+      },
+      {
+        "code": "5",
+        "label": "Bank Account Holders",
+        "rawLabel": "Bank Account",
+        "value": 398,
+        "unit": "Members",
+        "percentage": 97.1
+      },
+      {
+        "code": "6",
+        "label": "AAS Groups in Village",
+        "rawLabel": "Total AAS in the Village",
+        "value": 13,
+        "unit": "AAS",
+        "percentage": null
+      },
+      {
+        "code": "6.1",
+        "label": "AAS Membership",
+        "rawLabel": "Total Members Join AAS",
+        "value": 246,
+        "unit": "Members",
+        "percentage": 60
+      },
+      {
+        "code": "7",
+        "label": "Portal Registration",
+        "rawLabel": "Portal Registration",
+        "value": 0,
+        "unit": "Family",
+        "percentage": null
+      },
+      {
+        "code": "8",
+        "label": "Total Cultivable Land (Bigha)",
+        "rawLabel": "total cultivable land",
+        "value": 1849,
+        "unit": "Beegha",
+        "percentage": null
+      },
+      {
+        "code": "8.1",
+        "label": "Avg Land per Family (Bigha)",
+        "rawLabel": "Average land per family",
+        "value": 4.51,
+        "unit": "Beegha",
+        "percentage": null
+      },
+      {
+        "code": "8.2",
+        "label": "Total farmers own land",
+        "rawLabel": "Total farmers own land",
+        "value": 1580,
+        "unit": "Beegha",
+        "percentage": null
+      },
+      {
+        "code": "8.3",
+        "label": "Rental land with total farmers",
+        "rawLabel": "Rental land with total farmers",
+        "value": 269,
+        "unit": "Beegha",
+        "percentage": null
+      },
+      {
+        "code": "8.4",
+        "label": "Landless Families",
+        "rawLabel": "Landless families who do not own land",
+        "value": 162,
+        "unit": "Family",
+        "percentage": 39.5
+      },
+      {
+        "code": "8.5",
+        "label": "Landless Families Cultivating Rented Land",
+        "rawLabel": "landless families who cultivate on rented land",
+        "value": 46,
+        "unit": "Family",
+        "percentage": 11.2
+      },
+      {
+        "code": "8.6",
+        "label": "Families Not Farming",
+        "rawLabel": "families that do not farm",
+        "value": 101,
+        "unit": "Family",
+        "percentage": 24.6
+      },
+      {
+        "code": "9",
+        "label": "Main Crop",
+        "rawLabel": "Main Crop",
+        "value": 277,
+        "unit": "Family",
+        "percentage": 67.6
+      },
+      {
+        "code": "10",
+        "label": "Total Cultivation Cost (INR)",
+        "rawLabel": "total cost of cultivation",
+        "value": 12825500,
+        "unit": "INR.",
+        "percentage": null
+      },
+      {
+        "code": "10.1",
+        "label": "Total Agriculture Income (INR)",
+        "rawLabel": "total income from agriculture",
+        "value": 22605700,
+        "unit": "INR.",
+        "percentage": null
+      },
+      {
+        "code": "10.2",
+        "label": "Total Net Income from Agriculture (INR)",
+        "rawLabel": "total income from agriculture",
+        "value": 9780200,
+        "unit": "INR.",
+        "percentage": null
+      },
+      {
+        "code": "10.3",
+        "label": "Avg Cost per Bigha (INR)",
+        "rawLabel": "Average cost per bigha per family",
+        "value": 6936.45,
+        "unit": "INR.",
+        "percentage": null
+      },
+      {
+        "code": "10.4",
+        "label": "Avg Income per Bigha (INR)",
+        "rawLabel": "Average income per bigha per family",
+        "value": 12225.91,
+        "unit": "INR.",
+        "percentage": null
+      },
+      {
+        "code": "10.5",
+        "label": "Total Fertilizer Use (Kgs)",
+        "rawLabel": "total fertilizer use",
+        "value": 57518,
+        "unit": "Kgs",
+        "percentage": null
+      },
+      {
+        "code": "10.6",
+        "label": "Avg Fertilizer per Bigha (Kgs)",
+        "rawLabel": "Average use of fertilizer per bigha per family",
+        "value": 31.11,
+        "unit": "Kgs",
+        "percentage": null
+      },
+      {
+        "code": "10.7",
+        "label": "Total Farmers",
+        "rawLabel": "total farmer",
+        "value": 594,
+        "unit": "Farmers",
+        "percentage": null
+      },
+      {
+        "code": "10.8",
+        "label": "Avg Farmers per Family",
+        "rawLabel": "Number of farmers per family",
+        "value": 1.45,
+        "unit": "Farmers",
+        "percentage": null
+      },
+      {
+        "code": "11",
+        "label": "main source of irrigation",
+        "rawLabel": "main source of irrigation",
+        "value": 0,
+        "unit": "0",
+        "percentage": null
+      },
+      {
+        "code": "12",
+        "label": "Total Animals",
+        "rawLabel": "total number of animals",
+        "value": 830,
+        "unit": "Animals",
+        "percentage": null
+      },
+      {
+        "code": "12.1",
+        "label": "Avg Animals per Family",
+        "rawLabel": "Average number of animals per family",
+        "value": 2.02,
+        "unit": "Animals",
+        "percentage": null
+      },
+      {
+        "code": "13",
+        "label": "village level facilities",
+        "rawLabel": "village level facilities",
+        "value": 0,
+        "unit": "Yes",
+        "percentage": null
+      },
+      {
+        "code": "13.5",
+        "label": "Households with Toilets",
+        "rawLabel": "Total number of toilets in the village",
+        "value": 245,
+        "unit": "Family",
+        "percentage": 59.8
+      },
+      {
+        "code": "13.8",
+        "label": "Percentage of toilets available in the village",
+        "rawLabel": "Percentage of toilets available in the village",
+        "value": 70,
+        "unit": "Percentage",
+        "percentage": null
+      },
+      {
+        "code": "14",
+        "label": "Water System",
+        "rawLabel": "Water System",
+        "value": 0,
+        "unit": "0",
+        "percentage": null
+      },
+      {
+        "code": "14.2",
+        "label": "Housing Scheme Beneficiaries",
+        "rawLabel": "housing scheme",
+        "value": 98,
+        "unit": "Family",
+        "percentage": 23.9
+      },
+      {
+        "code": "14.3",
+        "label": "Jan Dhan Yojana Beneficiaries",
+        "rawLabel": "Jan Dhan Yojna",
+        "value": 2,
+        "unit": "Family",
+        "percentage": 0.5
+      },
+      {
+        "code": "14.3",
+        "label": "Jan Dhan Yojana Beneficiaries",
+        "rawLabel": "Pond",
+        "value": 0,
+        "unit": "No",
+        "percentage": null
+      },
+      {
+        "code": "14.5",
+        "label": "JSK",
+        "rawLabel": "JSK",
+        "value": 0,
+        "unit": "0",
+        "percentage": null
+      },
+      {
+        "code": "14.6",
+        "label": "Electricity System",
+        "rawLabel": "Electricity System",
+        "value": 0,
+        "unit": "0",
+        "percentage": null
+      },
+      {
+        "code": "15",
+        "label": "Vaccinated Families",
+        "rawLabel": "Vaccination",
+        "value": 213,
+        "unit": "Family",
+        "percentage": 10.8
+      },
+      {
+        "code": "15.1",
+        "label": "Education Level",
+        "rawLabel": "Education Level",
+        "value": 1974,
+        "unit": "Members",
+        "percentage": null
+      },
+      {
+        "code": "16",
+        "label": "Migration Members",
+        "rawLabel": "Migration",
+        "value": 337,
+        "unit": "Members",
+        "percentage": 82.2
+      },
+      {
+        "code": "17",
+        "label": "Govt Scheme Beneficiaries",
+        "rawLabel": "Number of families taking benefits of government schemes",
+        "value": 188,
+        "unit": "Family",
+        "percentage": 45.9
+      },
+      {
+        "code": "18",
+        "label": "gram Sabha information",
+        "rawLabel": "gram Sabha information",
+        "value": 0,
+        "unit": "",
+        "percentage": null
+      },
+      {
+        "code": "19",
+        "label": "The family attended the meeting of all the village",
+        "rawLabel": "The family attended the meeting of all the village",
+        "value": 0,
+        "unit": "",
+        "percentage": null
+      },
+      {
+        "code": "20",
+        "label": "village committee information",
+        "rawLabel": "village committee information",
+        "value": 0,
+        "unit": "",
+        "percentage": null
+      },
+      {
+        "code": "21",
+        "label": "Information about the member of committee of Gram Sabha",
+        "rawLabel": "Information about the member of committee of Gram Sabha",
+        "value": 0,
+        "unit": "",
+        "percentage": null
+      },
+      {
+        "code": "",
+        "label": "When are the Gram Sabha meetings held?",
+        "rawLabel": "When are the Gram Sabha meetings held?",
+        "value": 0,
+        "unit": "",
+        "percentage": null
+      }
+    ],
+    "Karikot": [
+      {
+        "code": "1",
+        "label": "Total Households Surveyed",
+        "rawLabel": "Total house hold Survey",
+        "value": 797,
+        "unit": "Family",
+        "percentage": null
+      },
+      {
+        "code": "1.1",
+        "label": "Male Farmers",
+        "rawLabel": "Male Farmers",
+        "value": 59,
+        "unit": "Family",
+        "percentage": 7.4
+      },
+      {
+        "code": "1.2",
+        "label": "Female Farmers",
+        "rawLabel": "Female Farmers",
+        "value": 738,
+        "unit": "Farmers",
+        "percentage": 92.6
+      },
+      {
+        "code": "1.3",
+        "label": "Married",
+        "rawLabel": "Married",
+        "value": 717,
+        "unit": "Members",
+        "percentage": 90
+      },
+      {
+        "code": "1.4",
+        "label": "Unmarried",
+        "rawLabel": "Unmarried",
+        "value": 1,
+        "unit": "Members",
+        "percentage": 0.1
+      },
+      {
+        "code": "1.5",
+        "label": "Single Women (Widowed/Separated)",
+        "rawLabel": "Single Women",
+        "value": 73,
+        "unit": "Members",
+        "percentage": 9.2
+      },
+      {
+        "code": "",
+        "label": "Leaving from each other",
+        "rawLabel": "Leaving from each other",
+        "value": 5,
+        "unit": "Members",
+        "percentage": 8.5
+      },
+      {
+        "code": "1.6",
+        "label": "Leaving from each other",
+        "rawLabel": "Leaving from each other",
+        "value": 1,
+        "unit": "Members",
+        "percentage": 0.1
+      },
+      {
+        "code": "1.7",
+        "label": "Total number of family members surveyed",
+        "rawLabel": "Total number of family members surveyed",
+        "value": 3670,
+        "unit": "Members",
+        "percentage": 460.5
+      },
+      {
+        "code": "1.8",
+        "label": "Total Family Members Surveyed",
+        "rawLabel": "Average total number per family",
+        "value": 4.6,
+        "unit": "Members",
+        "percentage": null
+      },
+      {
+        "code": "1.9",
+        "label": "Avg Family Size",
+        "rawLabel": "Male Members",
+        "value": 1901,
+        "unit": "Members",
+        "percentage": 51.8
+      },
+      {
+        "code": "",
+        "label": "Female Members",
+        "rawLabel": "Female Members",
+        "value": 1769,
+        "unit": "Members",
+        "percentage": 48.2
+      },
+      {
+        "code": "2",
+        "label": "Religion",
+        "rawLabel": "Religion",
+        "value": 772,
+        "unit": "Family",
+        "percentage": 96.9
+      },
+      {
+        "code": "3",
+        "label": "Cast",
+        "rawLabel": "Cast",
+        "value": 0,
+        "unit": "Family",
+        "percentage": null
+      },
+      {
+        "code": "4",
+        "label": "Card",
+        "rawLabel": "Card",
+        "value": 40,
+        "unit": "Family",
+        "percentage": 5
+      },
+      {
+        "code": "5",
+        "label": "Bank Account Holders",
+        "rawLabel": "Bank Account",
+        "value": 766,
+        "unit": "Members",
+        "percentage": 96.1
+      },
+      {
+        "code": "6",
+        "label": "AAS Groups in Village",
+        "rawLabel": "Total AAS in the Village",
+        "value": 27,
+        "unit": "AAS",
+        "percentage": null
+      },
+      {
+        "code": "6.1",
+        "label": "AAS Membership",
+        "rawLabel": "Total Members Join AAS",
+        "value": 612,
+        "unit": "Members",
+        "percentage": 76.8
+      },
+      {
+        "code": "7",
+        "label": "Portal Registration",
+        "rawLabel": "Portal Registration",
+        "value": 0,
+        "unit": "Family",
+        "percentage": null
+      },
+      {
+        "code": "8",
+        "label": "Total Cultivable Land (Bigha)",
+        "rawLabel": "total cultivable land",
+        "value": 1659,
+        "unit": "Beegha",
+        "percentage": null
+      },
+      {
+        "code": "8.1",
+        "label": "Avg Land per Family (Bigha)",
+        "rawLabel": "Average land per family",
+        "value": 2.08,
+        "unit": "Beegha",
+        "percentage": null
+      },
+      {
+        "code": "8.2",
+        "label": "Total farmers own land",
+        "rawLabel": "Total farmers own land",
+        "value": 1627,
+        "unit": "Beegha",
+        "percentage": null
+      },
+      {
+        "code": "8.3",
+        "label": "Rental land with total farmers",
+        "rawLabel": "Rental land with total farmers",
+        "value": 32,
+        "unit": "Beegha",
+        "percentage": null
+      },
+      {
+        "code": "8.4",
+        "label": "Landless Families",
+        "rawLabel": "Landless families who do not own land",
+        "value": 296,
+        "unit": "Family",
+        "percentage": 37.1
+      },
+      {
+        "code": "8.5",
+        "label": "Landless Families Cultivating Rented Land",
+        "rawLabel": "landless families who cultivate on rented land",
+        "value": 13,
+        "unit": "Family",
+        "percentage": 1.6
+      },
+      {
+        "code": "8.6",
+        "label": "Families Not Farming",
+        "rawLabel": "families that do not farm",
+        "value": 284,
+        "unit": "Family",
+        "percentage": 35.6
+      },
+      {
+        "code": "9",
+        "label": "Main Crop",
+        "rawLabel": "Main Crop",
+        "value": 498,
+        "unit": "Family",
+        "percentage": 62.5
+      },
+      {
+        "code": "10",
+        "label": "Total Cultivation Cost (INR)",
+        "rawLabel": "total cost of cultivation",
+        "value": 10078700,
+        "unit": "INR.",
+        "percentage": null
+      },
+      {
+        "code": "10.1",
+        "label": "Total Agriculture Income (INR)",
+        "rawLabel": "total income from agriculture",
+        "value": 18710600,
+        "unit": "INR.",
+        "percentage": null
+      },
+      {
+        "code": "10.2",
+        "label": "Total Net Income from Agriculture (INR)",
+        "rawLabel": "total income from agriculture",
+        "value": 8631900,
+        "unit": "INR.",
+        "percentage": null
+      },
+      {
+        "code": "10.3",
+        "label": "Avg Cost per Bigha (INR)",
+        "rawLabel": "Average cost per bigha per family",
+        "value": 6075.17,
+        "unit": "INR.",
+        "percentage": null
+      },
+      {
+        "code": "10.4",
+        "label": "Avg Income per Bigha (INR)",
+        "rawLabel": "Average income per bigha per family",
+        "value": 11278.24,
+        "unit": "INR.",
+        "percentage": null
+      },
+      {
+        "code": "10.5",
+        "label": "Total Fertilizer Use (Kgs)",
+        "rawLabel": "total fertilizer use",
+        "value": 60190,
+        "unit": "Kgs.",
+        "percentage": null
+      },
+      {
+        "code": "10.6",
+        "label": "Avg Fertilizer per Bigha (Kgs)",
+        "rawLabel": "Average use of fertilizer per bigha per family",
+        "value": 36.28,
+        "unit": "Kgs.",
+        "percentage": null
+      },
+      {
+        "code": "10.7",
+        "label": "Total Farmers",
+        "rawLabel": "total farmer",
+        "value": 1029,
+        "unit": "Farmers",
+        "percentage": null
+      },
+      {
+        "code": "10.8",
+        "label": "Avg Farmers per Family",
+        "rawLabel": "Number of farmers per family",
+        "value": 1.29,
+        "unit": "Farmers",
+        "percentage": null
+      },
+      {
+        "code": "11",
+        "label": "main source of irrigation",
+        "rawLabel": "main source of irrigation",
+        "value": 0,
+        "unit": "",
+        "percentage": null
+      },
+      {
+        "code": "12",
+        "label": "Total Animals",
+        "rawLabel": "total number of animals",
+        "value": 1852,
+        "unit": "Animals",
+        "percentage": null
+      },
+      {
+        "code": "12.1",
+        "label": "Avg Animals per Family",
+        "rawLabel": "Average number of animals per family",
+        "value": 2.32,
+        "unit": "Animals",
+        "percentage": null
+      },
+      {
+        "code": "13",
+        "label": "village level facilities",
+        "rawLabel": "village level facilities",
+        "value": 0,
+        "unit": "Yes",
+        "percentage": null
+      },
+      {
+        "code": "13.5",
+        "label": "Households with Toilets",
+        "rawLabel": "Total number of toilets in the village",
+        "value": 284,
+        "unit": "Family",
+        "percentage": 35.6
+      },
+      {
+        "code": "13.8",
+        "label": "Percentage of toilets available in the village",
+        "rawLabel": "Percentage of toilets available in the village",
+        "value": 45,
+        "unit": "Percentage",
+        "percentage": null
+      },
+      {
+        "code": "14",
+        "label": "Water System",
+        "rawLabel": "Water System",
+        "value": 0,
+        "unit": "0",
+        "percentage": null
+      },
+      {
+        "code": "14.2",
+        "label": "Housing Scheme Beneficiaries",
+        "rawLabel": "Housing Scheme",
+        "value": 249,
+        "unit": "Family",
+        "percentage": 31.2
+      },
+      {
+        "code": "14.3",
+        "label": "Jan Dhan Yojana Beneficiaries",
+        "rawLabel": "Jan Dhan Yojna",
+        "value": 103,
+        "unit": "Family",
+        "percentage": 12.9
+      },
+      {
+        "code": "14.3",
+        "label": "Jan Dhan Yojana Beneficiaries",
+        "rawLabel": "Pond",
+        "value": 0,
+        "unit": "Yes",
+        "percentage": null
+      },
+      {
+        "code": "14.5",
+        "label": "JSK",
+        "rawLabel": "JSK",
+        "value": 0,
+        "unit": "Yes",
+        "percentage": null
+      },
+      {
+        "code": "14.6",
+        "label": "Electricity System",
+        "rawLabel": "Electricity System",
+        "value": 0,
+        "unit": "Yes",
+        "percentage": null
+      },
+      {
+        "code": "15",
+        "label": "Vaccinated Families",
+        "rawLabel": "Vaccination",
+        "value": 728,
+        "unit": "Family",
+        "percentage": 15809.7
+      },
+      {
+        "code": "15.1",
+        "label": "Education Level",
+        "rawLabel": "Education Level",
+        "value": 4.6,
+        "unit": "Members",
+        "percentage": null
+      },
+      {
+        "code": "16",
+        "label": "Migration Members",
+        "rawLabel": "Migration",
+        "value": 556,
+        "unit": "Members",
+        "percentage": 69.8
+      },
+      {
+        "code": "17",
+        "label": "Govt Scheme Beneficiaries",
+        "rawLabel": "Number of families taking benefits of government schemes",
+        "value": 620,
+        "unit": "Family",
+        "percentage": 77.8
+      },
+      {
+        "code": "18",
+        "label": "gram Sabha information",
+        "rawLabel": "gram Sabha information",
+        "value": 0,
+        "unit": "",
+        "percentage": null
+      },
+      {
+        "code": "19",
+        "label": "The family attended the meeting of all the village",
+        "rawLabel": "The family attended the meeting of all the village",
+        "value": 0,
+        "unit": "",
+        "percentage": null
+      },
+      {
+        "code": "20",
+        "label": "village committee information",
+        "rawLabel": "village committee information",
+        "value": 0,
+        "unit": "",
+        "percentage": null
+      },
+      {
+        "code": "21",
+        "label": "Information about the member of committee of Gram Sabha",
+        "rawLabel": "Information about the member of committee of Gram Sabha",
+        "value": 0,
+        "unit": "",
+        "percentage": null
+      },
+      {
+        "code": "",
+        "label": "When are the Gram Sabha meetings held?",
+        "rawLabel": "When are the Gram Sabha meetings held?",
+        "value": 0,
+        "unit": "",
+        "percentage": null
+      }
+    ],
+    "Vishunapur": [
+      {
+        "code": "1",
+        "label": "Total Households Surveyed",
+        "rawLabel": "Total house hold Survey",
+        "value": 205,
+        "unit": "Family",
+        "percentage": null
+      },
+      {
+        "code": "1.1",
+        "label": "Male Farmers",
+        "rawLabel": "Male Farmers",
+        "value": 50,
+        "unit": "Farmers",
+        "percentage": 24.4
+      },
+      {
+        "code": "1.2",
+        "label": "Female Farmers",
+        "rawLabel": "Female Farmers",
+        "value": 155,
+        "unit": "Farmers",
+        "percentage": 75.6
+      },
+      {
+        "code": "1.3",
+        "label": "Married",
+        "rawLabel": "Married",
+        "value": 201,
+        "unit": "Members",
+        "percentage": 98
+      },
+      {
+        "code": "1.4",
+        "label": "Unmarried",
+        "rawLabel": "Unmarried",
+        "value": 0,
+        "unit": "Members",
+        "percentage": null
+      },
+      {
+        "code": "1.5",
+        "label": "Single Women (Widowed/Separated)",
+        "rawLabel": "Single Women",
+        "value": 4,
+        "unit": "Members",
+        "percentage": 2
+      },
+      {
+        "code": "1.6",
+        "label": "Leaving from each other",
+        "rawLabel": "Leaving from each other",
+        "value": 0,
+        "unit": "Members",
+        "percentage": null
+      },
+      {
+        "code": "1.7",
+        "label": "Leaving from each other",
+        "rawLabel": "Leaving from each other",
+        "value": 0,
+        "unit": "Members",
+        "percentage": null
+      },
+      {
+        "code": "1.8",
+        "label": "Total Family Members Surveyed",
+        "rawLabel": "Total number of family members surveyed",
+        "value": 1168,
+        "unit": "Members",
+        "percentage": null
+      },
+      {
+        "code": "1.9",
+        "label": "Avg Family Size",
+        "rawLabel": "Average total number per family",
+        "value": 5.7,
+        "unit": "Members",
+        "percentage": null
+      },
+      {
+        "code": "",
+        "label": "Male Members",
+        "rawLabel": "Male Members",
+        "value": 588,
+        "unit": "Members",
+        "percentage": 50.3
+      },
+      {
+        "code": "",
+        "label": "Female Members",
+        "rawLabel": "Female Members",
+        "value": 580,
+        "unit": "Members",
+        "percentage": 49.7
+      },
+      {
+        "code": "2",
+        "label": "Religion",
+        "rawLabel": "Religion",
+        "value": 203,
+        "unit": "Family",
+        "percentage": 99
+      },
+      {
+        "code": "3",
+        "label": "Cast",
+        "rawLabel": "Cast",
+        "value": 0,
+        "unit": "Family",
+        "percentage": null
+      },
+      {
+        "code": "4",
+        "label": "Card",
+        "rawLabel": "Card",
+        "value": 0,
+        "unit": "Family",
+        "percentage": null
+      },
+      {
+        "code": "5",
+        "label": "Bank Account Holders",
+        "rawLabel": "Bank Account",
+        "value": 205,
+        "unit": "Members",
+        "percentage": 100
+      },
+      {
+        "code": "6",
+        "label": "AAS Groups in Village",
+        "rawLabel": "Total AAS in the Village",
+        "value": 4,
+        "unit": "AAS",
+        "percentage": null
+      },
+      {
+        "code": "6.1",
+        "label": "AAS Membership",
+        "rawLabel": "Total Members Join AAS",
+        "value": 74,
+        "unit": "Members",
+        "percentage": 36.1
+      },
+      {
+        "code": "7",
+        "label": "Portal Registration",
+        "rawLabel": "Portal Registration",
+        "value": 0,
+        "unit": "Family",
+        "percentage": null
+      },
+      {
+        "code": "8",
+        "label": "Total Cultivable Land (Bigha)",
+        "rawLabel": "total cultivable land",
+        "value": 1080,
+        "unit": "Beegha",
+        "percentage": null
+      },
+      {
+        "code": "8.1",
+        "label": "Avg Land per Family (Bigha)",
+        "rawLabel": "Average land per family",
+        "value": 5.27,
+        "unit": "Beegha",
+        "percentage": null
+      },
+      {
+        "code": "8.2",
+        "label": "Total farmers own land",
+        "rawLabel": "Total farmers own land",
+        "value": 929,
+        "unit": "Beegha",
+        "percentage": null
+      },
+      {
+        "code": "8.3",
+        "label": "Rental land with total farmers",
+        "rawLabel": "Rental land with total farmers",
+        "value": 151,
+        "unit": "Beegha",
+        "percentage": null
+      },
+      {
+        "code": "8.4",
+        "label": "Landless Families",
+        "rawLabel": "Landless families who do not own land",
+        "value": 83,
+        "unit": "Family",
+        "percentage": 40.5
+      },
+      {
+        "code": "8.5",
+        "label": "Landless Families Cultivating Rented Land",
+        "rawLabel": "landless families who cultivate on rented land",
+        "value": 22,
+        "unit": "Family",
+        "percentage": 10.7
+      },
+      {
+        "code": "8.6",
+        "label": "Families Not Farming",
+        "rawLabel": "families that do not farm",
+        "value": 73,
+        "unit": "Family",
+        "percentage": 35.6
+      },
+      {
+        "code": "9",
+        "label": "Main Crop",
+        "rawLabel": "Main Crop",
+        "value": 113,
+        "unit": "Family",
+        "percentage": 55.1
+      },
+      {
+        "code": "10",
+        "label": "Total Cultivation Cost (INR)",
+        "rawLabel": "total cost of cultivation",
+        "value": 5063300,
+        "unit": "INR.",
+        "percentage": null
+      },
+      {
+        "code": "10.1",
+        "label": "Total Agriculture Income (INR)",
+        "rawLabel": "total income from agriculture",
+        "value": 9273000,
+        "unit": "INR.",
+        "percentage": null
+      },
+      {
+        "code": "10.2",
+        "label": "Total Net Income from Agriculture (INR)",
+        "rawLabel": "total income from agriculture",
+        "value": 4209700,
+        "unit": "INR.",
+        "percentage": null
+      },
+      {
+        "code": "10.3",
+        "label": "Avg Cost per Bigha (INR)",
+        "rawLabel": "Average cost per bigha per family",
+        "value": 4688.24,
+        "unit": "INR.",
+        "percentage": null
+      },
+      {
+        "code": "10.4",
+        "label": "Avg Income per Bigha (INR)",
+        "rawLabel": "Average income per bigha per family",
+        "value": 8586.11,
+        "unit": "INR.",
+        "percentage": null
+      },
+      {
+        "code": "10.5",
+        "label": "Total Fertilizer Use (Kgs)",
+        "rawLabel": "total fertilizer use",
+        "value": 20944,
+        "unit": "Kgs",
+        "percentage": null
+      },
+      {
+        "code": "10.6",
+        "label": "Avg Fertilizer per Bigha (Kgs)",
+        "rawLabel": "Average use of fertilizer per bigha per family",
+        "value": 19.39,
+        "unit": "Kgs",
+        "percentage": null
+      },
+      {
+        "code": "10.7",
+        "label": "Total Farmers",
+        "rawLabel": "total farmer",
+        "value": 338,
+        "unit": "Farmers",
+        "percentage": null
+      },
+      {
+        "code": "10.8",
+        "label": "Avg Farmers per Family",
+        "rawLabel": "Number of farmers per family",
+        "value": 1.65,
+        "unit": "Farmers",
+        "percentage": null
+      },
+      {
+        "code": "11",
+        "label": "main source of irrigation",
+        "rawLabel": "main source of irrigation",
+        "value": 0,
+        "unit": "0",
+        "percentage": null
+      },
+      {
+        "code": "12",
+        "label": "Total Animals",
+        "rawLabel": "total number of animals",
+        "value": 1034,
+        "unit": "Animals",
+        "percentage": null
+      },
+      {
+        "code": "12.1",
+        "label": "Avg Animals per Family",
+        "rawLabel": "Average number of animals per family",
+        "value": 22,
+        "unit": "Animals",
+        "percentage": null
+      },
+      {
+        "code": "13",
+        "label": "village level facilities",
+        "rawLabel": "village level facilities",
+        "value": 0,
+        "unit": "Yes",
+        "percentage": null
+      },
+      {
+        "code": "13.5",
+        "label": "Households with Toilets",
+        "rawLabel": "Total number of toilets in the village",
+        "value": 162,
+        "unit": "Family",
+        "percentage": 79
+      },
+      {
+        "code": "13.8",
+        "label": "Percentage of toilets available in the village",
+        "rawLabel": "Percentage of toilets available in the village",
+        "value": 50,
+        "unit": "Percentage",
+        "percentage": null
+      },
+      {
+        "code": "14",
+        "label": "Water System",
+        "rawLabel": "Water System",
+        "value": 0,
+        "unit": "0",
+        "percentage": null
+      },
+      {
+        "code": "14.2",
+        "label": "Housing Scheme Beneficiaries",
+        "rawLabel": "Housing Scheme",
+        "value": 72,
+        "unit": "Family",
+        "percentage": 35.1
+      },
+      {
+        "code": "14.3",
+        "label": "Jan Dhan Yojana Beneficiaries",
+        "rawLabel": "Jan Dhan Yojna",
+        "value": 3,
+        "unit": "Family",
+        "percentage": 1.5
+      },
+      {
+        "code": "14.3",
+        "label": "Jan Dhan Yojana Beneficiaries",
+        "rawLabel": "Pond",
+        "value": 0,
+        "unit": "Yes",
+        "percentage": null
+      },
+      {
+        "code": "14.5",
+        "label": "JSK",
+        "rawLabel": "JSK",
+        "value": 0,
+        "unit": "0",
+        "percentage": null
+      },
+      {
+        "code": "14.6",
+        "label": "Electricity System",
+        "rawLabel": "Electricity System",
+        "value": 0,
+        "unit": "0",
+        "percentage": null
+      },
+      {
+        "code": "15",
+        "label": "Vaccinated Families",
+        "rawLabel": "Vaccination",
+        "value": 128,
+        "unit": "Family",
+        "percentage": 11
+      },
+      {
+        "code": "15.1",
+        "label": "Educational Level",
+        "rawLabel": "Educational Level",
+        "value": 1168,
+        "unit": "Members",
+        "percentage": null
+      },
+      {
+        "code": "16",
+        "label": "Migration Members",
+        "rawLabel": "Migration",
+        "value": 152,
+        "unit": "Members",
+        "percentage": 74.1
+      },
+      {
+        "code": "17",
+        "label": "Govt Scheme Beneficiaries",
+        "rawLabel": "Number of families taking benefits of government schemes",
+        "value": 156,
+        "unit": "Family",
+        "percentage": 76.1
+      },
+      {
+        "code": "18",
+        "label": "gram Sabha information",
+        "rawLabel": "gram Sabha information",
+        "value": 0,
+        "unit": "",
+        "percentage": null
+      },
+      {
+        "code": "19",
+        "label": "The family attended the meeting of all the village",
+        "rawLabel": "The family attended the meeting of all the village",
+        "value": 0,
+        "unit": "",
+        "percentage": null
+      },
+      {
+        "code": "20",
+        "label": "village committee information",
+        "rawLabel": "village committee information",
+        "value": 0,
+        "unit": "",
+        "percentage": null
+      },
+      {
+        "code": "21",
+        "label": "Information about the member of committee of Gram Sabha",
+        "rawLabel": "Information about the member of committee of Gram Sabha",
+        "value": 0,
+        "unit": "",
+        "percentage": null
+      },
+      {
+        "code": "",
+        "label": "When are the Gram Sabha meetings held?",
+        "rawLabel": "When are the Gram Sabha meetings held?",
+        "value": 0,
+        "unit": "",
+        "percentage": null
+      }
+    ]
+  }
+}

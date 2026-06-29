@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Home, BarChart2, Shield, Leaf, Building2, AlertTriangle } from 'lucide-react';
+import { Home, BarChart2, Shield, Leaf, Building2, BookOpen } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 
 import { OverviewTab } from './DashboardTabs/OverviewTab';
@@ -7,6 +7,7 @@ import { AgricultureTab } from './DashboardTabs/AgricultureTab';
 import { RightsTab } from './DashboardTabs/RightsTab';
 import { NutritionTab } from './DashboardTabs/NutritionTab';
 import { InstitutionsTab } from './DashboardTabs/InstitutionsTab';
+import { BaselineTab } from './DashboardTabs/BaselineTab';
 
 interface DashboardProps {
   farmersData: any[];
@@ -25,6 +26,7 @@ export const Dashboard: React.FC<DashboardProps> = ({ farmersData, totalLeverage
           { id: 'rights', label: '3. R&E Convergence', icon: Shield },
           { id: 'nutrition', label: '4. Nutrition Security', icon: Leaf },
           { id: 'institutions', label: '5. Institutions and capacity building', icon: Building2 },
+          { id: 'baseline', label: '0. Baseline Survey', icon: BookOpen },
         ].map(tab => (
           <button
             key={tab.id}
@@ -51,6 +53,7 @@ export const Dashboard: React.FC<DashboardProps> = ({ farmersData, totalLeverage
             {activeTab === 'rights' && <RightsTab farmersData={farmersData} />}
             {activeTab === 'nutrition' && <NutritionTab />}
             {activeTab === 'institutions' && <InstitutionsTab />}
+            {activeTab === 'baseline' && <BaselineTab />}
           </motion.div>
         </AnimatePresence>
       </div>
