@@ -4,6 +4,8 @@ import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContaine
 import baselineSummaryData from '../../data/baseline_summary.json';
 import baselineDemographics from '../../data/baseline_demographics.json';
 import triangulationSummary from '../../data/triangulation_summary.json';
+import landDiscrepancies from '../../data/land_discrepancies.json';
+import casteOutcomes from '../../data/caste_outcomes.json';
 
 // ─────────────────────────────────────────────────────────────
 // Types
@@ -369,6 +371,110 @@ export function BaselineTab() {
             <div className="mt-4 pt-3 border-t border-slate-200/60 flex items-center justify-between text-xs">
               <span className="text-slate-400 font-medium">Marginalized Cohort Inclusion</span>
               <span className="font-bold text-indigo-600 bg-indigo-50 px-2 py-0.5 rounded border border-indigo-100">Verified Tenant Status</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Registry Audit & Integrity Verification Section */}
+      <div className="bg-white rounded-2xl border border-slate-200 shadow-sm p-6 mt-8 mb-8">
+        <div className="flex items-center gap-3 mb-6">
+          <div className="p-2 bg-amber-50 rounded-lg text-amber-600">
+            <Shield size={20} />
+          </div>
+          <div>
+            <h3 className="text-lg font-bold text-slate-800">Registry Audit & Integrity Verification</h3>
+            <p className="text-xs text-slate-500">Continuous programmatic auditing comparing active MIS data against the baseline truth database</p>
+          </div>
+        </div>
+
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          {/* Land Discrepancy Audit Card */}
+          <div className="bg-slate-50 rounded-xl border border-slate-200/60 p-5 flex flex-col justify-between">
+            <div>
+              <div className="flex items-center justify-between mb-4">
+                <h4 className="text-sm font-bold text-slate-700">Land Record Outliers (Bigha vs. Acres Audit)</h4>
+                <span className={`px-2 py-0.5 rounded-full text-[10px] font-bold ${landDiscrepancies.summary.totalDiscrepancies > 0 ? 'bg-amber-50 text-amber-700 border border-amber-200' : 'bg-emerald-50 text-emerald-700 border border-emerald-200'}`}>
+                  {landDiscrepancies.summary.totalDiscrepancies} Anomalies Flagged
+                </span>
+              </div>
+              <p className="text-xs text-slate-500 mb-4 leading-relaxed">
+                Active registries are reported in Acres, while Baseline surveys recorded land in regional Bighas. We cross-verify these entries using a local conversion factor (1 Acre = 1.6 Bigha). The outliers below show deviations &gt;20%, requiring immediate field verification.
+              </p>
+
+              <div className="overflow-x-auto">
+                <table className="w-full text-xs">
+                  <thead>
+                    <tr className="border-b border-slate-200 text-slate-400 text-[10px] uppercase tracking-wider text-left">
+                      <th className="py-2 pr-2 font-semibold">Farmer ID</th>
+                      <th className="py-2 px-2 font-semibold">Name</th>
+                      <th className="py-2 px-2 font-semibold text-right">Active (Acres)</th>
+                      <th className="py-2 px-2 font-semibold text-right">Baseline (Bighas)</th>
+                      <th className="py-2 pl-2 font-semibold text-right">Deviation</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-slate-100 font-medium">
+                    {landDiscrepancies.outliers.slice(0, 4).map((outlier, i) => (
+                      <tr key={i} className="hover:bg-slate-100/50">
+                        <td className="py-2 pr-2 font-mono text-slate-500 text-[10px]">{outlier.id}</td>
+                        <td className="py-2 px-2 text-slate-700">{outlier.name}</td>
+                        <td className="py-2 px-2 text-right text-slate-600">{outlier.activeAcres} ac</td>
+                        <td className="py-2 px-2 text-right text-slate-600">{outlier.baselineBighas} bigha</td>
+                        <td className="py-2 pl-2 text-right text-rose-600 font-bold">{outlier.deviationPct}%</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div className="mt-4 pt-3 border-t border-slate-200 flex items-center justify-between text-xs text-slate-400">
+              <span>Overall Match Integrity Rate</span>
+              <span className="font-bold text-emerald-600">{landDiscrepancies.summary.matchAccuracyPct}% Clean</span>
+            </div>
+          </div>
+
+          {/* Social Equity Outcome Triangulation */}
+          <div className="bg-slate-50 rounded-xl border border-slate-200/60 p-5 flex flex-col justify-between">
+            <div>
+              <h4 className="text-sm font-bold text-slate-700 mb-4">Intersectional Outcomes by Caste Category</h4>
+              <p className="text-xs text-slate-500 mb-4 leading-relaxed">
+                By segmenting active programme outcomes (leverage mobilized, trainings attended, and current net income) using matched baseline caste identities, we verify equitable service delivery.
+              </p>
+
+              <div className="space-y-4">
+                {casteOutcomes.castePerformance.map((caste, i) => (
+                  <div key={i} className="bg-white rounded-lg border border-slate-100 p-3">
+                    <div className="flex items-center justify-between mb-2">
+                      <div className="flex items-center gap-2">
+                        <span className={`w-2.5 h-2.5 rounded-full ${
+                          caste.category === 'SC' ? 'bg-red-500' :
+                          caste.category === 'ST' ? 'bg-amber-500' : 'bg-blue-500'
+                        }`} />
+                        <span className="font-bold text-slate-800 text-xs">{caste.category} Cohort</span>
+                        <span className="text-[10px] text-slate-400">({caste.activeFarmersCount} active)</span>
+                      </div>
+                      <div className="text-right">
+                        <span className="text-xs font-extrabold text-emerald-600">₹{(caste.avgActiveNetIncomePerAcreRs / 1000).toFixed(0)}K/ac</span>
+                        <span className="text-[9px] text-slate-400 block mt-0.5">Avg Active Income</span>
+                      </div>
+                    </div>
+
+                    <div className="grid grid-cols-2 gap-4 pt-2 border-t border-slate-50 text-[10px] text-slate-500">
+                      <div>
+                        <span className="text-slate-400 block">Leverage Mobilized</span>
+                        <span className="font-bold text-slate-700 font-mono">₹{caste.totalLeverageRsLakhs.toFixed(2)} Lakhs</span>
+                      </div>
+                      <div>
+                        <span className="text-slate-400 block">Avg Trainings Attended</span>
+                        <span className="font-bold text-slate-700 font-mono">{caste.avgTrainingsAttended} sessions</span>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+            <div className="mt-4 pt-3 border-t border-slate-200 text-xs text-slate-400">
+              *Triangulated metrics derived from the 600 matched baseline records.
             </div>
           </div>
         </div>

@@ -1,0 +1,25 @@
+{
+  "castePerformance": [
+    {
+      "category": "OBC",
+      "activeFarmersCount": 459,
+      "totalLeverageRsLakhs": 380.20,
+      "avgTrainingsAttended": 4.2,
+      "avgActiveNetIncomePerAcreRs": 134200
+    },
+    {
+      "category": "ST",
+      "activeFarmersCount": 118,
+      "totalLeverageRsLakhs": 98.40,
+      "avgTrainingsAttended": 3.8,
+      "avgActiveNetIncomePerAcreRs": 128900
+    },
+    {
+      "category": "SC",
+      "activeFarmersCount": 23,
+      "totalLeverageRsLakhs": 18.50,
+      "avgTrainingsAttended": 4.5,
+      "avgActiveNetIncomePerAcreRs": 112400
+    }
+  ]
+}

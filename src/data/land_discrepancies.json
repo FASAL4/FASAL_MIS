@@ -1,0 +1,36 @@
+{
+  "summary": {
+    "totalAudited": 600,
+    "totalDiscrepancies": 12,
+    "matchAccuracyPct": 98.0
+  },
+  "outliers": [
+    {
+      "id": "DHODEKTA1",
+      "name": "Anurudh",
+      "village": "Dhodhepurwa",
+      "activeAcres": 0.40,
+      "convertedBighas": 0.64,
+      "baselineBighas": 3.0,
+      "deviationPct": 78.6
+    },
+    {
+      "id": "DHODEKTA12",
+      "name": "Savitri Devi",
+      "village": "Kailash Nagar",
+      "activeAcres": 0.25,
+      "convertedBighas": 0.40,
+      "baselineBighas": 1.5,
+      "deviationPct": 73.3
+    },
+    {
+      "id": "DHODEKTA18",
+      "name": "Mithilesh",
+      "village": "Hajaripurwa",
+      "activeAcres": 1.20,
+      "convertedBighas": 1.92,
+      "baselineBighas": 5.0,
+      "deviationPct": 61.6
+    }
+  ]
+}
