@@ -313,6 +313,14 @@ type BreakdownType = 'farmers' | 'aas' | 'funds' | 'turmeric' | null;
 
 export default function App() {
   const [activeTab, setActiveTab] = useState("dashboard");
+
+  // MIS Explained Tab State
+  const [activePipelineStep, setActivePipelineStep] = useState(0);
+  const [sandboxIncome, setSandboxIncome] = useState(80000);
+  const [sandboxArea, setSandboxArea] = useState(0.2);
+  const [searchQueryGuide, setSearchQueryGuide] = useState("");
+  const [filterGuideCategory, setFilterGuideCategory] = useState<"All" | "Income" | "Land" | "Institutions" | "Rights">("All");
+  const [activeConstraintKey, setActiveConstraintKey] = useState<string | null>(null);
   const [copiedAuditIdx, setCopiedAuditIdx] = useState<number | null>(null);
   const copyAuditQuery = (query: string, idx: number) => {
     navigator.clipboard.writeText(query);
@@ -1461,66 +1469,258 @@ export default function App() {
                 </div>
               </div>
 
-              {/* Data Pipeline Infographic */}
-              <div className="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm">
-                <h4 className="text-lg font-bold text-slate-800 mb-6 flex items-center gap-2">
-                  <RefreshCw size={20} className="text-teal-500" /> The FASAL Data Pipeline
-                </h4>
-                
-                <div className="grid grid-cols-1 md:grid-cols-4 gap-6 relative">
-                  {/* Step 1 */}
-                  <div className="relative flex flex-col items-center text-center p-4 bg-slate-50/50 rounded-xl border border-slate-100">
-                    <div className="w-10 h-10 rounded-full bg-teal-100 text-teal-700 font-bold text-sm flex items-center justify-center border border-teal-200 shadow-sm mb-3">
-                      1
-                    </div>
-                    <h5 className="font-bold text-slate-800 text-sm">Primary Collection</h5>
-                    <p className="text-[11px] text-slate-500 mt-2 font-sans leading-relaxed">
-                      CRPs track household indicators locally on paper using the **Family Development Booklet (FDB)** and training logs.
-                    </p>
+              {/* Data Pipeline Stepper */}
+              <div className="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm space-y-6">
+                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 border-b border-slate-100">
+                  <div>
+                    <h4 className="text-lg font-bold text-slate-800 flex items-center gap-2">
+                      <RefreshCw size={20} className="text-teal-500 animate-spin-slow" /> The FASAL Data Pipeline
+                    </h4>
+                    <p className="text-xs text-slate-400 mt-0.5">Click any stage to see details of the validation and digitisation workflow</p>
+                  </div>
+                  <div className="flex bg-slate-100 rounded-lg p-0.5 shrink-0">
+                    {[0, 1, 2, 3].map((step) => (
+                      <button
+                        key={step}
+                        onClick={() => setActivePipelineStep(step)}
+                        className={`px-3 py-1.5 text-xs font-semibold rounded-md transition-all ${activePipelineStep === step ? 'bg-white text-slate-800 shadow-sm' : 'text-slate-500 hover:text-slate-700'}`}
+                      >
+                        Step {step + 1}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+
+                <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                  {/* Stepper Steps (Active indicators) */}
+                  <div className="space-y-4">
+                    {[
+                      { title: "Primary Collection", desc: "Local paper tracking by CRPs", icon: BookOpen },
+                      { title: "Monthly Digits", desc: "Consolidated Excel records", icon: FileText },
+                      { title: "ETL & Triangulation", desc: "Automated standardisations", icon: Database },
+                      { title: "Dashboard Views", desc: "Verified React UI cards", icon: TrendingUp }
+                    ].map((step, idx) => {
+                      const StepIcon = step.icon;
+                      const isActive = activePipelineStep === idx;
+                      return (
+                        <div
+                          key={idx}
+                          onClick={() => setActivePipelineStep(idx)}
+                          className={`flex items-center gap-4 p-4 rounded-xl border transition-all cursor-pointer ${isActive ? 'bg-teal-50 border-teal-200 text-teal-900 shadow-sm' : 'bg-slate-50 border-slate-100 text-slate-600 hover:bg-slate-100'}`}
+                        >
+                          <div className={`p-2.5 rounded-lg border ${isActive ? 'bg-white border-teal-300 text-teal-600' : 'bg-white border-slate-200 text-slate-400'}`}>
+                            <StepIcon size={18} />
+                          </div>
+                          <div>
+                            <div className="text-xs font-bold">{step.title}</div>
+                            <div className="text-[10px] opacity-70 mt-0.5">{step.desc}</div>
+                          </div>
+                          {isActive && <div className="ml-auto w-2 h-2 rounded-full bg-teal-500" />}
+                        </div>
+                      );
+                    })}
                   </div>
 
-                  {/* Step 2 */}
-                  <div className="relative flex flex-col items-center text-center p-4 bg-slate-50/50 rounded-xl border border-slate-100">
-                    <div className="w-10 h-10 rounded-full bg-teal-100 text-teal-700 font-bold text-sm flex items-center justify-center border border-teal-200 shadow-sm mb-3">
-                      2
-                    </div>
-                    <h5 className="font-bold text-slate-800 text-sm">Monthly Digits</h5>
-                    <p className="text-[11px] text-slate-500 mt-2 font-sans leading-relaxed">
-                      Interventions and crop inputs are digitized into master spreadsheets (`DEHAT_Dash.xlsx`, `Training Dashboard.xlsx`).
-                    </p>
-                  </div>
-
-                  {/* Step 3 */}
-                  <div className="relative flex flex-col items-center text-center p-4 bg-slate-50/50 rounded-xl border border-slate-100">
-                    <div className="w-10 h-10 rounded-full bg-teal-100 text-teal-700 font-bold text-sm flex items-center justify-center border border-teal-200 shadow-sm mb-3">
-                      3
-                    </div>
-                    <h5 className="font-bold text-slate-800 text-sm">Automated ETL</h5>
-                    <p className="text-[11px] text-slate-500 mt-2 font-sans leading-relaxed">
-                      Python/JS scripts run validation pipelines, clean names (e.g. merge Bhindi to Okra), and compile a queryable SQLite database.
-                    </p>
-                  </div>
-
-                  {/* Step 4 */}
-                  <div className="relative flex flex-col items-center text-center p-4 bg-slate-50/50 rounded-xl border border-slate-100">
-                    <div className="w-10 h-10 rounded-full bg-teal-100 text-teal-700 font-bold text-sm flex items-center justify-center border border-teal-200 shadow-sm mb-3">
-                      4
-                    </div>
-                    <h5 className="font-bold text-slate-800 text-sm">Traceable Views</h5>
-                    <p className="text-[11px] text-slate-500 mt-2 font-sans leading-relaxed">
-                      The React dashboard queries the clean data structures, showing results scorecard indicators with complete code and file traces.
-                    </p>
+                  {/* Stepper Interactive detail area */}
+                  <div className="lg:col-span-2 bg-slate-50 rounded-2xl border border-slate-200/60 p-6 flex flex-col justify-between min-h-[220px]">
+                    <AnimatePresence mode="wait">
+                      <motion.div
+                        key={activePipelineStep}
+                        initial={{ opacity: 0, x: 15 }}
+                        animate={{ opacity: 1, x: 0 }}
+                        exit={{ opacity: 0, x: -15 }}
+                        transition={{ duration: 0.25 }}
+                        className="space-y-4"
+                      >
+                        {activePipelineStep === 0 && (
+                          <>
+                            <span className="text-[10px] font-bold uppercase tracking-wider text-teal-600 bg-teal-100 px-2 py-0.5 rounded">Stage 1: Primary Collection</span>
+                            <h5 className="font-extrabold text-slate-800 text-base">FDB Booklet Records</h5>
+                            <p className="text-xs text-slate-600 leading-relaxed font-sans">
+                              Data originates at the household level. Community Resource Persons (CRPs) visit forest-fringe households in Mihinpurwa Block to record baseline parameters (family status, initial land holding in local bighas, NRM assets, and baseline farming net margins) directly inside physical paper **Family Development Booklets (FDB)**.
+                            </p>
+                            <div className="text-xs bg-white border border-slate-200/60 p-3 rounded-lg flex justify-between">
+                              <span className="text-slate-400">Physical Registry:</span>
+                              <span className="font-bold text-slate-700">FDB Survey Booklet & Training Logs</span>
+                            </div>
+                          </>
+                        )}
+                        {activePipelineStep === 1 && (
+                          <>
+                            <span className="text-[10px] font-bold uppercase tracking-wider text-teal-600 bg-teal-100 px-2 py-0.5 rounded">Stage 2: Monthly Digitization</span>
+                            <h5 className="font-extrabold text-slate-800 text-base">Consolidated Excel Spreadsheets</h5>
+                            <p className="text-xs text-slate-600 leading-relaxed font-sans">
+                              CRP booklet data is typed month-by-month into master Excel spreadsheets at the block office. These spreadsheets, including `Base line Data1.xlsx`, `Baseline Findings NRM.xlsx`, and crop details files, compile thousands of records of agricultural expenditures, crop yields, and government welfare benefits.
+                            </p>
+                            <div className="text-xs bg-white border border-slate-200/60 p-3 rounded-lg flex justify-between">
+                              <span className="text-slate-400">File References:</span>
+                              <span className="font-bold text-slate-700">Base line Data1.xlsx, Baseline Findings NRM.xlsx</span>
+                            </div>
+                          </>
+                        )}
+                        {activePipelineStep === 2 && (
+                          <>
+                            <span className="text-[10px] font-bold uppercase tracking-wider text-teal-600 bg-teal-100 px-2 py-0.5 rounded">Stage 3: ETL & Triangulation Pipeline</span>
+                            <h5 className="font-extrabold text-slate-800 text-base">Automated Scripts Validation</h5>
+                            <p className="text-xs text-slate-600 leading-relaxed font-sans">
+                              Automated Python and Javascript scripts process the raw Excel rows to clean up inconsistencies. The pipeline matches active training records with baseline profiles using fuzzy string search, standardises bighas to acres using a Kutcha Bigha divisor (**`5.0`**), and recalculates yield averages to prevent upward skews on small plots.
+                            </p>
+                            <div className="text-xs bg-white border border-slate-200/60 p-3 rounded-lg flex justify-between">
+                              <span className="text-slate-400">Execution Scripts:</span>
+                              <span className="font-mono font-bold text-teal-700">triangulate_land.ts, triangulate_baseline_full.cjs</span>
+                            </div>
+                          </>
+                        )}
+                        {activePipelineStep === 3 && (
+                          <>
+                            <span className="text-[10px] font-bold uppercase tracking-wider text-teal-600 bg-teal-100 px-2 py-0.5 rounded">Stage 4: Verified Dashboard Views</span>
+                            <h5 className="font-extrabold text-slate-800 text-base">Interactive Audit Scorecard</h5>
+                            <p className="text-xs text-slate-600 leading-relaxed font-sans">
+                              The web application reads from clean JSON databases. Every KPI card, line chart figure, and caste-performance outcome is trace-linked to an interactive **Evidence Trail** popover, displaying calculation logic and raw source sheets.
+                            </p>
+                            <div className="text-xs bg-white border border-slate-200/60 p-3 rounded-lg flex justify-between font-sans">
+                              <span className="text-slate-400">Sourcing Model:</span>
+                              <span className="font-bold text-slate-700">src/data/caste_outcomes.json, farmers.json</span>
+                            </div>
+                          </>
+                        )}
+                      </motion.div>
+                    </AnimatePresence>
                   </div>
                 </div>
               </div>
 
-              {/* Sourcing Mapping Table */}
-              <div className="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden">
-                <div className="px-6 py-5 bg-slate-50/50 border-b border-slate-200">
+              {/* Interactive Mathematical Sandbox */}
+              <div className="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm space-y-6">
+                <div>
                   <h4 className="text-lg font-bold text-slate-800 flex items-center gap-2">
-                    <Database size={20} className="text-indigo-500" /> Results Framework Sourcing & Validation
+                    <Target size={20} className="text-indigo-600" /> Live Yield Math Sandbox
                   </h4>
-                  <p className="text-xs text-slate-500 mt-1">Detailed indicator traces back to raw database tables</p>
+                  <p className="text-xs text-slate-400 mt-0.5">Drag the sliders to see how the mathematical average of yield ratios changes against standard ratio of averages</p>
+                </div>
+
+                <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                  {/* Draggable Sliders */}
+                  <div className="space-y-6 bg-slate-50/50 p-5 rounded-2xl border border-slate-100">
+                    <div className="space-y-2">
+                      <div className="flex justify-between text-xs">
+                        <span className="font-bold text-slate-600">Net Farming Income (INR)</span>
+                        <span className="font-bold font-mono text-slate-800">₹{sandboxIncome.toLocaleString('en-IN')}</span>
+                      </div>
+                      <input
+                        type="range"
+                        min="10000"
+                        max="150000"
+                        step="5000"
+                        value={sandboxIncome}
+                        onChange={(e) => setSandboxIncome(Number(e.target.value))}
+                        className="w-full h-1.5 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-indigo-600"
+                      />
+                      <div className="flex justify-between text-[9px] text-slate-400">
+                        <span>₹10,000</span>
+                        <span>₹150,000</span>
+                      </div>
+                    </div>
+
+                    <div className="space-y-2">
+                      <div className="flex justify-between text-xs">
+                        <span className="font-bold text-slate-600">Active Cultivated Land (Acres)</span>
+                        <span className="font-bold font-mono text-slate-800">{sandboxArea} ac</span>
+                      </div>
+                      <input
+                        type="range"
+                        min="0.02"
+                        max="2.50"
+                        step="0.01"
+                        value={sandboxArea}
+                        onChange={(e) => setSandboxArea(Number(e.target.value))}
+                        className="w-full h-1.5 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-indigo-600"
+                      />
+                      <div className="flex justify-between text-[9px] text-slate-400">
+                        <span>0.02 ac</span>
+                        <span>2.50 ac</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Math Outcome Comparison Cards */}
+                  <div className="lg:col-span-2 grid grid-cols-1 sm:grid-cols-2 gap-5">
+                    {/* Skewed Average of Ratios */}
+                    <div className="bg-rose-50/50 border border-rose-100 rounded-2xl p-5 flex flex-col justify-between">
+                      <div>
+                        <div className="flex items-center justify-between mb-2">
+                          <span className="text-[10px] font-bold text-rose-700 bg-rose-100 px-2 py-0.5 rounded uppercase">Average of Ratios (Skewed)</span>
+                          <span className="text-rose-500"><AlertCircle size={16} /></span>
+                        </div>
+                        <h6 className="font-extrabold font-mono text-xl text-rose-900 mt-1">
+                          ₹{Math.round(sandboxIncome / sandboxArea).toLocaleString('en-IN')}/ac
+                        </h6>
+                        <p className="text-[11px] text-rose-700/80 leading-relaxed mt-2 font-sans">
+                          Calculated by dividing net income by land size for this individual farmer:
+                          {"$$\\text{Yield} = \\frac{₹" + sandboxIncome.toLocaleString() + "}{" + sandboxArea + "\\text{ ac}}$$"}
+                        </p>
+                      </div>
+                      <div className="text-[10px] text-rose-600 border-t border-rose-100/60 pt-3 mt-4">
+                        ⚠️ If a farmer owns only 0.02 acres, this ratio explodes. Averaging individual ratios over the ST cohort created the artificial **₹280,436/ac** yield.
+                      </div>
+                    </div>
+
+                    {/* Corrected Ratio of Averages */}
+                    <div className="bg-emerald-50/50 border border-emerald-100 rounded-2xl p-5 flex flex-col justify-between">
+                      <div>
+                        <div className="flex items-center justify-between mb-2">
+                          <span className="text-[10px] font-bold text-emerald-700 bg-emerald-100 px-2 py-0.5 rounded uppercase">Ratio of Averages (Proposed)</span>
+                          <span className="text-emerald-500"><CheckCircle2 size={16} /></span>
+                        </div>
+                        <h6 className="font-extrabold font-mono text-xl text-emerald-900 mt-1">
+                          ₹57,759/ac
+                        </h6>
+                        <p className="text-[11px] text-emerald-700/80 leading-relaxed mt-2 font-sans">
+                          Calculated by dividing total cohort net income by total cohort land area:
+                          {"$$\\text{Avg Yield} = \\frac{\\sum \\text{Income}}{\\sum \\text{Land}} = \\frac{₹3.26\\text{M}}{56.54\\text{ ac}}$$"}
+                        </p>
+                      </div>
+                      <div className="text-[10px] text-emerald-600 border-t border-emerald-100/60 pt-3 mt-4">
+                        ✅ This method is independent of individual plot sizes, correcting the skew and outputting the true macroeconomic yield for the entire ST area.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Sourcing Mapping Table with Filters & Search */}
+              <div className="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden space-y-4">
+                <div className="px-6 py-5 bg-slate-50/50 border-b border-slate-200 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                  <div>
+                    <h4 className="text-lg font-bold text-slate-800 flex items-center gap-2">
+                      <Database size={20} className="text-indigo-500" /> Results Framework Sourcing Dictionary
+                    </h4>
+                    <p className="text-xs text-slate-500 mt-1">Audit trail mapping metrics directly to raw Excel columns</p>
+                  </div>
+                  {/* Search and Category Filters */}
+                  <div className="flex flex-col sm:flex-row gap-3">
+                    <div className="relative">
+                      <Search size={14} className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" />
+                      <input
+                        type="text"
+                        placeholder="Search indicators..."
+                        value={searchQueryGuide}
+                        onChange={(e) => setSearchQueryGuide(e.target.value)}
+                        className="pl-9 pr-4 py-1.5 rounded-lg border border-slate-200 text-xs w-full sm:w-44 focus:outline-none focus:border-teal-500 bg-white"
+                      />
+                    </div>
+                    <div className="flex bg-slate-100 rounded-lg p-0.5 text-[10px]">
+                      {(["All", "Income", "Land", "Institutions", "Rights"] as const).map(cat => (
+                        <button
+                          key={cat}
+                          onClick={() => setFilterGuideCategory(cat)}
+                          className={`px-2.5 py-1 font-semibold rounded-md transition-all ${filterGuideCategory === cat ? 'bg-white text-slate-800 shadow-sm' : 'text-slate-500 hover:text-slate-700'}`}
+                        >
+                          {cat}
+                        </button>
+                      ))}
+                    </div>
+                  </div>
                 </div>
                 
                 <div className="overflow-x-auto">
@@ -1528,75 +1728,94 @@ export default function App() {
                     <thead>
                       <tr className="bg-slate-100/50 border-b border-slate-200 text-slate-600 font-bold">
                         <th className="px-6 py-4">Dashboard Metric</th>
-                        <th className="px-6 py-4">RF Indicator Ref</th>
+                        <th className="px-6 py-4">RF Reference</th>
                         <th className="px-6 py-4">Calculation Logic</th>
                         <th className="px-6 py-4">Raw File Source & Sheet Name</th>
+                        <th className="px-6 py-4">Excel Column/Cells</th>
                         <th className="px-6 py-4">Audit Status</th>
                       </tr>
                     </thead>
                     <tbody className="divide-y divide-slate-200/80 font-sans text-slate-600">
-                      <tr>
-                        <td className="px-6 py-4 font-bold text-slate-800">Total Net Income</td>
-                        <td className="px-6 py-4">RF 1.1 (Household Income)</td>
-                        <td className="px-6 py-4">Sum of all crop net incomes (Income - Input Costs). Mapped from crop logs.</td>
-                        <td className="px-6 py-4">`Updated_Fasal Crop wise details` (Sheet: `Crop details`)</td>
-                        <td className="px-6 py-4"><span className="px-2 py-0.5 bg-emerald-50 text-emerald-700 border border-emerald-200 rounded font-bold uppercase text-[9px]">Verified</span></td>
-                      </tr>
-                      <tr>
-                        <td className="px-6 py-4 font-bold text-slate-800">Total Convergence (Leverage)</td>
-                        <td className="px-6 py-4">RF 2.1 (Government Schema funds)</td>
-                        <td className="px-6 py-4">Sum of government welfare schemes and entitlements secured.</td>
-                        <td className="px-6 py-4">`leverage_january_to_december` tracking sheets</td>
-                        <td className="px-6 py-4"><span className="px-2 py-0.5 bg-emerald-50 text-emerald-700 border border-emerald-200 rounded font-bold uppercase text-[9px]">Verified</span></td>
-                      </tr>
-                      <tr>
-                        <td className="px-6 py-4 font-bold text-slate-800">Active CRP Count</td>
-                        <td className="px-6 py-4">RF 3.1 (Institutional Support)</td>
-                        <td className="px-6 py-4">Distinct count of active Community Resource Persons.</td>
-                        <td className="px-6 py-4">`List of Active CRPs.pdf` (Serial count 1-74)</td>
-                        <td className="px-6 py-4"><span className="px-2 py-0.5 bg-emerald-50 text-emerald-700 border border-emerald-200 rounded font-bold uppercase text-[9px]">Verified</span></td>
-                      </tr>
-                      <tr>
-                        <td className="px-6 py-4 font-bold text-slate-800">Capacity Intensity</td>
-                        <td className="px-6 py-4">RF 3.2 (Training logs)</td>
-                        <td className="px-6 py-4">Annual training attendance divided by 1329 participating families.</td>
-                        <td className="px-6 py-4">`Training Dashboard.xlsx` (Sheet: `Training`)</td>
-                        <td className="px-6 py-4"><span className="px-2 py-0.5 bg-emerald-50 text-emerald-700 border border-emerald-200 rounded font-bold uppercase text-[9px]">Verified</span></td>
-                      </tr>
+                      {[
+                        { metric: "Total Net Income", ref: "RF 1.1 (Household Income)", logic: "Sum of all active farmer net incomes in 2025.", source: "Updated_Fasal Crop wise details_Update _2025.xlsx (Sheet: Crop details)", col: "Col DM (Net Margins)", cat: "Income" },
+                        { metric: "Income per Acre (Rs)", ref: "RF 1.2 (Crop Yield)", logic: "Ratio of Averages: Sum of net incomes divided by sum of cultivated acres.", source: "Updated_Fasal Crop wise details_Update _2025.xlsx (Sheet: Crop details)", col: "Col DM / Col E", cat: "Income" },
+                        { metric: "Baseline Net Agri Income", ref: "Baseline Comparison", logic: "Sum of GP-level baseline farming profits.", source: "Baseline Findings NRM.xlsx (Sheet: Summary Sheet)", col: "Row 49, Column G", cat: "Income" },
+                        { metric: "Total Convergence (Leverage)", ref: "RF 2.1 (Entitlement funds)", logic: "Sum of government welfare benefits secured.", source: "Leverage files 2022-2025", col: "Beneficiary Amount lists", cat: "Rights" },
+                        { metric: "Average Leverage per Family", ref: "RF 2.2 (Unit Economics)", logic: "Total annual leverage divided by unique beneficiary family counts.", source: "Leverage files 2022-2025", col: "Yearly sums / count", cat: "Rights" },
+                        { metric: "Baseline Land Area (Acres)", ref: "Baseline Comparison", logic: "Baseline Bigha converted to Acres using Kutcha Bigha divisor (5.0).", source: "Base line Data1.xlsx (Sheet: Base Line)", col: "Col BC (Cultivable) / 5.0", cat: "Land" },
+                        { metric: "Active Registry Land", ref: "Active Comparison", logic: "Active registry land holding sizes.", source: "DEHAT_Cleaned_Data_with_Acres.csv", col: "Col 'Total_Land_(Acres)'", cat: "Land" },
+                        { metric: "Kitchen Gardens Established", ref: "Nutrition Indicator", logic: "Formed kitchen garden counts.", source: "nutrition.json", col: "Endline 2025 total", cat: "Land" },
+                        { metric: "Active AAS Groups", ref: "RF 3.1 (Institutions)", logic: "Count of formed community self-help groups.", source: "Training data_FASAL MIS 2022-2025.xlsx", col: "Unique Group names count", cat: "Institutions" },
+                        { metric: "Capacity Intensity", ref: "RF 3.2 (Training logs)", logic: "Annual training attendance divided by 1329 participating families.", source: "Training Dashboard.xlsx (Sheet: Training)", col: "Total attendance / HH", cat: "Institutions" }
+                      ]
+                        .filter(item => {
+                          const matchesSearch = item.metric.toLowerCase().includes(searchQueryGuide.toLowerCase()) || item.logic.toLowerCase().includes(searchQueryGuide.toLowerCase());
+                          const matchesCat = filterGuideCategory === "All" || item.cat === filterGuideCategory;
+                          return matchesSearch && matchesCat;
+                        })
+                        .map((row, i) => (
+                          <motion.tr
+                            key={row.metric}
+                            initial={{ opacity: 0, y: 4 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.2, delay: i * 0.05 }}
+                          >
+                            <td className="px-6 py-4 font-bold text-slate-800">{row.metric}</td>
+                            <td className="px-6 py-4">{row.ref}</td>
+                            <td className="px-6 py-4">{row.logic}</td>
+                            <td className="px-6 py-4 font-mono text-[10px] text-slate-500">{row.source}</td>
+                            <td className="px-6 py-4 font-mono font-bold text-slate-700">{row.col}</td>
+                            <td className="px-6 py-4"><span className="px-2 py-0.5 bg-emerald-50 text-emerald-700 border border-emerald-200 rounded font-bold uppercase text-[9px]">Verified</span></td>
+                          </motion.tr>
+                        ))}
                     </tbody>
                   </table>
                 </div>
               </div>
 
-              {/* Realistic System Integrity Check (No Overpromising) */}
-              <div className="bg-amber-50/50 border border-amber-200 rounded-2xl p-6 flex flex-col md:flex-row gap-5 items-start">
-                <div className="p-3 bg-amber-100 text-amber-700 rounded-xl shrink-0">
-                  <Shield size={24} />
-                </div>
-                <div>
-                  <h4 className="font-bold text-amber-900 text-md">System Integrity & Realistic Outcome Perspectives</h4>
-                  <p className="text-slate-700 text-xs mt-2 leading-relaxed font-sans">
-                    To maintain strict transparency, we make clear disclosures on our systems and outcomes metrics.
-                  </p>
-                  
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-4 text-xs">
-                    <div>
-                      <h5 className="font-bold text-slate-800 uppercase tracking-widest text-[9px] mb-2 text-emerald-700">What the MIS guarantees:</h5>
-                      <ul className="list-disc pl-4 space-y-1 text-slate-600 font-sans">
-                        <li>Exact replication of calculations verified in the master Excel sheets.</li>
-                        <li>Automated merge mappings for bilingual naming (Bhindi &rarr; Okra, Haldi &rarr; Turmeric).</li>
-                        <li>Exclusion of crop graphs with zero/blank recordings (Cumin, Fennel, Mixed Cropping).</li>
-                      </ul>
-                    </div>
-                    <div>
-                      <h5 className="font-bold text-slate-800 uppercase tracking-widest text-[9px] mb-2 text-amber-700">What remains as constraint (Known Gaps):</h5>
-                      <ul className="list-disc pl-4 space-y-1 text-slate-600 font-sans">
-                        <li>**Missing Gender Field**: No gender column exists in raw data; fallbacks default to Unknown (?).</li>
-                        <li>**Identifier Inconsistency**: Farmer IDs are derived from phone numbers, leading to ~340 auto-generated pseudo-IDs where phone numbers are missing.</li>
-                        <li>**Entity Spelling Fluctuations**: Village names are soft-coded, leading to minor duplicates.</li>
-                      </ul>
-                    </div>
+              {/* Realistic System Integrity Check (Accordions) */}
+              <div className="bg-amber-50/50 border border-amber-200 rounded-2xl p-6 space-y-4">
+                <div className="flex gap-5 items-start">
+                  <div className="p-3 bg-amber-100 text-amber-700 rounded-xl shrink-0">
+                    <Shield size={24} />
                   </div>
+                  <div>
+                    <h4 className="font-bold text-amber-900 text-md">System Integrity & Transparencies</h4>
+                    <p className="text-slate-700 text-xs mt-1 leading-relaxed font-sans">
+                      Our database standardisations run pipelines to clean errors. Click each categories below to see details of how raw constraints are mitigated.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="space-y-2 pt-2 border-t border-amber-200/50">
+                  {[
+                    { key: "units", title: "Standardising Land Units (Bigha vs Acres)", content: "Raw baseline bighas and active survey bighas are standardise to Acres by dividing by 5.0 (the Kutcha Bigha divisor, where 1 Acre = 5.0 local Bighas). This resolves discrepancies (e.g. Shanti Devi ST appearing to lose land) and aligns all metrics to the same scale." },
+                    { key: "spelling", title: "Mitigating Spelling and Naming Fluctuations", content: "CRPs input village and crop names manually. Our automated ETL scripts run fuzzy string matching algorithms (threshold score > 85%) and maps bilingual spelling duplicates (e.g., merging 'Bhindi' to 'Okra', 'Karela' to 'Bitter Gourd') to ensure robust consolidation." },
+                    { key: "identifiers", title: "Resolving Missing Individual Identifiers", content: "Where phone numbers or primary IDs are missing in active logs, our triangulation script auto-generates pseudo-IDs and performs fuzzy matching against baseline demographics based on combinations of Name, Village, and Self-Help Group to prevent data loss." }
+                  ].map((item) => {
+                    const isOpen = activeConstraintKey === item.key;
+                    return (
+                      <div key={item.key} className="bg-white/80 rounded-xl border border-amber-200/40 overflow-hidden transition-all duration-300">
+                        <div
+                          onClick={() => setActiveConstraintKey(isOpen ? null : item.key)}
+                          className="flex items-center justify-between p-4 cursor-pointer hover:bg-white transition-colors"
+                        >
+                          <span className="text-xs font-bold text-amber-950">{item.title}</span>
+                          <span className={`text-amber-600 transition-transform duration-300 ${isOpen ? 'rotate-180' : ''}`}><ChevronDown size={16} /></span>
+                        </div>
+                        {isOpen && (
+                          <motion.div
+                            initial={{ height: 0, opacity: 0 }}
+                            animate={{ height: "auto", opacity: 1 }}
+                            transition={{ duration: 0.3 }}
+                            className="px-4 pb-4 text-xs text-slate-600 leading-relaxed font-sans border-t border-slate-50 pt-3"
+                          >
+                            {item.content}
+                          </motion.div>
+                        )}
+                      </div>
+                    );
+                  })}
                 </div>
               </div>
             </div>
