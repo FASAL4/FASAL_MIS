@@ -15,18 +15,18 @@ interface DashboardProps {
 }
 
 export const Dashboard: React.FC<DashboardProps> = ({ farmersData, totalLeverageAmount }) => {
-  const [activeTab, setActiveTab] = useState('overview');
+  const [activeTab, setActiveTab] = useState('baseline');
 
   return (
     <div className="w-full">
       <div className="mb-6 flex gap-2 border-b border-slate-200 overflow-x-auto pb-2 custom-scrollbar">
         {[
+          { id: 'baseline', label: '0. Baseline Survey', icon: BookOpen },
           { id: 'overview', label: '1. Results Scorecard', icon: Home },
           { id: 'agriculture', label: '2. Agriculture Economy', icon: Leaf },
           { id: 'rights', label: '3. R&E Convergence', icon: Shield },
           { id: 'nutrition', label: '4. Nutrition Security', icon: Leaf },
           { id: 'institutions', label: '5. Institutions and capacity building', icon: Building2 },
-          { id: 'baseline', label: '0. Baseline Survey', icon: BookOpen },
         ].map(tab => (
           <button
             key={tab.id}

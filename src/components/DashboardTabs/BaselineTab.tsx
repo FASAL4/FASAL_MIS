@@ -1,6 +1,7 @@
 import React, { useState, useMemo } from 'react';
-import { Users, Map, Sprout, Home, TrendingUp, Shield, Building2, IndianRupee, Info, ChevronDown, BarChart3, Activity, ClipboardCheck } from 'lucide-react';
+import { Users, Map, Sprout, Home, TrendingUp, Shield, Building2, IndianRupee, Info, ChevronDown, BarChart3, Activity, ClipboardCheck, CheckCircle2, AlertCircle } from 'lucide-react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, RadarChart, PolarGrid, PolarAngleAxis, Radar, Cell, PieChart, Pie, Legend } from 'recharts';
+import * as Popover from '@radix-ui/react-popover';
 import baselineSummaryData from '../../data/baseline_summary.json';
 import baselineDemographics from '../../data/baseline_demographics.json';
 import triangulationSummary from '../../data/triangulation_summary.json';
@@ -49,6 +50,32 @@ const GP_COLORS: Record<string, string> = {
 // ─────────────────────────────────────────────────────────────
 // Sub-components
 // ─────────────────────────────────────────────────────────────
+const EvidenceDrawer = ({ source, sheet, calculation, rfLink, status, caution }: any) => {
+  const [isOpen, setIsOpen] = React.useState(false);
+  return (
+    <div className="shrink-0 self-start">
+      <Popover.Root open={isOpen} onOpenChange={setIsOpen}>
+        <Popover.Trigger asChild>
+          <button className="flex items-center gap-2 text-xs font-semibold text-slate-500 hover:text-slate-900 hover:bg-slate-100 transition-colors px-3 py-2 bg-slate-50 border border-slate-200 rounded-lg outline-none group text-left">
+            <Info size={14} className={isOpen ? 'text-slate-900' : 'text-slate-400 group-hover:text-slate-900'} /> Evidence Trail
+          </button>
+        </Popover.Trigger>
+        <Popover.Portal>
+          <Popover.Content side="bottom" align="end" sideOffset={8} className="z-50 w-[380px] sm:w-[420px] rounded-xl bg-white p-5 shadow-xl shadow-slate-200/50 border border-slate-200 text-sm">
+            <dl className="grid grid-cols-1 gap-x-4 gap-y-4 sm:grid-cols-2">
+              <div className="sm:col-span-2"><dt className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">Source</dt><dd><span className="font-medium bg-slate-100 px-2 py-0.5 rounded text-slate-800 text-xs">{source}</span></dd></div>
+              <div className="sm:col-span-2"><dt className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">Calculation</dt><dd className="bg-white border border-slate-200 p-3 rounded-lg text-xs leading-relaxed text-slate-700">{calculation}</dd></div>
+              <div><dt className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">RF Link</dt><dd className="font-mono bg-slate-50 px-2 py-1 rounded w-fit border border-slate-200 text-xs text-slate-600">{rfLink}</dd></div>
+              <div><dt className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">Status</dt><dd><span className={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full font-bold text-xs ${status === 'Verified' ? 'bg-emerald-50 text-emerald-700 ring-1 ring-emerald-600/20' : 'bg-amber-50 text-amber-700 ring-1 ring-amber-600/20'}`}>{status === 'Verified' ? <CheckCircle2 size={14} /> : <AlertCircle size={14} />}{status}</span></dd></div>
+            </dl>
+            {caution && <div className="mt-5 rounded-md bg-amber-50/50 p-4 border border-amber-200/60"><p className="text-xs text-amber-800"><strong>Note:</strong> {caution}</p></div>}
+          </Popover.Content>
+        </Popover.Portal>
+      </Popover.Root>
+    </div>
+  );
+};
+
 const StatBadge = ({ label, value, unit, color = 'slate' }: { label: string; value: string | number; unit?: string; color?: string }) => {
   const colorMap: Record<string, string> = {
     emerald: 'bg-emerald-50 border-emerald-200 text-emerald-800',
@@ -130,19 +157,18 @@ export function BaselineTab() {
       {/* Header */}
       <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-4">
         <div>
-          <div className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-amber-700 bg-amber-50 border border-amber-200 rounded-full px-3 py-1 mb-3">
-            <Activity size={11} />
-            Pre-Programme Baseline · {meta.dataType}
-          </div>
           <h2 className="text-2xl font-bold text-slate-800 tracking-tight">Community Baseline Survey</h2>
           <p className="text-sm text-slate-500 mt-1.5 max-w-xl">
             Socio-economic snapshot of <strong>{aggregateMetrics.totalHouseholds.toLocaleString('en-IN')} households</strong> across {meta.gpCount} Gram Panchayats in Mihinpurwa, Bahraich — captured <em>before</em> FASAL programme engagement. This data forms the reference point for all programme impact measurements.
           </p>
         </div>
-        <div className="flex items-center gap-2 text-xs text-slate-400 bg-slate-50 border border-slate-200 rounded-lg px-3 py-2 shrink-0 self-start">
-          <Info size={13} />
-          Source: <span className="font-semibold text-slate-600">Base line Data1.xlsx + Baseline Findings NRM.xlsx</span>
-        </div>
+        <EvidenceDrawer
+          source="Base line Data1.xlsx + Baseline Findings NRM.xlsx"
+          sheet="Base line Data / Summary"
+          calculation="Community baseline demographics, landholdings (converted to Acres), and pre-program net agri incomes."
+          rfLink="Baseline Reference"
+          status="Verified"
+        />
       </div>
 
       {/* Top-level KPI Cards */}
@@ -152,22 +178,20 @@ export function BaselineTab() {
             key={i}
             className="bg-white rounded-2xl border border-slate-200/80 shadow-sm hover:shadow-md hover:border-slate-300 transition-all duration-300 p-5 flex flex-col justify-between min-h-[120px] relative overflow-hidden group"
           >
-            <div className={`absolute -right-8 -bottom-8 w-20 h-20 rounded-full blur-xl opacity-0 group-hover:opacity-10 transition-opacity duration-500 ${
-              kpi.color === 'emerald' ? 'bg-emerald-400' :
-              kpi.color === 'blue' ? 'bg-blue-400' :
-              kpi.color === 'amber' ? 'bg-amber-400' :
-              kpi.color === 'purple' ? 'bg-purple-400' :
-              kpi.color === 'rose' ? 'bg-rose-400' : 'bg-slate-400'
-            }`} />
+            <div className={`absolute -right-8 -bottom-8 w-20 h-20 rounded-full blur-xl opacity-0 group-hover:opacity-10 transition-opacity duration-500 ${kpi.color === 'emerald' ? 'bg-emerald-400' :
+                kpi.color === 'blue' ? 'bg-blue-400' :
+                  kpi.color === 'amber' ? 'bg-amber-400' :
+                    kpi.color === 'purple' ? 'bg-purple-400' :
+                      kpi.color === 'rose' ? 'bg-rose-400' : 'bg-slate-400'
+              }`} />
             <div className="flex items-center gap-4">
-              <div className={`p-3 rounded-2xl shrink-0 border border-slate-100 ${
-                kpi.color === 'emerald' ? 'bg-emerald-50 text-emerald-600' :
-                kpi.color === 'blue' ? 'bg-blue-50 text-blue-600' :
-                kpi.color === 'amber' ? 'bg-amber-50 text-amber-600' :
-                kpi.color === 'purple' ? 'bg-purple-50 text-purple-600' :
-                kpi.color === 'rose' ? 'bg-rose-50 text-rose-600' :
-                'bg-slate-50 text-slate-600'
-              }`}>
+              <div className={`p-3 rounded-2xl shrink-0 border border-slate-100 ${kpi.color === 'emerald' ? 'bg-emerald-50 text-emerald-600' :
+                  kpi.color === 'blue' ? 'bg-blue-50 text-blue-600' :
+                    kpi.color === 'amber' ? 'bg-amber-50 text-amber-600' :
+                      kpi.color === 'purple' ? 'bg-purple-50 text-purple-600' :
+                        kpi.color === 'rose' ? 'bg-rose-50 text-rose-600' :
+                          'bg-slate-50 text-slate-600'
+                }`}>
                 <kpi.icon size={20} />
               </div>
               <div className="min-w-0 flex-1">
@@ -186,7 +210,7 @@ export function BaselineTab() {
       <div className="bg-slate-900 rounded-3xl p-8 text-white relative overflow-hidden shadow-xl mt-8 mb-8">
         <div className="absolute top-0 right-0 w-96 h-96 bg-indigo-500 rounded-full blur-[120px] opacity-20 -mr-20 -mt-20"></div>
         <div className="absolute bottom-0 left-0 w-96 h-96 bg-rose-500 rounded-full blur-[120px] opacity-20 -ml-20 -mb-20"></div>
-        
+
         <div className="relative z-10">
           <div className="flex flex-col md:flex-row gap-8">
             <div className="md:w-1/3">
@@ -198,14 +222,14 @@ export function BaselineTab() {
               <p className="text-slate-300 text-sm leading-relaxed mb-6">
                 Direct programme metrics alone can mask systemic vulnerability. By analyzing the baseline through the lens of caste and gender, we identify the exact populations FASAL must prioritize for inclusion.
               </p>
-              
+
               <div className="space-y-4">
                 <div className="bg-slate-800/50 border border-slate-700 p-4 rounded-xl">
                   <div className="text-4xl font-black text-rose-400 mb-1">{((baselineDemographics.vulnerability.totalScSt / 1638) * 100).toFixed(0)}%</div>
                   <div className="text-sm font-semibold text-slate-300">SC/ST Representation</div>
                   <div className="text-xs text-slate-500 mt-1">{baselineDemographics.vulnerability.totalScSt} out of 1,638 surveyed households belong to highly marginalized SC or ST communities.</div>
                 </div>
-                
+
                 <div className="bg-slate-800/50 border border-slate-700 p-4 rounded-xl">
                   <div className="text-4xl font-black text-amber-400 mb-1">{baselineDemographics.vulnerability.singleWomen}</div>
                   <div className="text-sm font-semibold text-slate-300">Single & Widowed Women</div>
@@ -213,7 +237,7 @@ export function BaselineTab() {
                 </div>
               </div>
             </div>
-            
+
             <div className="md:w-2/3 grid grid-cols-1 md:grid-cols-2 gap-6">
               {/* Caste Breakdown Chart */}
               <div className="bg-slate-800/50 border border-slate-700 p-5 rounded-xl flex flex-col">
@@ -250,12 +274,12 @@ export function BaselineTab() {
                   </ResponsiveContainer>
                 </div>
               </div>
-              
+
               {/* Landlessness & Income Gap */}
               <div className="bg-slate-800/50 border border-slate-700 p-5 rounded-xl flex flex-col justify-between">
                 <div>
                   <h4 className="text-sm font-bold text-slate-200 mb-4">Baseline Economic Disparity</h4>
-                  
+
                   <div className="space-y-5">
                     <div>
                       <div className="flex justify-between text-xs mb-1.5">
@@ -274,7 +298,7 @@ export function BaselineTab() {
                         ST communities possess larger landholdings (Avg 4.0 bigha) compared to OBC (2.2), likely due to forest-adjacent tracts.
                       </p>
                     </div>
-                    
+
                     <div>
                       <div className="flex justify-between text-xs mb-1.5">
                         <span className="text-slate-400">Avg Pre-Programme Income: <strong className="text-slate-200">SC vs ST</strong></span>
@@ -294,7 +318,7 @@ export function BaselineTab() {
                     </div>
                   </div>
                 </div>
-                
+
                 <div className="mt-4 p-3 bg-indigo-900/30 border border-indigo-500/20 rounded-lg">
                   <div className="text-xs font-bold text-indigo-300 mb-1">Triangulation Insight</div>
                   <div className="text-[11px] text-slate-300 leading-snug">
@@ -446,10 +470,9 @@ export function BaselineTab() {
                   <div key={i} className="bg-white rounded-lg border border-slate-100 p-3">
                     <div className="flex items-center justify-between mb-2">
                       <div className="flex items-center gap-2">
-                        <span className={`w-2.5 h-2.5 rounded-full ${
-                          caste.category === 'SC' ? 'bg-red-500' :
-                          caste.category === 'ST' ? 'bg-amber-500' : 'bg-blue-500'
-                        }`} />
+                        <span className={`w-2.5 h-2.5 rounded-full ${caste.category === 'SC' ? 'bg-red-500' :
+                            caste.category === 'ST' ? 'bg-amber-500' : 'bg-blue-500'
+                          }`} />
                         <span className="font-bold text-slate-800 text-xs">{caste.category} Cohort</span>
                         <span className="text-[10px] text-slate-400">({caste.activeFarmersCount} active)</span>
                       </div>
@@ -511,17 +534,17 @@ export function BaselineTab() {
                 labelFormatter={(label, payload) => payload?.[0]?.payload?.fullName || label}
               />
               {activeMetric === 'income' && <>
-                <Bar dataKey="Agri Income (L)" fill="#a7f3d0" radius={[4,4,0,0]} />
-                <Bar dataKey="Net Agri Income (L)" fill="#10b981" radius={[4,4,0,0]} />
+                <Bar dataKey="Agri Income (L)" fill="#a7f3d0" radius={[4, 4, 0, 0]} />
+                <Bar dataKey="Net Agri Income (L)" fill="#10b981" radius={[4, 4, 0, 0]} />
               </>}
               {activeMetric === 'land' && <>
-                <Bar dataKey="Cultivable Land (Acres)" fill="#bfdbfe" radius={[4,4,0,0]} />
-                <Bar dataKey="Avg/Family (Acres)" fill="#3b82f6" radius={[4,4,0,0]} />
+                <Bar dataKey="Cultivable Land (Acres)" fill="#bfdbfe" radius={[4, 4, 0, 0]} />
+                <Bar dataKey="Avg/Family (Acres)" fill="#3b82f6" radius={[4, 4, 0, 0]} />
               </>}
               {activeMetric === 'social' && <>
-                <Bar dataKey="Bank Account (%)" fill="#c4b5fd" radius={[4,4,0,0]} />
-                <Bar dataKey="Govt Scheme (%)" fill="#8b5cf6" radius={[4,4,0,0]} />
-                <Bar dataKey="Toilet Coverage (%)" fill="#fca5a5" radius={[4,4,0,0]} />
+                <Bar dataKey="Bank Account (%)" fill="#c4b5fd" radius={[4, 4, 0, 0]} />
+                <Bar dataKey="Govt Scheme (%)" fill="#8b5cf6" radius={[4, 4, 0, 0]} />
+                <Bar dataKey="Toilet Coverage (%)" fill="#fca5a5" radius={[4, 4, 0, 0]} />
               </>}
             </BarChart>
           </ResponsiveContainer>

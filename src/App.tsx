@@ -53,6 +53,7 @@ import {
 
 import farmersData from "./data/farmers.json";
 import leverageData from "./data/leverage.json";
+import landDiscrepancies from "./data/land_discrepancies.json";
 
 import { Dashboard } from "./components/Dashboard";
 
@@ -336,6 +337,8 @@ export default function App() {
 
   const [searchQuery, setSearchQuery] = useState("");
   const [filterGender, setFilterGender] = useState<"All" | "M" | "F">("All");
+  const [filterBaseline, setFilterBaseline] = useState<"All" | "Matched" | "Unmatched" | "Discrepancy">("All");
+  const [expandedFarmerId, setExpandedFarmerId] = useState<string | null>(null);
 
   const totalLeverageAmount = 82500000;
 
@@ -400,7 +403,13 @@ export default function App() {
       const groupMatch = String(f.group || "").toLowerCase().includes(searchQuery.toLowerCase());
       const matchesSearch = nameMatch || villageMatch || idMatch || groupMatch;
       const matchesGender = filterGender === "All" ? true : f.gender === filterGender;
-      return matchesSearch && matchesGender;
+      
+      const matchesBaseline = filterBaseline === "All" ? true :
+                              filterBaseline === "Matched" ? f.matched === true :
+                              filterBaseline === "Unmatched" ? f.matched !== true :
+                              (f.matched === true && landDiscrepancies.outliers.some((o: any) => o.id === f.id));
+                              
+      return matchesSearch && matchesGender && matchesBaseline;
     });
 
     if (sortConfig !== null) {
@@ -426,11 +435,11 @@ export default function App() {
     }
 
     return result;
-  }, [searchQuery, filterGender, sortConfig]);
+  }, [searchQuery, filterGender, filterBaseline, sortConfig]);
 
   useEffect(() => {
     setCurrentPage(1);
-  }, [searchQuery, filterGender]);
+  }, [searchQuery, filterGender, filterBaseline]);
 
   const paginatedFarmers = useMemo(() => {
     const start = (currentPage - 1) * rowsPerPage;
@@ -821,24 +830,46 @@ export default function App() {
                 <div className="relative">
                   <button
                     onClick={() => setIsFilterOpen(!isFilterOpen)}
-                    className={`p-2 rounded-lg transition-colors border ${isFilterOpen || filterGender !== "All" ? "border-teal-500 text-teal-700 bg-teal-50" : "border-slate-200 text-slate-500 hover:text-slate-700 bg-slate-50 hover:bg-slate-100"}`}
+                    className={`p-2 rounded-lg transition-colors border ${isFilterOpen || filterGender !== "All" || filterBaseline !== "All" ? "border-teal-500 text-teal-700 bg-teal-50" : "border-slate-200 text-slate-500 hover:text-slate-700 bg-slate-50 hover:bg-slate-100"}`}
                   >
                     <Filter size={18} />
                   </button>
 
                   {isFilterOpen && (
-                    <div className="absolute right-0 top-full mt-2 w-48 bg-white border border-slate-200 shadow-lg rounded-xl z-10 p-3">
-                      <h4 className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2">Filter By Gender</h4>
-                      <div className="space-y-1">
-                        {["All", "M", "F"].map(gender => (
-                          <button
-                            key={gender}
-                            onClick={() => { setFilterGender(gender as any); setIsFilterOpen(false); }}
-                            className={`block w-full text-left px-3 py-1.5 rounded text-sm transition-colors ${filterGender === gender ? "bg-teal-50 text-teal-700 font-medium" : "hover:bg-slate-50 text-slate-700"}`}
-                          >
-                            {gender === "All" ? "Both Genders" : gender === "M" ? "Male (M)" : "Female (F)"}
-                          </button>
-                        ))}
+                    <div className="absolute right-0 top-full mt-2 w-56 bg-white border border-slate-200 shadow-xl rounded-xl z-20 p-4 space-y-4">
+                      <div>
+                        <h4 className="text-[10px] font-bold text-slate-400 uppercase tracking-wider mb-2">Filter By Gender</h4>
+                        <div className="space-y-1">
+                          {["All", "M", "F"].map(gender => (
+                            <button
+                              key={gender}
+                              onClick={() => { setFilterGender(gender as any); setIsFilterOpen(false); }}
+                              className={`block w-full text-left px-3 py-1.5 rounded-lg text-xs font-semibold transition-colors ${filterGender === gender ? "bg-teal-50 text-teal-700 font-medium" : "hover:bg-slate-50 text-slate-600"}`}
+                            >
+                              {gender === "All" ? "Both Genders" : gender === "M" ? "Male (M)" : "Female (F)"}
+                            </button>
+                          ))}
+                        </div>
+                      </div>
+
+                      <div className="border-t border-slate-100 pt-3">
+                        <h4 className="text-[10px] font-bold text-slate-400 uppercase tracking-wider mb-2">Baseline Match Status</h4>
+                        <div className="space-y-1">
+                          {[
+                            { key: "All", label: "All Farmers" },
+                            { key: "Matched", label: "Matched with Baseline" },
+                            { key: "Unmatched", label: "Unmatched" },
+                            { key: "Discrepancy", label: "Land Size Anomalies" }
+                          ].map(opt => (
+                            <button
+                              key={opt.key}
+                              onClick={() => { setFilterBaseline(opt.key as any); setIsFilterOpen(false); }}
+                              className={`block w-full text-left px-3 py-1.5 rounded-lg text-xs font-semibold transition-colors ${filterBaseline === opt.key ? "bg-teal-50 text-teal-700 font-medium" : "hover:bg-slate-50 text-slate-600"}`}
+                            >
+                              {opt.label}
+                            </button>
+                          ))}
+                        </div>
                       </div>
                     </div>
                   )}
@@ -918,31 +949,149 @@ export default function App() {
                     </thead>
                     <tbody className="divide-y divide-slate-100">
                       {paginatedFarmers.length > 0 ? (
-                        paginatedFarmers.map((farmer: any) => (
-                          <tr key={farmer.id} className="hover:bg-slate-50 transition-colors">
-                            <td className="px-6 py-4 font-mono text-xs text-slate-500">{farmer.id}</td>
-                            <td className="px-6 py-4 font-medium text-slate-900">{farmer.name}</td>
-                            <td className="px-6 py-4 text-center">
-                              <span className={`inline-flex items-center w-6 h-6 justify-center rounded-full text-xs font-semibold ${farmer.gender === 'M' ? 'bg-blue-100 text-blue-700' : farmer.gender === 'F' ? 'bg-pink-100 text-pink-700' : 'bg-slate-100 text-slate-700'}`}>
-                                {farmer.gender ? farmer.gender.charAt(0) : '?'}
-                              </span>
-                            </td>
-                            <td className="px-6 py-4 text-slate-600">
-                              <div className="font-medium text-slate-800">{farmer.village || farmer.panchayat || "Mihinpurwa"}</div>
-                              <div className="text-xs text-slate-400 mt-0.5">{farmer.panchayat ? `Panchayat: ${farmer.panchayat}` : 'Block: Mihinpurwa'}</div>
-                            </td>
-                            <td className="px-6 py-4">
-                              <span className="inline-flex items-center px-2 py-1 rounded-md bg-teal-50 text-teal-700 text-xs font-medium border border-teal-100">
-                                {farmer.group}
-                              </span>
-                            </td>
-                            <td className="px-6 py-4 text-slate-600">{farmer.year}</td>
-                            <td className="px-6 py-4 text-slate-600 font-mono">{farmer.totalLand || '-'}</td>
-                          </tr>
-                        ))
+                        paginatedFarmers.map((farmer: any) => {
+                          const isOutlier = farmer.matched && landDiscrepancies.outliers.some((o: any) => o.id === farmer.id);
+                          const isExpanded = expandedFarmerId === farmer.id;
+                          return (
+                            <React.Fragment key={farmer.id}>
+                              <tr 
+                                onClick={() => setExpandedFarmerId(isExpanded ? null : farmer.id)}
+                                className="hover:bg-slate-50 transition-colors cursor-pointer select-none"
+                              >
+                                <td className="px-6 py-4 font-mono text-xs text-slate-500">{farmer.id}</td>
+                                <td className="px-6 py-4 font-medium text-slate-900">
+                                  <div className="flex items-center gap-2">
+                                    <span>{farmer.name}</span>
+                                    {farmer.matched && (
+                                      <span className="inline-flex items-center px-1.5 py-0.5 rounded-full bg-emerald-50 text-emerald-700 text-[9px] font-bold border border-emerald-100 uppercase tracking-wide">
+                                        ✓ Matched
+                                      </span>
+                                    )}
+                                  </div>
+                                </td>
+                                <td className="px-6 py-4 text-center">
+                                  <span className={`inline-flex items-center w-6 h-6 justify-center rounded-full text-xs font-semibold ${farmer.gender === 'M' ? 'bg-blue-100 text-blue-700' : farmer.gender === 'F' ? 'bg-pink-100 text-pink-700' : 'bg-slate-100 text-slate-700'}`}>
+                                    {farmer.gender ? farmer.gender.charAt(0) : '?'}
+                                  </span>
+                                </td>
+                                <td className="px-6 py-4 text-slate-600">
+                                  <div className="font-medium text-slate-800">{farmer.village || farmer.panchayat || "Mihinpurwa"}</div>
+                                  <div className="text-xs text-slate-400 mt-0.5">{farmer.panchayat ? `Panchayat: ${farmer.panchayat}` : 'Block: Mihinpurwa'}</div>
+                                </td>
+                                <td className="px-6 py-4">
+                                  <span className="inline-flex items-center px-2 py-1 rounded-md bg-teal-50 text-teal-700 text-xs font-medium border border-teal-100">
+                                    {farmer.group}
+                                  </span>
+                                </td>
+                                <td className="px-6 py-4 text-slate-600">{farmer.year}</td>
+                                <td className="px-6 py-4 text-slate-600 font-mono">
+                                  <div className="flex items-center gap-1.5">
+                                    <span>{farmer.totalLand || '-'}</span>
+                                    {isOutlier && (
+                                      <span className="text-amber-600 cursor-help" title="Land discrepancy flagged: Active acres deviates >20% from baseline registry. Click row for details.">
+                                        <AlertTriangle size={14} className="inline" />
+                                      </span>
+                                    )}
+                                  </div>
+                                </td>
+                              </tr>
+                              {isExpanded && (
+                                <tr className="bg-slate-50/50">
+                                  <td colSpan={7} className="px-8 py-6 border-t border-slate-100">
+                                    {farmer.matched ? (
+                                      <div className="bg-white rounded-xl border border-slate-200 shadow-sm p-6 space-y-6">
+                                        <div className="flex justify-between items-start border-b border-slate-100 pb-4">
+                                          <div>
+                                            <h4 className="text-sm font-bold text-slate-800 flex items-center gap-2">
+                                              <Users size={16} className="text-teal-500" />
+                                              Baseline Household Profile — {farmer.name}
+                                            </h4>
+                                            <p className="text-[11px] text-slate-400 mt-1">Matched Baseline Survey Data (fuzzy similarity ratio {farmer.matchScore}%)</p>
+                                          </div>
+                                          {isOutlier && (
+                                            <span className="inline-flex items-center gap-1.5 px-3 py-1 bg-amber-50 text-amber-800 border border-amber-200 rounded-full text-[11px] font-bold animate-pulse">
+                                              <AlertTriangle size={13} /> Land Size Discrepancy Flagged
+                                            </span>
+                                          )}
+                                        </div>
+
+                                        <div className="grid grid-cols-1 md:grid-cols-4 gap-6 text-left">
+                                          {/* Demographics */}
+                                          <div className="space-y-3">
+                                            <h5 className="text-[9px] font-bold text-slate-400 uppercase tracking-widest">Demographics</h5>
+                                            <div className="space-y-1.5 text-xs">
+                                              <div className="flex justify-between border-b border-slate-50 pb-1"><span className="text-slate-500">Caste Category:</span> <span className="font-bold text-slate-700">{farmer.category || 'Unknown'}</span></div>
+                                              <div className="flex justify-between border-b border-slate-50 pb-1"><span className="text-slate-500">Religion:</span> <span className="font-bold text-slate-700">{farmer.religion || 'Unknown'}</span></div>
+                                              <div className="flex justify-between border-b border-slate-50 pb-1"><span className="text-slate-500">Age:</span> <span className="font-bold text-slate-700">{farmer.age || 'Unknown'} yrs</span></div>
+                                              <div className="flex justify-between"><span className="text-slate-500">Marital Status:</span> <span className="font-bold text-slate-700">{farmer.maritalStatus || 'Unknown'}</span></div>
+                                            </div>
+                                          </div>
+
+                                          {/* Social Welfare Cards */}
+                                          <div className="space-y-3">
+                                            <h5 className="text-[9px] font-bold text-slate-400 uppercase tracking-widest">Welfare Status</h5>
+                                            <div className="space-y-1.5 text-xs">
+                                              <div className="flex justify-between border-b border-slate-50 pb-1"><span className="text-slate-500">Economic Cards:</span> <span className="font-bold text-slate-700">{[farmer.bpl && 'BPL', farmer.antodyaya && 'Antodyaya', farmer.apl && 'APL'].filter(Boolean).join(', ') || 'None'}</span></div>
+                                              <div className="flex justify-between border-b border-slate-50 pb-1"><span className="text-slate-500">MNREGA Card:</span> <span className="font-bold text-slate-700">{farmer.mnrega ? 'Yes' : 'No'}</span></div>
+                                              <div className="flex justify-between border-b border-slate-50 pb-1"><span className="text-slate-500">e-Shram Card:</span> <span className="font-bold text-slate-700">{farmer.eShram ? 'Yes' : 'No'}</span></div>
+                                              <div className="flex justify-between"><span className="text-slate-500">Toilet Access:</span> <span className="font-bold text-slate-700">{farmer.hasToilet ? 'Yes' : 'No'}</span></div>
+                                            </div>
+                                          </div>
+
+                                          {/* Land Size Comparison */}
+                                          <div className="space-y-3">
+                                            <h5 className="text-[9px] font-bold text-slate-400 uppercase tracking-widest">Land Audit</h5>
+                                            <div className="space-y-1.5 text-xs">
+                                              <div className="flex justify-between border-b border-slate-50 pb-1"><span className="text-slate-500">Active Registry Land:</span> <span className="font-bold text-slate-700 font-mono">{parseFloat(farmer.totalLand || '0').toFixed(2)} ac</span></div>
+                                              <div className="flex justify-between border-b border-slate-50 pb-1"><span className="text-slate-500">Baseline Cultivable:</span> <span className="font-bold text-slate-700 font-mono">{farmer.baselineCultivableLandAcres || 0} ac</span></div>
+                                              <div className="flex justify-between border-b border-slate-50 pb-1"><span className="text-slate-500">Baseline Rented/Lease:</span> <span className="font-bold text-slate-700 font-mono">{farmer.baselineLeaseLandAcres || 0} ac</span></div>
+                                              {isOutlier && (
+                                                <div className="flex justify-between text-amber-700 bg-amber-50 px-2 py-0.5 rounded mt-1 border border-amber-100">
+                                                  <span>Deviation:</span> 
+                                                  <span className="font-bold font-mono">
+                                                    {Math.abs(parseFloat(farmer.totalLand || '0') - ((farmer.baselineCultivableLandAcres || 0) + (farmer.baselineLeaseLandAcres || 0))).toFixed(2)} ac ({
+                                                      (() => {
+                                                        const base = (farmer.baselineCultivableLandAcres || 0) + (farmer.baselineLeaseLandAcres || 0);
+                                                        const deviation = Math.abs(parseFloat(farmer.totalLand || '0') - base) / (base || 1) * 100;
+                                                        return deviation.toFixed(1);
+                                                      })()
+                                                    }%)
+                                                  </span>
+                                                </div>
+                                              )}
+                                            </div>
+                                          </div>
+
+                                          {/* Economic Baseline */}
+                                          <div className="space-y-3">
+                                            <h5 className="text-[9px] font-bold text-slate-400 uppercase tracking-widest">Economics & Livelihood</h5>
+                                            <div className="space-y-1.5 text-xs">
+                                              <div className="flex justify-between border-b border-slate-50 pb-1"><span className="text-slate-500">Baseline Net Income:</span> <span className="font-bold text-slate-700 font-mono">₹{farmer.baselineNetIncomeRs?.toLocaleString('en-IN') || 0}</span></div>
+                                              <div className="flex justify-between border-b border-slate-50 pb-1"><span className="text-slate-500">Baseline Expenses:</span> <span className="font-bold text-slate-700 font-mono">₹{farmer.baselineAnnualExpFarmingRs?.toLocaleString('en-IN') || 0}</span></div>
+                                              <div className="flex justify-between border-b border-slate-50 pb-1"><span className="text-slate-500">Migration Income:</span> <span className="font-bold text-slate-700 font-mono">{farmer.migration ? `₹${farmer.migrationNetIncomeRs?.toLocaleString('en-IN')}` : 'No Migration'}</span></div>
+                                              <div className="flex justify-between"><span className="text-slate-500">Bank Account:</span> <span className="font-bold text-slate-700">{farmer.bankAccount ? 'Yes' : 'No'}</span></div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    ) : (
+                                      <div className="bg-white rounded-xl border border-slate-200 shadow-sm p-5 text-center flex flex-col items-center justify-center space-y-2 py-8">
+                                        <HelpCircle size={32} className="text-slate-300" />
+                                        <h4 className="font-bold text-slate-700 text-sm">No Baseline Survey Match Found</h4>
+                                        <p className="text-xs text-slate-400 max-w-md leading-relaxed mx-auto">
+                                          This farmer's name and village details did not match any records in the baseline surveys (`Base line Data1.xlsx`) with a fuzzy similarity score exceeding our validation threshold (75%).
+                                        </p>
+                                      </div>
+                                    )}
+                                  </td>
+                                </tr>
+                              )}
+                            </React.Fragment>
+                          );
+                        })
                       ) : (
                         <tr>
-                          <td colSpan={6} className="px-6 py-12 text-center text-slate-500">
+                          <td colSpan={7} className="px-6 py-12 text-center text-slate-500 font-medium">
                             No farmers match your search criteria.
                           </td>
                         </tr>
