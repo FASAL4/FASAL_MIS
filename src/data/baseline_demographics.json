@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "source": "Baseline Survey (baseline_farmers.json)",
+    "description": "Macro-level social equity and demographic aggregations"
+  },
+  "casteBreakdown": {
+    "General": 0,
+    "OBC": 1243,
+    "SC": 67,
+    "ST": 328,
+    "Unknown": 0
+  },
+  "vulnerability": {
+    "singleWomen": 159,
+    "singleWomenLandless": 66,
+    "scStLandless": 153,
+    "totalScSt": 395,
+    "totalLandless": 659
+  },
+  "economicsByCaste": {
+    "General": {
+      "count": 0,
+      "totalLand": 0,
+      "totalAgriIncome": 0,
+      "avgLandBigha": 0,
+      "avgAgriIncomeRs": 0
+    },
+    "OBC": {
+      "count": 1243,
+      "totalLand": 2836.4,
+      "totalAgriIncome": 29428500,
+      "avgLandBigha": 2.28,
+      "avgAgriIncomeRs": 23675
+    },
+    "SC": {
+      "count": 67,
+      "totalLand": 187,
+      "totalAgriIncome": 1639000,
+      "avgLandBigha": 2.79,
+      "avgAgriIncomeRs": 24463
+    },
+    "ST": {
+      "count": 328,
+      "totalLand": 1313,
+      "totalAgriIncome": 19441700,
+      "avgLandBigha": 4,
+      "avgAgriIncomeRs": 59273
+    }
+  }
+}

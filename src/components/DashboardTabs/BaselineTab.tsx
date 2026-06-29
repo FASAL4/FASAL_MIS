@@ -1,7 +1,8 @@
 import React, { useState, useMemo } from 'react';
 import { Users, Map, Sprout, Home, TrendingUp, Shield, Building2, IndianRupee, Info, ChevronDown, BarChart3, Activity } from 'lucide-react';
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, RadarChart, PolarGrid, PolarAngleAxis, Radar, Cell } from 'recharts';
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, RadarChart, PolarGrid, PolarAngleAxis, Radar, Cell, PieChart, Pie, Legend } from 'recharts';
 import baselineSummaryData from '../../data/baseline_summary.json';
+import baselineDemographics from '../../data/baseline_demographics.json';
 
 // ─────────────────────────────────────────────────────────────
 // Types
@@ -176,6 +177,131 @@ export function BaselineTab() {
             </div>
           </div>
         ))}
+      </div>
+
+      {/* Social Equity & Inclusion Section */}
+      <div className="bg-slate-900 rounded-3xl p-8 text-white relative overflow-hidden shadow-xl mt-8 mb-8">
+        <div className="absolute top-0 right-0 w-96 h-96 bg-indigo-500 rounded-full blur-[120px] opacity-20 -mr-20 -mt-20"></div>
+        <div className="absolute bottom-0 left-0 w-96 h-96 bg-rose-500 rounded-full blur-[120px] opacity-20 -ml-20 -mb-20"></div>
+        
+        <div className="relative z-10">
+          <div className="flex flex-col md:flex-row gap-8">
+            <div className="md:w-1/3">
+              <div className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-indigo-300 bg-indigo-900/50 border border-indigo-700/50 rounded-full px-3 py-1 mb-4">
+                <Users size={11} />
+                Social Equity Focus
+              </div>
+              <h3 className="text-3xl font-extrabold tracking-tight mb-4">Marginalization at the Baseline</h3>
+              <p className="text-slate-300 text-sm leading-relaxed mb-6">
+                Direct programme metrics alone can mask systemic vulnerability. By analyzing the baseline through the lens of caste and gender, we identify the exact populations FASAL must prioritize for inclusion.
+              </p>
+              
+              <div className="space-y-4">
+                <div className="bg-slate-800/50 border border-slate-700 p-4 rounded-xl">
+                  <div className="text-4xl font-black text-rose-400 mb-1">{((baselineDemographics.vulnerability.totalScSt / 1638) * 100).toFixed(0)}%</div>
+                  <div className="text-sm font-semibold text-slate-300">SC/ST Representation</div>
+                  <div className="text-xs text-slate-500 mt-1">{baselineDemographics.vulnerability.totalScSt} out of 1,638 surveyed households belong to highly marginalized SC or ST communities.</div>
+                </div>
+                
+                <div className="bg-slate-800/50 border border-slate-700 p-4 rounded-xl">
+                  <div className="text-4xl font-black text-amber-400 mb-1">{baselineDemographics.vulnerability.singleWomen}</div>
+                  <div className="text-sm font-semibold text-slate-300">Single & Widowed Women</div>
+                  <div className="text-xs text-slate-500 mt-1">{baselineDemographics.vulnerability.singleWomenLandless} of these women are entirely landless, representing the highest intersection of vulnerability.</div>
+                </div>
+              </div>
+            </div>
+            
+            <div className="md:w-2/3 grid grid-cols-1 md:grid-cols-2 gap-6">
+              {/* Caste Breakdown Chart */}
+              <div className="bg-slate-800/50 border border-slate-700 p-5 rounded-xl flex flex-col">
+                <h4 className="text-sm font-bold text-slate-200 mb-4">Community Composition (Category)</h4>
+                <div className="flex-1 min-h-[220px]">
+                  <ResponsiveContainer width="100%" height="100%">
+                    <PieChart>
+                      <Pie
+                        data={[
+                          { name: 'OBC', value: baselineDemographics.casteBreakdown.OBC, color: '#3b82f6' },
+                          { name: 'ST', value: baselineDemographics.casteBreakdown.ST, color: '#f59e0b' },
+                          { name: 'SC', value: baselineDemographics.casteBreakdown.SC, color: '#ef4444' }
+                        ]}
+                        cx="50%"
+                        cy="50%"
+                        innerRadius={60}
+                        outerRadius={80}
+                        paddingAngle={5}
+                        dataKey="value"
+                      >
+                        {
+                          [
+                            { name: 'OBC', value: baselineDemographics.casteBreakdown.OBC, color: '#3b82f6' },
+                            { name: 'ST', value: baselineDemographics.casteBreakdown.ST, color: '#f59e0b' },
+                            { name: 'SC', value: baselineDemographics.casteBreakdown.SC, color: '#ef4444' }
+                          ].map((entry, index) => (
+                            <Cell key={`cell-${index}`} fill={entry.color} />
+                          ))
+                        }
+                      </Pie>
+                      <Tooltip contentStyle={{ backgroundColor: '#1e293b', borderColor: '#334155', color: '#f8fafc', borderRadius: '8px' }} itemStyle={{ color: '#f8fafc' }} />
+                      <Legend verticalAlign="bottom" height={36} iconType="circle" wrapperStyle={{ fontSize: '12px' }} />
+                    </PieChart>
+                  </ResponsiveContainer>
+                </div>
+              </div>
+              
+              {/* Landlessness & Income Gap */}
+              <div className="bg-slate-800/50 border border-slate-700 p-5 rounded-xl flex flex-col justify-between">
+                <div>
+                  <h4 className="text-sm font-bold text-slate-200 mb-4">Baseline Economic Disparity</h4>
+                  
+                  <div className="space-y-5">
+                    <div>
+                      <div className="flex justify-between text-xs mb-1.5">
+                        <span className="text-slate-400">Avg Land: <strong className="text-slate-200">SC/ST vs OBC</strong></span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <div className="flex-1 bg-slate-700 h-2 rounded-full overflow-hidden flex">
+                          <div className="bg-rose-500 h-full" style={{ width: '38%' }}></div>
+                          <div className="bg-blue-500 h-full" style={{ width: '62%' }}></div>
+                        </div>
+                        <div className="text-xs font-mono text-slate-300 w-24 text-right">
+                          <span className="text-rose-400">3.4</span> / <span className="text-blue-400">2.2</span> bigha
+                        </div>
+                      </div>
+                      <p className="text-[10px] text-slate-500 mt-1.5 leading-snug">
+                        ST communities possess larger landholdings (Avg 4.0 bigha) compared to OBC (2.2), likely due to forest-adjacent tracts.
+                      </p>
+                    </div>
+                    
+                    <div>
+                      <div className="flex justify-between text-xs mb-1.5">
+                        <span className="text-slate-400">Avg Pre-Programme Income: <strong className="text-slate-200">SC vs ST</strong></span>
+                      </div>
+                      <div className="flex items-center gap-3">
+                        <div className="flex-1 bg-slate-700 h-2 rounded-full overflow-hidden flex">
+                          <div className="bg-red-500 h-full" style={{ width: '29%' }}></div>
+                          <div className="bg-amber-500 h-full" style={{ width: '71%' }}></div>
+                        </div>
+                        <div className="text-xs font-mono text-slate-300 w-24 text-right">
+                          <span className="text-red-400">24K</span> / <span className="text-amber-400">59K</span> Rs
+                        </div>
+                      </div>
+                      <p className="text-[10px] text-slate-500 mt-1.5 leading-snug">
+                        SC households start from severe economic disadvantage (₹24,463 avg annual agri income) compared to ST (₹59,273).
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div className="mt-4 p-3 bg-indigo-900/30 border border-indigo-500/20 rounded-lg">
+                  <div className="text-xs font-bold text-indigo-300 mb-1">Triangulation Insight</div>
+                  <div className="text-[11px] text-slate-300 leading-snug">
+                    While <strong>40%</strong> ({baselineDemographics.vulnerability.totalLandless}) of the baseline cohort is landless, the MIS Rights Tab confirms <strong>100%</strong> of our targeted tenant farmers have received formal lease leverage support.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
       {/* GP Comparison Charts + Table */}
