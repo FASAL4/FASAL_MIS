@@ -1,0 +1,12 @@
+{
+  "activeFarmersCount": 1322,
+  "matchedCount": 600,
+  "matchRatePct": 45.4,
+  "averageBaselineNetIncome": 14380,
+  "casteBreakdownMatched": {
+    "OBC": 459,
+    "ST": 118,
+    "SC": 23
+  },
+  "landlessCountMatched": 216
+}
