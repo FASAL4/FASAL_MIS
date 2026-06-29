@@ -36,14 +36,14 @@ baselineRaw.slice(2).forEach(row => {
   const gp = String(row[colMap['Name of GP'] || 1]).trim();
   const village = String(row[colMap['Name of Village'] || 2]).trim();
   const name = String(row[colMap['Name of Farmers '] || 7]).trim();
-  
+
   if (!name || !village) return;
-  
+
   const vKey = village.toLowerCase().replace(/\s+/g, '');
   if (!baselineByVillage[vKey]) {
     baselineByVillage[vKey] = [];
   }
-  
+
   baselineByVillage[vKey].push({
     name,
     gp,
@@ -60,8 +60,8 @@ baselineRaw.slice(2).forEach(row => {
     eShram: String(row[colMap['E-Shram'] || 21]).trim() !== '' && String(row[colMap['E-Shram'] || 21]).trim() !== '0',
     bankAccount: String(row[colMap['Bank Account Status'] || 26]).trim().toLowerCase() === 'yes' || String(row[colMap['Bank Account Status'] || 26]).trim() === '1',
     shgMember: String(row[colMap['Associated with  group '] || 29]).trim() !== '' && String(row[colMap['Associated with  group '] || 29]).trim().toLowerCase() !== 'no',
-    cultivableLandAcres: parseFloat((Number(row[colMap['Cultivable land (in bigha)'] || 53]) / 1.6).toFixed(2)) || 0,
-    leaseLandAcres: parseFloat((Number(row[colMap['land taken on lease (in bigha)'] || 54]) / 1.6).toFixed(2)) || 0,
+    cultivableLandAcres: parseFloat((Number(row[colMap['Cultivable land (in bigha)'] || 53]) / 5.0).toFixed(2)) || 0,
+    leaseLandAcres: parseFloat((Number(row[colMap['land taken on lease (in bigha)'] || 54]) / 5.0).toFixed(2)) || 0,
     annualExpFarmingRs: Number(row[colMap['Annual Expenditure on Farming (in Rs.)'] || 59]) || 0,
     annualIncFarmingRs: Number(row[colMap['Annual income on Farming (in Rs.)'] || 60]) || 0,
     baselineNetIncomeRs: Number(row[colMap['Gross Income'] || 61]) || 0,
@@ -78,19 +78,19 @@ const enrichedFarmers = farmers.map(f => {
   const fName = String(f.name).trim().toLowerCase();
   const fVillage = String(f.village).trim().toLowerCase();
   const vKey = fVillage.replace(/\s+/g, '');
-  
+
   const villageBaseline = baselineByVillage[vKey] || [];
-  
+
   if (villageBaseline.length === 0) {
     // Village name didn't match exactly. Let's look across all baseline records (broad search)
     // for fallback matching, but limit candidate pool for safety
     return { ...f, matched: false };
   }
-  
+
   // Find the best fuzzy match for the name in the same village
   let bestMatch = null;
   let bestScore = 0;
-  
+
   villageBaseline.forEach(b => {
     const score = fuzz.ratio(fName, b.name.toLowerCase());
     if (score > bestScore) {
@@ -98,7 +98,7 @@ const enrichedFarmers = farmers.map(f => {
       bestMatch = b;
     }
   });
-  
+
   // Score threshold of 75 to ensure confidence
   if (bestMatch && bestScore >= 75) {
     matchCount++;
@@ -127,11 +127,11 @@ const enrichedFarmers = farmers.map(f => {
       migrationNetIncomeRs: bestMatch.migrationNetIncomeRs,
     };
   }
-  
+
   return { ...f, matched: false };
 });
 
-console.log(`Matched and Enriched ${matchCount} out of ${farmers.length} active MIS farmers (${((matchCount / farmers.length)*100).toFixed(1)}%).`);
+console.log(`Matched and Enriched ${matchCount} out of ${farmers.length} active MIS farmers (${((matchCount / farmers.length) * 100).toFixed(1)}%).`);
 
 fs.writeFileSync(farmersPath, JSON.stringify(enrichedFarmers, null, 2), 'utf8');
 console.log(`Saved enriched farmers list back to ${farmersPath}`);
@@ -140,7 +140,7 @@ console.log(`Saved enriched farmers list back to ${farmersPath}`);
 const triangulationSummary = {
   activeFarmersCount: farmers.length,
   matchedCount: matchCount,
-  matchRatePct: parseFloat(((matchCount / farmers.length)*100).toFixed(1)),
+  matchRatePct: parseFloat(((matchCount / farmers.length) * 100).toFixed(1)),
   averageBaselineNetIncome: Math.round(
     enrichedFarmers
       .filter(f => f.matched && f.baselineNetIncomeRs > 0)
