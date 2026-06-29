@@ -1657,8 +1657,17 @@ export default function App() {
                         </h6>
                         <p className="text-[11px] text-rose-700/80 leading-relaxed mt-2 font-sans">
                           Calculated by dividing net income by land size for this individual farmer:
-                          {"$$\\text{Yield} = \\frac{₹" + sandboxIncome.toLocaleString() + "}{" + sandboxArea + "\\text{ ac}}$$"}
                         </p>
+                        <div className="flex items-center justify-center my-3 p-3 bg-white/60 rounded-xl border border-rose-200/30 text-xs text-rose-900 font-sans">
+                          <div className="flex items-center gap-2">
+                            <span className="font-bold text-rose-800">Yield</span>
+                            <span className="text-rose-400 font-serif">=</span>
+                            <div className="flex flex-col items-center">
+                              <span className="border-b border-rose-300 pb-0.5 px-3 font-semibold font-mono">₹{sandboxIncome.toLocaleString('en-IN')}</span>
+                              <span className="pt-0.5 px-3 font-semibold font-mono">{sandboxArea} ac</span>
+                            </div>
+                          </div>
+                        </div>
                       </div>
                       <div className="text-[10px] text-rose-600 border-t border-rose-100/60 pt-3 mt-4">
                         ⚠️ If a farmer owns only 0.02 acres, this ratio explodes. Averaging individual ratios over the ST cohort created the artificial **₹280,436/ac** yield.
@@ -1677,8 +1686,22 @@ export default function App() {
                         </h6>
                         <p className="text-[11px] text-emerald-700/80 leading-relaxed mt-2 font-sans">
                           Calculated by dividing total cohort net income by total cohort land area:
-                          {"$$\\text{Avg Yield} = \\frac{\\sum \\text{Income}}{\\sum \\text{Land}} = \\frac{₹3.26\\text{M}}{56.54\\text{ ac}}$$"}
                         </p>
+                        <div className="flex items-center justify-center my-3 p-3 bg-white/60 rounded-xl border border-emerald-200/30 text-xs text-emerald-900 font-sans">
+                          <div className="flex items-center gap-2">
+                            <span className="font-bold text-emerald-800">Avg Yield</span>
+                            <span className="text-emerald-400 font-serif">=</span>
+                            <div className="flex flex-col items-center">
+                              <span className="border-b border-emerald-300 pb-0.5 px-3 font-semibold font-mono">Σ Net Income</span>
+                              <span className="pt-0.5 px-3 font-semibold font-mono">Σ Land Area</span>
+                            </div>
+                            <span className="text-emerald-400 font-serif">=</span>
+                            <div className="flex flex-col items-center">
+                              <span className="border-b border-emerald-300 pb-0.5 px-3 font-semibold font-mono">₹3.26M</span>
+                              <span className="pt-0.5 px-3 font-semibold font-mono">56.54 ac</span>
+                            </div>
+                          </div>
+                        </div>
                       </div>
                       <div className="text-[10px] text-emerald-600 border-t border-emerald-100/60 pt-3 mt-4">
                         ✅ This method is independent of individual plot sizes, correcting the skew and outputting the true macroeconomic yield for the entire ST area.
