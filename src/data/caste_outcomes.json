@@ -5,21 +5,21 @@
       "activeFarmersCount": 459,
       "totalLeverageRsLakhs": 121.79,
       "avgTrainingsAttended": 20.3,
-      "avgActiveNetIncomePerAcreRs": 70795
+      "avgActiveNetIncomePerAcreRs": 20724
     },
     {
       "category": "ST",
       "activeFarmersCount": 118,
       "totalLeverageRsLakhs": 0.24,
       "avgTrainingsAttended": 20.3,
-      "avgActiveNetIncomePerAcreRs": 273306
+      "avgActiveNetIncomePerAcreRs": 57759
     },
     {
       "category": "SC",
       "activeFarmersCount": 23,
       "totalLeverageRsLakhs": 0,
       "avgTrainingsAttended": 20.4,
-      "avgActiveNetIncomePerAcreRs": 7074
+      "avgActiveNetIncomePerAcreRs": 5931
     }
   ]
 }

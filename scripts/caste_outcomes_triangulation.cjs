@@ -100,7 +100,12 @@ matchedFarmers.forEach(f => {
         const totalLand = parseFloat(f.totalLand) || 0;
         const netIncome = f.baselineNetIncomeRs || 0;
         if (totalLand > 0) {
-            categoryGroups[cat].totalNetIncomePerAcre += netIncome / totalLand;
+            if (!categoryGroups[cat].totalLandSum) {
+                categoryGroups[cat].totalLandSum = 0;
+                categoryGroups[cat].totalNetIncomeSum = 0;
+            }
+            categoryGroups[cat].totalLandSum += totalLand;
+            categoryGroups[cat].totalNetIncomeSum += netIncome;
         }
     }
 });
@@ -111,6 +116,8 @@ const castePerformance = Object.keys(categoryGroups)
     .map(cat => {
         const group = categoryGroups[cat];
         const count = group.farmers.length;
+        const totalLandSum = group.totalLandSum || 0;
+        const totalNetIncomeSum = group.totalNetIncomeSum || 0;
         return {
             category: cat,
             activeFarmersCount: count,
@@ -118,8 +125,8 @@ const castePerformance = Object.keys(categoryGroups)
             avgTrainingsAttended: count > 0
                 ? parseFloat((group.trainingCount / count).toFixed(1))
                 : 0,
-            avgActiveNetIncomePerAcreRs: count > 0
-                ? Math.round(group.totalNetIncomePerAcre / count)
+            avgActiveNetIncomePerAcreRs: totalLandSum > 0
+                ? Math.round(totalNetIncomeSum / totalLandSum)
                 : 0
         };
     });
