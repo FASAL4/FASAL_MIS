@@ -263,17 +263,15 @@ export function OverviewTab({ farmersData, totalLeverageAmount }: { farmersData:
                   <div className="space-y-1.5">
                     <div className="flex items-center justify-between text-xs">
                       <span className="text-slate-400 font-medium truncate">{parsed.label}</span>
-                      <span className={`font-bold px-1.5 py-0.5 rounded text-[10px] whitespace-nowrap ${
-                        parsed.pct >= 100 
-                          ? 'bg-emerald-50 text-emerald-700 border border-emerald-200/50' 
-                          : 'bg-indigo-50 text-indigo-700 border border-indigo-200/50'
-                      }`}>{parsed.pct}% Achieved</span>
+                      <span className={`font-bold px-1.5 py-0.5 rounded text-[10px] whitespace-nowrap ${parsed.pct >= 100
+                        ? 'bg-emerald-50 text-emerald-700 border border-emerald-200/50'
+                        : 'bg-indigo-50 text-indigo-700 border border-indigo-200/50'
+                        }`}>{parsed.pct}% Achieved</span>
                     </div>
                     <div className="w-full bg-slate-100 h-1.5 rounded-full overflow-hidden">
-                      <div 
-                        className={`h-full rounded-full transition-all duration-1000 ${
-                          parsed.pct >= 100 ? 'bg-emerald-500' : 'bg-indigo-500'
-                        }`}
+                      <div
+                        className={`h-full rounded-full transition-all duration-1000 ${parsed.pct >= 100 ? 'bg-emerald-500' : 'bg-indigo-500'
+                          }`}
                         style={{ width: `${Math.min(parsed.pct, 100)}%` }}
                       ></div>
                     </div>
@@ -339,12 +337,12 @@ export function OverviewTab({ farmersData, totalLeverageAmount }: { farmersData:
                 <CartesianGrid strokeDasharray="3 3" stroke="#f1f5f9" />
                 <XAxis dataKey="year" tick={{ fontSize: 12 }} />
                 <YAxis tick={{ fontSize: 12 }} tickFormatter={(v: any) => formatYAxisLakhs(v)} />
-                <RechartsTooltip 
-                  contentStyle={{ borderRadius: '8px', border: '1px solid #e2e8f0' }} 
+                <RechartsTooltip
+                  contentStyle={{ borderRadius: '8px', border: '1px solid #e2e8f0' }}
                   formatter={(v: any, name: any) => {
                     const label = name === 'cumulativeIncome' ? 'Cumulative Gross Income' : 'Annual Gross Income';
                     return [formatCurrencyLakhs(Number(v)), label];
-                  }} 
+                  }}
                 />
                 <Area type="monotone" dataKey="cumulativeIncome" stroke="#6366f1" strokeWidth={3} fill="url(#cumIncomeGrad)" dot={{ r: 6, fill: '#6366f1' }} name="cumulativeIncome" />
                 <Area type="monotone" dataKey="totalIncome" stroke="#a5b4fc" strokeWidth={2} strokeDasharray="5 5" fill="none" dot={{ r: 4, fill: '#a5b4fc' }} name="totalIncome" />
@@ -353,8 +351,8 @@ export function OverviewTab({ farmersData, totalLeverageAmount }: { farmersData:
           </div>
           <div className="mt-4 grid grid-cols-4 gap-3">
             {cumulativeIncomeProgression.map(d => (
-              <button 
-                key={d.year} 
+              <button
+                key={d.year}
                 onClick={() => setSelectedBreakdownYear(d.year)}
                 className={`p-2.5 rounded-lg text-center flex flex-col justify-between transition-all border ${selectedBreakdownYear === d.year ? 'bg-indigo-50 border-indigo-200 shadow-sm' : 'bg-slate-50 border-transparent hover:bg-slate-100'}`}
               >
@@ -384,7 +382,7 @@ export function OverviewTab({ farmersData, totalLeverageAmount }: { farmersData:
                 ))}
               </div>
             </div>
-            
+
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-3">
               {cropBreakdownsByYear[selectedBreakdownYear as keyof typeof cropBreakdownsByYear]?.map((crop, idx) => (
                 <div key={idx} className="space-y-1">
@@ -395,14 +393,13 @@ export function OverviewTab({ farmersData, totalLeverageAmount }: { farmersData:
                     </span>
                   </div>
                   <div className="w-full bg-slate-100 h-2 rounded-full overflow-hidden">
-                    <div 
-                      className={`h-full rounded-full transition-all duration-500 ${
-                        idx % 6 === 0 ? 'bg-indigo-500' :
+                    <div
+                      className={`h-full rounded-full transition-all duration-500 ${idx % 6 === 0 ? 'bg-indigo-500' :
                         idx % 6 === 1 ? 'bg-blue-500' :
-                        idx % 6 === 2 ? 'bg-emerald-500' :
-                        idx % 6 === 3 ? 'bg-purple-500' :
-                        idx % 6 === 4 ? 'bg-violet-500' : 'bg-teal-500'
-                      }`}
+                          idx % 6 === 2 ? 'bg-emerald-500' :
+                            idx % 6 === 3 ? 'bg-purple-500' :
+                              idx % 6 === 4 ? 'bg-violet-500' : 'bg-teal-500'
+                        }`}
                       style={{ width: `${crop.percentage}%` }}
                     ></div>
                   </div>
@@ -435,7 +432,7 @@ export function OverviewTab({ farmersData, totalLeverageAmount }: { farmersData:
               </select>
               <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-1.5 text-slate-400">
                 <svg className="fill-current h-3 w-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-                  <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/>
+                  <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
                 </svg>
               </div>
             </div>
@@ -446,9 +443,9 @@ export function OverviewTab({ farmersData, totalLeverageAmount }: { farmersData:
                 <tr className="border-b border-slate-200 text-slate-500 text-xs">
                   <th className="text-left py-2 font-semibold">Rank</th>
                   <th className="text-left py-2 font-semibold">Crop</th>
-                  <th className="text-right py-2 font-semibold">Income (Rs L)</th>
+                  <th className="text-right py-2 font-semibold">Net Income (₹L)</th>
                   <th className="text-right py-2 font-semibold">Area (ac)</th>
-                  <th className="text-right py-2 font-semibold">Rs/ac</th>
+                  <th className="text-right py-2 font-semibold">₹/acre</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-slate-100">
@@ -463,6 +460,16 @@ export function OverviewTab({ farmersData, totalLeverageAmount }: { farmersData:
                 ))}
               </tbody>
             </table>
+          </div>
+          <div className="mt-3">
+            <EvidenceDrawer
+              source="FASAL MIS Crop Economics Data"
+              sheet="crop_economics.json → yearly_gp_crops.json"
+              calculation="Net Income = Gross Income − Cost of Cultivation (per crop, per year). Per acre = Net Income ÷ Cultivated Area. Cumulative = sum across 2022–2025."
+              rfLink="OC2 — Income Security Dashboard"
+              status="Verified"
+              caution="Cumulative area is summed across all years. Per-acre figures represent average yield economics, not single-year performance."
+            />
           </div>
         </div>
 
@@ -483,12 +490,22 @@ export function OverviewTab({ farmersData, totalLeverageAmount }: { farmersData:
               </select>
               <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-1.5 text-slate-400">
                 <svg className="fill-current h-3 w-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-                  <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/>
+                  <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
                 </svg>
               </div>
             </div>
           </div>
           <div className="space-y-2">
+            <div className="flex items-center justify-between p-2.5 border-b border-slate-200">
+              <div className="flex items-center gap-2">
+                <span className="text-xs font-semibold text-slate-500 uppercase tracking-wider">GP Name</span>
+              </div>
+              <div className="flex items-center gap-4 text-xs">
+                <span className="text-slate-500 font-semibold uppercase tracking-wider w-16 text-right">Farmers</span>
+                <span className="text-slate-500 font-semibold uppercase tracking-wider w-20 text-right">Net Income (₹L)</span>
+                <span className="text-slate-500 font-semibold uppercase tracking-wider w-20 text-right">Avg/Family (₹)</span>
+              </div>
+            </div>
             {gpData.map((gp, i) => (
               <div key={i} className="flex items-center justify-between p-2.5 rounded-lg hover:bg-slate-50 transition-colors">
                 <div className="flex items-center gap-2">
@@ -496,12 +513,22 @@ export function OverviewTab({ farmersData, totalLeverageAmount }: { farmersData:
                   <span className="text-sm font-medium text-slate-800">{gp.name}</span>
                 </div>
                 <div className="flex items-center gap-4 text-xs">
-                  <span className="text-slate-500">{gp.farmers} farmers</span>
+                  <span className="text-slate-500 w-16 text-right">{gp.farmers}</span>
                   <span className="font-semibold text-slate-700 w-20 text-right">₹{gp.income.toFixed(1)}L</span>
-                  <span className="text-emerald-600 w-16 text-right">₹{gp.avg.toLocaleString('en-IN')}</span>
+                  <span className="text-emerald-600 w-20 text-right">₹{gp.avg.toLocaleString('en-IN')}</span>
                 </div>
               </div>
             ))}
+          </div>
+          <div className="mt-3">
+            <EvidenceDrawer
+              source="FASAL MIS GP-wise Aggregation"
+              sheet="yearly_gp_crops.json → gp section"
+              calculation="Net Income = sum of all farmer net incomes in that GP. Avg/Family = Net Income ÷ number of farmer families. Cumulative = sum across 2022–2025."
+              rfLink="OC2 — Income Security Dashboard"
+              status="Verified"
+              caution="Farmer counts are based on active MIS registry. Income figures are net (gross minus cost)."
+            />
           </div>
         </div>
       </div>
