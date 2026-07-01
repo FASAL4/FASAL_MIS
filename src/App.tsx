@@ -1347,7 +1347,19 @@ export default function App() {
                         </ul>
                       </div>
                       {/* Field Photographs */}
-    `{/* Triangulated Insights: Grant Reports vs Dashboard Data */}
+                      <div className="bg-teal-50/50 p-4 rounded-xl border border-teal-100">
+                        <h4 className="font-semibold text-teal-800 text-sm mb-3">📷 Field Photographs (Folder 26)</h4>
+                        <ul className="space-y-2 text-xs text-slate-700">
+                          <li className="flex gap-2"><span className="text-teal-600 shrink-0">•</span><span><strong>Govt Official Visit:</strong> Block-level interface meeting with ~20 women farmers - advocacy evidence.</span></li>
+                          <li className="flex gap-2"><span className="text-teal-600 shrink-0">•</span><span><strong>Machan Cultivation (x2):</strong> Women farmers with bamboo trellis structures for tomatoes/climbing vegetables - LEISA evidence.</span></li>
+                          <li className="flex gap-2"><span className="text-teal-600 shrink-0">•</span><span><strong>Onion Plant Distribution:</strong> Group receiving seedlings from nursery - input support activity.</span></li>
+                          <li className="flex gap-2"><span className="text-teal-600 shrink-0">•</span><span><strong>Palak Seed Preparation:</strong> Seed preservation techniques from LEISA training - self-reliance evidence.</span></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Triangulated Insights: Grant Reports vs Dashboard Data */}
                   <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-8">
                     <h3 className="text-xl font-bold text-slate-900 mb-2 flex items-center gap-2">
                       <BarChart3 size={24} className="text-indigo-600" />
@@ -1356,7 +1368,7 @@ export default function App() {
                     <p className="text-slate-500 text-sm mb-4">
                       Cross-referencing new grant report figures with existing dashboard metrics to validate and strengthen our data story.
                     </p>
-                    
+
                     {/* Summary Bar */}
                     <div className="bg-indigo-50 border border-indigo-100 rounded-xl p-4 mb-6 flex items-center gap-6 text-sm">
                       <div className="flex items-center gap-2">
@@ -1376,7 +1388,7 @@ export default function App() {
 
                     {/* Insight Cards Grid */}
                     <div className="space-y-4">
-                      
+
                       {/* Leverage Total */}
                       <div className="border border-slate-200 rounded-xl p-5 hover:shadow-sm transition-shadow">
                         <div className="flex items-start justify-between mb-3">
@@ -1626,9 +1638,7 @@ export default function App() {
                         </p>
                       </div>
                     </div>
-                  </div>`
-
-
+                  </div>
 
                 </div>
               )}
