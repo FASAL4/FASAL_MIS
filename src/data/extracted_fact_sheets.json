@@ -31,7 +31,9 @@
     "incomePerAcre": 100000,
     "cropEn": "Onion",
     "villageEn": "Ram Purwa",
-    "testimonialEn": "In less time and at low cost, I earned good profit from onion cultivation. We got enough onions for our household needs throughout the season."
+    "testimonialEn": "In less time and at low cost, I earned good profit from onion cultivation. We got enough onions for our household needs throughout the season.",
+    "farmerNameEn": "Ram Vachan",
+    "husbandNameEn": "Sagi Ram"
   },
   {
     "sourceFile": "FACT SHEET Onion Kusuma Devi Fakirpuri.docx",
@@ -64,7 +66,9 @@
     "incomePerAcre": 62500,
     "cropEn": "Onion",
     "villageEn": "Fakirpuri",
-    "testimonialEn": "I produced 50 kg of onions in my homestead garden, which made me very happy. Earlier we did not get seeds, so we used to buy vegetables from the market. Now with the organization's support, we get seeds on time, and we have fresh vegetables for our family."
+    "testimonialEn": "I produced 50 kg of onions in my homestead garden, which made me very happy. Earlier we did not get seeds, so we used to buy vegetables from the market. Now with the organization's support, we get seeds on time, and we have fresh vegetables for our family.",
+    "farmerNameEn": "Kamla Devi",
+    "husbandNameEn": "Khushi Ram"
   },
   {
     "sourceFile": "FACT SHEET Onion Mamta  Devi Badhiyanpurwa  2026.docx",
@@ -98,7 +102,9 @@
     "incomePerAcre": 68750,
     "cropEn": "Onion",
     "villageEn": "Badhiyanpurwa, Karikot",
-    "testimonialEn": "I produced 55 kg of onions in my homestead garden. Earlier we did not get seeds, so we used to buy from the market. Now with the organization's support, we get timely seeds. No chemicals were used — this is completely organic and good for our health. Since our family income is limited, we could not afford to buy onions daily from the market, but now we have our own produce."
+    "testimonialEn": "I produced 55 kg of onions in my homestead garden. Earlier we did not get seeds, so we used to buy from the market. Now with the organization's support, we get timely seeds. No chemicals were used — this is completely organic and good for our health. Since our family income is limited, we could not afford to buy onions daily from the market, but now we have our own produce.",
+    "farmerNameEn": "Mamta Devi",
+    "husbandNameEn": "Satya Prakash"
   },
   {
     "sourceFile": "FACT SHEET Tomato Arpana Ji.docx",
@@ -132,7 +138,9 @@
     "incomePerAcre": 600000,
     "cropEn": "Tomato",
     "villageEn": "Vishunapur",
-    "testimonialEn": "With low cost on a small plot of land, I got very high profit. This is a profitable crop. After feeding the family for the entire season, I still earned a profit of ₹10,000, which is not possible with any other crop."
+    "testimonialEn": "With low cost on a small plot of land, I got very high profit. This is a profitable crop. After feeding the family for the entire season, I still earned a profit of ₹10,000, which is not possible with any other crop.",
+    "farmerNameEn": "Arpana",
+    "husbandNameEn": "Pavan Kumar"
   },
   {
     "sourceFile": "FACT SHEET भिन्डी राम वचन राम पुरवा.docx",
@@ -165,7 +173,9 @@
     "incomePerAcre": 600000,
     "cropEn": "Okra",
     "villageEn": "Ram Purwa",
-    "testimonialEn": "I grew early okra using plastic mulch netting. Although it required some investment, the crop started producing earlier than usual. When okra was selling at ₹120 per kg in the market, my crop had already started fruiting, so I got a much better price and higher returns."
+    "testimonialEn": "I grew early okra using plastic mulch netting. Although it required some investment, the crop started producing earlier than usual. When okra was selling at ₹120 per kg in the market, my crop had already started fruiting, so I got a much better price and higher returns.",
+    "farmerNameEn": "Ram Vachan",
+    "husbandNameEn": "Sagi Ram"
   },
   {
     "sourceFile": "FACT SHEET मसूर  बासमती जी फ़क़ीरपूरी.docx",
@@ -198,7 +208,9 @@
     "incomePerAcre": 120000,
     "cropEn": "Lentil",
     "villageEn": "Fakirpuri",
-    "testimonialEn": "Without any input cost, this is the best crop. It does not require any fertilizer or chemicals, and needs very little irrigation. Growing lentils also strengthens the soil for the next crop."
+    "testimonialEn": "Without any input cost, this is the best crop. It does not require any fertilizer or chemicals, and needs very little irrigation. Growing lentils also strengthens the soil for the next crop.",
+    "farmerNameEn": "Basmati",
+    "husbandNameEn": "Ram Sagir"
   },
   {
     "sourceFile": "FACT SHEET शांति देवी.docx",
@@ -231,7 +243,9 @@
     "incomePerAcre": 31666667,
     "cropEn": "Onion",
     "villageEn": "Bajpur Bankati",
-    "testimonialEn": "I am Shanti Devi and my family of 6 members depends on farming for our livelihood. Earlier I did not grow vegetables, but for the past two years I have also been growing spice crops alongside vegetables, which has increased our income. I use organic inputs like Jeevamrit and Chaar Chatni, which saves the cost of buying harmful chemicals from the market. We now have vegetables and spices available at home, reducing our need to go to the market."
+    "testimonialEn": "I am Shanti Devi and my family of 6 members depends on farming for our livelihood. Earlier I did not grow vegetables, but for the past two years I have also been growing spice crops alongside vegetables, which has increased our income. I use organic inputs like Jeevamrit and Chaar Chatni, which saves the cost of buying harmful chemicals from the market. We now have vegetables and spices available at home, reducing our need to go to the market.",
+    "farmerNameEn": "Shanti Devi",
+    "husbandNameEn": "Rajesh Kumar"
   },
   {
     "sourceFile": "FACT SHEET हल्दी For Geeta Devi _ Kanchan.docx",
@@ -241,9 +255,9 @@
     "husbandName": "कंचन",
     "aasGroup": "जय आजादी",
     "village": "राजाराम टांडा",
-    "block": "Mihipurwa",
-    "district": "Baharaich",
-    "state": "UP",
+    "block": "Mihinpurwa",
+    "district": "Bahraich",
+    "state": "Uttar Pradesh",
     "crop": "हल्दी",
     "variety": "देशी सुगंधा",
     "areaRaw": "0.5 एकड़",
@@ -270,7 +284,9 @@
     "incomePerAcre": 235600,
     "cropEn": "Turmeric",
     "villageEn": "Rajaram Tanda",
-    "testimonialEn": "Turmeric cultivation gives four times more profit than traditional paddy-wheat farming. Therefore, turmeric is much more suitable for farmers like us."
+    "testimonialEn": "Turmeric cultivation gives four times more profit than traditional paddy-wheat farming. Therefore, turmeric is much more suitable for farmers like us.",
+    "farmerNameEn": "Geeta Devi",
+    "husbandNameEn": "Kanchan"
   },
   {
     "sourceFile": "FACT SHEET हल्दी Formate.docx",
@@ -279,9 +295,9 @@
     "husbandName": null,
     "aasGroup": null,
     "village": null,
-    "block": "Mihipurwa",
-    "district": "Baharaich",
-    "state": "UP",
+    "block": "Mihinpurwa",
+    "district": "Bahraich",
+    "state": "Uttar Pradesh",
     "crop": "की अवधि (कुल दिन)",
     "variety": null,
     "areaRaw": "Date of Plantation",
@@ -307,9 +323,9 @@
     "husbandName": "महेश",
     "aasGroup": "आरती",
     "village": "लोहरा",
-    "block": "Mihipurwa",
-    "district": "Baharaich",
-    "state": "UP",
+    "block": "Mihinpurwa",
+    "district": "Bahraich",
+    "state": "Uttar Pradesh",
     "crop": "हल्दी",
     "variety": "देशी सुगंधा",
     "areaRaw": "0.8 एकड़",
@@ -335,7 +351,9 @@
     "incomePerAcre": 213750,
     "cropEn": "Turmeric",
     "villageEn": "Lohra",
-    "testimonialEn": "Turmeric cultivation gives three to four times more profit than paddy-wheat farming. Therefore, turmeric is much more suitable for farmers."
+    "testimonialEn": "Turmeric cultivation gives three to four times more profit than paddy-wheat farming. Therefore, turmeric is much more suitable for farmers.",
+    "farmerNameEn": "Kaushalya",
+    "husbandNameEn": "Mahesh"
   },
   {
     "sourceFile": "Factsheet of Bitter guard, Lalaram ji.docx",
@@ -345,8 +363,8 @@
     "aasGroup": null,
     "village": "सिरसियन पुरवा",
     "block": "Mihinpurwa",
-    "district": "Baharaich",
-    "state": "UP",
+    "district": "Bahraich",
+    "state": "Uttar Pradesh",
     "crop": "करेला",
     "variety": "अमन श्री",
     "areaRaw": "8  विसवा",
@@ -366,7 +384,9 @@
     "incomePerAcre": 313750,
     "cropEn": "Bitter Gourd",
     "villageEn": "Sirsiyanpurwa",
-    "testimonialEn": "I grew bitter gourd this season using my own saved seeds, and got a good yield. I am very happy because I learned this method during a visit to Rajasthan. The technique was successful and I hope other farmers will also adopt this method."
+    "testimonialEn": "I grew bitter gourd this season using my own saved seeds, and got a good yield. I am very happy because I learned this method during a visit to Rajasthan. The technique was successful and I hope other farmers will also adopt this method.",
+    "farmerNameEn": "Lalaram",
+    "husbandNameEn": "Kunwar"
   },
   {
     "sourceFile": "Factsheet of Onion and bitter guard,Geeta devi.docx",
@@ -376,8 +396,8 @@
     "aasGroup": "कारीकोट मैया",
     "village": "भेड़हन पुरवा",
     "block": "Mihinpurwa",
-    "district": "Baharaich",
-    "state": "UP",
+    "district": "Bahraich",
+    "state": "Uttar Pradesh",
     "crop": "प्याज",
     "variety": "भीमा लाल",
     "areaRaw": "5 विसवा",
@@ -398,7 +418,8 @@
     "incomePerAcre": 144000,
     "cropEn": "Onion",
     "villageEn": "Bhedhan Purwa",
-    "testimonialEn": "I am very happy. This season I grew bitter gourd and onions. Both the onion and bitter gourd gave good yields. I thank the DEHAT organization for their support."
+    "testimonialEn": "I am very happy. This season I grew bitter gourd and onions. Both the onion and bitter gourd gave good yields. I thank the DEHAT organization for their support.",
+    "farmerNameEn": "Geeta Devi"
   },
   {
     "sourceFile": "Factsheet of Onion, Radheshyam ji.docx",
@@ -408,8 +429,8 @@
     "aasGroup": null,
     "village": "सिरसियन पुरवा",
     "block": "Mihinpurwa",
-    "district": "Baharaich",
-    "state": "UP",
+    "district": "Bahraich",
+    "state": "Uttar Pradesh",
     "crop": "प्याज",
     "variety": "जिराट",
     "areaRaw": "2 विसवा",
@@ -430,7 +451,9 @@
     "incomePerAcre": 157500,
     "cropEn": "Onion",
     "villageEn": "Sirsiyanpurwa",
-    "testimonialEn": "I planted the indigenous Jiraat variety of onions, which gave a good yield. This is completely organic, so I will grow more of this variety next season."
+    "testimonialEn": "I planted the indigenous Jiraat variety of onions, which gave a good yield. This is completely organic, so I will grow more of this variety next season.",
+    "farmerNameEn": "Radheshyam",
+    "husbandNameEn": "Shivcharan"
   },
   {
     "sourceFile": "जमुना जी फेक्टशीट.docx",
@@ -439,9 +462,9 @@
     "husbandName": "Harihar",
     "aasGroup": "बाला जी",
     "village": "बढ़ीहन पुरवा",
-    "block": "Mihipurwa",
-    "district": "Baharaich",
-    "state": "UP",
+    "block": "Mihinpurwa",
+    "district": "Bahraich",
+    "state": "Uttar Pradesh",
     "crop": "हल्दी",
     "variety": "देशी हल्दी",
     "areaRaw": "01 बीघा",
@@ -462,7 +485,9 @@
     "incomePerAcre": 150000,
     "cropEn": "Turmeric",
     "villageEn": "Badhiyan Purwa",
-    "testimonialEn": "I followed the method taught by DEHAT organization to grow turmeric, and as a result, my yield has doubled. I am very happy. I only used cow dung manure and Jeevamrit organic fertilizer. I urge all farmers to adopt this method."
+    "testimonialEn": "I followed the method taught by DEHAT organization to grow turmeric, and as a result, my yield has doubled. I am very happy. I only used cow dung manure and Jeevamrit organic fertilizer. I urge all farmers to adopt this method.",
+    "farmerNameEn": "Jamuna",
+    "husbandNameEn": "Harihar"
   },
   {
     "sourceFile": "द्वारिका प्रसाद जी की फैक्ट शीट.docx",
@@ -471,9 +496,9 @@
     "husbandName": "हीरा लाल",
     "aasGroup": "जगदम्बे",
     "village": "कैलाश नगर",
-    "block": "Mihipurwa",
-    "district": "Baharaich",
-    "state": "UP",
+    "block": "Mihinpurwa",
+    "district": "Bahraich",
+    "state": "Uttar Pradesh",
     "crop": "पत्ता गोभी",
     "variety": "Swadeshi",
     "areaRaw": "0.2 Acre",
@@ -492,7 +517,9 @@
     "incomePerAcre": 240000,
     "cropEn": "Cabbage",
     "villageEn": "Kailash Nagar",
-    "testimonialEn": "Cabbage cultivation is very suitable for the local climate and soil here. It does not require much fertilizer or water, and the heads form quickly. It is also very tasty to eat."
+    "testimonialEn": "Cabbage cultivation is very suitable for the local climate and soil here. It does not require much fertilizer or water, and the heads form quickly. It is also very tasty to eat.",
+    "farmerNameEn": "Dwarika Prasad",
+    "husbandNameEn": "Hira Lal"
   },
   {
     "sourceFile": "फूलगोभी FACT Sheet.docx",
@@ -501,9 +528,9 @@
     "husbandName": "आत्माराम",
     "aasGroup": "काजल",
     "village": "फ़क़ीरपूरी",
-    "block": "Mihipurwa",
-    "district": "Baharaich",
-    "state": "UP",
+    "block": "Mihinpurwa",
+    "district": "Bahraich",
+    "state": "Uttar Pradesh",
     "crop": "फूलगोभी",
     "variety": "अगेती",
     "areaRaw": "0.01 एकड़",
@@ -526,7 +553,9 @@
     "incomePerAcre": 800000,
     "cropEn": "Cauliflower",
     "villageEn": "Fakirpuri",
-    "testimonialEn": "Cauliflower gives three to four times more profit than paddy-wheat cultivation. Therefore cauliflower is much more suitable for farmers. No other crop can generate this much income from such a small plot. This is especially good for small landholder farmers."
+    "testimonialEn": "Cauliflower gives three to four times more profit than paddy-wheat cultivation. Therefore cauliflower is much more suitable for farmers. No other crop can generate this much income from such a small plot. This is especially good for small landholder farmers.",
+    "farmerNameEn": "Vishni",
+    "husbandNameEn": "Atmaram"
   },
   {
     "sourceFile": "फैक्ट शीट कल्लू जी की.docx",
@@ -535,9 +564,9 @@
     "husbandName": "तेजी",
     "aasGroup": "वैष्णो",
     "village": "भेड़हन पुरवा",
-    "block": "Mihipurwa",
-    "district": "Baharaich",
-    "state": "UP",
+    "block": "Mihinpurwa",
+    "district": "Bahraich",
+    "state": "Uttar Pradesh",
     "crop": "फूल गोभी",
     "variety": "स्वदेशी चैंपियन",
     "areaRaw": "0.1 एकड़",
@@ -556,7 +585,9 @@
     "incomePerAcre": 175000,
     "cropEn": "Cauliflower",
     "villageEn": "Bhedhan Purwa",
-    "testimonialEn": "I cultivated cauliflower on 10 biswa of land with the support of DEHAT organization. I sold cauliflower worth ₹17,500 at very low cost. Earlier I only grew wheat and paddy, which required a lot of hard work with very little savings. Now vegetable farming gives much higher profit, so I will definitely continue growing vegetables."
+    "testimonialEn": "I cultivated cauliflower on 10 biswa of land with the support of DEHAT organization. I sold cauliflower worth ₹17,500 at very low cost. Earlier I only grew wheat and paddy, which required a lot of hard work with very little savings. Now vegetable farming gives much higher profit, so I will definitely continue growing vegetables.",
+    "farmerNameEn": "Kallu",
+    "husbandNameEn": "Teji"
   },
   {
     "sourceFile": "राजकुमारी जी की हल्दी की फक्ट्शीट.docx",
@@ -565,9 +596,9 @@
     "husbandName": "भिखारी",
     "aasGroup": null,
     "village": "कैलाश नगर",
-    "block": "Mihipurwa",
-    "district": "Baharaich",
-    "state": "UP",
+    "block": "Mihinpurwa",
+    "district": "Bahraich",
+    "state": "Uttar Pradesh",
     "crop": "हल्दी",
     "variety": "देशी हल्दी",
     "areaRaw": "04 विसवा",
@@ -588,6 +619,8 @@
     "incomePerAcre": 300000,
     "cropEn": "Turmeric",
     "villageEn": "Kailash Nagar",
-    "testimonialEn": "I followed the method taught by DEHAT to grow turmeric, and my yield has doubled. I am very happy. I only used cow dung manure and Jeevamrit. I urge all farmers to adopt this method."
+    "testimonialEn": "I followed the method taught by DEHAT to grow turmeric, and my yield has doubled. I am very happy. I only used cow dung manure and Jeevamrit. I urge all farmers to adopt this method.",
+    "farmerNameEn": "Raj Kumari",
+    "husbandNameEn": "Bhikhari"
   }
 ]
