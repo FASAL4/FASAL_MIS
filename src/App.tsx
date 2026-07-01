@@ -60,6 +60,30 @@ import { Dashboard } from "./components/Dashboard";
 
 const recentFarmers = farmersData;
 
+// Build stories array: 4 detailed + 20 from case studies
+const enrichedStories = (storiesOfChange as any).stories.map((s: any, idx: number) => ({
+  id: 100 + idx,
+  name: s.titleEn?.split(':')[0]?.trim() || s.titleEn?.substring(0, 30) || s.title?.substring(0, 30),
+  village: s.village || s.gp || '',
+  title: s.titleEn || s.title || '',
+  description: s.summary?.substring(0, 200) || '',
+  icon: BookOpen,
+  color: s.type === 'advocacy' ? 'text-indigo-600' : s.type === 'vulnerability' ? 'text-rose-600' : 'text-teal-600',
+  bg: s.type === 'advocacy' ? 'bg-indigo-50' : s.type === 'vulnerability' ? 'bg-rose-50' : 'bg-teal-50',
+  border: s.type === 'advocacy' ? 'border-indigo-100' : s.type === 'vulnerability' ? 'border-rose-100' : 'border-teal-200',
+  tags: s.themes?.slice(0, 3).map((t: string) =>
+    t === 'women_empowerment' ? 'Social Empowerment' :
+      t === 'income_transformation' ? 'Economic Transformation' :
+        t === 'organic_farming' ? 'LEISA' :
+          t === 'collective_advocacy' ? 'Right to Entitlements' :
+            t === 'education' ? 'Child Education' :
+              t === 'crop_diversification' ? 'Crop Diversification' :
+                t.charAt(0).toUpperCase() + t.slice(1).replace(/_/g, ' ')
+  ) || [],
+  quote: s.impact || '',
+  sections: [{ title: 'Summary', iconType: 'intro', content: [s.summary || ''] }],
+}));
+
 const structuredStories = [
   {
     id: 1,
@@ -281,6 +305,9 @@ const structuredStories = [
     ]
   }
 ];
+
+// Combined stories: 4 original detailed + 20 enriched from case studies
+const allStoryCards = [...structuredStories, ...enrichedStories];
 
 const SQL_QUERIES = [
   { name: 'Turmeric farmer count by year', query: `-- Count turmeric farmers from Sheet3 (DEHAT_Dash.xlsx)\nSELECT COUNT(*) as farmers,\n  SUM(CAST("unnamed_107" AS REAL)) as total_income\nFROM "dehat_dash_Sheet3"\nWHERE "unnamed_107" IS NOT NULL AND CAST("unnamed_107" AS REAL) > 0` },
@@ -1398,7 +1425,7 @@ export default function App() {
                     </div>
                   </div>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    {structuredStories.filter(story => {
+                    {allStoryCards.filter(story => {
                       const matchesSearch = String(story.name || "").toLowerCase().includes(storySearchQuery.toLowerCase()) || String(story.title || "").toLowerCase().includes(storySearchQuery.toLowerCase());
                       const matchesTag = selectedStoryTag === "All" || (story.tags && story.tags.includes(selectedStoryTag));
                       return matchesSearch && matchesTag;

@@ -136,7 +136,7 @@
     "crop": "भिन्डी",
     "variety": null,
     "areaRaw": "0.2",
-    "areaAcres": 0.04000000000000001,
+    "areaAcres": 0.2,
     "dates": {},
     "production": {
       "quintals": 30
@@ -149,8 +149,8 @@
       "netProfit": 99000
     },
     "testimonial": "अगेती भिन्डी प्लास्टिक का जाल लगाकर मैंने खेती किया इसमें लागत आया लेकिन समय से पहले फसल का उत्पादन शुरू हो गया. जब बाजार में 120 रुपये प्रति किलो भिन्डी था तभी से फलां आ गया इसलिए बेहतर उत्पादन हुआ.",
-    "netProfitPerAcre": 2475000,
-    "incomePerAcre": 3000000
+    "netProfitPerAcre": 495000,
+    "incomePerAcre": 600000
   },
   {
     "sourceFile": "FACT SHEET मसूर  बासमती जी फ़क़ीरपूरी.docx",
@@ -166,7 +166,7 @@
     "crop": "मसूर",
     "variety": "देशी",
     "areaRaw": "0.1",
-    "areaAcres": 0.020000000000000004,
+    "areaAcres": 0.1,
     "dates": {},
     "production": {
       "quintals": 2
@@ -179,8 +179,8 @@
       "netProfit": 8600
     },
     "testimonial": "बिना किसी लगत के यह सबसे बढ़िया खेती है. इसमें किसी तरह का खाद और उर्वरक नहीं दिया जाता है और सिंचाई में भी कम सिंचाई देना होइता है. इसकी बुआई से खेत की मित्तिउ भी मजबूत बनता है. Cost of Irrigation सिंचाई 500 Cost of Labour मजदुर 500 Total Input Cost: कुल लागत खर्च 3400 Total production in Qt. कुल उत्पादन क्विंटल में 2 क्वि०",
-    "netProfitPerAcre": 430000,
-    "incomePerAcre": 600000
+    "netProfitPerAcre": 86000,
+    "incomePerAcre": 120000
   },
   {
     "sourceFile": "FACT SHEET शांति देवी.docx",
@@ -196,7 +196,7 @@
     "crop": "प्याज",
     "variety": "एग्रो फाउंड लाइट रेड",
     "areaRaw": "3 विसवा",
-    "areaAcres": 0.6000000000000001,
+    "areaAcres": 0.03,
     "dates": {},
     "production": {
       "quintals": 2.5
@@ -209,8 +209,8 @@
       "netProfit": 6000
     },
     "testimonial": "मै शांति देवी अपने परिवार में कुल ६ सदयों के साथ रहती हु मेरा परिवार खेती किसानी कर आजीविका चलाते है मै पहले सब्जी की खेती नहीं करती थी अभी दो वर्षों से सब्जी के साथ मसाला फसले भी उगाती हूँ जिससे हमारी आय बढ़ी है | जीवामृत, चार-चटनी जैसी जैविक खाद एवं कीटनाशक बनाकर खेत में डाला जिससे बाजार से जहरीला रसायन खरीद पर होने वाला  खर्च भी बच जाता है. घर पर सब्जियां मसाले घर पर उपलब्ध है जिससे बाजार जाने की आवश्यकता कम पड़ती है |",
-    "netProfitPerAcre": 10000,
-    "incomePerAcre": 1583333
+    "netProfitPerAcre": 200000,
+    "incomePerAcre": 31666667
   },
   {
     "sourceFile": "FACT SHEET हल्दी For Geeta Devi _ Kanchan.docx",
@@ -226,7 +226,7 @@
     "crop": "हल्दी",
     "variety": "देशी सुगंधा",
     "areaRaw": "0.5 एकड़",
-    "areaAcres": 0.1,
+    "areaAcres": 0.5,
     "dates": {},
     "production": {
       "quintals": 62
@@ -245,8 +245,8 @@
       "netProfit": 1320
     },
     "testimonial": "",
-    "netProfitPerAcre": 13200,
-    "incomePerAcre": 1178000
+    "netProfitPerAcre": 2640,
+    "incomePerAcre": 235600
   },
   {
     "sourceFile": "FACT SHEET हल्दी Formate.docx",
@@ -287,7 +287,7 @@
     "crop": "हल्दी",
     "variety": "देशी सुगंधा",
     "areaRaw": "0.8 एकड़",
-    "areaAcres": 0.16000000000000003,
+    "areaAcres": 0.8,
     "dates": {},
     "production": {
       "quintals": 90
@@ -305,8 +305,8 @@
       "netProfit": 92500
     },
     "testimonial": "",
-    "netProfitPerAcre": 578125,
-    "incomePerAcre": 1068750
+    "netProfitPerAcre": 115625,
+    "incomePerAcre": 213750
   },
   {
     "sourceFile": "Factsheet of Bitter guard, Lalaram ji.docx",
@@ -321,7 +321,7 @@
     "crop": "करेला",
     "variety": "अमन श्री",
     "areaRaw": "8  विसवा",
-    "areaAcres": 1.6,
+    "areaAcres": 0.08,
     "dates": {},
     "production": {
       "quintals": 10
@@ -333,8 +333,8 @@
       "totalIncome": 25100,
       "netProfit": 20100
     },
-    "netProfitPerAcre": 12563,
-    "incomePerAcre": 15688
+    "netProfitPerAcre": 251250,
+    "incomePerAcre": 313750
   },
   {
     "sourceFile": "Factsheet of Onion and bitter guard,Geeta devi.docx",
@@ -349,7 +349,7 @@
     "crop": "प्याज",
     "variety": "भीमा लाल",
     "areaRaw": "5 विसवा",
-    "areaAcres": 1,
+    "areaAcres": 0.05,
     "dates": {},
     "production": {
       "quintals": 0.04,
@@ -362,8 +362,8 @@
       "totalIncome": 7200,
       "netProfit": 6850
     },
-    "netProfitPerAcre": 6850,
-    "incomePerAcre": 7200
+    "netProfitPerAcre": 137000,
+    "incomePerAcre": 144000
   },
   {
     "sourceFile": "Factsheet of Onion, Radheshyam ji.docx",
@@ -378,7 +378,7 @@
     "crop": "प्याज",
     "variety": "जिराट",
     "areaRaw": "2 विसवा",
-    "areaAcres": 0.4,
+    "areaAcres": 0.02,
     "dates": {},
     "production": {
       "quintals": 0.02,
@@ -391,8 +391,8 @@
       "totalIncome": 3150,
       "netProfit": 3000
     },
-    "netProfitPerAcre": 7500,
-    "incomePerAcre": 7875
+    "netProfitPerAcre": 150000,
+    "incomePerAcre": 157500
   },
   {
     "sourceFile": "जमुना जी फेक्टशीट.docx",
@@ -463,7 +463,7 @@
     "crop": "फूलगोभी",
     "variety": "अगेती",
     "areaRaw": "0.01 एकड़",
-    "areaAcres": 0.002,
+    "areaAcres": 0.01,
     "dates": {},
     "production": {
       "quintals": 1.6,
@@ -478,8 +478,8 @@
       "netProfit": 7420
     },
     "testimonial": "",
-    "netProfitPerAcre": 3710000,
-    "incomePerAcre": 4000000
+    "netProfitPerAcre": 742000,
+    "incomePerAcre": 800000
   },
   {
     "sourceFile": "फैक्ट शीट कल्लू जी की.docx",
@@ -494,7 +494,7 @@
     "crop": "फूल गोभी",
     "variety": "स्वदेशी चैंपियन",
     "areaRaw": "0.1 एकड़",
-    "areaAcres": 0.020000000000000004,
+    "areaAcres": 0.1,
     "dates": {},
     "production": {
       "quintals": 11
@@ -505,8 +505,8 @@
       "netProfit": 16900
     },
     "testimonial": "",
-    "netProfitPerAcre": 845000,
-    "incomePerAcre": 875000
+    "netProfitPerAcre": 169000,
+    "incomePerAcre": 175000
   },
   {
     "sourceFile": "राजकुमारी जी की हल्दी की फक्ट्शीट.docx",
@@ -521,7 +521,7 @@
     "crop": "हल्दी",
     "variety": "देशी हल्दी",
     "areaRaw": "04 विसवा",
-    "areaAcres": 0.8,
+    "areaAcres": 0.04,
     "dates": {},
     "production": {
       "quintals": 6
@@ -534,7 +534,7 @@
       "netProfit": 9150
     },
     "testimonial": "CB Ratioसीबी अनुपात",
-    "netProfitPerAcre": 11438,
-    "incomePerAcre": 15000
+    "netProfitPerAcre": 228750,
+    "incomePerAcre": 300000
   }
 ]
