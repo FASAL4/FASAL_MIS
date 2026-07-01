@@ -202,7 +202,7 @@ export function AgricultureTab() {
               </p>
               <div className="mt-3 flex items-center justify-between text-xs text-amber-700 border-t border-amber-100 pt-2">
                 <span className="font-semibold">{fs.farmerName || 'Farmer'}</span>
-                <span>{fs.village} • {fs.crop}</span>
+                <span>{fs.villageEn || fs.village} • {fs.cropEn || fs.crop}</span>
               </div>
             </div>
           ))}
@@ -236,7 +236,7 @@ export function AgricultureTab() {
               {(extractedFactSheets as any[]).filter((f: any) => f.areaAcres && f.areaAcres <= 0.05 && f.income?.netProfit).map((fs: any, i: number) => (
                 <tr key={i} className="hover:bg-slate-50">
                   <td className="py-2.5 font-medium text-slate-800">{fs.farmerName || 'N/A'}</td>
-                  <td className="py-2.5 text-slate-600">{fs.crop}</td>
+                  <td className="py-2.5 text-slate-600">{fs.cropEn || fs.crop}</td>
                   <td className="py-2.5 text-right font-mono text-slate-500">{fs.areaAcres.toFixed(2)}</td>
                   <td className="py-2.5 text-right font-mono text-slate-500">{fs.costs?.totalInput || 'N/A'}</td>
                   <td className="py-2.5 text-right font-mono text-slate-700">{fs.income?.totalIncome || 0}</td>
