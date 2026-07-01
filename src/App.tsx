@@ -671,7 +671,7 @@ export default function App() {
 
   const renderStoryModal = () => {
     if (selectedStory === null) return null;
-    const story = structuredStories.find(s => s.id === selectedStory);
+    const story = allStoryCards.find(s => s.id === selectedStory);
     if (!story) return null;
 
     return (

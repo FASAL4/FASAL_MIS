@@ -28,7 +28,10 @@
     },
     "testimonial": "कम समय और कम लगत में बढ़िया मुनाफा हुआ. घर के लिए जरुरत के लायक प्याज मिल गया. Cost of Labour मजदुर 500 Total Input Cost: कुल लागत खर्च 1700 कुल उत्पादन क्विंटल में 200 kg Total income in INR कुल आय 5000",
     "netProfitPerAcre": 66000,
-    "incomePerAcre": 100000
+    "incomePerAcre": 100000,
+    "cropEn": "Onion",
+    "villageEn": "Ram Purwa",
+    "testimonialEn": "In less time and at low cost, I earned good profit. We got enough onions for our household needs. कुल लागत खर्च 1700"
   },
   {
     "sourceFile": "FACT SHEET Onion Kusuma Devi Fakirpuri.docx",
@@ -58,7 +61,10 @@
     },
     "testimonial": "घर के बरिया में 50 किलो प्याज का उत्पादन हुआ जो हमें ख़ुशी मह्सुश हुआ. पहले हमें बीज नहीं मिलता था इसलिए अपने किचेन गार्डन में अपने परिवार के लिए सब्जी बाजार से लती थी. अब संस्था के सहयोग से हमें समय पर बीज मिल जाता है जिसके कारन हमारा बारी में परिवार के लिए जरूरत की ताजी सब्जी समय से मिल जाता है.",
     "netProfitPerAcre": 57500,
-    "incomePerAcre": 62500
+    "incomePerAcre": 62500,
+    "cropEn": "Onion",
+    "villageEn": "Fakirpuri",
+    "testimonialEn": "Produced 50 kg of onions in the homestead garden जो हमें ख़ुशी मह्सुश हुआ. Earlier we did not get seeds इसलिए अपने किचेन गार्डन में अपने परिवार के लिए सब्जी बाजार से लती थी. Now with the organization's help, we get seeds on time जिसके कारन हमारा बारी में परिवार के लिए जरूरत की ताजी सब्जी समय से मिल जाता है."
   },
   {
     "sourceFile": "FACT SHEET Onion Mamta  Devi Badhiyanpurwa  2026.docx",
@@ -89,7 +95,10 @@
     },
     "testimonial": "घर के बरिया में 55 किलो प्याज का उत्पादन हुआ जो हमें ख़ुशी मह्सुश हुआ. पहले हमें बीज नहीं मिलता था इसलिए अपने किचेन गार्डन में अपने परिवार के लिए सब्जी बाजार से लती थी. अब संस्था के सहयोग से हमें समय पर बीज मिल जाता है जिसके कारन हमारा बारी में परिवार के लिए जरूरत की ताजी सब्जी समय से मिल जाता है. इस प्याज में किसी तरह का रासायनिक दावा भी नहीं दिया हूँ. मेरी आर्थिक स्थिति  यह हमारे स्वास्थ्य के लिए बढ़िया है. परिवार में आय का साधन कमजोर होने से हम हर रोज बाज़ार से प्याज नहीं खरीद पति थी अपने बारी में होने से हमेशा खाती हूँ. Cost of Irrigation सिंचाई 100 Cost of Labour मजदुर स्वयं Total Input Cost: कुल लागत खर्च 100 Total production in Qt. कुल उत्पादन क्विंटल में 55 किलो",
     "netProfitPerAcre": 63750,
-    "incomePerAcre": 68750
+    "incomePerAcre": 68750,
+    "cropEn": "Onion",
+    "villageEn": "Badhiyanpurwa, Karikot",
+    "testimonialEn": "घर के बरिया में 55 किलो प्याज का उत्पादन हुआ जो हमें ख़ुशी मह्सुश हुआ. Earlier we did not get seeds इसलिए अपने किचेन गार्डन में अपने परिवार के लिए सब्जी बाजार से लती थी. Now with the organization's help, we get seeds on time जिसके कारन हमारा बारी में परिवार के लिए जरूरत की ताजी सब्जी समय से मिल जाता है. इस प्याज में किसी तरह का रासायनिक दावा भी नहीं दिया हूँ. मेरी आर्थिक स्थिति यह It is good for our health. परिवार में आय का साधन कमजोर होने से हम हर रोज बाज़ार से प्याज नहीं खरीद पति थी अपने बारी में होने से हमेशा खाती हूँ. Cost of Labour मजदुर स्वयं कुल लागत खर्च 100 Total production in Qt."
   },
   {
     "sourceFile": "FACT SHEET Tomato Arpana Ji.docx",
@@ -120,7 +129,10 @@
     },
     "testimonial": "कम लगत पर थोड़ी सी जमीं में ज्यादा लाभ मिला यह लाभदायक खेती है. पुरे सीजन परिवार में खाने के बाद 10000 का लाभ मिला जो कि अन्य किसी फसल से संभव नहीं था,",
     "netProfitPerAcre": 515000,
-    "incomePerAcre": 600000
+    "incomePerAcre": 600000,
+    "cropEn": "Tomato",
+    "villageEn": "Vishunapur",
+    "testimonialEn": "With low cost on a small plot, I got high profit यह लाभदायक खेती है. After feeding the family all season, I earned ₹10,000 profit जो कि अन्य किसी फसल से संभव नहीं था,"
   },
   {
     "sourceFile": "FACT SHEET भिन्डी राम वचन राम पुरवा.docx",
@@ -150,7 +162,10 @@
     },
     "testimonial": "अगेती भिन्डी प्लास्टिक का जाल लगाकर मैंने खेती किया इसमें लागत आया लेकिन समय से पहले फसल का उत्पादन शुरू हो गया. जब बाजार में 120 रुपये प्रति किलो भिन्डी था तभी से फलां आ गया इसलिए बेहतर उत्पादन हुआ.",
     "netProfitPerAcre": 495000,
-    "incomePerAcre": 600000
+    "incomePerAcre": 600000,
+    "cropEn": "Okra",
+    "villageEn": "Ram Purwa",
+    "testimonialEn": "I grew early okra using plastic mulch netting इसमें लागत आया लेकिन समय से पहले फसल का उत्पादन शुरू हो गया. When okra was selling at ₹120 per kg in the market तभी से फलां आ गया Therefore I got a better yield."
   },
   {
     "sourceFile": "FACT SHEET मसूर  बासमती जी फ़क़ीरपूरी.docx",
@@ -180,7 +195,10 @@
     },
     "testimonial": "बिना किसी लगत के यह सबसे बढ़िया खेती है. इसमें किसी तरह का खाद और उर्वरक नहीं दिया जाता है और सिंचाई में भी कम सिंचाई देना होइता है. इसकी बुआई से खेत की मित्तिउ भी मजबूत बनता है. Cost of Irrigation सिंचाई 500 Cost of Labour मजदुर 500 Total Input Cost: कुल लागत खर्च 3400 Total production in Qt. कुल उत्पादन क्विंटल में 2 क्वि०",
     "netProfitPerAcre": 86000,
-    "incomePerAcre": 120000
+    "incomePerAcre": 120000,
+    "cropEn": "Lentil",
+    "villageEn": "Fakirpuri",
+    "testimonialEn": "Without any input cost, this is the best crop. It does not require any fertilizer or chemicals और सिंचाई में भी कम सिंचाई देना होइता है. इसकी बुआई से खेत की मित्तिउ भी मजबूत बनता है. कुल लागत खर्च 3400 Total production in Qt."
   },
   {
     "sourceFile": "FACT SHEET शांति देवी.docx",
@@ -210,7 +228,10 @@
     },
     "testimonial": "मै शांति देवी अपने परिवार में कुल ६ सदयों के साथ रहती हु मेरा परिवार खेती किसानी कर आजीविका चलाते है मै पहले सब्जी की खेती नहीं करती थी अभी दो वर्षों से सब्जी के साथ मसाला फसले भी उगाती हूँ जिससे हमारी आय बढ़ी है | जीवामृत, चार-चटनी जैसी जैविक खाद एवं कीटनाशक बनाकर खेत में डाला जिससे बाजार से जहरीला रसायन खरीद पर होने वाला  खर्च भी बच जाता है. घर पर सब्जियां मसाले घर पर उपलब्ध है जिससे बाजार जाने की आवश्यकता कम पड़ती है |",
     "netProfitPerAcre": 200000,
-    "incomePerAcre": 31666667
+    "incomePerAcre": 31666667,
+    "cropEn": "Onion",
+    "villageEn": "Bajpur Bankati",
+    "testimonialEn": "मै शांति देवी अपने परिवार में कुल ६ सदयों के साथ रहती हु मेरा परिवार खेती किसानी कर आजीविका चलाते है मै पहले सब्जी की खेती नहीं करती थी अभी दो वर्षों से सब्जी के साथ मसाला फसले भी उगाती हूँ जिससे हमारी आय बढ़ी है | जीवामृत, चार-चटनी जैसी जैविक खाद एवं कीटनाशक बनाकर खेत में डाला जिससे बाजार से जहरीला रसायन खरीद पर होने वाला खर्च भी बच जाता है. घर पर सब्जियां मसाले घर पर उपलब्ध है जिससे बाजार जाने की आवश्यकता कम पड़ती है |"
   },
   {
     "sourceFile": "FACT SHEET हल्दी For Geeta Devi _ Kanchan.docx",
@@ -246,7 +267,9 @@
     },
     "testimonial": "",
     "netProfitPerAcre": 2640,
-    "incomePerAcre": 235600
+    "incomePerAcre": 235600,
+    "cropEn": "Turmeric",
+    "villageEn": "Rajaram Tanda"
   },
   {
     "sourceFile": "FACT SHEET हल्दी Formate.docx",
@@ -271,7 +294,8 @@
       "transport": 1000
     },
     "income": {},
-    "testimonial": ""
+    "testimonial": "",
+    "cropEn": "(Template)"
   },
   {
     "sourceFile": "FACT SHEET हल्दी कौशल्या लोहरा.docx",
@@ -306,7 +330,9 @@
     },
     "testimonial": "",
     "netProfitPerAcre": 115625,
-    "incomePerAcre": 213750
+    "incomePerAcre": 213750,
+    "cropEn": "Turmeric",
+    "villageEn": "Lohra"
   },
   {
     "sourceFile": "Factsheet of Bitter guard, Lalaram ji.docx",
@@ -334,7 +360,9 @@
       "netProfit": 20100
     },
     "netProfitPerAcre": 251250,
-    "incomePerAcre": 313750
+    "incomePerAcre": 313750,
+    "cropEn": "Bitter Gourd",
+    "villageEn": "Sirsiyanpurwa"
   },
   {
     "sourceFile": "Factsheet of Onion and bitter guard,Geeta devi.docx",
@@ -363,7 +391,9 @@
       "netProfit": 6850
     },
     "netProfitPerAcre": 137000,
-    "incomePerAcre": 144000
+    "incomePerAcre": 144000,
+    "cropEn": "Onion",
+    "villageEn": "Bhedhan Purwa"
   },
   {
     "sourceFile": "Factsheet of Onion, Radheshyam ji.docx",
@@ -392,7 +422,9 @@
       "netProfit": 3000
     },
     "netProfitPerAcre": 150000,
-    "incomePerAcre": 157500
+    "incomePerAcre": 157500,
+    "cropEn": "Onion",
+    "villageEn": "Sirsiyanpurwa"
   },
   {
     "sourceFile": "जमुना जी फेक्टशीट.docx",
@@ -421,7 +453,9 @@
     },
     "testimonial": "",
     "netProfitPerAcre": 117500,
-    "incomePerAcre": 150000
+    "incomePerAcre": 150000,
+    "cropEn": "Turmeric",
+    "villageEn": "Badhiyan Purwa"
   },
   {
     "sourceFile": "द्वारिका प्रसाद जी की फैक्ट शीट.docx",
@@ -448,7 +482,9 @@
     },
     "testimonial": "",
     "netProfitPerAcre": 196000,
-    "incomePerAcre": 240000
+    "incomePerAcre": 240000,
+    "cropEn": "Cabbage",
+    "villageEn": "Kailash Nagar"
   },
   {
     "sourceFile": "फूलगोभी FACT Sheet.docx",
@@ -479,7 +515,9 @@
     },
     "testimonial": "",
     "netProfitPerAcre": 742000,
-    "incomePerAcre": 800000
+    "incomePerAcre": 800000,
+    "cropEn": "Cauliflower",
+    "villageEn": "Fakirpuri"
   },
   {
     "sourceFile": "फैक्ट शीट कल्लू जी की.docx",
@@ -506,7 +544,9 @@
     },
     "testimonial": "",
     "netProfitPerAcre": 169000,
-    "incomePerAcre": 175000
+    "incomePerAcre": 175000,
+    "cropEn": "Cauliflower",
+    "villageEn": "Bhedhan Purwa"
   },
   {
     "sourceFile": "राजकुमारी जी की हल्दी की फक्ट्शीट.docx",
@@ -535,6 +575,9 @@
     },
     "testimonial": "CB Ratioसीबी अनुपात",
     "netProfitPerAcre": 228750,
-    "incomePerAcre": 300000
+    "incomePerAcre": 300000,
+    "cropEn": "Turmeric",
+    "villageEn": "Kailash Nagar",
+    "testimonialEn": "CB Ratioसीबी अनुपात"
   }
 ]

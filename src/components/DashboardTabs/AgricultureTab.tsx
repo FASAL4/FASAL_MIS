@@ -198,7 +198,7 @@ export function AgricultureTab() {
             <div key={i} className="bg-amber-50/40 border border-amber-100 rounded-xl p-4 relative">
               <span className="absolute -top-1 left-3 text-4xl text-amber-200/60 font-serif leading-none">"</span>
               <p className="text-sm text-amber-900 italic font-serif pl-3 relative z-10 leading-relaxed">
-                {fs.testimonial}
+                {fs.testimonialEn || fs.testimonial}
               </p>
               <div className="mt-3 flex items-center justify-between text-xs text-amber-700 border-t border-amber-100 pt-2">
                 <span className="font-semibold">{fs.farmerName || 'Farmer'}</span>
@@ -230,7 +230,6 @@ export function AgricultureTab() {
                 <th className="text-right py-2 font-semibold">Cost (₹)</th>
                 <th className="text-right py-2 font-semibold">Income (₹)</th>
                 <th className="text-right py-2 font-semibold">Net Profit (₹)</th>
-                <th className="text-right py-2 font-semibold">₹/acre</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-slate-100">
@@ -242,7 +241,6 @@ export function AgricultureTab() {
                   <td className="py-2.5 text-right font-mono text-slate-500">{fs.costs?.totalInput || 'N/A'}</td>
                   <td className="py-2.5 text-right font-mono text-slate-700">{fs.income?.totalIncome || 0}</td>
                   <td className="py-2.5 text-right font-mono text-emerald-600 font-semibold">{fs.income?.netProfit || 0}</td>
-                  <td className="py-2.5 text-right font-mono text-emerald-600">{fs.netProfitPerAcre?.toLocaleString('en-IN') || 'N/A'}</td>
                 </tr>
               ))}
             </tbody>
