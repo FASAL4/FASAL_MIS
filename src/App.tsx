@@ -54,6 +54,7 @@ import {
 import farmersData from "./data/farmers.json";
 import leverageData from "./data/leverage.json";
 import landDiscrepancies from "./data/land_discrepancies.json";
+import storiesOfChange from "./data/stories_of_change.json";
 
 import { Dashboard } from "./components/Dashboard";
 
@@ -411,12 +412,12 @@ export default function App() {
       const groupMatch = String(f.group || "").toLowerCase().includes(searchQuery.toLowerCase());
       const matchesSearch = nameMatch || villageMatch || idMatch || groupMatch;
       const matchesGender = filterGender === "All" ? true : f.gender === filterGender;
-      
+
       const matchesBaseline = filterBaseline === "All" ? true :
-                              filterBaseline === "Matched" ? f.matched === true :
-                              filterBaseline === "Unmatched" ? f.matched !== true :
-                              (f.matched === true && landDiscrepancies.outliers.some((o: any) => o.id === f.id));
-                              
+        filterBaseline === "Matched" ? f.matched === true :
+          filterBaseline === "Unmatched" ? f.matched !== true :
+            (f.matched === true && landDiscrepancies.outliers.some((o: any) => o.id === f.id));
+
       return matchesSearch && matchesGender && matchesBaseline;
     });
 
@@ -653,7 +654,7 @@ export default function App() {
           <div className={`px-8 py-8 ${story.bg} border-b border-slate-100 flex flex-col justify-between relative`}>
             {/* Scroll Progress Tracker */}
             <div className="absolute bottom-0 left-0 h-1 bg-teal-500 transition-all duration-150 ease-out" style={{ width: `${readProgress}%` }} />
-            
+
             <div className="flex justify-between items-start">
               <span className={`text-[10px] font-bold px-2.5 py-1 rounded bg-white shadow-sm border border-slate-100 uppercase tracking-widest ${story.color}`}>
                 Featured Change Narrative
@@ -665,15 +666,15 @@ export default function App() {
                 <X size={18} />
               </button>
             </div>
-            
+
             <h3 className="text-2xl font-extrabold text-slate-900 mt-4 font-serif tracking-tight leading-tight">
               {story.name}
             </h3>
-            
+
             <p className="text-slate-600 italic font-serif text-sm mt-1">
               {story.title}
             </p>
-            
+
             <div className="flex flex-wrap items-center gap-3 mt-4 text-[10px] text-slate-400 uppercase tracking-widest font-bold">
               <span className="bg-white/80 px-2 py-0.5 rounded border border-slate-200">{story.village}</span>
               <span>•</span>
@@ -905,944 +906,944 @@ export default function App() {
               transition={{ duration: 0.18, ease: "easeOut" }}
             >
               {activeTab === "dashboard" && (
-            <div className="max-w-6xl mx-auto pb-12">
-              <Dashboard farmersData={farmersData} totalLeverageAmount={totalLeverageAmount} />
-            </div>
-          )}
-
-          {activeTab === "farmers" && (
-            <div className="max-w-6xl mx-auto pb-12">
-              <div className="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden">
-                <div className="px-6 py-5 border-b border-slate-200 bg-slate-50/50 flex flex-col sm:flex-row justify-between items-center gap-4">
-                  <div>
-                    <h3 className="text-lg font-bold text-slate-800">Complete Master List</h3>
-                    <p className="text-xs text-slate-500 mt-1">Showing {filteredFarmers.length} of {recentFarmers.length} loaded records</p>
-                  </div>
-                  <div className="flex gap-2">
-                    <button
-                      onClick={handleExportCSV}
-                      className="px-4 py-2 bg-white border border-slate-300 rounded-lg text-sm font-semibold text-slate-700 shadow-sm hover:bg-slate-50 flex items-center gap-2"
-                    >
-                      <Download size={16} />
-                      Export CSV
-                    </button>
-                  </div>
+                <div className="max-w-6xl mx-auto pb-12">
+                  <Dashboard farmersData={farmersData} totalLeverageAmount={totalLeverageAmount} />
                 </div>
-                <div className="overflow-x-auto">
-                  <table className="w-full text-left text-sm">
-                    <thead className="bg-white border-b border-slate-200 text-slate-500">
-                      <tr>
-                        <th className="px-6 py-4 font-semibold cursor-pointer hover:bg-slate-50 transition-colors select-none" onClick={() => handleSort('id')}>
-                          Code {sortConfig?.key === 'id' ? (sortConfig.direction === 'asc' ? '▲' : '▼') : ''}
-                        </th>
-                        <th className="px-6 py-4 font-semibold cursor-pointer hover:bg-slate-50 transition-colors select-none" onClick={() => handleSort('name')}>
-                          Farmer Name {sortConfig?.key === 'name' ? (sortConfig.direction === 'asc' ? '▲' : '▼') : ''}
-                        </th>
-                        <th className="px-6 py-4 font-semibold text-center cursor-pointer hover:bg-slate-50 transition-colors select-none" onClick={() => handleSort('gender')}>
-                          Gender {sortConfig?.key === 'gender' ? (sortConfig.direction === 'asc' ? '▲' : '▼') : ''}
-                        </th>
-                        <th className="px-6 py-4 font-semibold cursor-pointer hover:bg-slate-50 transition-colors select-none" onClick={() => handleSort('village')}>
-                          Panchayat & Village {sortConfig?.key === 'village' ? (sortConfig.direction === 'asc' ? '▲' : '▼') : ''}
-                        </th>
-                        <th className="px-6 py-4 font-semibold cursor-pointer hover:bg-slate-50 transition-colors select-none" onClick={() => handleSort('group')}>
-                          AAS Group {sortConfig?.key === 'group' ? (sortConfig.direction === 'asc' ? '▲' : '▼') : ''}
-                        </th>
-                        <th className="px-6 py-4 font-semibold cursor-pointer hover:bg-slate-50 transition-colors select-none" onClick={() => handleSort('year')}>
-                          Recorded Years {sortConfig?.key === 'year' ? (sortConfig.direction === 'asc' ? '▲' : '▼') : ''}
-                        </th>
-                        <th className="px-6 py-4 font-semibold cursor-pointer hover:bg-slate-50 transition-colors select-none" onClick={() => handleSort('totalLand')}>
-                          Total Land (Acres) {sortConfig?.key === 'totalLand' ? (sortConfig.direction === 'asc' ? '▲' : '▼') : ''}
-                        </th>
-                      </tr>
-                    </thead>
-                    <tbody className="divide-y divide-slate-100">
-                      {paginatedFarmers.length > 0 ? (
-                        paginatedFarmers.map((farmer: any) => {
-                          const isOutlier = farmer.matched && landDiscrepancies.outliers.some((o: any) => o.id === farmer.id);
-                          const isExpanded = expandedFarmerId === farmer.id;
-                          return (
-                            <React.Fragment key={farmer.id}>
-                              <tr 
-                                onClick={() => setExpandedFarmerId(isExpanded ? null : farmer.id)}
-                                className="hover:bg-slate-50 transition-colors cursor-pointer select-none"
-                              >
-                                <td className="px-6 py-4 font-mono text-xs text-slate-500">{farmer.id}</td>
-                                <td className="px-6 py-4 font-medium text-slate-900">
-                                  <div className="flex items-center gap-2">
-                                    <span>{farmer.name}</span>
-                                    {farmer.matched && (
-                                      <span className="inline-flex items-center px-1.5 py-0.5 rounded-full bg-emerald-50 text-emerald-700 text-[9px] font-bold border border-emerald-100 uppercase tracking-wide">
-                                        ✓ Matched
+              )}
+
+              {activeTab === "farmers" && (
+                <div className="max-w-6xl mx-auto pb-12">
+                  <div className="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden">
+                    <div className="px-6 py-5 border-b border-slate-200 bg-slate-50/50 flex flex-col sm:flex-row justify-between items-center gap-4">
+                      <div>
+                        <h3 className="text-lg font-bold text-slate-800">Complete Master List</h3>
+                        <p className="text-xs text-slate-500 mt-1">Showing {filteredFarmers.length} of {recentFarmers.length} loaded records</p>
+                      </div>
+                      <div className="flex gap-2">
+                        <button
+                          onClick={handleExportCSV}
+                          className="px-4 py-2 bg-white border border-slate-300 rounded-lg text-sm font-semibold text-slate-700 shadow-sm hover:bg-slate-50 flex items-center gap-2"
+                        >
+                          <Download size={16} />
+                          Export CSV
+                        </button>
+                      </div>
+                    </div>
+                    <div className="overflow-x-auto">
+                      <table className="w-full text-left text-sm">
+                        <thead className="bg-white border-b border-slate-200 text-slate-500">
+                          <tr>
+                            <th className="px-6 py-4 font-semibold cursor-pointer hover:bg-slate-50 transition-colors select-none" onClick={() => handleSort('id')}>
+                              Code {sortConfig?.key === 'id' ? (sortConfig.direction === 'asc' ? '▲' : '▼') : ''}
+                            </th>
+                            <th className="px-6 py-4 font-semibold cursor-pointer hover:bg-slate-50 transition-colors select-none" onClick={() => handleSort('name')}>
+                              Farmer Name {sortConfig?.key === 'name' ? (sortConfig.direction === 'asc' ? '▲' : '▼') : ''}
+                            </th>
+                            <th className="px-6 py-4 font-semibold text-center cursor-pointer hover:bg-slate-50 transition-colors select-none" onClick={() => handleSort('gender')}>
+                              Gender {sortConfig?.key === 'gender' ? (sortConfig.direction === 'asc' ? '▲' : '▼') : ''}
+                            </th>
+                            <th className="px-6 py-4 font-semibold cursor-pointer hover:bg-slate-50 transition-colors select-none" onClick={() => handleSort('village')}>
+                              Panchayat & Village {sortConfig?.key === 'village' ? (sortConfig.direction === 'asc' ? '▲' : '▼') : ''}
+                            </th>
+                            <th className="px-6 py-4 font-semibold cursor-pointer hover:bg-slate-50 transition-colors select-none" onClick={() => handleSort('group')}>
+                              AAS Group {sortConfig?.key === 'group' ? (sortConfig.direction === 'asc' ? '▲' : '▼') : ''}
+                            </th>
+                            <th className="px-6 py-4 font-semibold cursor-pointer hover:bg-slate-50 transition-colors select-none" onClick={() => handleSort('year')}>
+                              Recorded Years {sortConfig?.key === 'year' ? (sortConfig.direction === 'asc' ? '▲' : '▼') : ''}
+                            </th>
+                            <th className="px-6 py-4 font-semibold cursor-pointer hover:bg-slate-50 transition-colors select-none" onClick={() => handleSort('totalLand')}>
+                              Total Land (Acres) {sortConfig?.key === 'totalLand' ? (sortConfig.direction === 'asc' ? '▲' : '▼') : ''}
+                            </th>
+                          </tr>
+                        </thead>
+                        <tbody className="divide-y divide-slate-100">
+                          {paginatedFarmers.length > 0 ? (
+                            paginatedFarmers.map((farmer: any) => {
+                              const isOutlier = farmer.matched && landDiscrepancies.outliers.some((o: any) => o.id === farmer.id);
+                              const isExpanded = expandedFarmerId === farmer.id;
+                              return (
+                                <React.Fragment key={farmer.id}>
+                                  <tr
+                                    onClick={() => setExpandedFarmerId(isExpanded ? null : farmer.id)}
+                                    className="hover:bg-slate-50 transition-colors cursor-pointer select-none"
+                                  >
+                                    <td className="px-6 py-4 font-mono text-xs text-slate-500">{farmer.id}</td>
+                                    <td className="px-6 py-4 font-medium text-slate-900">
+                                      <div className="flex items-center gap-2">
+                                        <span>{farmer.name}</span>
+                                        {farmer.matched && (
+                                          <span className="inline-flex items-center px-1.5 py-0.5 rounded-full bg-emerald-50 text-emerald-700 text-[9px] font-bold border border-emerald-100 uppercase tracking-wide">
+                                            ✓ Matched
+                                          </span>
+                                        )}
+                                      </div>
+                                    </td>
+                                    <td className="px-6 py-4 text-center">
+                                      <span className={`inline-flex items-center w-6 h-6 justify-center rounded-full text-xs font-semibold ${farmer.gender === 'M' ? 'bg-blue-100 text-blue-700' : farmer.gender === 'F' ? 'bg-pink-100 text-pink-700' : 'bg-slate-100 text-slate-700'}`}>
+                                        {farmer.gender ? farmer.gender.charAt(0) : '?'}
                                       </span>
-                                    )}
-                                  </div>
-                                </td>
-                                <td className="px-6 py-4 text-center">
-                                  <span className={`inline-flex items-center w-6 h-6 justify-center rounded-full text-xs font-semibold ${farmer.gender === 'M' ? 'bg-blue-100 text-blue-700' : farmer.gender === 'F' ? 'bg-pink-100 text-pink-700' : 'bg-slate-100 text-slate-700'}`}>
-                                    {farmer.gender ? farmer.gender.charAt(0) : '?'}
-                                  </span>
-                                </td>
-                                <td className="px-6 py-4 text-slate-600">
-                                  <div className="font-medium text-slate-800">{farmer.village || farmer.panchayat || "Mihinpurwa"}</div>
-                                  <div className="text-xs text-slate-400 mt-0.5">{farmer.panchayat ? `Panchayat: ${farmer.panchayat}` : 'Block: Mihinpurwa'}</div>
-                                </td>
-                                <td className="px-6 py-4">
-                                  <span className="inline-flex items-center px-2 py-1 rounded-md bg-teal-50 text-teal-700 text-xs font-medium border border-teal-100">
-                                    {farmer.group}
-                                  </span>
-                                </td>
-                                <td className="px-6 py-4 text-slate-600">{farmer.year}</td>
-                                <td className="px-6 py-4 text-slate-600 font-mono">
-                                  <div className="flex items-center gap-1.5">
-                                    <span>{farmer.totalLand || '-'}</span>
-                                    {isOutlier && (
-                                      <span className="text-amber-600 cursor-help" title="Land discrepancy flagged: Active acres deviates >20% from baseline registry. Click row for details.">
-                                        <AlertTriangle size={14} className="inline" />
+                                    </td>
+                                    <td className="px-6 py-4 text-slate-600">
+                                      <div className="font-medium text-slate-800">{farmer.village || farmer.panchayat || "Mihinpurwa"}</div>
+                                      <div className="text-xs text-slate-400 mt-0.5">{farmer.panchayat ? `Panchayat: ${farmer.panchayat}` : 'Block: Mihinpurwa'}</div>
+                                    </td>
+                                    <td className="px-6 py-4">
+                                      <span className="inline-flex items-center px-2 py-1 rounded-md bg-teal-50 text-teal-700 text-xs font-medium border border-teal-100">
+                                        {farmer.group}
                                       </span>
-                                    )}
-                                  </div>
-                                </td>
-                              </tr>
-                              {isExpanded && (
-                                <tr className="bg-slate-50/50">
-                                  <td colSpan={7} className="px-8 py-6 border-t border-slate-100">
-                                    {farmer.matched ? (
-                                      <div className="bg-white rounded-xl border border-slate-200 shadow-sm p-6 space-y-6">
-                                        <div className="flex justify-between items-start border-b border-slate-100 pb-4">
-                                          <div>
-                                            <h4 className="text-sm font-bold text-slate-800 flex items-center gap-2">
-                                              <Users size={16} className="text-teal-500" />
-                                              Baseline Household Profile — {farmer.name}
-                                            </h4>
-                                            <p className="text-[11px] text-slate-400 mt-1">Matched Baseline Survey Data (fuzzy similarity ratio {farmer.matchScore}%)</p>
-                                          </div>
-                                          {isOutlier && (
-                                            <span className="inline-flex items-center gap-1.5 px-3 py-1 bg-amber-50 text-amber-800 border border-amber-200 rounded-full text-[11px] font-bold animate-pulse">
-                                              <AlertTriangle size={13} /> Land Size Discrepancy Flagged
-                                            </span>
-                                          )}
-                                        </div>
-
-                                        <div className="grid grid-cols-1 md:grid-cols-4 gap-6 text-left">
-                                          {/* Demographics */}
-                                          <div className="space-y-3">
-                                            <h5 className="text-[9px] font-bold text-slate-400 uppercase tracking-widest">Demographics</h5>
-                                            <div className="space-y-1.5 text-xs">
-                                              <div className="flex justify-between border-b border-slate-50 pb-1"><span className="text-slate-500">Caste Category:</span> <span className="font-bold text-slate-700">{farmer.category || 'Unknown'}</span></div>
-                                              <div className="flex justify-between border-b border-slate-50 pb-1"><span className="text-slate-500">Religion:</span> <span className="font-bold text-slate-700">{farmer.religion || 'Unknown'}</span></div>
-                                              <div className="flex justify-between border-b border-slate-50 pb-1"><span className="text-slate-500">Age:</span> <span className="font-bold text-slate-700">{farmer.age || 'Unknown'} yrs</span></div>
-                                              <div className="flex justify-between"><span className="text-slate-500">Marital Status:</span> <span className="font-bold text-slate-700">{farmer.maritalStatus || 'Unknown'}</span></div>
-                                            </div>
-                                          </div>
-
-                                          {/* Social Welfare Cards */}
-                                          <div className="space-y-3">
-                                            <h5 className="text-[9px] font-bold text-slate-400 uppercase tracking-widest">Welfare Status</h5>
-                                            <div className="space-y-1.5 text-xs">
-                                              <div className="flex justify-between border-b border-slate-50 pb-1"><span className="text-slate-500">Economic Cards:</span> <span className="font-bold text-slate-700">{[farmer.bpl && 'BPL', farmer.antodyaya && 'Antodyaya', farmer.apl && 'APL'].filter(Boolean).join(', ') || 'None'}</span></div>
-                                              <div className="flex justify-between border-b border-slate-50 pb-1"><span className="text-slate-500">MNREGA Card:</span> <span className="font-bold text-slate-700">{farmer.mnrega ? 'Yes' : 'No'}</span></div>
-                                              <div className="flex justify-between border-b border-slate-50 pb-1"><span className="text-slate-500">e-Shram Card:</span> <span className="font-bold text-slate-700">{farmer.eShram ? 'Yes' : 'No'}</span></div>
-                                              <div className="flex justify-between"><span className="text-slate-500">Toilet Access:</span> <span className="font-bold text-slate-700">{farmer.hasToilet ? 'Yes' : 'No'}</span></div>
-                                            </div>
-                                          </div>
-
-                                          {/* Land Size Comparison */}
-                                          <div className="space-y-3">
-                                            <h5 className="text-[9px] font-bold text-slate-400 uppercase tracking-widest">Land Audit</h5>
-                                            <div className="space-y-1.5 text-xs">
-                                              <div className="flex justify-between border-b border-slate-50 pb-1"><span className="text-slate-500">Active Registry Land:</span> <span className="font-bold text-slate-700 font-mono">{parseFloat(farmer.totalLand || '0').toFixed(2)} ac</span></div>
-                                              <div className="flex justify-between border-b border-slate-50 pb-1"><span className="text-slate-500">Baseline Cultivable:</span> <span className="font-bold text-slate-700 font-mono">{farmer.baselineCultivableLandAcres || 0} ac</span></div>
-                                              <div className="flex justify-between border-b border-slate-50 pb-1"><span className="text-slate-500">Baseline Rented/Lease:</span> <span className="font-bold text-slate-700 font-mono">{farmer.baselineLeaseLandAcres || 0} ac</span></div>
+                                    </td>
+                                    <td className="px-6 py-4 text-slate-600">{farmer.year}</td>
+                                    <td className="px-6 py-4 text-slate-600 font-mono">
+                                      <div className="flex items-center gap-1.5">
+                                        <span>{farmer.totalLand || '-'}</span>
+                                        {isOutlier && (
+                                          <span className="text-amber-600 cursor-help" title="Land discrepancy flagged: Active acres deviates >20% from baseline registry. Click row for details.">
+                                            <AlertTriangle size={14} className="inline" />
+                                          </span>
+                                        )}
+                                      </div>
+                                    </td>
+                                  </tr>
+                                  {isExpanded && (
+                                    <tr className="bg-slate-50/50">
+                                      <td colSpan={7} className="px-8 py-6 border-t border-slate-100">
+                                        {farmer.matched ? (
+                                          <div className="bg-white rounded-xl border border-slate-200 shadow-sm p-6 space-y-6">
+                                            <div className="flex justify-between items-start border-b border-slate-100 pb-4">
+                                              <div>
+                                                <h4 className="text-sm font-bold text-slate-800 flex items-center gap-2">
+                                                  <Users size={16} className="text-teal-500" />
+                                                  Baseline Household Profile — {farmer.name}
+                                                </h4>
+                                                <p className="text-[11px] text-slate-400 mt-1">Matched Baseline Survey Data (fuzzy similarity ratio {farmer.matchScore}%)</p>
+                                              </div>
                                               {isOutlier && (
-                                                <div className="flex justify-between text-amber-700 bg-amber-50 px-2 py-0.5 rounded mt-1 border border-amber-100">
-                                                  <span>Deviation:</span> 
-                                                  <span className="font-bold font-mono">
-                                                    {Math.abs(parseFloat(farmer.totalLand || '0') - ((farmer.baselineCultivableLandAcres || 0) + (farmer.baselineLeaseLandAcres || 0))).toFixed(2)} ac ({
-                                                      (() => {
-                                                        const base = (farmer.baselineCultivableLandAcres || 0) + (farmer.baselineLeaseLandAcres || 0);
-                                                        const deviation = Math.abs(parseFloat(farmer.totalLand || '0') - base) / (base || 1) * 100;
-                                                        return deviation.toFixed(1);
-                                                      })()
-                                                    }%)
-                                                  </span>
-                                                </div>
+                                                <span className="inline-flex items-center gap-1.5 px-3 py-1 bg-amber-50 text-amber-800 border border-amber-200 rounded-full text-[11px] font-bold animate-pulse">
+                                                  <AlertTriangle size={13} /> Land Size Discrepancy Flagged
+                                                </span>
                                               )}
                                             </div>
-                                          </div>
 
-                                          {/* Economic Baseline */}
-                                          <div className="space-y-3">
-                                            <h5 className="text-[9px] font-bold text-slate-400 uppercase tracking-widest">Economics & Livelihood</h5>
-                                            <div className="space-y-1.5 text-xs">
-                                              <div className="flex justify-between border-b border-slate-50 pb-1"><span className="text-slate-500">Baseline Net Income:</span> <span className="font-bold text-slate-700 font-mono">₹{farmer.baselineNetIncomeRs?.toLocaleString('en-IN') || 0}</span></div>
-                                              <div className="flex justify-between border-b border-slate-50 pb-1"><span className="text-slate-500">Baseline Expenses:</span> <span className="font-bold text-slate-700 font-mono">₹{farmer.baselineAnnualExpFarmingRs?.toLocaleString('en-IN') || 0}</span></div>
-                                              <div className="flex justify-between border-b border-slate-50 pb-1"><span className="text-slate-500">Migration Income:</span> <span className="font-bold text-slate-700 font-mono">{farmer.migration ? `₹${farmer.migrationNetIncomeRs?.toLocaleString('en-IN')}` : 'No Migration'}</span></div>
-                                              <div className="flex justify-between"><span className="text-slate-500">Bank Account:</span> <span className="font-bold text-slate-700">{farmer.bankAccount ? 'Yes' : 'No'}</span></div>
+                                            <div className="grid grid-cols-1 md:grid-cols-4 gap-6 text-left">
+                                              {/* Demographics */}
+                                              <div className="space-y-3">
+                                                <h5 className="text-[9px] font-bold text-slate-400 uppercase tracking-widest">Demographics</h5>
+                                                <div className="space-y-1.5 text-xs">
+                                                  <div className="flex justify-between border-b border-slate-50 pb-1"><span className="text-slate-500">Caste Category:</span> <span className="font-bold text-slate-700">{farmer.category || 'Unknown'}</span></div>
+                                                  <div className="flex justify-between border-b border-slate-50 pb-1"><span className="text-slate-500">Religion:</span> <span className="font-bold text-slate-700">{farmer.religion || 'Unknown'}</span></div>
+                                                  <div className="flex justify-between border-b border-slate-50 pb-1"><span className="text-slate-500">Age:</span> <span className="font-bold text-slate-700">{farmer.age || 'Unknown'} yrs</span></div>
+                                                  <div className="flex justify-between"><span className="text-slate-500">Marital Status:</span> <span className="font-bold text-slate-700">{farmer.maritalStatus || 'Unknown'}</span></div>
+                                                </div>
+                                              </div>
+
+                                              {/* Social Welfare Cards */}
+                                              <div className="space-y-3">
+                                                <h5 className="text-[9px] font-bold text-slate-400 uppercase tracking-widest">Welfare Status</h5>
+                                                <div className="space-y-1.5 text-xs">
+                                                  <div className="flex justify-between border-b border-slate-50 pb-1"><span className="text-slate-500">Economic Cards:</span> <span className="font-bold text-slate-700">{[farmer.bpl && 'BPL', farmer.antodyaya && 'Antodyaya', farmer.apl && 'APL'].filter(Boolean).join(', ') || 'None'}</span></div>
+                                                  <div className="flex justify-between border-b border-slate-50 pb-1"><span className="text-slate-500">MNREGA Card:</span> <span className="font-bold text-slate-700">{farmer.mnrega ? 'Yes' : 'No'}</span></div>
+                                                  <div className="flex justify-between border-b border-slate-50 pb-1"><span className="text-slate-500">e-Shram Card:</span> <span className="font-bold text-slate-700">{farmer.eShram ? 'Yes' : 'No'}</span></div>
+                                                  <div className="flex justify-between"><span className="text-slate-500">Toilet Access:</span> <span className="font-bold text-slate-700">{farmer.hasToilet ? 'Yes' : 'No'}</span></div>
+                                                </div>
+                                              </div>
+
+                                              {/* Land Size Comparison */}
+                                              <div className="space-y-3">
+                                                <h5 className="text-[9px] font-bold text-slate-400 uppercase tracking-widest">Land Audit</h5>
+                                                <div className="space-y-1.5 text-xs">
+                                                  <div className="flex justify-between border-b border-slate-50 pb-1"><span className="text-slate-500">Active Registry Land:</span> <span className="font-bold text-slate-700 font-mono">{parseFloat(farmer.totalLand || '0').toFixed(2)} ac</span></div>
+                                                  <div className="flex justify-between border-b border-slate-50 pb-1"><span className="text-slate-500">Baseline Cultivable:</span> <span className="font-bold text-slate-700 font-mono">{farmer.baselineCultivableLandAcres || 0} ac</span></div>
+                                                  <div className="flex justify-between border-b border-slate-50 pb-1"><span className="text-slate-500">Baseline Rented/Lease:</span> <span className="font-bold text-slate-700 font-mono">{farmer.baselineLeaseLandAcres || 0} ac</span></div>
+                                                  {isOutlier && (
+                                                    <div className="flex justify-between text-amber-700 bg-amber-50 px-2 py-0.5 rounded mt-1 border border-amber-100">
+                                                      <span>Deviation:</span>
+                                                      <span className="font-bold font-mono">
+                                                        {Math.abs(parseFloat(farmer.totalLand || '0') - ((farmer.baselineCultivableLandAcres || 0) + (farmer.baselineLeaseLandAcres || 0))).toFixed(2)} ac ({
+                                                          (() => {
+                                                            const base = (farmer.baselineCultivableLandAcres || 0) + (farmer.baselineLeaseLandAcres || 0);
+                                                            const deviation = Math.abs(parseFloat(farmer.totalLand || '0') - base) / (base || 1) * 100;
+                                                            return deviation.toFixed(1);
+                                                          })()
+                                                        }%)
+                                                      </span>
+                                                    </div>
+                                                  )}
+                                                </div>
+                                              </div>
+
+                                              {/* Economic Baseline */}
+                                              <div className="space-y-3">
+                                                <h5 className="text-[9px] font-bold text-slate-400 uppercase tracking-widest">Economics & Livelihood</h5>
+                                                <div className="space-y-1.5 text-xs">
+                                                  <div className="flex justify-between border-b border-slate-50 pb-1"><span className="text-slate-500">Baseline Net Income:</span> <span className="font-bold text-slate-700 font-mono">₹{farmer.baselineNetIncomeRs?.toLocaleString('en-IN') || 0}</span></div>
+                                                  <div className="flex justify-between border-b border-slate-50 pb-1"><span className="text-slate-500">Baseline Expenses:</span> <span className="font-bold text-slate-700 font-mono">₹{farmer.baselineAnnualExpFarmingRs?.toLocaleString('en-IN') || 0}</span></div>
+                                                  <div className="flex justify-between border-b border-slate-50 pb-1"><span className="text-slate-500">Migration Income:</span> <span className="font-bold text-slate-700 font-mono">{farmer.migration ? `₹${farmer.migrationNetIncomeRs?.toLocaleString('en-IN')}` : 'No Migration'}</span></div>
+                                                  <div className="flex justify-between"><span className="text-slate-500">Bank Account:</span> <span className="font-bold text-slate-700">{farmer.bankAccount ? 'Yes' : 'No'}</span></div>
+                                                </div>
+                                              </div>
                                             </div>
                                           </div>
-                                        </div>
-                                      </div>
-                                    ) : (
-                                      <div className="bg-white rounded-xl border border-slate-200 shadow-sm p-5 text-center flex flex-col items-center justify-center space-y-2 py-8">
-                                        <HelpCircle size={32} className="text-slate-300" />
-                                        <h4 className="font-bold text-slate-700 text-sm">No Baseline Survey Match Found</h4>
-                                        <p className="text-xs text-slate-400 max-w-md leading-relaxed mx-auto">
-                                          This farmer's name and village details did not match any records in the baseline surveys (`Base line Data1.xlsx`) with a fuzzy similarity score exceeding our validation threshold (75%).
-                                        </p>
-                                      </div>
-                                    )}
-                                  </td>
-                                </tr>
-                              )}
-                            </React.Fragment>
-                          );
-                        })
-                      ) : (
-                        <tr>
-                          <td colSpan={7} className="px-6 py-12 text-center text-slate-500 font-medium">
-                            No farmers match your search criteria.
-                          </td>
-                        </tr>
-                      )}
-                    </tbody>
-                  </table>
-                </div>
-                {totalPages > 1 && (
-                  <div className="px-6 py-4 border-t border-slate-200 bg-slate-50 flex items-center justify-between">
-                    <p className="text-sm text-slate-500">
-                      Showing {(currentPage - 1) * rowsPerPage + 1} to {Math.min(currentPage * rowsPerPage, filteredFarmers.length)} of {filteredFarmers.length}
-                    </p>
-                    <div className="flex gap-2">
-                      <button
-                        onClick={() => setCurrentPage(p => Math.max(1, p - 1))}
-                        disabled={currentPage === 1}
-                        className="px-3 py-1 bg-white border border-slate-300 rounded text-sm text-slate-700 disabled:opacity-50"
-                      >
-                        Prev
-                      </button>
-                      <button
-                        onClick={() => setCurrentPage(p => Math.min(totalPages, p + 1))}
-                        disabled={currentPage === totalPages}
-                        className="px-3 py-1 bg-white border border-slate-300 rounded text-sm text-slate-700 disabled:opacity-50"
-                      >
-                        Next
-                      </button>
+                                        ) : (
+                                          <div className="bg-white rounded-xl border border-slate-200 shadow-sm p-5 text-center flex flex-col items-center justify-center space-y-2 py-8">
+                                            <HelpCircle size={32} className="text-slate-300" />
+                                            <h4 className="font-bold text-slate-700 text-sm">No Baseline Survey Match Found</h4>
+                                            <p className="text-xs text-slate-400 max-w-md leading-relaxed mx-auto">
+                                              This farmer's name and village details did not match any records in the baseline surveys (`Base line Data1.xlsx`) with a fuzzy similarity score exceeding our validation threshold (75%).
+                                            </p>
+                                          </div>
+                                        )}
+                                      </td>
+                                    </tr>
+                                  )}
+                                </React.Fragment>
+                              );
+                            })
+                          ) : (
+                            <tr>
+                              <td colSpan={7} className="px-6 py-12 text-center text-slate-500 font-medium">
+                                No farmers match your search criteria.
+                              </td>
+                            </tr>
+                          )}
+                        </tbody>
+                      </table>
                     </div>
-                  </div>
-                )}
-              </div>
-            </div>
-          )}
-
-          {activeTab === "reports" && (
-            <div className="max-w-4xl mx-auto space-y-6 pb-12">
-
-              <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-8">
-                <div className="flex items-start gap-5">
-                  <div className="w-12 h-12 rounded-xl bg-purple-50 text-purple-600 flex items-center justify-center shrink-0 border border-purple-100">
-                    <FileText size={24} />
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-bold text-slate-900 mb-2">Grant Report (2024-2025)</h3>
-                    <p className="text-slate-600 leading-relaxed mb-4">
-                      Comprehensive report highlighting the progression of the FASAL programme. Showcases the consolidation of AAS groups to 74, massive convergence of public funds (₹2.8 Cr), and active empowerment of women facilitators. Details major shifts towards peer-led leadership and low-external-input sustainable agriculture (LEISA).
-                    </p>
-                    <div className="flex gap-3">
-                      <span className="text-xs font-medium bg-slate-100 text-slate-600 px-2.5 py-1 rounded w-fit">Status: Submitted</span>
-                      <span className="text-xs font-medium bg-emerald-50 text-emerald-600 px-2.5 py-1 rounded w-fit border border-emerald-200">Analyzed & Indexed</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-8">
-                <div className="flex items-start gap-5">
-                  <div className="w-12 h-12 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center shrink-0 border border-blue-100">
-                    <Map size={24} />
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-bold text-slate-900 mb-2">Exposure Visit Report (VAAGDHARA)</h3>
-                    <p className="text-slate-600 leading-relaxed mb-4">
-                      Jan 2026 visit to Banswara, Rajasthan involving 20 Krishi Mitras and DEHAT leadership. Focused on learning 'True Governance', 'True Farming' and 'True Childhood'. Showcases adoptions like Mansingh’s 1-acre integrated farm (biogas, dairy, crops), community seed banks by the Saksham Group, and Ramanlal Panki's goat-based livelihoods with Sirohi breed goats.
-                    </p>
-                    <div className="flex gap-3">
-                      <span className="text-xs font-medium bg-slate-100 text-slate-600 px-2.5 py-1 rounded w-fit">Type: Field Exposure</span>
-                      <span className="text-xs font-medium bg-emerald-50 text-emerald-600 px-2.5 py-1 rounded w-fit border border-emerald-200">Analyzed & Indexed</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-8">
-                <div className="flex items-start gap-5">
-                  <div className="w-12 h-12 rounded-xl bg-amber-50 text-amber-600 flex items-center justify-center shrink-0 border border-amber-100">
-                    <Activity size={24} />
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-bold text-slate-900 mb-2">Self-Assessment Report</h3>
-                    <p className="text-slate-600 leading-relaxed mb-4">
-                      Highlights program challenges and adaptations. Details overcoming high staff attrition due to human-animal conflicts and shifting from high external input dependency to natural agriculture. Tracks deep governance hurdles including historical exploitation by Forest Departments (Tihai extortion) and corruption.
-                    </p>
-                    <div className="flex gap-3">
-                      <span className="text-xs font-medium bg-slate-100 text-slate-600 px-2.5 py-1 rounded w-fit">Type: Outcomes Evaluation</span>
-                      <span className="text-xs font-medium bg-emerald-50 text-emerald-600 px-2.5 py-1 rounded w-fit border border-emerald-200">Analyzed & Indexed</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          )}
-
-          {activeTab === "audit" && (
-            <div className="max-w-6xl mx-auto pb-12 space-y-6">
-              <div className="bg-white rounded-2xl shadow-sm border border-slate-200">
-                <div className="px-6 py-5 border-b border-slate-200 bg-slate-50/50 flex items-start justify-between">
-                  <div>
-                    <h2 className="text-xl font-bold text-slate-900 flex items-center gap-2">
-                      <ClipboardCheck className="text-amber-500" size={24} />
-                      Data Quality Audit Report
-                    </h2>
-                    <p className="text-slate-500 text-sm mt-1">
-                      Automated analysis of DEHAT_Cleaned_Data.csv against standardized FDI tracking indicators.
-                    </p>
-                  </div>
-                  <div className="px-3 py-1 bg-amber-50 text-amber-700 rounded-full border border-amber-200 text-xs font-semibold flex items-center gap-2">
-                    <AlertCircle size={14} /> Attention Required
-                  </div>
-                </div>
-
-                <div className="p-6 space-y-6">
-                  {/* Insight 1 */}
-                  <div className="flex gap-4">
-                    <div className="mt-1 bg-red-100 text-red-600 p-2 rounded-lg shrink-0 h-fit">
-                      <AlertTriangle size={18} />
-                    </div>
-                    <div>
-                      <h4 className="text-[15px] font-bold text-slate-900 mb-1">Missing Target Data Points: Gender</h4>
-                      <p className="text-sm text-slate-600 mb-3">
-                        The `DEHAT_Cleaned_Data.csv` does not explicitly contain a standardized 'Gender' or 'Sex' column, leaving the current visualization fallback to unknown (?).
-                      </p>
-                      <div className="bg-slate-50 border border-slate-200 rounded-lg p-3 text-sm font-mono text-slate-500">
-                        Affected Records: 1,109 / 1,109 (100%)
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Insight 2 */}
-                  <div className="flex gap-4">
-                    <div className="mt-1 bg-amber-100 text-amber-600 p-2 rounded-lg shrink-0 h-fit">
-                      <AlertTriangle size={18} />
-                    </div>
-                    <div>
-                      <h4 className="text-[15px] font-bold text-slate-900 mb-1">Inconsistent Identifiers</h4>
-                      <p className="text-sm text-slate-600 mb-3">
-                        Farmer IDs are derived from `your phone number`. Many entries have blank phone numbers, causing the system to auto-generate pseudo IDs (e.g., `FRM00004`). This will break identity reconciliation across years.
-                      </p>
-                      <div className="bg-slate-50 border border-slate-200 rounded-lg p-3 text-sm font-mono text-slate-500">
-                        Affected Records: ~340 / 1,109 missing phone numbers
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Insight 3 */}
-                  <div className="flex gap-4">
-                    <div className="mt-1 bg-amber-100 text-amber-600 p-2 rounded-lg shrink-0 h-fit">
-                      <AlertTriangle size={18} />
-                    </div>
-                    <div>
-                      <h4 className="text-[15px] font-bold text-slate-900 mb-1">Unstandardized Entity Names</h4>
-                      <p className="text-sm text-slate-600 mb-3">
-                        Village names show inconsistent spelling conventions. e.g. "Barkharia" vs "Badkhadiya" vs "Barkhariya". AAS Group names fluctuate heavily (e.g., "Gaytri", "Gayatri AAS", "Gaytri group").
-                      </p>
-                      <div className="bg-slate-50 border border-slate-200 rounded-lg p-3 text-sm font-mono text-slate-500">
-                        Recommendation: Implement soft-matching/fuzzy-string merge on import.
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Insight 4 */}
-                  <div className="flex gap-4">
-                    <div className="mt-1 bg-emerald-100 text-emerald-600 p-2 rounded-lg shrink-0 h-fit">
-                      <CheckCircle2 size={18} />
-                    </div>
-                    <div>
-                      <h4 className="text-[15px] font-bold text-slate-900 mb-1">Extensive Consumption Data Intact</h4>
-                      <p className="text-sm text-slate-600 mb-3">
-                        The dataset captures extensive boolean arrays for specific crop consumption behavior (e.g., "What are green food did you consumed in january2022/bottle gourd"). This provides a highly dense foundation for nutritional-security outcome tracking.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              {/* Grid Layout for SQL Queries and Checklist */}
-              <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-                {/* Audit SQL Queries */}
-                <div className="lg:col-span-2 bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
-                  <h3 className="text-lg font-bold text-slate-800 mb-4 flex items-center gap-2">
-                    <Database size={20} className="text-indigo-500" /> Audit SQL Queries
-                  </h3>
-                  <p className="text-sm text-slate-500 mb-4">Run these against master_context.db to verify data integrity</p>
-                  <div className="space-y-3">
-                    {SQL_QUERIES.map((q, i) => (
-                      <div key={i} className="bg-slate-900 rounded-xl overflow-hidden">
-                        <div className="flex items-center justify-between px-4 py-2 bg-slate-800">
-                          <span className="text-xs font-medium text-slate-300">{q.name}</span>
+                    {totalPages > 1 && (
+                      <div className="px-6 py-4 border-t border-slate-200 bg-slate-50 flex items-center justify-between">
+                        <p className="text-sm text-slate-500">
+                          Showing {(currentPage - 1) * rowsPerPage + 1} to {Math.min(currentPage * rowsPerPage, filteredFarmers.length)} of {filteredFarmers.length}
+                        </p>
+                        <div className="flex gap-2">
                           <button
-                            onClick={() => copyAuditQuery(q.query, i)}
-                            className="text-xs px-3 py-1 rounded bg-slate-700 text-slate-200 hover:bg-slate-600 transition-colors"
+                            onClick={() => setCurrentPage(p => Math.max(1, p - 1))}
+                            disabled={currentPage === 1}
+                            className="px-3 py-1 bg-white border border-slate-300 rounded text-sm text-slate-700 disabled:opacity-50"
                           >
-                            {copiedAuditIdx === i ? 'Copied!' : 'Copy'}
+                            Prev
+                          </button>
+                          <button
+                            onClick={() => setCurrentPage(p => Math.min(totalPages, p + 1))}
+                            disabled={currentPage === totalPages}
+                            className="px-3 py-1 bg-white border border-slate-300 rounded text-sm text-slate-700 disabled:opacity-50"
+                          >
+                            Next
                           </button>
                         </div>
-                        <pre className="p-4 text-xs text-emerald-300 font-mono overflow-x-auto whitespace-pre-wrap">{q.query}</pre>
                       </div>
-                    ))}
+                    )}
                   </div>
                 </div>
+              )}
 
-                {/* Right side: Checklist */}
-                <div>
-                  <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
-                    <h3 className="text-lg font-bold text-slate-800 mb-4 flex items-center gap-2">
-                      <Shield size={20} className="text-emerald-500" /> Data Integrity Checklist
-                    </h3>
-                    <div className="space-y-2">
-                      {CHECKLIST.map((c, i) => (
-                        <div key={i} className="flex items-center gap-3 p-2 rounded-lg hover:bg-slate-50">
-                          {c.done ? (
-                            <CheckCircle2 size={18} className="text-emerald-500 shrink-0" />
-                          ) : (
-                            <AlertCircle size={18} className="text-slate-300 shrink-0" />
-                          )}
-                          <span className={`text-sm ${c.done ? 'text-slate-700' : 'text-slate-400'}`}>{c.item}</span>
-                          <span className={`ml-auto text-[10px] font-semibold px-2 py-0.5 rounded ${c.done ? 'bg-emerald-50 text-emerald-700' : 'bg-slate-100 text-slate-400'}`}>
-                            {c.done ? 'Verified' : 'Pending'}
-                          </span>
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-                </div>
-              </div>
+              {activeTab === "reports" && (
+                <div className="max-w-4xl mx-auto space-y-6 pb-12">
 
-              {/* Collapsible Gaps Section */}
-              <div className="pt-2">
-                <details className="group bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden" open={false}>
-                  <summary className="flex items-center justify-between px-6 py-5 cursor-pointer list-none select-none bg-slate-50/50 hover:bg-slate-50 transition-colors">
-                    <div className="flex items-center gap-2">
-                      <AlertTriangle size={20} className="text-amber-500" />
-                      <h3 className="text-lg font-bold text-slate-800">Known Data Gaps & Technical Constraints</h3>
-                    </div>
-                    <div className="text-slate-400 group-open:-rotate-180 transition-transform duration-200">
-                      <ChevronDown size={20} />
-                    </div>
-                  </summary>
-                  <div className="p-6 border-t border-slate-100 space-y-3 bg-white">
-                    {GAPS.map((g, i) => (
-                      <div key={i} className="flex items-start gap-3 p-3 rounded-lg bg-slate-50 border border-slate-100">
-                        <div className={`mt-0.5 p-1 rounded ${g.severity === 'High' ? 'bg-red-100 text-red-600' : 'bg-amber-100 text-amber-600'}`}>
-                          <AlertTriangle size={14} />
-                        </div>
-                        <div className="flex-1">
-                          <div className="flex items-center gap-2">
-                            <span className="font-semibold text-slate-800 text-sm">{g.issue}</span>
-                            <span className={`text-[10px] font-semibold px-2 py-0.5 rounded ${g.severity === 'High' ? 'bg-red-50 text-red-700' : 'bg-amber-50 text-amber-700'}`}>
-                              {g.severity}
-                            </span>
-                          </div>
-                          <p className="text-xs text-slate-600 mt-1">{g.impact}</p>
-                        </div>
+                  <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-8">
+                    <div className="flex items-start gap-5">
+                      <div className="w-12 h-12 rounded-xl bg-purple-50 text-purple-600 flex items-center justify-center shrink-0 border border-purple-100">
+                        <FileText size={24} />
                       </div>
-                    ))}
-                  </div>
-                </details>
-              </div>
-            </div>
-          )}
-
-          {activeTab === "stories" && (
-            <div className="max-w-6xl mx-auto pb-12">
-              <div className="mb-8">
-                <h3 className="text-xl font-bold text-slate-900">Qualitative Insights: Stories of Change</h3>
-                <p className="text-slate-500 text-sm mt-1">Impact narratives detailing the journey of resilience, self-reliance, and empowerment among women farmers.</p>
-                <div className="mt-6 flex flex-col sm:flex-row gap-4 items-start sm:items-center justify-between bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
-                  {/* Search */}
-                  <div className="relative max-w-sm w-full">
-                    <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" size={16} />
-                    <input
-                      type="text"
-                      placeholder="Search stories by name or title..."
-                      value={storySearchQuery}
-                      onChange={e => setStorySearchQuery(e.target.value)}
-                      className="w-full pl-9 pr-4 py-2.5 bg-slate-50 border border-slate-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-teal-500/20 focus:border-teal-500 transition-all font-medium placeholder:font-normal"
-                    />
-                  </div>
-                  {/* Tags */}
-                  <div className="flex flex-wrap items-center gap-2">
-                    <div className="text-xs font-semibold text-slate-400 uppercase tracking-wider mr-1 flex items-center gap-1">
-                      <Tag size={12} /> Themes
-                    </div>
-                    {["All", "Turmeric Adoption", "Social Empowerment", "LEISA", "Economic Transformation", "Leadership", "Child Education", "Right to Entitlements"].map(tag => (
-                      <button
-                        key={tag}
-                        onClick={() => setSelectedStoryTag(tag)}
-                        className={`px-3 py-1.5 rounded-full border text-xs font-semibold transition-all ${selectedStoryTag === tag ? 'bg-teal-50 border-teal-200 text-teal-700 shadow-sm' : 'bg-white border-slate-200 text-slate-600 hover:bg-slate-50 hover:text-slate-900'}`}
-                      >
-                        {tag}
-                      </button>
-                    ))}
-                  </div>
-                </div>
-              </div>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                {structuredStories.filter(story => {
-                  const matchesSearch = String(story.name || "").toLowerCase().includes(storySearchQuery.toLowerCase()) || String(story.title || "").toLowerCase().includes(storySearchQuery.toLowerCase());
-                  const matchesTag = selectedStoryTag === "All" || (story.tags && story.tags.includes(selectedStoryTag));
-                  return matchesSearch && matchesTag;
-                }).map(story => {
-                  const Icon = story.icon;
-                  return (
-                    <motion.div
-                      whileHover={{ y: -4, boxShadow: "0 12px 30px -10px rgba(0,0,0,0.08)" }}
-                      transition={{ duration: 0.2 }}
-                      key={story.id} 
-                      className="bg-white p-8 rounded-2xl border border-slate-200/80 flex flex-col justify-between shadow-sm hover:border-teal-500/30 transition-all duration-300 relative overflow-hidden group"
-                    >
-                      {/* Decorative Background Accent */}
-                      <div className={`absolute -right-6 -bottom-6 w-24 h-24 rounded-full ${story.bg}/20 group-hover:scale-150 transition-transform duration-500 pointer-events-none`} />
-                      
                       <div>
-                        <div className="flex items-center gap-4 mb-5">
-                          <div className={`w-12 h-12 rounded-xl flex items-center justify-center shrink-0 ${story.bg} ${story.color} border ${story.border}`}>
-                            <Icon size={24} />
-                          </div>
-                          <div>
-                            <h4 className="text-lg font-extrabold text-slate-800 tracking-tight">{story.name}</h4>
-                            <p className="text-xs font-semibold text-slate-400 uppercase tracking-widest">{story.village}</p>
-                          </div>
+                        <h3 className="text-xl font-bold text-slate-900 mb-2">Grant Report (2024-2025)</h3>
+                        <p className="text-slate-600 leading-relaxed mb-4">
+                          Comprehensive report highlighting the progression of the FASAL programme. Showcases the consolidation of AAS groups to 74, massive convergence of public funds (₹2.8 Cr), and active empowerment of women facilitators. Details major shifts towards peer-led leadership and low-external-input sustainable agriculture (LEISA).
+                        </p>
+                        <div className="flex gap-3">
+                          <span className="text-xs font-medium bg-slate-100 text-slate-600 px-2.5 py-1 rounded w-fit">Status: Submitted</span>
+                          <span className="text-xs font-medium bg-emerald-50 text-emerald-600 px-2.5 py-1 rounded w-fit border border-emerald-200">Analyzed & Indexed</span>
                         </div>
+                      </div>
+                    </div>
+                  </div>
 
-                        <div className="flex flex-wrap gap-1.5 mb-4">
-                          {story.tags.map(tag => (
-                            <span key={tag} className="px-2.5 py-0.5 bg-slate-50 text-slate-500 text-[9px] font-bold uppercase tracking-widest rounded-full border border-slate-100">
-                              {tag}
-                            </span>
-                          ))}
+                  <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-8">
+                    <div className="flex items-start gap-5">
+                      <div className="w-12 h-12 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center shrink-0 border border-blue-100">
+                        <Map size={24} />
+                      </div>
+                      <div>
+                        <h3 className="text-xl font-bold text-slate-900 mb-2">Exposure Visit Report (VAAGDHARA)</h3>
+                        <p className="text-slate-600 leading-relaxed mb-4">
+                          Jan 2026 visit to Banswara, Rajasthan involving 20 Krishi Mitras and DEHAT leadership. Focused on learning 'True Governance', 'True Farming' and 'True Childhood'. Showcases adoptions like Mansingh’s 1-acre integrated farm (biogas, dairy, crops), community seed banks by the Saksham Group, and Ramanlal Panki's goat-based livelihoods with Sirohi breed goats.
+                        </p>
+                        <div className="flex gap-3">
+                          <span className="text-xs font-medium bg-slate-100 text-slate-600 px-2.5 py-1 rounded w-fit">Type: Field Exposure</span>
+                          <span className="text-xs font-medium bg-emerald-50 text-emerald-600 px-2.5 py-1 rounded w-fit border border-emerald-200">Analyzed & Indexed</span>
                         </div>
+                      </div>
+                    </div>
+                  </div>
 
-                        <h5 className="text-md font-bold text-slate-900 mb-2 font-serif tracking-tight">{story.title}</h5>
-                        <p className="text-slate-600 text-sm leading-relaxed mb-6 font-sans">
-                          {story.description}
+                  <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-8">
+                    <div className="flex items-start gap-5">
+                      <div className="w-12 h-12 rounded-xl bg-amber-50 text-amber-600 flex items-center justify-center shrink-0 border border-amber-100">
+                        <Activity size={24} />
+                      </div>
+                      <div>
+                        <h3 className="text-xl font-bold text-slate-900 mb-2">Self-Assessment Report</h3>
+                        <p className="text-slate-600 leading-relaxed mb-4">
+                          Highlights program challenges and adaptations. Details overcoming high staff attrition due to human-animal conflicts and shifting from high external input dependency to natural agriculture. Tracks deep governance hurdles including historical exploitation by Forest Departments (Tihai extortion) and corruption.
+                        </p>
+                        <div className="flex gap-3">
+                          <span className="text-xs font-medium bg-slate-100 text-slate-600 px-2.5 py-1 rounded w-fit">Type: Outcomes Evaluation</span>
+                          <span className="text-xs font-medium bg-emerald-50 text-emerald-600 px-2.5 py-1 rounded w-fit border border-emerald-200">Analyzed & Indexed</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              )}
+
+              {activeTab === "audit" && (
+                <div className="max-w-6xl mx-auto pb-12 space-y-6">
+                  <div className="bg-white rounded-2xl shadow-sm border border-slate-200">
+                    <div className="px-6 py-5 border-b border-slate-200 bg-slate-50/50 flex items-start justify-between">
+                      <div>
+                        <h2 className="text-xl font-bold text-slate-900 flex items-center gap-2">
+                          <ClipboardCheck className="text-amber-500" size={24} />
+                          Data Quality Audit Report
+                        </h2>
+                        <p className="text-slate-500 text-sm mt-1">
+                          Automated analysis of DEHAT_Cleaned_Data.csv against standardized FDI tracking indicators.
                         </p>
                       </div>
-                      
-                      <button
-                        onClick={() => { setSelectedStory(story.id); setReadProgress(0); }}
-                        className="text-teal-600 font-bold text-xs uppercase tracking-wider flex items-center gap-2 w-max hover:text-teal-700 transition-colors group/btn pt-2"
-                      >
-                        Read Narrative <ArrowRight size={14} className="group-hover/btn:translate-x-1.5 transition-transform duration-200" />
-                      </button>
-                    </motion.div>
-                  );
-                })}
-              </div>
-            </div>
-          )}
+                      <div className="px-3 py-1 bg-amber-50 text-amber-700 rounded-full border border-amber-200 text-xs font-semibold flex items-center gap-2">
+                        <AlertCircle size={14} /> Attention Required
+                      </div>
+                    </div>
 
-          {activeTab === "mis_explained" && (
-            <div className="max-w-6xl mx-auto pb-12 space-y-8">
-              {/* Hero Banner */}
-              <div className="bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 rounded-3xl p-8 text-white border border-slate-800 shadow-lg relative overflow-hidden">
-                <div className="absolute right-0 top-0 w-64 h-64 bg-teal-500/10 rounded-full blur-3xl" />
-                <div className="max-w-3xl relative z-10">
-                  <span className="text-[10px] font-bold uppercase tracking-widest text-teal-400 px-2.5 py-1 rounded bg-teal-500/10 border border-teal-500/20">
-                    Systems & Data Integrity Guide
-                  </span>
-                  <h3 className="text-3xl font-extrabold font-serif mt-4 tracking-tight leading-tight">
-                    How the FASAL MIS Dashboard Works
-                  </h3>
-                  <p className="text-slate-300 text-sm mt-3 leading-relaxed font-sans">
-                    Every figure displayed on the FASAL dashboard is traced back directly to field registers, surveys, and tracking sheets compiled by Community Resource Persons (CRPs). Here is an audit-friendly map of how raw data translates to dashboard metrics.
-                  </p>
-                </div>
-              </div>
-
-              {/* Data Pipeline Stepper */}
-              <div className="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm space-y-6">
-                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 border-b border-slate-100">
-                  <div>
-                    <h4 className="text-lg font-bold text-slate-800 flex items-center gap-2">
-                      <RefreshCw size={20} className="text-teal-500 animate-spin-slow" /> The FASAL Data Pipeline
-                    </h4>
-                    <p className="text-xs text-slate-400 mt-0.5">Click any stage to see details of the validation and digitisation workflow</p>
-                  </div>
-                  <div className="flex bg-slate-100 rounded-lg p-0.5 shrink-0">
-                    {[0, 1, 2, 3].map((step) => (
-                      <button
-                        key={step}
-                        onClick={() => setActivePipelineStep(step)}
-                        className={`px-3 py-1.5 text-xs font-semibold rounded-md transition-all ${activePipelineStep === step ? 'bg-white text-slate-800 shadow-sm' : 'text-slate-500 hover:text-slate-700'}`}
-                      >
-                        Step {step + 1}
-                      </button>
-                    ))}
-                  </div>
-                </div>
-
-                <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-                  {/* Stepper Steps (Active indicators) */}
-                  <div className="space-y-4">
-                    {[
-                      { title: "Primary Collection", desc: "Local paper tracking by CRPs", icon: BookOpen },
-                      { title: "Monthly Digits", desc: "Consolidated Excel records", icon: FileText },
-                      { title: "ETL & Triangulation", desc: "Automated standardisations", icon: Database },
-                      { title: "Dashboard Views", desc: "Verified React UI cards", icon: TrendingUp }
-                    ].map((step, idx) => {
-                      const StepIcon = step.icon;
-                      const isActive = activePipelineStep === idx;
-                      return (
-                        <div
-                          key={idx}
-                          onClick={() => setActivePipelineStep(idx)}
-                          className={`flex items-center gap-4 p-4 rounded-xl border transition-all cursor-pointer ${isActive ? 'bg-teal-50 border-teal-200 text-teal-900 shadow-sm' : 'bg-slate-50 border-slate-100 text-slate-600 hover:bg-slate-100'}`}
-                        >
-                          <div className={`p-2.5 rounded-lg border ${isActive ? 'bg-white border-teal-300 text-teal-600' : 'bg-white border-slate-200 text-slate-400'}`}>
-                            <StepIcon size={18} />
-                          </div>
-                          <div>
-                            <div className="text-xs font-bold">{step.title}</div>
-                            <div className="text-[10px] opacity-70 mt-0.5">{step.desc}</div>
-                          </div>
-                          {isActive && <div className="ml-auto w-2 h-2 rounded-full bg-teal-500" />}
+                    <div className="p-6 space-y-6">
+                      {/* Insight 1 */}
+                      <div className="flex gap-4">
+                        <div className="mt-1 bg-red-100 text-red-600 p-2 rounded-lg shrink-0 h-fit">
+                          <AlertTriangle size={18} />
                         </div>
+                        <div>
+                          <h4 className="text-[15px] font-bold text-slate-900 mb-1">Missing Target Data Points: Gender</h4>
+                          <p className="text-sm text-slate-600 mb-3">
+                            The `DEHAT_Cleaned_Data.csv` does not explicitly contain a standardized 'Gender' or 'Sex' column, leaving the current visualization fallback to unknown (?).
+                          </p>
+                          <div className="bg-slate-50 border border-slate-200 rounded-lg p-3 text-sm font-mono text-slate-500">
+                            Affected Records: 1,109 / 1,109 (100%)
+                          </div>
+                        </div>
+                      </div>
+
+                      {/* Insight 2 */}
+                      <div className="flex gap-4">
+                        <div className="mt-1 bg-amber-100 text-amber-600 p-2 rounded-lg shrink-0 h-fit">
+                          <AlertTriangle size={18} />
+                        </div>
+                        <div>
+                          <h4 className="text-[15px] font-bold text-slate-900 mb-1">Inconsistent Identifiers</h4>
+                          <p className="text-sm text-slate-600 mb-3">
+                            Farmer IDs are derived from `your phone number`. Many entries have blank phone numbers, causing the system to auto-generate pseudo IDs (e.g., `FRM00004`). This will break identity reconciliation across years.
+                          </p>
+                          <div className="bg-slate-50 border border-slate-200 rounded-lg p-3 text-sm font-mono text-slate-500">
+                            Affected Records: ~340 / 1,109 missing phone numbers
+                          </div>
+                        </div>
+                      </div>
+
+                      {/* Insight 3 */}
+                      <div className="flex gap-4">
+                        <div className="mt-1 bg-amber-100 text-amber-600 p-2 rounded-lg shrink-0 h-fit">
+                          <AlertTriangle size={18} />
+                        </div>
+                        <div>
+                          <h4 className="text-[15px] font-bold text-slate-900 mb-1">Unstandardized Entity Names</h4>
+                          <p className="text-sm text-slate-600 mb-3">
+                            Village names show inconsistent spelling conventions. e.g. "Barkharia" vs "Badkhadiya" vs "Barkhariya". AAS Group names fluctuate heavily (e.g., "Gaytri", "Gayatri AAS", "Gaytri group").
+                          </p>
+                          <div className="bg-slate-50 border border-slate-200 rounded-lg p-3 text-sm font-mono text-slate-500">
+                            Recommendation: Implement soft-matching/fuzzy-string merge on import.
+                          </div>
+                        </div>
+                      </div>
+
+                      {/* Insight 4 */}
+                      <div className="flex gap-4">
+                        <div className="mt-1 bg-emerald-100 text-emerald-600 p-2 rounded-lg shrink-0 h-fit">
+                          <CheckCircle2 size={18} />
+                        </div>
+                        <div>
+                          <h4 className="text-[15px] font-bold text-slate-900 mb-1">Extensive Consumption Data Intact</h4>
+                          <p className="text-sm text-slate-600 mb-3">
+                            The dataset captures extensive boolean arrays for specific crop consumption behavior (e.g., "What are green food did you consumed in january2022/bottle gourd"). This provides a highly dense foundation for nutritional-security outcome tracking.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Grid Layout for SQL Queries and Checklist */}
+                  <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                    {/* Audit SQL Queries */}
+                    <div className="lg:col-span-2 bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
+                      <h3 className="text-lg font-bold text-slate-800 mb-4 flex items-center gap-2">
+                        <Database size={20} className="text-indigo-500" /> Audit SQL Queries
+                      </h3>
+                      <p className="text-sm text-slate-500 mb-4">Run these against master_context.db to verify data integrity</p>
+                      <div className="space-y-3">
+                        {SQL_QUERIES.map((q, i) => (
+                          <div key={i} className="bg-slate-900 rounded-xl overflow-hidden">
+                            <div className="flex items-center justify-between px-4 py-2 bg-slate-800">
+                              <span className="text-xs font-medium text-slate-300">{q.name}</span>
+                              <button
+                                onClick={() => copyAuditQuery(q.query, i)}
+                                className="text-xs px-3 py-1 rounded bg-slate-700 text-slate-200 hover:bg-slate-600 transition-colors"
+                              >
+                                {copiedAuditIdx === i ? 'Copied!' : 'Copy'}
+                              </button>
+                            </div>
+                            <pre className="p-4 text-xs text-emerald-300 font-mono overflow-x-auto whitespace-pre-wrap">{q.query}</pre>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+
+                    {/* Right side: Checklist */}
+                    <div>
+                      <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
+                        <h3 className="text-lg font-bold text-slate-800 mb-4 flex items-center gap-2">
+                          <Shield size={20} className="text-emerald-500" /> Data Integrity Checklist
+                        </h3>
+                        <div className="space-y-2">
+                          {CHECKLIST.map((c, i) => (
+                            <div key={i} className="flex items-center gap-3 p-2 rounded-lg hover:bg-slate-50">
+                              {c.done ? (
+                                <CheckCircle2 size={18} className="text-emerald-500 shrink-0" />
+                              ) : (
+                                <AlertCircle size={18} className="text-slate-300 shrink-0" />
+                              )}
+                              <span className={`text-sm ${c.done ? 'text-slate-700' : 'text-slate-400'}`}>{c.item}</span>
+                              <span className={`ml-auto text-[10px] font-semibold px-2 py-0.5 rounded ${c.done ? 'bg-emerald-50 text-emerald-700' : 'bg-slate-100 text-slate-400'}`}>
+                                {c.done ? 'Verified' : 'Pending'}
+                              </span>
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Collapsible Gaps Section */}
+                  <div className="pt-2">
+                    <details className="group bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden" open={false}>
+                      <summary className="flex items-center justify-between px-6 py-5 cursor-pointer list-none select-none bg-slate-50/50 hover:bg-slate-50 transition-colors">
+                        <div className="flex items-center gap-2">
+                          <AlertTriangle size={20} className="text-amber-500" />
+                          <h3 className="text-lg font-bold text-slate-800">Known Data Gaps & Technical Constraints</h3>
+                        </div>
+                        <div className="text-slate-400 group-open:-rotate-180 transition-transform duration-200">
+                          <ChevronDown size={20} />
+                        </div>
+                      </summary>
+                      <div className="p-6 border-t border-slate-100 space-y-3 bg-white">
+                        {GAPS.map((g, i) => (
+                          <div key={i} className="flex items-start gap-3 p-3 rounded-lg bg-slate-50 border border-slate-100">
+                            <div className={`mt-0.5 p-1 rounded ${g.severity === 'High' ? 'bg-red-100 text-red-600' : 'bg-amber-100 text-amber-600'}`}>
+                              <AlertTriangle size={14} />
+                            </div>
+                            <div className="flex-1">
+                              <div className="flex items-center gap-2">
+                                <span className="font-semibold text-slate-800 text-sm">{g.issue}</span>
+                                <span className={`text-[10px] font-semibold px-2 py-0.5 rounded ${g.severity === 'High' ? 'bg-red-50 text-red-700' : 'bg-amber-50 text-amber-700'}`}>
+                                  {g.severity}
+                                </span>
+                              </div>
+                              <p className="text-xs text-slate-600 mt-1">{g.impact}</p>
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    </details>
+                  </div>
+                </div>
+              )}
+
+              {activeTab === "stories" && (
+                <div className="max-w-6xl mx-auto pb-12">
+                  <div className="mb-8">
+                    <h3 className="text-xl font-bold text-slate-900">Qualitative Insights: Stories of Change</h3>
+                    <p className="text-slate-500 text-sm mt-1">Impact narratives detailing the journey of resilience, self-reliance, and empowerment among women farmers.</p>
+                    <div className="mt-6 flex flex-col sm:flex-row gap-4 items-start sm:items-center justify-between bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
+                      {/* Search */}
+                      <div className="relative max-w-sm w-full">
+                        <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" size={16} />
+                        <input
+                          type="text"
+                          placeholder="Search stories by name or title..."
+                          value={storySearchQuery}
+                          onChange={e => setStorySearchQuery(e.target.value)}
+                          className="w-full pl-9 pr-4 py-2.5 bg-slate-50 border border-slate-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-teal-500/20 focus:border-teal-500 transition-all font-medium placeholder:font-normal"
+                        />
+                      </div>
+                      {/* Tags */}
+                      <div className="flex flex-wrap items-center gap-2">
+                        <div className="text-xs font-semibold text-slate-400 uppercase tracking-wider mr-1 flex items-center gap-1">
+                          <Tag size={12} /> Themes
+                        </div>
+                        {["All", "Turmeric Adoption", "Social Empowerment", "LEISA", "Economic Transformation", "Leadership", "Child Education", "Right to Entitlements"].map(tag => (
+                          <button
+                            key={tag}
+                            onClick={() => setSelectedStoryTag(tag)}
+                            className={`px-3 py-1.5 rounded-full border text-xs font-semibold transition-all ${selectedStoryTag === tag ? 'bg-teal-50 border-teal-200 text-teal-700 shadow-sm' : 'bg-white border-slate-200 text-slate-600 hover:bg-slate-50 hover:text-slate-900'}`}
+                          >
+                            {tag}
+                          </button>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    {structuredStories.filter(story => {
+                      const matchesSearch = String(story.name || "").toLowerCase().includes(storySearchQuery.toLowerCase()) || String(story.title || "").toLowerCase().includes(storySearchQuery.toLowerCase());
+                      const matchesTag = selectedStoryTag === "All" || (story.tags && story.tags.includes(selectedStoryTag));
+                      return matchesSearch && matchesTag;
+                    }).map(story => {
+                      const Icon = story.icon;
+                      return (
+                        <motion.div
+                          whileHover={{ y: -4, boxShadow: "0 12px 30px -10px rgba(0,0,0,0.08)" }}
+                          transition={{ duration: 0.2 }}
+                          key={story.id}
+                          className="bg-white p-8 rounded-2xl border border-slate-200/80 flex flex-col justify-between shadow-sm hover:border-teal-500/30 transition-all duration-300 relative overflow-hidden group"
+                        >
+                          {/* Decorative Background Accent */}
+                          <div className={`absolute -right-6 -bottom-6 w-24 h-24 rounded-full ${story.bg}/20 group-hover:scale-150 transition-transform duration-500 pointer-events-none`} />
+
+                          <div>
+                            <div className="flex items-center gap-4 mb-5">
+                              <div className={`w-12 h-12 rounded-xl flex items-center justify-center shrink-0 ${story.bg} ${story.color} border ${story.border}`}>
+                                <Icon size={24} />
+                              </div>
+                              <div>
+                                <h4 className="text-lg font-extrabold text-slate-800 tracking-tight">{story.name}</h4>
+                                <p className="text-xs font-semibold text-slate-400 uppercase tracking-widest">{story.village}</p>
+                              </div>
+                            </div>
+
+                            <div className="flex flex-wrap gap-1.5 mb-4">
+                              {story.tags.map(tag => (
+                                <span key={tag} className="px-2.5 py-0.5 bg-slate-50 text-slate-500 text-[9px] font-bold uppercase tracking-widest rounded-full border border-slate-100">
+                                  {tag}
+                                </span>
+                              ))}
+                            </div>
+
+                            <h5 className="text-md font-bold text-slate-900 mb-2 font-serif tracking-tight">{story.title}</h5>
+                            <p className="text-slate-600 text-sm leading-relaxed mb-6 font-sans">
+                              {story.description}
+                            </p>
+                          </div>
+
+                          <button
+                            onClick={() => { setSelectedStory(story.id); setReadProgress(0); }}
+                            className="text-teal-600 font-bold text-xs uppercase tracking-wider flex items-center gap-2 w-max hover:text-teal-700 transition-colors group/btn pt-2"
+                          >
+                            Read Narrative <ArrowRight size={14} className="group-hover/btn:translate-x-1.5 transition-transform duration-200" />
+                          </button>
+                        </motion.div>
                       );
                     })}
                   </div>
-
-                  {/* Stepper Interactive detail area */}
-                  <div className="lg:col-span-2 bg-slate-50 rounded-2xl border border-slate-200/60 p-6 flex flex-col justify-between min-h-[220px]">
-                    <AnimatePresence mode="wait">
-                      <motion.div
-                        key={activePipelineStep}
-                        initial={{ opacity: 0, x: 15 }}
-                        animate={{ opacity: 1, x: 0 }}
-                        exit={{ opacity: 0, x: -15 }}
-                        transition={{ duration: 0.25 }}
-                        className="space-y-4"
-                      >
-                        {activePipelineStep === 0 && (
-                          <>
-                            <span className="text-[10px] font-bold uppercase tracking-wider text-teal-600 bg-teal-100 px-2 py-0.5 rounded">Stage 1: Primary Collection</span>
-                            <h5 className="font-extrabold text-slate-800 text-base">FDB Booklet Records</h5>
-                            <p className="text-xs text-slate-600 leading-relaxed font-sans">
-                              Data originates at the household level. Community Resource Persons (CRPs) visit forest-fringe households in Mihinpurwa Block to record baseline parameters (family status, initial land holding in local bighas, NRM assets, and baseline farming net margins) directly inside physical paper **Family Development Booklets (FDB)**.
-                            </p>
-                            <div className="text-xs bg-white border border-slate-200/60 p-3 rounded-lg flex justify-between">
-                              <span className="text-slate-400">Physical Registry:</span>
-                              <span className="font-bold text-slate-700">FDB Survey Booklet & Training Logs</span>
-                            </div>
-                          </>
-                        )}
-                        {activePipelineStep === 1 && (
-                          <>
-                            <span className="text-[10px] font-bold uppercase tracking-wider text-teal-600 bg-teal-100 px-2 py-0.5 rounded">Stage 2: Monthly Digitization</span>
-                            <h5 className="font-extrabold text-slate-800 text-base">Consolidated Excel Spreadsheets</h5>
-                            <p className="text-xs text-slate-600 leading-relaxed font-sans">
-                              CRP booklet data is typed month-by-month into master Excel spreadsheets at the block office. These spreadsheets, including `Base line Data1.xlsx`, `Baseline Findings NRM.xlsx`, and crop details files, compile thousands of records of agricultural expenditures, crop yields, and government welfare benefits.
-                            </p>
-                            <div className="text-xs bg-white border border-slate-200/60 p-3 rounded-lg flex justify-between">
-                              <span className="text-slate-400">File References:</span>
-                              <span className="font-bold text-slate-700">Base line Data1.xlsx, Baseline Findings NRM.xlsx</span>
-                            </div>
-                          </>
-                        )}
-                        {activePipelineStep === 2 && (
-                          <>
-                            <span className="text-[10px] font-bold uppercase tracking-wider text-teal-600 bg-teal-100 px-2 py-0.5 rounded">Stage 3: ETL & Triangulation Pipeline</span>
-                            <h5 className="font-extrabold text-slate-800 text-base">Automated Scripts Validation</h5>
-                            <p className="text-xs text-slate-600 leading-relaxed font-sans">
-                              Automated Python and Javascript scripts process the raw Excel rows to clean up inconsistencies. The pipeline matches active training records with baseline profiles using fuzzy string search, standardises bighas to acres using a Kutcha Bigha divisor (**`5.0`**), and recalculates yield averages to prevent upward skews on small plots.
-                            </p>
-                            <div className="text-xs bg-white border border-slate-200/60 p-3 rounded-lg flex justify-between">
-                              <span className="text-slate-400">Execution Scripts:</span>
-                              <span className="font-mono font-bold text-teal-700">triangulate_land.ts, triangulate_baseline_full.cjs</span>
-                            </div>
-                          </>
-                        )}
-                        {activePipelineStep === 3 && (
-                          <>
-                            <span className="text-[10px] font-bold uppercase tracking-wider text-teal-600 bg-teal-100 px-2 py-0.5 rounded">Stage 4: Verified Dashboard Views</span>
-                            <h5 className="font-extrabold text-slate-800 text-base">Interactive Audit Scorecard</h5>
-                            <p className="text-xs text-slate-600 leading-relaxed font-sans">
-                              The web application reads from clean JSON databases. Every KPI card, line chart figure, and caste-performance outcome is trace-linked to an interactive **Evidence Trail** popover, displaying calculation logic and raw source sheets.
-                            </p>
-                            <div className="text-xs bg-white border border-slate-200/60 p-3 rounded-lg flex justify-between font-sans">
-                              <span className="text-slate-400">Sourcing Model:</span>
-                              <span className="font-bold text-slate-700">src/data/caste_outcomes.json, farmers.json</span>
-                            </div>
-                          </>
-                        )}
-                      </motion.div>
-                    </AnimatePresence>
-                  </div>
                 </div>
-              </div>
+              )}
 
-              {/* Interactive Mathematical Sandbox */}
-              <div className="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm space-y-6">
-                <div>
-                  <h4 className="text-lg font-bold text-slate-800 flex items-center gap-2">
-                    <Target size={20} className="text-indigo-600" /> Live Yield Math Sandbox
-                  </h4>
-                  <p className="text-xs text-slate-400 mt-0.5">Drag the sliders to see how the mathematical average of yield ratios changes against standard ratio of averages</p>
-                </div>
-
-                <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-                  {/* Draggable Sliders */}
-                  <div className="space-y-6 bg-slate-50/50 p-5 rounded-2xl border border-slate-100">
-                    <div className="space-y-2">
-                      <div className="flex justify-between text-xs">
-                        <span className="font-bold text-slate-600">Net Farming Income (INR)</span>
-                        <span className="font-bold font-mono text-slate-800">₹{sandboxIncome.toLocaleString('en-IN')}</span>
-                      </div>
-                      <input
-                        type="range"
-                        min="10000"
-                        max="150000"
-                        step="5000"
-                        value={sandboxIncome}
-                        onChange={(e) => setSandboxIncome(Number(e.target.value))}
-                        className="w-full h-1.5 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-indigo-600"
-                      />
-                      <div className="flex justify-between text-[9px] text-slate-400">
-                        <span>₹10,000</span>
-                        <span>₹150,000</span>
-                      </div>
-                    </div>
-
-                    <div className="space-y-2">
-                      <div className="flex justify-between text-xs">
-                        <span className="font-bold text-slate-600">Active Cultivated Land (Acres)</span>
-                        <span className="font-bold font-mono text-slate-800">{sandboxArea} ac</span>
-                      </div>
-                      <input
-                        type="range"
-                        min="0.02"
-                        max="2.50"
-                        step="0.01"
-                        value={sandboxArea}
-                        onChange={(e) => setSandboxArea(Number(e.target.value))}
-                        className="w-full h-1.5 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-indigo-600"
-                      />
-                      <div className="flex justify-between text-[9px] text-slate-400">
-                        <span>0.02 ac</span>
-                        <span>2.50 ac</span>
-                      </div>
+              {activeTab === "mis_explained" && (
+                <div className="max-w-6xl mx-auto pb-12 space-y-8">
+                  {/* Hero Banner */}
+                  <div className="bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 rounded-3xl p-8 text-white border border-slate-800 shadow-lg relative overflow-hidden">
+                    <div className="absolute right-0 top-0 w-64 h-64 bg-teal-500/10 rounded-full blur-3xl" />
+                    <div className="max-w-3xl relative z-10">
+                      <span className="text-[10px] font-bold uppercase tracking-widest text-teal-400 px-2.5 py-1 rounded bg-teal-500/10 border border-teal-500/20">
+                        Systems & Data Integrity Guide
+                      </span>
+                      <h3 className="text-3xl font-extrabold font-serif mt-4 tracking-tight leading-tight">
+                        How the FASAL MIS Dashboard Works
+                      </h3>
+                      <p className="text-slate-300 text-sm mt-3 leading-relaxed font-sans">
+                        Every figure displayed on the FASAL dashboard is traced back directly to field registers, surveys, and tracking sheets compiled by Community Resource Persons (CRPs). Here is an audit-friendly map of how raw data translates to dashboard metrics.
+                      </p>
                     </div>
                   </div>
 
-                  {/* Math Outcome Comparison Cards */}
-                  <div className="lg:col-span-2 grid grid-cols-1 sm:grid-cols-2 gap-5">
-                    {/* Skewed Average of Ratios */}
-                    <div className="bg-rose-50/50 border border-rose-100 rounded-2xl p-5 flex flex-col justify-between">
+                  {/* Data Pipeline Stepper */}
+                  <div className="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm space-y-6">
+                    <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 border-b border-slate-100">
                       <div>
-                        <div className="flex items-center justify-between mb-2">
-                          <span className="text-[10px] font-bold text-rose-700 bg-rose-100 px-2 py-0.5 rounded uppercase">Average of Ratios (Skewed)</span>
-                          <span className="text-rose-500"><AlertCircle size={16} /></span>
-                        </div>
-                        <h6 className="font-extrabold font-mono text-xl text-rose-900 mt-1">
-                          ₹{Math.round(sandboxIncome / sandboxArea).toLocaleString('en-IN')}/ac
-                        </h6>
-                        <p className="text-[11px] text-rose-700/80 leading-relaxed mt-2 font-sans">
-                          Calculated by dividing net income by land size for this individual farmer:
-                        </p>
-                        <div className="flex items-center justify-center my-3 p-3 bg-white/60 rounded-xl border border-rose-200/30 text-xs text-rose-900 font-sans">
-                          <div className="flex items-center gap-2">
-                            <span className="font-bold text-rose-800">Yield</span>
-                            <span className="text-rose-400 font-serif">=</span>
-                            <div className="flex flex-col items-center">
-                              <span className="border-b border-rose-300 pb-0.5 px-3 font-semibold font-mono">₹{sandboxIncome.toLocaleString('en-IN')}</span>
-                              <span className="pt-0.5 px-3 font-semibold font-mono">{sandboxArea} ac</span>
-                            </div>
-                          </div>
-                        </div>
+                        <h4 className="text-lg font-bold text-slate-800 flex items-center gap-2">
+                          <RefreshCw size={20} className="text-teal-500 animate-spin-slow" /> The FASAL Data Pipeline
+                        </h4>
+                        <p className="text-xs text-slate-400 mt-0.5">Click any stage to see details of the validation and digitisation workflow</p>
                       </div>
-                      <div className="text-[10px] text-rose-600 border-t border-rose-100/60 pt-3 mt-4">
-                        ⚠️ If a farmer owns only 0.02 acres, this ratio explodes. Averaging individual ratios over the ST cohort created the artificial **₹280,436/ac** yield.
-                      </div>
-                    </div>
-
-                    {/* Corrected Ratio of Averages */}
-                    <div className="bg-emerald-50/50 border border-emerald-100 rounded-2xl p-5 flex flex-col justify-between">
-                      <div>
-                        <div className="flex items-center justify-between mb-2">
-                          <span className="text-[10px] font-bold text-emerald-700 bg-emerald-100 px-2 py-0.5 rounded uppercase">Ratio of Averages (Proposed)</span>
-                          <span className="text-emerald-500"><CheckCircle2 size={16} /></span>
-                        </div>
-                        <h6 className="font-extrabold font-mono text-xl text-emerald-900 mt-1">
-                          ₹57,759/ac
-                        </h6>
-                        <p className="text-[11px] text-emerald-700/80 leading-relaxed mt-2 font-sans">
-                          Calculated by dividing total cohort net income by total cohort land area:
-                        </p>
-                        <div className="flex items-center justify-center my-3 p-3 bg-white/60 rounded-xl border border-emerald-200/30 text-xs text-emerald-900 font-sans">
-                          <div className="flex items-center gap-2">
-                            <span className="font-bold text-emerald-800">Avg Yield</span>
-                            <span className="text-emerald-400 font-serif">=</span>
-                            <div className="flex flex-col items-center">
-                              <span className="border-b border-emerald-300 pb-0.5 px-3 font-semibold font-mono">Σ Net Income</span>
-                              <span className="pt-0.5 px-3 font-semibold font-mono">Σ Land Area</span>
-                            </div>
-                            <span className="text-emerald-400 font-serif">=</span>
-                            <div className="flex flex-col items-center">
-                              <span className="border-b border-emerald-300 pb-0.5 px-3 font-semibold font-mono">₹3.26M</span>
-                              <span className="pt-0.5 px-3 font-semibold font-mono">56.54 ac</span>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="text-[10px] text-emerald-600 border-t border-emerald-100/60 pt-3 mt-4">
-                        ✅ This method is independent of individual plot sizes, correcting the skew and outputting the true macroeconomic yield for the entire ST area.
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              {/* Sourcing Mapping Table with Filters & Search */}
-              <div className="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden space-y-4">
-                <div className="px-6 py-5 bg-slate-50/50 border-b border-slate-200 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-                  <div>
-                    <h4 className="text-lg font-bold text-slate-800 flex items-center gap-2">
-                      <Database size={20} className="text-indigo-500" /> Results Framework Sourcing Dictionary
-                    </h4>
-                    <p className="text-xs text-slate-500 mt-1">Audit trail mapping metrics directly to raw Excel columns</p>
-                  </div>
-                  {/* Search and Category Filters */}
-                  <div className="flex flex-col sm:flex-row gap-3">
-                    <div className="relative">
-                      <Search size={14} className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" />
-                      <input
-                        type="text"
-                        placeholder="Search indicators..."
-                        value={searchQueryGuide}
-                        onChange={(e) => setSearchQueryGuide(e.target.value)}
-                        className="pl-9 pr-4 py-1.5 rounded-lg border border-slate-200 text-xs w-full sm:w-44 focus:outline-none focus:border-teal-500 bg-white"
-                      />
-                    </div>
-                    <div className="flex bg-slate-100 rounded-lg p-0.5 text-[10px]">
-                      {(["All", "Income", "Land", "Institutions", "Rights"] as const).map(cat => (
-                        <button
-                          key={cat}
-                          onClick={() => setFilterGuideCategory(cat)}
-                          className={`px-2.5 py-1 font-semibold rounded-md transition-all ${filterGuideCategory === cat ? 'bg-white text-slate-800 shadow-sm' : 'text-slate-500 hover:text-slate-700'}`}
-                        >
-                          {cat}
-                        </button>
-                      ))}
-                    </div>
-                  </div>
-                </div>
-                
-                <div className="overflow-x-auto">
-                  <table className="w-full text-left text-xs border-collapse">
-                    <thead>
-                      <tr className="bg-slate-100/50 border-b border-slate-200 text-slate-600 font-bold">
-                        <th className="px-6 py-4">Dashboard Metric</th>
-                        <th className="px-6 py-4">RF Reference</th>
-                        <th className="px-6 py-4">Calculation Logic</th>
-                        <th className="px-6 py-4">Raw File Source & Sheet Name</th>
-                        <th className="px-6 py-4">Excel Column/Cells</th>
-                        <th className="px-6 py-4">Audit Status</th>
-                      </tr>
-                    </thead>
-                    <tbody className="divide-y divide-slate-200/80 font-sans text-slate-600">
-                      {[
-                        { metric: "Total Net Income", ref: "RF 1.1 (Household Income)", logic: "Sum of all active farmer net incomes in 2025.", source: "Updated_Fasal Crop wise details_Update _2025.xlsx (Sheet: Crop details)", col: "Col DM (Net Margins)", cat: "Income" },
-                        { metric: "Income per Acre (Rs)", ref: "RF 1.2 (Crop Yield)", logic: "Ratio of Averages: Sum of net incomes divided by sum of cultivated acres.", source: "Updated_Fasal Crop wise details_Update _2025.xlsx (Sheet: Crop details)", col: "Col DM / Col E", cat: "Income" },
-                        { metric: "Baseline Net Agri Income", ref: "Baseline Comparison", logic: "Sum of GP-level baseline farming profits.", source: "Baseline Findings NRM.xlsx (Sheet: Summary Sheet)", col: "Row 49, Column G", cat: "Income" },
-                        { metric: "Total Convergence (Leverage)", ref: "RF 2.1 (Entitlement funds)", logic: "Sum of government welfare benefits secured.", source: "Leverage files 2022-2025", col: "Beneficiary Amount lists", cat: "Rights" },
-                        { metric: "Average Leverage per Family", ref: "RF 2.2 (Unit Economics)", logic: "Total annual leverage divided by unique beneficiary family counts.", source: "Leverage files 2022-2025", col: "Yearly sums / count", cat: "Rights" },
-                        { metric: "Baseline Land Area (Acres)", ref: "Baseline Comparison", logic: "Baseline Bigha converted to Acres using Kutcha Bigha divisor (5.0).", source: "Base line Data1.xlsx (Sheet: Base Line)", col: "Col BC (Cultivable) / 5.0", cat: "Land" },
-                        { metric: "Active Registry Land", ref: "Active Comparison", logic: "Active registry land holding sizes.", source: "DEHAT_Cleaned_Data_with_Acres.csv", col: "Col 'Total_Land_(Acres)'", cat: "Land" },
-                        { metric: "Kitchen Gardens Established", ref: "Nutrition Indicator", logic: "Formed kitchen garden counts.", source: "nutrition.json", col: "Endline 2025 total", cat: "Land" },
-                        { metric: "Active AAS Groups", ref: "RF 3.1 (Institutions)", logic: "Count of formed community self-help groups.", source: "Training data_FASAL MIS 2022-2025.xlsx", col: "Unique Group names count", cat: "Institutions" },
-                        { metric: "Capacity Intensity", ref: "RF 3.2 (Training logs)", logic: "Annual training attendance divided by 1329 participating families.", source: "Training Dashboard.xlsx (Sheet: Training)", col: "Total attendance / HH", cat: "Institutions" }
-                      ]
-                        .filter(item => {
-                          const matchesSearch = item.metric.toLowerCase().includes(searchQueryGuide.toLowerCase()) || item.logic.toLowerCase().includes(searchQueryGuide.toLowerCase());
-                          const matchesCat = filterGuideCategory === "All" || item.cat === filterGuideCategory;
-                          return matchesSearch && matchesCat;
-                        })
-                        .map((row, i) => (
-                          <motion.tr
-                            key={row.metric}
-                            initial={{ opacity: 0, y: 4 }}
-                            animate={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 0.2, delay: i * 0.05 }}
+                      <div className="flex bg-slate-100 rounded-lg p-0.5 shrink-0">
+                        {[0, 1, 2, 3].map((step) => (
+                          <button
+                            key={step}
+                            onClick={() => setActivePipelineStep(step)}
+                            className={`px-3 py-1.5 text-xs font-semibold rounded-md transition-all ${activePipelineStep === step ? 'bg-white text-slate-800 shadow-sm' : 'text-slate-500 hover:text-slate-700'}`}
                           >
-                            <td className="px-6 py-4 font-bold text-slate-800">{row.metric}</td>
-                            <td className="px-6 py-4">{row.ref}</td>
-                            <td className="px-6 py-4">{row.logic}</td>
-                            <td className="px-6 py-4 font-mono text-[10px] text-slate-500">{row.source}</td>
-                            <td className="px-6 py-4 font-mono font-bold text-slate-700">{row.col}</td>
-                            <td className="px-6 py-4"><span className="px-2 py-0.5 bg-emerald-50 text-emerald-700 border border-emerald-200 rounded font-bold uppercase text-[9px]">Verified</span></td>
-                          </motion.tr>
+                            Step {step + 1}
+                          </button>
                         ))}
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-
-              {/* Realistic System Integrity Check (Accordions) */}
-              <div className="bg-amber-50/50 border border-amber-200 rounded-2xl p-6 space-y-4">
-                <div className="flex gap-5 items-start">
-                  <div className="p-3 bg-amber-100 text-amber-700 rounded-xl shrink-0">
-                    <Shield size={24} />
-                  </div>
-                  <div>
-                    <h4 className="font-bold text-amber-900 text-md">System Integrity & Transparencies</h4>
-                    <p className="text-slate-700 text-xs mt-1 leading-relaxed font-sans">
-                      Our database standardisations run pipelines to clean errors. Click each categories below to see details of how raw constraints are mitigated.
-                    </p>
-                  </div>
-                </div>
-
-                <div className="space-y-2 pt-2 border-t border-amber-200/50">
-                  {[
-                    { key: "units", title: "Standardising Land Units (Bigha vs Acres)", content: "Raw baseline bighas and active survey bighas are standardise to Acres by dividing by 5.0 (the Kutcha Bigha divisor, where 1 Acre = 5.0 local Bighas). This resolves discrepancies (e.g. Shanti Devi ST appearing to lose land) and aligns all metrics to the same scale." },
-                    { key: "spelling", title: "Mitigating Spelling and Naming Fluctuations", content: "CRPs input village and crop names manually. Our automated ETL scripts run fuzzy string matching algorithms (threshold score > 85%) and maps bilingual spelling duplicates (e.g., merging 'Bhindi' to 'Okra', 'Karela' to 'Bitter Gourd') to ensure robust consolidation." },
-                    { key: "identifiers", title: "Resolving Missing Individual Identifiers", content: "Where phone numbers or primary IDs are missing in active logs, our triangulation script auto-generates pseudo-IDs and performs fuzzy matching against baseline demographics based on combinations of Name, Village, and Self-Help Group to prevent data loss." }
-                  ].map((item) => {
-                    const isOpen = activeConstraintKey === item.key;
-                    return (
-                      <div key={item.key} className="bg-white/80 rounded-xl border border-amber-200/40 overflow-hidden transition-all duration-300">
-                        <div
-                          onClick={() => setActiveConstraintKey(isOpen ? null : item.key)}
-                          className="flex items-center justify-between p-4 cursor-pointer hover:bg-white transition-colors"
-                        >
-                          <span className="text-xs font-bold text-amber-950">{item.title}</span>
-                          <span className={`text-amber-600 transition-transform duration-300 ${isOpen ? 'rotate-180' : ''}`}><ChevronDown size={16} /></span>
-                        </div>
-                        {isOpen && (
-                          <motion.div
-                            initial={{ height: 0, opacity: 0 }}
-                            animate={{ height: "auto", opacity: 1 }}
-                            transition={{ duration: 0.3 }}
-                            className="px-4 pb-4 text-xs text-slate-600 leading-relaxed font-sans border-t border-slate-50 pt-3"
-                          >
-                            {item.content}
-                          </motion.div>
-                        )}
                       </div>
-                    );
-                  })}
+                    </div>
+
+                    <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                      {/* Stepper Steps (Active indicators) */}
+                      <div className="space-y-4">
+                        {[
+                          { title: "Primary Collection", desc: "Local paper tracking by CRPs", icon: BookOpen },
+                          { title: "Monthly Digits", desc: "Consolidated Excel records", icon: FileText },
+                          { title: "ETL & Triangulation", desc: "Automated standardisations", icon: Database },
+                          { title: "Dashboard Views", desc: "Verified React UI cards", icon: TrendingUp }
+                        ].map((step, idx) => {
+                          const StepIcon = step.icon;
+                          const isActive = activePipelineStep === idx;
+                          return (
+                            <div
+                              key={idx}
+                              onClick={() => setActivePipelineStep(idx)}
+                              className={`flex items-center gap-4 p-4 rounded-xl border transition-all cursor-pointer ${isActive ? 'bg-teal-50 border-teal-200 text-teal-900 shadow-sm' : 'bg-slate-50 border-slate-100 text-slate-600 hover:bg-slate-100'}`}
+                            >
+                              <div className={`p-2.5 rounded-lg border ${isActive ? 'bg-white border-teal-300 text-teal-600' : 'bg-white border-slate-200 text-slate-400'}`}>
+                                <StepIcon size={18} />
+                              </div>
+                              <div>
+                                <div className="text-xs font-bold">{step.title}</div>
+                                <div className="text-[10px] opacity-70 mt-0.5">{step.desc}</div>
+                              </div>
+                              {isActive && <div className="ml-auto w-2 h-2 rounded-full bg-teal-500" />}
+                            </div>
+                          );
+                        })}
+                      </div>
+
+                      {/* Stepper Interactive detail area */}
+                      <div className="lg:col-span-2 bg-slate-50 rounded-2xl border border-slate-200/60 p-6 flex flex-col justify-between min-h-[220px]">
+                        <AnimatePresence mode="wait">
+                          <motion.div
+                            key={activePipelineStep}
+                            initial={{ opacity: 0, x: 15 }}
+                            animate={{ opacity: 1, x: 0 }}
+                            exit={{ opacity: 0, x: -15 }}
+                            transition={{ duration: 0.25 }}
+                            className="space-y-4"
+                          >
+                            {activePipelineStep === 0 && (
+                              <>
+                                <span className="text-[10px] font-bold uppercase tracking-wider text-teal-600 bg-teal-100 px-2 py-0.5 rounded">Stage 1: Primary Collection</span>
+                                <h5 className="font-extrabold text-slate-800 text-base">FDB Booklet Records</h5>
+                                <p className="text-xs text-slate-600 leading-relaxed font-sans">
+                                  Data originates at the household level. Community Resource Persons (CRPs) visit forest-fringe households in Mihinpurwa Block to record baseline parameters (family status, initial land holding in local bighas, NRM assets, and baseline farming net margins) directly inside physical paper **Family Development Booklets (FDB)**.
+                                </p>
+                                <div className="text-xs bg-white border border-slate-200/60 p-3 rounded-lg flex justify-between">
+                                  <span className="text-slate-400">Physical Registry:</span>
+                                  <span className="font-bold text-slate-700">FDB Survey Booklet & Training Logs</span>
+                                </div>
+                              </>
+                            )}
+                            {activePipelineStep === 1 && (
+                              <>
+                                <span className="text-[10px] font-bold uppercase tracking-wider text-teal-600 bg-teal-100 px-2 py-0.5 rounded">Stage 2: Monthly Digitization</span>
+                                <h5 className="font-extrabold text-slate-800 text-base">Consolidated Excel Spreadsheets</h5>
+                                <p className="text-xs text-slate-600 leading-relaxed font-sans">
+                                  CRP booklet data is typed month-by-month into master Excel spreadsheets at the block office. These spreadsheets, including `Base line Data1.xlsx`, `Baseline Findings NRM.xlsx`, and crop details files, compile thousands of records of agricultural expenditures, crop yields, and government welfare benefits.
+                                </p>
+                                <div className="text-xs bg-white border border-slate-200/60 p-3 rounded-lg flex justify-between">
+                                  <span className="text-slate-400">File References:</span>
+                                  <span className="font-bold text-slate-700">Base line Data1.xlsx, Baseline Findings NRM.xlsx</span>
+                                </div>
+                              </>
+                            )}
+                            {activePipelineStep === 2 && (
+                              <>
+                                <span className="text-[10px] font-bold uppercase tracking-wider text-teal-600 bg-teal-100 px-2 py-0.5 rounded">Stage 3: ETL & Triangulation Pipeline</span>
+                                <h5 className="font-extrabold text-slate-800 text-base">Automated Scripts Validation</h5>
+                                <p className="text-xs text-slate-600 leading-relaxed font-sans">
+                                  Automated Python and Javascript scripts process the raw Excel rows to clean up inconsistencies. The pipeline matches active training records with baseline profiles using fuzzy string search, standardises bighas to acres using a Kutcha Bigha divisor (**`5.0`**), and recalculates yield averages to prevent upward skews on small plots.
+                                </p>
+                                <div className="text-xs bg-white border border-slate-200/60 p-3 rounded-lg flex justify-between">
+                                  <span className="text-slate-400">Execution Scripts:</span>
+                                  <span className="font-mono font-bold text-teal-700">triangulate_land.ts, triangulate_baseline_full.cjs</span>
+                                </div>
+                              </>
+                            )}
+                            {activePipelineStep === 3 && (
+                              <>
+                                <span className="text-[10px] font-bold uppercase tracking-wider text-teal-600 bg-teal-100 px-2 py-0.5 rounded">Stage 4: Verified Dashboard Views</span>
+                                <h5 className="font-extrabold text-slate-800 text-base">Interactive Audit Scorecard</h5>
+                                <p className="text-xs text-slate-600 leading-relaxed font-sans">
+                                  The web application reads from clean JSON databases. Every KPI card, line chart figure, and caste-performance outcome is trace-linked to an interactive **Evidence Trail** popover, displaying calculation logic and raw source sheets.
+                                </p>
+                                <div className="text-xs bg-white border border-slate-200/60 p-3 rounded-lg flex justify-between font-sans">
+                                  <span className="text-slate-400">Sourcing Model:</span>
+                                  <span className="font-bold text-slate-700">src/data/caste_outcomes.json, farmers.json</span>
+                                </div>
+                              </>
+                            )}
+                          </motion.div>
+                        </AnimatePresence>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Interactive Mathematical Sandbox */}
+                  <div className="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm space-y-6">
+                    <div>
+                      <h4 className="text-lg font-bold text-slate-800 flex items-center gap-2">
+                        <Target size={20} className="text-indigo-600" /> Live Yield Math Sandbox
+                      </h4>
+                      <p className="text-xs text-slate-400 mt-0.5">Drag the sliders to see how the mathematical average of yield ratios changes against standard ratio of averages</p>
+                    </div>
+
+                    <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                      {/* Draggable Sliders */}
+                      <div className="space-y-6 bg-slate-50/50 p-5 rounded-2xl border border-slate-100">
+                        <div className="space-y-2">
+                          <div className="flex justify-between text-xs">
+                            <span className="font-bold text-slate-600">Net Farming Income (INR)</span>
+                            <span className="font-bold font-mono text-slate-800">₹{sandboxIncome.toLocaleString('en-IN')}</span>
+                          </div>
+                          <input
+                            type="range"
+                            min="10000"
+                            max="150000"
+                            step="5000"
+                            value={sandboxIncome}
+                            onChange={(e) => setSandboxIncome(Number(e.target.value))}
+                            className="w-full h-1.5 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-indigo-600"
+                          />
+                          <div className="flex justify-between text-[9px] text-slate-400">
+                            <span>₹10,000</span>
+                            <span>₹150,000</span>
+                          </div>
+                        </div>
+
+                        <div className="space-y-2">
+                          <div className="flex justify-between text-xs">
+                            <span className="font-bold text-slate-600">Active Cultivated Land (Acres)</span>
+                            <span className="font-bold font-mono text-slate-800">{sandboxArea} ac</span>
+                          </div>
+                          <input
+                            type="range"
+                            min="0.02"
+                            max="2.50"
+                            step="0.01"
+                            value={sandboxArea}
+                            onChange={(e) => setSandboxArea(Number(e.target.value))}
+                            className="w-full h-1.5 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-indigo-600"
+                          />
+                          <div className="flex justify-between text-[9px] text-slate-400">
+                            <span>0.02 ac</span>
+                            <span>2.50 ac</span>
+                          </div>
+                        </div>
+                      </div>
+
+                      {/* Math Outcome Comparison Cards */}
+                      <div className="lg:col-span-2 grid grid-cols-1 sm:grid-cols-2 gap-5">
+                        {/* Skewed Average of Ratios */}
+                        <div className="bg-rose-50/50 border border-rose-100 rounded-2xl p-5 flex flex-col justify-between">
+                          <div>
+                            <div className="flex items-center justify-between mb-2">
+                              <span className="text-[10px] font-bold text-rose-700 bg-rose-100 px-2 py-0.5 rounded uppercase">Average of Ratios (Skewed)</span>
+                              <span className="text-rose-500"><AlertCircle size={16} /></span>
+                            </div>
+                            <h6 className="font-extrabold font-mono text-xl text-rose-900 mt-1">
+                              ₹{Math.round(sandboxIncome / sandboxArea).toLocaleString('en-IN')}/ac
+                            </h6>
+                            <p className="text-[11px] text-rose-700/80 leading-relaxed mt-2 font-sans">
+                              Calculated by dividing net income by land size for this individual farmer:
+                            </p>
+                            <div className="flex items-center justify-center my-3 p-3 bg-white/60 rounded-xl border border-rose-200/30 text-xs text-rose-900 font-sans">
+                              <div className="flex items-center gap-2">
+                                <span className="font-bold text-rose-800">Yield</span>
+                                <span className="text-rose-400 font-serif">=</span>
+                                <div className="flex flex-col items-center">
+                                  <span className="border-b border-rose-300 pb-0.5 px-3 font-semibold font-mono">₹{sandboxIncome.toLocaleString('en-IN')}</span>
+                                  <span className="pt-0.5 px-3 font-semibold font-mono">{sandboxArea} ac</span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="text-[10px] text-rose-600 border-t border-rose-100/60 pt-3 mt-4">
+                            ⚠️ If a farmer owns only 0.02 acres, this ratio explodes. Averaging individual ratios over the ST cohort created the artificial **₹280,436/ac** yield.
+                          </div>
+                        </div>
+
+                        {/* Corrected Ratio of Averages */}
+                        <div className="bg-emerald-50/50 border border-emerald-100 rounded-2xl p-5 flex flex-col justify-between">
+                          <div>
+                            <div className="flex items-center justify-between mb-2">
+                              <span className="text-[10px] font-bold text-emerald-700 bg-emerald-100 px-2 py-0.5 rounded uppercase">Ratio of Averages (Proposed)</span>
+                              <span className="text-emerald-500"><CheckCircle2 size={16} /></span>
+                            </div>
+                            <h6 className="font-extrabold font-mono text-xl text-emerald-900 mt-1">
+                              ₹57,759/ac
+                            </h6>
+                            <p className="text-[11px] text-emerald-700/80 leading-relaxed mt-2 font-sans">
+                              Calculated by dividing total cohort net income by total cohort land area:
+                            </p>
+                            <div className="flex items-center justify-center my-3 p-3 bg-white/60 rounded-xl border border-emerald-200/30 text-xs text-emerald-900 font-sans">
+                              <div className="flex items-center gap-2">
+                                <span className="font-bold text-emerald-800">Avg Yield</span>
+                                <span className="text-emerald-400 font-serif">=</span>
+                                <div className="flex flex-col items-center">
+                                  <span className="border-b border-emerald-300 pb-0.5 px-3 font-semibold font-mono">Σ Net Income</span>
+                                  <span className="pt-0.5 px-3 font-semibold font-mono">Σ Land Area</span>
+                                </div>
+                                <span className="text-emerald-400 font-serif">=</span>
+                                <div className="flex flex-col items-center">
+                                  <span className="border-b border-emerald-300 pb-0.5 px-3 font-semibold font-mono">₹3.26M</span>
+                                  <span className="pt-0.5 px-3 font-semibold font-mono">56.54 ac</span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="text-[10px] text-emerald-600 border-t border-emerald-100/60 pt-3 mt-4">
+                            ✅ This method is independent of individual plot sizes, correcting the skew and outputting the true macroeconomic yield for the entire ST area.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Sourcing Mapping Table with Filters & Search */}
+                  <div className="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden space-y-4">
+                    <div className="px-6 py-5 bg-slate-50/50 border-b border-slate-200 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                      <div>
+                        <h4 className="text-lg font-bold text-slate-800 flex items-center gap-2">
+                          <Database size={20} className="text-indigo-500" /> Results Framework Sourcing Dictionary
+                        </h4>
+                        <p className="text-xs text-slate-500 mt-1">Audit trail mapping metrics directly to raw Excel columns</p>
+                      </div>
+                      {/* Search and Category Filters */}
+                      <div className="flex flex-col sm:flex-row gap-3">
+                        <div className="relative">
+                          <Search size={14} className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" />
+                          <input
+                            type="text"
+                            placeholder="Search indicators..."
+                            value={searchQueryGuide}
+                            onChange={(e) => setSearchQueryGuide(e.target.value)}
+                            className="pl-9 pr-4 py-1.5 rounded-lg border border-slate-200 text-xs w-full sm:w-44 focus:outline-none focus:border-teal-500 bg-white"
+                          />
+                        </div>
+                        <div className="flex bg-slate-100 rounded-lg p-0.5 text-[10px]">
+                          {(["All", "Income", "Land", "Institutions", "Rights"] as const).map(cat => (
+                            <button
+                              key={cat}
+                              onClick={() => setFilterGuideCategory(cat)}
+                              className={`px-2.5 py-1 font-semibold rounded-md transition-all ${filterGuideCategory === cat ? 'bg-white text-slate-800 shadow-sm' : 'text-slate-500 hover:text-slate-700'}`}
+                            >
+                              {cat}
+                            </button>
+                          ))}
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="overflow-x-auto">
+                      <table className="w-full text-left text-xs border-collapse">
+                        <thead>
+                          <tr className="bg-slate-100/50 border-b border-slate-200 text-slate-600 font-bold">
+                            <th className="px-6 py-4">Dashboard Metric</th>
+                            <th className="px-6 py-4">RF Reference</th>
+                            <th className="px-6 py-4">Calculation Logic</th>
+                            <th className="px-6 py-4">Raw File Source & Sheet Name</th>
+                            <th className="px-6 py-4">Excel Column/Cells</th>
+                            <th className="px-6 py-4">Audit Status</th>
+                          </tr>
+                        </thead>
+                        <tbody className="divide-y divide-slate-200/80 font-sans text-slate-600">
+                          {[
+                            { metric: "Total Net Income", ref: "RF 1.1 (Household Income)", logic: "Sum of all active farmer net incomes in 2025.", source: "Updated_Fasal Crop wise details_Update _2025.xlsx (Sheet: Crop details)", col: "Col DM (Net Margins)", cat: "Income" },
+                            { metric: "Income per Acre (Rs)", ref: "RF 1.2 (Crop Yield)", logic: "Ratio of Averages: Sum of net incomes divided by sum of cultivated acres.", source: "Updated_Fasal Crop wise details_Update _2025.xlsx (Sheet: Crop details)", col: "Col DM / Col E", cat: "Income" },
+                            { metric: "Baseline Net Agri Income", ref: "Baseline Comparison", logic: "Sum of GP-level baseline farming profits.", source: "Baseline Findings NRM.xlsx (Sheet: Summary Sheet)", col: "Row 49, Column G", cat: "Income" },
+                            { metric: "Total Convergence (Leverage)", ref: "RF 2.1 (Entitlement funds)", logic: "Sum of government welfare benefits secured.", source: "Leverage files 2022-2025", col: "Beneficiary Amount lists", cat: "Rights" },
+                            { metric: "Average Leverage per Family", ref: "RF 2.2 (Unit Economics)", logic: "Total annual leverage divided by unique beneficiary family counts.", source: "Leverage files 2022-2025", col: "Yearly sums / count", cat: "Rights" },
+                            { metric: "Baseline Land Area (Acres)", ref: "Baseline Comparison", logic: "Baseline Bigha converted to Acres using Kutcha Bigha divisor (5.0).", source: "Base line Data1.xlsx (Sheet: Base Line)", col: "Col BC (Cultivable) / 5.0", cat: "Land" },
+                            { metric: "Active Registry Land", ref: "Active Comparison", logic: "Active registry land holding sizes.", source: "DEHAT_Cleaned_Data_with_Acres.csv", col: "Col 'Total_Land_(Acres)'", cat: "Land" },
+                            { metric: "Kitchen Gardens Established", ref: "Nutrition Indicator", logic: "Formed kitchen garden counts.", source: "nutrition.json", col: "Endline 2025 total", cat: "Land" },
+                            { metric: "Active AAS Groups", ref: "RF 3.1 (Institutions)", logic: "Count of formed community self-help groups.", source: "Training data_FASAL MIS 2022-2025.xlsx", col: "Unique Group names count", cat: "Institutions" },
+                            { metric: "Capacity Intensity", ref: "RF 3.2 (Training logs)", logic: "Annual training attendance divided by 1329 participating families.", source: "Training Dashboard.xlsx (Sheet: Training)", col: "Total attendance / HH", cat: "Institutions" }
+                          ]
+                            .filter(item => {
+                              const matchesSearch = item.metric.toLowerCase().includes(searchQueryGuide.toLowerCase()) || item.logic.toLowerCase().includes(searchQueryGuide.toLowerCase());
+                              const matchesCat = filterGuideCategory === "All" || item.cat === filterGuideCategory;
+                              return matchesSearch && matchesCat;
+                            })
+                            .map((row, i) => (
+                              <motion.tr
+                                key={row.metric}
+                                initial={{ opacity: 0, y: 4 }}
+                                animate={{ opacity: 1, y: 0 }}
+                                transition={{ duration: 0.2, delay: i * 0.05 }}
+                              >
+                                <td className="px-6 py-4 font-bold text-slate-800">{row.metric}</td>
+                                <td className="px-6 py-4">{row.ref}</td>
+                                <td className="px-6 py-4">{row.logic}</td>
+                                <td className="px-6 py-4 font-mono text-[10px] text-slate-500">{row.source}</td>
+                                <td className="px-6 py-4 font-mono font-bold text-slate-700">{row.col}</td>
+                                <td className="px-6 py-4"><span className="px-2 py-0.5 bg-emerald-50 text-emerald-700 border border-emerald-200 rounded font-bold uppercase text-[9px]">Verified</span></td>
+                              </motion.tr>
+                            ))}
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+
+                  {/* Realistic System Integrity Check (Accordions) */}
+                  <div className="bg-amber-50/50 border border-amber-200 rounded-2xl p-6 space-y-4">
+                    <div className="flex gap-5 items-start">
+                      <div className="p-3 bg-amber-100 text-amber-700 rounded-xl shrink-0">
+                        <Shield size={24} />
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-amber-900 text-md">System Integrity & Transparencies</h4>
+                        <p className="text-slate-700 text-xs mt-1 leading-relaxed font-sans">
+                          Our database standardisations run pipelines to clean errors. Click each categories below to see details of how raw constraints are mitigated.
+                        </p>
+                      </div>
+                    </div>
+
+                    <div className="space-y-2 pt-2 border-t border-amber-200/50">
+                      {[
+                        { key: "units", title: "Standardising Land Units (Bigha vs Acres)", content: "Raw baseline bighas and active survey bighas are standardise to Acres by dividing by 5.0 (the Kutcha Bigha divisor, where 1 Acre = 5.0 local Bighas). This resolves discrepancies (e.g. Shanti Devi ST appearing to lose land) and aligns all metrics to the same scale." },
+                        { key: "spelling", title: "Mitigating Spelling and Naming Fluctuations", content: "CRPs input village and crop names manually. Our automated ETL scripts run fuzzy string matching algorithms (threshold score > 85%) and maps bilingual spelling duplicates (e.g., merging 'Bhindi' to 'Okra', 'Karela' to 'Bitter Gourd') to ensure robust consolidation." },
+                        { key: "identifiers", title: "Resolving Missing Individual Identifiers", content: "Where phone numbers or primary IDs are missing in active logs, our triangulation script auto-generates pseudo-IDs and performs fuzzy matching against baseline demographics based on combinations of Name, Village, and Self-Help Group to prevent data loss." }
+                      ].map((item) => {
+                        const isOpen = activeConstraintKey === item.key;
+                        return (
+                          <div key={item.key} className="bg-white/80 rounded-xl border border-amber-200/40 overflow-hidden transition-all duration-300">
+                            <div
+                              onClick={() => setActiveConstraintKey(isOpen ? null : item.key)}
+                              className="flex items-center justify-between p-4 cursor-pointer hover:bg-white transition-colors"
+                            >
+                              <span className="text-xs font-bold text-amber-950">{item.title}</span>
+                              <span className={`text-amber-600 transition-transform duration-300 ${isOpen ? 'rotate-180' : ''}`}><ChevronDown size={16} /></span>
+                            </div>
+                            {isOpen && (
+                              <motion.div
+                                initial={{ height: 0, opacity: 0 }}
+                                animate={{ height: "auto", opacity: 1 }}
+                                transition={{ duration: 0.3 }}
+                                className="px-4 pb-4 text-xs text-slate-600 leading-relaxed font-sans border-t border-slate-50 pt-3"
+                              >
+                                {item.content}
+                              </motion.div>
+                            )}
+                          </div>
+                        );
+                      })}
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </div>
-          )}
+              )}
             </motion.div>
           </AnimatePresence>
         </div>

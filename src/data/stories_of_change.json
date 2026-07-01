@@ -1,0 +1,324 @@
+{
+    "stories": [
+        {
+            "id": "cs_fakirpuri_electricity",
+            "type": "advocacy",
+            "title": "समय पर जानकारी, वकालत और पैरोकारी से गरीब परिवारों को लाखों की राहत",
+            "titleEn": "Timely Information & Advocacy: ₹6 Lakh Relief for 70 Families",
+            "village": "Fakirpuri",
+            "gp": "Fakirpuri",
+            "themes": [
+                "collective_advocacy",
+                "advocacy_electricity",
+                "women_empowerment"
+            ],
+            "summary": "Through AAS collective action, 70 Tharu tribal families in Fakirpuri got ₹6 Lakh in wrongful electricity bills waived after community coordinator Sama Kausar organized meetings with the electricity department.",
+            "impact": "₹600,000 in wrongful bills waived for 70 families through collective advocacy (April 2026)",
+            "sourceFile": "Case Study समय पर जानकारी, वकालत और पैरोकारी से गरीब परिवारों को लाखों की राहत.docx"
+        },
+        {
+            "id": "cs_anshu_justice",
+            "type": "advocacy",
+            "title": "सही जगह पर पैरवी करने से अंशु को मिला न्याय",
+            "titleEn": "Rightful Advocacy: Anshu Kumari Wins Justice",
+            "village": "Fakirpuri",
+            "gp": "Fakirpuri",
+            "themes": [
+                "widow_vulnerability",
+                "women_empowerment",
+                "collective_advocacy"
+            ],
+            "summary": "Anshu Kumari, a young widow from the Tharu community, obtained government scheme benefits through DEHAT-facilitated advocacy and court guidance, breaking barriers of social discrimination.",
+            "impact": "Widow entitlements secured through structured advocacy",
+            "sourceFile": "Case Study सही जगह पर पैरवी करने से अंशु को मिला न्याय.docx"
+        },
+        {
+            "id": "cs_anirudh",
+            "type": "transformation",
+            "title": "युवा किसान अनिरुद्ध कुमार: वैज्ञानिक एवं जैविक खेती से आत्मनिर्भरता",
+            "titleEn": "Young Farmer Anirudh Kumar: Scientific Organic Farming to Self-Reliance",
+            "village": "Dhodhepurwa",
+            "gp": "Badkhadiya",
+            "themes": [
+                "organic_farming",
+                "crop_diversification",
+                "income_transformation",
+                "asset_building"
+            ],
+            "summary": "Anirudh Kumar (age ~40) transformed from traditional paddy-wheat on 1.2 acres to diverse organic vegetables and spices. He doubled his land to 2.4 acres, built a pucca house, and sends his children to English-medium school.",
+            "impact": "Land doubled from 1.2 to 2.4 acres, built pucca house, children in English-medium school",
+            "sourceFile": "Case Study Anirudh Kisan Dhodhepurwa.docx"
+        },
+        {
+            "id": "cs_ramchandra",
+            "type": "transformation",
+            "title": "मैं रामचंद्र: मल्टी-लेयर फार्मिंग से आय वृद्धि",
+            "titleEn": "Ram Chandra: Income Growth Through Multi-Layer Farming",
+            "village": "Hajaripurwa",
+            "gp": "Chahalwa",
+            "themes": [
+                "organic_farming",
+                "crop_diversification",
+                "income_transformation"
+            ],
+            "summary": "Ram Chandra's family of 18 members switched from wage labour to multi-layer farming — bitter gourd on trellis above onion beds. Earned ₹35,000 from 10 biswa, purchased a motorcycle and sends grandchildren to school.",
+            "impact": "₹35,000 income from 10 biswa, purchased motorcycle, children enrolled in school",
+            "sourceFile": "Case Study Ram Chandra Hajaripurwa.docx"
+        },
+        {
+            "id": "cs_kallu",
+            "type": "transformation",
+            "title": "कल्लू: परंपरागत खेती से सब्जी उत्पादन की ओर",
+            "titleEn": "Kallu ji: From Traditional to Vegetable Farming",
+            "village": "Bhedhan Purwa",
+            "gp": "Karikot",
+            "themes": [
+                "organic_farming",
+                "crop_diversification"
+            ],
+            "summary": "Kallu ji switched from labour-intensive paddy-wheat with low savings to cauliflower cultivation with DEHAT support, earning ₹17,500 from 10 biswa at minimal cost.",
+            "impact": "₹17,500 from cauliflower on 10 biswa vs traditional paddy-wheat with low savings",
+            "sourceFile": "Kallu ji Case study.docx"
+        },
+        {
+            "id": "cs_kalawati",
+            "type": "vulnerability",
+            "title": "कलावती जी: विधवा संघर्ष और सामुदायिक सहारा",
+            "titleEn": "Kalawati: Widow's Struggle and Community Support",
+            "village": "Bhedhan Purwa",
+            "gp": "Karikot",
+            "themes": [
+                "social_issue_alcohol",
+                "widow_vulnerability",
+                "women_empowerment"
+            ],
+            "summary": "Kalawati, widowed after her husband died from alcohol-related illness, struggles with 0.4 acres of land, wild animal crop destruction, and raising her children alone in Karikot GP.",
+            "impact": "Surviving on 0.4 acres with wild animal crop loss — needs livelihood support",
+            "sourceFile": "कलावती जी की केस स्टडी.docx"
+        },
+        {
+            "id": "cs_arty",
+            "type": "transformation",
+            "title": "आरती जी: ज्वाला आजीविका अधिकार संगठन की प्रेरणादायक नेता",
+            "titleEn": "Arti ji: Inspiring Leader of Jwala Aajeevika Adhikar Sangathan",
+            "village": "Badhiyan Purwa",
+            "gp": "Karikot",
+            "themes": [
+                "collective_advocacy",
+                "organic_farming",
+                "income_transformation",
+                "sanitation",
+                "women_empowerment"
+            ],
+            "summary": "Arti ji emerged as a community leader through AAS, advocating for sanitation (toilets), organic farming adoption, and collective action for entitlements in Karikot GP.",
+            "impact": "Community-level sanitation and organic farming adoption facilitated through AAS leadership",
+            "sourceFile": "केस स्टडी बढ़ीहन पुरवा.docx"
+        },
+        {
+            "id": "cs_rajkumari",
+            "type": "transformation",
+            "title": "राजकुमारी देवी: संघर्ष से सफलता तक — महिला किसान की कहानी",
+            "titleEn": "Rajkumari Devi: From Struggle to Success — A Woman Farmer's Story",
+            "village": "Kailash Nagar",
+            "gp": "Vishunapur",
+            "themes": [
+                "organic_farming",
+                "crop_diversification",
+                "income_transformation",
+                "women_empowerment"
+            ],
+            "summary": "Rajkumari Devi transformed her farm through turmeric and vegetable intercropping, achieving substantial income increase and becoming a role model for women farmers.",
+            "impact": "Substantial income increase through turmeric intercropping, became community role model",
+            "sourceFile": "केस स्टडी राजकुमारी जी.docx"
+        },
+        {
+            "id": "cs_reena",
+            "type": "vulnerability",
+            "title": "रीना कुमारी: शिक्षा और आत्मनिर्भरता की कहानी",
+            "titleEn": "Reena Kumari: Education and Self-Reliance",
+            "village": "Lohra",
+            "gp": "Karikot",
+            "themes": [
+                "education",
+                "women_empowerment"
+            ],
+            "summary": "Reena Kumari's story of pursuing education and self-reliance despite economic constraints, with support from community organizations.",
+            "impact": "Pursuing education and self-reliance against economic odds",
+            "sourceFile": "केस स्टडी रीना  लोहरा .docx"
+        },
+        {
+            "id": "cs_gangiya",
+            "type": "transformation",
+            "title": "गंगिया देवी: सामुदायिक कार्रवाई से सशक्तिकरण",
+            "titleEn": "Gangiya Devi: Empowerment Through Collective Action",
+            "village": "Karikot",
+            "gp": "Karikot",
+            "themes": [
+                "collective_advocacy",
+                "organic_farming",
+                "women_empowerment"
+            ],
+            "summary": "Gangiya Devi's journey from passive beneficiary to active community advocate, participating in AAS-led collective actions for women's rights and organic farming.",
+            "impact": "Transitioned from passive beneficiary to active community organizer",
+            "sourceFile": "गंगिया देवी  केस स्टडी.docx"
+        },
+        {
+            "id": "cs_bindu",
+            "type": "vulnerability",
+            "title": "शराब का शिकार: बिन्दु देवी का परिवार",
+            "titleEn": "Victim of Alcohol: Bindu Devi's Family Story",
+            "village": "Rajaram Tanda",
+            "gp": "Karikot",
+            "themes": [
+                "social_issue_alcohol",
+                "widow_vulnerability",
+                "mnrega_corruption"
+            ],
+            "summary": "Bindu Devi (28), widowed after her husband died from alcohol abuse, struggles with 0.4 acres of land, wildlife crop destruction, and MNREGA corruption (paid ₹150 for job card, zero work days). She applied for DEHAT fellowship to fight social evils.",
+            "impact": "0.4 acres with alcohol epidemic context; paid bribes for MNREGA card with zero employment",
+            "sourceFile": "शराब का शिकार  बिन्दु देवी का परिवार.docx"
+        },
+        {
+            "id": "cs_sudama",
+            "type": "vulnerability",
+            "title": "सुदामा देवी की दर्द भरी कहानी",
+            "titleEn": "Sudama Devi's Heartbreaking Story",
+            "village": "Bhattha Bargadaha",
+            "gp": "Karikot",
+            "themes": [
+                "mnrega_corruption",
+                "widow_vulnerability",
+                "education",
+                "sanitation",
+                "women_empowerment"
+            ],
+            "summary": "Sudama Devi (57), a widow in Bhattha Bargadaha's forest-fringe village, was cheated ₹600 by the village head for MNREGA job cards (no work ever given). Her husband died untreated. Her son works as a contract labourer in Kannauj. No toilet, leaking thatch roof, and a 2-km walk for health/education.",
+            "impact": "Lost ₹600 to bribes for fake job cards; untreated husband died; family in extreme multidimensional poverty",
+            "sourceFile": "सुदामा देवी की दर्द भरी कहानी.docx"
+        },
+        {
+            "id": "cs_kavit",
+            "type": "vulnerability",
+            "title": "मेरा नाम कुमारी कविता है",
+            "titleEn": "My name is Kumari Kavita",
+            "village": "Fakirpuri",
+            "gp": "Fakirpuri",
+            "themes": [
+                "education",
+                "women_empowerment"
+            ],
+            "summary": "Kavita's personal narrative of seeking education and opportunity despite being a young woman from a marginalized community.",
+            "impact": "Personal journey of educational aspiration against socio-economic barriers",
+            "sourceFile": "मेरा नाम कुमारी कविता है.docx"
+        },
+        {
+            "id": "cs_chandani",
+            "type": "vulnerability",
+            "title": "मेरा नाम कुमारी चाँदनी है",
+            "titleEn": "My name is Kumari Chandani",
+            "village": "Fakirpuri",
+            "gp": "Fakirpuri",
+            "themes": [
+                "education",
+                "women_empowerment"
+            ],
+            "summary": "Chandani's story of navigating adolescence and educational aspirations in a resource-constrained tribal village.",
+            "impact": "Young woman's educational journey in Fakirpuri",
+            "sourceFile": "मेरा नाम कुमारी चाँदनी है.docx"
+        },
+        {
+            "id": "cs_sunil",
+            "type": "transformation",
+            "title": "सुनील कुमार: कृषि में नवाचार",
+            "titleEn": "Sunil Kumar: Innovation in Agriculture",
+            "village": "Rajaram Tanda",
+            "gp": "Karikot",
+            "themes": [
+                "organic_farming",
+                "income_transformation"
+            ],
+            "summary": "Sunil Kumar from Rajaram Tanda shares his experience adopting improved agricultural practices through DEHAT training.",
+            "impact": "Adopted improved practices through DEHAT training",
+            "sourceFile": "Sunil Kumar.docx"
+        },
+        {
+            "id": "cs_manju",
+            "type": "transformation",
+            "title": "सशक्त नारी: मंजू देवी की कहानी",
+            "titleEn": "Empowered Woman: Manju Devi's Story",
+            "village": "Fakirpuri",
+            "gp": "Fakirpuri",
+            "themes": [
+                "women_empowerment",
+                "income_transformation"
+            ],
+            "summary": "Manju Devi's journey from domestic constraints to community leadership and economic independence through SHG and DEHAT engagement.",
+            "impact": "Community leadership and economic independence achieved through SHG participation",
+            "sourceFile": "सशक्त नारी --मंजू देवी पति चुन्ना.docx"
+        },
+        {
+            "id": "cs_fairprice",
+            "type": "advocacy",
+            "title": "कोटेदार की बर्खास्तगी: सामुदायिक पैरोकारी की जीत",
+            "titleEn": "Fair-Price Shop Dealer Dismissed: A Community Advocacy Victory",
+            "village": "Fakirpuri",
+            "gp": "Fakirpuri",
+            "themes": [
+                "collective_advocacy",
+                "women_empowerment",
+                "education"
+            ],
+            "summary": "Community mobilization led to the dismissal of a corrupt fair-price shop dealer who was denying ration to entitled families in Fakirpuri.",
+            "impact": "Corrupt PDS dealer dismissed through community advocacy",
+            "sourceFile": "केश स्टडी -- फकीर पुरी.docx"
+        },
+        {
+            "id": "cs_geeta_onion",
+            "type": "factsheet_story",
+            "title": "गीता देवी: प्याज और करेला की मिश्रित खेती से दोहरा लाभ",
+            "titleEn": "Geeta Devi: Double Benefit from Onion and Bitter Gourd Mixed Farming",
+            "village": "Bhedhan Purwa",
+            "gp": "Karikot",
+            "themes": [
+                "organic_farming",
+                "crop_diversification",
+                "income_transformation"
+            ],
+            "summary": "Geeta Devi cultivated onion (4 quintals, ₹7,200 income) and bitter gourd (3 quintals, ₹3,500 income) on 5 biswa each using organic methods with DEHAT seed support, earning ₹6,850 net profit.",
+            "impact": "₹6,850 net profit from mixed organic vegetable cultivation on 10 biswa total",
+            "sourceFile": "Factsheet of Onion and bitter guard,Geeta devi.docx"
+        },
+        {
+            "id": "cs_kaushalya_turmeric",
+            "type": "factsheet_story",
+            "title": "कौशल्या: हल्दी की खेती से चार गुणा लाभ",
+            "titleEn": "Kaushalya: Four Times More Profit from Turmeric",
+            "village": "Lohra",
+            "gp": "Karikot",
+            "themes": [
+                "organic_farming",
+                "income_transformation",
+                "crop_diversification"
+            ],
+            "summary": "Kaushalya cultivated desi Sugandha turmeric on 0.8 acres, producing 90 quintals with ₹1,71,000 income and ₹92,500 net profit. She confirms turmeric gives 3-4x more profit than paddy-wheat.",
+            "impact": "₹92,500 net profit from 0.8 acre turmeric — 3-4x more than paddy-wheat",
+            "sourceFile": "FACT SHEET हल्दी कौशल्या लोहरा.docx"
+        },
+        {
+            "id": "cs_dwarika_cabbage",
+            "type": "factsheet_story",
+            "title": "द्वारिका प्रसाद: पत्ता गोभी की फसल से उच्च लाभ",
+            "titleEn": "Dwarika Prasad: High Returns from Cabbage",
+            "village": "Kailash Nagar",
+            "gp": "Vishunapur",
+            "themes": [
+                "organic_farming",
+                "income_transformation",
+                "crop_diversification"
+            ],
+            "summary": "Dwarka Prasad cultivated Swadeshi Champion cabbage on 0.2 acres with solar pump irrigation and organic methods, producing 20 quintals with ₹48,000 income and ₹39,200 net profit.",
+            "impact": "₹39,200 net profit from 0.2 acre cabbage — excellent small-plot returns",
+            "sourceFile": "द्वारिका प्रसाद जी की फैक्ट शीट.docx"
+        }
+    ]
+}

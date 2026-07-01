@@ -1,8 +1,9 @@
 import React, { useState, useMemo } from 'react';
-import { Sprout, Leaf, Utensils, AlertCircle, CheckCircle2, Info, TrendingUp, Users, IndianRupee } from 'lucide-react';
-import { ResponsiveContainer, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip as RechartsTooltip, Legend } from 'recharts';
+import { Sprout, Leaf, Utensils, AlertCircle, CheckCircle2, Info, TrendingUp, Users, IndianRupee, Quote, PieChart as PieChartIcon } from 'lucide-react';
+import { ResponsiveContainer, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip as RechartsTooltip, Legend, PieChart, Pie, Cell } from 'recharts';
 import * as Popover from '@radix-ui/react-popover';
 import cropEconomics from '../../data/crop_economics.json';
+import extractedFactSheets from '../../data/extracted_fact_sheets.json';
 
 // Hardcoded definitions removed to support dynamic, re-triangulated FDB data
 
@@ -154,12 +155,12 @@ export function AgricultureTab() {
                 <CartesianGrid strokeDasharray="3 3" stroke="#f1f5f9" />
                 <XAxis dataKey="year" tick={{ fontSize: 12 }} />
                 <YAxis tick={{ fontSize: 12 }} tickFormatter={(v: any) => `₹${(v / 1000).toFixed(0)}K`} />
-                <RechartsTooltip 
-                  contentStyle={{ borderRadius: '8px', border: '1px solid #e2e8f0' }} 
+                <RechartsTooltip
+                  contentStyle={{ borderRadius: '8px', border: '1px solid #e2e8f0' }}
                   formatter={(v: any, name: any, props: any) => {
                     const label = props.dataKey === 'avgCost' ? 'Avg Cost/Farmer' : 'Avg Net Income/Farmer';
                     return [`₹${Number(v).toLocaleString('en-IN')}`, label];
-                  }} 
+                  }}
                 />
                 <Legend />
                 <Bar dataKey="avgCost" fill="#a5b4fc" name="Avg Cost/Farmer" radius={[4, 4, 0, 0]} />
@@ -183,6 +184,72 @@ export function AgricultureTab() {
               <Bar dataKey="farmers" fill="#8b5cf6" radius={[6, 6, 0, 0]} name="Farmers" />
             </BarChart>
           </ResponsiveContainer>
+        </div>
+      </div>
+
+      {/* Farmer Testimonials from Fact Sheets */}
+      <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
+        <div className="flex items-center gap-2 mb-4">
+          <Quote size={20} className="text-amber-500" />
+          <h3 className="text-lg font-bold text-slate-800">Farmer Testimonials — Crop Economics</h3>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          {(extractedFactSheets as any[]).filter((f: any) => f.testimonial).slice(0, 6).map((fs: any, i: number) => (
+            <div key={i} className="bg-amber-50/40 border border-amber-100 rounded-xl p-4 relative">
+              <span className="absolute -top-1 left-3 text-4xl text-amber-200/60 font-serif leading-none">"</span>
+              <p className="text-sm text-amber-900 italic font-serif pl-3 relative z-10 leading-relaxed">
+                {fs.testimonial}
+              </p>
+              <div className="mt-3 flex items-center justify-between text-xs text-amber-700 border-t border-amber-100 pt-2">
+                <span className="font-semibold">{fs.farmerName || 'Farmer'}</span>
+                <span>{fs.village} • {fs.crop}</span>
+              </div>
+            </div>
+          ))}
+        </div>
+        <div className="mt-4">
+          <EvidenceDrawer source="extracted_fact_sheets.json" sheet="Farmer testimonial field" calculation="Direct quotes from 18 fact sheets collected from trial plots across 11 villages" rfLink="RF 2.6 — Qualitative evidence" status="Verified" caution="Testimonials are farmer self-reports. Economic figures are from trial plot data, not full-season accounts." />
+        </div>
+      </div>
+
+      {/* Micro-Plot Economics Widget */}
+      <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
+        <div className="flex items-center gap-2 mb-4">
+          <PieChartIcon size={20} className="text-emerald-500" />
+          <h3 className="text-lg font-bold text-slate-800">Micro-Plot Economics (≤0.05 acres)</h3>
+          <span className="text-xs bg-emerald-50 text-emerald-700 px-2 py-0.5 rounded-full font-semibold border border-emerald-100">New</span>
+        </div>
+        <p className="text-sm text-slate-500 mb-4">8 fact sheets document profitable cultivation on plots of 2.5 biswa or less — proving kitchen-garden scale viability</p>
+        <div className="overflow-x-auto">
+          <table className="w-full text-sm">
+            <thead>
+              <tr className="border-b border-slate-200 text-slate-500 text-xs">
+                <th className="text-left py-2 font-semibold">Farmer</th>
+                <th className="text-left py-2 font-semibold">Crop</th>
+                <th className="text-right py-2 font-semibold">Area (ac)</th>
+                <th className="text-right py-2 font-semibold">Cost (₹)</th>
+                <th className="text-right py-2 font-semibold">Income (₹)</th>
+                <th className="text-right py-2 font-semibold">Net Profit (₹)</th>
+                <th className="text-right py-2 font-semibold">₹/acre</th>
+              </tr>
+            </thead>
+            <tbody className="divide-y divide-slate-100">
+              {(extractedFactSheets as any[]).filter((f: any) => f.areaAcres && f.areaAcres <= 0.05 && f.income?.netProfit).map((fs: any, i: number) => (
+                <tr key={i} className="hover:bg-slate-50">
+                  <td className="py-2.5 font-medium text-slate-800">{fs.farmerName || 'N/A'}</td>
+                  <td className="py-2.5 text-slate-600">{fs.crop}</td>
+                  <td className="py-2.5 text-right font-mono text-slate-500">{fs.areaAcres.toFixed(2)}</td>
+                  <td className="py-2.5 text-right font-mono text-slate-500">{fs.costs?.totalInput || 'N/A'}</td>
+                  <td className="py-2.5 text-right font-mono text-slate-700">{fs.income?.totalIncome || 0}</td>
+                  <td className="py-2.5 text-right font-mono text-emerald-600 font-semibold">{fs.income?.netProfit || 0}</td>
+                  <td className="py-2.5 text-right font-mono text-emerald-600">{fs.netProfitPerAcre?.toLocaleString('en-IN') || 'N/A'}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <div className="mt-4">
+          <EvidenceDrawer source="extracted_fact_sheets.json" sheet="Filtered area ≤0.05 acres" calculation="Direct from trial plot data. Area converted: 1 biswa = 0.01 acres, 1 bigha = 0.2 acres" rfLink="RF 2.6 — Micro-plot viability" status="Verified" caution="Small sample (8 plots). Per-acre figures extrapolated from micro-plots and may not scale linearly." />
         </div>
       </div>
     </div>

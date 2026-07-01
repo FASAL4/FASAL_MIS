@@ -1,0 +1,438 @@
+{
+  "generatedAt": "2026-07-01T12:32:06.052Z",
+  "summary": {
+    "factsheetsProcessed": 18,
+    "casestudiesProcessed": 18,
+    "villagesCovered": 13,
+    "cropsDocumented": 10,
+    "aasGroupsInFactsheets": 11,
+    "aasGroupsMatched": 11,
+    "themeDistribution": [
+      {
+        "theme": "women_empowerment",
+        "count": 14,
+        "pct": 78
+      },
+      {
+        "theme": "organic_farming",
+        "count": 7,
+        "pct": 39
+      },
+      {
+        "theme": "income_transformation",
+        "count": 7,
+        "pct": 39
+      },
+      {
+        "theme": "education",
+        "count": 5,
+        "pct": 28
+      },
+      {
+        "theme": "crop_diversification",
+        "count": 5,
+        "pct": 28
+      },
+      {
+        "theme": "advocacy_electricity",
+        "count": 5,
+        "pct": 28
+      },
+      {
+        "theme": "widow_vulnerability",
+        "count": 5,
+        "pct": 28
+      },
+      {
+        "theme": "collective_advocacy",
+        "count": 4,
+        "pct": 22
+      },
+      {
+        "theme": "social_issue_alcohol",
+        "count": 3,
+        "pct": 17
+      },
+      {
+        "theme": "sanitation",
+        "count": 3,
+        "pct": 17
+      },
+      {
+        "theme": "mnrega_corruption",
+        "count": 2,
+        "pct": 11
+      },
+      {
+        "theme": "asset_building",
+        "count": 1,
+        "pct": 6
+      }
+    ]
+  },
+  "cropEconomics": [
+    {
+      "crop": "प्याज",
+      "count": 6,
+      "avgNetProfit": 3596,
+      "avgNetPerAcre": 35267,
+      "minArea": 0.02,
+      "maxArea": 1
+    },
+    {
+      "crop": "टमाटर",
+      "count": 1,
+      "avgNetProfit": 10300,
+      "avgNetPerAcre": 515000,
+      "minArea": 0.02,
+      "maxArea": 0.02
+    },
+    {
+      "crop": "भिन्डी",
+      "count": 1,
+      "avgNetProfit": 99000,
+      "avgNetPerAcre": 2475000,
+      "minArea": 0.04000000000000001,
+      "maxArea": 0.04000000000000001
+    },
+    {
+      "crop": "मसूर",
+      "count": 1,
+      "avgNetProfit": 8600,
+      "avgNetPerAcre": 430000,
+      "minArea": 0.020000000000000004,
+      "maxArea": 0.020000000000000004
+    },
+    {
+      "crop": "हल्दी",
+      "count": 4,
+      "avgNetProfit": 31618,
+      "avgNetPerAcre": 180066,
+      "minArea": 0.1,
+      "maxArea": 0.8
+    },
+    {
+      "crop": "की अवधि (कुल दिन)",
+      "count": 1,
+      "avgNetProfit": 0,
+      "avgNetPerAcre": 0,
+      "minArea": 0,
+      "maxArea": 0
+    },
+    {
+      "crop": "करेला",
+      "count": 1,
+      "avgNetProfit": 20100,
+      "avgNetPerAcre": 12563,
+      "minArea": 1.6,
+      "maxArea": 1.6
+    },
+    {
+      "crop": "पत्ता गोभी",
+      "count": 1,
+      "avgNetProfit": 39200,
+      "avgNetPerAcre": 196000,
+      "minArea": 0.2,
+      "maxArea": 0.2
+    },
+    {
+      "crop": "फूलगोभी",
+      "count": 1,
+      "avgNetProfit": 7420,
+      "avgNetPerAcre": 3710000,
+      "minArea": 0.002,
+      "maxArea": 0.002
+    },
+    {
+      "crop": "फूल गोभी",
+      "count": 1,
+      "avgNetProfit": 16900,
+      "avgNetPerAcre": 845000,
+      "minArea": 0.020000000000000004,
+      "maxArea": 0.020000000000000004
+    }
+  ],
+  "villageCoverage": [
+    {
+      "gp": "Karikot",
+      "village": "भट्ठा बरगदहा",
+      "covered": false
+    },
+    {
+      "gp": "Karikot",
+      "village": "Bhattha Bargadaha",
+      "covered": false
+    },
+    {
+      "gp": "Karikot",
+      "village": "राजाराम टांडा",
+      "covered": true
+    },
+    {
+      "gp": "Karikot",
+      "village": "Rajaram Tanda",
+      "covered": false
+    },
+    {
+      "gp": "Karikot",
+      "village": "राम पुरवा",
+      "covered": true
+    },
+    {
+      "gp": "Karikot",
+      "village": "Ram Purwa",
+      "covered": false
+    },
+    {
+      "gp": "Karikot",
+      "village": "कैलाश नगर",
+      "covered": true
+    },
+    {
+      "gp": "Karikot",
+      "village": "Kailash Nagar",
+      "covered": false
+    },
+    {
+      "gp": "Karikot",
+      "village": "बढ़ीहन पुरवा",
+      "covered": true
+    },
+    {
+      "gp": "Karikot",
+      "village": "बढ़ियनपुरवा",
+      "covered": true
+    },
+    {
+      "gp": "Karikot",
+      "village": "भेड़हन पुरवा",
+      "covered": true
+    },
+    {
+      "gp": "Karikot",
+      "village": "Bhedhan Purwa",
+      "covered": false
+    },
+    {
+      "gp": "Karikot",
+      "village": "लोहरा",
+      "covered": true
+    },
+    {
+      "gp": "Karikot",
+      "village": "Lohra",
+      "covered": false
+    },
+    {
+      "gp": "Karikot",
+      "village": "हजारी पुरवा",
+      "covered": false
+    },
+    {
+      "gp": "Karikot",
+      "village": "Hajaripurwa",
+      "covered": false
+    },
+    {
+      "gp": "Fakirpuri",
+      "village": "फकीरपुरी",
+      "covered": true
+    },
+    {
+      "gp": "Fakirpuri",
+      "village": "Fakirpuri",
+      "covered": false
+    },
+    {
+      "gp": "Fakirpuri",
+      "village": "फ़क़ीरपूरी",
+      "covered": true
+    },
+    {
+      "gp": "Fakirpuri",
+      "village": "Fakir Puri",
+      "covered": false
+    },
+    {
+      "gp": "Chahalwa",
+      "village": "घूरेपुरवा",
+      "covered": false
+    },
+    {
+      "gp": "Chahalwa",
+      "village": "Ghoorepurwa",
+      "covered": false
+    },
+    {
+      "gp": "Chahalwa",
+      "village": "मंगलपुरवा",
+      "covered": false
+    },
+    {
+      "gp": "Chahalwa",
+      "village": "Mangalpurwa",
+      "covered": false
+    },
+    {
+      "gp": "Chahalwa",
+      "village": "सिरसियनपुरवा",
+      "covered": false
+    },
+    {
+      "gp": "Chahalwa",
+      "village": "Sirsiyanpurwa",
+      "covered": false
+    },
+    {
+      "gp": "Chahalwa",
+      "village": "सिरसियन पुरवा",
+      "covered": true
+    },
+    {
+      "gp": "Bajpur Bankati",
+      "village": "बाजपुर बनकटी",
+      "covered": true
+    },
+    {
+      "gp": "Bajpur Bankati",
+      "village": "Bajpur Bankati",
+      "covered": false
+    },
+    {
+      "gp": "Mangalpurwa",
+      "village": "मंगलपुरवा",
+      "covered": false
+    },
+    {
+      "gp": "Mangalpurwa",
+      "village": "Mangalpurwa",
+      "covered": false
+    },
+    {
+      "gp": "Vishunapur",
+      "village": "विशुनापुर",
+      "covered": true
+    },
+    {
+      "gp": "Vishunapur",
+      "village": "Vishunapur",
+      "covered": false
+    },
+    {
+      "gp": "Vishunapur",
+      "village": "विष्णुपुर",
+      "covered": false
+    },
+    {
+      "gp": "Badkhadiya",
+      "village": "ढोढेपुरवा",
+      "covered": false
+    },
+    {
+      "gp": "Badkhadiya",
+      "village": "Dhodhepurwa",
+      "covered": false
+    },
+    {
+      "gp": "Badkhadiya",
+      "village": "बढ़खड़िया",
+      "covered": false
+    }
+  ],
+  "insights": [
+    {
+      "dashboard": "Income Security / Agriculture (OC2)",
+      "finding": "Turmeric: 4 fact sheets confirm average net profit of ₹31,618/farmer. Dashboard reported ₹34,202 (137 farmers). Fact sheets show smaller sample with similar per-acre economics.",
+      "action": "Add fact sheet testimonial data as qualitative evidence layer beneath turmeric income numbers. Fact sheets validate ₹1,15,000–1,71,000/acre income range.",
+      "confidence": "High"
+    },
+    {
+      "dashboard": "Agriculture Adoption (OC2)",
+      "finding": "8 fact sheets document high profitability on plots ≤0.05 acres (≤2.5 biswa). Average net profit: ₹18,493.",
+      "action": "Add \"Micro-Plot Economics\" widget showing per-biswa profitability. This strengthens the case for kitchen garden/rooftop farming adoption for landless/near-landless families.",
+      "confidence": "High"
+    },
+    {
+      "dashboard": "Farmer Institutions (OC1)",
+      "finding": "11/11 AAS groups from fact sheets match known registry. Groups identified: राम वचन, ख़ुशी, अंगूरी, दुर्गा, जय आजादी, आरती, कारीकोट मैया, बाला जी, जगदम्बे, काजल, वैष्णो. New/uncertain: ",
+      "action": "Cross-verify uncertain AAS names against full AAS INFO table (88 rows). Update AAS group filter on dashboard.",
+      "confidence": "Medium"
+    },
+    {
+      "dashboard": "Coverage / Results Snapshot",
+      "finding": "25 of 20 target villages lack qualitative evidence: भट्ठा बरगदहा, Bhattha Bargadaha, Rajaram Tanda, Ram Purwa, Kailash Nagar, Bhedhan Purwa, Lohra, हजारी पुरवा, Hajaripurwa, Fakirpuri, Fakir Puri, घूरेपुरवा, Ghoorepurwa, मंगलपुरवा, Mangalpurwa, सिरसियनपुरवा, Sirsiyanpurwa, Bajpur Bankati, मंगलपुरवा, Mangalpurwa, Vishunapur, विष्णुपुर, ढोढेपुरवा, Dhodhepurwa, बढ़खड़िया. Priority GPs: Karikot, Fakirpuri, Chahalwa, Bajpur Bankati, Mangalpurwa, Vishunapur, Badkhadiya.",
+      "action": "Field team should prioritize fact sheet collection from uncovered villages to ensure representative qualitative evidence across all GPs.",
+      "confidence": "High"
+    },
+    {
+      "dashboard": "Stories of Change",
+      "finding": "Top case study themes: women_empowerment (14), organic_farming (7), income_transformation (7), education (5), crop_diversification (5). 18 narrative stories available vs. current 2 existing case studies in DB.",
+      "action": "Create \"Stories of Change\" dashboard tab with filterable themes, GP-wise story cards, and direct links to fact sheet economics for farmer profiles.",
+      "confidence": "High"
+    },
+    {
+      "dashboard": "Rights & Leverage (OC4)",
+      "finding": "7 case studies document collective advocacy wins: electricity bill waiver (₹6L for 70 families), fair-price shop reform, MNREGA corruption exposure. Dashboard currently shows ₹8.25Cr total leverage but lacks the \"how\" narrative.",
+      "action": "Add \"Advocacy Impact Stories\" section beneath leverage numbers. Link each leverage type to supporting case studies for donor reporting.",
+      "confidence": "High"
+    },
+    {
+      "dashboard": "Intersectional Impact",
+      "finding": "6 case studies reveal critical social issues not tracked in FDB: illicit liquor epidemic (40% women consumers in Rajaram Tanda), MNREGA job card fraud, stray animal crop destruction, widow landlessness. FDB has no fields for these.",
+      "action": "Create \"Social Vulnerability Indicators\" section in Intersectional tab with case study-backed qualitative data and recommended FDB field additions.",
+      "confidence": "Medium"
+    },
+    {
+      "dashboard": "Agriculture Adoption (OC2)",
+      "finding": "Fact sheets document 10 crop types: प्याज, टमाटर, भिन्डी, मसूर, हल्दी, की अवधि (कुल दिन), करेला, पत्ता गोभी, फूलगोभी, फूल गोभी. Dashboard tracks 26 crops. Fact sheets provide per-crop cost breakdowns (seed, land, irrigation, labour, transport, mulching) not available in MIS aggregated data.",
+      "action": "Add \"Crop Economics Drill-Down\" with cost pie charts per crop type. Use fact sheet itemized costs to calculate average cost structure for each crop.",
+      "confidence": "High"
+    }
+  ],
+  "aasVerification": [
+    {
+      "name": "राम वचन",
+      "matched": true
+    },
+    {
+      "name": "ख़ुशी",
+      "matched": true
+    },
+    {
+      "name": "अंगूरी",
+      "matched": true
+    },
+    {
+      "name": "दुर्गा",
+      "matched": true
+    },
+    {
+      "name": "जय आजादी",
+      "matched": true
+    },
+    {
+      "name": "आरती",
+      "matched": true
+    },
+    {
+      "name": "कारीकोट मैया",
+      "matched": true
+    },
+    {
+      "name": "बाला जी",
+      "matched": true
+    },
+    {
+      "name": "जगदम्बे",
+      "matched": true
+    },
+    {
+      "name": "काजल",
+      "matched": true
+    },
+    {
+      "name": "वैष्णो",
+      "matched": true
+    }
+  ]
+}

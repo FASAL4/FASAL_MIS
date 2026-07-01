@@ -16,3 +16,5 @@
 
 
 
+
+* 2026-07-01 - Cline: Completed Fact Sheets ^& Case Studies triangulation. Analyzed 44 files (37 docx + 7 image PDFs), extracted 18 factsheets and 18 case studies, triangulated against master_context.db (73 tables). Generated 8 dashboard insights. Outputs: src/data/extracted_fact_sheets.json, extracted_case_studies.json, triangulation_report.json.

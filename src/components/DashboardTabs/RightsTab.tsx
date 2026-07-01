@@ -1,30 +1,31 @@
 import React, { useState } from 'react';
-import { Shield, Users, IndianRupee, Building2, HelpCircle, ArrowRight, CheckCircle2, AlertCircle, LineChart as LucideLineChart } from 'lucide-react';
+import { Shield, Users, IndianRupee, Building2, HelpCircle, ArrowRight, CheckCircle2, AlertCircle, LineChart as LucideLineChart, BookOpen } from 'lucide-react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, LineChart, Line } from 'recharts';
 import * as Popover from '@radix-ui/react-popover';
 import yearlyEntitlements from '../../data/yearly_entitlements.json';
+import storiesOfChange from '../../data/stories_of_change.json';
 
 const formatCurrencyLakhs = (valueInLakhs: number) => {
-  if (valueInLakhs >= 100) {
-    return `₹${(valueInLakhs / 100).toFixed(2)} Cr`;
-  }
-  return `₹${valueInLakhs.toFixed(2)} L`;
+    if (valueInLakhs >= 100) {
+        return `₹${(valueInLakhs / 100).toFixed(2)} Cr`;
+    }
+    return `₹${valueInLakhs.toFixed(2)} L`;
 };
 
 const formatYAxisLakhs = (v: number) => {
-  if (v >= 100) {
-    return `₹${(v / 100).toFixed(1)} Cr`;
-  }
-  return `₹${v.toFixed(0)} L`;
+    if (v >= 100) {
+        return `₹${(v / 100).toFixed(1)} Cr`;
+    }
+    return `₹${v.toFixed(0)} L`;
 };
 
 const GP_VILLAGE_MAP: Record<string, string[]> = {
-  'Karikot': ['Rajaram Tanda', 'Narayan Tanda', 'Jamuniha', 'Bhatta Bargadaha', 'Azamgadhpurwa'],
-  'Fakirpuri': ['Fakirpuri', 'Lohra', 'Rampurwa', 'Badihanpurwa'],
-  'Chahalwa': ['Sirsiyanpurwa', 'Hajaripurwa', 'Badhiyanpurwa', 'Mangalpurwa'],
-  'Bajpur Bankati': ['Bajpur Bankati', 'Jamuniya', 'Dhondhepurwa'],
-  'Vishunapur': ['Vishunapur', 'Kailash Nagar', 'Kailash Nagar Dekhiya', 'Dhodhepurwa', 'Vishuntanda'],
-  'Badkhadiya': ['Ghoorepurwa', 'Bhodahanpurwa']
+    'Karikot': ['Rajaram Tanda', 'Narayan Tanda', 'Jamuniha', 'Bhatta Bargadaha', 'Azamgadhpurwa'],
+    'Fakirpuri': ['Fakirpuri', 'Lohra', 'Rampurwa', 'Badihanpurwa'],
+    'Chahalwa': ['Sirsiyanpurwa', 'Hajaripurwa', 'Badhiyanpurwa', 'Mangalpurwa'],
+    'Bajpur Bankati': ['Bajpur Bankati', 'Jamuniya', 'Dhondhepurwa'],
+    'Vishunapur': ['Vishunapur', 'Kailash Nagar', 'Kailash Nagar Dekhiya', 'Dhodhepurwa', 'Vishuntanda'],
+    'Badkhadiya': ['Ghoorepurwa', 'Bhodahanpurwa']
 };
 
 const EvidenceDrawer = ({ title, source, sheet, calculation, rfLink, status, caution }: any) => {
@@ -72,7 +73,7 @@ export function RightsTab({ farmersData = [] }: { farmersData?: any[] }) {
     const [selectedVillageName, setSelectedVillageName] = useState('Rajaram Tanda');
     const [hhSearchQuery, setHhSearchQuery] = useState('');
     const [selectedYear, setSelectedYear] = useState('Cumulative');
-    
+
     // Dynamic Right selector states
     const [selectedRightsYear, setSelectedRightsYear] = useState('Cumulative');
     const [selectedEntitlementLimit, setSelectedEntitlementLimit] = useState('10');
@@ -204,14 +205,14 @@ export function RightsTab({ farmersData = [] }: { farmersData?: any[] }) {
                             </div>
                             <div className="space-y-2">
                                 {gpData.map((gp, i) => (
-                                    <button 
-                                        key={i} 
+                                    <button
+                                        key={i}
                                         onClick={() => {
                                             setSelectedGPName(gp.name);
                                             const villages = GP_VILLAGE_MAP[gp.name] || [];
                                             if (villages.length > 0) setSelectedVillageName(villages[0]);
                                             setDrilldownLevel('village');
-                                        }} 
+                                        }}
                                         className="w-full flex items-center justify-between p-3 rounded-xl border text-sm transition-all hover:bg-slate-50/50 border-slate-100 bg-white group hover:border-emerald-200"
                                     >
                                         <div className="flex items-center gap-3">
@@ -252,8 +253,8 @@ export function RightsTab({ farmersData = [] }: { farmersData?: any[] }) {
                                 {(GP_VILLAGE_MAP[selectedGPName] || []).map((village, i) => {
                                     const count = farmersData.filter(f => f.village === village).length;
                                     return (
-                                        <button 
-                                            key={i} 
+                                        <button
+                                            key={i}
                                             onClick={() => {
                                                 setSelectedVillageName(village);
                                                 setDrilldownLevel('household');
@@ -329,9 +330,9 @@ export function RightsTab({ farmersData = [] }: { farmersData?: any[] }) {
                                                 .filter(f => f.village === selectedVillageName)
                                                 .filter(f => {
                                                     if (!hhSearchQuery) return true;
-                                                    return f.name.toLowerCase().includes(hhSearchQuery.toLowerCase()) || 
-                                                           f.id.toLowerCase().includes(hhSearchQuery.toLowerCase()) ||
-                                                           (f.group && f.group.toLowerCase().includes(hhSearchQuery.toLowerCase()));
+                                                    return f.name.toLowerCase().includes(hhSearchQuery.toLowerCase()) ||
+                                                        f.id.toLowerCase().includes(hhSearchQuery.toLowerCase()) ||
+                                                        (f.group && f.group.toLowerCase().includes(hhSearchQuery.toLowerCase()));
                                                 });
                                             if (filtered.length === 0) {
                                                 return (
@@ -391,12 +392,12 @@ export function RightsTab({ farmersData = [] }: { farmersData?: any[] }) {
                         <span className="text-slate-300">/</span>
                         <span className="font-bold text-indigo-700">{selectedVillageName} Village</span>
                     </div>
-                    <button 
+                    <button
                         onClick={() => {
                             setSelectedGPName('Karikot');
                             setSelectedVillageName('Rajaram Tanda');
                             setDrilldownLevel('gp');
-                        }} 
+                        }}
                         className="text-xs text-slate-500 hover:text-slate-800 font-semibold flex items-center gap-1 transition-colors"
                     >
                         Reset to Top GP Level
@@ -478,14 +479,14 @@ export function RightsTab({ farmersData = [] }: { farmersData?: any[] }) {
                                 <CartesianGrid strokeDasharray="3 3" stroke="#f1f5f9" />
                                 <XAxis dataKey="year" tick={{ fontSize: 12 }} />
                                 <YAxis yAxisId="left" tick={{ fontSize: 12 }} tickFormatter={(v: any) => formatYAxisLakhs(v)} stroke="#10b981" />
-                                <YAxis yAxisId="right" orientation="right" tick={{ fontSize: 12 }} tickFormatter={(v: any) => `₹${(v/1000).toFixed(0)}K`} stroke="#6366f1" />
-                                <Tooltip 
-                                    contentStyle={{ borderRadius: '8px', border: '1px solid #e2e8f0' }} 
+                                <YAxis yAxisId="right" orientation="right" tick={{ fontSize: 12 }} tickFormatter={(v: any) => `₹${(v / 1000).toFixed(0)}K`} stroke="#6366f1" />
+                                <Tooltip
+                                    contentStyle={{ borderRadius: '8px', border: '1px solid #e2e8f0' }}
                                     formatter={(v: any, name: any) => {
                                         if (name === 'amount') return [formatCurrencyLakhs(Number(v)), 'Total Leverage'];
                                         if (name === 'avgPerFamily') return [`₹${Number(v).toLocaleString('en-IN')}`, 'Avg Benefit/Family'];
                                         return [v, name];
-                                    }} 
+                                    }}
                                 />
                                 <Legend />
                                 <Line yAxisId="left" type="monotone" dataKey="amount" stroke="#10b981" strokeWidth={3} dot={{ r: 5, fill: '#10b981' }} name="amount" />
@@ -498,7 +499,7 @@ export function RightsTab({ farmersData = [] }: { farmersData?: any[] }) {
                             <div key={i} className="bg-slate-50 p-2.5 rounded-lg text-center flex flex-col justify-between">
                                 <div className="text-xs text-slate-500 font-semibold">{d.year}</div>
                                 <div className="text-sm font-bold text-emerald-600 mt-0.5">{formatCurrencyLakhs(d.amount)}</div>
-                                <div className="text-[10px] text-slate-400 mt-0.5">Avg: ₹{(d.avgPerFamily/1000).toFixed(1)}K</div>
+                                <div className="text-[10px] text-slate-400 mt-0.5">Avg: ₹{(d.avgPerFamily / 1000).toFixed(1)}K</div>
                             </div>
                         ))}
                     </div>
@@ -514,6 +515,38 @@ export function RightsTab({ farmersData = [] }: { farmersData?: any[] }) {
                 <div className="text-sm text-slate-300 text-right">
                     <div>352,210 total advocacy actions → 350,908 received</div>
                     <div className="text-emerald-400 font-semibold mt-1">99.6% of advocacy resulted in access</div>
+                </div>
+            </div>
+
+            {/* Advocacy Impact Stories — from extracted case studies */}
+            <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
+                <div className="flex items-center gap-2 mb-4">
+                    <BookOpen size={20} className="text-indigo-500" />
+                    <h3 className="text-lg font-bold text-slate-800">Advocacy Impact Stories</h3>
+                    <span className="text-xs bg-indigo-50 text-indigo-700 px-2 py-0.5 rounded-full font-semibold border border-indigo-100">New</span>
+                </div>
+                <p className="text-sm text-slate-500 mb-4">Qualitative evidence of collective advocacy driving the ₹8.25 Cr leverage</p>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    {(storiesOfChange as any).stories.filter((s: any) => s.type === 'advocacy').slice(0, 4).map((story: any, i: number) => (
+                        <div key={i} className="border border-slate-100 rounded-xl p-4 hover:shadow-sm hover:border-indigo-200 transition-all">
+                            <div className="flex items-start gap-3">
+                                <div className="bg-indigo-50 p-2 rounded-lg shrink-0 mt-0.5">
+                                    <BookOpen size={16} className="text-indigo-600" />
+                                </div>
+                                <div className="min-w-0">
+                                    <h4 className="text-sm font-bold text-slate-800 leading-snug">{story.titleEn}</h4>
+                                    <p className="text-xs text-slate-500 mt-1">{story.village} • {story.gp} GP</p>
+                                    <p className="text-xs text-slate-600 mt-2 leading-relaxed">{story.summary}</p>
+                                    <div className="mt-2 flex flex-wrap gap-1.5">
+                                        <span className="text-[10px] font-semibold bg-emerald-50 text-emerald-700 px-1.5 py-0.5 rounded border border-emerald-100">{story.impact}</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    ))}
+                </div>
+                <div className="mt-4">
+                    <EvidenceDrawer source="extracted_case_studies.json" title="" sheet="Filtered: type=advocacy" calculation="Direct narrative summaries from 7 advocacy-focused case studies out of 18 total" rfLink="Outcome 1/4 — Collective advocacy" status="Verified" caution="Case studies are qualitative evidence. Impact amounts are as reported by community members." />
                 </div>
             </div>
         </div>

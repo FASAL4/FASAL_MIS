@@ -1,0 +1,540 @@
+[
+  {
+    "sourceFile": "FACT SHEET ONION  2026 राम वचन राम पुरवा.docx",
+    "type": "factsheet",
+    "factsheetNumber": "01",
+    "farmerName": "राम वचन",
+    "husbandName": "सगी राम",
+    "aasGroup": "राम वचन",
+    "village": "राम पुरवा",
+    "block": "मिहिपुरवा",
+    "district": "बहराइच",
+    "state": "उत्तर पोरदेश",
+    "crop": "प्याज",
+    "variety": "एग्रीफाउनड",
+    "areaRaw": "05 बिसवा",
+    "areaAcres": 0.05,
+    "dates": {},
+    "production": {
+      "quintals": 2,
+      "kg": 200
+    },
+    "costs": {
+      "totalInput": 1700
+    },
+    "income": {
+      "totalIncome": 5000,
+      "netProfit": 3300
+    },
+    "testimonial": "कम समय और कम लगत में बढ़िया मुनाफा हुआ. घर के लिए जरुरत के लायक प्याज मिल गया. Cost of Labour मजदुर 500 Total Input Cost: कुल लागत खर्च 1700 कुल उत्पादन क्विंटल में 200 kg Total income in INR कुल आय 5000",
+    "netProfitPerAcre": 66000,
+    "incomePerAcre": 100000
+  },
+  {
+    "sourceFile": "FACT SHEET Onion Kusuma Devi Fakirpuri.docx",
+    "type": "factsheet",
+    "farmerName": "कमला देवी",
+    "husbandName": "ख़ुशी राम",
+    "aasGroup": "ख़ुशी",
+    "village": "फ़क़ीरपूरी",
+    "block": "मिहिपुरवा",
+    "district": "बहराइच",
+    "state": "उत्तर प्रदेश",
+    "crop": "प्याज",
+    "variety": "एग्रीफाउंड रेड",
+    "areaRaw": "02 बीसा",
+    "areaAcres": 0.02,
+    "dates": {},
+    "production": {
+      "quintals": 0.5,
+      "kg": 50
+    },
+    "costs": {
+      "totalInput": 100
+    },
+    "income": {
+      "totalIncome": 1250,
+      "netProfit": 1150
+    },
+    "testimonial": "घर के बरिया में 50 किलो प्याज का उत्पादन हुआ जो हमें ख़ुशी मह्सुश हुआ. पहले हमें बीज नहीं मिलता था इसलिए अपने किचेन गार्डन में अपने परिवार के लिए सब्जी बाजार से लती थी. अब संस्था के सहयोग से हमें समय पर बीज मिल जाता है जिसके कारन हमारा बारी में परिवार के लिए जरूरत की ताजी सब्जी समय से मिल जाता है.",
+    "netProfitPerAcre": 57500,
+    "incomePerAcre": 62500
+  },
+  {
+    "sourceFile": "FACT SHEET Onion Mamta  Devi Badhiyanpurwa  2026.docx",
+    "type": "factsheet",
+    "farmerName": "ममता  देवी",
+    "husbandName": "सत्य प्रकाश",
+    "aasGroup": "अंगूरी",
+    "village": "बढ़ियनपुरवा कारीकोट",
+    "block": "मिहिपुरवा",
+    "district": "बहराइच",
+    "state": "उत्तर प्रदेश",
+    "crop": "प्याज",
+    "variety": "एग्रीफाउंड रेड",
+    "areaRaw": "02 बीसा",
+    "areaAcres": 0.02,
+    "dates": {},
+    "production": {
+      "quintals": 0.55,
+      "kg": 55
+    },
+    "costs": {
+      "seed": 55,
+      "totalInput": 100
+    },
+    "income": {
+      "totalIncome": 1375,
+      "netProfit": 1275
+    },
+    "testimonial": "घर के बरिया में 55 किलो प्याज का उत्पादन हुआ जो हमें ख़ुशी मह्सुश हुआ. पहले हमें बीज नहीं मिलता था इसलिए अपने किचेन गार्डन में अपने परिवार के लिए सब्जी बाजार से लती थी. अब संस्था के सहयोग से हमें समय पर बीज मिल जाता है जिसके कारन हमारा बारी में परिवार के लिए जरूरत की ताजी सब्जी समय से मिल जाता है. इस प्याज में किसी तरह का रासायनिक दावा भी नहीं दिया हूँ. मेरी आर्थिक स्थिति  यह हमारे स्वास्थ्य के लिए बढ़िया है. परिवार में आय का साधन कमजोर होने से हम हर रोज बाज़ार से प्याज नहीं खरीद पति थी अपने बारी में होने से हमेशा खाती हूँ. Cost of Irrigation सिंचाई 100 Cost of Labour मजदुर स्वयं Total Input Cost: कुल लागत खर्च 100 Total production in Qt. कुल उत्पादन क्विंटल में 55 किलो",
+    "netProfitPerAcre": 63750,
+    "incomePerAcre": 68750
+  },
+  {
+    "sourceFile": "FACT SHEET Tomato Arpana Ji.docx",
+    "type": "factsheet",
+    "factsheetNumber": "01",
+    "farmerName": "अर्पणा",
+    "husbandName": "पावन कुमार",
+    "aasGroup": null,
+    "village": "विशुनापुर",
+    "block": "मिहिपुरवा",
+    "district": "बहराइच",
+    "state": "उत्तर प्रदेश",
+    "crop": "टमाटर",
+    "variety": "अभिलाष",
+    "areaRaw": "02 बिस्वा",
+    "areaAcres": 0.02,
+    "dates": {},
+    "production": {
+      "quintals": 3,
+      "kg": 300
+    },
+    "costs": {
+      "totalInput": 1700
+    },
+    "income": {
+      "totalIncome": 12000,
+      "netProfit": 10300
+    },
+    "testimonial": "कम लगत पर थोड़ी सी जमीं में ज्यादा लाभ मिला यह लाभदायक खेती है. पुरे सीजन परिवार में खाने के बाद 10000 का लाभ मिला जो कि अन्य किसी फसल से संभव नहीं था,",
+    "netProfitPerAcre": 515000,
+    "incomePerAcre": 600000
+  },
+  {
+    "sourceFile": "FACT SHEET भिन्डी राम वचन राम पुरवा.docx",
+    "type": "factsheet",
+    "factsheetNumber": "01",
+    "farmerName": "राम वचन",
+    "husbandName": "सगी राम",
+    "aasGroup": "राम वचन",
+    "village": "राम पुरवा",
+    "block": "मिहिपुरवा",
+    "district": "बहराइच",
+    "state": "उत्तर पोरदेश",
+    "crop": "भिन्डी",
+    "variety": null,
+    "areaRaw": "0.2",
+    "areaAcres": 0.04000000000000001,
+    "dates": {},
+    "production": {
+      "quintals": 30
+    },
+    "costs": {
+      "totalInput": 21100
+    },
+    "income": {
+      "totalIncome": 120000,
+      "netProfit": 99000
+    },
+    "testimonial": "अगेती भिन्डी प्लास्टिक का जाल लगाकर मैंने खेती किया इसमें लागत आया लेकिन समय से पहले फसल का उत्पादन शुरू हो गया. जब बाजार में 120 रुपये प्रति किलो भिन्डी था तभी से फलां आ गया इसलिए बेहतर उत्पादन हुआ.",
+    "netProfitPerAcre": 2475000,
+    "incomePerAcre": 3000000
+  },
+  {
+    "sourceFile": "FACT SHEET मसूर  बासमती जी फ़क़ीरपूरी.docx",
+    "type": "factsheet",
+    "factsheetNumber": "01",
+    "farmerName": "बासमती",
+    "husbandName": "राम सगीर",
+    "aasGroup": null,
+    "village": "फ़क़ीरपूरी",
+    "block": "मिहिपुरवा",
+    "district": "बहराइच",
+    "state": "उत्तर प्रदेश",
+    "crop": "मसूर",
+    "variety": "देशी",
+    "areaRaw": "0.1",
+    "areaAcres": 0.020000000000000004,
+    "dates": {},
+    "production": {
+      "quintals": 2
+    },
+    "costs": {
+      "totalInput": 3400
+    },
+    "income": {
+      "totalIncome": 12000,
+      "netProfit": 8600
+    },
+    "testimonial": "बिना किसी लगत के यह सबसे बढ़िया खेती है. इसमें किसी तरह का खाद और उर्वरक नहीं दिया जाता है और सिंचाई में भी कम सिंचाई देना होइता है. इसकी बुआई से खेत की मित्तिउ भी मजबूत बनता है. Cost of Irrigation सिंचाई 500 Cost of Labour मजदुर 500 Total Input Cost: कुल लागत खर्च 3400 Total production in Qt. कुल उत्पादन क्विंटल में 2 क्वि०",
+    "netProfitPerAcre": 430000,
+    "incomePerAcre": 600000
+  },
+  {
+    "sourceFile": "FACT SHEET शांति देवी.docx",
+    "type": "factsheet",
+    "factsheetNumber": "01",
+    "farmerName": "शांति देवी",
+    "husbandName": "राजेश कुमार",
+    "aasGroup": "दुर्गा",
+    "village": "बाजपुर बनकटी",
+    "block": "मिहिपुरवा",
+    "district": "बहराइच",
+    "state": "उत्तर प्रदेश",
+    "crop": "प्याज",
+    "variety": "एग्रो फाउंड लाइट रेड",
+    "areaRaw": "3 विसवा",
+    "areaAcres": 0.6000000000000001,
+    "dates": {},
+    "production": {
+      "quintals": 2.5
+    },
+    "costs": {
+      "totalInput": 3500
+    },
+    "income": {
+      "totalIncome": 950000,
+      "netProfit": 6000
+    },
+    "testimonial": "मै शांति देवी अपने परिवार में कुल ६ सदयों के साथ रहती हु मेरा परिवार खेती किसानी कर आजीविका चलाते है मै पहले सब्जी की खेती नहीं करती थी अभी दो वर्षों से सब्जी के साथ मसाला फसले भी उगाती हूँ जिससे हमारी आय बढ़ी है | जीवामृत, चार-चटनी जैसी जैविक खाद एवं कीटनाशक बनाकर खेत में डाला जिससे बाजार से जहरीला रसायन खरीद पर होने वाला  खर्च भी बच जाता है. घर पर सब्जियां मसाले घर पर उपलब्ध है जिससे बाजार जाने की आवश्यकता कम पड़ती है |",
+    "netProfitPerAcre": 10000,
+    "incomePerAcre": 1583333
+  },
+  {
+    "sourceFile": "FACT SHEET हल्दी For Geeta Devi _ Kanchan.docx",
+    "type": "factsheet",
+    "factsheetNumber": "3",
+    "farmerName": "गीता देवी",
+    "husbandName": "कंचन",
+    "aasGroup": "जय आजादी",
+    "village": "राजाराम टांडा",
+    "block": "Mihipurwa",
+    "district": "Baharaich",
+    "state": "UP",
+    "crop": "हल्दी",
+    "variety": "देशी सुगंधा",
+    "areaRaw": "0.5 एकड़",
+    "areaAcres": 0.1,
+    "dates": {},
+    "production": {
+      "quintals": 62
+    },
+    "costs": {
+      "seed": 5,
+      "labour": 4,
+      "mulching": 3,
+      "harvesting": 2000,
+      "cutting": 50,
+      "transport": 1000,
+      "totalInput": 51800
+    },
+    "income": {
+      "totalIncome": 117800,
+      "netProfit": 1320
+    },
+    "testimonial": "",
+    "netProfitPerAcre": 13200,
+    "incomePerAcre": 1178000
+  },
+  {
+    "sourceFile": "FACT SHEET हल्दी Formate.docx",
+    "type": "factsheet",
+    "farmerName": null,
+    "husbandName": null,
+    "aasGroup": null,
+    "village": null,
+    "block": "Mihipurwa",
+    "district": "Baharaich",
+    "state": "UP",
+    "crop": "की अवधि (कुल दिन)",
+    "variety": null,
+    "areaRaw": "Date of Plantation",
+    "areaAcres": null,
+    "dates": {},
+    "costs": {
+      "seed": 8,
+      "mulching": 3,
+      "harvesting": 2000,
+      "cutting": 50,
+      "transport": 1000
+    },
+    "income": {},
+    "testimonial": ""
+  },
+  {
+    "sourceFile": "FACT SHEET हल्दी कौशल्या लोहरा.docx",
+    "type": "factsheet",
+    "factsheetNumber": "01",
+    "farmerName": "कौशल्या",
+    "husbandName": "महेश",
+    "aasGroup": "आरती",
+    "village": "लोहरा",
+    "block": "Mihipurwa",
+    "district": "Baharaich",
+    "state": "UP",
+    "crop": "हल्दी",
+    "variety": "देशी सुगंधा",
+    "areaRaw": "0.8 एकड़",
+    "areaAcres": 0.16000000000000003,
+    "dates": {},
+    "production": {
+      "quintals": 90
+    },
+    "costs": {
+      "seed": 8,
+      "mulching": 3,
+      "harvesting": 2000,
+      "cutting": 50,
+      "transport": 1000,
+      "totalInput": 78500
+    },
+    "income": {
+      "totalIncome": 171000,
+      "netProfit": 92500
+    },
+    "testimonial": "",
+    "netProfitPerAcre": 578125,
+    "incomePerAcre": 1068750
+  },
+  {
+    "sourceFile": "Factsheet of Bitter guard, Lalaram ji.docx",
+    "type": "factsheet",
+    "farmerName": "लालाराम",
+    "husbandName": "कुंवर",
+    "aasGroup": null,
+    "village": "सिरसियन पुरवा",
+    "block": "Mihinpurwa",
+    "district": "Baharaich",
+    "state": "UP",
+    "crop": "करेला",
+    "variety": "अमन श्री",
+    "areaRaw": "8  विसवा",
+    "areaAcres": 1.6,
+    "dates": {},
+    "production": {
+      "quintals": 10
+    },
+    "costs": {
+      "totalInput": 5000
+    },
+    "income": {
+      "totalIncome": 25100,
+      "netProfit": 20100
+    },
+    "netProfitPerAcre": 12563,
+    "incomePerAcre": 15688
+  },
+  {
+    "sourceFile": "Factsheet of Onion and bitter guard,Geeta devi.docx",
+    "type": "factsheet",
+    "farmerName": "गीता देवी",
+    "husbandName": "किशोरी",
+    "aasGroup": "कारीकोट मैया",
+    "village": "भेड़हन पुरवा",
+    "block": "Mihinpurwa",
+    "district": "Baharaich",
+    "state": "UP",
+    "crop": "प्याज",
+    "variety": "भीमा लाल",
+    "areaRaw": "5 विसवा",
+    "areaAcres": 1,
+    "dates": {},
+    "production": {
+      "quintals": 0.04,
+      "kg": 4
+    },
+    "costs": {
+      "totalInput": 350
+    },
+    "income": {
+      "totalIncome": 7200,
+      "netProfit": 6850
+    },
+    "netProfitPerAcre": 6850,
+    "incomePerAcre": 7200
+  },
+  {
+    "sourceFile": "Factsheet of Onion, Radheshyam ji.docx",
+    "type": "factsheet",
+    "farmerName": "राधेश्याम",
+    "husbandName": "शिवचरण",
+    "aasGroup": null,
+    "village": "सिरसियन पुरवा",
+    "block": "Mihinpurwa",
+    "district": "Baharaich",
+    "state": "UP",
+    "crop": "प्याज",
+    "variety": "जिराट",
+    "areaRaw": "2 विसवा",
+    "areaAcres": 0.4,
+    "dates": {},
+    "production": {
+      "quintals": 0.02,
+      "kg": 2
+    },
+    "costs": {
+      "totalInput": 150
+    },
+    "income": {
+      "totalIncome": 3150,
+      "netProfit": 3000
+    },
+    "netProfitPerAcre": 7500,
+    "incomePerAcre": 7875
+  },
+  {
+    "sourceFile": "जमुना जी फेक्टशीट.docx",
+    "type": "factsheet",
+    "farmerName": "jamuna",
+    "husbandName": "Harihar",
+    "aasGroup": "बाला जी",
+    "village": "बढ़ीहन पुरवा",
+    "block": "Mihipurwa",
+    "district": "Baharaich",
+    "state": "UP",
+    "crop": "हल्दी",
+    "variety": "देशी हल्दी",
+    "areaRaw": "01 बीघा",
+    "areaAcres": 0.2,
+    "dates": {},
+    "production": {
+      "quintals": 15
+    },
+    "costs": {
+      "totalInput": 6500
+    },
+    "income": {
+      "totalIncome": 30000,
+      "netProfit": 23500
+    },
+    "testimonial": "",
+    "netProfitPerAcre": 117500,
+    "incomePerAcre": 150000
+  },
+  {
+    "sourceFile": "द्वारिका प्रसाद जी की फैक्ट शीट.docx",
+    "type": "factsheet",
+    "farmerName": "द्वारिका प्रसाद",
+    "husbandName": "हीरा लाल",
+    "aasGroup": "जगदम्बे",
+    "village": "कैलाश नगर",
+    "block": "Mihipurwa",
+    "district": "Baharaich",
+    "state": "UP",
+    "crop": "पत्ता गोभी",
+    "variety": "Swadeshi",
+    "areaRaw": "0.2 Acre",
+    "areaAcres": 0.2,
+    "dates": {},
+    "production": {
+      "quintals": 40
+    },
+    "costs": {},
+    "income": {
+      "totalIncome": 48000,
+      "netProfit": 39200
+    },
+    "testimonial": "",
+    "netProfitPerAcre": 196000,
+    "incomePerAcre": 240000
+  },
+  {
+    "sourceFile": "फूलगोभी FACT Sheet.docx",
+    "type": "factsheet",
+    "farmerName": "विशनी",
+    "husbandName": "आत्माराम",
+    "aasGroup": "काजल",
+    "village": "फ़क़ीरपूरी",
+    "block": "Mihipurwa",
+    "district": "Baharaich",
+    "state": "UP",
+    "crop": "फूलगोभी",
+    "variety": "अगेती",
+    "areaRaw": "0.01 एकड़",
+    "areaAcres": 0.002,
+    "dates": {},
+    "production": {
+      "quintals": 1.6,
+      "kg": 160
+    },
+    "costs": {
+      "seed": 10,
+      "totalInput": 580
+    },
+    "income": {
+      "totalIncome": 8000,
+      "netProfit": 7420
+    },
+    "testimonial": "",
+    "netProfitPerAcre": 3710000,
+    "incomePerAcre": 4000000
+  },
+  {
+    "sourceFile": "फैक्ट शीट कल्लू जी की.docx",
+    "type": "factsheet",
+    "farmerName": "कल्लू",
+    "husbandName": "तेजी",
+    "aasGroup": "वैष्णो",
+    "village": "भेड़हन पुरवा",
+    "block": "Mihipurwa",
+    "district": "Baharaich",
+    "state": "UP",
+    "crop": "फूल गोभी",
+    "variety": "स्वदेशी चैंपियन",
+    "areaRaw": "0.1 एकड़",
+    "areaAcres": 0.020000000000000004,
+    "dates": {},
+    "production": {
+      "quintals": 11
+    },
+    "costs": {},
+    "income": {
+      "totalIncome": 17500,
+      "netProfit": 16900
+    },
+    "testimonial": "",
+    "netProfitPerAcre": 845000,
+    "incomePerAcre": 875000
+  },
+  {
+    "sourceFile": "राजकुमारी जी की हल्दी की फक्ट्शीट.docx",
+    "type": "factsheet",
+    "farmerName": "राज कुमारी",
+    "husbandName": "भिखारी",
+    "aasGroup": null,
+    "village": "कैलाश नगर",
+    "block": "Mihipurwa",
+    "district": "Baharaich",
+    "state": "UP",
+    "crop": "हल्दी",
+    "variety": "देशी हल्दी",
+    "areaRaw": "04 विसवा",
+    "areaAcres": 0.8,
+    "dates": {},
+    "production": {
+      "quintals": 6
+    },
+    "costs": {
+      "totalInput": 2850
+    },
+    "income": {
+      "totalIncome": 12000,
+      "netProfit": 9150
+    },
+    "testimonial": "CB Ratioसीबी अनुपात",
+    "netProfitPerAcre": 11438,
+    "incomePerAcre": 15000
+  }
+]
