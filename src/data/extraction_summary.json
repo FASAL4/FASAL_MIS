@@ -1,0 +1,42 @@
+{
+  "extractedAt": "2026-07-01T12:29:19.907Z",
+  "version": "v2-line-aware",
+  "totalFiles": 44,
+  "factsheetsCount": 18,
+  "casestudiesCount": 18,
+  "errorsCount": 8,
+  "errors": [
+    {
+      "file": "FACT SHEET FULGOBHI.pdf",
+      "error": "pp is not a function"
+    },
+    {
+      "file": "FACT SHEET HALDI_Geeta Devi_Rajaram Tanda_2026.pdf",
+      "error": "pp is not a function"
+    },
+    {
+      "file": "अनिरुद्ध कुमार एक सफल किसान की कहानी.pdf",
+      "error": "pp is not a function"
+    },
+    {
+      "file": "केस स्टडी अंशु कुमारी.pdf",
+      "error": "pp is not a function"
+    },
+    {
+      "file": "प्याज की खेती का फैक्ट सीट 2026 राम वचन रामपुरवा.pdf",
+      "error": "pp is not a function"
+    },
+    {
+      "file": "सशक्त नारी --मंजू देवी पति चुन्ना.docx",
+      "error": "Too few lines extracted"
+    },
+    {
+      "file": "सामुदायिक पहल एक केश स्टडी.pdf",
+      "error": "pp is not a function"
+    },
+    {
+      "file": "हल्दी की खेती का फैक्ट सीट कौशल्या महेश लोहरा 2025.pdf",
+      "error": "pp is not a function"
+    }
+  ]
+}

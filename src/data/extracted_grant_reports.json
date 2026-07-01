@@ -1,0 +1,189 @@
+{
+    "source": "Folders 23, 24, 25, 26 - Grant Reports & Visual Evidence",
+    "processed_date": "2026-07-01",
+    "reports_processed": [
+        "25/Grant Report January to December 2024.pdf",
+        "23/Narrative Report HY2.pdf",
+        "24/HY4 Report-Remaining Aspects.pdf",
+        "24/DEHAT India x Vaagdhara Report-3.pdf",
+        "25/BRS December 2024.pdf (image-only, unreadable)"
+    ],
+    "images_processed": [
+        {
+            "file": "25/Sampurna Samadhan divas _BLock level interface.jpg",
+            "type": "Hindi news clipping",
+            "headline": "निरस्त हुआ बिजली कनेक्शन (Electricity Connection Cancelled)",
+            "context": "Sampurna Samadhan Divas (Complete Resolution Day) at block level in Bahraich/Shravasti district. 328 applications received, 31 disposed on spot. Officials directed to resolve pending cases. 127 applications at tehsil level, 8 disposed on spot. AAS women reached SDM Sanjay Kumar with demands.",
+            "dashboard_tab": "Grant Reports"
+        },
+        {
+            "file": "25/Seed distribution_News clips.jpg",
+            "type": "Hindi news clipping",
+            "headline": "गजभिन्यों को देहात संस्था ने बांटे पौधे व सब्जियों के बीज (DEHAT distributed plants and vegetable seeds to women farmers)",
+            "context": "DEHAT distributed 200 plants and seeds of spinach, brinjal, coriander, tomato, cucumber, chilli, and desi bhindi to women farmers in Sisay, Jamranwa, Bichhiya blocks. Ram-Narayan explained seeds will help women become self-reliant and improve family health through organic farming.",
+            "dashboard_tab": "Grant Reports"
+        },
+        {
+            "file": "25/Sujauli_ADvocacy 1.jpg",
+            "type": "Hindi news clipping",
+            "headline": "ई-केवाईसी के नाम पर खाते से निकाले दस हजार रुपये (₹10,000 withdrawn from account in name of e-KYC)",
+            "context": "News from Sujauli police station area about a woman who withdrew ₹10,000 from her husband's ICICI bank account without his knowledge. Related to women's financial rights advocacy and digital literacy training.",
+            "dashboard_tab": "Grant Reports"
+        },
+        {
+            "file": "26/Govt official visiting village.jpg",
+            "type": "Photograph",
+            "context": "Government official visiting village and addressing a group of ~20 women farmers. Evidence of block-level interface meetings and advocacy work. Official reading from document to community members.",
+            "dashboard_tab": "Grant Reports"
+        },
+        {
+            "file": "26/Machan cultivation_Farmer 1.jpg",
+            "type": "Photograph",
+            "context": "Woman farmer standing in her field with bamboo trellis/machan structures for growing climbing vegetables (tomatoes visible). Evidence of multi-layer farming and trellis farming techniques promoted by DEHAT under LEISA training.",
+            "dashboard_tab": "Agriculture"
+        },
+        {
+            "file": "26/Machan Cultivation.jpg",
+            "type": "Photograph",
+            "context": "Woman farmer working with machan/trellis cultivation structures in her field. Shows intercropping with onions and climbing vegetables. Evidence of sustainable agriculture practices.",
+            "dashboard_tab": "Agriculture"
+        },
+        {
+            "file": "26/Onion plants distribution_from Nursery.jpg",
+            "type": "Photograph",
+            "context": "Group of ~20 women farmers sitting in a circle with DEHAT staff, receiving onion plant seedlings from nursery. Evidence of input support and nursery distribution activities described in HY4 report.",
+            "dashboard_tab": "Agriculture"
+        },
+        {
+            "file": "26/Palak seed preparation.jpg",
+            "type": "Photograph",
+            "context": "Woman farmer preparing palak (spinach) seeds for sowing. Shows seed preservation and preparation techniques taught in LEISA training. Evidence of self-reliance in seed production.",
+            "dashboard_tab": "Agriculture"
+        }
+    ],
+    "financial_data": {
+        "grant_number": "G-2110-10970",
+        "total_approved_budget_cr": 2.16,
+        "year_wise": {
+            "Y1": {
+                "approved": 3489000,
+                "disbursed": 3489000,
+                "expenditure": 3269660
+            },
+            "Y2": {
+                "approved": 4470000,
+                "disbursed": 4470000,
+                "expenditure": 3269660
+            },
+            "Y3": {
+                "approved": 5031312,
+                "disbursed": 5031000,
+                "expenditure": 4713669
+            }
+        },
+        "balance_dec_2024": {
+            "program_head": 173864,
+            "human_resource": 539016,
+            "me_experts": 146662,
+            "interest_amount": 114793,
+            "admin": 1351
+        },
+        "hy2_entitlement_leverage": 5414000,
+        "hy3_hy4_entitlement_leverage": 26140200,
+        "hy3_hy4_breakdown": {
+            "primary_stakeholders_secured": 259,
+            "pmay_homes": 134,
+            "toilets": 100,
+            "roads_rcc_kuccha": "multiple",
+            "horticulture_department": 480000
+        }
+    },
+    "program_metrics": {
+        "reporting_period": "January 2023 - December 2024",
+        "intervention_villages": 20,
+        "gram_panchayats": 6,
+        "citizens_participated_gpdp": 1712,
+        "village_development_plans": 6,
+        "hamlets_covered": 20,
+        "women_trained_gender_leadership": 218,
+        "leadership_training_participants": 221,
+        "farmers_accessed_entitlements": 304,
+        "total_entitlement_leverage_cr": 2.29932,
+        "krishi_mitras_trained_pest": 75,
+        "farmers_trained_leisa": 603,
+        "youth_trained_digital": 35,
+        "kisan_mela_participants": 40,
+        "farmers_recognized_dm": 2,
+        "per_acre_income_before": 10000,
+        "per_acre_income_after": 60000,
+        "female_gram_sabha_participation_before_pct": 10,
+        "female_gram_sabha_participation_after_pct": 50
+    },
+    "key_achievements": [
+        "2.61 crore leveraged through advocacy (HY3+HY4)",
+        "134 PMAY homes sanctioned across 8 villages",
+        "100+ toilets constructed",
+        "Multiple RCC and kuccha roads constructed",
+        "Mobile network tower secured for tribal villages (2024)",
+        "School construction promised for Bhatta Bargadha",
+        "Inter College guarantee from MP for tribal village",
+        "PDS corruption addressed in Fakirpuri, Bardia, Hazaripurwa",
+        "Forest Department extortion stopped in Kailashnagar",
+        "603 farmers trained in LEISA techniques",
+        "Per-acre income increased from ₹10,000 to ₹60,000",
+        "Women's Gram Sabha participation increased from <10% to 50%+",
+        "304 farmers accessed government entitlements",
+        "40 farmers participated in Kisan Mela, 2 recognized by DM"
+    ],
+    "stories_of_change": [
+        {
+            "name": "Sanjaywati",
+            "village": "Karikot-Purwa-Narayan Tanda",
+            "key_outcome": "Leased 18 bighas land, stopped migration, adopted natural farming"
+        },
+        {
+            "name": "Rajkumari",
+            "village": "Chahlwa",
+            "key_outcome": "₹10,000 profit from 1/5 bigha onion, 6 quintal turmeric (highest in district), recognized at Kisan Mela"
+        },
+        {
+            "name": "Guddi Devi",
+            "village": "Rajaram Tanda",
+            "key_outcome": "Won legal battle for land rights in father's name, adopted natural farming"
+        },
+        {
+            "name": "Bhakuri",
+            "village": "Raja Ram Tanda",
+            "key_outcome": "Dalit woman transformed from debt to self-reliance through organic farming"
+        },
+        {
+            "name": "Shanti Devi",
+            "village": "Bajpur Bankati",
+            "key_outcome": "600 cost → ₹24,500 income from brinjal, doubled family income"
+        },
+        {
+            "name": "Deventi Devi",
+            "village": "Mangal Purwa",
+            "key_outcome": "Stopped Forest Department grain collection, started kitchen garden"
+        },
+        {
+            "name": "Reena Kumari",
+            "village": "Lohara Tharu Purwa",
+            "key_outcome": "Child Parliament PM, fought police harassment, got SHO suspended"
+        }
+    ],
+    "cross_references": {
+        "vasagdhara_exposure_visit": {
+            "date": "13-16 October 2023",
+            "location": "VAAGDHARA, Banswada, Rajasthan",
+            "participants": 26,
+            "key_learnings": [
+                "Seed preservation using bamboo containers with cow dung and neem",
+                "Natural ten-leaf pesticide preparation",
+                "Wide field boundary construction for soil moisture retention",
+                "Community ownership of water, forest, and land resources",
+                "True Governance, True Farming, True Childhood model"
+            ]
+        }
+    }
+}

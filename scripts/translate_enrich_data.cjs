@@ -84,14 +84,29 @@ function translateTestimonial(hindi) {
         english = english.replace(new RegExp(hindiText.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'g'), englishText);
     }
 
-    // Clean up remaining Hindi fragments (cost figures, numbers)
-    english = english.replace(/Cost of Labour मजदुर \d+/g, '');
-    english = english.replace(/Total Input Cost.*?(?=कुल|Total|$)/g, '');
-    english = english.replace(/कुल उत्पादन.*?(?=Total|Stage|$)/g, '');
-    english = english.replace(/Total income.*?(?=Net|Stage|$)/g, '');
-    english = english.replace(/Net Profit.*?(?=Stage|$)/g, '');
-    english = english.replace(/Cost of Irrigation सिंचाई \d+/g, '');
-    english = english.replace(/\s+/g, ' ').trim();
+    // Hard cleanup: remove ALL field labels that leaked (Hindi + English mixed)
+    const cleanPatterns = [
+        /Cost of Labour मजदुर[\s\d]*/g, /Total Input Cost.*?(?:कुल|Total|$)/g,
+        /कुल लागत खर्च[\s\d]*/g, /कुल उत्पादन.*?(?:Total|Stage|$)/g,
+        /Total income(?: in INR)?.*?(?:Net|Stage|$)/g, /Net Profit.*?(?:Stage|$)/g,
+        /Cost of Irrigation सिंचाई[\s\d]*/g, /कुल आय[\s\d,]*/g,
+        /Total production.*?(?:Total|Stage|$)/g, /Cost of.*?(?:Stage|$)/g,
+        /Input Cost.*?(?:कुल|Total|$)/g, /Cost Benefit.*?(?:कुल|Total|$)/g,
+        /Stage \d+\.?\s*फोटो/g, /फोटो/g, /Nd preparation.*?(?:Seed|Cost)/g,
+        /Inference:.*?(?:Stage|$)/g, /सीबी अनुपात/g, /CB Ratio/g,
+        /[Dd]ate of.*?(?:Plantation|Nursery|excavation|Plucking)/g,
+        /बुआई.*तिथि/g, /नर्सरी.*तिथि/g, /रोपाई.*तिथि/g, /खुदाई.*तिथि/g,
+        /fdlku dk earO[य;]/g, /\.\s*\.\s*\.\s*$/g,
+        /क्विंटल में[\s\d]*/g, /क्वि[००]*/g, /Crop Duration.*/g,
+        /income in INR[\s\d]*/g, /in INR[\s\d]*/g,
+    ];
+    for (const pattern of cleanPatterns) {
+        english = english.replace(pattern, '');
+    }
+    // Remove any remaining Devanagari text (Hindi characters)
+    english = english.replace(/[\u0900-\u097F]+/g, '');
+    // Clean up doubled spaces, periods, commas
+    english = english.replace(/\s+/g, ' ').replace(/[.,\s]+$/, '').replace(/\s*\.\s*/g, '. ').replace(/\.\.+/g, '.').trim();
 
     return english || '(Farmer testimony available in original)';
 }

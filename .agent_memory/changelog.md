@@ -18,3 +18,11 @@
 
 
 * 2026-07-01 - Cline: Completed Fact Sheets ^& Case Studies triangulation. Analyzed 44 files (37 docx + 7 image PDFs), extracted 18 factsheets and 18 case studies, triangulated against master_context.db (73 tables). Generated 8 dashboard insights. Outputs: src/data/extracted_fact_sheets.json, extracted_case_studies.json, triangulation_report.json.
+
+## 2026-07-01: Grant Reports & Visual Evidence Processing (Folders 23-26)
+- Processed 5 PDF reports: Grant Report Jan-Dec 2024, Narrative Report HY2, HY4 Report, DEHAT x Vaagdhara Report, BRS Dec 2024
+- Processed 8 images: 3 Hindi news clippings (folder 25), 5 photographs (folder 26)
+- Extracted key metrics: Rs.2.16 Cr budget, Rs.2.61 Cr leveraged, 134 PMAY homes, 603 LEISA farmers
+- 7 stories of change documented (Sanjaywati, Rajkumari, Guddi Devi, Bhakuri, Shanti Devi, Deventi Devi, Reena Kumari)
+- Output: src/data/extracted_grant_reports.json
+- Inbox cleared and marked COMPLETED

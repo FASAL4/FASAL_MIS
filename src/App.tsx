@@ -376,7 +376,27 @@ export default function App() {
   const [filterBaseline, setFilterBaseline] = useState<"All" | "Matched" | "Unmatched" | "Discrepancy">("All");
   const [expandedFarmerId, setExpandedFarmerId] = useState<string | null>(null);
 
+  // Updated with HY2 (₹54.14L) + HY3+HY4 (2.61Cr) from extracted grant reports
+  // Previous total from leverage.json retained; new reports add ~₹3.15Cr more
   const totalLeverageAmount = 82500000;
+  const grantReportLeverage = {
+    hy2: 5414000,
+    hy3_hy4: 26140200,
+    total_new: 31554200,
+    pmay_homes: 134,
+    toilets: 100,
+    farmers_entitlements: 304,
+    leisa_farmers: 603,
+    per_acre_income_before: 10000,
+    per_acre_income_after: 60000,
+    women_trained: 218,
+    youth_digital: 35,
+    kisan_mela: 40,
+    gpdp_plans: 6,
+    citizens_gpdp: 1712,
+    total_budget_cr: 2.16,
+    balance_dec_2024: { program: 173864, hr: 539016, me: 146662, interest: 114793, admin: 1351 }
+  };
 
   const formattedLeverage = useMemo(() => {
     if (totalLeverageAmount >= 10000000) {
@@ -1215,6 +1235,168 @@ export default function App() {
                           <span className="text-xs font-medium bg-slate-100 text-slate-600 px-2.5 py-1 rounded w-fit">Type: Outcomes Evaluation</span>
                           <span className="text-xs font-medium bg-emerald-50 text-emerald-600 px-2.5 py-1 rounded w-fit border border-emerald-200">Analyzed & Indexed</span>
                         </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* NEW: Grant Report Jan-Dec 2024 */}
+                  <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-8">
+                    <div className="flex items-start gap-5">
+                      <div className="w-12 h-12 rounded-xl bg-teal-50 text-teal-600 flex items-center justify-center shrink-0 border border-teal-100">
+                        <FileText size={24} />
+                      </div>
+                      <div>
+                        <h3 className="text-xl font-bold text-slate-900 mb-2">Grant Report (Jan-Dec 2024)</h3>
+                        <p className="text-slate-600 leading-relaxed mb-4">
+                          Latest annual report covering HY5-HY6 activities. 603 farmers trained in LEISA, 304 farmers accessed entitlements, ₹2.3 Cr leveraged. Women's Gram Sabha participation rose from &lt;10% to 50%+. Per-acre income target: ₹10K→₹60K. 7 stories of change documented including Rajkumari (6 quintal turmeric, highest in district) and Bhakuri (Dalit woman's transformation).
+                        </p>
+                        <div className="flex gap-3 flex-wrap">
+                          <span className="text-xs font-medium bg-slate-100 text-slate-600 px-2.5 py-1 rounded w-fit">Period: Jan-Dec 2024</span>
+                          <span className="text-xs font-medium bg-teal-50 text-teal-600 px-2.5 py-1 rounded w-fit border border-teal-200">Newly Extracted</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* NEW: Narrative Report HY2 */}
+                  <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-8">
+                    <div className="flex items-start gap-5">
+                      <div className="w-12 h-12 rounded-xl bg-indigo-50 text-indigo-600 flex items-center justify-center shrink-0 border border-indigo-100">
+                        <FileText size={24} />
+                      </div>
+                      <div>
+                        <h3 className="text-xl font-bold text-slate-900 mb-2">Narrative Report HY2</h3>
+                        <p className="text-slate-600 leading-relaxed mb-4">
+                          First-year narrative covering AAS formation, PDS corruption fight in Fakirpuri, Child Parliament advocacy against police harassment. ₹54.14 L leveraged in HY2. New partnerships: She's the First (NYC) for KYBKYR project, Dasra's Rebuild India Fund for Jitendra Youth Fellowship.
+                        </p>
+                        <div className="flex gap-3 flex-wrap">
+                          <span className="text-xs font-medium bg-slate-100 text-slate-600 px-2.5 py-1 rounded w-fit">Period: HY2 (2022-23)</span>
+                          <span className="text-xs font-medium bg-indigo-50 text-indigo-600 px-2.5 py-1 rounded w-fit border border-indigo-200">Newly Extracted</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* NEW: HY4 Report */}
+                  <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-8">
+                    <div className="flex items-start gap-5">
+                      <div className="w-12 h-12 rounded-xl bg-violet-50 text-violet-600 flex items-center justify-center shrink-0 border border-violet-100">
+                        <FileText size={24} />
+                      </div>
+                      <div>
+                        <h3 className="text-xl font-bold text-slate-900 mb-2">HY4 Report - Remaining Aspects</h3>
+                        <p className="text-slate-600 leading-relaxed mb-4">
+                          HY3-HY4 combined report. ₹2.61 Cr leveraged through advocacy. 134 PMAY homes, 100+ toilets, multiple RCC/kuccha roads. Mobile network tower secured for tribal villages (2024). School construction promised for Bhatta Bargadha. Inter College guarantee from MP. VAAGDHARA exposure visit insights integrated.
+                        </p>
+                        <div className="flex gap-3 flex-wrap">
+                          <span className="text-xs font-medium bg-slate-100 text-slate-600 px-2.5 py-1 rounded w-fit">Period: HY3-HY4</span>
+                          <span className="text-xs font-medium bg-violet-50 text-violet-600 px-2.5 py-1 rounded w-fit border border-violet-200">Newly Extracted</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Financial Documents Section */}
+                  <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-8">
+                    <h3 className="text-xl font-bold text-slate-900 mb-6 flex items-center gap-2">
+                      <IndianRupee size={24} className="text-emerald-600" />
+                      Financial Declarations & Budget Status
+                    </h3>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                      <div className="bg-slate-50 p-4 rounded-xl border border-slate-100">
+                        <h4 className="font-semibold text-slate-800 text-sm mb-3">Grant Budget Overview (G-2110-10970)</h4>
+                        <div className="space-y-2 text-xs">
+                          <div className="flex justify-between"><span className="text-slate-500">Total Approved Budget</span><span className="font-bold text-slate-800">₹2.16 Cr</span></div>
+                          <div className="flex justify-between"><span className="text-slate-500">Y1 Approved</span><span className="font-mono">₹34,89,000</span></div>
+                          <div className="flex justify-between"><span className="text-slate-500">Y2 Approved</span><span className="font-mono">₹44,70,000</span></div>
+                          <div className="flex justify-between"><span className="text-slate-500">Y3 Approved</span><span className="font-mono">₹50,31,312</span></div>
+                        </div>
+                      </div>
+                      <div className="bg-slate-50 p-4 rounded-xl border border-slate-100">
+                        <h4 className="font-semibold text-slate-800 text-sm mb-3">Balance as of Dec 2024</h4>
+                        <div className="space-y-2 text-xs">
+                          <div className="flex justify-between"><span className="text-slate-500">Program Head</span><span className="font-mono">₹1,73,864</span></div>
+                          <div className="flex justify-between"><span className="text-slate-500">Human Resource</span><span className="font-mono">₹5,39,016</span></div>
+                          <div className="flex justify-between"><span className="text-slate-500">M&E Experts</span><span className="font-mono">₹1,46,662</span></div>
+                          <div className="flex justify-between"><span className="text-slate-500">Interest Amount</span><span className="font-mono">₹1,14,793</span></div>
+                          <div className="flex justify-between border-t pt-1 mt-1"><span className="text-slate-700 font-semibold">Total Unutilised</span><span className="font-bold text-amber-700">₹9,75,686</span></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="mt-4 bg-blue-50 border border-blue-100 p-4 rounded-lg flex gap-3 text-sm text-blue-800">
+                      <HelpCircle size={18} className="shrink-0 mt-0.5 text-blue-600" />
+                      <p><strong>Note:</strong> Unutilised funds proposed for HY7-HY8: data collection team (₹5.39L), M&E third-party evaluation (₹1.47L), data management person (₹1.15L). BRS December 2024 available as scanned document.</p>
+                    </div>
+                  </div>
+
+                  {/* Visual Evidence Gallery */}
+                  <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-8">
+                    <h3 className="text-xl font-bold text-slate-900 mb-2 flex items-center gap-2">
+                      <Map size={24} className="text-teal-600" />
+                      Visual Evidence & News Coverage
+                    </h3>
+                    <p className="text-slate-500 text-sm mb-6">8 images processed from folders 25 & 26 with English contextual descriptions</p>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                      {/* News Clippings */}
+                      <div className="bg-amber-50/50 p-4 rounded-xl border border-amber-100">
+                        <h4 className="font-semibold text-amber-800 text-sm mb-3">📰 Hindi News Clippings (Folder 25)</h4>
+                        <ul className="space-y-2 text-xs text-slate-700">
+                          <li className="flex gap-2"><span className="text-amber-600 shrink-0">•</span><span><strong>Sampurna Samadhan Divas:</strong> 328 applications received, 31 disposed on spot at block level. AAS women reached SDM with demands.</span></li>
+                          <li className="flex gap-2"><span className="text-amber-600 shrink-0">•</span><span><strong>Seed Distribution:</strong> DEHAT distributed 200 plants & seeds (spinach, brinjal, coriander, tomato, cucumber, chilli) to women farmers.</span></li>
+                          <li className="flex gap-2"><span className="text-amber-600 shrink-0">•</span><span><strong>Sujauli Advocacy:</strong> Women's financial rights - ₹10,000 withdrawn from husband's account, highlighting digital literacy impact.</span></li>
+                        </ul>
+                      </div>
+                      {/* Field Photographs */}
+                      <div className="bg-teal-50/50 p-4 rounded-xl border border-teal-100">
+                        <h4 className="font-semibold text-teal-800 text-sm mb-3">📷 Field Photographs (Folder 26)</h4>
+                        <ul className="space-y-2 text-xs text-slate-700">
+                          <li className="flex gap-2"><span className="text-teal-600 shrink-0">•</span><span><strong>Govt Official Visit:</strong> Block-level interface meeting with ~20 women farmers - advocacy evidence.</span></li>
+                          <li className="flex gap-2"><span className="text-teal-600 shrink-0">•</span><span><strong>Machan Cultivation (x2):</strong> Women farmers with bamboo trellis structures for tomatoes/climbing vegetables - LEISA evidence.</span></li>
+                          <li className="flex gap-2"><span className="text-teal-600 shrink-0">•</span><span><strong>Onion Plant Distribution:</strong> Group receiving seedlings from nursery - input support activity.</span></li>
+                          <li className="flex gap-2"><span className="text-teal-600 shrink-0">•</span><span><strong>Palak Seed Preparation:</strong> Seed preservation techniques from LEISA training - self-reliance evidence.</span></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Key Metrics from New Reports */}
+                  <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-8">
+                    <h3 className="text-xl font-bold text-slate-900 mb-6 flex items-center gap-2">
+                      <BarChart3 size={24} className="text-indigo-600" />
+                      Key Metrics from Newly Processed Reports
+                    </h3>
+                    <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                      <div className="bg-emerald-50 p-4 rounded-xl border border-emerald-100 text-center">
+                        <div className="text-2xl font-bold text-emerald-900">₹2.61 Cr</div>
+                        <div className="text-xs text-emerald-700 mt-1">Leveraged (HY3+HY4)</div>
+                      </div>
+                      <div className="bg-blue-50 p-4 rounded-xl border border-blue-100 text-center">
+                        <div className="text-2xl font-bold text-blue-900">134</div>
+                        <div className="text-xs text-blue-700 mt-1">PMAY Homes</div>
+                      </div>
+                      <div className="bg-violet-50 p-4 rounded-xl border border-violet-100 text-center">
+                        <div className="text-2xl font-bold text-violet-900">603</div>
+                        <div className="text-xs text-violet-700 mt-1">LEISA Farmers</div>
+                      </div>
+                      <div className="bg-amber-50 p-4 rounded-xl border border-amber-100 text-center">
+                        <div className="text-2xl font-bold text-amber-900">₹10K→60K</div>
+                        <div className="text-xs text-amber-700 mt-1">Per-Acre Income</div>
+                      </div>
+                      <div className="bg-pink-50 p-4 rounded-xl border border-pink-100 text-center">
+                        <div className="text-2xl font-bold text-pink-900">218</div>
+                        <div className="text-xs text-pink-700 mt-1">Women Trained</div>
+                      </div>
+                      <div className="bg-cyan-50 p-4 rounded-xl border border-cyan-100 text-center">
+                        <div className="text-2xl font-bold text-cyan-900">304</div>
+                        <div className="text-xs text-cyan-700 mt-1">Entitlements Accessed</div>
+                      </div>
+                      <div className="bg-indigo-50 p-4 rounded-xl border border-indigo-100 text-center">
+                        <div className="text-2xl font-bold text-indigo-900">6</div>
+                        <div className="text-xs text-indigo-700 mt-1">GPDP Plans (1,712 citizens)</div>
+                      </div>
+                      <div className="bg-rose-50 p-4 rounded-xl border border-rose-100 text-center">
+                        <div className="text-2xl font-bold text-rose-900">7</div>
+                        <div className="text-xs text-rose-700 mt-1">Stories of Change</div>
                       </div>
                     </div>
                   </div>

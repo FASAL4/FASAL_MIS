@@ -27,3 +27,6 @@ master_index.json
 
 # OS
 Thumbs.db
+
+# AutoClaw KDream data
+.autoclaw/
