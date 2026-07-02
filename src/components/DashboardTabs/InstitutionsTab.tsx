@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Users, Building2, UserCheck, Search, AlertCircle, CheckCircle2, Info, GraduationCap } from 'lucide-react';
+import { Sparkles, Users, Building2, UserCheck, Search, AlertCircle, CheckCircle2, Info, GraduationCap } { Sparkles } from 'lucide-react';
 import { ResponsiveContainer, LineChart, Line, CartesianGrid, XAxis, YAxis, Tooltip, Legend } from 'recharts';
 import * as Popover from '@radix-ui/react-popover';
 
@@ -186,5 +186,31 @@ export function InstitutionsTab() {
         </div>
       </div>
     </div>
+
+                  {/* Grant Report Triangulation: Community Governance & Leadership */}
+                  <div className="mt-6 p-5 rounded-2xl border-2 border-dashed border-purple-300 bg-purple-50/30">
+                    <div className="flex items-center gap-2 mb-3">
+                      <Sparkles size={18} className="text-purple-600" />
+                      <h3 className="text-sm font-bold text-purple-900 uppercase tracking-wider">New Findings: Community Governance & Leadership</h3>
+                    </div>
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-3 text-xs">
+                      <div className="bg-white p-3 rounded-xl border border-purple-200 shadow-sm">
+                        <div className="font-bold text-purple-800">6 GPDPs</div>
+                        <div className="text-slate-600">Village Development Plans created</div>
+                        <div className="text-[10px] text-slate-400 mt-1">20 hamlets, 1,712 citizens via PRA tools</div>
+                      </div>
+                      <div className="bg-white p-3 rounded-xl border border-purple-200 shadow-sm">
+                        <div className="font-bold text-purple-800">439</div>
+                        <div className="text-slate-600">Women leaders trained (Grant Report)</div>
+                        <div className="text-[10px] text-slate-400 mt-1">218 gender + 221 leadership = ~3 per AAS group</div>
+                      </div>
+                      <div className="bg-white p-3 rounded-xl border border-purple-200 shadow-sm">
+                        <div className="font-bold text-purple-800">88.1%</div>
+                        <div className="text-slate-600">Farmer registry coverage</div>
+                        <div className="text-[10px] text-slate-400 mt-1">1,322 of 1,500 target families in MIS</div>
+                      </div>
+                    </div>
+                  </div>
+
   );
 }

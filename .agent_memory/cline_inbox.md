@@ -1,3 +1,16 @@
+# Inbox: Dashboard Data Triangulation and Re-integration
+## Status: PENDING
+
+**Task Overview:**
+Review the recent changes made to the dashboard, specifically the FDI & Grant Reports tab, and correct the misplacement of the data triangulation insights.
+
+**Detailed Instructions:**
+1. **Remove from FDI & Grant Reports Tab:** The "Triangulated Insights: Grant Reports vs Dashboard Data" section does NOT belong in the FDI & Grant Reports tab. Please remove it from there completely.
+2. **Review Recent Dashboard Changes:** Go over the recent commits and changes to the dashboard components to understand the current architecture and context of what we want to achieve.
+3. **Integrate Findings Contextually:** The data triangulation part was meant to help us come to conclusions so we could integrate these new numbers, or add small sections for "New Findings," directly in their *relevant* tabs across the dashboard (e.g., Agriculture, Rights, etc.). Place the triangulated insights where they semantically belong instead of isolating them in the Grant Reports tab.
+
+---
+
 # Inbox: Processing New Grant Reports & Visual Evidence (Folders 23-26)
 ## Status: COMPLETED
 

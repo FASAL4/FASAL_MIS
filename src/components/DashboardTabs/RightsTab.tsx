@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Shield, Users, IndianRupee, Building2, HelpCircle, ArrowRight, CheckCircle2, AlertCircle, LineChart as LucideLineChart, BookOpen } from 'lucide-react';
+import { Sparkles, Shield, Users, IndianRupee, Building2, HelpCircle, ArrowRight, CheckCircle2, AlertCircle, LineChart as LucideLineChart, BookOpen } { Sparkles } from 'lucide-react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, LineChart, Line } from 'recharts';
 import * as Popover from '@radix-ui/react-popover';
 import yearlyEntitlements from '../../data/yearly_entitlements.json';
@@ -551,4 +551,30 @@ export function RightsTab({ farmersData = [] }: { farmersData?: any[] }) {
             </div>
         </div>
     );
+
+                  {/* Grant Report Triangulation: Entitlement Convergence Deep-Dive */}
+                  <div className="mt-6 p-5 rounded-2xl border-2 border-dashed border-blue-300 bg-blue-50/30">
+                    <div className="flex items-center gap-2 mb-3">
+                      <Sparkles size={18} className="text-blue-600" />
+                      <h3 className="text-sm font-bold text-blue-900 uppercase tracking-wider">New Findings: Entitlement Convergence Deep-Dive</h3>
+                    </div>
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-3 text-xs">
+                      <div className="bg-white p-3 rounded-xl border border-blue-200 shadow-sm">
+                        <div className="font-bold text-blue-800">151</div>
+                        <div className="text-slate-600">PMAY homes sanctioned (Dashboard records)</div>
+                        <div className="text-[10px] text-slate-400 mt-1">Grant report: 134 homes. Gap: 17 not yet in MIS</div>
+                      </div>
+                      <div className="bg-white p-3 rounded-xl border border-blue-200 shadow-sm">
+                        <div className="font-bold text-blue-800">82</div>
+                        <div className="text-slate-600">Toilets tracked (Dashboard records)</div>
+                        <div className="text-[10px] text-amber-600 mt-1 font-semibold">Report says 100+; 18 need MIS entry</div>
+                      </div>
+                      <div className="bg-white p-3 rounded-xl border border-blue-200 shadow-sm">
+                        <div className="font-bold text-blue-800">304</div>
+                        <div className="text-slate-600">Individual entitlements accessed (Grant Report)</div>
+                        <div className="text-[10px] text-slate-400 mt-1">MNREGA, widow pension, KCC, Ayushman cards</div>
+                      </div>
+                    </div>
+                  </div>
+
 }
