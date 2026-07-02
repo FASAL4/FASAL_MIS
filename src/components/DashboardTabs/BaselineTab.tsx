@@ -179,18 +179,18 @@ export function BaselineTab() {
             className="bg-white rounded-2xl border border-slate-200/80 shadow-sm hover:shadow-md hover:border-slate-300 transition-all duration-300 p-5 flex flex-col justify-between min-h-[120px] relative overflow-hidden group"
           >
             <div className={`absolute -right-8 -bottom-8 w-20 h-20 rounded-full blur-xl opacity-0 group-hover:opacity-10 transition-opacity duration-500 ${kpi.color === 'emerald' ? 'bg-emerald-400' :
-                kpi.color === 'blue' ? 'bg-blue-400' :
-                  kpi.color === 'amber' ? 'bg-amber-400' :
-                    kpi.color === 'purple' ? 'bg-purple-400' :
-                      kpi.color === 'rose' ? 'bg-rose-400' : 'bg-slate-400'
+              kpi.color === 'blue' ? 'bg-blue-400' :
+                kpi.color === 'amber' ? 'bg-amber-400' :
+                  kpi.color === 'purple' ? 'bg-purple-400' :
+                    kpi.color === 'rose' ? 'bg-rose-400' : 'bg-slate-400'
               }`} />
             <div className="flex items-center gap-4">
               <div className={`p-3 rounded-2xl shrink-0 border border-slate-100 ${kpi.color === 'emerald' ? 'bg-emerald-50 text-emerald-600' :
-                  kpi.color === 'blue' ? 'bg-blue-50 text-blue-600' :
-                    kpi.color === 'amber' ? 'bg-amber-50 text-amber-600' :
-                      kpi.color === 'purple' ? 'bg-purple-50 text-purple-600' :
-                        kpi.color === 'rose' ? 'bg-rose-50 text-rose-600' :
-                          'bg-slate-50 text-slate-600'
+                kpi.color === 'blue' ? 'bg-blue-50 text-blue-600' :
+                  kpi.color === 'amber' ? 'bg-amber-50 text-amber-600' :
+                    kpi.color === 'purple' ? 'bg-purple-50 text-purple-600' :
+                      kpi.color === 'rose' ? 'bg-rose-50 text-rose-600' :
+                        'bg-slate-50 text-slate-600'
                 }`}>
                 <kpi.icon size={20} />
               </div>
@@ -322,7 +322,7 @@ export function BaselineTab() {
                 <div className="mt-4 p-3 bg-indigo-900/30 border border-indigo-500/20 rounded-lg">
                   <div className="text-xs font-bold text-indigo-300 mb-1">Triangulation Insight</div>
                   <div className="text-[11px] text-slate-300 leading-snug">
-                    While <strong>40%</strong> ({baselineDemographics.vulnerability.totalLandless}) of the baseline cohort is landless, the MIS Rights Tab confirms <strong>100%</strong> of our targeted tenant farmers have received formal lease leverage support.
+                    <strong>{((baselineDemographics.vulnerability.totalLandless / 1638) * 100).toFixed(0)}%</strong> ({baselineDemographics.vulnerability.totalLandless}) of the full baseline cohort is landless. Among the {triangulationSummary.matchedCount} matched active farmers, <strong>{triangulationSummary.landlessCountMatched}</strong> started landless — now active cultivators in the programme, indicating successful inclusion of sharecroppers and tenant farmers.
                   </div>
                 </div>
               </div>
@@ -386,10 +386,10 @@ export function BaselineTab() {
               <div className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-2">Targeted Inclusion Check</div>
               <div className="flex items-baseline gap-2">
                 <span className="text-3xl font-black text-slate-800">{((triangulationSummary.landlessCountMatched / triangulationSummary.matchedCount) * 100).toFixed(0)}%</span>
-                <span className="text-sm text-slate-500">landless at baseline</span>
+                <span className="text-sm text-slate-500">of active matched cohort started landless</span>
               </div>
               <p className="text-xs text-slate-500 mt-2">
-                <strong>{triangulationSummary.landlessCountMatched}</strong> of the matched active programme farmers were completely landless at baseline. Their active presence in our MIS proves successful targeting of landless sharecroppers.
+                <strong>{triangulationSummary.landlessCountMatched}</strong> of the {triangulationSummary.matchedCount} matched active farmers were landless at baseline — now active cultivators. Landless farmers represent {((triangulationSummary.landlessCountMatched / triangulationSummary.matchedCount) * 100).toFixed(0)}% of the matched active cohort. (Note: {triangulationSummary.matchRatePct}% overall match rate; the remaining {triangulationSummary.activeFarmersCount - triangulationSummary.matchedCount} unmatched farmers' baseline status is unknown.)
               </p>
             </div>
             <div className="mt-4 pt-3 border-t border-slate-200/60 flex items-center justify-between text-xs">
@@ -471,7 +471,7 @@ export function BaselineTab() {
                     <div className="flex items-center justify-between mb-2">
                       <div className="flex items-center gap-2">
                         <span className={`w-2.5 h-2.5 rounded-full ${caste.category === 'SC' ? 'bg-red-500' :
-                            caste.category === 'ST' ? 'bg-amber-500' : 'bg-blue-500'
+                          caste.category === 'ST' ? 'bg-amber-500' : 'bg-blue-500'
                           }`} />
                         <span className="font-bold text-slate-800 text-xs">{caste.category} Cohort</span>
                         <span className="text-[10px] text-slate-400">({caste.activeFarmersCount} active)</span>

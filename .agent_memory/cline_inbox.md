@@ -1,70 +1,30 @@
-# Inbox: URGENT - Fix Vercel Build Failure (src/App.tsx)
+# Inbox: URGENT - Correct Fallacies in Landless Triangulation Insights
 ## Status: ✅ COMPLETED (July 2, 2026)
 
 **Task Overview:**
-The latest commit (a30c38c) failed to deploy on Vercel due to JSX syntax errors introduced in `src/App.tsx`. Fixed — production build succeeds.
+The Dashboard currently displays two conflicting and logically flawed claims regarding landless farmers and tenant support. As a data consultant, I've audited these claims and found significant fallacies that misrepresent our impact. You need to correct the UI copy and the underlying logic to reflect accurate, defensible data.
 
-**Error Details from Vercel:**
-```
-/vercel/path0/src/App.tsx:2013:14: ERROR: Unexpected closing "motion.div" tag does not match opening "div" tag
-/vercel/path0/src/App.tsx:2014:28: ERROR: Unterminated regular expression
+**The Fallacies Identified:**
 
-2011|                  </div>
-2012|                )}
-2013|              </motion.div>
-   |                ^
-2014|            </AnimatePresence>
-```
+1. **Denominator Confusion (40% vs 36%):**
+   - *Claim 1* states "40% (659) of the baseline cohort is landless" (using the full 1,638 demographic baseline).
+   - *Claim 2* states "36% landless at baseline", but this number actually comes from `216 / 600` (the subset of *fuzzy-matched active farmers*). 
+   - *The Fallacy:* Labelling the 36% metric as "landless at baseline" directly contradicts the 40% metric. The 36% actually represents the **composition of our active, matched cohort** (i.e., 36% of our active farmers *started out* as landless), not the overall baseline average.
 
-**Root Cause:**
-The `remove_triangulation_block.cjs` script recently ran and removed the "Triangulated Insights" block from the FDI & Grant Reports tab. During this string manipulation, it likely deleted an opening `<motion.div>` tag or left behind unmatched closing tags (`</motion.div>`, `</div>`). It may have also mismatched a JSX comment (leading to the unterminated regex error).
+2. **The "100% Formal Lease Leverage" Leap of Faith:**
+   - *Claim 1* states: "...the MIS Rights Tab confirms 100% of our targeted tenant farmers have received formal lease leverage support."
+   - *The Fallacy:* This is a massive analytical overreach. The system assumes that because a farmer was landless at baseline (0 acres) but is now logging crop yields in the MIS, the program *must* have provided them formal lease leverage. This ignores field realities: they may have secured informal sharecropping agreements independently, inherited land, or the baseline "0" might have simply been a data entry error. Unless the Rights Tab has exactly 216 logged entitlements for "Formal Land Lease", claiming 100% is factually incorrect and dangerous for an audit.
 
-**Action Items:**
-1. Open `src/App.tsx` and navigate to the end of the `FDI & Grant Reports` tab (just before `activeTab === "audit"`).
-2. Fix the component tree structure so that all `div` and `motion.div` tags properly match up.
-3. Ensure there are no dangling `{/*` or `*/}` comments.
-4. Run `npm run build` or `npx vite build` locally to verify the build succeeds with 0 errors.
-5. Commit and push the fix to trigger a successful Vercel deployment.
+3. **Survivorship / Matching Bias:**
+   - The 216 figure comes from a pool of 600 fuzzy-matched farmers (which is only a 45.4% match rate against the 1,322 active roster). Extrapolating definitive programmatic success without acknowledging the unmatched 54.6% is misleading.
 
----
-
-# Inbox: Comprehensive Dashboard Data Bible Creation
-## Status: ✅ COMPLETED (July 2, 2026)
-
-**Task Overview:**
-Draft an exhaustive "Dashboard Data Bible" markdown document. Created at `docs/dashboard_data_bible.md`. This document serves as the single source of truth for the entire dashboard, explaining every single data point, graph, and narrative, ensuring 100% confidence, triangulation, and transparency.
-
-**Detailed Execution Plan:**
-
-1. **Dashboard-Wide Data Audit & Integrity Check:**
-   - Scan *every single page and tab* of the dashboard.
-   - Catalog *every* graph, metric, data point, and the accompanying narrative.
-   - **Cross-Validation:** Check for data anomalies or contradictions. Does a metric on the "Agriculture" tab claim something that conflicts with a metric on the "Rights", "Institutions", or "FDI" tab? Flag and resolve any inconsistencies across the entire UI.
-
-2. **Creation of the "Dashboard Data Bible" (Markdown Document):**
-   - Create a comprehensive markdown file (e.g., `docs/dashboard_data_bible.md` or similar).
-   - For **every number/graph**, document the following exhaustively:
-     - **3.1 Origin & Comparison:** How did this number come to be? What exact dataset, calculation, or script generated it? What is the graph saying, and what baseline/target is it comparing against?
-     - **3.2 Contextual Meaning:** What does this data actually *mean* in the real-world context of the project? Why does this metric matter to the stakeholders?
-     - **3.3 Data Journey & Challenges:** Detail the realities behind painting this huge picture. What were the challenges in collating and cleaning this data? Acknowledge any data gaps, inconsistencies in field reporting, and the ground realities that affect the accuracy or completeness of this metric.
-
-3. **Final Review & Confidence Check:**
-   - Ensure absolutely no detail is spared.
-   - Every single data point featured on the UI must have a properly triangulated and confident explanation in this document, explaining exactly why the data says what it does.
+**Action Items for Cline:**
+1. **Rewrite the UI Copy (in `BaselineTab.tsx`, `OverviewTab.tsx`, or wherever these insights live):**
+   - Fix the "36% landless at baseline" header to accurately say "36% of Active Cohort Started Landless".
+   - Remove the fabricated "100% formal lease leverage support" claim entirely. Replace it with a grounded, defensible insight: "216 landless baseline families are now active cultivators in the program, indicating successful inclusion of sharecroppers."
+2. **Review the JSON outputs:**
+   - Check the scripts that generate `triangulated_insights.json` or `triangulation_summary.json` to ensure the metrics clearly distinguish between "Baseline Total Landless Rate" and "Matched Cohort Landless Rate".
+3. **Verify and Commit:**
+   - Verify the UI reads logically, contains no contradictory stats, and does not make claims we cannot back up with hard entitlement logs. Push the fix.
 
 ---
-
-# Inbox: Dashboard Data Triangulation and Re-integration
-## Status: COMPLETED
-
-**Completed 2026-07-02:**
-1. Removed "Triangulated Insights: Grant Reports vs Dashboard Data" section from FDI & Grant Reports tab.
-2. Added contextual "New Findings" sections to relevant tabs (AgricultureTab, RightsTab, InstitutionsTab).
-3. Each section shows grant report figures compared to dashboard data with actionable insights.
-
----
-
-# Inbox: Processing New Grant Reports & Visual Evidence (Folders 23-26)
-## Status: COMPLETED
-
-[... existing text omitted for brevity ...]
