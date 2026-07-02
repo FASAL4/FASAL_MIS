@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from 'react';
-import { Sparkles, Sprout, Leaf, Utensils, AlertCircle, CheckCircle2, Info, TrendingUp, Users, IndianRupee, Quote, PieChart as PieChartIcon } { Sparkles } from 'lucide-react';
+import { Sparkles, Sprout, Leaf, Utensils, AlertCircle, CheckCircle2, Info, TrendingUp, Users, IndianRupee, Quote, PieChart as PieChartIcon } from 'lucide-react';
 import { ResponsiveContainer, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip as RechartsTooltip, Legend, PieChart, Pie, Cell } from 'recharts';
 import * as Popover from '@radix-ui/react-popover';
 import cropEconomics from '../../data/crop_economics.json';
@@ -252,30 +252,4 @@ export function AgricultureTab() {
       </div>
     </div>
   );
-
-                  {/* Grant Report Triangulation: LEISA Training Pipeline */}
-                  <div className="mt-6 p-5 rounded-2xl border-2 border-dashed border-amber-300 bg-amber-50/30">
-                    <div className="flex items-center gap-2 mb-3">
-                      <Sparkles size={18} className="text-amber-600" />
-                      <h3 className="text-sm font-bold text-amber-900 uppercase tracking-wider">New Findings: LEISA Training Pipeline</h3>
-                    </div>
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-3 text-xs">
-                      <div className="bg-white p-3 rounded-xl border border-amber-200 shadow-sm">
-                        <div className="font-bold text-amber-800">603</div>
-                        <div className="text-slate-600">Farmers trained in LEISA (Grant Report 2024)</div>
-                        <div className="text-[10px] text-slate-400 mt-1">Pest mgmt, mixed cropping, multi-layer, turmeric</div>
-                      </div>
-                      <div className="bg-white p-3 rounded-xl border border-amber-200 shadow-sm">
-                        <div className="font-bold text-amber-800">178</div>
-                        <div className="text-slate-600">Farmers adopted turmeric + ginger (Dashboard)</div>
-                        <div className="text-[10px] text-amber-600 mt-1 font-semibold">29.5% training-to-adoption conversion rate</div>
-                      </div>
-                      <div className="bg-white p-3 rounded-xl border border-emerald-200 shadow-sm">
-                        <div className="font-bold text-emerald-800">₹10K → ₹60K → ₹3.35L</div>
-                        <div className="text-slate-600">Per-acre income: baseline → target → turmeric actual</div>
-                        <div className="text-[10px] text-emerald-600 mt-1 font-semibold">6x target achieved; 33x for turmeric</div>
-                      </div>
-                    </div>
-                  </div>
-
 }

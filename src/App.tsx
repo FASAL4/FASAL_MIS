@@ -1358,8 +1358,8 @@ export default function App() {
                       </div>
                     </div>
                   </div>
-
-                  
+                </div>
+              )}
 
               {activeTab === "audit" && (
                 <div className="max-w-6xl mx-auto pb-12 space-y-6">

@@ -26,3 +26,5 @@
 - 7 stories of change documented (Sanjaywati, Rajkumari, Guddi Devi, Bhakuri, Shanti Devi, Deventi Devi, Reena Kumari)
 - Output: src/data/extracted_grant_reports.json
 - Inbox cleared and marked COMPLETED
+
+* 2026-07-02 - Cline: Created comprehensive Dashboard Data Bible (docs/dashboard_data_bible.md). Exhaustive single-source-of-truth document covering ALL 11 dashboard sections: Baseline Survey, Results Scorecard, Agriculture Economics, Rights & Entitlements, Nutrition Security, Institutions & Capacity, Farmer Registry, Grant Reports & FDI, Data Audit, Stories of Change, and MIS Explained. Documented ~200+ metrics with origin datasets, calculation logic, Excel column references, contextual meaning, and data challenges. Performed 6 cross-validation checks (farmer counts, leverage amounts, turmeric numbers, income/acre, toilet/PMAY discrepancies, baseline vs active income). Catalogued 7 known data gaps with severity ratings and mitigations. Mapped 28 JSON data files to their source scripts and original Excel workbooks. Inbox cleared — task COMPLETED.
