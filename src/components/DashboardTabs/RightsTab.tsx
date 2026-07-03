@@ -4,6 +4,8 @@ import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Responsive
 import * as Popover from '@radix-ui/react-popover';
 import yearlyEntitlements from '../../data/yearly_entitlements.json';
 import storiesOfChange from '../../data/stories_of_change.json';
+import { FocusSchemesCard } from './RightsSub/FocusSchemesCard';
+import { EligibilityMatrix } from './RightsSub/EligibilityMatrix';
 
 const formatCurrencyLakhs = (valueInLakhs: number) => {
     if (valueInLakhs >= 100) {
@@ -169,6 +171,9 @@ export function RightsTab({ farmersData = [] }: { farmersData?: any[] }) {
                     </div>
                 ))}
             </div>
+
+            {/* Focus Schemes (5-8 priority entitlements) — NEW: Want vs. Got cross-referenced with family eligibility */}
+            <FocusSchemesCard defaultYear={selectedRightsYear as any} />
 
             {/* Geographic Hierarchy Selector Card (Full Width) */}
             <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 w-full flex flex-col justify-between min-h-[480px]">
@@ -506,6 +511,9 @@ export function RightsTab({ farmersData = [] }: { farmersData?: any[] }) {
                     <EvidenceDrawer source="Leverage Files 2022-2025" title="Leverage Summary" sheet="Annual sums + Beneficiary lists" calculation="Total annual leverage divided by unique beneficiary family counts" rfLink="Outcome 1/4" status="Verified" caution="2025 leverage includes partial-year data; averages calculated based on instances." />
                 </div>
             </div>
+
+            {/* Eligibility Coverage Matrix — NEW: % of families meeting key criteria, with GP-level rollup */}
+            <EligibilityMatrix />
 
             <div className="bg-slate-800 text-white p-6 rounded-2xl flex flex-col md:flex-row items-center justify-between gap-4">
                 <div>
