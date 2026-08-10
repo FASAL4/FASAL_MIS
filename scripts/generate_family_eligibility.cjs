@@ -46,7 +46,7 @@ const BASELINE_RATES = {
     MNREGA: 0.646,             // 972/1504 Baseline Report
     ESHRAM: 0.692,             // 1041/1504 Baseline Report
     KISAN_SAMMAN: 0.109,       // 164/1504 Baseline Report
-    PMAY_HOUSE: 0.274,         // 564/2060 baseline_nrm.json
+    PMAY_HOUSE: 0.274,         // 564/2060 baseline_nrm.json (housing scheme)
     OA_PENSION: 0.011,         // 17/1504 Baseline Report
     WIDOW_PENSION: 0.006,      // 9/1504 Baseline Report
     D_PENSION: 0.0,            // 0/1504 Baseline Report
@@ -166,10 +166,9 @@ function inferEligibility(farmer, index) {
         schemes.add(SCHEMES.TOILET);
     }
 
-    // Bank account - source varies
+    // Bank account - source varies (but NOT used for PM Awas anymore)
     if (farmer.bankAccount) {
         criteria.bankAccount = true;
-        schemes.add(SCHEMES.PMAWAS);
     }
 
     // Age >= 60 -> Old Age Pension (source varies)
@@ -208,6 +207,13 @@ function inferEligibility(farmer, index) {
     // eShram - baseline rate 69.2% (but already added via migration; this covers non-migrant)
     if (!schemes.has(SCHEMES.ESHRAM) && rng() < BASELINE_RATES.ESHRAM) {
         schemes.add(SCHEMES.ESHRAM);
+    }
+
+    // PM Awas (PMAY-G) - baseline rate 27.4% (564/2060 from baseline_nrm.json)
+    // Previously linked to bankAccount (98.8%) which was wrong.
+    // PMAY-G is for houseless/kutcha-house families, not all bank account holders.
+    if (rng() < BASELINE_RATES.PMAY_HOUSE) {
+        schemes.add(SCHEMES.PMAWAS);
     }
 
     return { schemes: Array.from(schemes).sort(), criteria, landAcres };

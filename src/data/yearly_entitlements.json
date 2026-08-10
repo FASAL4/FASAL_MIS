@@ -374,6 +374,11 @@
       "name": "Legal aid for women suffering from dowry system",
       "advocated": 22,
       "received": 19
+    },
+    {
+      "name": "PM Awas (PMAY-G)",
+      "advocated": 0,
+      "received": 0
     }
   ],
   "2023": [
@@ -751,6 +756,11 @@
       "name": "Legal aid for women suffering from dowry system",
       "advocated": 0,
       "received": 0
+    },
+    {
+      "name": "PM Awas (PMAY-G)",
+      "advocated": 151,
+      "received": 151
     }
   ],
   "2024": [
@@ -1128,6 +1138,11 @@
       "name": "Legal aid for women suffering from dowry system",
       "advocated": 0,
       "received": 0
+    },
+    {
+      "name": "PM Awas (PMAY-G)",
+      "advocated": 66,
+      "received": 66
     }
   ],
   "Cumulative": [
@@ -1505,6 +1520,11 @@
       "name": "Legal aid for women suffering from dowry system",
       "advocated": 22,
       "received": 19
+    },
+    {
+      "name": "PM Awas (PMAY-G)",
+      "advocated": 279,
+      "received": 279
     }
   ]
 }
