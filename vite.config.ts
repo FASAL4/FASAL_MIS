@@ -16,11 +16,17 @@ export default defineConfig({
     },
   },
   server: {
-    port: 5173,
+    port: 5199,
     host: true,
   },
   build: {
     outDir: 'dist',
     sourcemap: true,
+    rollupOptions: {
+      input: {
+        main: path.resolve(__dirname, 'index.html'),
+        legacy: path.resolve(__dirname, 'legacy.html'),
+      },
+    },
   },
 });
