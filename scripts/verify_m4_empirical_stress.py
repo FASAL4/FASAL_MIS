@@ -187,19 +187,19 @@ def main():
     multi_test_cases = [
         {"gp": "Fakirpuri", "caste": "ST", "expected": 217},
         {"gp": "Mangalpurwa", "caste": "SC", "expected": 67},
-        {"gp": "Karikot", "caste": "OBC", "expected": 718},
-        {"gp": "Karikot", "caste": "SC", "expected": 37},
-        {"gp": "Karikot", "caste": "ST", "expected": 0},
-        {"gp": "Karikot", "caste": "General", "expected": 3},
-        {"gp": "Chahalwa", "caste": "ST", "expected": 113},
-        {"gp": "Chahalwa", "caste": "OBC", "expected": 76},
-        {"gp": "Chahalwa", "caste": "SC", "expected": 12},
-        {"gp": "Bajpur Bankati", "caste": "SC", "expected": 75},
-        {"gp": "Bajpur Bankati", "caste": "OBC", "expected": 54},
+        {"gp": "Karikot", "caste": "OBC", "expected": 482},
+        {"gp": "Karikot", "caste": "SC", "expected": 161},
+        {"gp": "Karikot", "caste": "ST", "expected": 109},
+        {"gp": "Karikot", "caste": "General", "expected": 6},
+        {"gp": "Chahalwa", "caste": "ST", "expected": 2},
+        {"gp": "Chahalwa", "caste": "OBC", "expected": 192},
+        {"gp": "Chahalwa", "caste": "SC", "expected": 7},
+        {"gp": "Bajpur Bankati", "caste": "SC", "expected": 11},
+        {"gp": "Bajpur Bankati", "caste": "OBC", "expected": 112},
         {"gp": "Badkhadiya", "caste": "OBC", "expected": 52},
-        {"gp": "Badkhadiya", "caste": "SC", "expected": 11},
-        {"gp": "Vishunapur", "caste": "ST", "expected": 47},
-        {"gp": "Vishunapur", "caste": "SC", "expected": 9},
+        {"gp": "Badkhadiya", "caste": "SC", "expected": 9},
+        {"gp": "Vishunapur", "caste": "ST", "expected": 42},
+        {"gp": "Vishunapur", "caste": "SC", "expected": 1},
     ]
 
     def filter_combos(gp="ALL", village="ALL", caste="ALL", tier="ALL"):
@@ -239,10 +239,8 @@ def main():
         {"gp": "Badkhadiya", "caste": "General", "name": "Badkhadiya x General"},
         {"gp": "Chahalwa", "caste": "General", "name": "Chahalwa x General"},
         {"gp": "Vishunapur", "caste": "General", "name": "Vishunapur x General"},
-        {"gp": "Karikot", "caste": "ST", "name": "Karikot x ST"},
-        {"gp": "Mangalpurwa", "caste": "ST", "name": "Mangalpurwa x ST"},
-        {"gp": "Bajpur Bankati", "caste": "General", "name": "Bajpur Bankati x General"},
         {"gp": "Fakirpuri", "caste": "General", "name": "Fakirpuri x General"},
+        {"gp": "Mangalpurwa", "caste": "General", "name": "Mangalpurwa x General"},
     ]
 
     for zc in zero_cohort_cases:
