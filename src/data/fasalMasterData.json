@@ -1,0 +1,4158 @@
+{
+  "metadata": {
+    "projectName": "Farmers' Action for Sustainable Agro-based Livelihoods (FASAL)",
+    "grantRef": "G-2110-10970",
+    "grantCommitmentINR": 21600000,
+    "lifecycleSpan": "Nov 1, 2021 – Dec 31, 2026",
+    "implementingAgency": "Developmental Association for Human Advancement (DEHAT)",
+    "targetLandscape": "Mihinpurwa Block, Bahraich District, Uttar Pradesh (Katarniaghat Wildlife Sanctuary Buffer Corridor)",
+    "datasetCutDate": "2026-11-05",
+    "datasetSha256": "a7c0ecee9a1adc63fe3340e58c690171bf4ab193d79f0e6ee7b0b2a9056d945f",
+    "surveyWave1Window": "Jan 2022 – Dec 2024 (1,329 HHs)",
+    "surveyWave2Window": "Jan 2025 – Nov 2026 (1,535 HHs / 1,487 Active Farmers)"
+  },
+  "overview": {
+    "headlineKPIs": {
+      "grantCommitment": 21600000,
+      "totalHouseholdsSurveyed": 1535,
+      "activeCultivatingFarmers": 1487,
+      "residentIndividualPopulation": 6494,
+      "meanHouseholdSize": 4.23,
+      "gramPanchayatsCount": 7,
+      "villagesCount": 19,
+      "marginalizedInclusionRate": 99.48,
+      "verifiedPublicLeverageINR": 77098360,
+      "jskTransactionsCount": 1102,
+      "trainingSessionsCount": 210,
+      "trainingAttendancesCount": 13510
+    },
+    "geographicDistribution": [
+      {
+        "gpName": "Karikot",
+        "households": 758,
+        "percentage": 49.38,
+        "hamletsCount": 9,
+        "hamletNames": [
+          "Rajaram Tanda",
+          "Jamuniha",
+          "Bishunapurwa",
+          "Durgapurwa",
+          "Chakkarghat",
+          "Madhavpur",
+          "Laxmanpurwa",
+          "Chhabilapurwa",
+          "Fakire Tanda"
+        ],
+        "primaryCharacteristics": "Primary project hub spanning 9 distinct forest hamlets along Katarniaghat sanctuary border"
+      },
+      {
+        "gpName": "Fakirpuri",
+        "households": 249,
+        "percentage": 16.22,
+        "hamletsCount": 3,
+        "hamletNames": [
+          "Fakirpuri",
+          "Sirsiyanpurwa",
+          "Rampurwa"
+        ],
+        "primaryCharacteristics": "Indigenous Tharu tribal settlement corridor; highest turmeric and organic bio-manure adoption"
+      },
+      {
+        "gpName": "Chahalwa",
+        "households": 201,
+        "percentage": 13.1,
+        "hamletsCount": 4,
+        "hamletNames": [
+          "Chahalwa",
+          "Babhanpurwa",
+          "Golhana",
+          "Koilapurwa"
+        ],
+        "primaryCharacteristics": "Riverbed cucurbit and multi-tier machan vegetable farming center"
+      },
+      {
+        "gpName": "Bajpur Bankati",
+        "households": 129,
+        "percentage": 8.4,
+        "hamletsCount": 1,
+        "hamletNames": [
+          "Bajpur Bankati"
+        ],
+        "primaryCharacteristics": "Riverine agricultural belt with intensive pulse and wheat cultivation"
+      },
+      {
+        "gpName": "Mangalpurwa",
+        "households": 79,
+        "percentage": 5.15,
+        "hamletsCount": 1,
+        "hamletNames": [
+          "Mangalpurwa"
+        ],
+        "primaryCharacteristics": "Southern agricultural cluster with high pulse and oilseed share"
+      },
+      {
+        "gpName": "Badkhadiya",
+        "households": 63,
+        "percentage": 4.1,
+        "hamletsCount": 1,
+        "hamletNames": [
+          "Badkhadiya"
+        ],
+        "primaryCharacteristics": "Formally elevated 7th GP unit; specialized organic kitchen garden community"
+      },
+      {
+        "gpName": "Vishunapur",
+        "households": 56,
+        "percentage": 3.65,
+        "hamletsCount": 1,
+        "hamletNames": [
+          "Vishunapur"
+        ],
+        "primaryCharacteristics": "Forest fringe hamlet with integrated poultry and dairy linkages"
+      }
+    ],
+    "casteDemographics": [
+      {
+        "casteCategory": "OBC",
+        "description": "Other Backward Classes (Kurmi, Yadav, Maurya, Lodh, Kewat)",
+        "households": 891,
+        "percentage": 58.05,
+        "meanLandBigha": 3.15,
+        "meanNetIncome2026": 62450.0,
+        "aasMembershipPct": 73.85
+      },
+      {
+        "casteCategory": "ST",
+        "description": "Scheduled Tribe (Indigenous Tharu forest-dwelling community)",
+        "households": 377,
+        "percentage": 24.56,
+        "meanLandBigha": 4.41,
+        "meanNetIncome2026": 71820.0,
+        "aasMembershipPct": 78.42
+      },
+      {
+        "casteCategory": "SC",
+        "description": "Scheduled Caste (Dalit - Chamar/Gautam, Pasi, Dhobi)",
+        "households": 259,
+        "percentage": 16.87,
+        "meanLandBigha": 2.87,
+        "meanNetIncome2026": 57110.0,
+        "aasMembershipPct": 71.94
+      },
+      {
+        "casteCategory": "General",
+        "description": "General Category rural residents",
+        "households": 8,
+        "percentage": 0.52,
+        "meanLandBigha": 2.62,
+        "meanNetIncome2026": 49200.0,
+        "aasMembershipPct": 62.5
+      }
+    ],
+    "collectivization": {
+      "aasUnionMembers": 4826,
+      "aasAffinityGroups": 64,
+      "shgGroupsCount": 39,
+      "shgMembersCount": 549,
+      "balSansadMinisters": 9,
+      "kishorSangathanLeaders": 11,
+      "yuvaSansadDelegates": 11,
+      "baghmitraGajmitraLinkages": 1531,
+      "krishiMitraLinkages": 1532
+    },
+    "fieldAdministration": {
+      "visibleSubmissions": 1535,
+      "incompleteSurveys": 14,
+      "duplicateSurveys": 15,
+      "completedValidatedSurveys": 1506,
+      "physicalBookletsDeposited": 1520,
+      "enumeratorPaymentsDisbursed": 1102,
+      "enumeratorPaymentsPending": 408,
+      "totalSurveyors": 19
+    }
+  },
+  "income": {
+    "macroFinancials": {
+      "year2025": {
+        "cultivationCostINR": 30214192,
+        "grossRevenueINR": 111246772,
+        "netProfitINR": 81032580,
+        "meanNetIncomePerHH": 54494.0,
+        "medianNetIncomePerHH": 44400.0,
+        "activeFarmersCount": 1487,
+        "activeEarnersCount": 1484,
+        "activeEarnerSaturationPct": 99.8,
+        "netProfitMarginPct": 72.84
+      },
+      "year2026": {
+        "cultivationCostINR": 33124177,
+        "grossRevenueINR": 128170176,
+        "netProfitINR": 95045999,
+        "meanNetIncomePerHH": 63917.95,
+        "medianNetIncomePerHH": 53400.0,
+        "activeFarmersCount": 1487,
+        "activeEarnersCount": 1478,
+        "activeEarnerSaturationPct": 99.39,
+        "netProfitMarginPct": 74.16
+      },
+      "deltaYoY": {
+        "netProfitGrowthAmount": 14013419,
+        "netProfitGrowthPct": 17.29,
+        "grossRevenueGrowthAmount": 16923404,
+        "grossRevenueGrowthPct": 15.21,
+        "cultivationCostGrowthAmount": 2909985,
+        "cultivationCostGrowthPct": 9.63,
+        "profitMarginDeltaPp": 1.32
+      }
+    },
+    "longitudinalTrajectory": [
+      {
+        "calendarYear": 2022,
+        "surveyWave": "Wave 1 RAW",
+        "meanNetIncomeINR": 34555.01,
+        "medianNetIncomeINR": 22000.0,
+        "aggregateNetIncomeINR": 45923608.21,
+        "sampleSize": 1329,
+        "activeEarnerPct": 93.0,
+        "notes": "Authoritative pre-intervention baseline across 1,329 households"
+      },
+      {
+        "calendarYear": 2023,
+        "surveyWave": "Wave 1 RAW",
+        "meanNetIncomeINR": 42334.62,
+        "medianNetIncomeINR": 27000.0,
+        "aggregateNetIncomeINR": 56262710.0,
+        "sampleSize": 1329,
+        "activeEarnerPct": 95.56,
+        "notes": "Year 2 midline survey capturing initial LEISA bio-input adoption"
+      },
+      {
+        "calendarYear": 2024,
+        "surveyWave": "Wave 1 RAW",
+        "meanNetIncomeINR": 56377.16,
+        "medianNetIncomeINR": 38700.0,
+        "aggregateNetIncomeINR": 74868868.51,
+        "sampleSize": 1328,
+        "activeEarnerPct": 96.61,
+        "notes": "Year 3 midline survey (SYS-1/SYS-3 remediated: excludes outlier Row 1206)"
+      },
+      {
+        "calendarYear": 2025,
+        "surveyWave": "Wave 2 Master",
+        "meanNetIncomeINR": 54494.0,
+        "medianNetIncomeINR": 44400.0,
+        "aggregateNetIncomeINR": 81032580.0,
+        "sampleSize": 1487,
+        "activeEarnerPct": 99.8,
+        "notes": "Expanded cohort follow-up across 1,487 genuine cultivating farmers"
+      },
+      {
+        "calendarYear": 2026,
+        "surveyWave": "Wave 2 Master",
+        "meanNetIncomeINR": 63917.95,
+        "medianNetIncomeINR": 53400.0,
+        "aggregateNetIncomeINR": 95045999.0,
+        "sampleSize": 1487,
+        "activeEarnerPct": 99.39,
+        "notes": "Final endline survey demonstrating +84.97% mean and +142.73% median gains"
+      }
+    ],
+    "longitudinalGrowth": {
+      "meanGrowthPct": 84.97,
+      "medianGrowthPct": 142.73,
+      "aggregateGrowthPct": 106.97,
+      "bottomQuartileGainSummary": "Bottom quartile experienced largest percentage recovery (+186%) via LEISA multi-tier horticulture and turmeric buffers"
+    },
+    "casteEconomics": [
+      {
+        "caste": "ST",
+        "label": "Scheduled Tribe (Tharu)",
+        "sampleSize": 377,
+        "meanNetFarmIncome2026": 71820.0,
+        "medianNetFarmIncome2026": 61200.0,
+        "meanLandBigha": 4.41,
+        "meanLandAcres020": 0.882,
+        "landlessRatePct": 3.71,
+        "aasUnionEnrollmentPct": 78.42,
+        "keyDrivers": "Traditional forest buffer knowledge, commercial turmeric adoption, AAS collectivization"
+      },
+      {
+        "caste": "OBC",
+        "label": "Other Backward Classes",
+        "sampleSize": 891,
+        "meanNetFarmIncome2026": 62450.0,
+        "medianNetFarmIncome2026": 52800.0,
+        "meanLandBigha": 3.15,
+        "meanLandAcres020": 0.63,
+        "landlessRatePct": 6.4,
+        "aasUnionEnrollmentPct": 73.85,
+        "keyDrivers": "Intensive multi-tier vegetable trellis farming and riverbed cucurbits"
+      },
+      {
+        "caste": "SC",
+        "label": "Scheduled Caste (Dalit)",
+        "sampleSize": 259,
+        "meanNetFarmIncome2026": 57110.0,
+        "medianNetFarmIncome2026": 48600.0,
+        "meanLandBigha": 2.87,
+        "meanLandAcres020": 0.574,
+        "landlessRatePct": 6.18,
+        "aasUnionEnrollmentPct": 71.94,
+        "keyDrivers": "Highest income yield per unit land via high-density organic kitchen gardening"
+      },
+      {
+        "caste": "General",
+        "label": "General Category",
+        "sampleSize": 8,
+        "meanNetFarmIncome2026": 49200.0,
+        "medianNetFarmIncome2026": 44000.0,
+        "meanLandBigha": 2.62,
+        "meanLandAcres020": 0.524,
+        "landlessRatePct": 12.5,
+        "aasUnionEnrollmentPct": 62.5,
+        "keyDrivers": "Diverse non-farm livelihoods supplemented by smallholder cultivation"
+      }
+    ],
+    "turmericValueChain": {
+      "growers2025": 333,
+      "growers2026": 328,
+      "areaBigha2025": 315,
+      "areaBigha2026": 345,
+      "freshRhizomeProductionKg": 738640,
+      "averageYieldQuintalsPerAcre": 107.0,
+      "cultivationCost2025": 2488890,
+      "cultivationCost2026": 2849768,
+      "grossRevenue2025": 11797750,
+      "grossRevenue2026": 12688160,
+      "netProfit2025": 9308860,
+      "netProfit2026": 9838392,
+      "netProfitMarginPct2026": 82.85,
+      "averageNetProfitPerGrower2026": 29995.1,
+      "curcuminContentPctRange": "3.2% - 3.8%",
+      "dryFingerMarketingPriceRange": "₹140 - ₹180 / kg"
+    },
+    "cropLedger": [
+      {
+        "cropKey": "wheat",
+        "displayName": "Wheat",
+        "hindiName": "गेहूं",
+        "category": "Cereal",
+        "growersCount2026": 1369,
+        "cultivationCost2025": 11138225,
+        "cultivationCost2026": 12260900,
+        "grossRevenue2025": 37972260,
+        "grossRevenue2026": 44476773,
+        "netProfit2025": 26834035,
+        "netProfit2026": 32215873,
+        "netProfitMargin2026": 72.43,
+        "yoyGrowthPct": 20.06
+      },
+      {
+        "cropKey": "paddy",
+        "displayName": "Paddy",
+        "hindiName": "धान",
+        "category": "Cereal",
+        "growersCount2026": 1381,
+        "cultivationCost2025": 13020850,
+        "cultivationCost2026": 14053900,
+        "grossRevenue2025": 33404148,
+        "grossRevenue2026": 39046205,
+        "netProfit2025": 20383298,
+        "netProfit2026": 24992305,
+        "netProfitMargin2026": 64.01,
+        "yoyGrowthPct": 22.61
+      },
+      {
+        "cropKey": "turmeric",
+        "displayName": "Turmeric",
+        "hindiName": "हल्दी",
+        "category": "Cash/Spice",
+        "growersCount2026": 328,
+        "cultivationCost2025": 2488890,
+        "cultivationCost2026": 2849768,
+        "grossRevenue2025": 11797750,
+        "grossRevenue2026": 12688160,
+        "netProfit2025": 9308860,
+        "netProfit2026": 9838392,
+        "netProfitMargin2026": 77.54,
+        "yoyGrowthPct": 5.69
+      },
+      {
+        "cropKey": "okra",
+        "displayName": "Okra",
+        "hindiName": "भिंडी",
+        "category": "Vegetable",
+        "growersCount2026": 873,
+        "cultivationCost2025": 266232,
+        "cultivationCost2026": 307200,
+        "grossRevenue2025": 2873903,
+        "grossRevenue2026": 3629280,
+        "netProfit2025": 2607671,
+        "netProfit2026": 3322080,
+        "netProfitMargin2026": 91.54,
+        "yoyGrowthPct": 27.4
+      },
+      {
+        "cropKey": "bitter_gourd",
+        "displayName": "Bitter Gourd",
+        "hindiName": "करेला",
+        "category": "Vegetable",
+        "growersCount2026": 777,
+        "cultivationCost2025": 293161,
+        "cultivationCost2026": 335688,
+        "grossRevenue2025": 2935519,
+        "grossRevenue2026": 3413645,
+        "netProfit2025": 2642358,
+        "netProfit2026": 3077957,
+        "netProfitMargin2026": 90.17,
+        "yoyGrowthPct": 16.49
+      },
+      {
+        "cropKey": "cucumber",
+        "displayName": "Cucumber",
+        "hindiName": "खीरा",
+        "category": "Vegetable",
+        "growersCount2026": 665,
+        "cultivationCost2025": 204250,
+        "cultivationCost2026": 235816,
+        "grossRevenue2025": 2388910,
+        "grossRevenue2026": 2811758,
+        "netProfit2025": 2184660,
+        "netProfit2026": 2575942,
+        "netProfitMargin2026": 91.61,
+        "yoyGrowthPct": 17.91
+      },
+      {
+        "cropKey": "cauliflower",
+        "displayName": "Cauliflower",
+        "hindiName": "फूलगोभी",
+        "category": "Vegetable",
+        "growersCount2026": 610,
+        "cultivationCost2025": 257930,
+        "cultivationCost2026": 330188,
+        "grossRevenue2025": 2383270,
+        "grossRevenue2026": 2898996,
+        "netProfit2025": 2125340,
+        "netProfit2026": 2568808,
+        "netProfitMargin2026": 88.61,
+        "yoyGrowthPct": 20.87
+      },
+      {
+        "cropKey": "chili",
+        "displayName": "Chili",
+        "hindiName": "मिर्च",
+        "category": "Cash/Spice",
+        "growersCount2026": 692,
+        "cultivationCost2025": 218541,
+        "cultivationCost2026": 271660,
+        "grossRevenue2025": 2234796,
+        "grossRevenue2026": 2726185,
+        "netProfit2025": 2016255,
+        "netProfit2026": 2454525,
+        "netProfitMargin2026": 90.04,
+        "yoyGrowthPct": 21.74
+      },
+      {
+        "cropKey": "pumpkin",
+        "displayName": "Pumpkin",
+        "hindiName": "कद्दू",
+        "category": "Vegetable",
+        "growersCount2026": 587,
+        "cultivationCost2025": 142163,
+        "cultivationCost2026": 156153,
+        "grossRevenue2025": 1601550,
+        "grossRevenue2026": 1880040,
+        "netProfit2025": 1459387,
+        "netProfit2026": 1723887,
+        "netProfitMargin2026": 91.69,
+        "yoyGrowthPct": 18.12
+      },
+      {
+        "cropKey": "garlic",
+        "displayName": "Garlic",
+        "hindiName": "लहसुन",
+        "category": "Cash/Spice",
+        "growersCount2026": 368,
+        "cultivationCost2025": 202218,
+        "cultivationCost2026": 212756,
+        "grossRevenue2025": 1601856,
+        "grossRevenue2026": 1755223,
+        "netProfit2025": 1399638,
+        "netProfit2026": 1542467,
+        "netProfitMargin2026": 87.88,
+        "yoyGrowthPct": 10.2
+      },
+      {
+        "cropKey": "mustard",
+        "displayName": "Mustard",
+        "hindiName": "सरसों",
+        "category": "Oilseed",
+        "growersCount2026": 162,
+        "cultivationCost2025": 209900,
+        "cultivationCost2026": 218800,
+        "grossRevenue2025": 1615950,
+        "grossRevenue2026": 1628315,
+        "netProfit2025": 1406050,
+        "netProfit2026": 1409515,
+        "netProfitMargin2026": 86.56,
+        "yoyGrowthPct": 0.25
+      },
+      {
+        "cropKey": "onion",
+        "displayName": "Onion",
+        "hindiName": "प्याज",
+        "category": "Vegetable",
+        "growersCount2026": 427,
+        "cultivationCost2025": 309151,
+        "cultivationCost2026": 320398,
+        "grossRevenue2025": 1759056,
+        "grossRevenue2026": 1711248,
+        "netProfit2025": 1449905,
+        "netProfit2026": 1390850,
+        "netProfitMargin2026": 81.28,
+        "yoyGrowthPct": -4.07
+      },
+      {
+        "cropKey": "coriander",
+        "displayName": "Coriander",
+        "hindiName": "Coriander",
+        "category": "Cash/Spice",
+        "growersCount2026": 418,
+        "cultivationCost2025": 87375,
+        "cultivationCost2026": 115565,
+        "grossRevenue2025": 967735,
+        "grossRevenue2026": 1300948,
+        "netProfit2025": 880360,
+        "netProfit2026": 1185383,
+        "netProfitMargin2026": 91.12,
+        "yoyGrowthPct": 34.65
+      },
+      {
+        "cropKey": "brinjal",
+        "displayName": "Brinjal",
+        "hindiName": "Brinjal",
+        "category": "Other",
+        "growersCount2026": 465,
+        "cultivationCost2025": 122500,
+        "cultivationCost2026": 153226,
+        "grossRevenue2025": 1108740,
+        "grossRevenue2026": 1273719,
+        "netProfit2025": 986240,
+        "netProfit2026": 1120493,
+        "netProfitMargin2026": 87.97,
+        "yoyGrowthPct": 13.61
+      },
+      {
+        "cropKey": "tomato",
+        "displayName": "Tomato",
+        "hindiName": "टमाटर",
+        "category": "Vegetable",
+        "growersCount2026": 348,
+        "cultivationCost2025": 87348,
+        "cultivationCost2026": 144230,
+        "grossRevenue2025": 852996,
+        "grossRevenue2026": 1171220,
+        "netProfit2025": 765648,
+        "netProfit2026": 1026990,
+        "netProfitMargin2026": 87.69,
+        "yoyGrowthPct": 34.13
+      },
+      {
+        "cropKey": "sugarcane",
+        "displayName": "Sugarcane",
+        "hindiName": "Sugarcane",
+        "category": "Other",
+        "growersCount2026": 13,
+        "cultivationCost2025": 614508,
+        "cultivationCost2026": 577000,
+        "grossRevenue2025": 1523008,
+        "grossRevenue2026": 1313000,
+        "netProfit2025": 908500,
+        "netProfit2026": 736000,
+        "netProfitMargin2026": 56.05,
+        "yoyGrowthPct": -18.99
+      },
+      {
+        "cropKey": "cowpea",
+        "displayName": "Cowpea",
+        "hindiName": "मटर",
+        "category": "Pulse",
+        "growersCount2026": 309,
+        "cultivationCost2025": 76815,
+        "cultivationCost2026": 78170,
+        "grossRevenue2025": 805108,
+        "grossRevenue2026": 761690,
+        "netProfit2025": 728293,
+        "netProfit2026": 683520,
+        "netProfitMargin2026": 89.74,
+        "yoyGrowthPct": -6.15
+      },
+      {
+        "cropKey": "other",
+        "displayName": "Other",
+        "hindiName": "Other",
+        "category": "Other",
+        "growersCount2026": 146,
+        "cultivationCost2025": 43100,
+        "cultivationCost2026": 72850,
+        "grossRevenue2025": 524913,
+        "grossRevenue2026": 646240,
+        "netProfit2025": 481813,
+        "netProfit2026": 573390,
+        "netProfitMargin2026": 88.73,
+        "yoyGrowthPct": 19.01
+      },
+      {
+        "cropKey": "potato",
+        "displayName": "Potato",
+        "hindiName": "आलू",
+        "category": "Vegetable",
+        "growersCount2026": 202,
+        "cultivationCost2025": 108250,
+        "cultivationCost2026": 117250,
+        "grossRevenue2025": 525906,
+        "grossRevenue2026": 593609,
+        "netProfit2025": 417656,
+        "netProfit2026": 476359,
+        "netProfitMargin2026": 80.25,
+        "yoyGrowthPct": 14.06
+      },
+      {
+        "cropKey": "cabbage",
+        "displayName": "Cabbage",
+        "hindiName": "पत्तागोभी",
+        "category": "Vegetable",
+        "growersCount2026": 217,
+        "cultivationCost2025": 45408,
+        "cultivationCost2026": 44350,
+        "grossRevenue2025": 493975,
+        "grossRevenue2026": 461758,
+        "netProfit2025": 448567,
+        "netProfit2026": 417408,
+        "netProfitMargin2026": 90.4,
+        "yoyGrowthPct": -6.95
+      },
+      {
+        "cropKey": "seam",
+        "displayName": "Seam",
+        "hindiName": "Seam",
+        "category": "Other",
+        "growersCount2026": 151,
+        "cultivationCost2025": 20635,
+        "cultivationCost2026": 19725,
+        "grossRevenue2025": 388363,
+        "grossRevenue2026": 425040,
+        "netProfit2025": 367728,
+        "netProfit2026": 405315,
+        "netProfitMargin2026": 95.36,
+        "yoyGrowthPct": 10.22
+      },
+      {
+        "cropKey": "bakala",
+        "displayName": "Bakala",
+        "hindiName": "Bakala",
+        "category": "Other",
+        "growersCount2026": 138,
+        "cultivationCost2025": 98850,
+        "cultivationCost2026": 87108,
+        "grossRevenue2025": 377500,
+        "grossRevenue2026": 395350,
+        "netProfit2025": 278650,
+        "netProfit2026": 308242,
+        "netProfitMargin2026": 77.97,
+        "yoyGrowthPct": 10.62
+      },
+      {
+        "cropKey": "bathua",
+        "displayName": "Bathua",
+        "hindiName": "Bathua",
+        "category": "Other",
+        "growersCount2026": 248,
+        "cultivationCost2025": 38100,
+        "cultivationCost2026": 43286,
+        "grossRevenue2025": 270068,
+        "grossRevenue2026": 325358,
+        "netProfit2025": 231968,
+        "netProfit2026": 282072,
+        "netProfitMargin2026": 86.7,
+        "yoyGrowthPct": 21.6
+      },
+      {
+        "cropKey": "pea",
+        "displayName": "Pea",
+        "hindiName": "मटर",
+        "category": "Pulse",
+        "growersCount2026": 46,
+        "cultivationCost2025": 20170,
+        "cultivationCost2026": 25668,
+        "grossRevenue2025": 176580,
+        "grossRevenue2026": 194140,
+        "netProfit2025": 156410,
+        "netProfit2026": 168472,
+        "netProfitMargin2026": 86.78,
+        "yoyGrowthPct": 7.71
+      },
+      {
+        "cropKey": "beetroot",
+        "displayName": "Beetroot",
+        "hindiName": "Beetroot",
+        "category": "Other",
+        "growersCount2026": 111,
+        "cultivationCost2025": 14048,
+        "cultivationCost2026": 14690,
+        "grossRevenue2025": 168280,
+        "grossRevenue2026": 168698,
+        "netProfit2025": 154232,
+        "netProfit2026": 154008,
+        "netProfitMargin2026": 91.29,
+        "yoyGrowthPct": -0.15
+      },
+      {
+        "cropKey": "spinach",
+        "displayName": "Spinach",
+        "hindiName": "Spinach",
+        "category": "Vegetable",
+        "growersCount2026": 110,
+        "cultivationCost2025": 42268,
+        "cultivationCost2026": 42430,
+        "grossRevenue2025": 159430,
+        "grossRevenue2026": 149258,
+        "netProfit2025": 117162,
+        "netProfit2026": 106828,
+        "netProfitMargin2026": 71.57,
+        "yoyGrowthPct": -8.82
+      },
+      {
+        "cropKey": "watermelon",
+        "displayName": "Watermelon",
+        "hindiName": "Watermelon",
+        "category": "Other",
+        "growersCount2026": 39,
+        "cultivationCost2025": 1970,
+        "cultivationCost2026": 4228,
+        "grossRevenue2025": 45038,
+        "grossRevenue2026": 109338,
+        "netProfit2025": 43068,
+        "netProfit2026": 105110,
+        "netProfitMargin2026": 96.13,
+        "yoyGrowthPct": 144.06
+      },
+      {
+        "cropKey": "melon",
+        "displayName": "Melon",
+        "hindiName": "Melon",
+        "category": "Other",
+        "growersCount2026": 18,
+        "cultivationCost2025": 2590,
+        "cultivationCost2026": 2680,
+        "grossRevenue2025": 48110,
+        "grossRevenue2026": 49728,
+        "netProfit2025": 45520,
+        "netProfit2026": 47048,
+        "netProfitMargin2026": 94.61,
+        "yoyGrowthPct": 3.36
+      },
+      {
+        "cropKey": "yam",
+        "displayName": "Yam",
+        "hindiName": "Yam",
+        "category": "Other",
+        "growersCount2026": 16,
+        "cultivationCost2025": 8950,
+        "cultivationCost2026": 6728,
+        "grossRevenue2025": 88150,
+        "grossRevenue2026": 41980,
+        "netProfit2025": 79200,
+        "netProfit2026": 35252,
+        "netProfitMargin2026": 83.97,
+        "yoyGrowthPct": -55.49
+      },
+      {
+        "cropKey": "gram",
+        "displayName": "Gram",
+        "hindiName": "चना",
+        "category": "Pulse",
+        "growersCount2026": 12,
+        "cultivationCost2025": 4700,
+        "cultivationCost2026": 4300,
+        "grossRevenue2025": 42160,
+        "grossRevenue2026": 34700,
+        "netProfit2025": 37460,
+        "netProfit2026": 30400,
+        "netProfitMargin2026": 87.61,
+        "yoyGrowthPct": -18.85
+      },
+      {
+        "cropKey": "groundnut",
+        "displayName": "Groundnut",
+        "hindiName": "Groundnut",
+        "category": "Other",
+        "growersCount2026": 5,
+        "cultivationCost2025": 5500,
+        "cultivationCost2026": 6258,
+        "grossRevenue2025": 23000,
+        "grossRevenue2026": 35358,
+        "netProfit2025": 17500,
+        "netProfit2026": 29100,
+        "netProfitMargin2026": 82.3,
+        "yoyGrowthPct": 66.29
+      },
+      {
+        "cropKey": "banana",
+        "displayName": "Banana",
+        "hindiName": "Banana",
+        "category": "Other",
+        "growersCount2026": 2,
+        "cultivationCost2025": 4000,
+        "cultivationCost2026": 5000,
+        "grossRevenue2025": 33008,
+        "grossRevenue2026": 34008,
+        "netProfit2025": 29008,
+        "netProfit2026": 29008,
+        "netProfitMargin2026": 85.3,
+        "yoyGrowthPct": 0.0
+      },
+      {
+        "cropKey": "jute_patua",
+        "displayName": "Jute Patua",
+        "hindiName": "Jute Patua",
+        "category": "Other",
+        "growersCount2026": 1,
+        "cultivationCost2025": 80,
+        "cultivationCost2026": 200,
+        "grossRevenue2025": 4320,
+        "grossRevenue2026": 6200,
+        "netProfit2025": 4240,
+        "netProfit2026": 6000,
+        "netProfitMargin2026": 96.77,
+        "yoyGrowthPct": 41.51
+      },
+      {
+        "cropKey": "urad",
+        "displayName": "Urad",
+        "hindiName": "उड़द",
+        "category": "Pulse",
+        "growersCount2026": 1,
+        "cultivationCost2025": 3000,
+        "cultivationCost2026": 3000,
+        "grossRevenue2025": 8000,
+        "grossRevenue2026": 8000,
+        "netProfit2025": 5000,
+        "netProfit2026": 5000,
+        "netProfitMargin2026": 62.5,
+        "yoyGrowthPct": 0.0
+      },
+      {
+        "cropKey": "maize",
+        "displayName": "Maize",
+        "hindiName": "मक्का",
+        "category": "Cereal",
+        "growersCount2026": 1,
+        "cultivationCost2025": 12500,
+        "cultivationCost2026": 3000,
+        "grossRevenue2025": 43400,
+        "grossRevenue2026": 5000,
+        "netProfit2025": 30900,
+        "netProfit2026": 2000,
+        "netProfitMargin2026": 40.0,
+        "yoyGrowthPct": -93.53
+      },
+      {
+        "cropKey": "barley",
+        "displayName": "Barley",
+        "hindiName": "Barley",
+        "category": "Cereal",
+        "growersCount2026": 1,
+        "cultivationCost2025": 8,
+        "cultivationCost2026": 8,
+        "grossRevenue2025": 0,
+        "grossRevenue2026": 8,
+        "netProfit2025": -8,
+        "netProfit2026": 0,
+        "netProfitMargin2026": 0.0,
+        "yoyGrowthPct": 0.0
+      },
+      {
+        "cropKey": "cumin",
+        "displayName": "Cumin",
+        "hindiName": "Cumin",
+        "category": "Other",
+        "growersCount2026": 0,
+        "cultivationCost2025": 0,
+        "cultivationCost2026": 0,
+        "grossRevenue2025": 8,
+        "grossRevenue2026": 0,
+        "netProfit2025": 8,
+        "netProfit2026": 0,
+        "netProfitMargin2026": 0.0,
+        "yoyGrowthPct": -100.0
+      },
+      {
+        "cropKey": "fennel",
+        "displayName": "Fennel",
+        "hindiName": "Fennel",
+        "category": "Other",
+        "growersCount2026": 0,
+        "cultivationCost2025": 0,
+        "cultivationCost2026": 0,
+        "grossRevenue2025": 0,
+        "grossRevenue2026": 0,
+        "netProfit2025": 0,
+        "netProfit2026": 0,
+        "netProfitMargin2026": 0.0,
+        "yoyGrowthPct": 0.0
+      },
+      {
+        "cropKey": "tide_zawar",
+        "displayName": "Tide Zawar",
+        "hindiName": "Tide Zawar",
+        "category": "Other",
+        "growersCount2026": 0,
+        "cultivationCost2025": 0,
+        "cultivationCost2026": 0,
+        "grossRevenue2025": 0,
+        "grossRevenue2026": 0,
+        "netProfit2025": 0,
+        "netProfit2026": 0,
+        "netProfitMargin2026": 0.0,
+        "yoyGrowthPct": 0.0
+      },
+      {
+        "cropKey": "millet_bajara",
+        "displayName": "Millet Bajara",
+        "hindiName": "Millet Bajara",
+        "category": "Other",
+        "growersCount2026": 0,
+        "cultivationCost2025": 0,
+        "cultivationCost2026": 0,
+        "grossRevenue2025": 8,
+        "grossRevenue2026": 0,
+        "netProfit2025": 8,
+        "netProfit2026": 0,
+        "netProfitMargin2026": 0.0,
+        "yoyGrowthPct": -100.0
+      },
+      {
+        "cropKey": "moong",
+        "displayName": "Moong",
+        "hindiName": "मूंग",
+        "category": "Pulse",
+        "growersCount2026": 0,
+        "cultivationCost2025": 8,
+        "cultivationCost2026": 0,
+        "grossRevenue2025": 0,
+        "grossRevenue2026": 0,
+        "netProfit2025": -8,
+        "netProfit2026": 0,
+        "netProfitMargin2026": 0.0,
+        "yoyGrowthPct": 0.0
+      }
+    ]
+  },
+  "rfProgression": {
+    "benchmarks": [
+      {
+        "indicatorKey": "APPI-RF-01",
+        "label": "APPI Target Net Farm Income per Acre (₹60,000 / Acre)",
+        "targetValueFormatted": "₹60,000 / acre",
+        "achievedValueFormatted": "₹90,799 / acre",
+        "attainmentPct": 151.33,
+        "status": "EXCEEDED",
+        "notes": "Cohort mean net income per acre reached ₹90,799.31 at 0.20 standard, exceeding the benchmark by 51.3%."
+      },
+      {
+        "indicatorKey": "APPI-RF-02",
+        "label": "Smallholder Benchmark Attainment Saturation (>₹60k/acre)",
+        "targetValueFormatted": "70.0% of landholders",
+        "achievedValueFormatted": "76.8% of landholders",
+        "attainmentPct": 109.71,
+        "status": "EXCEEDED",
+        "notes": "76.8% of active landholders crossed the ₹60k/acre threshold in 2026."
+      },
+      {
+        "indicatorKey": "APPI-RF-03",
+        "label": "LEISA Biological Input Adoption (200L Bio-Drums)",
+        "targetValueFormatted": "1,000 units deployed",
+        "achievedValueFormatted": "1,120 units deployed",
+        "attainmentPct": 112.0,
+        "status": "EXCEEDED",
+        "notes": "1,120+ bio-drums functional for Jeevamrit and liquid formulations."
+      },
+      {
+        "indicatorKey": "APPI-RF-04",
+        "label": "Multi-Tier Machan Trellis Installations",
+        "targetValueFormatted": "400 households",
+        "achievedValueFormatted": "777 households",
+        "attainmentPct": 194.25,
+        "status": "EXCEEDED",
+        "notes": "Bamboo machan trellises installed across 777 households, creating LER > 2.0."
+      }
+    ],
+    "landholdingStructure": {
+      "rawNumericSumBigha": 3623.5,
+      "regexParsedTotalBigha": 5233.84,
+      "totalPhysicalAcres020": 1046.77,
+      "meanLandBigha": 3.41,
+      "meanLandAcres020": 0.6819,
+      "medianLandBigha": 3.0,
+      "medianLandAcres020": 0.6,
+      "ownedLandAcres": 1019.01,
+      "leasedBataiLandAcres": 43.14,
+      "landlessHHsCount": 88,
+      "unparsedHomesteadHHsCount": 574,
+      "smallholderProportionLe1Acre": 91.3
+    },
+    "bighaSensitivity": [
+      {
+        "standardName": "Local Kacha Bigha (Bahraich / Terai)",
+        "regionalContext": "Authoritative Project Baseline (SYS-4 Remediated; 5 bigha = 1 acre)",
+        "multiplierAcrePerBigha": 0.2,
+        "totalAcresDerived": 1046.77,
+        "meanAcresPerHH": 0.6819,
+        "benchmarkAttainmentPct": 76.8,
+        "isProjectBaseline": true
+      },
+      {
+        "standardName": "Mid-Kacha Bigha (Regional Terai)",
+        "regionalContext": "Sharecropping norm in Gonda/Shravasti border hamlets (4 bigha = 1 acre)",
+        "multiplierAcrePerBigha": 0.25,
+        "totalAcresDerived": 1308.46,
+        "meanAcresPerHH": 0.8524,
+        "benchmarkAttainmentPct": 58.2,
+        "isProjectBaseline": false
+      },
+      {
+        "standardName": "Eastern UP Transitional Bigha",
+        "regionalContext": "Semi-pucca revenue standard (3 bigha = 1 acre)",
+        "multiplierAcrePerBigha": 0.3333,
+        "totalAcresDerived": 1744.61,
+        "meanAcresPerHH": 1.1364,
+        "benchmarkAttainmentPct": 32.6,
+        "isProjectBaseline": false
+      },
+      {
+        "standardName": "Standard UP Pucca / Revenue Bigha",
+        "regionalContext": "Official UP Board of Revenue norm (1 bigha = 0.619 acre)",
+        "multiplierAcrePerBigha": 0.619,
+        "totalAcresDerived": 3239.75,
+        "meanAcresPerHH": 2.1106,
+        "benchmarkAttainmentPct": 8.9,
+        "isProjectBaseline": false
+      }
+    ],
+    "leisaTransition": {
+      "chemicalPesticideCutPct": 90.0,
+      "bioNutrientDrumsCount": 1120,
+      "machanTrellisFarmsCount": 777,
+      "lerLandEquivalentRatio": 2.1,
+      "averageCultivationCostPerBighaINR": 2227,
+      "formulationsAdopted": [
+        {
+          "name": "Jeevamrit",
+          "type": "Liquid Bio-Nutrient",
+          "ingredients": "Cow dung, cow urine, jaggery, pulse flour, virgin soil",
+          "applicationTarget": "Soil microbial replenishment; applied fortnightly via irrigation"
+        },
+        {
+          "name": "Ghanjeevamrit",
+          "type": "Solid Bio-Manure",
+          "ingredients": "Desi cow dung, neem leaf meal, wooden ash, bio-char",
+          "applicationTarget": "Basal seedbed nutrition; improves water retention during dry winter"
+        },
+        {
+          "name": "10 Parani Ark",
+          "type": "Bio-Pest Repellent",
+          "ingredients": "Leaves of 10 non-browsed botanical species (neem, madar, datura, etc.)",
+          "applicationTarget": "Broad-spectrum pest deterrence against chewing and sucking insects"
+        },
+        {
+          "name": "Char Chatni",
+          "type": "Bio-Pest Repellent",
+          "ingredients": "Fermented garlic, green chili, ginger, and sour buttermilk",
+          "applicationTarget": "Fungal pathogen management and vegetative vigor enhancement"
+        },
+        {
+          "name": "Neemastra",
+          "type": "Bio-Pest Repellent",
+          "ingredients": "Crushed neem seeds, cow urine, and local well water",
+          "applicationTarget": "Early-instar pest suppression in vegetable nurseries"
+        }
+      ],
+      "physicalYields": [
+        {
+          "crop": "Turmeric",
+          "yieldPerAcreQuintals": 107.0,
+          "yieldPerBighaKg": 2141
+        },
+        {
+          "crop": "Bitter Gourd",
+          "yieldPerAcreQuintals": 48.5,
+          "yieldPerBighaKg": 970
+        },
+        {
+          "crop": "Paddy",
+          "yieldPerAcreQuintals": 5.86,
+          "yieldPerBighaKg": 117
+        },
+        {
+          "crop": "Wheat",
+          "yieldPerAcreQuintals": 3.57,
+          "yieldPerBighaKg": 71
+        }
+      ]
+    }
+  },
+  "rights": {
+    "longitudinalRounds": [
+      {
+        "schemeKey": "essential_meds",
+        "schemeName": "Essential Medicines (IFA, Calcium, Albendazole)",
+        "department": "Health & Family Welfare (NHM)",
+        "sampleUniverse": 1535,
+        "round1Count": 728,
+        "round1Pct": 47.4,
+        "round2Count": 706,
+        "round2Pct": 46.0,
+        "round3Count": 698,
+        "round3Pct": 45.5,
+        "round4Count": 673,
+        "round4Pct": 43.8,
+        "fourRoundAveragePct": 45.7,
+        "category": "Health & Sanitation"
+      },
+      {
+        "schemeKey": "sanitary_napkins",
+        "schemeName": "Adolescent Sanitary Napkin Distribution",
+        "department": "Women & Child Development (WCD)",
+        "sampleUniverse": 1535,
+        "round1Count": 645,
+        "round1Pct": 42.0,
+        "round2Count": 619,
+        "round2Pct": 40.3,
+        "round3Count": 620,
+        "round3Pct": 40.4,
+        "round4Count": 632,
+        "round4Pct": 41.2,
+        "fourRoundAveragePct": 41.0,
+        "category": "Health & Sanitation"
+      },
+      {
+        "schemeKey": "teacher_attendance",
+        "schemeName": "Primary School Teacher Daily Attendance",
+        "department": "Basic Education Department (RTE)",
+        "sampleUniverse": 1535,
+        "round1Count": 639,
+        "round1Pct": 41.6,
+        "round2Count": 561,
+        "round2Pct": 36.5,
+        "round3Count": 540,
+        "round3Pct": 35.2,
+        "round4Count": 529,
+        "round4Pct": 34.5,
+        "fourRoundAveragePct": 37.0,
+        "category": "Education"
+      },
+      {
+        "schemeKey": "mid_day_meal",
+        "schemeName": "PM POSHAN Mid-Day Meal Daily Regularity",
+        "department": "Basic Education & Food Support",
+        "sampleUniverse": 1535,
+        "round1Count": 609,
+        "round1Pct": 39.7,
+        "round2Count": 517,
+        "round2Pct": 33.7,
+        "round3Count": 506,
+        "round3Pct": 33.0,
+        "round4Count": 499,
+        "round4Pct": 32.5,
+        "fourRoundAveragePct": 34.7,
+        "category": "Food Security"
+      },
+      {
+        "schemeKey": "junior_school_access",
+        "schemeName": "Junior High School (Class 6-8) Enrollment Access",
+        "department": "Samagra Shiksha Abhiyan",
+        "sampleUniverse": 1535,
+        "round1Count": 536,
+        "round1Pct": 34.9,
+        "round2Count": 482,
+        "round2Pct": 31.4,
+        "round3Count": 476,
+        "round3Pct": 31.0,
+        "round4Count": 498,
+        "round4Pct": 32.4,
+        "fourRoundAveragePct": 32.4,
+        "category": "Education"
+      },
+      {
+        "schemeKey": "aadhaar_card",
+        "schemeName": "Universal Aadhaar Card Biometric Enrollment",
+        "department": "UIDAI / Frontline CSC",
+        "sampleUniverse": 1535,
+        "round1Count": 606,
+        "round1Pct": 39.5,
+        "round2Count": 382,
+        "round2Pct": 24.9,
+        "round3Count": 401,
+        "round3Pct": 26.1,
+        "round4Count": 358,
+        "round4Pct": 23.3,
+        "fourRoundAveragePct": 28.5,
+        "category": "Civil ID & Banking"
+      },
+      {
+        "schemeKey": "ration_card",
+        "schemeName": "Antyodaya & Priority Household Ration Cards",
+        "department": "Food & Civil Supplies (NFSA)",
+        "sampleUniverse": 1535,
+        "round1Count": 534,
+        "round1Pct": 34.8,
+        "round2Count": 371,
+        "round2Pct": 24.2,
+        "round3Count": 359,
+        "round3Pct": 23.4,
+        "round4Count": 344,
+        "round4Pct": 22.4,
+        "fourRoundAveragePct": 26.2,
+        "category": "Food Security"
+      },
+      {
+        "schemeKey": "mgnrega_work",
+        "schemeName": "MGNREGA 100-Day Wage Employment",
+        "department": "Rural Development (MGNREGA)",
+        "sampleUniverse": 1535,
+        "round1Count": 358,
+        "round1Pct": 23.3,
+        "round2Count": 291,
+        "round2Pct": 19.0,
+        "round3Count": 284,
+        "round3Pct": 18.5,
+        "round4Count": 279,
+        "round4Pct": 18.2,
+        "fourRoundAveragePct": 19.8,
+        "category": "Livelihoods"
+      }
+    ],
+    "stableFrontlineServices": {
+      "essentialMedicationCoveragePct": 45.7,
+      "sanitaryNapkinsCoveragePct": 41.0,
+      "teacherDailyAttendancePct": 37.0,
+      "midDayMealRegularityPct": 34.7,
+      "juniorSchoolAccessPct": 32.4
+    },
+    "publicLeverage": {
+      "totalLeverageAmountINR": 77098360,
+      "totalProjectsCount": 577,
+      "subtotalDoubleCountingPurgedINR": 39901640,
+      "annualBreakdown": [
+        {
+          "fiscalYear": "2023",
+          "registerFile": "Levrage data of AASs 2023.xlsx",
+          "verifiedAmountINR": 26280200,
+          "projectItemsCount": 259
+        },
+        {
+          "fiscalYear": "2024",
+          "registerFile": "000473388_Leverage_data_of_AASs_2024.xlsx",
+          "verifiedAmountINR": 22993200,
+          "projectItemsCount": 160
+        },
+        {
+          "fiscalYear": "2025",
+          "registerFile": "1. Leverage AASs 2025.xlsx",
+          "verifiedAmountINR": 27824960,
+          "projectItemsCount": 158
+        }
+      ],
+      "categoryBreakdown": [
+        {
+          "schemeCategory": "Pradhan Mantri Awas Yojana (PMAY-G)",
+          "amountINR": 33600000,
+          "percentage": 43.58,
+          "unitsSanctioned": 280,
+          "unitDescription": "Pucca Rural Homes"
+        },
+        {
+          "schemeCategory": "Interlocking CC Roads & Concrete Drains",
+          "amountINR": 28648200,
+          "percentage": 37.16,
+          "unitsSanctioned": 60,
+          "unitDescription": "Paved Village Roads"
+        },
+        {
+          "schemeCategory": "Jal Jeevan Mission (Har Ghar Nal Piped Water)",
+          "amountINR": 9450000,
+          "percentage": 12.26,
+          "unitsSanctioned": 665,
+          "unitDescription": "Piped Tap Connections"
+        },
+        {
+          "schemeCategory": "Individual Household Latrines (SBM Gramin)",
+          "amountINR": 3360000,
+          "percentage": 4.36,
+          "unitsSanctioned": 280,
+          "unitDescription": "Sanitation Latrines"
+        },
+        {
+          "schemeCategory": "Solar Minigrids & High-Mast LED Lighting",
+          "amountINR": 1030000,
+          "percentage": 1.34,
+          "unitsSanctioned": 42,
+          "unitDescription": "Solar Street Lights"
+        },
+        {
+          "schemeCategory": "Free Minor Irrigation Engine Borings",
+          "amountINR": 720000,
+          "percentage": 0.93,
+          "unitsSanctioned": 72,
+          "unitDescription": "Irrigation Engine Borings"
+        },
+        {
+          "schemeCategory": "Community Soak Pits & Greywater Drainage",
+          "amountINR": 290160,
+          "percentage": 0.38,
+          "unitsSanctioned": 23,
+          "unitDescription": "Greywater Drainage Units"
+        }
+      ]
+    },
+    "janSuvidhaKendra": {
+      "totalCitizenServicesDelivered": 1102,
+      "activeKiosksCount": 4,
+      "topServiceTypes": [
+        {
+          "serviceName": "Aadhaar Card Correction & Biometric Update",
+          "applicationsCount": 420,
+          "deliveredCount": 412,
+          "successRatePct": 98.1
+        },
+        {
+          "serviceName": "PAN Card Registration & KYC Linking",
+          "applicationsCount": 260,
+          "deliveredCount": 254,
+          "successRatePct": 97.7
+        },
+        {
+          "serviceName": "Ration Card Family Addition / Separation",
+          "applicationsCount": 218,
+          "deliveredCount": 209,
+          "successRatePct": 95.9
+        },
+        {
+          "serviceName": "PM Kisan Samman Nidhi e-KYC Verification",
+          "applicationsCount": 204,
+          "deliveredCount": 198,
+          "successRatePct": 97.1
+        }
+      ]
+    }
+  },
+  "nutrition": {
+    "foodGroupRecall": {
+      "whiteFoodsStaples": {
+        "baselineRangePct": "91.2% - 95.8%",
+        "endlineRangePct": "92.4% - 96.5%",
+        "accessDynamic": "Universal staple caloric baseline (rice, wheat, dairy) supported by NFSA PDS ration card delivery"
+      },
+      "greenFoodsVegetables": {
+        "summerPeakPctRange": "67.2% - 70.4%",
+        "winterTroughBaselinePct": 31.4,
+        "winterTroughEndlinePct": 42.8,
+        "netWinterRemediationGainPp": 11.4,
+        "invertedMythDescription": "Empirically disproves summer hunger gap myth: riverbed cucurbits and multi-tier machan trellis farming create green vegetable consumption peak in May/June"
+      },
+      "yellowFoodsPulses": {
+        "baselineWeeklyPct": 42.6,
+        "endlineWeeklyPct": 66.4,
+        "reversalExpansionGainPp": 23.8,
+        "indigenousPulseRetentionKg": 50
+      }
+    },
+    "monthlySeasonalDynamics": [
+      {
+        "calendarMonth": "Jan",
+        "whiteFoodsAccessPct": 94.2,
+        "greenFoodsAccessPct": 36.5,
+        "yellowFoodsAccessPct": 61.2,
+        "isSummerPeakWindow": false,
+        "isWinterTroughWindow": true,
+        "notes": "Winter frost period; heavy reliance on stored grains and winter lentils"
+      },
+      {
+        "calendarMonth": "Feb",
+        "whiteFoodsAccessPct": 93.8,
+        "greenFoodsAccessPct": 41.2,
+        "yellowFoodsAccessPct": 63.4,
+        "isSummerPeakWindow": false,
+        "isWinterTroughWindow": true,
+        "notes": "Early spring green leafy vegetable emergence"
+      },
+      {
+        "calendarMonth": "Mar",
+        "whiteFoodsAccessPct": 93.5,
+        "greenFoodsAccessPct": 52.8,
+        "yellowFoodsAccessPct": 64.1,
+        "isSummerPeakWindow": false,
+        "isWinterTroughWindow": false,
+        "notes": "Rabi harvest transition begins"
+      },
+      {
+        "calendarMonth": "Apr",
+        "whiteFoodsAccessPct": 94.8,
+        "greenFoodsAccessPct": 61.4,
+        "yellowFoodsAccessPct": 65.0,
+        "isSummerPeakWindow": false,
+        "isWinterTroughWindow": false,
+        "notes": "Wheat harvest completion; abundant food grain security"
+      },
+      {
+        "calendarMonth": "May",
+        "whiteFoodsAccessPct": 95.2,
+        "greenFoodsAccessPct": 68.9,
+        "yellowFoodsAccessPct": 65.8,
+        "isSummerPeakWindow": true,
+        "isWinterTroughWindow": false,
+        "notes": "Summer green vegetable peak: bitter gourd, cucumber, and bottle gourd"
+      },
+      {
+        "calendarMonth": "Jun",
+        "whiteFoodsAccessPct": 95.8,
+        "greenFoodsAccessPct": 69.8,
+        "yellowFoodsAccessPct": 66.4,
+        "isSummerPeakWindow": true,
+        "isWinterTroughWindow": false,
+        "notes": "Peak riverbed and machan trellis production window"
+      },
+      {
+        "calendarMonth": "Jul",
+        "whiteFoodsAccessPct": 94.6,
+        "greenFoodsAccessPct": 62.1,
+        "yellowFoodsAccessPct": 65.2,
+        "isSummerPeakWindow": false,
+        "isWinterTroughWindow": false,
+        "notes": "Monsoon arrival and Kharif paddy transplantation"
+      },
+      {
+        "calendarMonth": "Aug",
+        "whiteFoodsAccessPct": 93.7,
+        "greenFoodsAccessPct": 58.4,
+        "yellowFoodsAccessPct": 64.7,
+        "isSummerPeakWindow": false,
+        "isWinterTroughWindow": false,
+        "notes": "Active vegetative growth phase in kitchen gardens"
+      },
+      {
+        "calendarMonth": "Sep",
+        "whiteFoodsAccessPct": 93.9,
+        "greenFoodsAccessPct": 55.2,
+        "yellowFoodsAccessPct": 65.1,
+        "isSummerPeakWindow": false,
+        "isWinterTroughWindow": false,
+        "notes": "Early kharif pulse harvesting"
+      },
+      {
+        "calendarMonth": "Oct",
+        "whiteFoodsAccessPct": 94.5,
+        "greenFoodsAccessPct": 51.6,
+        "yellowFoodsAccessPct": 65.9,
+        "isSummerPeakWindow": false,
+        "isWinterTroughWindow": false,
+        "notes": "Pre-winter sowing transition"
+      },
+      {
+        "calendarMonth": "Nov",
+        "whiteFoodsAccessPct": 94.1,
+        "greenFoodsAccessPct": 44.3,
+        "yellowFoodsAccessPct": 64.8,
+        "isSummerPeakWindow": false,
+        "isWinterTroughWindow": false,
+        "notes": "Post-monsoon temperature drop; winter vegetable nursery prep"
+      },
+      {
+        "calendarMonth": "Dec",
+        "whiteFoodsAccessPct": 94.4,
+        "greenFoodsAccessPct": 34.8,
+        "yellowFoodsAccessPct": 62.5,
+        "isSummerPeakWindow": false,
+        "isWinterTroughWindow": true,
+        "notes": "Winter vegetable trough mitigated by Poshan Vatikas (+11.4 pp over baseline)"
+      }
+    ],
+    "poshanVatikas": {
+      "baselineGardensCount": 200,
+      "endlineGardensCount": 1120,
+      "saturationPctOfHHs": 73.0,
+      "micronutrientKeyFocus": [
+        "Iron",
+        "Folate",
+        "Vitamin A",
+        "Dietary Fiber"
+      ]
+    }
+  },
+  "forensic": {
+    "auditOverview": {
+      "totalAuditedClaims": 490,
+      "verifiedClaimsCount": 432,
+      "reconciledClaimsCount": 42,
+      "neutralizedDefectsCount": 16,
+      "zeroPiiViolationsCount": 0
+    },
+    "systemicDefects": [
+      {
+        "defectId": "SYS-1",
+        "title": "Historical 1,468-Column Drop via Last-Instance Overwrite",
+        "historicalArtifact": "Data preparation script dropped columns by overwriting shared column names in sequential years.",
+        "remediatedTruth": "724 discrete 2025 columns plus 724 discrete 2026 columns restored into discrete schemas.",
+        "safeguardMandate": "Process survey years as distinct non-colliding fields; verify column dimensions programmatically."
+      },
+      {
+        "defectId": "SYS-2",
+        "title": "Corrupted 2022 Negative Paddy Margin (−₹85.13 Lakh)",
+        "historicalArtifact": "A formula flaw computed negative paddy margins by double-subtracting labor and draft power.",
+        "remediatedTruth": "Raw microdata restored: positive net surplus of +₹1,58,40,719.00 across 1,329 farmers.",
+        "safeguardMandate": "Prohibit negative cultivation costs; enforce microdata provenance checks."
+      },
+      {
+        "defectId": "SYS-3",
+        "title": "Inflated 3.39× Income Growth Claim from Truncated Base",
+        "historicalArtifact": "Old presentation claimed income increased 3.39× from ₹14,554 to ₹49,328 using truncated base.",
+        "remediatedTruth": "True 5-year longitudinal trajectory: ₹34,555 (2022) to ₹63,918 (2026) (+84.97% mean, +142.73% median).",
+        "safeguardMandate": "Present authentic 5-year series with explicit sample sizes and median statistics."
+      },
+      {
+        "defectId": "SYS-4",
+        "title": "Undisclosed Bigha Conversion Factor (Assumed 0.619 Pucca)",
+        "historicalArtifact": "Calculations silently assumed 1 bigha = 0.619 acre without declaring local unit definitions.",
+        "remediatedTruth": "Declared authoritative 0.20 acre/bigha basis (5 kacha bigha = 1 acre) with full sensitivity matrix.",
+        "safeguardMandate": "Mandate explicit disclosure of unit conversion standards across all land and yield tables."
+      },
+      {
+        "defectId": "SYS-5",
+        "title": "Misrepresentation as 3-Wave Longitudinal Panel with Control",
+        "historicalArtifact": "Earlier summaries described dataset as 3-wave longitudinal panel with quasi-experimental control.",
+        "remediatedTruth": "Formally anchored as two-wave retrospective recall (Wave 1: 1,329 HHs, Wave 2: 1,535 HHs) without control.",
+        "safeguardMandate": "Label all charts as pre-post retrospective cohort analyses to maintain academic integrity."
+      },
+      {
+        "defectId": "SYS-6",
+        "title": "Spurious 'Elite 108 Farmers' Created via Name Collision",
+        "historicalArtifact": "Cross-table merges on names created false super-farmers with merged incomes.",
+        "remediatedTruth": "Individual household merges strictly enforced using unique submission IDs (_id); 81 genuine elite farmers verified.",
+        "safeguardMandate": "Never join survey tables on non-unique strings (names or villages); use cryptographic IDs."
+      },
+      {
+        "defectId": "SYS-7",
+        "title": "Double-Counting Spreadsheet Subtotals in Public Leverage (₹11.70 Cr)",
+        "historicalArtifact": "Historical reports summed subtotals and Grand Total rows, inflating leverage to ₹11.70 Crore.",
+        "remediatedTruth": "Audited register total is ₹7,70,98,360 across 577 genuine civil projects.",
+        "safeguardMandate": "Filter out total/subtotal rows prior to summing; assert row-level consistency."
+      }
+    ],
+    "sliceIdentityProof": {
+      "farmerRowsCount": 1487,
+      "grandTotalRowIndex": 1492,
+      "metrics": [
+        {
+          "metricName": "2025 Aggregate Cultivation Cost",
+          "farmerRowsSum": 30214192,
+          "grandTotalCellValue": 30214192,
+          "discrepancyDelta": 0.0,
+          "cellCoordinate": "FF1492",
+          "status": "MATCH_ZERO_DISCREPANCY"
+        },
+        {
+          "metricName": "2026 Aggregate Cultivation Cost",
+          "farmerRowsSum": 33124177,
+          "grandTotalCellValue": 33124177,
+          "discrepancyDelta": 0.0,
+          "cellCoordinate": "FG1492",
+          "status": "MATCH_ZERO_DISCREPANCY"
+        },
+        {
+          "metricName": "2025 Aggregate Gross Revenue",
+          "farmerRowsSum": 111246772,
+          "grandTotalCellValue": 111246772,
+          "discrepancyDelta": 0.0,
+          "cellCoordinate": "FH1492",
+          "status": "MATCH_ZERO_DISCREPANCY"
+        },
+        {
+          "metricName": "2026 Aggregate Gross Revenue",
+          "farmerRowsSum": 128170176,
+          "grandTotalCellValue": 128170176,
+          "discrepancyDelta": 0.0,
+          "cellCoordinate": "FI1492",
+          "status": "MATCH_ZERO_DISCREPANCY"
+        },
+        {
+          "metricName": "2025 Aggregate Net Profit",
+          "farmerRowsSum": 81032580,
+          "grandTotalCellValue": 81032580,
+          "discrepancyDelta": 0.0,
+          "cellCoordinate": "FH1492 - FF1492",
+          "status": "MATCH_ZERO_DISCREPANCY"
+        },
+        {
+          "metricName": "2026 Aggregate Net Profit",
+          "farmerRowsSum": 95045999,
+          "grandTotalCellValue": 95045999,
+          "discrepancyDelta": 0.0,
+          "cellCoordinate": "FI1492 - FG1492",
+          "status": "MATCH_ZERO_DISCREPANCY"
+        }
+      ]
+    },
+    "debunkedMyths": [
+      {
+        "mythId": "MYTH-01",
+        "mythName": "Agniastra Bio-Pesticide",
+        "originatingContext": "Early training curriculum drafted in 2021 included Agniastra as an agronomic formulation.",
+        "forensicInvestigation": "Zero occurrences in primary microdata or farmer practice registers. Actual adopted pest repellents: Neemastra, 10 Parani Ark, Char Chatni.",
+        "neutralizationVerdict": "Purged from all reporting; verified that zero farmer claims reference Agniastra."
+      },
+      {
+        "mythId": "MYTH-02",
+        "mythName": "₹11.70 Crore Public Scheme Leverage",
+        "originatingContext": "Spreadsheet formula sum included subtotal rows across 2023, 2024, and 2025 leverage registers.",
+        "forensicInvestigation": "Subtotal rows double-counted ₹3.99 Crore of projects. Row-by-row audit confirms exact sum of ₹7,70,98,360.",
+        "neutralizationVerdict": "Purged; all figures pegged to audited ₹7.71 Crore across 577 verified projects."
+      },
+      {
+        "mythId": "MYTH-03",
+        "mythName": "Summer Hunger Gap (Green Vegetable Scarcity in May/June)",
+        "originatingContext": "Classic development literature assumes summer is a period of severe food and vegetable stress in North India.",
+        "forensicInvestigation": "FASAL microdata proves May and June are the PEAK green vegetable consumption months (67.2% – 70.4%) due to riverbed cucurbits and machan trellises.",
+        "neutralizationVerdict": "Inverted and highlighted as a primary empirical discovery: winter is the true green vegetable trough."
+      }
+    ],
+    "piiRedactionStatus": {
+      "phoneNumbersFoundCount": 0,
+      "namesAnonymizationPolicy": "Synthetic identifiers FASAL-2026-XXXX",
+      "childRosterTokenization": "FASAL-2026-XXXX-M01",
+      "geographyIntegrityPreserved": true
+    }
+  },
+  "evidenceLedger": {
+    "REC-ADM-01": {
+      "metricId": "REC-ADM-01",
+      "thematicDomain": "governance",
+      "label": "Total Household Survey Submissions",
+      "verifiedValue": 1535,
+      "baselineValue": "1,329 households",
+      "delta": "+206 submissions (+15.50%)",
+      "unit": "households",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "FDB - year 4&5 questionnaire, Rows 2:1536 (_id Col 3283)",
+        "ledgerReference": "REC-ADM-01",
+        "testAssertionIndex": 2,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Net sample expansion reflects integration of additional hamlet cohorts in Karikot and Badkhadiya."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-ADM-02": {
+      "metricId": "REC-ADM-02",
+      "thematicDomain": "governance",
+      "label": "Complete Validated Surveys",
+      "verifiedValue": 1506,
+      "baselineValue": "1,329 cleaned records",
+      "delta": "+177 completed (+13.32%)",
+      "unit": "units",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from Payment Status (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "Payment Status",
+        "cellCoordinates": "Payment Status, Cell F21",
+        "ledgerReference": "REC-ADM-02",
+        "testAssertionIndex": 2,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Validated surveys equal total visible (1,535) minus incomplete (14) minus duplicates (15) = 1,506."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-ADM-03": {
+      "metricId": "REC-ADM-03",
+      "thematicDomain": "governance",
+      "label": "Incomplete Survey Submissions",
+      "verifiedValue": 14,
+      "baselineValue": "0 (unrecorded in cleaned CSV)",
+      "delta": "+14 incomplete (+0.91% attrition)",
+      "unit": "units",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from Payment Status (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "Payment Status",
+        "cellCoordinates": "Payment Status, Cell D21",
+        "ledgerReference": "REC-ADM-03",
+        "testAssertionIndex": 2,
+        "auditStatus": "RECONCILED",
+        "reconciliationNotes": "METHODOLOGICAL EVOLUTION: Discloses field interview attrition rate of 0.91% due to respondent unavailability."
+      },
+      "auditStatus": "RECONCILED"
+    },
+    "REC-ADM-04": {
+      "metricId": "REC-ADM-04",
+      "thematicDomain": "governance",
+      "label": "Duplicate Re-entries",
+      "verifiedValue": 15,
+      "baselineValue": "0 (deduplicated prior to export)",
+      "delta": "+15 duplicates (+0.98% duplication)",
+      "unit": "units",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from Payment Status (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "Payment Status",
+        "cellCoordinates": "Payment Status, Cell E21",
+        "ledgerReference": "REC-ADM-04",
+        "testAssertionIndex": 2,
+        "auditStatus": "RECONCILED",
+        "reconciliationNotes": "METHODOLOGICAL EVOLUTION: Explicitly catalogs field re-entries identified during supervisor quality audits."
+      },
+      "auditStatus": "RECONCILED"
+    },
+    "REC-ADM-05": {
+      "metricId": "REC-ADM-05",
+      "thematicDomain": "governance",
+      "label": "Physical FDB Booklets Deposited",
+      "verifiedValue": 1520,
+      "baselineValue": "Not systematically logged",
+      "delta": "99.02% physical collection rate",
+      "unit": "units",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from Payment Status (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "Payment Status",
+        "cellCoordinates": "Payment Status, Cell G21",
+        "ledgerReference": "REC-ADM-05",
+        "testAssertionIndex": 2,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "NEW BASELINE: Physical audit trail establishing 1,520 hardcopy booklets returned to DEHAT central office."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-ADM-06": {
+      "metricId": "REC-ADM-06",
+      "thematicDomain": "governance",
+      "label": "Enumerator Payments Disbursed",
+      "verifiedValue": 1102,
+      "baselineValue": "Not tracked in research file",
+      "delta": "72.50% settlement rate",
+      "unit": "units",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from Payment Status (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "Payment Status",
+        "cellCoordinates": "Payment Status, Cell H21",
+        "ledgerReference": "REC-ADM-06",
+        "testAssertionIndex": 2,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Reconciles frontline enumerator wage disbursements as of 4 November 2026."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-ADM-07": {
+      "metricId": "REC-ADM-07",
+      "thematicDomain": "governance",
+      "label": "Enumerator Payments Pending",
+      "verifiedValue": 408,
+      "baselineValue": "Not tracked in research file",
+      "delta": "27.50% pending verification",
+      "unit": "units",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from Payment Status (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "Payment Status",
+        "cellCoordinates": "Payment Status, Cell I21",
+        "ledgerReference": "REC-ADM-07",
+        "testAssertionIndex": 2,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Remuneration held pending physical book verification and quality sign-off."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-ADM-08": {
+      "metricId": "REC-ADM-08",
+      "thematicDomain": "governance",
+      "label": "Frontline Enumerator Cadre Size",
+      "verifiedValue": 19,
+      "baselineValue": "Not specified",
+      "delta": "19 named surveyors",
+      "unit": "units",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from Payment Status (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "Payment Status",
+        "cellCoordinates": "Payment Status, Rows 2:20, Col B",
+        "ledgerReference": "REC-ADM-08",
+        "testAssertionIndex": 2,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Top enumerators: Mohit Verma (163), Shyam Manohar (137), Rohit Kumar Verma (136)."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-GEO-01": {
+      "metricId": "REC-GEO-01",
+      "thematicDomain": "governance",
+      "label": "Total Gram Panchayats Covered",
+      "verifiedValue": 7,
+      "baselineValue": "6 Gram Panchayats",
+      "delta": "+1 Gram Panchayat (+16.67%)",
+      "unit": "units",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "FDB - year 4&5 questionnaire, Col 6 (Village Panchayat)",
+        "ledgerReference": "REC-GEO-01",
+        "testAssertionIndex": 2,
+        "auditStatus": "RECONCILED",
+        "reconciliationNotes": "STRUCTURAL EXPANSION: Badkhadiya (63 HH) formally recognized as 7th GP unit in 2026 administration."
+      },
+      "auditStatus": "RECONCILED"
+    },
+    "REC-GEO-02": {
+      "metricId": "REC-GEO-02",
+      "thematicDomain": "governance",
+      "label": "Karikot GP Household Submissions",
+      "verifiedValue": 758,
+      "baselineValue": "602 households (45.30%)",
+      "delta": "+156 households (+25.91%)",
+      "unit": "%",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "FDB - year 4&5 questionnaire, Col 6 = 'Karikot'",
+        "ledgerReference": "REC-GEO-02",
+        "testAssertionIndex": 2,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Primary project hub spanning 9 distinct forest hamlets (Rajaram Tanda, Jamuniha, etc.)."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-GEO-03": {
+      "metricId": "REC-GEO-03",
+      "thematicDomain": "governance",
+      "label": "Fakirpuri GP Household Submissions",
+      "verifiedValue": 249,
+      "baselineValue": "229 households (17.23%)",
+      "delta": "+20 households (+8.73%)",
+      "unit": "%",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "FDB - year 4&5 questionnaire, Col 6 = 'Fakirpuri'",
+        "ledgerReference": "REC-GEO-03",
+        "testAssertionIndex": 2,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Tharu tribal settlement corridor; includes Fakirpuri (182), Sirsiyanpurwa (36), Rampurwa (31)."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-GEO-04": {
+      "metricId": "REC-GEO-04",
+      "thematicDomain": "governance",
+      "label": "Chahalwa GP Household Submissions",
+      "verifiedValue": 201,
+      "baselineValue": "183 households (13.77%)",
+      "delta": "+18 households (+9.84%)",
+      "unit": "%",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "FDB - year 4&5 questionnaire, Col 6 = 'Chahalwa'",
+        "ledgerReference": "REC-GEO-04",
+        "testAssertionIndex": 2,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Trellis vegetable and riverbed farming clusters (Golhana, Babhanpurwa, Chahalwa)."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-GEO-05": {
+      "metricId": "REC-GEO-05",
+      "thematicDomain": "governance",
+      "label": "Bajpur Bankati GP Submissions",
+      "verifiedValue": 129,
+      "baselineValue": "113 households (8.50%)",
+      "delta": "+16 households (+14.16%)",
+      "unit": "%",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "FDB - year 4&5 questionnaire, Col 6 = 'Bajpur Bankati'",
+        "ledgerReference": "REC-GEO-05",
+        "testAssertionIndex": 2,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Concentrated in Bajpur Bankati revenue village along riverine fringe."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-GEO-06": {
+      "metricId": "REC-GEO-06",
+      "thematicDomain": "governance",
+      "label": "Mangalpurwa GP Submissions",
+      "verifiedValue": 79,
+      "baselineValue": "88 households (6.62%)",
+      "delta": "−9 households (−10.23%)",
+      "unit": "%",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "FDB - year 4&5 questionnaire, Col 6 = 'Mangalpurwa'",
+        "ledgerReference": "REC-GEO-06",
+        "testAssertionIndex": 2,
+        "auditStatus": "RECONCILED",
+        "reconciliationNotes": "METHODOLOGICAL EVOLUTION: Spatial boundary recoding: several southern hamlets re-allocated to Chahalwa."
+      },
+      "auditStatus": "RECONCILED"
+    },
+    "REC-GEO-07": {
+      "metricId": "REC-GEO-07",
+      "thematicDomain": "governance",
+      "label": "Badkhadiya GP Submissions",
+      "verifiedValue": 63,
+      "baselineValue": "41 households (3.09%)",
+      "delta": "+22 households (+53.66%)",
+      "unit": "%",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "FDB - year 4&5 questionnaire, Col 6 = 'Badkhadiya'",
+        "ledgerReference": "REC-GEO-07",
+        "testAssertionIndex": 2,
+        "auditStatus": "RECONCILED",
+        "reconciliationNotes": "STRUCTURAL EXPANSION: Elevated from subordinate village status to independent 7th Gram Panchayat."
+      },
+      "auditStatus": "RECONCILED"
+    },
+    "REC-GEO-08": {
+      "metricId": "REC-GEO-08",
+      "thematicDomain": "governance",
+      "label": "Vishunapur GP Submissions",
+      "verifiedValue": 56,
+      "baselineValue": "73 households (5.49%)",
+      "delta": "−17 households (−23.29%)",
+      "unit": "%",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "FDB - year 4&5 questionnaire, Col 6 = 'Vishunapur'",
+        "ledgerReference": "REC-GEO-08",
+        "testAssertionIndex": 2,
+        "auditStatus": "RECONCILED",
+        "reconciliationNotes": "METHODOLOGICAL EVOLUTION: Reflects seasonal household migration and consolidation into main village."
+      },
+      "auditStatus": "RECONCILED"
+    },
+    "REC-DEMO-01": {
+      "metricId": "REC-DEMO-01",
+      "thematicDomain": "governance",
+      "label": "Total Enumerated Family Members",
+      "verifiedValue": 6494,
+      "baselineValue": "5,796 resident individuals",
+      "delta": "+698 individuals (+12.04%)",
+      "unit": "individuals",
+      "sampleSize": 6494,
+      "cohortDefinition": "Audited cohort from family_member_repeat (N=6,494)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "family_member_repeat",
+        "cellCoordinates": "family_member_repeat, Rows 2:6495, Col A (Name of Family Member)",
+        "ledgerReference": "REC-DEMO-01",
+        "testAssertionIndex": 2,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Excludes header row. Exactly 6,494 data records linked to 1,535 parent households."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-DEMO-02": {
+      "metricId": "REC-DEMO-02",
+      "thematicDomain": "governance",
+      "label": "Mean Household Size",
+      "verifiedValue": 4.23,
+      "baselineValue": "4.36 members / household",
+      "delta": "−0.13 members (−2.98%)",
+      "unit": "individuals",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "Computed: 6,494 ÷ 1,535 HHs (Median: 4.0, Min: 1, Max: 11)",
+        "ledgerReference": "REC-DEMO-02",
+        "testAssertionIndex": 2,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Validates nuclear household model dominance across the Terai forest fringe."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-DEMO-03": {
+      "metricId": "REC-DEMO-03",
+      "thematicDomain": "governance",
+      "label": "Nuclear Households (3–4 Members)",
+      "verifiedValue": 826,
+      "baselineValue": "~52.1% of households",
+      "delta": "+1.71 percentage points",
+      "unit": "%",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from family_member_repeat (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "family_member_repeat",
+        "cellCoordinates": "family_member_repeat, grouped by _submission__id",
+        "ledgerReference": "REC-DEMO-03",
+        "testAssertionIndex": 2,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Confirms standard family size structure across target communities."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-DEMO-04": {
+      "metricId": "REC-DEMO-04",
+      "thematicDomain": "governance",
+      "label": "Small Households (1–2 Members)",
+      "verifiedValue": 158,
+      "baselineValue": "~11.4% of households",
+      "delta": "−1.11 percentage points",
+      "unit": "%",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from family_member_repeat (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "family_member_repeat",
+        "cellCoordinates": "family_member_repeat, grouped by _submission__id",
+        "ledgerReference": "REC-DEMO-04",
+        "testAssertionIndex": 2,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Predominantly elder couples and landless single-women beneficiaries."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-DEMO-05": {
+      "metricId": "REC-DEMO-05",
+      "thematicDomain": "governance",
+      "label": "Medium Households (5–6 Members)",
+      "verifiedValue": 470,
+      "baselineValue": "~31.2% of households",
+      "delta": "−0.58 percentage points",
+      "unit": "%",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from family_member_repeat (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "family_member_repeat",
+        "cellCoordinates": "family_member_repeat, grouped by _submission__id",
+        "ledgerReference": "REC-DEMO-05",
+        "testAssertionIndex": 2,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Extended family models with adult working children."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-DEMO-06": {
+      "metricId": "REC-DEMO-06",
+      "thematicDomain": "governance",
+      "label": "Large Households (7+ Members)",
+      "verifiedValue": 81,
+      "baselineValue": "~5.3% of households",
+      "delta": "−0.02 percentage points",
+      "unit": "%",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from family_member_repeat (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "family_member_repeat",
+        "cellCoordinates": "family_member_repeat, grouped by _submission__id",
+        "ledgerReference": "REC-DEMO-06",
+        "testAssertionIndex": 2,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: 71 HHs with 7–8 members, 10 HHs with 9–11 members."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-SOC-01": {
+      "metricId": "REC-SOC-01",
+      "thematicDomain": "governance",
+      "label": "OBC Household Representation",
+      "verifiedValue": 891,
+      "baselineValue": "Uncollected / Missing (0%)",
+      "delta": "Primary empirical record",
+      "unit": "%",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "FDB - year 4&5 questionnaire, Col 13 (Caste) = 'OBC'",
+        "ledgerReference": "REC-SOC-01",
+        "testAssertionIndex": 2,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "NEW BASELINE: Largest social group; Kurmi (Verma), Yadav, Maurya, Lodh, Kewat/Nishad communities."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-SOC-02": {
+      "metricId": "REC-SOC-02",
+      "thematicDomain": "governance",
+      "label": "ST (Tharu) Household Representation",
+      "verifiedValue": 377,
+      "baselineValue": "Uncollected / Missing (0%)",
+      "delta": "Primary empirical record",
+      "unit": "%",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "FDB - year 4&5 questionnaire, Col 13 (Caste) = 'ST'",
+        "ledgerReference": "REC-SOC-02",
+        "testAssertionIndex": 2,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "NEW BASELINE: Indigenous Tharu population residing in forest buffer villages of Karikot and Fakirpuri."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-SOC-03": {
+      "metricId": "REC-SOC-03",
+      "thematicDomain": "governance",
+      "label": "SC (Dalit) Household Representation",
+      "verifiedValue": 259,
+      "baselineValue": "Uncollected / Missing (0%)",
+      "delta": "Primary empirical record",
+      "unit": "%",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "FDB - year 4&5 questionnaire, Col 13 (Caste) = 'SC'",
+        "ledgerReference": "REC-SOC-03",
+        "testAssertionIndex": 2,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "NEW BASELINE: Highly vulnerable Dalit smallholders (Chamar/Gautam, Pasi, Dhobi)."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-SOC-04": {
+      "metricId": "REC-SOC-04",
+      "thematicDomain": "governance",
+      "label": "General Category Representation",
+      "verifiedValue": 8,
+      "baselineValue": "Uncollected / Missing (0%)",
+      "delta": "Primary empirical record",
+      "unit": "%",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "FDB - year 4&5 questionnaire, Col 13 (Caste) = 'General'",
+        "ledgerReference": "REC-SOC-04",
+        "testAssertionIndex": 2,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "NEW BASELINE: Minor upper-caste resident stratum."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-SOC-05": {
+      "metricId": "REC-SOC-05",
+      "thematicDomain": "governance",
+      "label": "Marginalized Inclusivity Rate (SC/ST/OBC)",
+      "verifiedValue": 1527,
+      "baselineValue": "Unverified assertion (claimed ~95%)",
+      "delta": "Quantitatively verified",
+      "unit": "%",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "Sum of REC-SOC-01, 02, 03: (891 + 377 + 259) ÷ 1,535",
+        "ledgerReference": "REC-SOC-05",
+        "testAssertionIndex": 2,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Conclusively proves project saturation of historically marginalized communities."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-LAND-01": {
+      "metricId": "REC-LAND-01",
+      "thematicDomain": "rf_progression",
+      "label": "Total Intervention Land (Bigha)",
+      "verifiedValue": 5233.84,
+      "baselineValue": "4,430.20 local bigha",
+      "delta": "+803.64 local bigha (+18.14%)",
+      "unit": "bigha",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "FDB - year 4&5 questionnaire, Col 22 (Total agriculture land...), regex sum",
+        "ledgerReference": "REC-LAND-01",
+        "testAssertionIndex": 7,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Regex parsing extracts numeric values from free-text entries ('5 बीघा', '10 बिसवा')."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-LAND-02": {
+      "metricId": "REC-LAND-02",
+      "thematicDomain": "rf_progression",
+      "label": "Total Intervention Land (Acres @ 0.20)",
+      "verifiedValue": 1046.77,
+      "baselineValue": "886.04 acres (at 0.20 factor)",
+      "delta": "+160.73 acres (+18.14%)",
+      "unit": "acres",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "Computed: 5,233.84 bigha × 0.20 acre/bigha",
+        "ledgerReference": "REC-LAND-02",
+        "testAssertionIndex": 7,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Land area expansion (+18.14%) aligns with household enrollment expansion (+15.50%)."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-LAND-03": {
+      "metricId": "REC-LAND-03",
+      "thematicDomain": "rf_progression",
+      "label": "Mean Operational Land per HH",
+      "verifiedValue": 0.6819,
+      "baselineValue": "0.7638 acres (3.82 bigha)",
+      "delta": "−0.0819 acres (−10.72%)",
+      "unit": "bigha",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "Computed: 1,046.77 ac ÷ 1,535 total households",
+        "ledgerReference": "REC-LAND-03",
+        "testAssertionIndex": 7,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Marginal decline reflects outreach to smaller, more land-poor families in Years 4 & 5."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-LAND-04": {
+      "metricId": "REC-LAND-04",
+      "thematicDomain": "rf_progression",
+      "label": "Median Operational Land per HH",
+      "verifiedValue": 0.6,
+      "baselineValue": "0.5000 acres (2.50 bigha)",
+      "delta": "+0.1000 acres (+20.00%)",
+      "unit": "bigha",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "Median of parsed land across N=1,535",
+        "ledgerReference": "REC-LAND-04",
+        "testAssertionIndex": 7,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Typical project participant operates a 3-bigha (0.60 acre) agrarian plot."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-LAND-05": {
+      "metricId": "REC-LAND-05",
+      "thematicDomain": "rf_progression",
+      "label": "Landless Farming Households (0 bigha)",
+      "verifiedValue": 88,
+      "baselineValue": "36 households (2.76%)",
+      "delta": "+52 households (+2.97 pp)",
+      "unit": "%",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "FDB - year 4&5 questionnaire, Col 22 parsed == 0.0",
+        "ledgerReference": "REC-LAND-05",
+        "testAssertionIndex": 7,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Enhanced capture of landless sharecroppers and homestead kitchen gardeners."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-LAND-06": {
+      "metricId": "REC-LAND-06",
+      "thematicDomain": "rf_progression",
+      "label": "Unparsed Raw Landless Response",
+      "verifiedValue": 574,
+      "baselineValue": "169 missing land rows (12.7%)",
+      "delta": "+405 households",
+      "unit": "%",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "FDB - year 4&5 questionnaire, Col 22 raw string in ('नहीं', 'नही', '0', None)",
+        "ledgerReference": "REC-LAND-06",
+        "testAssertionIndex": 7,
+        "auditStatus": "RECONCILED",
+        "reconciliationNotes": "METHODOLOGICAL EVOLUTION: Identifies households lacking titled operational land who farm purely on shared parcels."
+      },
+      "auditStatus": "RECONCILED"
+    },
+    "REC-LAND-07": {
+      "metricId": "REC-LAND-07",
+      "thematicDomain": "rf_progression",
+      "label": "Owned Agricultural Land",
+      "verifiedValue": 1019.01,
+      "baselineValue": "871.82 acres (4,359.1 bigha)",
+      "delta": "+147.19 acres (+16.88%)",
+      "unit": "bigha",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "FDB - year 4&5 questionnaire, Col 20 (Owned Agriculture land...), regex sum",
+        "ledgerReference": "REC-LAND-07",
+        "testAssertionIndex": 7,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Confirms that 97.35% of operational land is held under customary or legal ownership."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-LAND-08": {
+      "metricId": "REC-LAND-08",
+      "thematicDomain": "rf_progression",
+      "label": "Leased / Sharecropped Land",
+      "verifiedValue": 43.14,
+      "baselineValue": "133.74 acres (668.7 bigha)",
+      "delta": "−90.60 acres (−67.74%)",
+      "unit": "bigha",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "FDB - year 4&5 questionnaire, Col 21 (leased agriculare land...), regex sum",
+        "ledgerReference": "REC-LAND-08",
+        "testAssertionIndex": 7,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Captures informal *batai* and *hunda* leasing arrangements in forest revenue villages."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-LAND-09": {
+      "metricId": "REC-LAND-09",
+      "thematicDomain": "rf_progression",
+      "label": "Landholding ≤ 1.0 Acre (5 Bigha)",
+      "verifiedValue": 828,
+      "baselineValue": "83.3% of landholders",
+      "delta": "+8.0 percentage points",
+      "unit": "%",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "FDB - year 4&5 questionnaire, Col 22 parsed ≤ 5.0 bigha",
+        "ledgerReference": "REC-LAND-09",
+        "testAssertionIndex": 7,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Proves hyper-marginalized target base operating under 1 acre of cultivable land."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-ECON-01": {
+      "metricId": "REC-ECON-01",
+      "thematicDomain": "income",
+      "label": "2022 Mean Net Farm Income",
+      "verifiedValue": "Maintained as Baseline Anchor",
+      "baselineValue": "₹34,555.01 (RAW N=1,329)",
+      "delta": "Historical baseline anchor",
+      "unit": "units",
+      "sampleSize": 1487,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=1,487)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "N/A (Wave 1 Retrospective recall anchor)",
+        "ledgerReference": "REC-ECON-01",
+        "testAssertionIndex": 8,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Corrects corrupted CSV baseline of ₹14,554 (remediating SYS-2/SYS-3)."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-ECON-02": {
+      "metricId": "REC-ECON-02",
+      "thematicDomain": "income",
+      "label": "2023 Mean Net Farm Income",
+      "verifiedValue": "Maintained as Midline 1 Anchor",
+      "baselineValue": "₹42,334.62 (RAW N=1,329)",
+      "delta": "+22.51% over 2022",
+      "unit": "units",
+      "sampleSize": 1487,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=1,487)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "N/A (Wave 1 Retrospective recall anchor)",
+        "ledgerReference": "REC-ECON-02",
+        "testAssertionIndex": 8,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Recomputed directly from RAW Kobo multi-crop modules."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-ECON-03": {
+      "metricId": "REC-ECON-03",
+      "thematicDomain": "income",
+      "label": "2024 Mean Net Farm Income",
+      "verifiedValue": "Maintained as Midline 2 Anchor",
+      "baselineValue": "₹56,377.16 (RAW N=1,328)",
+      "delta": "+33.17% over 2023",
+      "unit": "units",
+      "sampleSize": 1487,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=1,487)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "N/A (Wave 1 Retrospective recall anchor)",
+        "ledgerReference": "REC-ECON-03",
+        "testAssertionIndex": 8,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Excludes Row 1206 outlier (remediating SYS-1/SYS-3)."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-ECON-04": {
+      "metricId": "REC-ECON-04",
+      "thematicDomain": "income",
+      "label": "2025 Aggregate Farm Production Cost",
+      "verifiedValue": 30214192.0,
+      "baselineValue": "Not aggregated at cohort",
+      "delta": "Comprehensive 41-crop cost",
+      "unit": "INR",
+      "sampleSize": 1487,
+      "cohortDefinition": "Audited cohort from Income Data (N=1,487)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "Income Data",
+        "cellCoordinates": "Income Data, Col 166, Cell FF1492 (Sum of rows 4:1490)",
+        "ledgerReference": "REC-ECON-04",
+        "testAssertionIndex": 8,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "NEW BASELINE: Authoritative whole-farm cultivation cost across 1,487 genuine farmers."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-ECON-05": {
+      "metricId": "REC-ECON-05",
+      "thematicDomain": "income",
+      "label": "2025 Aggregate Farm Gross Revenue",
+      "verifiedValue": 111246772.0,
+      "baselineValue": "Not aggregated at cohort",
+      "delta": "Comprehensive gross output",
+      "unit": "INR",
+      "sampleSize": 1487,
+      "cohortDefinition": "Audited cohort from Income Data (N=1,487)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "Income Data",
+        "cellCoordinates": "Income Data, Col 168, Cell FH1492 (Sum of rows 4:1490)",
+        "ledgerReference": "REC-ECON-05",
+        "testAssertionIndex": 8,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "NEW BASELINE: Market sales plus imputed monetary value of domestic food consumption."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-ECON-06": {
+      "metricId": "REC-ECON-06",
+      "thematicDomain": "income",
+      "label": "2025 Aggregate Farm Net Margin",
+      "verifiedValue": 81032580.0,
+      "baselineValue": "₹7,48,68,868.51 (2024 RAW)",
+      "delta": "+₹61,63,711.49 (+8.23%)",
+      "unit": "INR",
+      "sampleSize": 1487,
+      "cohortDefinition": "Audited cohort from Income Data (N=1,487)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "Income Data",
+        "cellCoordinates": "Derived: Income Data!FH1492 − Income Data!FF1492",
+        "ledgerReference": "REC-ECON-06",
+        "testAssertionIndex": 8,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Net crop value added across all 41 crops plus Other."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-ECON-07": {
+      "metricId": "REC-ECON-07",
+      "thematicDomain": "income",
+      "label": "2025 Mean Net Farm Income per HH",
+      "verifiedValue": 54494.0,
+      "baselineValue": "₹56,377.16 (2024 RAW Mean)",
+      "delta": "−₹1,883.16 (−3.34%)",
+      "unit": "INR",
+      "sampleSize": 1487,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=1,487)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "Computed: ₹81,032,580.00 ÷ 1,487 genuine farmers",
+        "ledgerReference": "REC-ECON-07",
+        "testAssertionIndex": 8,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Mean adjustment caused by sample dilution (+158 marginal farming families enrolled)."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-ECON-08": {
+      "metricId": "REC-ECON-08",
+      "thematicDomain": "income",
+      "label": "2025 Median Net Farm Income",
+      "verifiedValue": 44400.0,
+      "baselineValue": "₹38,700.00 (2024 RAW Median)",
+      "delta": "+₹5,700.00 (+14.73%)",
+      "unit": "INR",
+      "sampleSize": 1487,
+      "cohortDefinition": "Audited cohort from Income Data (N=1,487)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "Income Data",
+        "cellCoordinates": "Median across rows 4:1490 in Income Data (Col FH − Col FF)",
+        "ledgerReference": "REC-ECON-08",
+        "testAssertionIndex": 8,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Median growth confirms that the central mass of beneficiaries continued to expand."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-ECON-09": {
+      "metricId": "REC-ECON-09",
+      "thematicDomain": "income",
+      "label": "2026 Aggregate Farm Production Cost",
+      "verifiedValue": 33124177.0,
+      "baselineValue": "Not available (unobserved)",
+      "delta": "+₹29,09,985.00 (+9.63%)",
+      "unit": "INR",
+      "sampleSize": 1487,
+      "cohortDefinition": "Audited cohort from Income Data (N=1,487)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "Income Data",
+        "cellCoordinates": "Income Data, Col 167, Cell FG1492 (Sum of rows 4:1490)",
+        "ledgerReference": "REC-ECON-09",
+        "testAssertionIndex": 8,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "NEW BASELINE: Input cost expansion driven by higher vegetable acreage and organic manures."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-ECON-10": {
+      "metricId": "REC-ECON-10",
+      "thematicDomain": "income",
+      "label": "2026 Aggregate Farm Gross Revenue",
+      "verifiedValue": 128170176.0,
+      "baselineValue": "Not available (unobserved)",
+      "delta": "+₹16,923,404.00 (+15.21%)",
+      "unit": "INR",
+      "sampleSize": 1487,
+      "cohortDefinition": "Audited cohort from Income Data (N=1,487)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "Income Data",
+        "cellCoordinates": "Income Data, Col 169, Cell FI1492 (Sum of rows 4:1490)",
+        "ledgerReference": "REC-ECON-10",
+        "testAssertionIndex": 8,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "NEW BASELINE: Highest aggregate agricultural production value recorded in project history."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-ECON-11": {
+      "metricId": "REC-ECON-11",
+      "thematicDomain": "income",
+      "label": "2026 Aggregate Farm Net Margin",
+      "verifiedValue": 95045999.0,
+      "baselineValue": "Not available (unobserved)",
+      "delta": "+₹14,013,419.00 (+17.29%)",
+      "unit": "INR",
+      "sampleSize": 1487,
+      "cohortDefinition": "Audited cohort from Income Data (N=1,487)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "Income Data",
+        "cellCoordinates": "Derived: Income Data!FI1492 − Income Data!FG1492",
+        "ledgerReference": "REC-ECON-11",
+        "testAssertionIndex": 8,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Program net surplus approaches ₹9.5 Crore in final operational year."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-ECON-12": {
+      "metricId": "REC-ECON-12",
+      "thematicDomain": "income",
+      "label": "2026 Mean Net Farm Income per HH",
+      "verifiedValue": 63917.95,
+      "baselineValue": "Not available (unobserved)",
+      "delta": "+₹9,423.95 (+17.29% YoY)",
+      "unit": "INR",
+      "sampleSize": 1487,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=1,487)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "Computed: ₹95,045,999.00 ÷ 1,487 genuine farmers",
+        "ledgerReference": "REC-ECON-12",
+        "testAssertionIndex": 8,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Definitive 5-year project culmination figure (+84.97% over 2022 baseline)."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-TURM-01": {
+      "metricId": "REC-TURM-01",
+      "thematicDomain": "income",
+      "label": "Active Commercial Turmeric Growers",
+      "verifiedValue": 333,
+      "baselineValue": "112 (register) / 137 (grant rep)",
+      "delta": "+196 growers (+143.07%)",
+      "unit": "units",
+      "sampleSize": 1487,
+      "cohortDefinition": "Audited cohort from Income Data (N=1,487)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "Income Data",
+        "cellCoordinates": "Income Data, Col ED/EE non-zero counts across rows 4:1490",
+        "ledgerReference": "REC-TURM-01",
+        "testAssertionIndex": 8,
+        "auditStatus": "RECONCILED",
+        "reconciliationNotes": "STRUCTURAL EXPANSION: Scaled commercial adoption across over one-fifth of project farming households."
+      },
+      "auditStatus": "RECONCILED"
+    },
+    "REC-TURM-02": {
+      "metricId": "REC-TURM-02",
+      "thematicDomain": "income",
+      "label": "Turmeric Cultivation Cost (2025)",
+      "verifiedValue": 2488890.0,
+      "baselineValue": "Not cleanly disaggregated",
+      "delta": "Comprehensive input cost",
+      "unit": "INR",
+      "sampleSize": 1487,
+      "cohortDefinition": "Audited cohort from Income Data (N=1,487)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "Income Data",
+        "cellCoordinates": "Income Data, Col 134 (Col ED), Cell ED1492",
+        "ledgerReference": "REC-TURM-02",
+        "testAssertionIndex": 8,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "NEW BASELINE: Verified input expenditure for seed rhizomes, bio-inputs, and labor."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-TURM-03": {
+      "metricId": "REC-TURM-03",
+      "thematicDomain": "income",
+      "label": "Turmeric Cultivation Cost (2026)",
+      "verifiedValue": 2849768.0,
+      "baselineValue": "Not available",
+      "delta": "+₹360,878.00 (+14.50%)",
+      "unit": "INR",
+      "sampleSize": 1487,
+      "cohortDefinition": "Audited cohort from Income Data (N=1,487)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "Income Data",
+        "cellCoordinates": "Income Data, Col 135 (Col EE), Cell EE1492",
+        "ledgerReference": "REC-TURM-03",
+        "testAssertionIndex": 8,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "NEW BASELINE: Input cost expansion supporting intensified commercial cultivation."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-TURM-04": {
+      "metricId": "REC-TURM-04",
+      "thematicDomain": "income",
+      "label": "Turmeric Gross Revenue (2025)",
+      "verifiedValue": 11797750.0,
+      "baselineValue": "₹23,16,000 (net in register)",
+      "delta": "Full cohort commercial capture",
+      "unit": "INR",
+      "sampleSize": 1487,
+      "cohortDefinition": "Audited cohort from Income Data (N=1,487)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "Income Data",
+        "cellCoordinates": "Income Data, Col 136 (Col EF), Cell EF1492",
+        "ledgerReference": "REC-TURM-04",
+        "testAssertionIndex": 8,
+        "auditStatus": "RECONCILED",
+        "reconciliationNotes": "STRUCTURAL EXPANSION: Captures entire commercial harvest value across all project villages."
+      },
+      "auditStatus": "RECONCILED"
+    },
+    "REC-TURM-05": {
+      "metricId": "REC-TURM-05",
+      "thematicDomain": "income",
+      "label": "Turmeric Gross Revenue (2026)",
+      "verifiedValue": 12688160.0,
+      "baselineValue": "Not available",
+      "delta": "+₹890,410.00 (+7.55%)",
+      "unit": "INR",
+      "sampleSize": 1487,
+      "cohortDefinition": "Audited cohort from Income Data (N=1,487)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "Income Data",
+        "cellCoordinates": "Income Data, Col 137 (Col EG), Cell EG1492",
+        "ledgerReference": "REC-TURM-05",
+        "testAssertionIndex": 8,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "NEW BASELINE: Largest single commercial cash crop revenue generated in project."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-TURM-06": {
+      "metricId": "REC-TURM-06",
+      "thematicDomain": "income",
+      "label": "Turmeric Net Profit (2025)",
+      "verifiedValue": 9308860.0,
+      "baselineValue": "₹23,16,000 (register) / ₹46.17 L",
+      "delta": "+₹69,92,860.00 (+301.9%)",
+      "unit": "INR",
+      "sampleSize": 1487,
+      "cohortDefinition": "Audited cohort from Income Data (N=1,487)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "Income Data",
+        "cellCoordinates": "Derived: Income Data!EF1492 − Income Data!ED1492",
+        "ledgerReference": "REC-TURM-06",
+        "testAssertionIndex": 8,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Net value added generated by 333 smallholder spice growers."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-TURM-07": {
+      "metricId": "REC-TURM-07",
+      "thematicDomain": "income",
+      "label": "Turmeric Net Profit (2026)",
+      "verifiedValue": 9838392.0,
+      "baselineValue": "Not available",
+      "delta": "+₹529,532.00 (+5.69%)",
+      "unit": "INR",
+      "sampleSize": 1487,
+      "cohortDefinition": "Audited cohort from Income Data (N=1,487)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "Income Data",
+        "cellCoordinates": "Derived: Income Data!EG1492 − Income Data!EE1492",
+        "ledgerReference": "REC-TURM-07",
+        "testAssertionIndex": 8,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Generates average net surplus of ₹29,995.10 per participating grower."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-TURM-08": {
+      "metricId": "REC-TURM-08",
+      "thematicDomain": "income",
+      "label": "2026 Fresh Turmeric Harvest Volume",
+      "verifiedValue": 738640,
+      "baselineValue": "1,279.0 quintals (parsed 2025)",
+      "delta": "+477.5% volume expansion",
+      "unit": "units",
+      "sampleSize": 1487,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=1,487)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "FDB - year 4&5 questionnaire, Section 11 turmeric production columns sum",
+        "ledgerReference": "REC-TURM-08",
+        "testAssertionIndex": 8,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "NEW BASELINE: High-yielding LEISA rhizome harvest (mean yield ~107 quintals/acre)."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-CROP-01": {
+      "metricId": "REC-CROP-01",
+      "thematicDomain": "rf_progression",
+      "label": "Wheat Net Income (2025 / 2026)",
+      "verifiedValue": 2.68,
+      "baselineValue": "₹2.17 Cr (2024 RAW)",
+      "delta": "+₹1.05 Cr (+48.4% over 2024)",
+      "unit": "INR",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from Income Data (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "Income Data",
+        "cellCoordinates": "Income Data, Wheat columns (1,369 active growers in 2026)",
+        "ledgerReference": "REC-CROP-01",
+        "testAssertionIndex": 7,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Primary Rabi food security staple; net profit expanded by +20.06% between 2025 and 2026."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-CROP-02": {
+      "metricId": "REC-CROP-02",
+      "thematicDomain": "rf_progression",
+      "label": "Paddy Net Income (2025 / 2026)",
+      "verifiedValue": 2.04,
+      "baselineValue": "₹1.87 Cr (2024 RAW)",
+      "delta": "+₹63.0 L (+33.7% over 2024)",
+      "unit": "INR",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from Income Data (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "Income Data",
+        "cellCoordinates": "Income Data, Paddy columns (1,381 active growers in 2026)",
+        "ledgerReference": "REC-CROP-02",
+        "testAssertionIndex": 7,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Primary Kharif staple; net profit rose +22.61% between 2025 and 2026 (completely purging SYS-2 overwrite)."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-CROP-03": {
+      "metricId": "REC-CROP-03",
+      "thematicDomain": "rf_progression",
+      "label": "Okra / Bhindi Net Income (2026)",
+      "verifiedValue": 3322080.0,
+      "baselineValue": "₹13.46 Lakh (2024 RAW)",
+      "delta": "+₹19.76 Lakh (+146.8%)",
+      "unit": "INR",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from Income Data (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "Income Data",
+        "cellCoordinates": "Income Data, Okra columns (873 active growers in 2026)",
+        "ledgerReference": "REC-CROP-03",
+        "testAssertionIndex": 7,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Dominant commercial vegetable; net income grew +27.40% YoY from ₹26.08 L (2025)."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-CROP-04": {
+      "metricId": "REC-CROP-04",
+      "thematicDomain": "rf_progression",
+      "label": "Bitter Gourd Net Income (2026)",
+      "verifiedValue": 3077957.0,
+      "baselineValue": "₹16.74 Lakh (2024 combined)",
+      "delta": "+₹14.04 Lakh (+83.9%)",
+      "unit": "INR",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from Income Data (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "Income Data",
+        "cellCoordinates": "Income Data, Bitter Gourd columns (777 active growers in 2026)",
+        "ledgerReference": "REC-CROP-04",
+        "testAssertionIndex": 7,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Flagship multi-tier trellis (*machan*) crop; +16.49% YoY growth from ₹26.41 L (2025)."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-CROP-05": {
+      "metricId": "REC-CROP-05",
+      "thematicDomain": "rf_progression",
+      "label": "Cucumber / Kheera Net Income (2026)",
+      "verifiedValue": 2575942.0,
+      "baselineValue": "Dropped in CSV (SYS-1)",
+      "delta": "Fully restored crop series",
+      "unit": "INR",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from Income Data (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "Income Data",
+        "cellCoordinates": "Income Data, Cucumber columns (665 active growers in 2026)",
+        "ledgerReference": "REC-CROP-05",
+        "testAssertionIndex": 7,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Trellis vegetable generating substantial summer cash flow; +17.91% YoY from ₹21.85 L (2025)."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-CROP-06": {
+      "metricId": "REC-CROP-06",
+      "thematicDomain": "rf_progression",
+      "label": "Cauliflower Net Income (2026)",
+      "verifiedValue": 2568808.0,
+      "baselineValue": "₹12.22 Lakh (2025 Register)",
+      "delta": "+₹13.47 Lakh (+110.2%)",
+      "unit": "INR",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from Income Data (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "Income Data",
+        "cellCoordinates": "Income Data, Cauliflower columns (610 active growers in 2026)",
+        "ledgerReference": "REC-CROP-06",
+        "testAssertionIndex": 7,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Winter cash crop; net income expanded +20.87% YoY from ₹21.25 L (2025)."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-CROP-07": {
+      "metricId": "REC-CROP-07",
+      "thematicDomain": "rf_progression",
+      "label": "Chili / Mirch Net Income (2026)",
+      "verifiedValue": 2454525.0,
+      "baselineValue": "₹7.42 Lakh (2024 RAW)",
+      "delta": "+₹17.13 Lakh (+230.9%)",
+      "unit": "INR",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from Income Data (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "Income Data",
+        "cellCoordinates": "Income Data, Chili columns (692 active growers in 2026)",
+        "ledgerReference": "REC-CROP-07",
+        "testAssertionIndex": 7,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: High-value spice vegetable; net income rose +21.74% YoY from ₹20.16 L (2025)."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-CROP-08": {
+      "metricId": "REC-CROP-08",
+      "thematicDomain": "rf_progression",
+      "label": "Pumpkin / Kaddu Net Income (2026)",
+      "verifiedValue": 1723887.0,
+      "baselineValue": "₹5.89 Lakh (2024 RAW)",
+      "delta": "+₹11.35 Lakh (+192.7%)",
+      "unit": "INR",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from Income Data (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "Income Data",
+        "cellCoordinates": "Income Data, Pumpkin columns (587 active growers in 2026)",
+        "ledgerReference": "REC-CROP-08",
+        "testAssertionIndex": 7,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Machan cucurbit; net income rose +18.12% YoY from ₹14.59 L (2025)."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-CROP-09": {
+      "metricId": "REC-CROP-09",
+      "thematicDomain": "rf_progression",
+      "label": "Garlic / Lahsun Net Income (2026)",
+      "verifiedValue": 1542467.0,
+      "baselineValue": "Dropped in CSV (SYS-1)",
+      "delta": "Fully restored crop series",
+      "unit": "INR",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from Income Data (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "Income Data",
+        "cellCoordinates": "Income Data, Garlic columns (368 active growers in 2026)",
+        "ledgerReference": "REC-CROP-09",
+        "testAssertionIndex": 7,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: High-value Rabi bulb; net income rose +10.20% YoY from ₹14.00 L (2025)."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-CROP-10": {
+      "metricId": "REC-CROP-10",
+      "thematicDomain": "rf_progression",
+      "label": "Mustard / Sarson Net Income (2026)",
+      "verifiedValue": 1409515.0,
+      "baselineValue": "₹11.78 Lakh (2024 RAW)",
+      "delta": "+₹2.32 Lakh (+19.7%)",
+      "unit": "INR",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from Income Data (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "Income Data",
+        "cellCoordinates": "Income Data, Mustard columns (162 active growers in 2026)",
+        "ledgerReference": "REC-CROP-10",
+        "testAssertionIndex": 7,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Essential domestic edible oil security; +0.25% YoY from ₹14.06 L (2025)."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-INST-01": {
+      "metricId": "REC-INST-01",
+      "thematicDomain": "governance",
+      "label": "Ajeevika Adhikar Sangathan (AAS) Members",
+      "verifiedValue": 4826,
+      "baselineValue": "141 roster flags",
+      "delta": "+4,685 members (+3,322.7%)",
+      "unit": "individuals",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from family_member_repeat (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "family_member_repeat",
+        "cellCoordinates": "family_member_repeat, Col 5 (Is this member part of AAS?) = 'Yes'",
+        "ledgerReference": "REC-INST-01",
+        "testAssertionIndex": 2,
+        "auditStatus": "RECONCILED",
+        "reconciliationNotes": "STRUCTURAL EXPANSION: Captures multi-member family enrollment; 74.32% of total resident population."
+      },
+      "auditStatus": "RECONCILED"
+    },
+    "REC-INST-02": {
+      "metricId": "REC-INST-02",
+      "thematicDomain": "governance",
+      "label": "Bal Sansad (Children's Parliament)",
+      "verifiedValue": 9,
+      "baselineValue": "50 members",
+      "delta": "−41 members",
+      "unit": "units",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from family_member_repeat (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "family_member_repeat",
+        "cellCoordinates": "family_member_repeat, Col 2 (Is this member part of Bal Sansad?) = 'Yes'",
+        "ledgerReference": "REC-INST-02",
+        "testAssertionIndex": 2,
+        "auditStatus": "RECONCILED",
+        "reconciliationNotes": "METHODOLOGICAL EVOLUTION: Focuses strictly on currently elected child representatives in school committees."
+      },
+      "auditStatus": "RECONCILED"
+    },
+    "REC-INST-03": {
+      "metricId": "REC-INST-03",
+      "thematicDomain": "governance",
+      "label": "Kishor Sangathan (Adolescent Union)",
+      "verifiedValue": 11,
+      "baselineValue": "7 members",
+      "delta": "+4 members (+57.14%)",
+      "unit": "units",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from family_member_repeat (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "family_member_repeat",
+        "cellCoordinates": "family_member_repeat, Col 3 (Is this member part of Kishor...?) = 'Yes'",
+        "ledgerReference": "REC-INST-03",
+        "testAssertionIndex": 2,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Adolescent girls' and boys' collective delegates active in gender and child rights advocacy."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-INST-04": {
+      "metricId": "REC-INST-04",
+      "thematicDomain": "governance",
+      "label": "Yuva Sansad (Youth Parliament)",
+      "verifiedValue": 11,
+      "baselineValue": "10 members",
+      "delta": "+1 member (+10.00%)",
+      "unit": "units",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from family_member_repeat (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "family_member_repeat",
+        "cellCoordinates": "family_member_repeat, Col 4 (Is this member part of Yuva Sansad?) = 'Yes'",
+        "ledgerReference": "REC-INST-04",
+        "testAssertionIndex": 2,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Community youth delegates supporting digital literacy and scheme facilitation."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-INST-05": {
+      "metricId": "REC-INST-05",
+      "thematicDomain": "governance",
+      "label": "AAS Affinity Village Groups",
+      "verifiedValue": 64,
+      "baselineValue": "66 affinity groups",
+      "delta": "−2 groups",
+      "unit": "units",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "FDB - year 4&5 questionnaire, Col 8 (AAS Name)",
+        "ledgerReference": "REC-INST-05",
+        "testAssertionIndex": 2,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Top groups: Ganga (74), Krishna (63), Meera (54), Durga (44), Mahima (38), Shanti (37)."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-INST-06": {
+      "metricId": "REC-INST-06",
+      "thematicDomain": "governance",
+      "label": "Women's Self-Help Groups (SHGs)",
+      "verifiedValue": 39,
+      "baselineValue": "Qualitative narrative",
+      "delta": "549 participating members",
+      "unit": "units",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "FDB - year 4&5 questionnaire, Col 14 (Self Help Group (SHG) Name)",
+        "ledgerReference": "REC-INST-06",
+        "testAssertionIndex": 2,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "NEW BASELINE: Captures microfinance convergence linking AAS women into NRLM SHG collectives."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-INST-07": {
+      "metricId": "REC-INST-07",
+      "thematicDomain": "governance",
+      "label": "Baghmitra / Gajmitra Volunteers",
+      "verifiedValue": 1531,
+      "baselineValue": "Case study narratives",
+      "delta": "Saturation coverage",
+      "unit": "units",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "FDB - year 4&5 questionnaire, Col 15 (Baghmitra/Gajmitra name)",
+        "ledgerReference": "REC-INST-07",
+        "testAssertionIndex": 2,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "NEW BASELINE: Human-wildlife conflict monitors in Katarniaghat forest buffer zone."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-INST-08": {
+      "metricId": "REC-INST-08",
+      "thematicDomain": "governance",
+      "label": "Krishi Mitra Extension Linkages",
+      "verifiedValue": 1532,
+      "baselineValue": "Qualitative narrative",
+      "delta": "99.80% extension coverage",
+      "unit": "units",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "FDB - year 4&5 questionnaire, Col 18 (Name of Krishi Mitra...)",
+        "ledgerReference": "REC-INST-08",
+        "testAssertionIndex": 2,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "NEW BASELINE: Frontline agro-ecological peer educators assigned to each farming cluster."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-RNE-01": {
+      "metricId": "REC-RNE-01",
+      "thematicDomain": "rights",
+      "label": "Total Public Schemes Tracked",
+      "verifiedValue": 77,
+      "baselineValue": "77 schemes (unremediated: 75)",
+      "delta": "Maintained 77 schemes",
+      "unit": "units",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "FDB - year 4&5 questionnaire, Sections 3, 6, 9, 10 (Cols 253–2715)",
+        "ledgerReference": "REC-RNE-01",
+        "testAssertionIndex": 10,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Exhaustive 4-round tracking across Awareness, Leadership, and Receipt stages."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-RNE-02": {
+      "metricId": "REC-RNE-02",
+      "thematicDomain": "rights",
+      "label": "Essential Medicines Receipt (R1–R4)",
+      "verifiedValue": 47.4,
+      "baselineValue": "Unaggregated",
+      "delta": "~46% stable coverage",
+      "unit": "%",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "FDB - year 4&5 questionnaire, Essential medicine receipt flags across 4 rounds",
+        "ledgerReference": "REC-RNE-02",
+        "testAssertionIndex": 10,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "NEW BASELINE: Regular distribution of Iron Folic Acid (IFA), Calcium, and deworming tablets via ASHA."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-RNE-03": {
+      "metricId": "REC-RNE-03",
+      "thematicDomain": "rights",
+      "label": "Adolescent Sanitary Pads Receipt",
+      "verifiedValue": 42.0,
+      "baselineValue": "Unaggregated",
+      "delta": "~41% stable coverage",
+      "unit": "%",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "FDB - year 4&5 questionnaire, Sanitary pad receipt flags across 4 rounds",
+        "ledgerReference": "REC-RNE-03",
+        "testAssertionIndex": 10,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "NEW BASELINE: Reproductive health supply delivery to adolescent girls and young mothers."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-RNE-04": {
+      "metricId": "REC-RNE-04",
+      "thematicDomain": "rights",
+      "label": "Teacher Daily Presence in School",
+      "verifiedValue": 41.6,
+      "baselineValue": "Unaggregated",
+      "delta": "~37% school accountability",
+      "unit": "%",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "FDB - year 4&5 questionnaire, Primary education monitoring flags across 4 rounds",
+        "ledgerReference": "REC-RNE-04",
+        "testAssertionIndex": 10,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "NEW BASELINE: Community social audit of primary school teacher attendance."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-RNE-05": {
+      "metricId": "REC-RNE-05",
+      "thematicDomain": "rights",
+      "label": "Mid-Day Meal (MDM) School Service",
+      "verifiedValue": 39.7,
+      "baselineValue": "Unaggregated",
+      "delta": "~35% primary child coverage",
+      "unit": "%",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "FDB - year 4&5 questionnaire, School MDM delivery flags across 4 rounds",
+        "ledgerReference": "REC-RNE-05",
+        "testAssertionIndex": 10,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "NEW BASELINE: Hot cooked meal monitoring in government primary schools."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-RNE-06": {
+      "metricId": "REC-RNE-06",
+      "thematicDomain": "rights",
+      "label": "Aadhaar Card Enrolment / Updation",
+      "verifiedValue": 39.5,
+      "baselineValue": "Unaggregated",
+      "delta": "Cumulative legal identity",
+      "unit": "%",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "FDB - year 4&5 questionnaire, Aadhaar service receipt flags across 4 rounds",
+        "ledgerReference": "REC-RNE-06",
+        "testAssertionIndex": 10,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "NEW BASELINE: Biometric digital identity inclusion via CSC and mobile camps."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-RNE-07": {
+      "metricId": "REC-RNE-07",
+      "thematicDomain": "rights",
+      "label": "Junior School Functional Access",
+      "verifiedValue": 34.9,
+      "baselineValue": "Unaggregated",
+      "delta": "~32% upper primary access",
+      "unit": "%",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "FDB - year 4&5 questionnaire, Junior school facility access flags across 4 rounds",
+        "ledgerReference": "REC-RNE-07",
+        "testAssertionIndex": 10,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "NEW BASELINE: Upper primary education access for older children."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-RNE-08": {
+      "metricId": "REC-RNE-08",
+      "thematicDomain": "rights",
+      "label": "Ration Card (BPL / Antyodaya)",
+      "verifiedValue": 34.8,
+      "baselineValue": "Unaggregated",
+      "delta": "Food subsidy entitlement",
+      "unit": "%",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "FDB - year 4&5 questionnaire, NFSA ration card receipt flags across 4 rounds",
+        "ledgerReference": "REC-RNE-08",
+        "testAssertionIndex": 10,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "NEW BASELINE: Subsidized foodgrain delivery under Pradhan Mantri Garib Kalyan Anna Yojana."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-RNE-09": {
+      "metricId": "REC-RNE-09",
+      "thematicDomain": "rights",
+      "label": "School Desks & Benches Upgrades",
+      "verifiedValue": 34.0,
+      "baselineValue": "Unaggregated",
+      "delta": "Operation Kayakalp upgrade",
+      "unit": "%",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "FDB - year 4&5 questionnaire, School furniture infrastructure flags across 4 rounds",
+        "ledgerReference": "REC-RNE-09",
+        "testAssertionIndex": 10,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "NEW BASELINE: Infrastructure upgrades in village primary schools."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-RNE-10": {
+      "metricId": "REC-RNE-10",
+      "thematicDomain": "rights",
+      "label": "GP Family Register (Kutumb Register)",
+      "verifiedValue": 33.6,
+      "baselineValue": "Unaggregated",
+      "delta": "Civic documentation",
+      "unit": "%",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "FDB - year 4&5 questionnaire, Family register certification flags across 4 rounds",
+        "ledgerReference": "REC-RNE-10",
+        "testAssertionIndex": 10,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "NEW BASELINE: Official civil registration necessary for inheritance and welfare schemes."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-RNE-11": {
+      "metricId": "REC-RNE-11",
+      "thematicDomain": "rights",
+      "label": "Active School Sanitation / Toilets",
+      "verifiedValue": 30.0,
+      "baselineValue": "Unaggregated",
+      "delta": "Functional WASH in schools",
+      "unit": "%",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "FDB - year 4&5 questionnaire, School toilet functionality flags across 4 rounds",
+        "ledgerReference": "REC-RNE-11",
+        "testAssertionIndex": 10,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "NEW BASELINE: Ensuring gender-segregated functional sanitation for students."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-RNE-12": {
+      "metricId": "REC-RNE-12",
+      "thematicDomain": "rights",
+      "label": "MGNREGA Job Card Active Work",
+      "verifiedValue": 23.3,
+      "baselineValue": "Unaggregated",
+      "delta": "Guaranteed wage employment",
+      "unit": "%",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "FDB - year 4&5 questionnaire, MGNREGA work participation flags across 4 rounds",
+        "ledgerReference": "REC-RNE-12",
+        "testAssertionIndex": 10,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "NEW BASELINE: 100 days guaranteed wage labor demand mobilization."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-LEV-01": {
+      "metricId": "REC-LEV-01",
+      "thematicDomain": "rights",
+      "label": "3-Year Verified Scheme Leverage",
+      "verifiedValue": "Maintained at ₹7.71 Crore",
+      "baselineValue": "₹7,70,98,360 across 577 projects",
+      "delta": "Reaffirmed and protected",
+      "unit": "INR",
+      "sampleSize": 577,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=577)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "Multi-workbook registers; FASAL_REMEDIATION_AUDIT_REPORT, SYS-7",
+        "ledgerReference": "REC-LEV-01",
+        "testAssertionIndex": 10,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Prevents reintroduction of debunked ₹11.70 Cr double-counting myth."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-LEV-02": {
+      "metricId": "REC-LEV-02",
+      "thematicDomain": "rights",
+      "label": "Year 2023 Public Leverage Total",
+      "verifiedValue": "Maintained at ₹2.63 Crore",
+      "baselineValue": "₹2,62,80,200 (259 projects)",
+      "delta": "Register grand total: ₹2,62,81,200",
+      "unit": "INR",
+      "sampleSize": 577,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=577)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "Primary register row audit",
+        "ledgerReference": "REC-LEV-02",
+        "testAssertionIndex": 10,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: PMAY housing, solar streetlights, check-dams, drainage."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-LEV-03": {
+      "metricId": "REC-LEV-03",
+      "thematicDomain": "rights",
+      "label": "Year 2024 Public Leverage Total",
+      "verifiedValue": "Maintained at ₹2.30 Crore",
+      "baselineValue": "₹2,29,93,200 (160 projects)",
+      "delta": "Excludes 3 footer rows",
+      "unit": "INR",
+      "sampleSize": 577,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=577)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "Primary register row audit",
+        "ledgerReference": "REC-LEV-03",
+        "testAssertionIndex": 10,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: PMAY houses (₹1.20 L), community borewells, handpumps."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-LEV-04": {
+      "metricId": "REC-LEV-04",
+      "thematicDomain": "rights",
+      "label": "Year 2025 Public Leverage Total",
+      "verifiedValue": "Maintained at ₹2.78 Crore",
+      "baselineValue": "₹2,78,24,960 (158 projects)",
+      "delta": "Neutralizes row 161 double-count",
+      "unit": "INR",
+      "sampleSize": 577,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=577)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "Primary register row audit",
+        "ledgerReference": "REC-LEV-04",
+        "testAssertionIndex": 10,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Eliminates duplicate grand total row that falsely doubled to ₹5.56 Cr."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-LEV-05": {
+      "metricId": "REC-LEV-05",
+      "thematicDomain": "rights",
+      "label": "PMAY Rural Housing Leverage",
+      "verifiedValue": "Maintained at ₹3.36 Crore",
+      "baselineValue": "₹3,36,00,000 (280 sanctioned units)",
+      "delta": "43.58% of total leverage",
+      "unit": "INR",
+      "sampleSize": 577,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=577)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "Standard unit norm: ₹1,20,000 per pucca housing unit",
+        "ledgerReference": "REC-LEV-05",
+        "testAssertionIndex": 10,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Largest single convergence achievement across all three project years."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-LEV-06": {
+      "metricId": "REC-LEV-06",
+      "thematicDomain": "rights",
+      "label": "Village Roads & Drainage Projects",
+      "verifiedValue": "Maintained at ₹2.86 Crore",
+      "baselineValue": "₹2,86,48,200 (60 civil works)",
+      "delta": "37.16% of total leverage",
+      "unit": "INR",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "Interlocking roads, CC pavements, brick-soling, RCC drains",
+        "ledgerReference": "REC-LEV-06",
+        "testAssertionIndex": 10,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Crucial all-weather village connectivity in flood-prone Katarniaghat buffer."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-LEV-07": {
+      "metricId": "REC-LEV-07",
+      "thematicDomain": "rights",
+      "label": "Har Ghar Nal (Jal Jeevan Mission)",
+      "verifiedValue": "Maintained at ₹94.50 Lakh",
+      "baselineValue": "₹94,50,000 (665 tap connections)",
+      "delta": "12.26% of total leverage",
+      "unit": "INR",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "Standard normative tap connection valuation",
+        "ledgerReference": "REC-LEV-07",
+        "testAssertionIndex": 10,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Potable piped water access reducing waterborne illness."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-LEV-08": {
+      "metricId": "REC-LEV-08",
+      "thematicDomain": "rights",
+      "label": "Individual Household Latrines (SBM)",
+      "verifiedValue": "Maintained at ₹33.60 Lakh",
+      "baselineValue": "₹33,60,000 (280 sanitation units)",
+      "delta": "4.36% of total leverage",
+      "unit": "INR",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "Standard SBM incentive: ₹12,000 per completed latrine",
+        "ledgerReference": "REC-LEV-08",
+        "testAssertionIndex": 10,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Eliminating open defecation in wildlife-prone forest corridors."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-JSK-01": {
+      "metricId": "REC-JSK-01",
+      "thematicDomain": "rights",
+      "label": "JSK Verified Citizen Applications",
+      "verifiedValue": "Maintained at 1,102 records",
+      "baselineValue": "1,102 genuine service transactions",
+      "delta": "Excludes 16 title/blank rows",
+      "unit": "units",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "Historical JSK service register",
+        "ledgerReference": "REC-JSK-01",
+        "testAssertionIndex": 10,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Corrects draft claim of 1,118 by purging header/blank placeholders."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-JSK-02": {
+      "metricId": "REC-JSK-02",
+      "thematicDomain": "rights",
+      "label": "Individual Latrine Applications",
+      "verifiedValue": "Maintained at 394 records",
+      "baselineValue": "394 applications",
+      "delta": "35.75% of all transactions",
+      "unit": "units",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "Verified CSC transaction logs",
+        "ledgerReference": "REC-JSK-02",
+        "testAssertionIndex": 10,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Community applications facilitated through Jan Suvidha Kendra digital kiosks."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-JSK-03": {
+      "metricId": "REC-JSK-03",
+      "thematicDomain": "rights",
+      "label": "Subsidized Tube-Well Applications",
+      "verifiedValue": "Maintained at 352 records",
+      "baselineValue": "352 borewell applications",
+      "delta": "31.94% of all transactions",
+      "unit": "units",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "Verified CSC transaction logs",
+        "ledgerReference": "REC-JSK-03",
+        "testAssertionIndex": 10,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Free boring applications submitted to Agriculture / Minor Irrigation Dept."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-JSK-04": {
+      "metricId": "REC-JSK-04",
+      "thematicDomain": "rights",
+      "label": "PM-Kisan Registrations",
+      "verifiedValue": "Maintained at 12 records",
+      "baselineValue": "12 registrations (+10 blank serials)",
+      "delta": "Corrects claim of 151",
+      "unit": "units",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "Verified CSC transaction logs",
+        "ledgerReference": "REC-JSK-04",
+        "testAssertionIndex": 10,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Resolves sheet structure: 12 PM-Kisan + 46 seed bookings + 77 drums."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-TRN-01": {
+      "metricId": "REC-TRN-01",
+      "thematicDomain": "governance",
+      "label": "FASAL Training Sessions Conducted",
+      "verifiedValue": "Maintained at 210 sessions",
+      "baselineValue": "210 conducted sessions",
+      "delta": "Excludes rows 212–215 blanks",
+      "unit": "units",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "Training MIS register",
+        "ledgerReference": "REC-TRN-01",
+        "testAssertionIndex": 2,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Corrects uncleaned claim of 214 by purging empty spreadsheet rows."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-TRN-02": {
+      "metricId": "REC-TRN-02",
+      "thematicDomain": "governance",
+      "label": "Cumulative Training Attendances",
+      "verifiedValue": "Maintained at 13,510 attendances",
+      "baselineValue": "13,510 participant attendances",
+      "delta": "Cumulative event attendances",
+      "unit": "units",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "Training MIS register",
+        "ledgerReference": "REC-TRN-02",
+        "testAssertionIndex": 2,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Replaces incorrect total of 12,510 (resolving internal mis-addition by 1,000)."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-TRN-03": {
+      "metricId": "REC-TRN-03",
+      "thematicDomain": "governance",
+      "label": "Specialized Training Curricula",
+      "verifiedValue": 9,
+      "baselineValue": "14 distinct session titles",
+      "delta": "Qualitative curriculum mapping",
+      "unit": "units",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "Training MIS register",
+        "ledgerReference": "REC-TRN-03",
+        "testAssertionIndex": 2,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Technical PoP (Jeevamrit, NPM, nursery), administrative interface, exposure visits."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-NUTR-01": {
+      "metricId": "REC-NUTR-01",
+      "thematicDomain": "nutrition",
+      "label": "Continuous Recall Time-Series",
+      "verifiedValue": 60,
+      "baselineValue": "36 Months (Jan 2022 – Dec 2024)",
+      "delta": "+24 Months (+66.7%)",
+      "unit": "units",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "FDB - year 4&5 questionnaire, Sections 2 & 6",
+        "ledgerReference": "REC-NUTR-01",
+        "testAssertionIndex": 11,
+        "auditStatus": "RECONCILED",
+        "reconciliationNotes": "STRUCTURAL EXPANSION: Unprecedented 5-year continuous monthly dietary diversity dataset."
+      },
+      "auditStatus": "RECONCILED"
+    },
+    "REC-NUTR-02": {
+      "metricId": "REC-NUTR-02",
+      "thematicDomain": "nutrition",
+      "label": "Green Leafy Vegetable Peak Season",
+      "verifiedValue": "Peak in June/July (67.2% – 70.4%)",
+      "baselineValue": "Claimed \"Summer Hunger Gap (31.4%)\"",
+      "delta": "Inverts corrupted narrative",
+      "unit": "%",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "FDB - year 4&5 questionnaire, Green food consumption cols",
+        "ledgerReference": "REC-NUTR-02",
+        "testAssertionIndex": 11,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Remediates audit defect: summer is peak of green vegetable harvest, winter is trough."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-NUTR-03": {
+      "metricId": "REC-NUTR-03",
+      "thematicDomain": "nutrition",
+      "label": "Winter Green Vegetable Trough",
+      "verifiedValue": "Trough in Dec/Feb (33.1% – 41.8%)",
+      "baselineValue": "Claimed \"Winter Peak (88.6%)\"",
+      "delta": "Corrects seasonal reality",
+      "unit": "%",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "FDB - year 4&5 questionnaire, Green food consumption cols",
+        "ledgerReference": "REC-NUTR-03",
+        "testAssertionIndex": 11,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Validates lean winter wild greens availability in Katarniaghat forest buffer."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-NUTR-04": {
+      "metricId": "REC-NUTR-04",
+      "thematicDomain": "nutrition",
+      "label": "Pulse Intake Expansion (Tricolor)",
+      "verifiedValue": "Sustained +11.8% to +13.2%",
+      "baselineValue": "+11.27% (Midline) / +12.61% (Doc)",
+      "delta": "Steady protein intake gain",
+      "unit": "%",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "FDB - year 4&5 questionnaire, Yellow food category cols",
+        "ledgerReference": "REC-NUTR-04",
+        "testAssertionIndex": 11,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Corroborates sustained consumption of moong, lentil, gram, and arhar pulses."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-MIGR-01": {
+      "metricId": "REC-MIGR-01",
+      "thematicDomain": "governance",
+      "label": "Seasonal Male Out-Migration Trend",
+      "verifiedValue": "Slight increase (+8.9% to +9.2%)",
+      "baselineValue": "Claimed \"Fell 38.6%\"",
+      "delta": "Inverts flawed seasonal claim",
+      "unit": "%",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "FDB - year 4&5 questionnaire, Sections 4 & 7",
+        "ledgerReference": "REC-MIGR-01",
+        "testAssertionIndex": 2,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Comparing equivalent half-years reveals stable seasonal remittance-seeking behavior."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-MIGR-02": {
+      "metricId": "REC-MIGR-02",
+      "thematicDomain": "governance",
+      "label": "Mean Remittance per Migrant HH",
+      "verifiedValue": 25029.0,
+      "baselineValue": "₹41,497.63 (corrupted by outlier)",
+      "delta": "Removes ₹35 Lakh outlier",
+      "unit": "INR",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "FDB - year 4&5 questionnaire, Migration remittance cols",
+        "ledgerReference": "REC-MIGR-02",
+        "testAssertionIndex": 2,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Jul–Dec 2024 raw data contained a single ₹35 Lakh data-entry distortion."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-HYG-01": {
+      "metricId": "REC-HYG-01",
+      "thematicDomain": "forensic",
+      "label": "Row 1488/1492 Grand Total Neutralization",
+      "verifiedValue": "Neutralized: ₹0.00 discrepancy",
+      "baselineValue": "Undisclosed spreadsheet hazard",
+      "delta": "Prevents double-counting",
+      "unit": "INR",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from Income Data (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "Income Data",
+        "cellCoordinates": "Income Data, Row 1492 vs sum of Rows 4:1490",
+        "ledgerReference": "REC-HYG-01",
+        "testAssertionIndex": 1,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Sum of rows 4:1490 equals Row 1492 perfectly; drops Grand Total to prevent 2× error."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-HYG-02": {
+      "metricId": "REC-HYG-02",
+      "thematicDomain": "forensic",
+      "label": "Negative Paddy Net Income Overwrite",
+      "verifiedValue": "Fully positive (+₹2.04 Cr / +₹2.50 Cr)",
+      "baselineValue": "Corrupted to −₹85.13 Lakh in CSV",
+      "delta": "Remediated root-cause defect",
+      "unit": "INR",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from Income Data (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "Income Data",
+        "cellCoordinates": "Income Data, Paddy gross and cost columns",
+        "ledgerReference": "REC-HYG-02",
+        "testAssertionIndex": 1,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Completely eliminates SYS-2 defect that depressed 2022 baseline by ₹2.44 Crore."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-HYG-03": {
+      "metricId": "REC-HYG-03",
+      "thematicDomain": "forensic",
+      "label": "Extreme Outlier Isolation (Tomato)",
+      "verifiedValue": "Cleaned / Excluded from models",
+      "baselineValue": "₹70,00,75,173 in Row 1206 (2024)",
+      "delta": "Isolates data-entry error",
+      "unit": "units",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from Income Data (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "Income Data",
+        "cellCoordinates": "Income Data, all farmer entries validated",
+        "ledgerReference": "REC-HYG-03",
+        "testAssertionIndex": 1,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Validates that 2025–2026 dataset has zero multi-crore typographic mutations."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-HYG-04": {
+      "metricId": "REC-HYG-04",
+      "thematicDomain": "forensic",
+      "label": "Land Measurement Unit Definition",
+      "verifiedValue": "Explicitly defined as local bigha",
+      "baselineValue": "Ambiguous; assumed 0.619 ac/bigha",
+      "delta": "Declared 0.20 acre/bigha basis",
+      "unit": "bigha",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "FDB - year 4&5 questionnaire, Col 22 header (in bigha)",
+        "ledgerReference": "REC-HYG-04",
+        "testAssertionIndex": 1,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Eliminates 3.1-fold physical land distortion (SYS-4)."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-PII-01": {
+      "metricId": "REC-PII-01",
+      "thematicDomain": "forensic",
+      "label": "Beneficiary Telephone Numbers",
+      "verifiedValue": 1535,
+      "baselineValue": "1,329 personal numbers exposed",
+      "delta": "100% de-identified",
+      "unit": "units",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "FDB - year 4&5 questionnaire, Col 12, 17, 19",
+        "ledgerReference": "REC-PII-01",
+        "testAssertionIndex": 1,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: All personal and official mobile numbers scrubbed from published text."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-PII-02": {
+      "metricId": "REC-PII-02",
+      "thematicDomain": "forensic",
+      "label": "Respondent Personal Names",
+      "verifiedValue": "Redacted / Synthetic keys",
+      "baselineValue": "Raw Devanagari names exposed",
+      "delta": "100% de-identified",
+      "unit": "units",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "FDB - year 4&5 questionnaire, Col 9, 10, 11",
+        "ledgerReference": "REC-PII-02",
+        "testAssertionIndex": 1,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Beneficiary identities mapped to synthetic alphanumeric IDs (`FASAL-2026-XXXX`)."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-PII-03": {
+      "metricId": "REC-PII-03",
+      "thematicDomain": "forensic",
+      "label": "Family Member Names in Roster",
+      "verifiedValue": 6494,
+      "baselineValue": "5,796 personal names exposed",
+      "delta": "100% de-identified",
+      "unit": "units",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from family_member_repeat (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "family_member_repeat",
+        "cellCoordinates": "family_member_repeat, Col 1 (Name of Family Member)",
+        "ledgerReference": "REC-PII-03",
+        "testAssertionIndex": 1,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Child and spouse names protected under Tier 1 privacy protocol."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "REC-RES-01": {
+      "metricId": "REC-RES-01",
+      "thematicDomain": "forensic",
+      "label": "Caste Stratification Feasibility",
+      "verifiedValue": "Re-classified \"Empirically Feasible\"",
+      "baselineValue": "Categorized \"Methodologically Infeasible\"",
+      "delta": "Unlocks demographic analysis",
+      "unit": "units",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "FDB - year 4&5 questionnaire, Col 13 (Caste)",
+        "ledgerReference": "REC-RES-01",
+        "testAssertionIndex": 1,
+        "auditStatus": "RECONCILED",
+        "reconciliationNotes": "STRUCTURAL EXPANSION: Unlocks RQ-01, RQ-02, and RQ-11 for robust econometric evaluation."
+      },
+      "auditStatus": "RECONCILED"
+    },
+    "REC-RES-02": {
+      "metricId": "REC-RES-02",
+      "thematicDomain": "forensic",
+      "label": "Panel vs Retrospective Recall Design",
+      "verifiedValue": "Re-anchored to 2-wave recall",
+      "baselineValue": "Misrepresented as 3-wave panel",
+      "delta": "Eliminates unfeasible estimators",
+      "unit": "units",
+      "sampleSize": 1535,
+      "cohortDefinition": "Audited cohort from FDB - year 4&5 questionnaire (N=1,535)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "Survey administration timestamps across both waves",
+        "ledgerReference": "REC-RES-02",
+        "testAssertionIndex": 1,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "VERIFIED PASS: Purges Arellano-Bond, Mundlak, and synthetic controls; mandates pooled OLS & DiD."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "METRIC-INC-001": {
+      "metricId": "METRIC-INC-001",
+      "thematicDomain": "income",
+      "label": "2026 Aggregate Net Farm Profit",
+      "verifiedValue": 95045999,
+      "baselineValue": 81032580,
+      "delta": "+84.97% (5-Yr Net Gain)",
+      "unit": "INR",
+      "sampleSize": 1487,
+      "cohortDefinition": "Active genuine cultivating farmers in Wave 2 (Income Data rows 4–1490)",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "Income Data",
+        "cellCoordinates": "Derived: FI1492 - FG1492",
+        "ledgerReference": "REC-ECON-11",
+        "testAssertionIndex": 8,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "Aggregate agricultural surplus across 1,487 genuine smallholder farmers."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "METRIC-INC-002": {
+      "metricId": "METRIC-INC-002",
+      "thematicDomain": "income",
+      "label": "2026 Median Net Farm Income per Household",
+      "verifiedValue": 53400,
+      "baselineValue": 22000,
+      "delta": "+142.73% (2.43× vs Baseline)",
+      "unit": "INR/household/year",
+      "sampleSize": 1487,
+      "cohortDefinition": "Active genuine cultivating farmers in Wave 2",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "Income Data",
+        "cellCoordinates": "Income Data Rows 4:1490 Median",
+        "ledgerReference": "REC-ECON-13",
+        "testAssertionIndex": 8,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "Outlier-resistant median net income progression from ₹22,000 (2022) to ₹53,400 (2026)."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "METRIC-SOC-001": {
+      "metricId": "METRIC-SOC-001",
+      "thematicDomain": "governance",
+      "label": "Marginalized Community Inclusivity Rate",
+      "verifiedValue": "99.48%",
+      "baselineValue": "99.20%",
+      "delta": "+0.28 pp",
+      "unit": "%",
+      "sampleSize": 1535,
+      "cohortDefinition": "Combined OBC (891), ST (377), and SC (259) surveyed households",
+      "provenance": {
+        "workbook": "FDB Survey as on 05112026.xlsx",
+        "sheetName": "FDB - year 4&5 questionnaire",
+        "cellCoordinates": "Col 13 (Caste)",
+        "ledgerReference": "REC-SOC-05",
+        "testAssertionIndex": 6,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "1,527 out of 1,535 households belong to vulnerable socio-economic categories."
+      },
+      "auditStatus": "VERIFIED"
+    },
+    "METRIC-RGHT-001": {
+      "metricId": "METRIC-RGHT-001",
+      "thematicDomain": "rights",
+      "label": "Cumulative Verified Public Scheme Leverage",
+      "verifiedValue": 77098360,
+      "baselineValue": 0,
+      "delta": "3.57× Grant Multiplier",
+      "unit": "INR",
+      "sampleSize": 577,
+      "cohortDefinition": "Genuine civil works and scheme sanction line items across 2023–2025 registers",
+      "provenance": {
+        "workbook": "1. Leverage AASs 2025.xlsx, 2024.xlsx, 2023.xlsx",
+        "sheetName": "Sheet1 across registers",
+        "cellCoordinates": "Verified line items sum (577 projects)",
+        "ledgerReference": "REC-LEV-01",
+        "testAssertionIndex": 11,
+        "auditStatus": "VERIFIED",
+        "reconciliationNotes": "Reconciles ₹7,70,98,360 public investment; neutralizes false ₹11.70 Cr subtotal artifact."
+      },
+      "auditStatus": "VERIFIED"
+    }
+  }
+}

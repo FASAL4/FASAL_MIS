@@ -1,0 +1,84 @@
+{
+  "_file_stats": {
+    "leverage_2023": {
+      "mtime": 1782302422.6500735,
+      "size": 36793
+    },
+    "leverage_2024": {
+      "mtime": 1782302412.3606946,
+      "size": 20700
+    },
+    "leverage_2025": {
+      "mtime": 1782302419.2687366,
+      "size": 21324
+    },
+    "jsk": {
+      "mtime": 1782204737.4588697,
+      "size": 86308
+    },
+    "training": {
+      "mtime": 1786352741.2000084,
+      "size": 19296
+    },
+    "crop_2025": {
+      "mtime": 1782314824.1217484,
+      "size": 1170406
+    },
+    "fdb_kobo": {
+      "mtime": 1782204738.6690192,
+      "size": 15632655
+    },
+    "fdb_csv": {
+      "mtime": 1782232913.427554,
+      "size": 20650741
+    }
+  },
+  "metrics": {
+    "leverage": {
+      "count_2023": 259,
+      "sum_2023": 26280200.0,
+      "sheet_total_2023": 26281200.0,
+      "count_2024": 160,
+      "sum_2024": 22993200.0,
+      "count_2025": 158,
+      "sum_2025": 27824960.0,
+      "total_items": 577,
+      "total_leverage": 77098360.0,
+      "total_with_sheet_total": 77099360.0
+    },
+    "jsk": {
+      "genuine_total": 1102,
+      "toilets": 400,
+      "boring_applications": 352,
+      "pm_kisan": 12,
+      "raw_excel_rows": 1134
+    },
+    "training": {
+      "sessions": 210,
+      "attendances": 13510,
+      "raw_rows": 214
+    },
+    "crop_2025": {
+      "farmer_rows": 1361,
+      "total_net_income": 16978270.0,
+      "total_area": 128.645,
+      "net_return_per_acre": 131977.34,
+      "onion_net_income": 7447000.0,
+      "onion_share_pct": 43.86,
+      "turmeric_growers": 112,
+      "turmeric_net_income": 2316000.0,
+      "turmeric_share_pct": 13.64,
+      "turmeric_area": 6.91
+    },
+    "fdb": {
+      "households": 1329,
+      "family_members": 5796,
+      "valid_land_hh": 1160,
+      "total_land_acres": 886.04,
+      "raw_income_2022_mean": 34555.01,
+      "raw_income_2023_mean": 42334.62,
+      "raw_income_2024_mean": 56377.16,
+      "raw_income_growth_ratio": 1.63
+    }
+  }
+}

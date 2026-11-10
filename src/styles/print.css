@@ -1,0 +1,267 @@
+/* ==========================================================================
+   FASAL REVAMP DASHBOARD — DONOR PRINT & PDF EXPORT STYLESHEET
+   Feature F25: Publication-Grade Editorial Print Specification
+   Targets: A4 Portrait, High-Contrast Monochrome, Zero UI Chrome
+   ========================================================================== */
+
+@media print {
+  /* 1. Page Geometry & Margins */
+  @page {
+    size: A4 portrait;
+    margin: 14mm 16mm 16mm 16mm;
+  }
+
+  /* 2. Color & Ground Inversion (Pure White Paper Ground) */
+  :root,
+  html,
+  body,
+  #root,
+  [data-theme="dark"],
+  .dark {
+    background-color: #FFFFFF !important;
+    color: #111C16 !important;
+    font-size: 9.5pt !important;
+    line-height: 1.4 !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    color-scheme: light !important;
+  }
+
+  /* 3. Strip Non-Printable UI Chrome */
+  header.bar,
+  header.sticky,
+  header,
+  nav,
+  .nav,
+  .bar,
+  .bar-actions,
+  .ThematicNavigation,
+  [role="tablist"],
+  .theme-toggle-btn,
+  .print-btn,
+  .icon-btn,
+  .chip,
+  .kbd,
+  .no-print,
+  button:not(.print-preserve),
+  .next,
+  footer.foot,
+  /* Evidence Drawer, Scrim & Portals */
+  #evidence-portal-root,
+  .scrim,
+  .drawer,
+  [role="dialog"],
+  /* Form Inputs, Filters, Pagination */
+  input,
+  select,
+  textarea,
+  .filter-bar,
+  .search-box,
+  .pagination-controls,
+  /* Paper Grain & Animated Decors */
+  body::before,
+  body::after,
+  .chip-dot,
+  .index-arrow {
+    display: none !important;
+  }
+
+  /* 4. Display Print-Only Running Attribution & Footers */
+  .print-only,
+  .print-header-banner,
+  .print-footer-banner {
+    display: block !important;
+  }
+
+  .print-header-banner {
+    border-bottom: 1.5pt solid #111C16;
+    padding-bottom: 8pt;
+    margin-bottom: 16pt;
+  }
+
+  .print-header-meta {
+    display: flex;
+    justify-content: space-between;
+    font-family: "JetBrains Mono", "Geist Mono", monospace;
+    font-size: 7.5pt;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #3F4A43;
+    margin-bottom: 4pt;
+  }
+
+  .print-header-title {
+    font-family: "Newsreader", "Fraunces", Georgia, serif;
+    font-size: 16pt;
+    font-weight: 700;
+    color: #111C16;
+    margin: 0;
+    line-height: 1.2;
+  }
+
+  .print-header-subtitle {
+    font-family: "Bricolage Grotesque", "Geist", sans-serif;
+    font-size: 8.5pt;
+    color: #3F4A43;
+    margin-top: 3pt;
+  }
+
+  .print-footer-banner {
+    border-top: 0.75pt solid #D6CFC1;
+    padding-top: 6pt;
+    margin-top: 20pt;
+    font-family: "JetBrains Mono", "Geist Mono", monospace;
+    font-size: 7pt;
+    color: #5D6A65;
+    display: flex;
+    justify-content: space-between;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  /* 5. Page Break & Orphan Disciplines */
+  h1, h2, h3, h4, h5, h6,
+  .section-heading,
+  .chapter-title {
+    break-after: avoid !important;
+    page-break-after: avoid !important;
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+    color: #111C16 !important;
+  }
+
+  .card,
+  article,
+  section,
+  .sec,
+  .fig,
+  .stat,
+  .note,
+  .kpi-card,
+  .metric-card,
+  .summary-card {
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+    border: 0.75pt solid #D6CFC1 !important;
+    background: #FFFFFF !important;
+    box-shadow: none !important;
+    border-radius: 4px !important;
+    margin-bottom: 12pt !important;
+  }
+
+  /* Intentional Chapter Page Breaks */
+  .page-break-before,
+  .print-chapter-break {
+    break-before: page !important;
+    page-break-before: always !important;
+  }
+
+  /* 6. High-Fidelity Table Formatting */
+  table {
+    width: 100% !important;
+    border-collapse: collapse !important;
+    break-inside: auto !important;
+  }
+
+  thead {
+    display: table-header-group !important; /* Re-prints thead on page break */
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+  }
+
+  tbody {
+    display: table-row-group !important;
+  }
+
+  tr {
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+  }
+
+  th {
+    border-bottom: 1.5pt solid #111C16 !important;
+    font-family: "JetBrains Mono", "Geist Mono", monospace !important;
+    font-size: 7.5pt !important;
+    text-transform: uppercase !important;
+    color: #111C16 !important;
+    padding: 4pt 6pt !important;
+  }
+
+  td {
+    border-bottom: 0.5pt solid #E5E0D6 !important;
+    font-size: 8pt !important;
+    padding: 4pt 6pt !important;
+    color: #111C16 !important;
+  }
+
+  /* 7. Charts & Visualizations (Recharts / SVG) */
+  svg, canvas {
+    max-width: 100% !important;
+    height: auto !important;
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+  }
+
+  .recharts-wrapper,
+  .recharts-surface {
+    outline: none !important;
+    background: transparent !important;
+  }
+
+  .recharts-tooltip-wrapper,
+  .recharts-default-tooltip,
+  .recharts-active-dot,
+  .recharts-cursor {
+    display: none !important;
+  }
+
+  .recharts-cartesian-axis-tick-value,
+  .recharts-legend-item-text,
+  .recharts-label {
+    fill: #111C16 !important;
+    font-family: "JetBrains Mono", "Geist Mono", monospace !important;
+    font-size: 7.5pt !important;
+  }
+
+  .recharts-cartesian-grid line {
+    stroke: #E5E0D6 !important;
+    stroke-opacity: 0.7 !important;
+  }
+
+  /* 8. Micro-Evidence Citations in Print */
+  .src-coord {
+    display: flex !important;
+    font-family: "JetBrains Mono", "Geist Mono", monospace !important;
+    font-size: 7pt !important;
+    color: #0E7490 !important;
+    margin-top: 2pt !important;
+  }
+
+  .evidence-badge {
+    border: 0.5pt solid #0E7490 !important;
+    background: #F0F9FF !important;
+    color: #0E7490 !important;
+    font-size: 7pt !important;
+    padding: 1pt 3pt !important;
+    border-radius: 2px !important;
+    box-shadow: none !important;
+  }
+
+  .evidence-badge span.animate-ping,
+  .evidence-badge .ping-dot {
+    display: none !important;
+  }
+
+  /* 9. Typography Enhancements for Ink on Paper */
+  .tabular-nums,
+  [data-tabular="true"] {
+    font-variant-numeric: tabular-nums lining-nums !important;
+  }
+
+  /* Unclutter links */
+  a {
+    color: #111C16 !important;
+    text-decoration: none !important;
+  }
+}
+

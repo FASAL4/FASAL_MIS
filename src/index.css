@@ -1,143 +1,164 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400..600&family=Inter:wght@400;500;600&display=swap');
 @import "tailwindcss";
-
-:root {
-  --color-white-val: #ffffff;
-  --color-slate-50-val: #f8fafc;
-  --color-slate-100-val: #f1f5f9;
-  --color-slate-200-val: #e2e8f0;
-  --color-slate-300-val: #cbd5e1;
-  --color-slate-400-val: #94a3b8;
-  --color-slate-500-val: #64748b;
-  --color-slate-600-val: #475569;
-  --color-slate-700-val: #334155;
-  --color-slate-800-val: #1e293b;
-  --color-slate-900-val: #0f172a;
-
-  /* Accent 50 values for light mode */
-  --color-emerald-50-val: #ecfdf5;
-  --color-teal-50-val: #f0fdfa;
-  --color-indigo-50-val: #e0e7ff;
-  --color-amber-50-val: #fffbeb;
-  --color-purple-50-val: #f3e8ff;
-  --color-blue-50-val: #eff6ff;
-  
-  --bg-main: #faf9f8;
-}
-
-html.dark {
-  --color-white-val: #111827; /* slate-900 */
-  --color-slate-50-val: #090d16; /* deep layout background */
-  --color-slate-100-val: #1f2937; /* slate-800 card items */
-  --color-slate-200-val: #374151; /* slate-700 borders */
-  --color-slate-300-val: #4b5563;
-  --color-slate-400-val: #94a3b8;
-  --color-slate-500-val: #94a3b8;
-  --color-slate-600-val: #cbd5e1;
-  --color-slate-700-val: #e2e8f0;
-  --color-slate-800-val: #f8fafc;
-  --color-slate-900-val: #ffffff;
-
-  /* Accent 50 values for dark mode (subtle transparent backdrops) */
-  --color-emerald-50-val: rgba(16, 185, 129, 0.1);
-  --color-teal-50-val: rgba(20, 184, 166, 0.1);
-  --color-indigo-50-val: rgba(99, 102, 241, 0.1);
-  --color-amber-50-val: rgba(245, 158, 11, 0.1);
-  --color-purple-50-val: rgba(168, 85, 247, 0.1);
-  --color-blue-50-val: rgba(59, 130, 246, 0.1);
-  
-  --bg-main: #090d16;
-}
-
-@theme {
-  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
-  --font-serif: "Source Serif 4", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-
-  --color-white: var(--color-white-val);
-  --color-slate-50: var(--color-slate-50-val);
-  --color-slate-100: var(--color-slate-100-val);
-  --color-slate-200: var(--color-slate-200-val);
-  --color-slate-300: var(--color-slate-300-val);
-  --color-slate-400: var(--color-slate-400-val);
-  --color-slate-500: var(--color-slate-500-val);
-  --color-slate-600: var(--color-slate-600-val);
-  --color-slate-700: var(--color-slate-700-val);
-  --color-slate-800: var(--color-slate-800-val);
-  --color-slate-900: var(--color-slate-900-val);
-
-  --color-emerald-50: var(--color-emerald-50-val);
-  --color-teal-50: var(--color-teal-50-val);
-  --color-indigo-50: var(--color-indigo-50-val);
-  --color-amber-50: var(--color-amber-50-val);
-  --color-purple-50: var(--color-purple-50-val);
-  --color-blue-50: var(--color-blue-50-val);
-}
+@import "./styles/print.css";
 
 @layer base {
+  /* Tabular Figures Enforcement */
+  .tabular-nums,
+  .font-mono,
+  [data-tabular="true"] {
+    font-variant-numeric: tabular-nums;
+    font-feature-settings: "tnum" 1, "zero" 1;
+  }
+
+  /* Smooth Theme Transitions */
+  html {
+    color-scheme: light;
+    transition: background-color 200ms ease, color 200ms ease;
+  }
+  
+  html.dark {
+    color-scheme: dark;
+  }
+
   body {
+    background-color: var(--color-bg-base);
+    color: var(--color-text-primary);
     font-family: var(--font-sans);
-    background-color: var(--bg-main);
-  }
-
-  h1, h2, h3, h4, h5, h6 {
-    font-family: var(--font-serif);
-    letter-spacing: -0.01em;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 }
 
-/* Keep sidebar dark and premium in both modes for a consistent visual anchor */
-aside.w-64 {
-  background-color: #0b0f19 !important;
-  color: #94a3b8 !important;
-  border-right: 1px solid #1f2937 !important;
+/* ─────────────────────────────────────────────────────────────────────────── */
+/* TAILWIND V4 @theme DECLARATION                                              */
+/* Maps semantic variables directly to Tailwind utility classes                 */
+/* ─────────────────────────────────────────────────────────────────────────── */
+@theme {
+  /* Fonts */
+  --font-serif: "Newsreader", "Source Serif 4", Georgia, serif;
+  --font-sans: "Bricolage Grotesque", Inter, system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Surfaces & Backgrounds */
+  --color-base: var(--color-bg-base);
+  --color-surface: var(--color-bg-surface);
+  --color-elevated: var(--color-bg-elevated);
+  --color-overlay: var(--color-bg-overlay);
+
+  /* Borders & Separators */
+  --color-border-subtle: var(--color-border-subtle);
+  --color-border-strong: var(--color-border-strong);
+
+  /* Text & Typography */
+  --color-content-primary: var(--color-text-primary);
+  --color-content-secondary: var(--color-text-secondary);
+  --color-content-muted: var(--color-text-muted);
+
+  /* Semantic Agronomic Accents */
+  --color-accent-primary: var(--color-accent-primary);
+  --color-accent-harvest: var(--color-accent-harvest);
+  --color-accent-growth: var(--color-accent-growth);
+  --color-accent-evidence: var(--color-accent-evidence);
+  --color-accent-stress: var(--color-accent-stress);
 }
 
-aside.w-64 h1.text-white,
-aside.w-64 .text-white {
-  color: #ffffff !important;
+/* ─────────────────────────────────────────────────────────────────────────── */
+/* DUAL-MODE PALETTES: Monograph Light vs Executive Chamber Dark               */
+/* ─────────────────────────────────────────────────────────────────────────── */
+:root {
+  /* Mode 1: Editorial Monograph Light (Default) */
+  --color-bg-base: #F9F6F0;           /* Warm Editorial Parchment */
+  --color-bg-surface: #FFFFFF;        /* Crisp Paper Alabaster */
+  --color-bg-elevated: #F3EFE6;       /* Stone Sandstone */
+  --color-bg-overlay: rgba(249, 246, 240, 0.92);
+
+  --color-border-subtle: rgba(19, 56, 38, 0.09);
+  --color-border-strong: #D6CFC1;
+
+  --color-text-primary: #111C16;      /* Deep Peat Charcoal (15.2:1 contrast) */
+  --color-text-secondary: #424C48;    /* Muted Silt Gray (8.1:1 contrast) */
+  --color-text-muted: #5D6A65;        /* Weathered Stone (5.4:1 contrast) */
+
+  --color-accent-primary: #133826;    /* Katarniaghat Forest Juniper */
+  --color-accent-harvest: #92400E;    /* Harvest Ochre / Turmeric */
+  --color-accent-growth: #047857;     /* Terraced Canopy Green */
+  --color-accent-evidence: #0E7490;   /* Micro-Evidence Cyan */
+  --color-accent-stress: #991B1B;     /* Deficit / Conflict Red */
+
+  /* Elevation Shadows */
+  --shadow-subtle: 0 1px 2px rgba(19, 56, 38, 0.04), 0 4px 12px rgba(19, 56, 38, 0.03);
+  --shadow-card: 0 1px 3px rgba(19, 56, 38, 0.04), 0 8px 24px -4px rgba(19, 56, 38, 0.06);
+  --shadow-elevated: 0 4px 12px rgba(19, 56, 38, 0.06), 0 16px 36px -6px rgba(19, 56, 38, 0.10);
+  --shadow-drawer: -8px 0 32px rgba(6, 19, 13, 0.18), -2px 0 8px rgba(6, 19, 13, 0.08);
 }
 
-aside.w-64 .text-slate-400 {
-  color: #64748b !important;
+.dark, [data-theme="dark"] {
+  /* Mode 2: Executive Presentation Chamber Dark */
+  --color-bg-base: #06130D;           /* Deep Forest Void Ground */
+  --color-bg-surface: #0B1E16;        /* Terraced Canopy Ground */
+  --color-bg-elevated: #112B20;       /* Raised Chamber Card */
+  --color-bg-overlay: rgba(6, 19, 13, 0.88);
+
+  --color-border-subtle: rgba(224, 208, 171, 0.12);
+  --color-border-strong: rgba(224, 208, 171, 0.28);
+
+  --color-text-primary: #F4ECD8;      /* Warm Alabaster Cream (14.8:1 contrast) */
+  --color-text-secondary: #A3D4BC;    /* Pale Lichen Green (8.4:1 contrast) */
+  --color-text-muted: #7C8B85;        /* Canopy Ash (4.8:1 contrast) */
+
+  --color-accent-primary: #E0D0AB;    /* Executive Chamber Gold */
+  --color-accent-harvest: #F59E0B;    /* Sun Turmeric Ochre */
+  --color-accent-growth: #34D399;     /* Sprout Leaf Mint */
+  --color-accent-evidence: #22D3EE;   /* Audit Glow Cyan */
+  --color-accent-stress: #F87171;     /* Vulnerability Coral Red */
+
+  /* Elevation Shadows */
+  --shadow-subtle: 0 1px 2px rgba(0, 0, 0, 0.4), 0 4px 12px rgba(0, 0, 0, 0.3);
+  --shadow-card: 0 2px 6px rgba(0, 0, 0, 0.5), 0 8px 24px -4px rgba(0, 0, 0, 0.4);
+  --shadow-elevated: 0 4px 16px rgba(0, 0, 0, 0.6), 0 20px 40px -8px rgba(0, 0, 0, 0.7);
+  --shadow-drawer: -8px 0 36px rgba(0, 0, 0, 0.8), -2px 0 10px rgba(0, 0, 0, 0.6);
 }
 
-aside.w-64 .border-slate-800 {
-  border-color: #1f2937 !important;
-}
+/* ─────────────────────────────────────────────────────────────────────────── */
+/* DONOR PRINT VIEW (@media print)                                             */
+/* ─────────────────────────────────────────────────────────────────────────── */
+@media print {
+  @page {
+    size: A4 portrait;
+    margin: 12mm 15mm 15mm 15mm;
+  }
 
-aside.w-64 button.hover\:bg-slate-800:hover {
-  background-color: #1e293b !important;
-  color: #ffffff !important;
-}
+  body {
+    background-color: #FFFFFF !important;
+    color: #111413 !important;
+    font-size: 9.5pt;
+    line-height: 1.4;
+  }
 
-aside.w-64 button.hover\:text-white:hover {
-  color: #ffffff !important;
-}
+  /* Strip non-printable UI chrome */
+  .no-print,
+  button:not(.print-preserve),
+  nav,
+  .theme-toggle-btn,
+  .print-btn,
+  #evidence-portal-root {
+    display: none !important;
+  }
 
-aside.w-64 .bg-slate-800\/50 {
-  background-color: rgba(30, 41, 59, 0.5) !important;
-  color: #94a3b8 !important;
-}
+  /* Force borders and prevent breaking */
+  .card, article, section {
+    page-break-inside: avoid;
+    break-inside: avoid;
+    border: 1px solid #D6CFC1 !important;
+    background: #FFFFFF !important;
+    box-shadow: none !important;
+  }
 
-/* Global Recharts overrides for Dark Mode */
-html.dark .recharts-cartesian-grid line {
-  stroke: #2d3748 !important;
-}
-
-html.dark .recharts-default-tooltip {
-  background-color: #1f2937 !important;
-  border-color: #374151 !important;
-  color: #f8fafc !important;
-}
-
-html.dark .recharts-tooltip-item {
-  color: #e2e8f0 !important;
-}
-
-html.dark .recharts-cartesian-axis-tick-value {
-  fill: #94a3b8 !important;
-}
-
-html.dark .recharts-legend-item-text {
-  color: #cbd5e1 !important;
+  /* Ensure charts and SVGs print cleanly */
+  svg, canvas {
+    max-width: 100% !important;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
 }
