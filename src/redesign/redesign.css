@@ -886,3 +886,11 @@
 /* In tables the highlighter thins to an underline so a column of figures stays calm. */
 .tbl .src { background-size: 100% 2px; background-position: 0 100%; padding-bottom: 2px; }
 .tbl .src:hover, .tbl .src:focus-visible, html[data-sources="on"] .tbl .src { background-size: 100% 100%; }
+
+/* UnitField on a paper ground (the cover sets these to its own colours). */
+.field--paper {
+  --cover-ink: var(--ink);
+  --cover-ink-2: var(--ink-2);
+  --cover-rule: var(--rule);
+}
+.field--paper .field-label { cursor: default; }

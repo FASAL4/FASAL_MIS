@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { CartesianGrid, Line, LineChart, ReferenceArea, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
 import { fasalMasterData } from '@/data/fasalMasterData';
+import { Thali } from './Thali';
 import {
   type ChapterProps, C, ChapterOpener, ChartTooltip, Figure, Meter, Note, Section, Segmented, Src, Stat, StatRow,
   chartMargin, gridProps, num, pct, xAxisProps, yAxisProps,
@@ -59,6 +60,9 @@ export const NutritionChapter: React.FC<ChapterProps> = ({ onOpenLedger }) => {
           intro={<>Share of households eating each food group, by month. Vegetables peak in {summer.join(' and ')} and bottom out in December. The record runs <Src id="REC-NUTR-01">60 months</Src> without a break.</>}
           aside="White: rice, wheat, dairy. Green: leafy and other vegetables. Yellow: pulses and lentils."
         >
+          <Figure title="The plate, month by month: each portion is the share of households eating that group" src="REC-NUTR-01">
+            <Thali months={months} />
+          </Figure>
           <Figure
             no="4.1" title="Households eating each food group, by month (%)" src="REC-NUTR-01"
             legend={[{ label: 'White · staples', color: C.stone, shape: 'line' }, { label: 'Green · vegetables', color: C.forest, shape: 'line' }, { label: 'Yellow · pulses', color: C.haldi, shape: 'line' }]}

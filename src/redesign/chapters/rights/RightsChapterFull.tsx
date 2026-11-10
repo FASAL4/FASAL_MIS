@@ -1,6 +1,7 @@
 import React from 'react';
 import { fasalMasterData } from '@/data/fasalMasterData';
 import { type ChapterProps, ChapterOpener, Src, Stat, StatRow, inr, num, times } from '../../ui';
+import { BuiltField } from './BuiltField';
 import { Entitlements, FrontlineServices } from './EntitlementSections';
 import { Kiosks } from './KioskSection';
 import { TheCorrection, WhereItWent, YearByYear } from './LeverageSections';
@@ -78,6 +79,7 @@ export const RightsChapterFull: React.FC<ChapterProps> = ({ onOpenLedger }) => {
       </ChapterOpener>
 
       <div className="wrap">
+        <BuiltField leverage={leverage} />
         <WhereItWent leverage={leverage} />
         <YearByYear leverage={leverage} />
         <TheCorrection leverage={leverage} onOpenLedger={onOpenLedger} />

@@ -3,6 +3,7 @@ import { ChevronDown, ChevronUp } from 'lucide-react';
 import { Bar, BarChart, CartesianGrid, LabelList, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
 import { fasalMasterData } from '@/data/fasalMasterData';
 import type { CropEconomicRecord } from '@/types/dashboard';
+import { CropField } from './CropField';
 import {
   type ChapterProps, C, ChapterOpener, ChartTooltip, Figure, Meter, Note, Section, Segmented, Src, Stat, StatRow,
   chartMargin, gridProps, inr, inrAxis, inrShort, num, pct, signedPct, times, xAxisProps, yAxisProps,
@@ -251,9 +252,12 @@ export const IncomeChapter: React.FC<ChapterProps> = ({ onOpenLedger }) => {
         <Section
           id="crops" no="1.5" kicker="Crop ledger"
           title={`${income.cropLedger.length} crops, each with its own account.`}
-          intro="Cost, revenue and profit for every crop in the 2026 income sheet. Search, filter by type, or sort any column."
+          intro="First as a field seen from above, then as a ledger you can search, filter and sort."
           wide
         >
+          <Figure title="The crop field: every crop as a plot, sized by what it returned in 2026" src="REC-ECON-11">
+            <CropField crops={income.cropLedger} />
+          </Figure>
           <Figure
             no="1.5" title="Crop economics, 2026" src="REC-ECON-11"
             actions={<Segmented label="Crop type" value={cat} onChange={setCat} options={categories.map((c) => ({ value: c, label: c }))} />}
